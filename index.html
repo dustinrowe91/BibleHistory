@@ -100,6 +100,16 @@ footer{margin-top:48px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 .toggle .diamond{width:8px;height:8px;background:#b0313e;transform:rotate(45deg);border-radius:1px}
 .toggle[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 .toggle:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.xlinks{display:flex;flex-direction:column;gap:2px;margin:4px 0 10px;font-family:var(--ui);font-size:14px}
+.xlinks .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ev{scroll-margin-top:190px}
+.ev.flash>button.head{background:var(--ochre-soft)}
 mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 
 @media (max-width:560px){
@@ -115,6 +125,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="word-and-deed.html">Word and Deed</a></nav>
 <header>
   <div class="eyebrow">Genesis to Revelation</div>
   <h1>The Story of Scripture</h1>
@@ -275,6 +286,8 @@ const EV=[
  ["church","c. AD 95","Revelation to John","Revelation 1–22","Exiled on Patmos, John receives visions of the risen Christ, His final victory, and the new heaven and new earth.",["John"],1]
 ].map((e,i)=>({id:i,era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],people:e[5],key:!!e[6],church:e[7]||null,existing:!!e[8]}));
 
+const WD={"Sermon on the Mount": [[24, "The Sermon on the Mount and on the Plain"]], "Feeding the 5,000": [[45, "Feeding the five thousand"], [48, "The bread of life"]], "The Transfiguration": [[58, "Coming down from the Transfiguration"]], "Raising of Lazarus": [[88, "Raising Lazarus"]], "Triumphal Entry": [[98, "Entry into Jerusalem and lament over the city"]], "The Last Supper": [[113, "The Last Supper and the foot washing"], [114, "The farewell discourse"]], "The Crucifixion": [[118, "On the cross"]], "The Resurrection": [[119, "Appearing to the women"], [121, "Appearing to the disciples in Jerusalem"], [122, "Thomas"]], "Great Commission & Ascension": [[124, "The Great Commission"], [125, "Forty days of teaching and the ascension"]], "Pentecost": [[127, "Pentecost sermon"], [128, "The first church: teaching, signs and sharing"]], "Stephen Martyred": [[134, "Stephen's wonders and speech"]], "Samaria Receives the Word": [[136, "Philip in Samaria"]], "Disciples in Damascus": [[138, "Ananias restores Saul’s sight"]], "Conversion of Saul": [[138, "Ananias restores Saul’s sight"], [139, "Saul preaches in Damascus and Jerusalem"]], "Lydda and Joppa": [[140, "Aeneas healed at Lydda"], [141, "Dorcas raised at Joppa"]], "Gospel to the Gentiles": [[142, "Peter preaches to Cornelius"]], "Church in Antioch": [[143, "The church at Antioch"], [144, "Famine relief for Judea"]], "Cyprus: Salamis and Paphos": [[145, "Cyprus and the proconsul"]], "Pisidian Antioch": [[146, "Sermon at Pisidian Antioch"]], "Iconium": [[147, "Iconium"]], "Lystra and Derbe": [[148, "The lame man at Lystra"], [149, "Strengthening the new churches"]], "Jerusalem Council": [[150, "The Jerusalem Council"]], "Philippi": [[152, "Lydia at the riverside"], [153, "The slave girl at Philippi"], [154, "The Philippian jailer"]], "Thessalonica": [[155, "Thessalonica"]], "Berea": [[156, "Berea"]], "Athens": [[157, "Athens and the Areopagus"]], "Corinth": [[158, "A year and a half in Corinth"]], "Ephesus": [[161, "John's disciples at Ephesus"], [162, "Two years in Ephesus"], [165, "Farewell to the Ephesian elders"]], "Troas": [[164, "Eutychus at Troas"]], "Paul in Rome": [[173, "Two years preaching in Rome"]]};
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const eraById=Object.fromEntries(ERAS.map(e=>[e.id,e]));
 const state={q:"",t:"all",churches:false,open:new Set()};
 const $=s=>document.querySelector(s);
@@ -326,10 +339,11 @@ function render(){
     list.forEach(e=>{
       const open=state.open.has(e.id)||(!!state.q&&list.length<=3);
       const tag=e.church?'<span class="plant'+(e.existing?' existing':'')+'">'+(e.existing?'Church already there':'Church planted')+' · '+hi(e.church)+'</span>':'';
-      html+='<li class="ev'+(e.key?' key':'')+(e.church?' is-church':'')+(open?' open':'')+'">'+
+      html+='<li id="ev-'+slug(e.title)+'" class="ev'+(e.key?' key':'')+(e.church?' is-church':'')+(open?' open':'')+'">'+
         '<button type="button" class="head" data-id="'+e.id+'" aria-expanded="'+open+'" aria-controls="d'+e.id+'">'+
         '<span class="date">'+esc(e.date)+'</span><span class="title">'+hi(e.title)+tag+'</span><span class="ref">'+hi(e.ref)+'</span></button>'+
         '<div class="detail" id="d'+e.id+'"'+(open?'':' hidden')+'><p>'+hi(e.summary)+'</p>'+
+        (WD[e.title]?'<div class="xlinks"><span class="lbl">In Word and Deed</span>'+WD[e.title].map(w=>'<a href="word-and-deed.html#e'+w[0]+'">'+esc(w[1])+' →</a>').join("")+'</div>':'')+
         (e.people.length?'<div class="people">'+e.people.map(p=>'<span>'+hi(p)+'</span>').join("")+'</div>':'')+
         (/^[1-3]?\s?[A-Z][a-z]+ \d/.test(e.ref)?'<a href="'+gw(e.ref)+'" target="_blank" rel="noopener">Read '+esc(e.ref.split(";")[0])+' →</a>':'')+
         '</div></li>';
@@ -360,6 +374,14 @@ function setT(t){
 document.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>setT(b.dataset.t));
 
 renderChips();render();
+(function(){
+  const m=/^#ev-([a-z0-9-]+)$/.exec(location.hash);if(!m)return;
+  const e=EV.find(x=>slug(x.title)===m[1]);if(!e)return;
+  state.open.add(e.id);render();
+  const li=document.getElementById("ev-"+m[1]);if(!li)return;
+  li.classList.add("flash");li.scrollIntoView({block:"start"});
+  setTimeout(()=>li.classList.remove("flash"),2200);
+})();
 </script>
 </body>
 </html>
