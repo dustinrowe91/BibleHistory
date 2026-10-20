@@ -118,6 +118,12 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 .now .dot{width:8px;height:8px;border-radius:50%}
 .empty p{margin:0 0 10px}
 .empty .toggle{display:inline-flex}
+.band-lbl{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.band-lbl+.band{margin-top:0}
+.scale+.band-lbl{margin-top:16px}
+.lens{border-left:3px solid var(--era);padding-left:10px}
+.lens .lbl,.keytext .lbl{display:block;font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.keytext{margin:0 0 10px}
 
 @media (max-width:560px){
   .ev button.head{grid-template-columns:1fr;gap:2px}
@@ -134,23 +140,28 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <div class="wrap">
 <nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
-  <div class="eyebrow">Genesis to Revelation</div>
+  <div class="eyebrow">Creation to today</div>
   <h1>The Story of Scripture</h1>
-  <p class="lede">The major events of the Bible in order, from Creation to the early church. Tap any event for a summary, the people involved, and a link to read the passage.</p>
+  <p class="lede">The major events of the Bible in order, from Creation to the early church, then the story of the church since, read through a Reformed lens. Tap any event for a summary, the people involved, and a link to read the passage.</p>
 
   <div class="overview" aria-label="Eras at a glance">
+    <p class="band-lbl">Scripture</p>
     <div class="band" id="band"></div>
     <div class="scale"><span>c. 2100 BC</span><span>1000 BC</span><span>1 BC / AD 1</span><span>AD 100</span></div>
+    <p class="band-lbl">Church history</p>
+    <div class="band" id="bandCH"></div>
+    <div class="scale"><span>AD 100</span><span>AD 1000</span><span>Today</span></div>
   </div>
 </header>
 
 <div class="controls">
   <div class="row">
     <input id="q" class="search" type="search" placeholder="Search events, people, or books…" aria-label="Search events">
-    <div class="seg" role="group" aria-label="Testament">
-      <button type="button" data-t="all" aria-pressed="true">Both</button>
+    <div class="seg" role="group" aria-label="Section">
+      <button type="button" data-t="all" aria-pressed="true">All</button>
       <button type="button" data-t="OT" aria-pressed="false">Old</button>
       <button type="button" data-t="NT" aria-pressed="false">New</button>
+      <button type="button" data-t="CH" aria-pressed="false">Church</button>
     </div>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Jump to era"></div>
@@ -165,7 +176,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <main id="timeline"></main>
 <div class="empty" id="empty" hidden><p>No events match these filters.</p><button type="button" class="toggle" id="clearBtn">Clear search and filters</button></div>
 
-<footer>Dates follow a common conservative chronology (including the early Exodus date, c. 1446 BC) and are approximate; events before Abraham are left undated. Filled markers show turning points in the story; diamonds mark churches named in Acts. "Church already there" means Acts mentions believers in that city without recording how the church began.</footer>
+<footer>Dates follow a common conservative chronology (including the early Exodus date, c. 1446 BC) and are approximate; events before Abraham are left undated. Filled markers show turning points in the story; diamonds mark churches named in Acts. "Church already there" means Acts mentions believers in that city without recording how the church began. Church history events add a "Reformed lens" note on how the Reformed tradition reads them, citing its confessions where they speak to the event.</footer>
 </div>
 
 <script>
@@ -189,10 +200,20 @@ const ERAS=[
  {id:"christ",name:"Life of Christ",t:"NT",span:"c. 5 BC – AD 30",books:"Matthew, Mark, Luke, John",color:"#a8701a",from:-5,to:30,
   intro:"The promised Messiah is born, teaches, dies, and rises again."},
  {id:"church",name:"The Early Church",t:"NT",span:"AD 30–95",books:"Acts – Revelation",color:"#b0313e",from:30,to:100,
-  intro:"The Spirit comes and the gospel spreads from Jerusalem to Rome."}
+  intro:"The Spirit comes and the gospel spreads from Jerusalem to Rome."},
+ {id:"ancient",name:"The Ancient Church",t:"CH",span:"AD 100–451",books:"Apostles' and Nicene Creeds",color:"#8c4a6b",from:100,to:451,
+  intro:"The apostles' successors guard the faith through persecution and heresy. The Reformers appealed to these fathers, Augustine above all, to show they taught nothing new."},
+ {id:"medieval",name:"The Medieval Church",t:"CH",span:"451–1517",books:"Councils, schoolmen, forerunners",color:"#5e5146",from:451,to:1517,
+  intro:"The gospel spreads across Europe while doctrine and worship slowly drift. Even so, voices for grace and for Scripture are never wholly silenced."},
+ {id:"reformation",name:"The Reformation",t:"CH",span:"1517–1648",books:"Institutes, Heidelberg, Dort, Westminster",color:"#1e5f8a",short:"Reform.",from:1517,to:1648,
+  intro:"The Reformers recover justification by faith alone and call the church back to Scripture alone. Zurich and Geneva give rise to the Reformed churches and their great confessions."},
+ {id:"puritan",name:"Puritans & Awakening",t:"CH",span:"1648–1800",books:"Owen, Bunyan, Edwards, Whitefield",color:"#3f7a4a",short:"Puritans",from:1648,to:1800,
+  intro:"Puritans, revival preachers, and the first modern missionaries press Reformed doctrine into the heart, the home, and the nations."},
+ {id:"modern",name:"The Modern Church",t:"CH",span:"1800–today",books:"Princeton, Kuyper, Machen, the global church",color:"#444c63",short:"Modern",from:1800,to:2026,
+  intro:"Reformed churches answer skepticism and theological liberalism, defend the authority of Scripture, and spread worldwide."}
 ];
 
-const EV=[
+const BIB=[
  ["primeval","—","Creation","Genesis 1–2","God creates the heavens and the earth in six days and rests on the seventh. Humanity is made in His image and placed in the garden of Eden.",["Adam","Eve"],1],
  ["primeval","—","The Fall","Genesis 3","Tempted by the serpent, Adam and Eve eat the forbidden fruit. Sin and death enter the world, yet God promises an offspring who will crush the serpent.",["Adam","Eve"],1],
  ["primeval","—","Cain and Abel","Genesis 4","Cain kills his brother Abel out of jealousy, the first murder. Sin spreads quickly through the human family.",["Cain","Abel"]],
@@ -293,7 +314,77 @@ const EV=[
  ["church","c. AD 57","Tyre and Ptolemais","Acts 21:3–7","Heading to Jerusalem, Paul stays a week with the disciples at Tyre, who pray with him on the beach, then greets the believers at Ptolemais.",["Paul","Luke"],0,"Tyre & Ptolemais",1],
  ["church","c. AD 60–62","Paul in Rome","Acts 28:13–31","Believers at Puteoli and Rome come out to meet Paul. He preaches the kingdom of God openly while under house arrest for two years.",["Paul","Luke"],0,"Puteoli & Rome",1],
  ["church","c. AD 95","Revelation to John","Revelation 1–22","Exiled on Patmos, John receives visions of the risen Christ, His final victory, and the new heaven and new earth.",["John"],1]
-].map((e,i)=>({id:i,era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],people:e[5],key:!!e[6],church:e[7]||null,existing:!!e[8]}));
+];
+
+// Church history: [era, date, title, source, summary, Reformed lens, people, key turning point, key text]
+const CH=[
+ ["ancient","c. AD 110","Ignatius Martyred","Letters of Ignatius","On his way to die in Rome, Ignatius of Antioch writes seven letters urging the churches to stay united under their overseers and to hold that Christ truly came in the flesh.","An early witness that the church confessed Jesus as both God and man from the start, against those who said His body only seemed real.",["Ignatius"],0,"1 John 4:1–3"],
+ ["ancient","AD 155","Polycarp Martyred","Martyrdom of Polycarp","Polycarp, bishop of Smyrna and a disciple of John, refuses to curse Christ: \"Eighty-six years I have served Him, and He has done me no wrong.\" He is burned at the stake.","The letter to Smyrna told that church to be faithful unto death. Reformed martyrologies such as Foxe's set the Reformation martyrs in this same line.",["Polycarp"],0,"Revelation 2:8–11"],
+ ["ancient","c. AD 180","Irenaeus Against Heresies","Against Heresies","Irenaeus of Lyon refutes the Gnostics, who claimed secret knowledge, by pointing to the public teaching of the apostles and summing up the faith in a \"rule of faith.\"","Against secret tradition he appeals to what the apostles taught openly. The Reformers held that this apostolic teaching now comes to us in Scripture, the only infallible rule.",["Irenaeus"]],
+ ["ancient","AD 313","Edict of Milan","Edict of Milan","Emperor Constantine and Licinius grant Christians freedom of worship. Persecution ends and the church begins to receive imperial favor.","Freedom brought growth, and also a long entanglement of church and state that Reformed churches later had to sort out, insisting that Christ alone is King and Head of the church.",["Constantine"]],
+ ["ancient","AD 325","Council of Nicaea","Nicene Creed","Against Arius, who taught that the Son was a created being, the council confesses Christ as \"true God from true God, of one substance with the Father.\"","The Belgic Confession (Art. 9) receives the Nicene Creed because it agrees with Scripture. Councils are judged by the Word, never the other way around (Westminster Confession 31.4).",["Athanasius","Arius","Constantine"],1,"John 1:1–18"],
+ ["ancient","AD 367","Athanasius Lists the Canon","Festal Letter 39","Athanasius of Alexandria lists the twenty-seven books of the New Testament, the earliest list exactly matching ours, and calls them \"the springs of salvation.\"","The church recognized the canon rather than created it. Scripture's authority rests on God, its author, not on the church (Westminster Confession 1.4–5).",["Athanasius"],0,"2 Timothy 3:14–17"],
+ ["ancient","AD 381","Council of Constantinople","Nicene Creed (381)","The council affirms the full deity of the Holy Spirit, \"the Lord and giver of life,\" and completes the Nicene Creed as it is still recited today.","With Nicaea it fixes the doctrine of the Trinity that every Reformed confession assumes: one God in three persons, equal in power and glory.",["Gregory of Nazianzus","Gregory of Nyssa","Basil"],0,"Matthew 28:19"],
+ ["ancient","AD 386","Conversion of Augustine","Confessions 8","In a garden in Milan, Augustine hears a child's voice say \"take up and read.\" He opens to Romans 13 and puts his trust in Christ. He becomes bishop of Hippo in Africa.","Augustine's teaching on grace became the backbone of Reformed theology. Calvin quotes him more than any other church father.",["Augustine","Monica","Ambrose"],1,"Romans 13:13–14"],
+ ["ancient","AD 411–418","Augustine Against Pelagius","Council of Carthage (418)","The monk Pelagius denies original sin and teaches that people can obey God without His inward grace. Augustine answers him, and the Council of Carthage condemns his teaching.","The Reformers saw their own struggle as the same one: does salvation rest on God's grace alone, or finally on the human will? This is the root of the doctrines of grace.",["Augustine","Pelagius"],1,"Ephesians 2:1–10"],
+ ["ancient","AD 451","Council of Chalcedon","Chalcedonian Definition","The council confesses Christ as one person in two natures, truly God and truly man, \"without confusion, without change, without division, without separation.\"","Reformed Christology stands on Chalcedon. The Heidelberg Catechism (Q&A 15–18) teaches that our mediator must be truly human and truly God.",["Leo the Great"],1,"Philippians 2:5–11"],
+
+ ["medieval","AD 529","Council of Orange","Canons of Orange","A regional council condemns semi-Pelagianism, the idea that people take the first step toward God. It teaches that even the beginning of faith is God's gift.","Reformed writers point to Orange as proof that grace alone was once official teaching. Its canons were largely forgotten until they were rediscovered in the 1500s.",["Caesarius of Arles"],0,"John 6:44"],
+ ["medieval","AD 590","Gregory the Great","Pastoral Rule","Gregory becomes bishop of Rome, writes a classic on pastoral care, and sends missionaries to the English in 597.","A mixed legacy: real zeal for missions and pastoral care, alongside a growing claim of papal authority that the Reformers would reject.",["Gregory the Great","Augustine of Canterbury"]],
+ ["medieval","AD 849","Gottschalk Condemned","Synod of Quierzy","The Saxon monk Gottschalk teaches, following Augustine, that God predestines both the elect and the reprobate. He is flogged and imprisoned for life.","Reformed historians such as Archbishop James Ussher, who wrote his history, saw him as a medieval witness to Augustine's doctrine of predestination.",["Gottschalk","Hincmar"],0,"Romans 9:10–24"],
+ ["medieval","1054","The Great Schism","Mutual excommunications","The churches of Rome and Constantinople excommunicate each other over papal authority and the filioque, splitting East from West.","The Reformed confessions keep the Western creed's \"and the Son\" while denying that the bishop of Rome has any claim to rule the whole church.",["Leo IX","Michael Cerularius"]],
+ ["medieval","1098","Anselm: Why God Became Man","Cur Deus Homo","Anselm of Canterbury argues that only one who is both God and man can make satisfaction for sin, because the debt is ours and only God can pay it.","Reformed theology builds on Anselm and sharpens satisfaction into penal substitution: Christ bears the very penalty our sin deserves.",["Anselm"],0,"Isaiah 53:4–6"],
+ ["medieval","1215","Fourth Lateran Council","Canons of Lateran IV","The council defines transubstantiation, that the bread and wine become Christ's body and blood, and requires yearly confession to a priest.","The Reformed churches reject transubstantiation. They teach that believers truly feed on Christ by the Spirit through faith (Belgic Confession Art. 35).",["Innocent III"]],
+ ["medieval","c. 1265–74","Aquinas's Summa","Summa Theologiae","Thomas Aquinas writes the great synthesis of medieval theology, drawing on Aristotle to set out the whole of Christian doctrine.","Later Reformed scholastics used his methods and much of his doctrine of God, while rejecting his teaching on merit, purgatory, and the sacraments.",["Thomas Aquinas"]],
+ ["medieval","c. 1344","Bradwardine on Grace","The Cause of God against the Pelagians","Thomas Bradwardine, later archbishop of Canterbury, warns that \"almost the whole world\" has gone after Pelagius, and defends God's sovereign grace.","A forerunner of the Reformation's doctrines of grace, writing nearly two centuries before Luther.",["Thomas Bradwardine"]],
+ ["medieval","c. 1382","Wycliffe's Bible","Wycliffe Bible","John Wycliffe of Oxford teaches that Scripture is the church's highest authority and inspires the first complete English Bible. His followers, the Lollards, carry it across England.","Called \"the morning star of the Reformation\" for putting Scripture above popes and councils and into the language of the people.",["John Wycliffe"],1,"Psalm 119:105"],
+ ["medieval","1415","Jan Hus Burned","Council of Constance","The Czech preacher Jan Hus, who took up Wycliffe's ideas, is promised safe conduct to the Council of Constance, then condemned and burned.","A century later, Luther said, \"We are all Hussites without knowing it.\"",["Jan Hus"]],
+ ["medieval","c. 1455","The Gutenberg Bible","Printing press","Johannes Gutenberg prints the Latin Bible with movable type at Mainz.","Printing let the Reformers' Bibles, catechisms, and books spread faster than anyone could suppress them.",["Johannes Gutenberg"]],
+ ["medieval","1516","Erasmus's Greek New Testament","Novum Instrumentum","Erasmus publishes the first printed Greek New Testament, with a fresh Latin translation and notes. \"Back to the sources\" becomes the scholars' cry.","Luther translated from it. It showed that Jesus' command was \"repent,\" a change of heart, not the Vulgate's \"do penance.\"",["Erasmus"],0,"Matthew 4:17"],
+
+ ["reformation","1517","The Ninety-Five Theses","Ninety-Five Theses","Angered by the sale of indulgences, Martin Luther posts ninety-five theses for debate at Wittenberg. The first: the whole life of believers should be one of repentance.","The spark of the Reformation. Luther's discovery that \"the righteous shall live by faith\" speaks of a righteousness God gives, not one we earn, opened the gospel again.",["Martin Luther","Johann Tetzel"],1,"Romans 1:16–17"],
+ ["reformation","1519","Zwingli Preaches in Zurich","Sermons on Matthew","Ulrich Zwingli begins preaching straight through Matthew in Zurich's Great Minster. The city council later reforms worship by the Word.","The birth of the Reformed branch of the Reformation, and of preaching through whole books of the Bible.",["Ulrich Zwingli"],1,"Matthew 1:1"],
+ ["reformation","1521","Diet of Worms","Luther before the emperor","Ordered by Emperor Charles V to recant, Luther refuses: \"My conscience is captive to the Word of God.\" He is outlawed, then hidden at the Wartburg, where he translates the New Testament into German.","Sola Scriptura made public: conscience is bound by the Word of God, not by popes or councils, which have often erred.",["Martin Luther","Charles V"],1,"Acts 5:29"],
+ ["reformation","1525","The Bondage of the Will","De Servo Arbitrio","Luther answers Erasmus: fallen people are free to sin but cannot turn to God unless He frees them. He thanks Erasmus for going to the heart of the matter.","Reformed theology stands with Luther here: by nature we are dead in sin, and faith is the gift of God (Canons of Dort 3/4).",["Martin Luther","Erasmus"],0,"John 8:34–36"],
+ ["reformation","1526","Tyndale's New Testament","Tyndale New Testament","William Tyndale's English New Testament, translated from the Greek, is smuggled into England. In 1536 he is strangled and burned, praying \"Lord, open the King of England's eyes.\"","He wanted \"the boy that driveth the plough\" to know Scripture. Most of his wording lives on in the King James Version.",["William Tyndale"],0,"Psalm 19:7–11"],
+ ["reformation","1529","Marburg Colloquy","Marburg Articles","Luther and Zwingli meet to unite the Protestant cause. They agree on fourteen of fifteen articles but part over Christ's presence in the Lord's Supper.","The split that separates Lutheran and Reformed churches. Calvin later taught a middle way: Christ is truly present to faith by the Spirit, not in the elements.",["Martin Luther","Ulrich Zwingli","Philip of Hesse"]],
+ ["reformation","1536","Calvin's Institutes","Institutes of the Christian Religion","John Calvin publishes the first edition of the Institutes, opening with the knowledge of God and of ourselves. That summer he is pressed to stay and serve in Geneva.","The most influential theology of the Reformation, expanded until the final edition of 1559. It sets out God's sovereignty, Christ's work, and union with Christ by the Spirit.",["John Calvin","William Farel"],1,"Romans 11:33–36"],
+ ["reformation","1541","Calvin Returns to Geneva","Ecclesiastical Ordinances","Recalled after three years of exile, Calvin establishes four offices in the church: pastors, teachers, elders, and deacons. Refugees from all over Europe come to Geneva to learn.","The pattern of Presbyterian government: churches ruled by elders. John Knox called Geneva \"the most perfect school of Christ since the days of the apostles.\"",["John Calvin","John Knox"],0,"1 Timothy 3:1–13"],
+ ["reformation","1545–63","Council of Trent","Decrees of Trent","Rome answers the Reformation. Trent condemns justification by faith alone and affirms tradition alongside Scripture, the seven sacraments, and the Mass as a sacrifice.","Rome formally rejects the Reformation gospel. The Reformed confessions answer that Christ's righteousness is credited to us, not infused into us (Heidelberg Catechism 60).",["Paul III"],0,"Galatians 2:16"],
+ ["reformation","1555–56","The Marian Martyrs","Foxe's Book of Martyrs","Under Queen Mary nearly three hundred Protestants are burned in England, including Hugh Latimer, Nicholas Ridley, and Thomas Cranmer.","Latimer to Ridley at the stake: \"We shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.\"",["Hugh Latimer","Nicholas Ridley","Thomas Cranmer","Mary I"]],
+ ["reformation","1560","Scottish Reformation","Scots Confession","Led by John Knox, the Scottish Parliament adopts the Scots Confession and breaks with Rome. The same year English exiles in Geneva publish the Geneva Bible.","Scotland becomes the heartland of Presbyterianism. The Geneva Bible, with its Reformed notes, was the Bible of Shakespeare, Bunyan, and the Pilgrims.",["John Knox"]],
+ ["reformation","1561","Belgic Confession","Belgic Confession","Guido de Brès writes a confession for the persecuted Reformed churches of the Low Countries, hoping to show they are not rebels. He is hanged in 1567.","The first of the Three Forms of Unity, still the doctrinal standard of Continental Reformed churches.",["Guido de Brès"]],
+ ["reformation","1563","Heidelberg Catechism","Heidelberg Catechism","Written by Zacharias Ursinus and Caspar Olevianus for Frederick III of the Palatinate. It opens: \"What is your only comfort in life and in death? That I am not my own, but belong to my faithful Savior Jesus Christ.\"","Arranged as guilt, grace, and gratitude, it is the warmest of the Reformed catechisms and the most widely used.",["Zacharias Ursinus","Caspar Olevianus","Frederick III"],1,"Romans 14:7–9"],
+ ["reformation","1566","Second Helvetic Confession","Second Helvetic Confession","Heinrich Bullinger, Zwingli's successor in Zurich, writes what becomes the most widely adopted Reformed confession on the Continent.","Known for its line \"the preaching of the Word of God is the Word of God,\" when faithful preachers proclaim it.",["Heinrich Bullinger"]],
+ ["reformation","1572","St. Bartholomew's Day Massacre","Huguenot persecution","Thousands of French Reformed Protestants, the Huguenots, are killed in Paris and across France, beginning on St. Bartholomew's Day.","The Huguenots' suffering and later exile spread Reformed believers across Europe, South Africa, and the Americas.",["Gaspard de Coligny","Catherine de' Medici"]],
+ ["reformation","1618–19","Synod of Dort","Canons of Dort","An international Reformed synod answers the five points of the Remonstrants, followers of Jacobus Arminius. Its canons teach God's sovereign grace in salvation.","The source of the \"five points of Calvinism\": total depravity, unconditional election, particular redemption, irresistible grace, and the perseverance of the saints. With the Belgic Confession and Heidelberg Catechism it forms the Three Forms of Unity.",["Jacobus Arminius","Franciscus Gomarus"],1,"Ephesians 1:3–14"],
+ ["reformation","1620","The Mayflower","Mayflower Compact","Reformed Separatists, the Pilgrims, sail to New England. The Puritan Great Migration follows in the 1630s.","Reformed and Puritan convictions about covenant, conscience, and congregational life shape early New England.",["William Bradford"]],
+ ["reformation","1643–49","Westminster Assembly","Westminster Confession and Catechisms","English and Scottish divines meet at Westminster Abbey and produce the Westminster Confession (1646) and the Larger and Shorter Catechisms (1647).","The doctrinal standard of Presbyterian churches worldwide. Shorter Catechism Q1: \"Man's chief end is to glorify God, and to enjoy him for ever.\"",["Samuel Rutherford","George Gillespie"],1,"1 Corinthians 10:31"],
+
+ ["puritan","1658","Savoy Declaration","Savoy Declaration","English Congregationalists, led by John Owen and Thomas Goodwin, adapt the Westminster Confession for churches governed by their own congregations.","Shows the shared Reformed doctrine across Presbyterian, Congregational, and later Baptist churches.",["John Owen","Thomas Goodwin"]],
+ ["puritan","1662","The Great Ejection","Act of Uniformity","About two thousand Puritan ministers are forced from their pulpits in England for refusing to conform to the Book of Common Prayer.","They chose conscience over livelihood. Many, such as Richard Baxter, kept writing the pastoral and devotional works still read today.",["Richard Baxter","Thomas Watson"]],
+ ["puritan","1678","The Pilgrim's Progress","The Pilgrim's Progress","John Bunyan, a tinker and Baptist preacher, writes much of this allegory of the Christian life during twelve years in Bedford jail.","After the Bible, for centuries one of the most widely read books in English. It is full of Puritan teaching on conversion, assurance, and perseverance.",["John Bunyan"],1,"Hebrews 11:13–16"],
+ ["puritan","1679–85","Turretin's Institutes","Institutes of Elenctic Theology","Francis Turretin of Geneva publishes a full defense of Reformed doctrine against its opponents.","The high point of Reformed scholasticism. Charles Hodge later used it as the theology textbook at Princeton.",["Francis Turretin"]],
+ ["puritan","1689","London Baptist Confession","Second London Confession","Particular Baptists publish a confession based closely on Westminster and Savoy, differing chiefly on baptism and church government.","The confession of Reformed Baptists to this day, the version Spurgeon later reissued.",["William Kiffin","Hanserd Knollys"]],
+ ["puritan","1734–41","The Great Awakening","Sinners in the Hands of an Angry God","Revival breaks out in Jonathan Edwards's Northampton and spreads through the colonies. Edwards preaches \"Sinners in the Hands of an Angry God\" at Enfield in 1741.","Edwards, the great Reformed theologian of America, held that true religion lies in holy affections worked by the Spirit, and he defended the revival while testing its excesses.",["Jonathan Edwards"],1,"Acts 2:37–41"],
+ ["puritan","1739–40","Whitefield's Preaching","Open-air preaching","George Whitefield, a Calvinist Methodist, preaches in the open air to vast crowds in Britain and America, often thousands at a time.","He preached the new birth and free grace across thirteen colonies. He and John Wesley stayed friends despite their sharp disagreement over predestination.",["George Whitefield","John Wesley"],0,"John 3:1–8"],
+ ["puritan","1792","William Carey Sails for India","An Enquiry","The Particular Baptist William Carey urges Christians to use means to reach the nations: \"Expect great things from God; attempt great things for God.\" He sails for India in 1793.","Answers the charge that election makes evangelism needless. Sovereign grace became the confidence of the modern missionary movement.",["William Carey","Andrew Fuller"],1,"Matthew 28:18–20"],
+
+ ["modern","1812","Princeton Seminary","Princeton Theological Seminary","Archibald Alexander becomes the first professor at Princeton Seminary. Charles Hodge and later B. B. Warfield make \"Old Princeton\" the center of Reformed theology in America.","Old Princeton defended the inspiration and inerrancy of Scripture against rising critical scholarship.",["Archibald Alexander","Charles Hodge","B. B. Warfield"]],
+ ["modern","1843","The Disruption","Free Church of Scotland","Thomas Chalmers leads about 450 ministers out of the Church of Scotland to form the Free Church, refusing to let the state choose their ministers.","A stand for Christ's sole headship over His church, giving up manses, stipends, and pulpits for it.",["Thomas Chalmers"],0,"Colossians 1:18"],
+ ["modern","1880","Kuyper's Free University","Free University of Amsterdam","Abraham Kuyper, pastor, journalist, and later Dutch prime minister, founds the Free University: \"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: Mine!\"","Neo-Calvinism applies Christ's lordship to every sphere of life, from science and art to politics.",["Abraham Kuyper","Herman Bavinck"],0,"Colossians 1:15–20"],
+ ["modern","1887","Spurgeon and the Downgrade","The Down Grade Controversy","Charles Spurgeon, the most famous Reformed preacher of his age, warns that the Baptist Union is sliding from the gospel, and withdraws from it.","An early alarm about theological liberalism: drift from Scripture's authority leads to loss of the gospel itself.",["Charles Spurgeon"],0,"Jude 3"],
+ ["modern","1907","Pyongyang Revival","Great Pyongyang Revival","At a Bible conference in Pyongyang, repentance and prayer sweep through Korean Presbyterian churches.","The start of extraordinary growth. Korea is now home to some of the largest Presbyterian churches in the world.",["Graham Lee","Gil Seon-ju"]],
+ ["modern","1923","Christianity and Liberalism","Christianity and Liberalism","J. Gresham Machen argues that liberal Protestantism is not a version of Christianity but a different religion. In 1929 he founds Westminster Seminary, and in 1936 the Orthodox Presbyterian Church.","A defense of the supernatural gospel and Scripture's authority during the Fundamentalist–Modernist controversy.",["J. Gresham Machen"],1,"Galatians 1:6–9"],
+ ["modern","1934","Barmen Declaration","Barmen Declaration","Lutheran and Reformed leaders of the Confessing Church reject the Nazi-controlled German church, confessing Jesus Christ as the one Word of God.","Confessional Reformed Christians honor its stand for Christ's lordship, while differing with its author Karl Barth's doctrine of Scripture.",["Karl Barth","Dietrich Bonhoeffer"]],
+ ["modern","1957","Banner of Truth","Banner of Truth Trust","With encouragement from Martyn Lloyd-Jones, Iain Murray and Jack Cullum found a publisher to reprint the Puritans and Reformers.","Old Reformed books back in print sparked a renewal of Reformed preaching and theology in the late twentieth century.",["Martyn Lloyd-Jones","Iain Murray"]],
+ ["modern","1973","Presbyterian Church in America","PCA founded","Conservative congregations leave the southern Presbyterian church over liberal theology and form the PCA, committed to the Westminster Standards.","Part of a wider movement of confessional Presbyterian churches holding to Scripture's inerrancy.",["Francis Schaeffer"]],
+ ["modern","1978","Chicago Statement on Inerrancy","Chicago Statement","Nearly three hundred evangelical leaders, including R. C. Sproul and J. I. Packer, sign a statement affirming that Scripture is without error in all it teaches.","Echoes Westminster's teaching that Scripture, given by inspiration of God, is the rule of faith and life.",["R. C. Sproul","J. I. Packer","James Montgomery Boice"],0,"2 Peter 1:19–21"]
+];
+
+const EV=BIB.map(e=>({era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],people:e[5],key:!!e[6],church:e[7]||null,existing:!!e[8]}))
+ .concat(CH.map(e=>({era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],lens:e[5],people:e[6],key:!!e[7],text:e[8]||null,church:null,existing:false})))
+ .map((e,i)=>(e.id=i,e));
 
 const WD={"Sermon on the Mount": [[24, "The Sermon on the Mount and on the Plain"]], "Feeding the 5,000": [[45, "Feeding the five thousand"], [48, "The bread of life"]], "The Transfiguration": [[58, "Coming down from the Transfiguration"]], "Raising of Lazarus": [[88, "Raising Lazarus"]], "Triumphal Entry": [[98, "Entry into Jerusalem and lament over the city"]], "The Last Supper": [[113, "The Last Supper and the foot washing"], [114, "The farewell discourse"]], "The Crucifixion": [[118, "On the cross"]], "The Resurrection": [[119, "Appearing to the women"], [121, "Appearing to the disciples in Jerusalem"], [122, "Thomas"]], "Great Commission & Ascension": [[124, "The Great Commission"], [125, "Forty days of teaching and the ascension"]], "Pentecost": [[127, "Pentecost sermon"], [128, "The first church: teaching, signs and sharing"]], "Stephen Martyred": [[134, "Stephen's wonders and speech"]], "Samaria Receives the Word": [[136, "Philip in Samaria"]], "Disciples in Damascus": [[138, "Ananias restores Saul’s sight"]], "Conversion of Saul": [[138, "Ananias restores Saul’s sight"], [139, "Saul preaches in Damascus and Jerusalem"]], "Lydda and Joppa": [[140, "Aeneas healed at Lydda"], [141, "Dorcas raised at Joppa"]], "Gospel to the Gentiles": [[142, "Peter preaches to Cornelius"]], "Church in Antioch": [[143, "The church at Antioch"], [144, "Famine relief for Judea"]], "Cyprus: Salamis and Paphos": [[145, "Cyprus and the proconsul"]], "Pisidian Antioch": [[146, "Sermon at Pisidian Antioch"]], "Iconium": [[147, "Iconium"]], "Lystra and Derbe": [[148, "The lame man at Lystra"], [149, "Strengthening the new churches"]], "Jerusalem Council": [[150, "The Jerusalem Council"]], "Philippi": [[152, "Lydia at the riverside"], [153, "The slave girl at Philippi"], [154, "The Philippian jailer"]], "Thessalonica": [[155, "Thessalonica"]], "Berea": [[156, "Berea"]], "Athens": [[157, "Athens and the Areopagus"]], "Corinth": [[158, "A year and a half in Corinth"]], "Ephesus": [[161, "John's disciples at Ephesus"], [162, "Two years in Ephesus"], [165, "Farewell to the Ephesian elders"]], "Troas": [[164, "Eutychus at Troas"]], "Paul in Rome": [[173, "Two years preaching in Rome"]]};
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -304,15 +395,18 @@ const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&qu
 const hi=(s)=>{const t=esc(s);if(!state.q)return t;const q=state.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp("("+q+")","ig"),"<mark>$1</mark>")};
 const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref.split(";")[0].replace(/\s*\(.*\)/,""))+"&version=ESV";
 
-// overview band, proportional for dated eras (2100 BC → AD 100)
-const band=$("#band");
-ERAS.filter(e=>e.from!==null).forEach(e=>{
-  const b=document.createElement("button");
-  b.type="button";b.style.flex=String(e.to-e.from);b.style.background=e.color;
-  b.title=e.name+" ("+e.span+")";b.setAttribute("aria-label","Jump to "+e.name);
-  b.textContent=(e.to-e.from)>250?e.name:"";
-  b.onclick=()=>jump(e.id);band.appendChild(b);
-});
+// overview bands, proportional for dated eras: Scripture (2100 BC → AD 100) and church history (AD 100 → today)
+function makeBand(el,eras){
+  eras.filter(e=>e.from!==null).forEach(e=>{
+    const b=document.createElement("button");
+    b.type="button";b.style.flex=String(e.to-e.from);b.style.background=e.color;
+    b.title=e.name+" ("+e.span+")";b.setAttribute("aria-label","Jump to "+e.name);
+    b.textContent=e.short||((e.to-e.from)>250?e.name:"");
+    b.onclick=()=>jump(e.id);el.appendChild(b);
+  });
+}
+makeBand($("#band"),ERAS.filter(e=>e.t!=="CH"));
+makeBand($("#bandCH"),ERAS.filter(e=>e.t==="CH"));
 
 const chips=$("#chips");
 function renderChips(){
@@ -334,7 +428,7 @@ function matches(e){
   if(state.churches&&!e.church)return false;
   if(!state.q)return true;
   const q=state.q.toLowerCase();
-  return [e.title,e.ref,e.summary,e.date,e.church||"",...e.people].join(" ").toLowerCase().includes(q);
+  return [e.title,e.ref,e.summary,e.date,e.church||"",e.lens||"",e.text||"",...e.people].join(" ").toLowerCase().includes(q);
 }
 
 function render(){
@@ -353,8 +447,10 @@ function render(){
         '<span class="date">'+esc(e.date)+'</span><span class="title">'+hi(e.title)+tag+'</span><span class="ref">'+hi(e.ref)+'</span></button>'+
         '<div class="detail" id="d'+e.id+'"'+(open?'':' hidden')+'><p>'+hi(e.summary)+'</p>'+
         (WD[e.title]?'<div class="xlinks"><span class="lbl">In Word and Deed</span>'+WD[e.title].map(w=>'<a href="word-and-deed.html#e'+w[0]+'">'+esc(w[1])+' →</a>').join("")+'</div>':'')+
+        (e.lens?'<p class="lens"><span class="lbl">Reformed lens</span>'+hi(e.lens)+'</p>':'')+
         (e.people.length?'<div class="people">'+e.people.map(p=>'<span>'+hi(p)+'</span>').join("")+'</div>':'')+
-        (/^[1-3]?\s?[A-Z][a-z]+ \d/.test(e.ref)?'<a href="'+gw(e.ref)+'" target="_blank" rel="noopener">Read '+esc(e.ref.split(";")[0])+' →</a>':'')+
+        (e.text?'<p class="keytext"><span class="lbl">Key text</span><a href="'+gw(e.text)+'" target="_blank" rel="noopener">Read '+esc(e.text)+' →</a></p>':
+         !e.lens&&/^[1-3]?\s?[A-Z][a-z]+ \d/.test(e.ref)?'<a href="'+gw(e.ref)+'" target="_blank" rel="noopener">Read '+esc(e.ref.split(";")[0])+' →</a>':'')+
         '</div></li>';
     });
     html+='</ol></section>';
@@ -395,7 +491,7 @@ themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark
 syncTheme();
 $("#churchToggle").addEventListener("click",e=>{
   state.churches=!state.churches;e.currentTarget.setAttribute("aria-pressed",state.churches);
-  if(state.churches&&state.t==="OT")setT("all");else render();
+  if(state.churches&&state.t!=="all"&&state.t!=="NT")setT("all");else render();
   if(state.churches)document.getElementById("era-church")?.scrollIntoView({block:"start"});
 });
 
