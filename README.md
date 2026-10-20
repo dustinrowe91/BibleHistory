@@ -1,8 +1,9 @@
 # Bible History
 
-Two linked pages for studying the Bible's story:
+Three linked pages for studying the Bible's story:
 
 - **Timeline** (`index.html`): the major events of the Bible, from Creation to Revelation, followed by major events of church history from AD 100 to today.
+- **Books** (`books.html`): all 66 books on one zoomable time axis, showing when each book's events take place or when it was written. Filter by group or by individual book, zoom by pinch, Ctrl/⌘ + scroll, or buttons, and tap a book for its dates, author, and summary.
 - **Word and Deed** (`word-and-deed.html`): every episode in the Gospels and Acts where Jesus or his followers preach or do a good work, scored for whether the two happen together.
 
 Gospel and Acts events on the timeline link to their Word and Deed entries, and those entries link back.

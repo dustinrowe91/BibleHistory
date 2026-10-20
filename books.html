@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Books of the Bible</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: one row per book on a shared, zoomable time axis. Era bands from the timeline sit behind the rows; bars take their book group's color. Same manuscript palette as the other pages. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+  --lab:132px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1100px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:hover{border-color:var(--muted)}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* controls */
+.controls{display:flex;flex-direction:column;gap:10px;padding-block:4px 14px;font-family:var(--ui)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);min-width:4.2rem}
+.search{flex:1 1 200px;min-width:0;font:inherit;font-family:var(--ui);font-size:15px;padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search:focus-visible{outline:2px solid var(--lapis);outline-offset:1px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{font-family:var(--ui);font-size:14px;font-weight:500;border:0;background:none;color:var(--muted);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--lapis);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--ochre);outline-offset:-2px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{flex:none;font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:5px 10px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip:hover{border-color:var(--muted)}
+.chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.chip[aria-pressed="mixed"]{border:1px dashed var(--ink)}
+.chip[aria-pressed="true"] .dot{box-shadow:0 0 0 1.5px var(--surface)}
+.chip:focus-visible,.zbtn:focus-visible,.pick summary:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.zbtn{font-family:var(--ui);font-size:15px;font-weight:700;min-width:34px;height:32px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;cursor:pointer;padding:0 10px}
+.zbtn:hover{border-color:var(--muted)}
+.hint{font-size:13px;color:var(--muted)}
+.range{font-size:13px;font-weight:700;color:var(--ochre);font-variant-numeric:tabular-nums;margin-left:auto}
+.pick summary{cursor:pointer;font-size:14px;font-weight:500;color:var(--lapis);list-style:none;display:inline-flex;gap:6px;align-items:center}
+.pick summary::-webkit-details-marker{display:none}
+.pick summary::before{content:"▸";font-size:11px;transition:transform .15s}
+.pick[open] summary::before{transform:rotate(90deg)}
+.pick-body{display:flex;flex-direction:column;gap:10px;margin-top:10px;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.pick-grp{display:flex;flex-direction:column;gap:6px}
+.pick-grp h3{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pick .chip{font-size:12.5px;padding:3px 9px}
+
+/* chart */
+.chart{position:relative;font-family:var(--ui);touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.chart.grab{cursor:grab}.chart.dragging{cursor:grabbing}
+.head{position:sticky;top:env(safe-area-inset-top,0px);z-index:4;background:var(--bg);display:grid;grid-template-columns:var(--lab) minmax(0,1fr);border-bottom:1px solid var(--line)}
+.head .corner{font-size:11px;color:var(--muted);align-self:end;padding:0 8px 6px 0;line-height:1.3}
+.track{position:relative;overflow:hidden;min-width:0}
+.eraband{height:26px;margin-top:8px;border-radius:4px}
+.eraband div{position:absolute;top:0;height:100%;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;border-right:1px solid var(--bg)}
+.eraband div span{overflow:hidden;text-overflow:ellipsis;padding:0 6px}
+.ticks{height:26px}
+.ticks span{position:absolute;bottom:5px;transform:translateX(-50%);font-size:12px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ticks span::after{content:"";position:absolute;left:50%;bottom:-5px;height:4px;width:1px;background:var(--line)}
+.body{position:relative}
+.bg{position:absolute;top:0;bottom:0;left:var(--lab);right:0;overflow:hidden;pointer-events:none}
+.bg .tint{position:absolute;top:0;bottom:0;opacity:.07}
+.bg .grid{position:absolute;top:0;bottom:0;width:1px;background:var(--line);opacity:.7}
+.grp{position:relative;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:14px 0 4px;display:flex;gap:8px;align-items:center}
+.grp .dot{width:8px;height:8px;border-radius:50%}
+.brow{position:relative;display:grid;grid-template-columns:var(--lab) minmax(0,1fr);align-items:center;min-height:30px}
+.brow:hover .bname{color:var(--lapis)}
+.bname{font-family:var(--body);font-weight:600;font-size:16px;text-align:left;background:none;border:0;color:var(--ink);padding:3px 8px 3px 0;cursor:pointer;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-feature-settings:"lnum"}
+.bname:focus-visible,.bar:focus-visible{outline:2px solid var(--ochre);outline-offset:1px}
+.brow .track{height:30px}
+.bar{position:absolute;top:6px;height:18px;border:0;border-radius:4px;padding:0;cursor:pointer;min-width:4px;background:var(--c)}
+.bar.approx{background:repeating-linear-gradient(135deg,var(--c) 0 6px,color-mix(in srgb,var(--c) 70%,var(--bg)) 6px 10px)}
+.bar.open{border-top-left-radius:0;border-bottom-left-radius:0;-webkit-mask:linear-gradient(90deg,transparent,#000 40px);mask:linear-gradient(90deg,transparent,#000 40px)}
+.bar:hover{filter:brightness(1.12)}
+.brow.sel .bar{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--ink)}
+.blabel{position:absolute;top:6px;line-height:18px;font-size:12px;font-weight:700;white-space:nowrap;pointer-events:none;font-variant-numeric:tabular-nums}
+.blabel.in{color:#fff;padding-left:7px}
+.blabel.out{color:var(--muted)}
+.none{position:absolute;top:6px;left:6px;line-height:18px;font-size:12px;font-style:italic;color:var(--muted)}
+.detail{grid-column:1/-1;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:2px 0 8px;font-family:var(--body);position:relative;z-index:1}
+.detail p{margin:0 0 8px;max-width:70ch}
+.detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;margin:0 0 10px;font-family:var(--ui);font-size:14px}
+.detail dt{color:var(--muted);font-weight:700}
+.detail dd{margin:0}
+.detail .acts{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;font-family:var(--ui);font-size:14px}
+.detail a{font-weight:700;color:var(--lapis);text-decoration:none}
+.detail a:hover{text-decoration:underline}
+.detail button.link{font:inherit;font-weight:700;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer}
+.detail button.link:hover{text-decoration:underline}
+.empty{margin-top:30px;color:var(--muted);text-align:center;font-family:var(--ui)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--ui);font-size:13px;color:var(--muted);margin-top:18px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:22px;height:10px;border-radius:2px;background:var(--muted)}
+.legend i.approx{background:repeating-linear-gradient(135deg,var(--muted) 0 4px,transparent 4px 7px)}
+.legend i.open{-webkit-mask:linear-gradient(90deg,transparent,#000);mask:linear-gradient(90deg,transparent,#000)}
+footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:560px){
+  :root{--lab:92px}
+  .bname{font-size:14px}
+  .range{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<header>
+  <div class="eyebrow">All 66 books on one timeline</div>
+  <h1>Books of the Bible</h1>
+  <p class="lede">See when each book's events take place, or when it was written. Pick the books you want, then zoom and drag to look closer. Tap a book for its dates, author, and a summary.</p>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input id="q" class="search" type="search" placeholder="Find a book…" aria-label="Find a book">
+    <div class="seg" role="group" aria-label="Show">
+      <button type="button" data-mode="cover" aria-pressed="true">Events covered</button>
+      <button type="button" data-mode="written" aria-pressed="false">When written</button>
+    </div>
+    <div class="seg" role="group" aria-label="Order">
+      <button type="button" data-sort="canon" aria-pressed="true">Bible order</button>
+      <button type="button" data-sort="date" aria-pressed="false">By date</button>
+    </div>
+  </div>
+  <div class="row"><span class="lbl">Books</span><div class="chips" id="cats" role="group" aria-label="Book groups"></div></div>
+  <div class="row"><span class="lbl"></span><span class="hint">Tap a group to show only it, then tap more to add them.</span></div>
+  <details class="pick" id="pick"><summary id="pickSum">Choose individual books</summary><div class="pick-body" id="pickBody"></div></details>
+  <div class="row"><span class="lbl">Zoom</span>
+    <button type="button" class="zbtn" id="zOut" aria-label="Zoom out">−</button>
+    <button type="button" class="zbtn" id="zIn" aria-label="Zoom in">+</button>
+    <button type="button" class="zbtn" id="zFit">Fit to books shown</button>
+    <span class="range" id="range" aria-live="polite"></span>
+  </div>
+  <div class="row"><span class="lbl">Jump to</span><div class="chips" id="presets"></div></div>
+</div>
+
+<div class="chart grab" id="chart">
+  <div class="head">
+    <div class="corner" id="count"></div>
+    <div><div class="track eraband" id="eraband"></div><div class="track ticks" id="ticks"></div></div>
+  </div>
+  <div class="body" id="body"><div class="bg" id="bg"></div><div id="rows"></div></div>
+</div>
+<div class="empty" id="empty" hidden><p>No books match.</p><button type="button" class="chip" id="clearBtn">Show all books</button></div>
+
+<div class="legend" aria-hidden="true">
+  <span><i></i>Dates fairly certain</span>
+  <span><i class="approx"></i>Date uncertain or debated</span>
+  <span><i class="open"></i>Begins before recorded dates</span>
+</div>
+
+<footer>Drag the chart sideways to move through time. To zoom, pinch, use Ctrl or ⌘ with the scroll wheel, double-click, or use the buttons. Dates follow the same conservative chronology as the timeline (Exodus c. 1446 BC), with traditional authorship. For prophets, "events covered" is the span of their ministry. For letters, it is when they were written. All dates are approximate.</footer>
+</div>
+
+<script>
+const CATS=[
+ {id:"law",name:"Law",color:"#b4532a"},
+ {id:"hist",name:"History",color:"#6f7d2f"},
+ {id:"poetry",name:"Poetry & Wisdom",color:"#2e7a78"},
+ {id:"major",name:"Major Prophets",color:"#6a3f8f"},
+ {id:"minor",name:"Minor Prophets",color:"#8c4a6b"},
+ {id:"gospels",name:"Gospels",color:"#a8701a"},
+ {id:"acts",name:"Acts",color:"#b0313e"},
+ {id:"paul",name:"Paul's Letters",color:"#2747a3"},
+ {id:"general",name:"Other Letters",color:"#1e5f8a"},
+ {id:"rev",name:"Revelation",color:"#444c63"}
+];
+// Years: negative = BC. [name, group, covers from, to, written from, to (null = same as covers), author, summary, flags]
+// flags: o = begins before recorded dates, u = covered dates uncertain, w = writing date uncertain, n = writing date unknown
+const DATA=[
+ ["Genesis","law",-2200,-1805,-1446,-1406,"Moses (traditional)","Creation, the fall, the flood, and the patriarchs Abraham, Isaac, Jacob, and Joseph.","o"],
+ ["Exodus","law",-1805,-1445,-1446,-1406,"Moses","Israel's slavery in Egypt, the exodus, the Law at Sinai, and the building of the tabernacle."],
+ ["Leviticus","law",-1445,-1445,-1446,-1406,"Moses","Laws for sacrifice, priesthood, cleanness, and holiness, given at Sinai."],
+ ["Numbers","law",-1445,-1406,-1446,-1406,"Moses","Israel's census, rebellions, and forty years of wandering in the wilderness."],
+ ["Deuteronomy","law",-1406,-1406,-1406,-1406,"Moses","Moses' farewell sermons on the plains of Moab, renewing the covenant before Israel enters Canaan."],
+
+ ["Joshua","hist",-1406,-1375,-1400,-1370,"Joshua, with later additions","The conquest of Canaan and the division of the land among the tribes."],
+ ["Judges","hist",-1375,-1050,-1050,-1000,"Unknown, perhaps Samuel","Cycles of sin, oppression, and rescue under the judges, from Othniel to Samson.","w"],
+ ["Ruth","hist",-1120,-1100,-1010,-970,"Unknown","A Moabite widow's loyalty to Naomi and her marriage to Boaz. She becomes the great-grandmother of David.","uw"],
+ ["1 Samuel","hist",-1105,-1010,-930,-722,"Unknown, using records of Samuel, Nathan, and Gad","Samuel, the last judge; the rise and fall of Saul, Israel's first king; and the rise of David.","w"],
+ ["2 Samuel","hist",-1010,-970,-930,-722,"Unknown, using records of Nathan and Gad","David's forty-year reign, God's covenant with him, his sin with Bathsheba, and its aftermath.","w"],
+ ["1 Kings","hist",-970,-853,-560,-538,"Unknown (Jewish tradition: Jeremiah)","Solomon's reign and temple, the split of the kingdom, and Elijah's ministry.","w"],
+ ["2 Kings","hist",-853,-561,-560,-538,"Unknown (Jewish tradition: Jeremiah)","Elisha, then the fall of Israel to Assyria and of Judah to Babylon, ending with King Jehoiachin released in exile.","w"],
+ ["1 Chronicles","hist",-1010,-970,-450,-400,"Unknown (Jewish tradition: Ezra)","Genealogies from Adam onward, then David's reign retold with a focus on worship and the temple.","w"],
+ ["2 Chronicles","hist",-970,-538,-450,-400,"Unknown (Jewish tradition: Ezra)","Solomon and the kings of Judah, ending with Cyrus's decree to rebuild the temple.","w"],
+ ["Ezra","hist",-538,-457,-450,-430,"Ezra","The first exiles return, the temple is rebuilt, and Ezra teaches the Law."],
+ ["Nehemiah","hist",-445,-432,-430,-420,"Nehemiah","Nehemiah rebuilds Jerusalem's walls and leads the people in renewing the covenant."],
+ ["Esther","hist",-483,-473,-460,-350,"Unknown","A Jewish queen in Persia risks her life to save her people. The origin of the feast of Purim.","w"],
+
+ ["Job","poetry",-2100,-1900,null,null,"Unknown","A righteous man suffers, argues with his friends, and meets God in the whirlwind. Its setting appears to be the time of the patriarchs.","un"],
+ ["Psalms","poetry",-1440,-450,null,null,"David, Asaph, the sons of Korah, Solomon, Moses, and others","150 songs and prayers of Israel, written and collected over about a thousand years."],
+ ["Proverbs","poetry",-970,-700,null,null,"Solomon, with Agur, Lemuel, and others; collected under Hezekiah","Wise sayings on the fear of the Lord and everyday life."],
+ ["Ecclesiastes","poetry",-935,-935,null,null,"Solomon (traditional)","The Preacher searches for meaning under the sun and concludes: fear God and keep His commandments.","u"],
+ ["Song of Songs","poetry",-965,-965,null,null,"Solomon","A love poem celebrating the love of a bride and her beloved.","u"],
+
+ ["Isaiah","major",-740,-681,-700,-681,"Isaiah","Judgment and comfort for Judah, the virgin-born king, the suffering servant, and new heavens and a new earth."],
+ ["Jeremiah","major",-627,-582,-627,-580,"Jeremiah, with his scribe Baruch","Forty years of warning before Babylon destroys Jerusalem, and the promise of a new covenant."],
+ ["Lamentations","major",-586,-586,-586,-585,"Jeremiah (traditional)","Five poems grieving the fall of Jerusalem, with hope in God's mercies, new every morning."],
+ ["Ezekiel","major",-593,-571,-593,-570,"Ezekiel","A priest in exile sees God's glory leave the temple and foresees a new heart and a new temple."],
+ ["Daniel","major",-605,-536,-536,-530,"Daniel","Daniel's faithfulness in Babylon and Persia, and visions of coming kingdoms and of the Son of Man."],
+
+ ["Hosea","minor",-755,-715,-715,-710,"Hosea","Hosea's marriage to an unfaithful wife pictures God's faithful love for unfaithful Israel."],
+ ["Joel","minor",-835,-796,null,null,"Joel","A locust plague foreshadows the day of the Lord and the promise of the Spirit poured out. Its date is debated.","uw"],
+ ["Amos","minor",-760,-750,null,null,"Amos","A shepherd from Judah denounces the northern kingdom's injustice and empty worship."],
+ ["Obadiah","minor",-586,-583,null,null,"Obadiah","Judgment on Edom for gloating over Jerusalem's fall. Some date it much earlier.","uw"],
+ ["Jonah","minor",-785,-760,null,null,"Jonah","A reluctant prophet runs from God, then preaches to Nineveh, and the city repents."],
+ ["Micah","minor",-735,-700,null,null,"Micah","Judgment and hope for Israel and Judah, and a ruler to be born in Bethlehem."],
+ ["Nahum","minor",-660,-640,null,null,"Nahum","The coming fall of Nineveh, the capital of Assyria.","uw"],
+ ["Habakkuk","minor",-609,-605,null,null,"Habakkuk","A prophet questions God about injustice and learns that the righteous shall live by faith."],
+ ["Zephaniah","minor",-640,-621,null,null,"Zephaniah","The day of the Lord is near for Judah and the nations, followed by joy for a humble remnant."],
+ ["Haggai","minor",-520,-520,null,null,"Haggai","Haggai urges the returned exiles to finish rebuilding the temple."],
+ ["Zechariah","minor",-520,-480,null,null,"Zechariah","Visions encouraging the temple builders, and the coming King riding on a donkey."],
+ ["Malachi","minor",-433,-430,null,null,"Malachi","A call back to faithful worship, and the promise of a messenger to prepare the way of the Lord.","uw"],
+
+ ["Matthew","gospels",-6,30,50,60,"Matthew","Jesus as the promised King and Messiah, fulfilling the Scriptures.","w"],
+ ["Mark","gospels",27,30,55,65,"John Mark","Jesus the servant in action, traditionally drawn from Peter's preaching.","w"],
+ ["Luke","gospels",-6,30,58,62,"Luke","An orderly account of Jesus, the Savior of all, with special care for the poor and outsiders.","w"],
+ ["John","gospels",27,30,85,90,"John","Signs and sayings of Jesus, written so that readers may believe He is the Christ, the Son of God.","w"],
+
+ ["Acts","acts",30,62,62,63,"Luke","The Spirit comes and the gospel spreads from Jerusalem to Rome."],
+
+ ["Romans","paul",57,57,null,null,"Paul","Paul's fullest statement of the gospel: righteousness from God, received by faith."],
+ ["1 Corinthians","paul",55,55,null,null,"Paul","Paul addresses divisions, immorality, worship, and the resurrection in Corinth."],
+ ["2 Corinthians","paul",56,56,null,null,"Paul","Paul defends his ministry and learns that Christ's strength is made perfect in weakness."],
+ ["Galatians","paul",48,49,null,null,"Paul","Paul defends justification by faith against those who demand circumcision.","uw"],
+ ["Ephesians","paul",60,62,null,null,"Paul","God's plan to unite all things in Christ, and the church as His body."],
+ ["Philippians","paul",61,62,null,null,"Paul","A joyful letter from prison about Christ's humility and pressing on toward the goal."],
+ ["Colossians","paul",60,62,null,null,"Paul","The supremacy and sufficiency of Christ against false teaching."],
+ ["1 Thessalonians","paul",50,51,null,null,"Paul","Encouragement for a young church, and hope for believers who have died."],
+ ["2 Thessalonians","paul",51,52,null,null,"Paul","Correcting confusion about the day of the Lord, and urging steady work."],
+ ["1 Timothy","paul",62,64,null,null,"Paul","Instructions to Timothy for leading the church in Ephesus."],
+ ["2 Timothy","paul",64,67,null,null,"Paul","Paul's last letter, from prison: guard the gospel and preach the word."],
+ ["Titus","paul",63,65,null,null,"Paul","Appointing elders and teaching sound doctrine in Crete."],
+ ["Philemon","paul",60,62,null,null,"Paul","Paul asks Philemon to welcome back Onesimus, his runaway slave, as a brother in Christ."],
+
+ ["Hebrews","general",64,69,null,null,"Unknown","Christ is greater than the angels, Moses, and the priests: the final sacrifice and the great high priest.","uw"],
+ ["James","general",45,49,null,null,"James, the brother of Jesus","Faith that is real shows itself in works.","uw"],
+ ["1 Peter","general",62,64,null,null,"Peter","Hope and holy living for believers who suffer for Christ."],
+ ["2 Peter","general",64,67,null,null,"Peter","Warnings against false teachers, and the certainty of Christ's return."],
+ ["1 John","general",85,95,null,null,"John","Assurance of eternal life: walking in the light, loving one another, and believing in Jesus."],
+ ["2 John","general",85,95,null,null,"John","Walk in truth and love, and do not welcome deceivers."],
+ ["3 John","general",85,95,null,null,"John","Praise for Gaius's hospitality, and a warning about Diotrephes."],
+ ["Jude","general",65,80,null,null,"Jude, the brother of James","Contend for the faith against false teachers.","uw"],
+
+ ["Revelation","rev",95,96,null,null,"John","Visions of the risen Christ, His victory over evil, and the new heaven and new earth."]
+];
+const BOOKS=DATA.map((d,i)=>{const f=d[8]||"";return{id:i,name:d[0],cat:d[1],cf:d[2],ct:d[3],wf:d[4]??d[2],wt:d[5]??d[3],author:d[6],summary:d[7],
+  open:f.includes("o"),uc:f.includes("u"),uw:f.includes("w")||(d[4]===null&&f.includes("u")),noW:f.includes("n")}});
+const catById=Object.fromEntries(CATS.map(c=>[c.id,c]));
+
+// Same eras as the timeline page
+const ERAS=[
+ {name:"Beginnings",from:-2200,to:-2100,color:"#5b6b8c"},
+ {name:"The Patriarchs",from:-2100,to:-1800,color:"#8a6a2e"},
+ {name:"Exodus & Wilderness",from:-1800,to:-1406,color:"#b4532a"},
+ {name:"Conquest & Judges",from:-1406,to:-1050,color:"#6f7d2f"},
+ {name:"United Kingdom",from:-1050,to:-931,color:"#2747a3"},
+ {name:"Divided Kingdom",from:-931,to:-586,color:"#6a3f8f"},
+ {name:"Exile & Return",from:-586,to:-400,color:"#2e7a78"},
+ {name:"Between the Testaments",from:-400,to:-5,color:"#7a7f8c"},
+ {name:"Life of Christ",from:-5,to:30,color:"#a8701a"},
+ {name:"The Early Church",from:30,to:100,color:"#b0313e"}
+];
+const PRESETS=[
+ ["Everything",-2200,100],["Patriarchs",-2150,-1750],["Moses & Judges",-1850,-1000],["Kingdom & Prophets",-1060,-560],
+ ["Exile & Return",-620,-400],["New Testament",-10,100]
+];
+const DOMAIN=[-2200,100],MIN_SPAN=12;
+
+const $=s=>document.querySelector(s);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref)+"&version=ESV";
+const yr=y=>y<0?(-y)+" BC":"AD "+y;
+function fmtRange(a,b,approx,open){
+  if(open)return "Creation – c. "+yr(b);
+  const c=approx?"c. ":"";
+  if(a===b)return c+yr(a);
+  if(a<0&&b<0)return c+(-a)+"–"+(-b)+" BC";
+  if(a>0&&b>0)return c+"AD "+a+"–"+b;
+  return c+(-a)+" BC – AD "+b;
+}
+
+const ALL=BOOKS.map(b=>b.id);
+const state={mode:"cover",sort:"canon",q:"",sel:new Set(ALL),open:null,view:{from:DOMAIN[0],to:DOMAIN[1]}};
+try{const s=JSON.parse(localStorage.getItem("books-sel"));if(Array.isArray(s)&&s.length)state.sel=new Set(s.filter(i=>BOOKS[i]))}catch(e){}
+const saveSel=()=>{try{localStorage.setItem("books-sel",JSON.stringify([...state.sel]))}catch(e){}};
+const span=b=>state.mode==="cover"?[b.cf,b.ct]:[b.wf,b.wt];
+const shown=()=>BOOKS.filter(b=>state.sel.has(b.id)&&(!state.q||(b.name+" "+b.author).toLowerCase().includes(state.q.toLowerCase())));
+
+// ---------- filters ----------
+const isAll=()=>state.sel.size===BOOKS.length;
+function toggleSet(ids){
+  // Everything shown → focus on just these. Otherwise add or remove them; never leave nothing selected.
+  if(isAll())state.sel=new Set(ids);
+  else if(ids.every(i=>state.sel.has(i))){ids.forEach(i=>state.sel.delete(i));if(!state.sel.size)state.sel=new Set(ALL)}
+  else ids.forEach(i=>state.sel.add(i));
+  saveSel();state.open=null;build();fit(true);
+}
+function renderFilters(){
+  const cats=$("#cats");cats.innerHTML="";
+  const all=document.createElement("button");all.type="button";all.className="chip";all.textContent="All 66";
+  all.setAttribute("aria-pressed",isAll());all.onclick=()=>{state.sel=new Set(ALL);saveSel();state.open=null;build();fit(true)};cats.appendChild(all);
+  CATS.forEach(c=>{
+    const ids=BOOKS.filter(b=>b.cat===c.id).map(b=>b.id),n=ids.filter(i=>state.sel.has(i)).length;
+    const el=document.createElement("button");el.type="button";el.className="chip";
+    el.setAttribute("aria-pressed",isAll()?"false":n===ids.length?"true":n?"mixed":"false");
+    el.innerHTML='<span class="dot" style="background:'+c.color+'"></span>'+esc(c.name);
+    el.onclick=()=>toggleSet(ids);cats.appendChild(el);
+  });
+  const pb=$("#pickBody");pb.innerHTML="";
+  CATS.forEach(c=>{
+    const g=document.createElement("div");g.className="pick-grp";g.innerHTML="<h3>"+esc(c.name)+"</h3>";
+    const row=document.createElement("div");row.className="chips";
+    BOOKS.filter(b=>b.cat===c.id).forEach(b=>{
+      const el=document.createElement("button");el.type="button";el.className="chip";
+      el.setAttribute("aria-pressed",!isAll()&&state.sel.has(b.id));el.textContent=b.name;
+      el.onclick=()=>toggleSet([b.id]);row.appendChild(el);
+    });
+    g.appendChild(row);pb.appendChild(g);
+  });
+  $("#pickSum").textContent=isAll()?"Choose individual books":"Choose individual books ("+state.sel.size+" of 66 selected)";
+}
+
+// ---------- rows ----------
+const rowsEl=$("#rows");
+function build(){
+  renderFilters();
+  let list=shown();
+  if(state.sort==="date")list=[...list].sort((a,b)=>span(a)[0]-span(b)[0]||span(a)[1]-span(b)[1]||a.id-b.id);
+  let html="",lastCat=null;
+  list.forEach(b=>{
+    const c=catById[b.cat];
+    if(state.sort==="canon"&&b.cat!==lastCat){html+='<div class="grp"><span class="dot" style="background:'+c.color+'"></span>'+esc(c.name)+'</div>';lastCat=b.cat}
+    const noBar=state.mode==="written"&&b.noW;
+    const approx=state.mode==="cover"?b.uc:b.uw;
+    const [a,z]=span(b),txt=noBar?"":fmtRange(a,z,approx,state.mode==="cover"&&b.open);
+    const sel=state.open===b.id;
+    html+='<div class="brow'+(sel?' sel':'')+'" data-id="'+b.id+'" style="--c:'+c.color+'">'+
+      '<button type="button" class="bname" aria-expanded="'+sel+'" title="'+esc(b.name)+'">'+esc(b.name)+'</button>'+
+      '<div class="track">'+(noBar?'<span class="none">Date unknown</span>':
+        '<button type="button" class="bar'+(approx?' approx':'')+(state.mode==="cover"&&b.open?' open':'')+'" aria-label="'+esc(b.name+": "+txt)+'"></button><span class="blabel" data-t="'+esc(txt)+'"></span>')+'</div>'+
+      (sel?detail(b):'')+'</div>';
+  });
+  rowsEl.innerHTML=html;
+  $("#empty").hidden=list.length>0;
+  $("#chart").hidden=!list.length;
+  $("#count").textContent=list.length+" of 66 books";
+  update();
+}
+function detail(b){
+  const cov=fmtRange(b.cf,b.ct,b.uc,b.open),wr=b.noW?"Unknown":fmtRange(b.wf,b.wt,b.uw||b.wf!==b.wt||b.wf<0);
+  return '<div class="detail"><p>'+esc(b.summary)+'</p><dl>'+
+    '<dt>Events covered</dt><dd>'+esc(cov)+'</dd><dt>Written</dt><dd>'+esc(wr)+'</dd><dt>Author</dt><dd>'+esc(b.author)+'</dd></dl>'+
+    '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
+    '<button type="button" class="link" data-zoom="'+b.id+'">Zoom to this book</button></div></div>';
+}
+
+// ---------- scale ----------
+let W=600;
+const x=y=>(y-state.view.from)/(state.view.to-state.view.from)*W;
+function measure(){W=$("#ticks").clientWidth||600}
+function update(){
+  measure();
+  const v=state.view,pxy=W/(v.to-v.from);
+  // era band + background tints
+  let eb="",bg="";
+  ERAS.forEach(e=>{
+    const l=Math.max(x(e.from),0),r=Math.min(x(e.to),W);if(r<=l)return;
+    eb+='<div style="left:'+l+'px;width:'+(r-l)+'px;background:'+e.color+'" title="'+esc(e.name)+'" data-from="'+e.from+'" data-to="'+e.to+'"><span>'+(r-l>40?esc(e.name):"")+'</span></div>';
+    bg+='<div class="tint" style="left:'+l+'px;width:'+(r-l)+'px;background:'+e.color+'"></div>';
+  });
+  // ticks
+  const steps=[1,2,5,10,20,25,50,100,200,250,500];
+  const step=steps.find(s=>s*pxy>=72)||1000;
+  let tk="";
+  for(let t=Math.ceil(v.from/step)*step;t<=v.to;t+=step){
+    const p=x(t);if(p<18||p>W-18)continue;
+    tk+='<span style="left:'+p+'px">'+(t===0?"BC | AD":t<0?(-t)+" BC":"AD "+t)+'</span>';
+    bg+='<div class="grid" style="left:'+p+'px"></div>';
+  }
+  $("#eraband").innerHTML=eb;$("#ticks").innerHTML=tk;$("#bg").innerHTML=bg;
+  // bars
+  rowsEl.querySelectorAll(".brow").forEach(row=>{
+    const b=BOOKS[+row.dataset.id],bar=row.querySelector(".bar");if(!bar)return;
+    const [a,z]=span(b);
+    // a single year still gets a visible width: one year, at least 4px
+    let l=x(a),r=Math.max(x(z+1),l+4);
+    bar.style.left=l+"px";bar.style.width=(r-l)+"px";
+    // Label inside the bar if it fits, else beside it; a bar out of view gets an arrow at that edge.
+    const lab=row.querySelector(".blabel"),txt=lab.dataset.t,tw=txt.length*6.4+16;
+    const vl=Math.max(l,0),vr=Math.min(r,W);
+    lab.style.left="";lab.style.right="";lab.textContent=txt;
+    if(r<=0){lab.className="blabel out";lab.textContent="← "+txt;lab.style.left="4px"}
+    else if(l>=W){lab.className="blabel out";lab.textContent=txt+" →";lab.style.right="4px"}
+    else if(vr-vl>=tw){lab.className="blabel in";lab.style.left=vl+"px"}
+    else if(r+6+tw<=W){lab.className="blabel out";lab.style.left=(r+6)+"px"}
+    else{lab.className="blabel out";lab.style.right=(W-l+6)+"px"}
+  });
+  $("#range").textContent="Showing "+fmtRange(Math.round(v.from),Math.round(v.to));
+}
+
+function clampView(from,to){
+  let s=Math.min(Math.max(to-from,MIN_SPAN),DOMAIN[1]-DOMAIN[0]);
+  if(from<DOMAIN[0])from=DOMAIN[0];
+  if(from+s>DOMAIN[1])from=DOMAIN[1]-s;
+  return {from,to:from+s};
+}
+let anim=null;
+const reduce=matchMedia("(prefers-reduced-motion: reduce)");
+function zoomTo(from,to,smooth){
+  const tgt=clampView(from,to);cancelAnimationFrame(anim);
+  if(!smooth||reduce.matches){state.view=tgt;update();return}
+  const s={...state.view},t0=performance.now();
+  const step=now=>{const k=Math.min(1,(now-t0)/280),e=1-Math.pow(1-k,3);
+    state.view={from:s.from+(tgt.from-s.from)*e,to:s.to+(tgt.to-s.to)*e};update();if(k<1)anim=requestAnimationFrame(step)};
+  anim=requestAnimationFrame(step);
+}
+function zoomBy(f,centerYear){
+  const v=state.view,c=centerYear??(v.from+v.to)/2;
+  zoomTo(c-(c-v.from)*f,c+(v.to-c)*f,true);
+}
+function fit(smooth){
+  const list=shown().filter(b=>!(state.mode==="written"&&b.noW));
+  if(!list.length)return;
+  let a=Math.min(...list.map(b=>span(b)[0])),z=Math.max(...list.map(b=>span(b)[1]+1));
+  const pad=Math.max((z-a)*.08,4);
+  zoomTo(Math.max(a-pad,DOMAIN[0]),Math.min(z+pad,DOMAIN[1]),smooth);
+}
+
+// ---------- gestures ----------
+const chart=$("#chart"),pts=new Map();let gest=null,moved=false;
+chart.addEventListener("pointerdown",e=>{
+  if(e.button!==0||e.target.closest(".detail"))return;
+  pts.set(e.pointerId,e.clientX);moved=false;startGesture();
+});
+function startGesture(){
+  const xs=[...pts.values()],r=$("#ticks").getBoundingClientRect();
+  gest={v:{...state.view},left:r.left,x0:xs[0],d0:xs.length>1?Math.abs(xs[1]-xs[0]):0,m0:xs.length>1?(xs[0]+xs[1])/2:xs[0]};
+}
+addEventListener("pointermove",e=>{
+  if(!pts.has(e.pointerId)||!gest)return;
+  pts.set(e.pointerId,e.clientX);
+  const xs=[...pts.values()],g=gest,s0=g.v.to-g.v.from;
+  if(xs.length>1&&g.d0>10){
+    const d=Math.abs(xs[1]-xs[0]),m=(xs[0]+xs[1])/2,s=s0*g.d0/Math.max(d,10);
+    const yAtM0=g.v.from+(g.m0-g.left)/W*s0,from=yAtM0-(m-g.left)/W*s;
+    moved=true;cancelAnimationFrame(anim);state.view=clampView(from,from+s);update();
+  }else{
+    const dx=xs[0]-g.x0;if(Math.abs(dx)>4)moved=true;
+    if(moved){chart.classList.add("dragging");cancelAnimationFrame(anim);const dy=dx/W*s0;state.view=clampView(g.v.from-dy,g.v.to-dy);update()}
+  }
+});
+const endPtr=e=>{if(!pts.delete(e.pointerId))return;chart.classList.remove("dragging");if(pts.size)startGesture();else gest=null};
+addEventListener("pointerup",endPtr);addEventListener("pointercancel",endPtr);
+chart.addEventListener("click",e=>{if(moved){e.stopPropagation();e.preventDefault();moved=false}},true);
+chart.addEventListener("wheel",e=>{
+  const r=$("#ticks").getBoundingClientRect(),v=state.view,c=v.from+(e.clientX-r.left)/W*(v.to-v.from);
+  if(e.ctrlKey||e.metaKey){e.preventDefault();cancelAnimationFrame(anim);
+    const f=Math.exp(e.deltaY*.004),cc=Math.min(Math.max(c,v.from),v.to);
+    state.view=clampView(cc-(cc-v.from)*f,cc+(v.to-cc)*f);update()}
+  else if(Math.abs(e.deltaX)>Math.abs(e.deltaY)){e.preventDefault();cancelAnimationFrame(anim);
+    const dy=e.deltaX/W*(v.to-v.from);state.view=clampView(v.from+dy,v.to+dy);update()}
+},{passive:false});
+chart.addEventListener("dblclick",e=>{
+  if(e.target.closest(".detail,.bname"))return;
+  const r=$("#ticks").getBoundingClientRect(),v=state.view;
+  zoomBy(e.shiftKey?2:.5,v.from+(e.clientX-r.left)/W*(v.to-v.from));
+});
+
+// ---------- events ----------
+rowsEl.addEventListener("click",e=>{
+  const z=e.target.closest("[data-zoom]");
+  if(z){const b=BOOKS[+z.dataset.zoom],[a,t]=span(b),pad=Math.max((t-a)*.25,6);zoomTo(a-pad,t+1+pad,true);return}
+  const hit=e.target.closest(".bname,.bar");if(!hit)return;
+  const id=+hit.closest(".brow").dataset.id;
+  state.open=state.open===id?null:id;build();
+  const row=rowsEl.querySelector('.brow[data-id="'+id+'"] .bname');row&&row.focus({preventScroll:true});
+});
+$("#eraband").addEventListener("click",e=>{const d=e.target.closest("[data-from]");if(d&&!moved)zoomTo(+d.dataset.from-10,+d.dataset.to+10,true)});
+$("#zIn").onclick=()=>zoomBy(.5);$("#zOut").onclick=()=>zoomBy(2);$("#zFit").onclick=()=>fit(true);
+const pr=$("#presets");
+PRESETS.forEach(p=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=p[0];b.onclick=()=>zoomTo(p[1],p[2],true);pr.appendChild(b)});
+document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{
+  state.mode=b.dataset.mode;document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",x===b));build();fit(true)});
+document.querySelectorAll("[data-sort]").forEach(b=>b.onclick=()=>{
+  state.sort=b.dataset.sort;document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));build()});
+$("#q").addEventListener("input",e=>{state.q=e.target.value.trim();build()});
+$("#clearBtn").onclick=()=>{state.q="";$("#q").value="";state.sel=new Set(ALL);saveSel();build();fit(true)};
+let rz;addEventListener("resize",()=>{cancelAnimationFrame(rz);rz=requestAnimationFrame(update)});
+
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.textContent=d?"☀ Light":"☾ Dark";themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
+
+build();fit(false);
+</script>
+</body>
+</html>
