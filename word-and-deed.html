@@ -72,7 +72,7 @@ p{margin:0}
 .controls{display:flex;flex-direction:column;gap:10px;font-family:var(--font-ui)}
 .crow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .crow .lbl{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink2);min-width:4.5rem}
-font:500 14px/1.2 var(--font-ui);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;cursor:pointer}
+.chip{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:6px 12px;font:500 14px/1.2 var(--font-ui);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;cursor:pointer}
 .chip:hover{border-color:var(--ink2)}
 .chip[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .chip:focus-visible,.toggle input:focus-visible{outline:2px solid var(--word);outline-offset:2px}
@@ -90,9 +90,9 @@ font:500 14px/1.2 var(--font-ui);color:var(--ink);background:var(--surface);bord
 .bar .w{background:var(--word)} .bar .d{background:var(--deed)}
 .bar .b{background:linear-gradient(180deg,var(--word) 50%,var(--deed) 50%)}
 .bar-note{font-size:13.5px;color:var(--ink3)}
-.group-h{font-family:var(--font-body);font-weight:600;font-size:1.3rem;
+.group-h{font-family:var(--font-body);font-weight:600;font-size:1.3rem;margin:1.25rem 0 .25rem;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
 .group-h .ct{font-family:var(--font-ui);font-weight:400;font-size:13px;color:var(--ink3);font-variant-numeric:tabular-nums;white-space:nowrap}
-.sec-title{font-family:var(--font-ui);font-size:12px;
+.sec-title{font-family:var(--font-ui);font-size:12px;letter-spacing:.09em;text-transform:uppercase;font-weight:600;color:var(--ink2);margin-top:1.5rem;padding-bottom:6px;border-bottom:2px solid var(--line)}
 .list{display:flex;flex-direction:column}
 .row{display:grid;grid-template-columns:20px minmax(0,1fr);gap:12px;padding:12px 4px;border-top:1px solid var(--line);scroll-margin-top:16px}
 .row .cell{margin-top:3px;cursor:default}
@@ -101,7 +101,7 @@ font:500 14px/1.2 var(--font-ui);color:var(--ink);background:var(--surface);bord
 .meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin-top:2px}
 .ref{font-family:var(--font-body);font-style:italic;font-size:15px;color:var(--ink)}
 .par{font-family:var(--font-ui);font-size:13px;color:var(--ink3)}
-.tag{font-family:var(--font-ui);font-size:11px;
+.tag{font-family:var(--font-ui);font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;padding:2px 6px;border-radius:4px;background:var(--sunk);color:var(--ink2)}
 .tag.w{background:var(--word-bg);color:var(--word-ink)} .tag.d{background:var(--deed-bg);color:var(--deed-ink)}
 .note{font-size:15px;line-height:1.45;color:var(--ink2);margin-top:4px}
 .call{font-size:13px;line-height:1.45;color:var(--ink3);margin-top:3px}
@@ -123,12 +123,12 @@ ol.rules b{color:var(--ink);font-weight:600}
 .xl{font-size:13px;margin-top:4px}
 .xl a{color:var(--word);text-decoration:none;font-weight:500}
 .xl a:hover{text-decoration:underline}
-.foot{font-family:var(--font-ui);font-size:13.5px;
+.foot{font-family:var(--font-ui);font-size:13.5px;color:var(--ink3);max-width:64ch;border-top:1px solid var(--line);padding-top:1rem}
 @media (prefers-reduced-motion:no-preference){.row{transition:background .4s}}
 </style>
 
 <div class="wrap" id="app">
-aria-current="page">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="word-and-deed.html" aria-current="page">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
   <section class="hero">
     <p class="eyebrow">The Gospels and Acts, every episode</p>
     <h1><span class="w">Word</span> and <span class="d">Deed</span></h1>
@@ -156,7 +156,7 @@ aria-current="page">Word and Deed</a><button type="button" class="theme-btn" id=
     </div>
     <div class="strip">
       <div id="strip" style="display:flex;flex-direction:column;gap:16px"></div>
-      <p class="hint">Hover over, focus, or tap any tile to see its passage here.</p></div>
+      <div class="detail" id="detail" aria-live="polite"><p class="hint">Hover over, focus, or tap any tile to see its passage here.</p></div>
     </div>
   </section>
 

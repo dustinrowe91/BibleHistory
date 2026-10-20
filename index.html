@@ -132,7 +132,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
-<a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">Genesis to Revelation</div>
   <h1>The Story of Scripture</h1>
@@ -155,7 +155,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
   </div>
   <div class="chips" id="chips" role="group" aria-label="Jump to era"></div>
   <div class="row">
-    Churches in Acts only</button>
+    <button type="button" class="toggle" id="churchToggle" aria-pressed="false"><span class="diamond" aria-hidden="true"></span>Churches in Acts only</button>
     <button type="button" class="toggle" id="expandBtn">Expand all</button>
     <span class="count" id="count"></span>
     <span class="now" id="now" hidden></span>
