@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Bible Story Timeline</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: a single scripture "scroll" — era overview band on top, then a vertical spine of events grouped by era. Palette from illuminated manuscripts: lapis, ochre gold, vellum stone, ink. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:860px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+
+/* overview band */
+.overview{margin-top:24px}
+.band{display:flex;height:44px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.band button{border:0;padding:0;cursor:pointer;font-family:var(--ui);font-size:11px;font-weight:700;color:#fff;
+  letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;
+  transition:filter .15s}
+.band button:hover{filter:brightness(1.12)}
+.band button:focus-visible{outline:3px solid var(--ochre);outline-offset:-3px}
+.scale{display:flex;justify-content:space-between;font-family:var(--ui);font-size:12px;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+
+/* controls */
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 12px;margin-top:18px;
+  border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{flex:1 1 220px;min-width:0;font:inherit;font-family:var(--ui);font-size:15px;padding:9px 12px;border-radius:6px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search:focus-visible{outline:2px solid var(--lapis);outline-offset:1px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{font-family:var(--ui);font-size:14px;font-weight:500;border:0;background:none;color:var(--muted);padding:8px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--lapis);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--ochre);outline-offset:-2px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+.chip{flex:none;font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:5px 10px;border-radius:999px;cursor:pointer;display:flex;gap:6px;align-items:center}
+.chip .dot{width:8px;height:8px;border-radius:50%}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.chip:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.count{font-family:var(--ui);font-size:13px;color:var(--muted)}
+
+/* timeline */
+.era{margin-top:36px;scroll-margin-top:170px}
+.era-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;border-bottom:2px solid var(--era);padding-bottom:6px}
+.era-head h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;color:var(--ink)}
+.era-head .span{font-family:var(--ui);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.era-head .books{font-family:var(--ui);font-size:13px;color:var(--muted);margin-left:auto}
+.era-intro{color:var(--muted);font-style:italic;margin:8px 0 0;max-width:65ch}
+ol.events{list-style:none;margin:14px 0 0;padding:0 0 0 22px;position:relative}
+ol.events::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.ev{position:relative;margin-bottom:8px}
+.ev::before{content:"";position:absolute;left:-21px;top:16px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:3px solid var(--era)}
+.ev.key::before{background:var(--era)}
+.ev button.head{width:100%;text-align:left;display:grid;grid-template-columns:86px 1fr auto;gap:12px;align-items:baseline;
+  background:none;border:0;padding:10px 10px;border-radius:6px;cursor:pointer;color:var(--ink);font:inherit}
+.ev button.head:hover{background:var(--surface)}
+.ev button.head:focus-visible{outline:2px solid var(--lapis)}
+.date{font-family:var(--ui);font-size:13px;font-weight:700;color:var(--ochre);font-variant-numeric:tabular-nums;white-space:nowrap}
+.title{font-weight:600;font-size:18px;min-width:0}
+.ref{font-family:var(--ui);font-size:13px;color:var(--muted);white-space:nowrap}
+.ev.open button.head{background:var(--surface)}
+.detail{background:var(--surface);border-radius:0 0 6px 6px;padding:0 14px 14px 108px;margin-top:-6px}
+.detail p{margin:0 0 10px;max-width:62ch}
+.people{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.people span{font-family:var(--ui);font-size:12px;background:var(--lapis-soft);color:var(--ink);padding:2px 8px;border-radius:4px}
+.detail a{font-family:var(--ui);font-size:14px;font-weight:700;color:var(--lapis);text-decoration:none}
+.detail a:hover{text-decoration:underline}
+.empty{margin-top:40px;color:var(--muted);text-align:center}
+footer{margin-top:48px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+.ev.is-church::before{border-radius:2px;transform:rotate(45deg);background:var(--era)}
+.plant{display:block;margin-top:3px;font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--lapis)}
+.plant.existing{color:var(--muted)}
+.toggle{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:5px 12px;border-radius:999px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.toggle .diamond{width:8px;height:8px;background:#b0313e;transform:rotate(45deg);border-radius:1px}
+.toggle[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.toggle:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
+
+@media (max-width:560px){
+  .ev button.head{grid-template-columns:1fr;gap:2px}
+  .ref{white-space:normal}
+  .detail{padding:0 12px 12px 10px}
+  .era-head .books{margin-left:0;width:100%}
+  .era{scroll-margin-top:200px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Genesis to Revelation</div>
+  <h1>The Story of Scripture</h1>
+  <p class="lede">The major events of the Bible in order, from Creation to the early church. Tap any event for a summary, the people involved, and a link to read the passage.</p>
+
+  <div class="overview" aria-label="Eras at a glance">
+    <div class="band" id="band"></div>
+    <div class="scale"><span>c. 2100 BC</span><span>1000 BC</span><span>1 BC / AD 1</span><span>AD 100</span></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input id="q" class="search" type="search" placeholder="Search events, people, or books…" aria-label="Search events">
+    <div class="seg" role="group" aria-label="Testament">
+      <button type="button" data-t="all" aria-pressed="true">Both</button>
+      <button type="button" data-t="OT" aria-pressed="false">Old</button>
+      <button type="button" data-t="NT" aria-pressed="false">New</button>
+    </div>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Jump to era"></div>
+  <div class="row">
+    <button type="button" class="toggle" id="churchToggle" aria-pressed="false"><span class="diamond" aria-hidden="true"></span>Churches in Acts only</button>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main id="timeline"></main>
+<p class="empty" id="empty" hidden>No events match that search.</p>
+
+<footer>Dates follow a common conservative chronology (including the early Exodus date, c. 1446 BC) and are approximate; events before Abraham are left undated. Filled markers show turning points in the story; diamonds mark churches named in Acts. "Church already there" means Acts mentions believers in that city without recording how the church began.</footer>
+</div>
+
+<script>
+const ERAS=[
+ {id:"primeval",name:"Beginnings",t:"OT",span:"Before recorded history",books:"Genesis 1–11",color:"#5b6b8c",from:null,to:null,
+  intro:"God creates a good world, humanity rebels, and judgment and mercy follow."},
+ {id:"patriarchs",name:"The Patriarchs",t:"OT",span:"c. 2100–1800 BC",books:"Genesis 12–50",color:"#8a6a2e",from:-2100,to:-1800,
+  intro:"God calls one family and promises to bless all nations through it."},
+ {id:"exodus",name:"Exodus & Wilderness",t:"OT",span:"c. 1526–1406 BC",books:"Exodus – Deuteronomy",color:"#b4532a",from:-1800,to:-1406,
+  intro:"Israel is rescued from slavery, receives the Law, and wanders forty years."},
+ {id:"judges",name:"Conquest & Judges",t:"OT",span:"c. 1406–1050 BC",books:"Joshua, Judges, Ruth",color:"#6f7d2f",from:-1406,to:-1050,
+  intro:"Israel enters Canaan, then cycles through rebellion and rescue."},
+ {id:"kingdom",name:"United Kingdom",t:"OT",span:"c. 1050–931 BC",books:"1 Samuel – 1 Kings 11",color:"#2747a3",from:-1050,to:-931,
+  intro:"Israel asks for a king. God gives Saul, then David, then Solomon."},
+ {id:"divided",name:"Divided Kingdom",t:"OT",span:"931–586 BC",books:"1 Kings 12 – 2 Kings, the Prophets",color:"#6a3f8f",from:-931,to:-586,
+  intro:"The nation splits in two. Prophets warn of judgment, and both kingdoms fall."},
+ {id:"exile",name:"Exile & Return",t:"OT",span:"605–430 BC",books:"Daniel, Ezra, Nehemiah, Esther",color:"#2e7a78",from:-605,to:-400,
+  intro:"Judah lives in exile in Babylon, then returns to rebuild the temple and the walls."},
+ {id:"silent",name:"Between the Testaments",t:"between",span:"c. 430–5 BC",books:"No new scripture",color:"#7a7f8c",from:-400,to:-5,
+  intro:"About four hundred years with no prophetic word, under Persia, Greece, and Rome."},
+ {id:"christ",name:"Life of Christ",t:"NT",span:"c. 5 BC – AD 30",books:"Matthew, Mark, Luke, John",color:"#a8701a",from:-5,to:30,
+  intro:"The promised Messiah is born, teaches, dies, and rises again."},
+ {id:"church",name:"The Early Church",t:"NT",span:"AD 30–95",books:"Acts – Revelation",color:"#b0313e",from:30,to:100,
+  intro:"The Spirit comes and the gospel spreads from Jerusalem to Rome."}
+];
+
+const EV=[
+ ["primeval","—","Creation","Genesis 1–2","God creates the heavens and the earth in six days and rests on the seventh. Humanity is made in His image and placed in the garden of Eden.",["Adam","Eve"],1],
+ ["primeval","—","The Fall","Genesis 3","Tempted by the serpent, Adam and Eve eat the forbidden fruit. Sin and death enter the world, yet God promises an offspring who will crush the serpent.",["Adam","Eve"],1],
+ ["primeval","—","Cain and Abel","Genesis 4","Cain kills his brother Abel out of jealousy, the first murder. Sin spreads quickly through the human family.",["Cain","Abel"]],
+ ["primeval","—","The Flood","Genesis 6–9","God judges a violent world with a flood but saves Noah, his family, and the animals in the ark, then sets the rainbow as a sign of His covenant.",["Noah"],1],
+ ["primeval","—","Tower of Babel","Genesis 11","Humanity unites to build a tower to make a name for itself. God confuses their language and scatters the nations.",[]],
+
+ ["patriarchs","c. 2091 BC","The Call of Abram","Genesis 12","God tells Abram to leave Ur and Haran for a land He will show him, promising to make him a great nation and bless all families of the earth through him.",["Abram","Sarai","Lot"],1],
+ ["patriarchs","c. 2081 BC","Covenant with Abraham","Genesis 15–17","God makes a covenant promising descendants as many as the stars and the land of Canaan. Abram believes, and it is counted to him as righteousness.",["Abraham"]],
+ ["patriarchs","c. 2067 BC","Sodom and Gomorrah","Genesis 18–19","Abraham pleads for the cities, but they are destroyed for their wickedness. Lot and his daughters are rescued.",["Abraham","Lot"]],
+ ["patriarchs","c. 2066 BC","Birth of Isaac","Genesis 21","In their old age, Abraham and Sarah have the promised son, Isaac, just as God said.",["Abraham","Sarah","Isaac"]],
+ ["patriarchs","c. 2050 BC","Binding of Isaac","Genesis 22","God tests Abraham by asking him to offer Isaac on Mount Moriah, then provides a ram in his place.",["Abraham","Isaac"],1],
+ ["patriarchs","c. 1929 BC","Jacob's Ladder","Genesis 28","Fleeing Esau, Jacob dreams of a stairway to heaven. God repeats the promises made to Abraham.",["Jacob","Esau"]],
+ ["patriarchs","c. 1909 BC","Jacob Becomes Israel","Genesis 32","Jacob wrestles through the night and is renamed Israel. His twelve sons become the twelve tribes.",["Jacob"]],
+ ["patriarchs","c. 1898 BC","Joseph Sold into Slavery","Genesis 37","Jealous of their father's favorite, Joseph's brothers sell him to traders bound for Egypt.",["Joseph","Judah","Reuben"]],
+ ["patriarchs","c. 1885 BC","Joseph Rules in Egypt","Genesis 41–45","After prison, Joseph interprets Pharaoh's dreams and rises to second in command, saving many from famine and forgiving his brothers.",["Joseph","Pharaoh"],1],
+ ["patriarchs","c. 1876 BC","Israel Settles in Egypt","Genesis 46–50","Jacob's family, seventy people, moves to Goshen in Egypt, where they grow into a great people.",["Jacob","Joseph"]],
+
+ ["exodus","c. 1526 BC","Birth of Moses","Exodus 2","Hidden from Pharaoh's order to kill Hebrew boys, Moses is drawn from the Nile and raised in the palace.",["Moses","Miriam","Pharaoh's daughter"]],
+ ["exodus","c. 1446 BC","The Burning Bush","Exodus 3–4","God speaks to Moses from a burning bush, reveals His name, I AM, and sends him to bring Israel out of Egypt.",["Moses","Aaron"]],
+ ["exodus","c. 1446 BC","Plagues and Passover","Exodus 7–12","Ten plagues strike Egypt. On the night of the first Passover, the blood of a lamb protects Israel's homes from death.",["Moses","Pharaoh"],1],
+ ["exodus","c. 1446 BC","Crossing the Red Sea","Exodus 14–15","God parts the sea so Israel crosses on dry ground, then the waters close over Pharaoh's army.",["Moses","Miriam"],1],
+ ["exodus","c. 1446 BC","The Law at Sinai","Exodus 19–24","At Mount Sinai God gives the Ten Commandments and makes a covenant with Israel as His people.",["Moses"],1],
+ ["exodus","c. 1446 BC","The Golden Calf","Exodus 32–34","While Moses is on the mountain, the people worship a golden calf. Moses intercedes and the covenant is renewed.",["Moses","Aaron"]],
+ ["exodus","c. 1445 BC","The Tabernacle","Exodus 35–40","Israel builds the portable tabernacle, and God's glory fills it as He dwells among His people.",["Moses","Bezalel"]],
+ ["exodus","c. 1444 BC","Twelve Spies","Numbers 13–14","Ten spies bring a fearful report about Canaan. Because the people refuse to trust God, they wander forty years.",["Joshua","Caleb"]],
+ ["exodus","c. 1406 BC","Death of Moses","Deuteronomy 34","Moses views the promised land from Mount Nebo and dies. Joshua takes his place.",["Moses","Joshua"]],
+
+ ["judges","c. 1406 BC","Fall of Jericho","Joshua 6","Israel crosses the Jordan and marches around Jericho for seven days until its walls fall. Rahab and her family are spared.",["Joshua","Rahab"],1],
+ ["judges","c. 1380 BC","Joshua's Farewell","Joshua 24","Joshua challenges Israel to choose whom they will serve: \"as for me and my house, we will serve the Lord.\"",["Joshua"]],
+ ["judges","c. 1230 BC","Deborah and Barak","Judges 4–5","The prophetess and judge Deborah leads Israel to victory over the Canaanite general Sisera.",["Deborah","Barak","Jael"]],
+ ["judges","c. 1170 BC","Gideon's 300","Judges 6–8","With an army cut to 300, Gideon defeats the Midianites using trumpets, jars, and torches.",["Gideon"]],
+ ["judges","c. 1100 BC","Ruth and Boaz","Ruth 1–4","The Moabite widow Ruth stays loyal to Naomi and marries Boaz, becoming the great-grandmother of King David.",["Ruth","Naomi","Boaz"]],
+ ["judges","c. 1075 BC","Samson","Judges 13–16","Gifted with great strength, Samson fights the Philistines but is betrayed by Delilah, and dies bringing down their temple.",["Samson","Delilah"]],
+
+ ["kingdom","c. 1100 BC","Samuel Called","1 Samuel 3","The boy Samuel hears God's voice in the night and grows up to be prophet and the last judge of Israel.",["Samuel","Eli","Hannah"]],
+ ["kingdom","c. 1050 BC","Saul Anointed King","1 Samuel 8–10","Israel demands a king like the nations. Samuel anoints Saul as the first king.",["Saul","Samuel"],1],
+ ["kingdom","c. 1025 BC","David and Goliath","1 Samuel 17","The shepherd David defeats the Philistine champion Goliath with a sling and a stone, trusting the Lord.",["David","Goliath","Saul"]],
+ ["kingdom","c. 1010 BC","David Becomes King","2 Samuel 2–5","After Saul's death David reigns, captures Jerusalem, and makes it his capital.",["David"],1],
+ ["kingdom","c. 1000 BC","Covenant with David","2 Samuel 7","God promises David a house and a throne that will last forever, pointing to the Messiah.",["David","Nathan"]],
+ ["kingdom","c. 966–959 BC","Solomon's Temple","1 Kings 6–8","King Solomon builds the temple in Jerusalem, and God's glory fills it at its dedication.",["Solomon"],1],
+
+ ["divided","931 BC","The Kingdom Divides","1 Kings 12","Solomon's son Rehoboam refuses to lighten the people's burden. Ten tribes form Israel in the north; Judah remains in the south.",["Rehoboam","Jeroboam"],1],
+ ["divided","c. 860 BC","Elijah on Mount Carmel","1 Kings 18","Elijah challenges 450 prophets of Baal. God answers with fire from heaven.",["Elijah","Ahab","Jezebel"]],
+ ["divided","c. 760 BC","Jonah and Nineveh","Jonah 1–4","After running from God and being swallowed by a great fish, Jonah preaches in Nineveh and the city repents.",["Jonah"]],
+ ["divided","c. 740 BC","Isaiah's Vision","Isaiah 6","Isaiah sees the Lord high and lifted up and is sent as a prophet. He foretells the suffering servant and a virgin-born king.",["Isaiah","Uzziah"]],
+ ["divided","722 BC","Fall of Samaria","2 Kings 17","Assyria conquers the northern kingdom of Israel and scatters its people.",["Hoshea"],1],
+ ["divided","701 BC","Hezekiah Delivered","2 Kings 18–19","Sennacherib of Assyria besieges Jerusalem. Hezekiah prays, and the Assyrian army is struck down.",["Hezekiah","Isaiah","Sennacherib"]],
+ ["divided","622 BC","Josiah's Reform","2 Kings 22–23","The Book of the Law is found in the temple. King Josiah tears down idols and renews the covenant.",["Josiah","Hilkiah"]],
+ ["divided","586 BC","Fall of Jerusalem","2 Kings 25","Babylon destroys Jerusalem and the temple and carries Judah into exile, as Jeremiah warned.",["Zedekiah","Nebuchadnezzar","Jeremiah"],1],
+
+ ["exile","605 BC","Daniel Taken to Babylon","Daniel 1–3","Daniel and his friends serve in Babylon's court, refusing to compromise. Three friends survive the fiery furnace.",["Daniel","Shadrach","Meshach","Abednego"]],
+ ["exile","c. 539 BC","Daniel in the Lions' Den","Daniel 6","Under the Persians, Daniel keeps praying despite a royal ban and is protected in the lions' den.",["Daniel","Darius"]],
+ ["exile","538 BC","Cyrus Lets the Exiles Return","Ezra 1","Cyrus of Persia decrees that the Jews may return home and rebuild the temple.",["Cyrus","Zerubbabel"],1],
+ ["exile","516 BC","Second Temple Completed","Ezra 6","Encouraged by Haggai and Zechariah, the returned exiles finish rebuilding the temple.",["Zerubbabel","Haggai","Zechariah"]],
+ ["exile","c. 480 BC","Queen Esther","Esther 1–10","Esther risks her life before the Persian king to save her people from Haman's plot. Purim remembers the rescue.",["Esther","Mordecai","Haman"]],
+ ["exile","458 BC","Ezra Teaches the Law","Ezra 7–10","The scribe Ezra returns to Jerusalem to teach God's Law and call the people back to faithfulness.",["Ezra"]],
+ ["exile","445 BC","Nehemiah Rebuilds the Walls","Nehemiah 1–6","Nehemiah leads the rebuilding of Jerusalem's walls in 52 days despite opposition.",["Nehemiah"]],
+ ["exile","c. 430 BC","Malachi","Malachi 1–4","The last Old Testament prophet calls for renewed faithfulness and foretells a messenger who will prepare the way of the Lord.",["Malachi"]],
+
+ ["silent","332 BC","Alexander Conquers Judea","Daniel 8 (foretold)","Alexander the Great takes the region, and Greek language and culture spread. The Hebrew scriptures are later translated into Greek (the Septuagint).",["Alexander"]],
+ ["silent","164 BC","Temple Rededicated","Not in the Protestant canon","After the Maccabean revolt against Antiochus IV, the temple is cleansed and rededicated, remembered at Hanukkah (John 10:22).",["Judas Maccabeus"]],
+ ["silent","63 BC","Rome Takes Jerusalem","Background to the Gospels","Pompey brings Judea under Roman rule. Herod the Great later rules as king under Rome.",["Pompey","Herod"]],
+
+ ["christ","c. 5 BC","Birth of John the Baptist","Luke 1","The angel Gabriel announces to Zechariah that his wife Elizabeth will bear a son to prepare the way for the Lord.",["Zechariah","Elizabeth","John"]],
+ ["christ","c. 5–4 BC","Birth of Jesus","Matthew 1–2; Luke 2","Jesus is born to the virgin Mary in Bethlehem. Shepherds and wise men come to worship Him.",["Jesus","Mary","Joseph"],1],
+ ["christ","c. AD 27","Baptism of Jesus","Matthew 3; Mark 1","John baptizes Jesus in the Jordan. The Spirit descends and the Father declares, \"This is my beloved Son.\"",["Jesus","John the Baptist"],1],
+ ["christ","c. AD 27","Temptation in the Wilderness","Matthew 4; Luke 4","Jesus fasts forty days and resists Satan's temptations by quoting scripture.",["Jesus"]],
+ ["christ","c. AD 28","Sermon on the Mount","Matthew 5–7","Jesus teaches the Beatitudes, the Lord's Prayer, and the way of life in God's kingdom.",["Jesus","The Twelve"]],
+ ["christ","c. AD 29","Feeding the 5,000","John 6; Mark 6","Jesus feeds a crowd of thousands with five loaves and two fish, then calls Himself the bread of life.",["Jesus","Andrew","Philip"]],
+ ["christ","c. AD 29","The Transfiguration","Matthew 17; Mark 9","On a mountain, Jesus shines with glory and speaks with Moses and Elijah before Peter, James, and John.",["Jesus","Peter","James","John"]],
+ ["christ","c. AD 30","Raising of Lazarus","John 11","Jesus calls Lazarus out of the tomb after four days: \"I am the resurrection and the life.\"",["Jesus","Lazarus","Mary","Martha"]],
+ ["christ","c. AD 30","Triumphal Entry","Matthew 21; John 12","Jesus rides into Jerusalem on a donkey as crowds wave palm branches and shout \"Hosanna.\"",["Jesus"]],
+ ["christ","c. AD 30","The Last Supper","Luke 22; John 13–17","At Passover Jesus washes His disciples' feet and gives the bread and cup as signs of the new covenant.",["Jesus","The Twelve","Judas"]],
+ ["christ","c. AD 30","The Crucifixion","Matthew 27; John 19","Betrayed and condemned, Jesus is crucified at Golgotha, bearing the sins of the world.",["Jesus","Pilate","Mary"],1],
+ ["christ","c. AD 30","The Resurrection","Matthew 28; John 20","On the third day the tomb is empty. Jesus appears to Mary Magdalene, the disciples, and many others.",["Jesus","Mary Magdalene","Thomas"],1],
+ ["christ","c. AD 30","Great Commission & Ascension","Matthew 28; Acts 1","Jesus sends His disciples to make disciples of all nations, then ascends into heaven.",["Jesus","The Eleven"]],
+
+ ["church","c. AD 30","Pentecost","Acts 2","The Holy Spirit comes on the disciples. Peter preaches and about 3,000 believe and are baptized. The church in Jerusalem begins, devoted to teaching, fellowship, the breaking of bread, and prayer.",["Peter","The Twelve"],1,"Jerusalem"],
+ ["church","c. AD 32","Stephen Martyred","Acts 6–7","Stephen, a deacon, is stoned for his testimony. Persecution scatters the church beyond Jerusalem.",["Stephen","Saul"]],
+ ["church","c. AD 33","Samaria Receives the Word","Acts 8:4–25","Philip preaches Christ in Samaria and many are baptized. Peter and John come down, and the Samaritan believers receive the Holy Spirit.",["Philip","Peter","John","Simon"],0,"Samaria"],
+ ["church","c. AD 34","Disciples in Damascus","Acts 9:1–25","Saul travels to arrest believers already living in Damascus. After his conversion, Ananias baptizes him and the disciples there help him escape over the wall.",["Ananias","Saul"],0,"Damascus",1],
+ ["church","c. AD 35","Conversion of Saul","Acts 9","On the road to Damascus, the persecutor Saul meets the risen Jesus and becomes the apostle Paul.",["Saul/Paul","Ananias"],1],
+ ["church","c. AD 38","Lydda and Joppa","Acts 9:31–43","The church grows across Judea, Galilee, and Samaria. Peter visits the saints at Lydda, heals Aeneas, and raises Tabitha (Dorcas) at Joppa.",["Peter","Aeneas","Tabitha"],0,"Lydda & Joppa",1],
+ ["church","c. AD 40","Gospel to the Gentiles","Acts 10","Peter preaches to the Roman centurion Cornelius, and the Spirit falls on Gentile believers in his household.",["Peter","Cornelius"],0,"Caesarea"],
+ ["church","c. AD 42–43","Church in Antioch","Acts 11:19–26","Believers scattered by persecution preach to Greeks in Antioch of Syria. Barnabas and Saul teach there a year, and the disciples are first called Christians. Antioch later sends out Paul's missions.",["Barnabas","Saul"],1,"Antioch of Syria"],
+ ["church","c. AD 47","Cyprus: Salamis and Paphos","Acts 13:4–12","On Paul's first journey, he and Barnabas preach across Cyprus. At Paphos the proconsul Sergius Paulus believes.",["Paul","Barnabas","John Mark","Sergius Paulus"],0,"Cyprus"],
+ ["church","c. AD 47","Pisidian Antioch","Acts 13:14–52","Paul preaches in the synagogue, then turns to the Gentiles. The word spreads through the region before persecution drives them out.",["Paul","Barnabas"],0,"Pisidian Antioch"],
+ ["church","c. AD 47","Iconium","Acts 14:1–7","A great number of Jews and Greeks believe, but the city divides and a plot to stone the apostles forces them to flee.",["Paul","Barnabas"],0,"Iconium"],
+ ["church","c. AD 48","Lystra and Derbe","Acts 14:8–23","Paul heals a lame man at Lystra and is later stoned and left for dead. Many believe in Derbe. On the way back, Paul and Barnabas appoint elders in every church.",["Paul","Barnabas"],0,"Lystra & Derbe"],
+ ["church","c. AD 49","Jerusalem Council","Acts 15","Church leaders agree that Gentiles are saved by grace through faith without keeping the law of Moses.",["James","Peter","Paul"]],
+ ["church","c. AD 49–50","Philippi","Acts 16:11–40","On Paul's second journey, a vision calls him to Macedonia. Lydia and her household believe, and later the Philippian jailer. This is the first church in Europe.",["Paul","Silas","Lydia","Timothy"],1,"Philippi"],
+ ["church","c. AD 50","Thessalonica","Acts 17:1–9","Over three Sabbaths Paul reasons from the scriptures. Some Jews, many God-fearing Greeks, and leading women believe before a mob drives Paul out.",["Paul","Silas","Jason"],0,"Thessalonica"],
+ ["church","c. AD 50","Berea","Acts 17:10–15","The Bereans receive the word eagerly and examine the scriptures daily to see if these things are so. Many believe.",["Paul","Silas","Timothy"],0,"Berea"],
+ ["church","c. AD 50","Athens","Acts 17:16–34","Paul speaks at the Areopagus about the unknown god. A few believe, including Dionysius and a woman named Damaris.",["Paul","Dionysius","Damaris"],0,"Athens"],
+ ["church","c. AD 50–52","Corinth","Acts 18:1–18","Paul stays eighteen months, working with Priscilla and Aquila. Crispus the synagogue ruler and many Corinthians believe and are baptized.",["Paul","Priscilla","Aquila","Crispus"],1,"Corinth"],
+ ["church","c. AD 52–55","Ephesus","Acts 18:19–21; 19:1–20","After a brief first visit, Paul returns on his third journey and teaches for about three years. The word spreads through all of Asia, and new believers burn their magic books.",["Paul","Apollos","Priscilla","Aquila"],1,"Ephesus"],
+ ["church","c. AD 57","Troas","Acts 20:6–12","Paul meets with the believers on the first day of the week to break bread. Eutychus falls from a window during the long sermon and is raised.",["Paul","Eutychus"],0,"Troas"],
+ ["church","c. AD 57","Tyre and Ptolemais","Acts 21:3–7","Heading to Jerusalem, Paul stays a week with the disciples at Tyre, who pray with him on the beach, then greets the believers at Ptolemais.",["Paul","Luke"],0,"Tyre & Ptolemais",1],
+ ["church","c. AD 60–62","Paul in Rome","Acts 28:13–31","Believers at Puteoli and Rome come out to meet Paul. He preaches the kingdom of God openly while under house arrest for two years.",["Paul","Luke"],0,"Puteoli & Rome",1],
+ ["church","c. AD 95","Revelation to John","Revelation 1–22","Exiled on Patmos, John receives visions of the risen Christ, His final victory, and the new heaven and new earth.",["John"],1]
+].map((e,i)=>({id:i,era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],people:e[5],key:!!e[6],church:e[7]||null,existing:!!e[8]}));
+
+const eraById=Object.fromEntries(ERAS.map(e=>[e.id,e]));
+const state={q:"",t:"all",churches:false,open:new Set()};
+const $=s=>document.querySelector(s);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hi=(s)=>{const t=esc(s);if(!state.q)return t;const q=state.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp("("+q+")","ig"),"<mark>$1</mark>")};
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref.split(";")[0].replace(/\s*\(.*\)/,""))+"&version=ESV";
+
+// overview band, proportional for dated eras (2100 BC → AD 100)
+const band=$("#band");
+ERAS.filter(e=>e.from!==null).forEach(e=>{
+  const b=document.createElement("button");
+  b.type="button";b.style.flex=String(e.to-e.from);b.style.background=e.color;
+  b.title=e.name+" ("+e.span+")";b.setAttribute("aria-label","Jump to "+e.name);
+  b.textContent=(e.to-e.from)>250?e.name:"";
+  b.onclick=()=>jump(e.id);band.appendChild(b);
+});
+
+const chips=$("#chips");
+function renderChips(){
+  chips.innerHTML="";
+  ERAS.filter(e=>state.t==="all"||e.t===state.t).forEach(e=>{
+    const c=document.createElement("button");c.type="button";c.className="chip";c.setAttribute("aria-pressed","false");
+    c.innerHTML='<span class="dot" style="background:'+e.color+'"></span>'+esc(e.name);
+    c.onclick=()=>jump(e.id);chips.appendChild(c);
+  });
+}
+function jump(id){
+  if(state.t!=="all"&&eraById[id].t!==state.t)setT("all");
+  const el=document.getElementById("era-"+id);
+  if(el)el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+}
+
+function matches(e){
+  if(state.t!=="all"&&eraById[e.era].t!==state.t)return false;
+  if(state.churches&&!e.church)return false;
+  if(!state.q)return true;
+  const q=state.q.toLowerCase();
+  return [e.title,e.ref,e.summary,e.date,e.church||"",...e.people].join(" ").toLowerCase().includes(q);
+}
+
+function render(){
+  const tl=$("#timeline");let html="",n=0;
+  ERAS.forEach(era=>{
+    const list=EV.filter(e=>e.era===era.id&&matches(e));
+    if(!list.length)return;n+=list.length;
+    html+='<section class="era" id="era-'+era.id+'" style="--era:'+era.color+'">'+
+      '<div class="era-head"><h2>'+esc(era.name)+'</h2><span class="span">'+esc(era.span)+'</span><span class="books">'+esc(era.books)+'</span></div>'+
+      (state.q||state.churches?'':'<p class="era-intro">'+esc(era.intro)+'</p>')+'<ol class="events">';
+    list.forEach(e=>{
+      const open=state.open.has(e.id)||(!!state.q&&list.length<=3);
+      const tag=e.church?'<span class="plant'+(e.existing?' existing':'')+'">'+(e.existing?'Church already there':'Church planted')+' · '+hi(e.church)+'</span>':'';
+      html+='<li class="ev'+(e.key?' key':'')+(e.church?' is-church':'')+(open?' open':'')+'">'+
+        '<button type="button" class="head" data-id="'+e.id+'" aria-expanded="'+open+'" aria-controls="d'+e.id+'">'+
+        '<span class="date">'+esc(e.date)+'</span><span class="title">'+hi(e.title)+tag+'</span><span class="ref">'+hi(e.ref)+'</span></button>'+
+        '<div class="detail" id="d'+e.id+'"'+(open?'':' hidden')+'><p>'+hi(e.summary)+'</p>'+
+        (e.people.length?'<div class="people">'+e.people.map(p=>'<span>'+hi(p)+'</span>').join("")+'</div>':'')+
+        (/^[1-3]?\s?[A-Z][a-z]+ \d/.test(e.ref)?'<a href="'+gw(e.ref)+'" target="_blank" rel="noopener">Read '+esc(e.ref.split(";")[0])+' →</a>':'')+
+        '</div></li>';
+    });
+    html+='</ol></section>';
+  });
+  tl.innerHTML=html;
+  $("#empty").hidden=n>0;
+  $("#count").textContent=n+" of "+EV.length+" events"+(state.churches?" (churches in Acts)":"")+(state.q?' matching "'+state.q+'"':"");
+}
+$("#churchToggle").addEventListener("click",e=>{
+  state.churches=!state.churches;e.currentTarget.setAttribute("aria-pressed",state.churches);
+  if(state.churches&&state.t==="OT")setT("all");else render();
+  if(state.churches)document.getElementById("era-church")?.scrollIntoView({block:"start"});
+});
+
+$("#timeline").addEventListener("click",ev=>{
+  const b=ev.target.closest("button.head");if(!b)return;
+  const id=+b.dataset.id,li=b.parentElement,d=li.querySelector(".detail");
+  const open=d.hidden;d.hidden=!open;li.classList.toggle("open",open);b.setAttribute("aria-expanded",open);
+  open?state.open.add(id):state.open.delete(id);
+});
+$("#q").addEventListener("input",e=>{state.q=e.target.value.trim();render()});
+function setT(t){
+  state.t=t;document.querySelectorAll(".seg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.t===t));
+  renderChips();render();
+}
+document.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>setT(b.dataset.t));
+
+renderChips();render();
+</script>
+</body>
+</html>
