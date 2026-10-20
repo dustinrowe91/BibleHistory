@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Bible Story Timeline</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,6 +112,12 @@ footer{margin-top:48px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 .ev{scroll-margin-top:190px}
 .ev.flash>button.head{background:var(--ochre-soft)}
 mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.now{font-family:var(--ui);font-size:13px;font-weight:700;color:var(--ink);display:flex;gap:6px;align-items:center;margin-left:auto}
+.now .dot{width:8px;height:8px;border-radius:50%}
+.empty p{margin:0 0 10px}
+.empty .toggle{display:inline-flex}
 
 @media (max-width:560px){
   .ev button.head{grid-template-columns:1fr;gap:2px}
@@ -125,7 +132,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="word-and-deed.html">Word and Deed</a></nav>
+<a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">Genesis to Revelation</div>
   <h1>The Story of Scripture</h1>
@@ -148,13 +155,15 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
   </div>
   <div class="chips" id="chips" role="group" aria-label="Jump to era"></div>
   <div class="row">
-    <button type="button" class="toggle" id="churchToggle" aria-pressed="false"><span class="diamond" aria-hidden="true"></span>Churches in Acts only</button>
+    Churches in Acts only</button>
+    <button type="button" class="toggle" id="expandBtn">Expand all</button>
     <span class="count" id="count"></span>
+    <span class="now" id="now" hidden></span>
   </div>
 </div>
 
 <main id="timeline"></main>
-<p class="empty" id="empty" hidden>No events match that search.</p>
+<div class="empty" id="empty" hidden><p>No events match these filters.</p><button type="button" class="toggle" id="clearBtn">Clear search and filters</button></div>
 
 <footer>Dates follow a common conservative chronology (including the early Exodus date, c. 1446 BC) and are approximate; events before Abraham are left undated. Filled markers show turning points in the story; diamonds mark churches named in Acts. "Church already there" means Acts mentions believers in that city without recording how the church began.</footer>
 </div>
@@ -353,7 +362,37 @@ function render(){
   tl.innerHTML=html;
   $("#empty").hidden=n>0;
   $("#count").textContent=n+" of "+EV.length+" events"+(state.churches?" (churches in Acts)":"")+(state.q?' matching "'+state.q+'"':"");
+  const eb=$("#expandBtn");eb.hidden=n===0;eb.textContent=allOpen()?"Collapse all":"Expand all";
+  updateNow();
 }
+function allOpen(){return tlButtons().every(b=>b.getAttribute("aria-expanded")==="true")}
+function tlButtons(){return [...document.querySelectorAll("#timeline button.head")]}
+$("#expandBtn").addEventListener("click",()=>{
+  const open=!allOpen();
+  tlButtons().forEach(b=>{const id=+b.dataset.id;open?state.open.add(id):state.open.delete(id)});
+  if(!open)tlButtons().forEach(b=>{b.setAttribute("aria-expanded","false");b.nextElementSibling.hidden=true;b.parentElement.classList.remove("open")});
+  else render();
+  $("#expandBtn").textContent=open?"Collapse all":"Expand all";
+});
+$("#clearBtn").addEventListener("click",()=>{
+  state.q="";$("#q").value="";state.churches=false;$("#churchToggle").setAttribute("aria-pressed","false");
+  setT("all");$("#q").focus();
+});
+function updateNow(){
+  const now=$("#now"),edge=$(".controls").getBoundingClientRect().bottom+8;
+  let cur=null;
+  document.querySelectorAll("#timeline .era").forEach(s=>{if(s.getBoundingClientRect().top<=edge)cur=s});
+  if(!cur){now.hidden=true;return}
+  const era=eraById[cur.id.slice(4)];
+  now.innerHTML='<span class="dot" style="background:'+era.color+'"></span>'+esc(era.name);now.hidden=false;
+}
+let nowTick=false;
+addEventListener("scroll",()=>{if(nowTick)return;nowTick=true;requestAnimationFrame(()=>{nowTick=false;updateNow()})},{passive:true});
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.textContent=d?"\u2600 Light":"\u263E Dark";themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
 $("#churchToggle").addEventListener("click",e=>{
   state.churches=!state.churches;e.currentTarget.setAttribute("aria-pressed",state.churches);
   if(state.churches&&state.t==="OT")setT("all");else render();
@@ -365,6 +404,7 @@ $("#timeline").addEventListener("click",ev=>{
   const id=+b.dataset.id,li=b.parentElement,d=li.querySelector(".detail");
   const open=d.hidden;d.hidden=!open;li.classList.toggle("open",open);b.setAttribute("aria-expanded",open);
   open?state.open.add(id):state.open.delete(id);
+  $("#expandBtn").textContent=allOpen()?"Collapse all":"Expand all";
 });
 $("#q").addEventListener("input",e=>{state.q=e.target.value.trim();render()});
 function setT(t){
