@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Kings and Prophets</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: one row per king or prophet on a shared, zoomable time axis (same engine as the Books page). Bars take the Bible's verdict on each king; prophets are lapis. Selecting anyone lights up everyone who lived at the same time. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6;
+  --good:#3f7a4a; --mixed:#a8701a; --evil:#b0313e; --prophet:#2747a3; --none:#5b6b8c;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+  --lab:150px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17;
+  --good:#4f9a5d; --mixed:#c58a2a; --evil:#c94451; --prophet:#4d6fd0; --none:#6b7ba0; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17;
+  --good:#4f9a5d; --mixed:#c58a2a; --evil:#c94451; --prophet:#4d6fd0; --none:#6b7ba0; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1100px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:hover{border-color:var(--muted)}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* controls */
+.controls{display:flex;flex-direction:column;gap:10px;padding-block:4px 14px;font-family:var(--ui)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);min-width:4.2rem}
+.search{flex:1 1 200px;min-width:0;font:inherit;font-family:var(--ui);font-size:15px;padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search:focus-visible{outline:2px solid var(--lapis);outline-offset:1px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{font-family:var(--ui);font-size:14px;font-weight:500;border:0;background:none;color:var(--muted);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--lapis);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--ochre);outline-offset:-2px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{flex:none;font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:5px 10px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip:hover{border-color:var(--muted)}
+.chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.chip[aria-pressed="true"] .dot{box-shadow:0 0 0 1.5px var(--surface)}
+.chip:focus-visible,.zbtn:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.zbtn{font-family:var(--ui);font-size:15px;font-weight:700;min-width:34px;height:32px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;cursor:pointer;padding:0 10px}
+.zbtn:hover{border-color:var(--muted)}
+.hint{font-size:13px;color:var(--muted)}
+.range{font-size:13px;font-weight:700;color:var(--ochre);font-variant-numeric:tabular-nums;margin-left:auto}
+
+/* chart */
+.chart{position:relative;font-family:var(--ui);touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:grab}
+.chart.dragging{cursor:grabbing}
+.head{position:sticky;top:env(safe-area-inset-top,0px);z-index:4;background:var(--bg);display:grid;grid-template-columns:var(--lab) minmax(0,1fr);border-bottom:1px solid var(--line)}
+.head .corner{font-size:11px;color:var(--muted);align-self:end;padding:0 8px 6px 0;line-height:1.3}
+.track{position:relative;overflow:hidden;min-width:0}
+.evband{height:24px;margin-top:8px}
+.evband a{position:absolute;top:2px;font-size:11.5px;font-weight:700;color:var(--ink);text-decoration:none;white-space:nowrap;padding-left:9px;line-height:20px}
+.evband a::before{content:"";position:absolute;left:0;top:6px;width:7px;height:7px;background:var(--ochre);transform:rotate(45deg)}
+.evband a:hover{color:var(--lapis);text-decoration:underline}
+.evband a:focus-visible{outline:2px solid var(--ochre)}
+.ticks{height:26px}
+.ticks span{position:absolute;bottom:5px;transform:translateX(-50%);font-size:12px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ticks span::after{content:"";position:absolute;left:50%;bottom:-5px;height:4px;width:1px;background:var(--line)}
+.body{position:relative}
+.bg{position:absolute;top:0;bottom:0;left:var(--lab);right:0;overflow:hidden;pointer-events:none}
+.bg .grid{position:absolute;top:0;bottom:0;width:1px;background:var(--line);opacity:.7}
+.bg .evl{position:absolute;top:0;bottom:0;width:0;border-left:1px dashed var(--ochre);opacity:.55}
+.bg .selband{position:absolute;top:0;bottom:0;background:var(--ochre-soft);opacity:.8}
+.grp{position:relative;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:14px 0 4px}
+.brow{position:relative;display:grid;grid-template-columns:var(--lab) minmax(0,1fr);align-items:center;min-height:30px;transition:opacity .15s}
+.brow:hover .bname{color:var(--lapis)}
+.chart.focus .brow.dim{opacity:.28}
+.bname{font-family:var(--body);font-weight:600;font-size:16px;text-align:left;background:none;border:0;color:var(--ink);padding:3px 8px 3px 0;cursor:pointer;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-feature-settings:"lnum";display:flex;gap:6px;align-items:baseline}
+.bname small{font-family:var(--ui);font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.bname:focus-visible,.bar:focus-visible{outline:2px solid var(--ochre);outline-offset:1px}
+.brow .track{height:30px}
+.bar{position:absolute;top:6px;height:18px;border:0;border-radius:4px;padding:0;cursor:pointer;min-width:4px;background:var(--c);overflow:hidden}
+.bar .co{position:absolute;left:0;top:0;bottom:0;background:repeating-linear-gradient(135deg,transparent 0 5px,color-mix(in srgb,var(--bg) 55%,transparent) 5px 9px)}
+.bar.approx{background:repeating-linear-gradient(135deg,var(--c) 0 6px,color-mix(in srgb,var(--c) 70%,var(--bg)) 6px 10px)}
+.bar:hover{filter:brightness(1.12)}
+.brow.sel .bar{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--ink)}
+.blabel{position:absolute;top:6px;line-height:18px;font-size:12px;font-weight:700;white-space:nowrap;pointer-events:none;font-variant-numeric:tabular-nums}
+.blabel.in{color:#fff;padding-left:7px}
+.blabel.out{color:var(--muted)}
+.detail{grid-column:1/-1;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:2px 0 8px;font-family:var(--body);position:relative;z-index:1;cursor:auto;user-select:text;-webkit-user-select:text}
+.detail p{margin:0 0 8px;max-width:70ch}
+.detail .verdict{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.detail dl{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;margin:0 0 10px;font-family:var(--ui);font-size:14px}
+.detail dt{color:var(--muted);font-weight:700}
+.detail dd{margin:0}
+.detail dd button{font:inherit;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer;font-weight:500}
+.detail dd button:hover{text-decoration:underline}
+.detail .acts{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;font-family:var(--ui);font-size:14px}
+.detail a{font-weight:700;color:var(--lapis);text-decoration:none}
+.detail a:hover{text-decoration:underline}
+.detail button.link{font:inherit;font-weight:700;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer}
+.detail button.link:hover{text-decoration:underline}
+.detail :focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.empty{margin-top:30px;color:var(--muted);text-align:center;font-family:var(--ui)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--ui);font-size:13px;color:var(--muted);margin-top:18px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:22px;height:10px;border-radius:2px}
+.legend i.co{background:repeating-linear-gradient(135deg,var(--muted) 0 3px,transparent 3px 6px);border:1px solid var(--muted)}
+.legend i.ev{width:9px;height:9px;background:var(--ochre);transform:rotate(45deg);border-radius:1px}
+footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:560px){
+  :root{--lab:104px}
+  .bname{font-size:14px;flex-direction:column;gap:0;line-height:1.1}
+  .bname small{font-size:9.5px}
+  .brow,.brow .track{min-height:34px;height:auto}
+  .brow .track{height:34px}
+  .bar,.blabel{top:8px}
+  .range{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings &amp; Prophets</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<header>
+  <div class="eyebrow">1 Samuel to 2 Kings and 2 Chronicles</div>
+  <h1>Kings and Prophets</h1>
+  <p class="lede">Every king of Israel and Judah, and the prophets God sent to them. Tap anyone to see who else lived at the same time, along with the Bible's verdict on each king and the passages to read.</p>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input id="q" class="search" type="search" placeholder="Find a king or prophet…" aria-label="Find a king or prophet">
+    <div class="seg" role="group" aria-label="Order">
+      <button type="button" data-sort="group" aria-pressed="true">By kingdom</button>
+      <button type="button" data-sort="date" aria-pressed="false">All by date</button>
+    </div>
+  </div>
+  <div class="row"><span class="lbl">Show</span><div class="chips" id="groups" role="group" aria-label="Groups"></div></div>
+  <div class="row"><span class="lbl">Kings</span><div class="chips" id="verdicts" role="group" aria-label="Kings by verdict"></div></div>
+  <div class="row"><span class="lbl">Zoom</span>
+    <button type="button" class="zbtn" id="zOut" aria-label="Zoom out">−</button>
+    <button type="button" class="zbtn" id="zIn" aria-label="Zoom in">+</button>
+    <button type="button" class="zbtn" id="zFit">Fit to rows shown</button>
+    <span class="range" id="range" aria-live="polite"></span>
+  </div>
+  <div class="row"><span class="lbl">Jump to</span><div class="chips" id="presets"></div></div>
+</div>
+
+<div class="chart" id="chart">
+  <div class="head">
+    <div class="corner" id="count"></div>
+    <div><div class="track evband" id="evband"></div><div class="track ticks" id="ticks"></div></div>
+  </div>
+  <div class="body" id="body"><div class="bg" id="bg"></div><div id="rows"></div></div>
+</div>
+<div class="empty" id="empty" hidden><p>No one matches.</p><button type="button" class="chip" id="clearBtn">Show everyone</button></div>
+
+<div class="legend" aria-hidden="true">
+  <span><i style="background:var(--good)"></i>Did what was right</span>
+  <span><i style="background:var(--mixed)"></i>Mixed record</span>
+  <span><i style="background:var(--evil)"></i>Did evil</span>
+  <span><i style="background:var(--prophet)"></i>Prophet</span>
+  <span><i class="co"></i>Co-reign or rival reign</span>
+  <span><i class="ev"></i>Key event (links to the timeline)</span>
+</div>
+
+<footer>Reign dates follow Edwin Thiele's chronology, used in most conservative study Bibles, which counts co-reigns (a son ruling alongside his father) and so explains how the Bible's reign lengths fit together. The verdicts are the Bible's own, from the formula "he did what was right" or "he did evil in the sight of the LORD." Prophets' dates are the approximate span of their ministry. Drag sideways to move through time; pinch, Ctrl or ⌘ + scroll, double-click, or the buttons zoom.</footer>
+</div>
+
+<script>
+const GROUPS=[
+ {id:"united",name:"United Kingdom",short:"United"},
+ {id:"israel",name:"Israel (north)",short:"Israel"},
+ {id:"judah",name:"Judah (south)",short:"Judah"},
+ {id:"prophet",name:"Prophets",short:"Prophet"}
+];
+const VERDICTS={good:"Did what was right",mixed:"Mixed record",evil:"Did evil",prophet:"Prophet"};
+const VCOLOR={good:"var(--good)",mixed:"var(--mixed)",evil:"var(--evil)",prophet:"var(--prophet)"};
+// Years BC as negatives. [name, group, from (incl. co-reign), sole reign from (null = same), to, verdict, stated reign or "to whom", passages, summary, flags, books page link]
+// flags: u = dates approximate
+const DATA=[
+ ["Saul","united",-1050,null,-1010,"mixed","40 years (Acts 13:21)","1 Samuel 9–31","Israel's first king. He began well but was rejected for disobeying God, and died in battle with the Philistines on Mount Gilboa."],
+ ["David","united",-1010,null,-970,"good","40 years: 7½ in Hebron, 33 in Jerusalem","2 Samuel 1–24; 1 Chronicles 11–29","The shepherd king and man after God's own heart. God promised him a throne that would last forever, fulfilled in Christ."],
+ ["Solomon","united",-970,null,-931,"mixed","40 years","1 Kings 1–11; 2 Chronicles 1–9","Famed for wisdom, he built the temple. In old age his foreign wives turned his heart to other gods, and God promised to tear the kingdom in two."],
+
+ ["Jeroboam I","israel",-931,null,-910,"evil","22 years","1 Kings 12:25–14:20","Led the ten northern tribes away from Judah and set up golden calves at Bethel and Dan. Every later king of Israel is measured against his sin."],
+ ["Nadab","israel",-910,null,-909,"evil","2 years","1 Kings 15:25–31","Jeroboam's son, assassinated by Baasha, who wiped out Jeroboam's family."],
+ ["Baasha","israel",-909,null,-886,"evil","24 years","1 Kings 15:32–16:7","Seized the throne by murder and warred with Asa of Judah. The prophet Jehu son of Hanani announced judgment on his house."],
+ ["Elah","israel",-886,null,-885,"evil","2 years","1 Kings 16:8–14","Killed while drunk by Zimri, one of his chariot commanders."],
+ ["Zimri","israel",-885,null,-885,"evil","7 days","1 Kings 16:15–20","Reigned seven days, then burned the palace over himself when Omri's army besieged him."],
+ ["Omri","israel",-885,-880,-874,"evil","12 years (rival Tibni until 880)","1 Kings 16:21–28","A powerful king who founded Samaria as Israel's capital. Assyrian records called Israel \"the land of Omri\" long after him."],
+ ["Ahab","israel",-874,null,-853,"evil","22 years","1 Kings 16:29–22:40","With his wife Jezebel he promoted Baal worship and opposed Elijah. He died in battle at Ramoth-gilead, as Micaiah foretold."],
+ ["Ahaziah","israel",-853,null,-852,"evil","2 years","1 Kings 22:51–2 Kings 1:18","Ahab's son. Injured in a fall, he sent to ask Baal-zebub whether he would recover, and Elijah announced his death."],
+ ["Joram","israel",-852,null,-841,"evil","12 years","2 Kings 3:1–27; 9:14–26","Also called Jehoram. He removed Baal's pillar but kept Jeroboam's calves, and was killed by Jehu."],
+ ["Jehu","israel",-841,null,-814,"mixed","28 years","2 Kings 9–10","Anointed by Elisha's servant, he wiped out Ahab's house and Baal worship, but kept the golden calves."],
+ ["Jehoahaz","israel",-814,null,-798,"evil","17 years","2 Kings 13:1–9","Oppressed by Aram, he sought the LORD, and God gave Israel a deliverer."],
+ ["Jehoash","israel",-798,null,-782,"evil","16 years","2 Kings 13:10–25; 14:8–16","Also called Joash. He wept at Elisha's deathbed, defeated Aram three times, and plundered Jerusalem."],
+ ["Jeroboam II","israel",-793,-782,-753,"evil","41 years","2 Kings 14:23–29","Israel's most prosperous king after Solomon, restoring its borders as Jonah foretold. Amos and Hosea condemned the injustice of his day."],
+ ["Zechariah","israel",-753,null,-753,"evil","6 months","2 Kings 15:8–12","The last of Jehu's dynasty, assassinated in public by Shallum."],
+ ["Shallum","israel",-752,null,-752,"evil","1 month","2 Kings 15:13–15","Reigned one month before Menahem killed him."],
+ ["Menahem","israel",-752,null,-742,"evil","10 years","2 Kings 15:16–22","A brutal king who paid heavy tribute to Tiglath-pileser (Pul) of Assyria to keep his throne."],
+ ["Pekahiah","israel",-742,null,-740,"evil","2 years","2 Kings 15:23–26","Menahem's son, assassinated by his officer Pekah."],
+ ["Pekah","israel",-752,-740,-732,"evil","20 years, counted from a rival reign","2 Kings 15:27–31; Isaiah 7","Allied with Aram against Judah, which led Ahaz to call on Assyria. Assyria took much of Israel's land, and Hoshea killed him."],
+ ["Hoshea","israel",-732,null,-722,"evil","9 years","2 Kings 17:1–41","Israel's last king. He rebelled against Assyria, Samaria fell after a three-year siege, and the people were carried into exile."],
+
+ ["Rehoboam","judah",-931,null,-913,"evil","17 years","1 Kings 12:1–24; 14:21–31; 2 Chronicles 10–12","Solomon's son. His harsh answer split the kingdom, and in his fifth year Shishak of Egypt plundered Jerusalem."],
+ ["Abijah","judah",-913,null,-911,"evil","3 years","1 Kings 15:1–8; 2 Chronicles 13","Also called Abijam. He defeated Jeroboam in battle after calling on the LORD."],
+ ["Asa","judah",-911,null,-870,"good","41 years","1 Kings 15:9–24; 2 Chronicles 14–16","Removed idols and deposed his grandmother for her Asherah pole. Late in life he relied on Aram and on physicians rather than the LORD."],
+ ["Jehoshaphat","judah",-873,-870,-848,"good","25 years","1 Kings 22:1–50; 2 Chronicles 17–20","Sent officials to teach the Law throughout Judah and trusted God against a great invading army, but allied himself with Ahab's house."],
+ ["Jehoram","judah",-853,-848,-841,"evil","8 years","2 Kings 8:16–24; 2 Chronicles 21","Married Ahab's daughter Athaliah and murdered his brothers. Edom revolted, and he died of a painful disease."],
+ ["Ahaziah","judah",-841,null,-841,"evil","1 year","2 Kings 8:25–29; 9:27–29; 2 Chronicles 22:1–9","Followed the ways of Ahab's house and was killed by Jehu while visiting Joram of Israel."],
+ ["Athaliah","judah",-841,null,-835,"evil","6 years","2 Kings 11; 2 Chronicles 22:10–23:21","Ahab's daughter seized the throne and tried to destroy the royal line of David. The infant Joash was hidden in the temple and later crowned."],
+ ["Joash","judah",-835,null,-796,"mixed","40 years","2 Kings 11:21–12:21; 2 Chronicles 24","Crowned at seven, he repaired the temple while the priest Jehoiada guided him. After Jehoiada died he turned to idols and had Jehoiada's son Zechariah stoned."],
+ ["Amaziah","judah",-796,null,-767,"mixed","29 years","2 Kings 14:1–20; 2 Chronicles 25","Did right, \"but not with a whole heart.\" He brought back Edom's gods after defeating Edom, and lost a reckless war with Israel."],
+ ["Uzziah","judah",-792,-767,-740,"good","52 years","2 Kings 15:1–7; 2 Chronicles 26; Isaiah 6","Also called Azariah. A strong and prosperous king until pride led him to burn incense in the temple, and he was struck with leprosy. Isaiah saw the Lord the year he died."],
+ ["Jotham","judah",-750,-740,-732,"good","16 years","2 Kings 15:32–38; 2 Chronicles 27","Ruled for his leprous father, then reigned well, though the people still acted corruptly."],
+ ["Ahaz","judah",-735,-732,-715,"evil","16 years","2 Kings 16; 2 Chronicles 28; Isaiah 7","Sacrificed his own son and refused Isaiah's sign of Immanuel, turning to Assyria for help instead. He copied a pagan altar for the temple."],
+ ["Hezekiah","judah",-729,-715,-686,"good","29 years, counted from 715 (2 Kings 18:1 dates his start to Hoshea's third year)","2 Kings 18–20; 2 Chronicles 29–32; Isaiah 36–39","Trusted the LORD like no king before or after him. He cleansed the temple, restored Passover, and saw Jerusalem delivered from Sennacherib."],
+ ["Manasseh","judah",-697,-686,-642,"evil","55 years","2 Kings 21:1–18; 2 Chronicles 33:1–20","Judah's most wicked king, who filled Jerusalem with idols and innocent blood. Taken captive to Babylon, he humbled himself and God restored him."],
+ ["Amon","judah",-642,null,-640,"evil","2 years","2 Kings 21:19–26; 2 Chronicles 33:21–25","Followed his father's idolatry without his repentance, and was assassinated by his servants."],
+ ["Josiah","judah",-640,null,-609,"good","31 years","2 Kings 22–23; 2 Chronicles 34–35","Became king at eight. When the Book of the Law was found in the temple, he led the greatest reform in Judah's history. He died in battle against Pharaoh Neco at Megiddo."],
+ ["Jehoahaz","judah",-609,null,-609,"evil","3 months","2 Kings 23:31–34; 2 Chronicles 36:1–4","Also called Shallum. Deposed by Pharaoh Neco after three months and taken to Egypt, where he died."],
+ ["Jehoiakim","judah",-609,null,-598,"evil","11 years","2 Kings 23:34–24:7; 2 Chronicles 36:5–8; Jeremiah 36","Placed on the throne by Egypt, he became Babylon's vassal. He cut up and burned Jeremiah's scroll."],
+ ["Jehoiachin","judah",-598,null,-597,"evil","3 months","2 Kings 24:8–17; 25:27–30","Also called Jeconiah. Taken to Babylon with Ezekiel and thousands more in 597, he was released from prison 37 years later."],
+ ["Zedekiah","judah",-597,null,-586,"evil","11 years","2 Kings 24:18–25:7; 2 Chronicles 36:11–21; Jeremiah 52","Judah's last king. He ignored Jeremiah and rebelled against Babylon. Jerusalem and the temple were destroyed, and he was blinded and taken to Babylon."],
+
+ ["Samuel","prophet",-1075,null,-1012,"prophet","Israel","1 Samuel 3–25","The last judge and first of the prophets. He anointed both Saul and David.",""],
+ ["Nathan","prophet",-1003,null,-970,"prophet","David and Solomon","2 Samuel 7; 12; 1 Kings 1","Brought God's covenant promise to David, confronted him over Bathsheba, and helped secure Solomon's succession.","u"],
+ ["Ahijah","prophet",-935,null,-910,"prophet","Jeroboam I","1 Kings 11:29–39; 14:1–18","Tore his cloak into twelve pieces to show Jeroboam he would rule ten tribes, then foretold the end of Jeroboam's house.","u"],
+ ["Elijah","prophet",-865,null,-852,"prophet","Israel, under Ahab","1 Kings 17–2 Kings 2","Announced a drought, defeated the prophets of Baal on Mount Carmel, and was taken to heaven in a whirlwind.","u"],
+ ["Micaiah","prophet",-853,null,-853,"prophet","Ahab and Jehoshaphat","1 Kings 22","The one prophet who would not tell Ahab what he wanted to hear, and foretold his death at Ramoth-gilead."],
+ ["Elisha","prophet",-852,null,-797,"prophet","Israel","2 Kings 2–13","Elijah's successor, with a double portion of his spirit. He healed Naaman, raised a boy from the dead, and saw the hills full of chariots of fire.","u"],
+ ["Joel","prophet",-835,null,-796,"prophet","Judah","Joel 1–3","Foretold the day of the LORD and the Spirit poured out on all flesh. His date is debated.","u","Joel"],
+ ["Jonah","prophet",-785,null,-760,"prophet","Israel and Nineveh","2 Kings 14:25; Jonah 1–4","Foretold Jeroboam II's victories, then was sent to preach to Nineveh, which repented.","u","Jonah"],
+ ["Amos","prophet",-760,null,-750,"prophet","Israel","Amos 1–9","A shepherd from Tekoa sent north to denounce injustice in Israel's days of prosperity.","u","Amos"],
+ ["Hosea","prophet",-755,null,-715,"prophet","Israel","Hosea 1–14","His marriage to an unfaithful wife pictured God's faithful love for unfaithful Israel, up to the eve of its fall.","u","Hosea"],
+ ["Isaiah","prophet",-740,null,-681,"prophet","Judah, under Uzziah to Hezekiah","Isaiah 1–66; 2 Kings 19–20","Saw the Lord high and lifted up, offered Ahaz the sign of Immanuel, and stood with Hezekiah against Assyria.","","Isaiah"],
+ ["Micah","prophet",-735,null,-700,"prophet","Judah and Israel","Micah 1–7","Condemned the leaders of both kingdoms and foretold a ruler from Bethlehem. Jeremiah 26:18 says Hezekiah heeded him.","u","Micah"],
+ ["Nahum","prophet",-660,null,-640,"prophet","Nineveh","Nahum 1–3","Foretold the fall of Nineveh, about a century after Jonah.","u","Nahum"],
+ ["Zephaniah","prophet",-640,null,-621,"prophet","Judah, under Josiah","Zephaniah 1–3","A descendant of Hezekiah who warned of the day of the LORD early in Josiah's reign.","u","Zephaniah"],
+ ["Huldah","prophet",-622,null,-622,"prophet","Josiah","2 Kings 22:14–20; 2 Chronicles 34:22–28","The prophetess Josiah consulted when the Book of the Law was found. She confirmed both the coming judgment and God's mercy to Josiah."],
+ ["Jeremiah","prophet",-627,null,-582,"prophet","Judah, under Josiah to Zedekiah","Jeremiah 1–52","The weeping prophet. For forty years he warned of Babylon, was beaten and imprisoned, and promised a new covenant.","","Jeremiah"],
+ ["Habakkuk","prophet",-609,null,-605,"prophet","Judah","Habakkuk 1–3","Asked how God could use wicked Babylon, and was told: the righteous shall live by his faith.","u","Habakkuk"],
+ ["Daniel","prophet",-605,null,-536,"prophet","Exiles in Babylon","Daniel 1–12","Taken to Babylon as a youth in 605, he served kings of Babylon and Persia and saw visions of the kingdoms to come.","","Daniel"],
+ ["Ezekiel","prophet",-593,null,-571,"prophet","Exiles in Babylon","Ezekiel 1–48","A priest taken to Babylon with Jehoiachin. He saw God's glory leave the temple and foretold a new heart and a new temple.","","Ezekiel"],
+ ["Obadiah","prophet",-586,null,-583,"prophet","Edom","Obadiah 1","Pronounced judgment on Edom for gloating over Jerusalem's fall. Some date him much earlier.","u","Obadiah"]
+];
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const P=DATA.map((d,i)=>({id:i,name:d[0],grp:d[1],from:d[2],sole:d[3],to:d[4],v:d[5],len:d[6],refs:d[7],summary:d[8],approx:(d[9]||"").includes("u"),book:d[10]||null}));
+// Names shared by a king of Israel and a king of Judah get the kingdom in their link
+const dup=new Set(P.map(p=>p.name).filter((n,i,a)=>a.indexOf(n)!==i));
+P.forEach(p=>p.key=slug(p.name)+(dup.has(p.name)?"-"+p.grp:""));
+const grpById=Object.fromEntries(GROUPS.map(g=>[g.id,g]));
+
+const EVENTS=[
+ [-1010,"David king","david-becomes-king"],
+ [-966,"Temple built","solomon-s-temple"],
+ [-931,"Kingdom divides","the-kingdom-divides"],
+ [-860,"Elijah on Carmel","elijah-on-mount-carmel"],
+ [-760,"Jonah to Nineveh","jonah-and-nineveh"],
+ [-740,"Isaiah's vision","isaiah-s-vision"],
+ [-722,"Samaria falls","fall-of-samaria"],
+ [-701,"Jerusalem delivered","hezekiah-delivered"],
+ [-622,"Law found","josiah-s-reform"],
+ [-605,"First exiles","daniel-taken-to-babylon"],
+ [-586,"Jerusalem falls","fall-of-jerusalem"]
+];
+const PRESETS=[
+ ["Everything",-1080,-530],["United Kingdom",-1060,-925],["The split",-940,-880],["Elijah & Elisha",-875,-790],
+ ["Fall of Israel",-800,-715],["Isaiah & Hezekiah",-745,-680],["Last kings of Judah",-645,-580]
+];
+const DOMAIN=[-1080,-530],MIN_SPAN=8;
+
+const $=s=>document.querySelector(s);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref)+"&version=ESV";
+function fmtRange(a,b,approx){const c=approx?"c. ":"";return a===b?c+(-a)+" BC":c+(-a)+"–"+(-b)+" BC"}
+
+const state={sort:"group",q:"",groups:new Set(GROUPS.map(g=>g.id)),verdict:"all",open:null,view:{from:DOMAIN[0],to:DOMAIN[1]}};
+const overlaps=(a,b)=>a.from<=b.to&&b.from<=a.to;
+function shown(){
+  const q=state.q.toLowerCase();
+  return P.filter(p=>state.groups.has(p.grp)&&(state.verdict==="all"||p.v===state.verdict||p.v==="prophet")&&
+    (!q||(p.name+" "+p.summary+" "+p.len+" "+p.refs).toLowerCase().includes(q)));
+}
+
+// ---------- filters ----------
+function renderFilters(){
+  const all=state.groups.size===GROUPS.length,g=$("#groups");g.innerHTML="";
+  const a=document.createElement("button");a.type="button";a.className="chip";a.textContent="Everyone";a.setAttribute("aria-pressed",all);
+  a.onclick=()=>{state.groups=new Set(GROUPS.map(x=>x.id));refilter()};g.appendChild(a);
+  GROUPS.forEach(x=>{
+    const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=x.name;
+    b.setAttribute("aria-pressed",!all&&state.groups.has(x.id));
+    // Same rule as the Books page: from "everyone", a tap focuses one group; after that, taps add or remove.
+    b.onclick=()=>{
+      if(all)state.groups=new Set([x.id]);
+      else if(state.groups.has(x.id)){state.groups.delete(x.id);if(!state.groups.size)state.groups=new Set(GROUPS.map(y=>y.id))}
+      else state.groups.add(x.id);
+      refilter();
+    };
+    g.appendChild(b);
+  });
+  const v=$("#verdicts");v.innerHTML="";
+  [["all","All kings"],["good","Did right"],["mixed","Mixed"],["evil","Did evil"]].forEach(([k,n])=>{
+    const b=document.createElement("button");b.type="button";b.className="chip";b.setAttribute("aria-pressed",state.verdict===k);
+    b.innerHTML=(k!=="all"?'<span class="dot" style="background:'+VCOLOR[k]+'"></span>':'')+n;
+    b.onclick=()=>{state.verdict=k;refilter()};v.appendChild(b);
+  });
+}
+function refilter(){state.open=null;build();fit(true)}
+
+// ---------- rows ----------
+const rowsEl=$("#rows");
+function build(){
+  renderFilters();
+  let list=shown();
+  if(state.sort==="date")list=[...list].sort((a,b)=>a.from-b.from||a.to-b.to||a.id-b.id);
+  const sel=state.open!=null?P[state.open]:null;
+  let html="",last=null;
+  list.forEach(p=>{
+    if(state.sort==="group"&&p.grp!==last){html+='<div class="grp">'+esc(grpById[p.grp].name)+'</div>';last=p.grp}
+    const txt=fmtRange(p.from,p.to,p.approx),open=sel&&sel.id===p.id;
+    const tag=state.sort==="date"||dup.has(p.name)?'<small>'+esc(grpById[p.grp].short)+'</small>':'';
+    html+='<div class="brow'+(open?' sel':'')+(sel&&!open&&!overlaps(sel,p)?' dim':'')+'" id="k-'+p.key+'" data-id="'+p.id+'" style="--c:'+VCOLOR[p.v]+'">'+
+      '<button type="button" class="bname" aria-expanded="'+!!open+'"><span>'+esc(p.name)+'</span>'+tag+'</button>'+
+      '<div class="track"><button type="button" class="bar'+(p.approx?' approx':'')+'" aria-label="'+esc(p.name+", "+(p.v==="prophet"?"prophet":VERDICTS[p.v].toLowerCase())+", "+txt)+'">'+
+      (p.sole!=null?'<span class="co"></span>':'')+'</button><span class="blabel" data-t="'+esc(txt)+'"></span></div>'+
+      (open?detail(p):'')+'</div>';
+  });
+  rowsEl.innerHTML=html;
+  $("#chart").classList.toggle("focus",!!sel);
+  $("#empty").hidden=list.length>0;$("#chart").hidden=!list.length;
+  $("#count").textContent=list.length+" of "+P.length+" shown";
+  update();
+}
+const nameBtn=p=>'<button type="button" data-open="'+p.id+'">'+esc(p.name)+'</button>';
+function detail(p){
+  const others=P.filter(o=>o.id!==p.id&&overlaps(o,p));
+  const list=g=>{const l=others.filter(o=>o.grp===g);return l.length?l.map(nameBtn).join(", "):""};
+  let dl="";
+  if(p.v==="prophet"){
+    dl+='<dt>Ministry</dt><dd>'+esc(fmtRange(p.from,p.to,p.approx))+'</dd><dt>Sent to</dt><dd>'+esc(p.len)+'</dd>';
+  }else{
+    dl+='<dt>Reigned</dt><dd>'+esc(fmtRange(p.from,p.to,p.approx))+(p.sole!=null?' (sole reign from '+(-p.sole)+' BC)':'')+'</dd><dt>Length</dt><dd>'+esc(p.len)+'</dd>';
+  }
+  [["united","United Kingdom"],["israel","Kings of Israel"],["judah","Kings of Judah"],["prophet","Prophets"]].forEach(([g,n])=>{const l=list(g);if(l)dl+='<dt>'+n+'</dt><dd>'+l+'</dd>'});
+  const ev=EVENTS.filter(e=>e[0]<=p.to&&e[0]>=p.from);
+  return '<div class="detail">'+(p.v!=="prophet"?'<p class="verdict">'+esc(VERDICTS[p.v])+'</p>':'')+'<p>'+esc(p.summary)+'</p><dl>'+dl+'</dl>'+
+    '<div class="acts">'+p.refs.split("; ").map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">Read '+esc(r)+' →</a>').join("")+
+    ev.map(e=>'<a href="index.html#ev-'+e[2]+'">'+esc(e[1])+' on the timeline →</a>').join("")+
+    (p.book?'<a href="books.html#b-'+slug(p.book)+'">'+esc(p.book)+' on the Books page →</a>':'')+
+    '<button type="button" class="link" data-zoom="'+p.id+'">Zoom to '+(p.v==="prophet"?"this ministry":"this reign")+'</button></div></div>';
+}
+
+// ---------- scale ----------
+let W=600;
+const x=y=>(y-state.view.from)/(state.view.to-state.view.from)*W;
+function update(){
+  W=$("#ticks").clientWidth||600;
+  const v=state.view,pxy=W/(v.to-v.from);
+  let bg="",tk="",eb="";
+  const sel=state.open!=null?P[state.open]:null;
+  if(sel){const l=Math.max(x(sel.from),0),r=Math.min(x(sel.to+1),W);if(r>l)bg+='<div class="selband" style="left:'+l+'px;width:'+(r-l)+'px"></div>'}
+  const steps=[1,2,5,10,20,25,50,100,200];
+  const step=steps.find(s=>s*pxy>=64)||500;
+  for(let t=Math.ceil(v.from/step)*step;t<=v.to;t+=step){
+    const p=x(t);if(p<18||p>W-18)continue;
+    tk+='<span style="left:'+p+'px">'+(-t)+' BC</span>';bg+='<div class="grid" style="left:'+p+'px"></div>';
+  }
+  // Event labels left to right; a label that would overlap the one before it is left out (its line stays).
+  let lastEnd=-1e9;
+  EVENTS.forEach(e=>{
+    const p=x(e[0]+.5);if(p<0||p>W)return;
+    bg+='<div class="evl" style="left:'+p+'px"></div>';
+    const w=e[1].length*6.6+14;
+    if(p-3>=lastEnd+6&&p-3+w<=W+2){eb+='<a href="index.html#ev-'+e[2]+'" style="left:'+(p-3)+'px" title="'+esc(e[1]+" ("+(-e[0])+" BC)")+'">'+esc(e[1])+'</a>';lastEnd=p-3+w}
+  });
+  $("#ticks").innerHTML=tk;$("#bg").innerHTML=bg;$("#evband").innerHTML=eb;
+  rowsEl.querySelectorAll(".brow").forEach(row=>{
+    const p=P[+row.dataset.id],bar=row.querySelector(".bar");
+    // A one-year reign still gets a visible width: one year, at least 4px
+    const l=x(p.from),r=Math.max(x(p.to+1),l+4);
+    bar.style.left=l+"px";bar.style.width=(r-l)+"px";
+    const co=bar.querySelector(".co");if(co)co.style.width=Math.max(0,x(p.sole)-l)+"px";
+    const lab=row.querySelector(".blabel"),txt=lab.dataset.t,tw=txt.length*6.4+16;
+    const vl=Math.max(l,0),vr=Math.min(r,W);
+    lab.style.left="";lab.style.right="";lab.textContent=txt;
+    if(r<=0){lab.className="blabel out";lab.textContent="← "+txt;lab.style.left="4px"}
+    else if(l>=W){lab.className="blabel out";lab.textContent=txt+" →";lab.style.right="4px"}
+    else if(vr-vl>=tw){lab.className="blabel in";lab.style.left=vl+"px"}
+    else if(r+6+tw<=W){lab.className="blabel out";lab.style.left=(r+6)+"px"}
+    else{lab.className="blabel out";lab.style.right=(W-l+6)+"px"}
+  });
+  $("#range").textContent="Showing "+fmtRange(Math.round(v.from),Math.round(v.to));
+}
+function clampView(from,to){
+  const s=Math.min(Math.max(to-from,MIN_SPAN),DOMAIN[1]-DOMAIN[0]);
+  if(from<DOMAIN[0])from=DOMAIN[0];
+  if(from+s>DOMAIN[1])from=DOMAIN[1]-s;
+  return {from,to:from+s};
+}
+let anim=null;
+const reduce=matchMedia("(prefers-reduced-motion: reduce)");
+function zoomTo(from,to,smooth){
+  const tgt=clampView(from,to);cancelAnimationFrame(anim);
+  if(!smooth||reduce.matches){state.view=tgt;update();return}
+  const s={...state.view},t0=performance.now();
+  const step=now=>{const k=Math.min(1,(now-t0)/280),e=1-Math.pow(1-k,3);
+    state.view={from:s.from+(tgt.from-s.from)*e,to:s.to+(tgt.to-s.to)*e};update();if(k<1)anim=requestAnimationFrame(step)};
+  anim=requestAnimationFrame(step);
+}
+function zoomBy(f,c){const v=state.view;c=c??(v.from+v.to)/2;zoomTo(c-(c-v.from)*f,c+(v.to-c)*f,true)}
+function fit(smooth){
+  const list=shown();if(!list.length)return;
+  const a=Math.min(...list.map(p=>p.from)),z=Math.max(...list.map(p=>p.to+1)),pad=Math.max((z-a)*.06,3);
+  zoomTo(Math.max(a-pad,DOMAIN[0]),Math.min(z+pad,DOMAIN[1]),smooth);
+}
+function zoomToP(p){const pad=Math.max((p.to-p.from)*.4,8);zoomTo(p.from-pad,p.to+1+pad,true)}
+
+// ---------- gestures ----------
+const chart=$("#chart"),pts=new Map();let gest=null,moved=false;
+chart.addEventListener("pointerdown",e=>{
+  if(e.button!==0||e.target.closest(".detail"))return;
+  pts.set(e.pointerId,e.clientX);moved=false;startGesture();
+});
+function startGesture(){
+  const xs=[...pts.values()],r=$("#ticks").getBoundingClientRect();
+  gest={v:{...state.view},left:r.left,x0:xs[0],d0:xs.length>1?Math.abs(xs[1]-xs[0]):0,m0:xs.length>1?(xs[0]+xs[1])/2:xs[0]};
+}
+addEventListener("pointermove",e=>{
+  if(!pts.has(e.pointerId)||!gest)return;
+  pts.set(e.pointerId,e.clientX);
+  const xs=[...pts.values()],g=gest,s0=g.v.to-g.v.from;
+  if(xs.length>1&&g.d0>10){
+    const d=Math.abs(xs[1]-xs[0]),m=(xs[0]+xs[1])/2,s=s0*g.d0/Math.max(d,10);
+    const yAtM0=g.v.from+(g.m0-g.left)/W*s0,from=yAtM0-(m-g.left)/W*s;
+    moved=true;cancelAnimationFrame(anim);state.view=clampView(from,from+s);update();
+  }else{
+    const dx=xs[0]-g.x0;if(Math.abs(dx)>4)moved=true;
+    if(moved){chart.classList.add("dragging");cancelAnimationFrame(anim);const dy=dx/W*s0;state.view=clampView(g.v.from-dy,g.v.to-dy);update()}
+  }
+});
+const endPtr=e=>{if(!pts.delete(e.pointerId))return;chart.classList.remove("dragging");if(pts.size)startGesture();else gest=null};
+addEventListener("pointerup",endPtr);addEventListener("pointercancel",endPtr);
+chart.addEventListener("click",e=>{if(moved){e.stopPropagation();e.preventDefault();moved=false}},true);
+chart.addEventListener("wheel",e=>{
+  const r=$("#ticks").getBoundingClientRect(),v=state.view,c=v.from+(e.clientX-r.left)/W*(v.to-v.from);
+  if(e.ctrlKey||e.metaKey){e.preventDefault();cancelAnimationFrame(anim);
+    const f=Math.exp(e.deltaY*.004),cc=Math.min(Math.max(c,v.from),v.to);
+    state.view=clampView(cc-(cc-v.from)*f,cc+(v.to-cc)*f);update()}
+  else if(Math.abs(e.deltaX)>Math.abs(e.deltaY)){e.preventDefault();cancelAnimationFrame(anim);
+    const dy=e.deltaX/W*(v.to-v.from);state.view=clampView(v.from+dy,v.to+dy);update()}
+},{passive:false});
+chart.addEventListener("dblclick",e=>{
+  if(e.target.closest(".detail,.bname,.evband"))return;
+  const r=$("#ticks").getBoundingClientRect(),v=state.view;
+  zoomBy(e.shiftKey?2:.5,v.from+(e.clientX-r.left)/W*(v.to-v.from));
+});
+
+// ---------- events ----------
+function openP(id,scroll){
+  state.open=id;
+  // If the person is filtered out, show everyone so the link always lands somewhere.
+  if(id!=null&&!shown().some(p=>p.id===id)){state.groups=new Set(GROUPS.map(g=>g.id));state.verdict="all";state.q="";$("#q").value=""}
+  build();
+  if(id!=null){
+    const row=document.getElementById("k-"+P[id].key);
+    if(scroll&&row)row.scrollIntoView({block:"center",behavior:reduce.matches?"auto":"smooth"});
+    row&&row.querySelector(".bname").focus({preventScroll:true});
+    const v=state.view,p=P[id];if(p.to<v.from||p.from>v.to)zoomToP(p);
+  }
+}
+rowsEl.addEventListener("click",e=>{
+  const z=e.target.closest("[data-zoom]");if(z){zoomToP(P[+z.dataset.zoom]);return}
+  const o=e.target.closest("[data-open]");if(o){openP(+o.dataset.open,true);return}
+  const hit=e.target.closest(".bname,.bar");if(!hit)return;
+  const id=+hit.closest(".brow").dataset.id;
+  openP(state.open===id?null:id,false);
+});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&state.open!=null)openP(null)});
+$("#zIn").onclick=()=>zoomBy(.5);$("#zOut").onclick=()=>zoomBy(2);$("#zFit").onclick=()=>fit(true);
+PRESETS.forEach(p=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=p[0];b.onclick=()=>zoomTo(p[1],p[2],true);$("#presets").appendChild(b)});
+document.querySelectorAll("[data-sort]").forEach(b=>b.onclick=()=>{
+  state.sort=b.dataset.sort;document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));build()});
+$("#q").addEventListener("input",e=>{state.q=e.target.value.trim();state.open=null;build()});
+$("#clearBtn").onclick=()=>{state.q="";$("#q").value="";state.groups=new Set(GROUPS.map(g=>g.id));state.verdict="all";refilter()};
+let rz;addEventListener("resize",()=>{cancelAnimationFrame(rz);rz=requestAnimationFrame(update)});
+
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.textContent=d?"☀ Light":"☾ Dark";themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
+
+build();fit(false);
+function fromHash(){
+  const m=/^#k-([a-z0-9-]+)$/.exec(location.hash);if(!m)return;
+  const p=P.find(x=>x.key===m[1]);if(p){openP(p.id,true);zoomToP(p)}
+}
+fromHash();addEventListener("hashchange",fromHash);
+</script>
+</body>
+</html>

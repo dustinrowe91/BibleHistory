@@ -140,7 +140,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings &amp; Prophets</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">All 66 books on one timeline</div>
   <h1>Books of the Bible</h1>
@@ -284,6 +284,10 @@ const DATA=[
 const BOOKS=DATA.map((d,i)=>{const f=d[8]||"";return{id:i,name:d[0],cat:d[1],cf:d[2],ct:d[3],wf:d[4]??d[2],wt:d[5]??d[3],author:d[6],summary:d[7],
   open:f.includes("o"),uc:f.includes("u"),uw:f.includes("w")||(d[4]===null&&f.includes("u")),noW:f.includes("n")}});
 const catById=Object.fromEntries(CATS.map(c=>[c.id,c]));
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+// Prophets with their own row on the Kings & Prophets page, and the books that tell the kings' story
+const KP=new Set(["Joel","Jonah","Amos","Hosea","Isaiah","Micah","Nahum","Zephaniah","Jeremiah","Habakkuk","Daniel","Ezekiel","Obadiah"]);
+const KINGS_BOOKS=new Set(["1 Samuel","2 Samuel","1 Kings","2 Kings","1 Chronicles","2 Chronicles"]);
 
 // Same eras as the timeline page
 const ERAS=[
@@ -389,6 +393,8 @@ function detail(b){
   return '<div class="detail"><p>'+esc(b.summary)+'</p><dl>'+
     '<dt>Events covered</dt><dd>'+esc(cov)+'</dd><dt>Written</dt><dd>'+esc(wr)+'</dd><dt>Author</dt><dd>'+esc(b.author)+'</dd></dl>'+
     '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
+    (KP.has(b.name)?'<a href="kings.html#k-'+slug(b.name)+'">'+esc(b.name)+' among the kings →</a>':'')+
+    (KINGS_BOOKS.has(b.name)?'<a href="kings.html">The kings on one chart →</a>':'')+
     '<button type="button" class="link" data-zoom="'+b.id+'">Zoom to this book</button></div></div>';
 }
 
@@ -532,6 +538,14 @@ themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark
 syncTheme();
 
 build();fit(false);
+(function(){
+  const m=/^#b-([a-z0-9-]+)$/.exec(location.hash);if(!m)return;
+  const b=BOOKS.find(x=>slug(x.name)===m[1]);if(!b)return;
+  if(!state.sel.has(b.id))state.sel=new Set(ALL);
+  state.open=b.id;build();
+  const [a,t]=span(b),pad=Math.max((t-a)*.25,6);zoomTo(a-pad,t+1+pad,false);
+  const row=document.querySelector('.brow[data-id="'+b.id+'"]');row&&row.scrollIntoView({block:"center"});
+})();
 </script>
 </body>
 </html>
