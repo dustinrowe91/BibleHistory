@@ -319,7 +319,7 @@ const BOOKS=DATA.map((d,i)=>{const f=d[8]||"";return{id:i,name:d[0],cat:d[1],cf:
 const catById=Object.fromEntries(CATS.map(c=>[c.id,c]));
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 // Prophets with their own row on the Kings & Prophets page, and the books that tell the kings' story
-const KP=new Set(["Joel","Jonah","Amos","Hosea","Isaiah","Micah","Nahum","Zephaniah","Jeremiah","Habakkuk","Daniel","Ezekiel","Obadiah"]);
+const KP=new Set(["Joel","Jonah","Amos","Hosea","Isaiah","Micah","Nahum","Zephaniah","Jeremiah","Habakkuk","Daniel","Ezekiel","Obadiah","Haggai","Zechariah","Malachi"]);
 // Map links per book: [Maps place or journey id, label]
 const MAPS={"Genesis":[["abraham","Abraham's journey"],["jacob","Jacob's journeys"],["joseph","Joseph to Egypt"]],"Exodus":[["exodus","The Exodus route"]],
  "Leviticus":[["sinai","Mount Sinai"]],"Numbers":[["exodus","The Exodus route"]],"Deuteronomy":[["exodus","The Exodus route"],["nebo","Mount Nebo"]],
@@ -447,7 +447,7 @@ function detail(b){
   return '<div class="detail"><p>'+esc(b.summary)+'</p><dl>'+
     '<dt>Events covered</dt><dd>'+esc(cov)+'</dd><dt>Written</dt><dd>'+esc(wr)+'</dd><dt>Author</dt><dd>'+esc(b.author)+'</dd></dl>'+
     '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
-    (KP.has(b.name)?'<a href="kings.html#k-'+slug(b.name)+'">'+esc(b.name)+' among the kings →</a>':'')+
+    (KP.has(b.name)?'<a href="kings.html#k-'+(b.name==="Zechariah"?"zechariah-prophet":slug(b.name))+'">'+esc(b.name)+' among the kings →</a>':'')+
     (KINGS_BOOKS.has(b.name)?'<a href="kings.html">The kings on one chart →</a>':'')+
     (PROPHECY[b.name]?'<a href="prophecy.html#book='+encodeURIComponent(b.name)+'">'+(b.cat==="gospels"||b.cat==="acts"||b.cat==="paul"||b.cat==="general"||b.cat==="rev"?"Prophecies it shows fulfilled":"Prophecies fulfilled in Christ")+' ('+PROPHECY[b.name]+') →</a>':'')+
     (COVENANT_BOOKS[b.name]?'<span class="onmap">Covenants: '+COVENANT_BOOKS[b.name].map(m=>'<a href="covenants.html#'+m[0]+'">'+esc(m[1])+'</a>').join(", ")+'</span>':'')+

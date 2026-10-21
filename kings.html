@@ -160,6 +160,23 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .legend i{display:inline-block;width:22px;height:10px;border-radius:2px}
 .legend i.co{background:repeating-linear-gradient(135deg,var(--muted) 0 3px,transparent 3px 6px);border:1px solid var(--muted)}
 .legend i.ev{width:9px;height:9px;background:var(--ochre);transform:rotate(45deg);border-radius:1px}
+.allp{margin-top:40px;scroll-margin-top:calc(var(--navh,0px) + 12px)}
+.allp h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.allp .intro{color:var(--muted);max-width:70ch;margin:10px 0 0}
+.allp h3{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:26px 0 6px}
+.allp ul{list-style:none;margin:0;padding:0}
+.allp li{padding:9px 0;border-top:1px solid var(--line)}
+.allp li b{font-weight:600;font-size:17.5px}
+.allp .called{font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:var(--lapis-soft);color:var(--lapis);margin-left:6px;vertical-align:2px}
+.allp .d{display:block;color:var(--muted);font-size:15.5px;line-height:1.45}
+.allp .r{display:block;font-family:var(--ui);font-size:13px;margin-top:2px}
+.allp .r a{color:var(--lapis);font-weight:700;text-decoration:none}
+.allp .r a:hover{text-decoration:underline}
+.allp .onchart{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.allp .onchart button{font:500 13px var(--ui);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:3px 10px;cursor:pointer}
+.allp .onchart button:hover{border-color:var(--muted)}
+.allp .onchart button:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.allp .jesus{background:var(--ochre-soft);border:0;border-radius:8px;padding:12px 14px}
 footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
 @media (max-width:560px){
   :root{--lab:104px}
@@ -178,9 +195,9 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <div class="wrap">
 <nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
-  <div class="eyebrow">1 Samuel to 2 Kings and 2 Chronicles</div>
+  <div class="eyebrow">1 Samuel to Malachi</div>
   <h1>Kings and Prophets</h1>
-  <p class="lede">Every king of Israel and Judah, and the prophets God sent to them. Tap anyone to see who else lived at the same time, along with the Bible's verdict on each king and the passages to read.</p>
+  <p class="lede">Every king of Israel and Judah, and the prophets God sent to them, through the return from exile. Tap anyone to see who else lived at the same time, along with the Bible's verdict on each king and the passages to read. <a href="#all-prophets" style="color:var(--lapis);font-family:var(--ui);font-size:15px;font-weight:700;text-decoration:none;white-space:nowrap">Every prophet in the Bible ↓</a></p>
 </header>
 
 <div class="controls">
@@ -219,6 +236,12 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
   <span><i class="co"></i>Co-reign or rival reign</span>
   <span><i class="ev"></i>Key event (links to the timeline)</span>
 </div>
+
+<section class="allp" id="all-prophets" aria-labelledby="allpTitle">
+  <h2 id="allpTitle">Every prophet in the Bible</h2>
+  <p class="intro">A prophet carried God's word to others, by speaking, writing, or interpreting dreams and visions. "Which of the prophets did your fathers not persecute?" (Acts 7:52). Those Scripture calls a prophet, or says prophesied, are marked; the rest received God's word in other ways.</p>
+  <div id="allpList"></div>
+</section>
 
 <footer>Reign dates follow Edwin Thiele's chronology, used in most conservative study Bibles, which counts co-reigns (a son ruling alongside his father) and so explains how the Bible's reign lengths fit together. The verdicts are the Bible's own, from the formula "he did what was right" or "he did evil in the sight of the LORD." Prophets' dates are the approximate span of their ministry. Drag sideways to move through time; pinch, Ctrl or ⌘ + scroll, double-click, or the buttons zoom.</footer>
 </div>
@@ -281,29 +304,48 @@ const DATA=[
  ["Zedekiah","judah",-597,null,-586,"evil","11 years","2 Kings 24:18–25:7; 2 Chronicles 36:11–21; Jeremiah 52","Judah's last king. He ignored Jeremiah and rebelled against Babylon. Jerusalem and the temple were destroyed, and he was blinded and taken to Babylon."],
 
  ["Samuel","prophet",-1075,null,-1012,"prophet","Israel","1 Samuel 3–25","The last judge and first of the prophets. He anointed both Saul and David.",""],
+ ["Gad", "prophet", -1020, null, -975, "prophet", "David", "1 Samuel 22:5; 2 Samuel 24:11–19; 1 Chronicles 29:29", "David's seer. He warned David to leave the stronghold, brought God's word after the census, and told him to build an altar on the threshing floor that became the temple site.", "u"],
  ["Nathan","prophet",-1003,null,-970,"prophet","David and Solomon","2 Samuel 7; 12; 1 Kings 1","Brought God's covenant promise to David, confronted him over Bathsheba, and helped secure Solomon's succession.","u"],
+ ["Asaph, Heman & Jeduthun", "prophet", -1000, null, -970, "prophet", "Israel's worship, under David", "1 Chronicles 25:1–7; 2 Chronicles 29:30", "Asaph, Heman, and Jeduthun led the temple music and \"prophesied with lyres, harps, and cymbals.\" Asaph is also called a seer, and twelve psalms bear his name.", "u"],
+ ["Iddo", "prophet", -950, null, -911, "prophet", "Solomon, Rehoboam, and Abijah", "2 Chronicles 9:29; 12:15; 13:22", "A seer who recorded visions concerning Jeroboam and the histories of Rehoboam and Abijah. His writings are lost.", "u"],
  ["Ahijah","prophet",-935,null,-910,"prophet","Jeroboam I","1 Kings 11:29–39; 14:1–18","Tore his cloak into twelve pieces to show Jeroboam he would rule ten tribes, then foretold the end of Jeroboam's house.","u"],
+ ["Shemaiah", "prophet", -931, null, -926, "prophet", "Rehoboam", "1 Kings 12:21–24; 2 Chronicles 12:5–8", "Stopped Rehoboam from going to war against the ten tribes. When Shishak invaded, his warning moved the king to humble himself.", "u"],
+ ["Man of God from Judah", "prophet", -931, null, -930, "prophet", "Jeroboam I, at Bethel", "1 Kings 13:1–10", "Cried out against Jeroboam's altar, naming Josiah three centuries early. The altar split, and the king's outstretched hand withered.", "u"],
+ ["Old prophet of Bethel", "prophet", -930, null, -930, "prophet", "The man of God from Judah", "1 Kings 13:11–32", "Lied to the man of God to bring him home to eat, then spoke the true word of his death. A lion killed him on the road.", "u"],
+ ["Azariah son of Oded", "prophet", -896, null, -896, "prophet", "Asa", "2 Chronicles 15:1–8", "\"The LORD is with you while you are with him.\" His word spurred Asa to remove the idols from Judah.", "u"],
+ ["Hanani", "prophet", -895, null, -895, "prophet", "Asa", "2 Chronicles 16:7–10", "Rebuked Asa for relying on the king of Syria instead of the LORD, and was put in the stocks for it.", "u"],
+ ["Jehu son of Hanani", "prophet", -890, null, -853, "prophet", "Baasha and Jehoshaphat", "1 Kings 16:1–7; 2 Chronicles 19:1–3; 20:34", "Announced the end of Baasha's house, and decades later rebuked Jehoshaphat for helping Ahab. He also wrote a history of Jehoshaphat.", "u"],
  ["Elijah","prophet",-865,null,-852,"prophet","Israel, under Ahab","1 Kings 17–2 Kings 2","Announced a drought, defeated the prophets of Baal on Mount Carmel, and was taken to heaven in a whirlwind.","u"],
+ ["Sons of the prophets", "prophet", -860, null, -800, "prophet", "Israel", "2 Kings 2:3–7, 15; 4:38–44; 6:1–7", "Companies of prophets at Bethel, Jericho, and Gilgal in the days of Elijah and Elisha.", "u"],
+ ["Unnamed prophets", "prophet", -857, null, -855, "prophet", "Ahab, in the wars with Syria", "1 Kings 20", "Prophets who twice promised Ahab victory over Ben-hadad of Syria, then condemned him for letting Ben-hadad go free.", "u"],
  ["Micaiah","prophet",-853,null,-853,"prophet","Ahab and Jehoshaphat","1 Kings 22","The one prophet who would not tell Ahab what he wanted to hear, and foretold his death at Ramoth-gilead."],
+ ["Jahaziel", "prophet", -852, null, -852, "prophet", "Jehoshaphat", "2 Chronicles 20:14–17", "A Levite on whom the Spirit came: \"The battle is not yours but God's.\" Judah's enemies destroyed one another.", "u"],
+ ["Eliezer", "prophet", -852, null, -852, "prophet", "Jehoshaphat", "2 Chronicles 20:35–37", "Foretold the wreck of the ships Jehoshaphat built with Ahaziah of Israel.", "u"],
  ["Elisha","prophet",-852,null,-797,"prophet","Israel","2 Kings 2–13","Elijah's successor, with a double portion of his spirit. He healed Naaman, raised a boy from the dead, and saw the hills full of chariots of fire.","u"],
  ["Joel","prophet",-835,null,-796,"prophet","Judah","Joel 1–3","Foretold the day of the LORD and the Spirit poured out on all flesh. His date is debated.","u","Joel"],
+ ["Zechariah son of Jehoiada", "prophet", -800, null, -800, "prophet", "Joash", "2 Chronicles 24:17–22; Luke 11:51", "Son of the priest who saved Joash's life. When he rebuked the king's idolatry, Joash had him stoned in the temple court. Jesus named him as the last martyr in the Hebrew Bible's order.", "u"],
  ["Jonah","prophet",-785,null,-760,"prophet","Israel and Nineveh","2 Kings 14:25; Jonah 1–4","Foretold Jeroboam II's victories, then was sent to preach to Nineveh, which repented.","u","Jonah"],
  ["Amos","prophet",-760,null,-750,"prophet","Israel","Amos 1–9","A shepherd from Tekoa sent north to denounce injustice in Israel's days of prosperity.","u","Amos"],
  ["Hosea","prophet",-755,null,-715,"prophet","Israel","Hosea 1–14","His marriage to an unfaithful wife pictured God's faithful love for unfaithful Israel, up to the eve of its fall.","u","Hosea"],
  ["Isaiah","prophet",-740,null,-681,"prophet","Judah, under Uzziah to Hezekiah","Isaiah 1–66; 2 Kings 19–20","Saw the Lord high and lifted up, offered Ahaz the sign of Immanuel, and stood with Hezekiah against Assyria.","","Isaiah"],
  ["Micah","prophet",-735,null,-700,"prophet","Judah and Israel","Micah 1–7","Condemned the leaders of both kingdoms and foretold a ruler from Bethlehem. Jeremiah 26:18 says Hezekiah heeded him.","u","Micah"],
+ ["Oded", "prophet", -734, null, -734, "prophet", "Israel's army, under Pekah", "2 Chronicles 28:8–15", "Met Israel's army returning from Judah with 200,000 captives, and persuaded them to clothe the captives and send them home.", "u"],
  ["Nahum","prophet",-660,null,-640,"prophet","Nineveh","Nahum 1–3","Foretold the fall of Nineveh, about a century after Jonah.","u","Nahum"],
  ["Zephaniah","prophet",-640,null,-621,"prophet","Judah, under Josiah","Zephaniah 1–3","A descendant of Hezekiah who warned of the day of the LORD early in Josiah's reign.","u","Zephaniah"],
  ["Huldah","prophet",-622,null,-622,"prophet","Josiah","2 Kings 22:14–20; 2 Chronicles 34:22–28","The prophetess Josiah consulted when the Book of the Law was found. She confirmed both the coming judgment and God's mercy to Josiah."],
  ["Jeremiah","prophet",-627,null,-582,"prophet","Judah, under Josiah to Zedekiah","Jeremiah 1–52","The weeping prophet. For forty years he warned of Babylon, was beaten and imprisoned, and promised a new covenant.","","Jeremiah"],
+ ["Uriah", "prophet", -608, null, -608, "prophet", "Judah, under Jehoiakim", "Jeremiah 26:20–23", "Prophesied the same message as Jeremiah. He fled to Egypt, but was brought back and killed by Jehoiakim.", "u"],
  ["Habakkuk","prophet",-609,null,-605,"prophet","Judah","Habakkuk 1–3","Asked how God could use wicked Babylon, and was told: the righteous shall live by his faith.","u","Habakkuk"],
  ["Daniel","prophet",-605,null,-536,"prophet","Exiles in Babylon","Daniel 1–12","Taken to Babylon as a youth in 605, he served kings of Babylon and Persia and saw visions of the kingdoms to come.","","Daniel"],
  ["Ezekiel","prophet",-593,null,-571,"prophet","Exiles in Babylon","Ezekiel 1–48","A priest taken to Babylon with Jehoiachin. He saw God's glory leave the temple and foretold a new heart and a new temple.","","Ezekiel"],
- ["Obadiah","prophet",-586,null,-583,"prophet","Edom","Obadiah 1","Pronounced judgment on Edom for gloating over Jerusalem's fall. Some date him much earlier.","u","Obadiah"]
+ ["Obadiah","prophet",-586,null,-583,"prophet","Edom","Obadiah 1","Pronounced judgment on Edom for gloating over Jerusalem's fall. Some date him much earlier.","u","Obadiah"],
+ ["Haggai", "prophet", -520, null, -520, "prophet", "The returned exiles, under Zerubbabel", "Ezra 5:1–2; Haggai 1–2", "Called the returned exiles to stop building their own houses and finish the LORD's. The temple was completed in 516 BC.", "", "Haggai"],
+ ["Zechariah", "prophet", -520, null, -480, "prophet", "The returned exiles", "Ezra 5:1; 6:14; Zechariah 1–14", "Haggai's partner, with eight night visions and prophecies of the King coming on a donkey and the one they pierced.", "u", "Zechariah"],
+ ["Malachi", "prophet", -433, null, -430, "prophet", "Judah, in Nehemiah's day", "Malachi 1–4", "The last of the Old Testament prophets. He called the people back to faithful worship and promised a messenger to prepare the way of the Lord.", "u", "Malachi"]
 ];
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const P=DATA.map((d,i)=>({id:i,name:d[0],grp:d[1],from:d[2],sole:d[3],to:d[4],v:d[5],len:d[6],refs:d[7],summary:d[8],approx:(d[9]||"").includes("u"),book:d[10]||null}));
-// Names shared by a king of Israel and a king of Judah get the kingdom in their link
+// Names shared by two people (a king of Israel and of Judah, or a king and a prophet) get their group in their link
 const dup=new Set(P.map(p=>p.name).filter((n,i,a)=>a.indexOf(n)!==i));
 P.forEach(p=>p.key=slug(p.name)+(dup.has(p.name)?"-"+p.grp:""));
 const grpById=Object.fromEntries(GROUPS.map(g=>[g.id,g]));
@@ -312,7 +354,8 @@ const grpById=Object.fromEntries(GROUPS.map(g=>[g.id,g]));
 const KMAP={samuel:["shiloh","Shiloh"],david:["jerusalem","Jerusalem"],solomon:["jerusalem","Jerusalem"],"jeroboam-i":["bethel","Bethel"],omri:["samaria","Samaria"],
   ahab:["carmel","Mount Carmel"],hoshea:["samaria","Samaria"],hezekiah:["jerusalem","Jerusalem"],josiah:["megiddo","Megiddo"],jehoiachin:["exile","Exile to Babylon"],
   zedekiah:["riblah","Riblah"],elijah:["carmel","Mount Carmel"],elisha:["dothan","Dothan"],jonah:["nineveh","Nineveh"],amos:["bethel","Bethel"],hosea:["samaria","Samaria"],
-  isaiah:["jerusalem","Jerusalem"],nahum:["nineveh","Nineveh"],jeremiah:["exile","Exile to Babylon"],daniel:["babylon","Babylon"],ezekiel:["babylon","Babylon"]};
+  isaiah:["jerusalem","Jerusalem"],"man-of-god-from-judah":["bethel","Bethel"],"old-prophet-of-bethel":["bethel","Bethel"],"sons-of-the-prophets":["jericho","Jericho"],
+  haggai:["jerusalem","Jerusalem"],"zechariah-prophet":["jerusalem","Jerusalem"],malachi:["jerusalem","Jerusalem"],nahum:["nineveh","Nineveh"],jeremiah:["exile","Exile to Babylon"],daniel:["babylon","Babylon"],ezekiel:["babylon","Babylon"]};
 const KCOV={david:["david","The covenant with David"],jeremiah:["new","The New Covenant he foretold"],ezekiel:["new","The New Covenant he foretold"]};
 const LINE={david:"david",solomon:"solomon",rehoboam:"rehoboam",abijah:"abijah",asa:"asa",jehoshaphat:"jehoshaphat",jehoram:"joram",uzziah:"uzziah",
   jotham:"jotham",ahaz:"ahaz",hezekiah:"hezekiah",manasseh:"manasseh",amon:"amon",josiah:"josiah",jehoiachin:"jechoniah"};
@@ -328,13 +371,16 @@ const EVENTS=[
  [-701,"Jerusalem delivered","hezekiah-delivered"],
  [-622,"Law found","josiah-s-reform"],
  [-605,"First exiles","daniel-taken-to-babylon"],
- [-586,"Jerusalem falls","fall-of-jerusalem"]
+ [-586,"Jerusalem falls","fall-of-jerusalem"],
+ [-538,"Exiles return","cyrus-lets-the-exiles-return"],
+ [-516,"Temple rebuilt","second-temple-completed"],
+ [-445,"Walls rebuilt","nehemiah-rebuilds-the-walls"]
 ];
 const PRESETS=[
- ["Everything",-1080,-530],["United Kingdom",-1060,-925],["The split",-940,-880],["Elijah & Elisha",-875,-790],
- ["Fall of Israel",-800,-715],["Isaiah & Hezekiah",-745,-680],["Last kings of Judah",-645,-580]
+ ["Everything",-1080,-420],["United Kingdom",-1060,-925],["The split",-940,-880],["Elijah & Elisha",-875,-790],
+ ["Fall of Israel",-800,-715],["Isaiah & Hezekiah",-745,-680],["Last kings of Judah",-645,-580],["Return from exile",-545,-420]
 ];
-const DOMAIN=[-1080,-530],MIN_SPAN=8;
+const DOMAIN=[-1080,-420],MIN_SPAN=8;
 
 const $=s=>document.querySelector(s);
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -390,7 +436,7 @@ function build(){
     const txt=fmtRange(p.from,p.to,p.approx),open=sel&&sel.id===p.id;
     const tag=state.sort==="date"||dup.has(p.name)?'<small>'+esc(grpById[p.grp].short)+'</small>':'';
     html+='<div class="brow'+(open?' sel':'')+(sel&&!open&&!overlaps(sel,p)?' dim':'')+'" id="k-'+p.key+'" data-id="'+p.id+'" style="--c:'+VCOLOR[p.v]+'">'+
-      '<button type="button" class="bname" aria-expanded="'+!!open+'"><span>'+esc(p.name)+'</span>'+tag+'</button>'+
+      '<button type="button" class="bname" title="'+esc(p.name)+'" aria-expanded="'+!!open+'"><span>'+esc(p.name)+'</span>'+tag+'</button>'+
       '<div class="track"><button type="button" class="bar'+(p.approx?' approx':'')+'" aria-label="'+esc(p.name+", "+(p.v==="prophet"?"prophet":VERDICTS[p.v].toLowerCase())+", "+txt)+'">'+
       (p.sole!=null?'<span class="co"></span>':'')+'</button><span class="blabel" data-t="'+esc(txt)+'"></span></div>'+
       (open?detail(p):'')+'</div>';
@@ -564,10 +610,73 @@ themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark
 syncTheme();
 
 build();fit(false);
+// ---------- every prophet in the Bible ----------
+// [name, what they did, passages, Scripture calls them a prophet / says they prophesied]
+const ALLP={
+ before:[
+  ["Noah","Warned by God of the flood to come; Peter calls him \"a herald of righteousness.\"","Genesis 6:13–7:4; 9:1–17; 2 Peter 2:5",0],
+  ["Abraham","Called to a new land with promises of the future. God told Abimelech, \"He is a prophet.\"","Genesis 12:1–3; 15; 20:7",1],
+  ["Jacob","Saw the stairway to heaven, and foretold the future of his sons' tribes.","Genesis 28:10–22; 49",0],
+  ["Joseph","Dreamed of his own rise, and interpreted the dreams of the cupbearer, the baker, and Pharaoh.","Genesis 37:5–11; 40–41",0],
+  ["Moses","\"There has not arisen a prophet since in Israel like Moses, whom the LORD knew face to face.\"","Exodus 3; Deuteronomy 18:15–18; 34:10–12",1],
+  ["Aaron","God made him Moses' prophet, speaking for him before Pharaoh.","Exodus 4:14–16; 7:1–2",1],
+  ["Miriam","A prophetess who led Israel's women in song after the Red Sea.","Exodus 15:20–21; Numbers 12",1],
+  ["The seventy elders","The Spirit that was on Moses rested on them, and they prophesied.","Numbers 11:16–17, 24–25",1],
+  ["Eldad and Medad","Prophesied in the camp. Moses: \"Would that all the LORD's people were prophets!\"","Numbers 11:26–29",1],
+  ["Balaam","A diviner for hire who could speak only the blessing God gave him, and later led Israel into sin.","Numbers 22–24; 31:16; 2 Peter 2:15–16; Jude 11",1],
+  ["Elihu","The young man who spoke after Job's three friends, defending God's justice.","Job 32–37",0],
+  ["Joshua","Received God's charge and promise of success, and renewed the covenant at Shechem.","Joshua 1:1–9; 24",0],
+  ["Deborah","A prophetess who judged Israel and summoned Barak to battle with God's word.","Judges 4–5",1],
+  ["Gideon","Called by the angel of the LORD to save Israel from Midian. An unnamed prophet had brought God's rebuke just before.","Judges 6:7–8:28",0],
+  ["The band of prophets","Prophets coming down from the high place with music, whom Saul met after his anointing.","1 Samuel 10:5–10; 19:20",1],
+  ["Saul","The Spirit came on him and he prophesied: \"Is Saul also among the prophets?\"","1 Samuel 10:10–13; 19:23–24",1]
+ ],
+ kings:[
+  ["David","\"The Spirit of the LORD speaks by me.\" Peter calls him a prophet who foresaw the resurrection of Christ.","2 Samuel 23:1–2; Acts 2:29–31",1],
+  ["Solomon","God appeared to him twice, in a dream at Gibeon and again after the temple was dedicated.","1 Kings 3:5–15; 9:1–9",0],
+  ["Agur","Author of Proverbs 30, whose words are called \"the oracle.\" Nothing else is known of him.","Proverbs 30:1",0],
+  ["Writers of the Psalms","Psalms such as 2, 89 (by Ethan the Ezrahite), and 132 look forward to the Messiah.","Psalm 2; 89; 132",0]
+ ],
+ nt:[
+  ["Zechariah, father of John","Filled with the Holy Spirit, he prophesied at John's birth.","Luke 1:5–25, 67–79",1],
+  ["Elizabeth","Filled with the Spirit, she blessed Mary as \"the mother of my Lord.\"","Luke 1:39–45",0],
+  ["Mary","Her song foretells that \"all generations will call me blessed.\"","Luke 1:26–38, 46–55",0],
+  ["Joseph","Guided by an angel in dreams, four times.","Matthew 1:20–24; 2:13–23",0],
+  ["Simeon","The Spirit revealed he would see the Christ; he foretold Mary's sorrow.","Luke 2:25–35",0],
+  ["Anna","A prophetess of eighty-four, who spoke of the child to all waiting for redemption.","Luke 2:36–38",1],
+  ["John the Baptist","\"More than a prophet,\" sent to prepare the way of the Lord.","Luke 1:76; 7:26–28; John 1:19–34",1],
+  ["Peter","Preached Joel's prophecy fulfilled at Pentecost, and foretold the Day of the Lord.","Acts 2:14–21; 12:6–11; 2 Peter 3",0],
+  ["Philip the evangelist","Sent by an angel to the Ethiopian official.","Acts 8:26–40",0],
+  ["Agabus","Foretold a great famine, and Paul's arrest in Jerusalem.","Acts 11:27–28; 21:10–11",1],
+  ["Barnabas, Simeon Niger, Lucius, and Manahen","Prophets and teachers at Antioch when the Spirit sent out Barnabas and Saul.","Acts 13:1–3",1],
+  ["Judas Barsabbas and Silas","Prophets who encouraged and strengthened the church in Antioch.","Acts 15:22, 32",1],
+  ["Philip's four daughters","Four unmarried daughters who prophesied.","Acts 21:8–9",1],
+  ["Paul","Named among Antioch's prophets; he wrote of Christ's return and the man of lawlessness.","Acts 13:1; 1 Thessalonians 4:13–18; 2 Thessalonians 2:1–12",1],
+  ["John","Received the Revelation, \"the words of this prophecy.\"","Revelation 1:1–3; 22:6–10",1],
+  ["The two witnesses","Two prophets who will prophesy 1,260 days, be killed, and rise again.","Revelation 11:3–12",1]
+ ]
+};
+function renderAllProphets(){
+  const li=x=>'<li><b>'+esc(x[0])+'</b>'+(x[3]?'<span class="called">Called a prophet</span>':'')+'<span class="d">'+esc(x[1])+'</span><span class="r">'+
+    splitRefs(x[2]).map((r,i)=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">'+esc(x[2].split("; ")[i])+'</a>').join(" · ")+'</span></li>';
+  const chart=P.filter(p=>p.grp==="prophet");
+  $("#allpList").innerHTML=
+    '<h3>Before the kings</h3><ul>'+ALLP.before.map(li).join("")+'</ul>'+
+    '<h3>Kings, exile, and return</h3><p class="intro" style="margin:0">On the chart above ('+chart.length+'), from Samuel to Malachi. Tap a name to see it there.</p>'+
+    '<div class="onchart">'+chart.map(p=>'<button type="button" data-open="'+p.id+'">'+esc(p.name)+'</button>').join("")+'</div>'+
+    '<ul>'+ALLP.kings.map(li).join("")+'</ul>'+
+    '<h3>New Testament</h3><ul>'+ALLP.nt.map(li).join("")+'</ul>'+
+    '<h3>The Prophet</h3><ul><li class="jesus"><b>Jesus</b><span class="called">Called a prophet</span><span class="d">The Prophet like Moses whom Moses foretold, \"a prophet mighty in deed and word,\" in whom God has spoken His final word.</span><span class="r">'+
+    ["Deuteronomy 18:15","Luke 24:19","Acts 3:22–26","Hebrews 1:1–2"].map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">'+r+'</a>').join(" · ")+' · <a href="prophecy.html#prophet">On the Prophecy page</a></span></li></ul>';
+}
+$("#allpList").addEventListener("click",e=>{const b=e.target.closest("[data-open]");if(!b)return;
+  openP(+b.dataset.open,true)});
+
 function fromHash(){
   const m=/^#k-([a-z0-9-]+)$/.exec(location.hash);if(!m)return;
   const p=P.find(x=>x.key===m[1]);if(p){openP(p.id,true);zoomToP(p)}
 }
+renderAllProphets();
 fromHash();addEventListener("hashchange",fromHash);
 
 // The site nav sticks to the top; anything else that sticks sits below it (--navh).
