@@ -161,7 +161,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">All 66 books on one timeline</div>
   <h1>Books of the Bible</h1>
@@ -324,6 +324,8 @@ const MAPS={"Genesis":[["abraham","Abraham's journey"],["jacob","Jacob's journey
  "Ephesians":[["ephesus","Ephesus"]],"Philippians":[["philippi","Philippi"]],"Colossians":[["colossae","Colossae"]],"1 Thessalonians":[["thessalonica","Thessalonica"]],
  "2 Thessalonians":[["thessalonica","Thessalonica"]],"1 Timothy":[["ephesus","Ephesus"]],"2 Timothy":[["rome","Rome"]],"Philemon":[["colossae","Colossae"]],
  "Revelation":[["rev","The seven churches"],["patmos","Patmos"]]};
+const COVENANT_BOOKS={"Genesis":[["adam","Adam"],["noah","Noah"],["abraham","Abraham"]],"Exodus":[["moses","Sinai"]],"Deuteronomy":[["moses","Sinai"]],
+ "2 Samuel":[["david","David"]],"1 Chronicles":[["david","David"]],"Jeremiah":[["new","the New Covenant"]],"Ezekiel":[["new","the New Covenant"]],"Hebrews":[["new","the New Covenant"]],"Galatians":[["abraham","Abraham"]]};
 const KINGS_BOOKS=new Set(["1 Samuel","2 Samuel","1 Kings","2 Kings","1 Chronicles","2 Chronicles"]);
 
 // Same eras as the timeline page
@@ -432,6 +434,7 @@ function detail(b){
     '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
     (KP.has(b.name)?'<a href="kings.html#k-'+slug(b.name)+'">'+esc(b.name)+' among the kings →</a>':'')+
     (KINGS_BOOKS.has(b.name)?'<a href="kings.html">The kings on one chart →</a>':'')+
+    (COVENANT_BOOKS[b.name]?'<span class="onmap">Covenants: '+COVENANT_BOOKS[b.name].map(m=>'<a href="covenants.html#'+m[0]+'">'+esc(m[1])+'</a>').join(", ")+'</span>':'')+
     (MAPS[b.name]?'<span class="onmap">On the map: '+MAPS[b.name].map(m=>'<a href="maps.html#'+m[0]+'">'+esc(m[1])+'</a>').join(", ")+'</span>':'')+
     '<button type="button" class="link" data-zoom="'+b.id+'">Zoom to this book</button></div></div>';
 }
