@@ -408,6 +408,36 @@ const EV=BIB.map(e=>({era:e[0],date:e[1],title:e[2],ref:e[3],summary:e[4],people
  .map((e,i)=>(e.id=i,e));
 
 const WD={"Sermon on the Mount": [[24, "The Sermon on the Mount and on the Plain"]], "Feeding the 5,000": [[45, "Feeding the five thousand"], [48, "The bread of life"]], "The Transfiguration": [[58, "Coming down from the Transfiguration"]], "Raising of Lazarus": [[88, "Raising Lazarus"]], "Triumphal Entry": [[98, "Entry into Jerusalem and lament over the city"]], "The Last Supper": [[113, "The Last Supper and the foot washing"], [114, "The farewell discourse"]], "The Crucifixion": [[118, "On the cross"]], "The Resurrection": [[119, "Appearing to the women"], [121, "Appearing to the disciples in Jerusalem"], [122, "Thomas"]], "Great Commission & Ascension": [[124, "The Great Commission"], [125, "Forty days of teaching and the ascension"]], "Pentecost": [[127, "Pentecost sermon"], [128, "The first church: teaching, signs and sharing"]], "Stephen Martyred": [[134, "Stephen's wonders and speech"]], "Samaria Receives the Word": [[136, "Philip in Samaria"]], "Disciples in Damascus": [[138, "Ananias restores Saul’s sight"]], "Conversion of Saul": [[138, "Ananias restores Saul’s sight"], [139, "Saul preaches in Damascus and Jerusalem"]], "Lydda and Joppa": [[140, "Aeneas healed at Lydda"], [141, "Dorcas raised at Joppa"]], "Gospel to the Gentiles": [[142, "Peter preaches to Cornelius"]], "Church in Antioch": [[143, "The church at Antioch"], [144, "Famine relief for Judea"]], "Cyprus: Salamis and Paphos": [[145, "Cyprus and the proconsul"]], "Pisidian Antioch": [[146, "Sermon at Pisidian Antioch"]], "Iconium": [[147, "Iconium"]], "Lystra and Derbe": [[148, "The lame man at Lystra"], [149, "Strengthening the new churches"]], "Jerusalem Council": [[150, "The Jerusalem Council"]], "Philippi": [[152, "Lydia at the riverside"], [153, "The slave girl at Philippi"], [154, "The Philippian jailer"]], "Thessalonica": [[155, "Thessalonica"]], "Berea": [[156, "Berea"]], "Athens": [[157, "Athens and the Areopagus"]], "Corinth": [[158, "A year and a half in Corinth"]], "Ephesus": [[161, "John's disciples at Ephesus"], [162, "Two years in Ephesus"], [165, "Farewell to the Ephesian elders"]], "Troas": [[164, "Eutychus at Troas"]], "Paul in Rome": [[173, "Two years preaching in Rome"]]};
+// Links from timeline events to the other pages. Maps: place or journey id and its label; People and Kings: their ids.
+const SEE_MAP={"the-call-of-abram":["abraham","Abraham's journey"],"covenant-with-abraham":["abraham","Abraham's journey"],"birth-of-isaac":["beersheba","Beersheba"],
+ "binding-of-isaac":["jerusalem","Mount Moriah (Jerusalem)"],"jacob-s-ladder":["bethel","Bethel"],"jacob-becomes-israel":["peniel","Peniel"],"joseph-sold-into-slavery":["joseph","Joseph to Egypt"],
+ "joseph-rules-in-egypt":["egypt","Egypt"],"israel-settles-in-egypt":["egypt","Egypt"],"birth-of-moses":["egypt","Egypt"],"the-burning-bush":["sinai","Mount Sinai"],
+ "plagues-and-passover":["exodus","The Exodus route"],"crossing-the-red-sea":["redsea","The Red Sea crossing"],"the-law-at-sinai":["sinai","Mount Sinai"],"the-golden-calf":["sinai","Mount Sinai"],
+ "the-tabernacle":["sinai","Mount Sinai"],"twelve-spies":["kadesh","Kadesh-barnea"],"death-of-moses":["nebo","Mount Nebo"],"fall-of-jericho":["jericho","Jericho"],
+ "joshua-s-farewell":["shechem","Shechem"],"ruth-and-boaz":["bethlehem","Bethlehem"],"samuel-called":["shiloh","Shiloh"],"david-and-goliath":["elah","The Valley of Elah"],
+ "david-becomes-king":["hebron","Hebron"],"covenant-with-david":["jerusalem","Jerusalem"],"solomon-s-temple":["jerusalem","Jerusalem"],"the-kingdom-divides":["shechem","Shechem"],
+ "elijah-on-mount-carmel":["carmel","Mount Carmel"],"jonah-and-nineveh":["nineveh","Nineveh"],"isaiah-s-vision":["jerusalem","Jerusalem"],"fall-of-samaria":["samaria","Samaria"],
+ "hezekiah-delivered":["jerusalem","Jerusalem"],"josiah-s-reform":["jerusalem","Jerusalem"],"fall-of-jerusalem":["exile","The road into exile"],"daniel-taken-to-babylon":["babylon","Babylon"],
+ "daniel-in-the-lions-den":["babylon","Babylon"],"cyrus-lets-the-exiles-return":["exile","The road home from exile"],"second-temple-completed":["jerusalem","Jerusalem"],
+ "queen-esther":["susa","Susa"],"ezra-teaches-the-law":["jerusalem","Jerusalem"],"nehemiah-rebuilds-the-walls":["jerusalem","Jerusalem"],"temple-rededicated":["jerusalem","Jerusalem"],
+ "rome-takes-jerusalem":["jerusalem","Jerusalem"],"birth-of-jesus":["bethlehem","Bethlehem"],"baptism-of-jesus":["jordan","Bethany beyond the Jordan"],"sermon-on-the-mount":["capernaum","Capernaum"],
+ "feeding-the-5-000":["bethsaida","Bethsaida"],"the-transfiguration":["tabor","Mount Tabor"],"raising-of-lazarus":["bethany","Bethany"],"triumphal-entry":["jerusalem","Jerusalem"],
+ "the-last-supper":["jerusalem","Jerusalem"],"the-crucifixion":["jerusalem","Jerusalem"],"the-resurrection":["jerusalem","Jerusalem"],"pentecost":["jerusalem","Jerusalem"],
+ "stephen-martyred":["jerusalem","Jerusalem"],"samaria-receives-the-word":["samaria","Samaria"],"disciples-in-damascus":["damascus","Damascus"],"conversion-of-saul":["damascus","Damascus"],
+ "lydda-and-joppa":["joppa","Joppa"],"gospel-to-the-gentiles":["caesarea","Caesarea"],"church-in-antioch":["antioch","Antioch"],"cyprus-salamis-and-paphos":["paul1","Paul's 1st journey"],
+ "pisidian-antioch":["pantioch","Pisidian Antioch"],"iconium":["iconium","Iconium"],"lystra-and-derbe":["lystra","Lystra"],"jerusalem-council":["jerusalem","Jerusalem"],
+ "philippi":["paul2","Paul's 2nd journey"],"thessalonica":["thessalonica","Thessalonica"],"berea":["berea","Berea"],"athens":["athens","Athens"],"corinth":["corinth","Corinth"],
+ "ephesus":["paul3","Paul's 3rd journey"],"troas":["troas","Troas"],"tyre-and-ptolemais":["tyre","Tyre"],"paul-in-rome":["voyage","Paul's voyage to Rome"],"revelation-to-john":["rev","The seven churches"]};
+const SEE_PEOPLE={"creation":["adam","Adam"],"the-fall":["adam","Adam"],"cain-and-abel":["adam","Adam"],"the-flood":["noah","Noah"],"the-call-of-abram":["abraham","Abraham"],
+ "covenant-with-abraham":["abraham","Abraham"],"birth-of-isaac":["isaac","Isaac"],"binding-of-isaac":["isaac","Isaac"],"jacob-s-ladder":["jacob","Jacob"],"jacob-becomes-israel":["jacob","Jacob"],
+ "joseph-sold-into-slavery":["judah","Judah"],"fall-of-jericho":["salmon","Salmon and Rahab"],"ruth-and-boaz":["boaz","Boaz"],"david-and-goliath":["david","David"],
+ "david-becomes-king":["david","David"],"covenant-with-david":["david","David"],"solomon-s-temple":["solomon","Solomon"],"the-kingdom-divides":["rehoboam","Rehoboam"],
+ "hezekiah-delivered":["hezekiah","Hezekiah"],"josiah-s-reform":["josiah","Josiah"],"fall-of-jerusalem":["jechoniah","Jechoniah"],"cyrus-lets-the-exiles-return":["zerubbabel","Zerubbabel"],
+ "second-temple-completed":["zerubbabel","Zerubbabel"],"birth-of-jesus":["jesus","Jesus"]};
+const SEE_KINGS={"samuel-called":"samuel","saul-anointed-king":"saul","david-becomes-king":"david","covenant-with-david":"david","solomon-s-temple":"solomon",
+ "the-kingdom-divides":"jeroboam-i","elijah-on-mount-carmel":"elijah","jonah-and-nineveh":"jonah","isaiah-s-vision":"isaiah","fall-of-samaria":"hoshea",
+ "hezekiah-delivered":"hezekiah","josiah-s-reform":"josiah","fall-of-jerusalem":"zedekiah","daniel-taken-to-babylon":"daniel"};
+const BOOK_NAMES=new Set("Genesis Exodus Leviticus Numbers Deuteronomy Joshua Judges Ruth 1_Samuel 2_Samuel 1_Kings 2_Kings 1_Chronicles 2_Chronicles Ezra Nehemiah Esther Job Psalms Proverbs Ecclesiastes Isaiah Jeremiah Lamentations Ezekiel Daniel Hosea Joel Amos Obadiah Jonah Micah Nahum Habakkuk Zephaniah Haggai Zechariah Malachi Matthew Mark Luke John Acts Romans 1_Corinthians 2_Corinthians Galatians Ephesians Philippians Colossians 1_Thessalonians 2_Thessalonians 1_Timothy 2_Timothy Titus Philemon Hebrews James 1_Peter 2_Peter 1_John 2_John 3_John Jude Revelation".split(" ").map(s=>s.replace("_"," ")));
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const eraById=Object.fromEntries(ERAS.map(e=>[e.id,e]));
 const state={q:"",t:"all",churches:false,open:new Set()};
@@ -469,6 +499,7 @@ function render(){
         '<div class="detail" id="d'+e.id+'"'+(open?'':' hidden')+'><p>'+hi(e.summary)+'</p>'+
         (WD[e.title]?'<div class="xlinks"><span class="lbl">In Word and Deed</span>'+WD[e.title].map(w=>'<a href="word-and-deed.html#e'+w[0]+'">'+esc(w[1])+' →</a>').join("")+'</div>':'')+
         (e.lens?'<p class="lens"><span class="lbl">Why it matters</span>'+hi(e.lens)+'</p>':'')+
+        seeAlso(e)+
         (e.people.length?'<div class="people">'+e.people.map(p=>'<span>'+hi(p)+'</span>').join("")+'</div>':'')+
         (e.text?'<p class="keytext"><span class="lbl">Key text</span><a href="'+gw(e.text)+'" target="_blank" rel="noopener">Read '+esc(e.text)+' →</a></p>':
          !e.lens&&/^[1-3]?\s?[A-Z][a-z]+ \d/.test(e.ref)?'<a href="'+gw(e.ref)+'" target="_blank" rel="noopener">Read '+esc(e.ref.split(";")[0])+' →</a>':'')+
@@ -481,6 +512,15 @@ function render(){
   $("#count").textContent=n+" of "+EV.length+" events"+(state.churches?" (churches in Acts)":"")+(state.q?' matching "'+state.q+'"':"");
   const eb=$("#expandBtn");eb.hidden=n===0;eb.textContent=allOpen()?"Collapse all":"Expand all";
   updateNow();
+}
+function seeAlso(e){
+  const s=slug(e.title),links=[];
+  if(SEE_MAP[s])links.push('<a href="maps.html#'+SEE_MAP[s][0]+'">On the map: '+esc(SEE_MAP[s][1])+' →</a>');
+  if(SEE_PEOPLE[s])links.push('<a href="people.html#p-'+SEE_PEOPLE[s][0]+'">In the line of Jesus: '+esc(SEE_PEOPLE[s][1])+' →</a>');
+  if(SEE_KINGS[s])links.push('<a href="kings.html#k-'+SEE_KINGS[s]+'">Kings &amp; Prophets: '+esc(SEE_KINGS[s].replace(/-i$/," I").replace(/^./,c=>c.toUpperCase()))+' →</a>');
+  const bk=!e.lens&&/^([1-3] )?[A-Z][a-z]+/.exec(e.ref);
+  if(bk&&BOOK_NAMES.has(bk[0]))links.push('<a href="books.html#b-'+slug(bk[0])+'">The book of '+esc(bk[0])+' →</a>');
+  return links.length?'<div class="xlinks"><span class="lbl">Also on this site</span>'+links.join("")+'</div>':'';
 }
 function allOpen(){return tlButtons().every(b=>b.getAttribute("aria-expanded")==="true")}
 function tlButtons(){return [...document.querySelectorAll("#timeline button.head")]}

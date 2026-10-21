@@ -217,6 +217,11 @@ const EVT={"creation":"Creation","the-fall":"The Fall","cain-and-abel":"Cain and
  "birth-of-jesus":"Birth of Jesus","the-crucifixion":"The Crucifixion","the-resurrection":"The Resurrection"};
 // n(id, name, fields): m/l = verse in Matthew 1 / Luke 3; alt = other spelling; k = key person; y = life span in years;
 // meta = one line under the name; note; read = main passage; ev = timeline events; king = Kings & Prophets key; fam = family; wom = women Matthew names
+// Map links: person id → [Maps place or journey id, label]
+const PMAP={terah:["ur","Ur"],abraham:["abraham","Abraham's journey"],isaac:["beersheba","Beersheba"],jacob:["jacob","Jacob's journeys"],judah:["joseph","Joseph to Egypt"],
+  salmon:["jericho","Jericho"],boaz:["bethlehem","Bethlehem"],obed:["bethlehem","Bethlehem"],jesse:["bethlehem","Bethlehem"],david:["bethlehem","Bethlehem"],
+  solomon:["jerusalem","Jerusalem"],hezekiah:["jerusalem","Jerusalem"],josiah:["megiddo","Megiddo"],jechoniah:["exile","Exile to Babylon"],shealtiel:["babylon","Babylon"],
+  zerubbabel:["exile","Return from exile"],joseph:["flight","Flight to Egypt"],jesus:["jesus","Places of Jesus' life"]};
 const n=(id,name,o)=>({id,name,...o});
 const KJ="King of Judah";
 const SECTIONS=[
@@ -416,6 +421,7 @@ function openSheet(id,scroll){
       (p.l?'<a href="'+gw("Luke 3:"+p.l)+'" target="_blank" rel="noopener">Luke 3:'+p.l+' →</a>':'')+
       (p.ev||[]).map(e=>'<a href="index.html#ev-'+e+'">'+esc(EVT[e])+' on the timeline →</a>').join("")+
       (p.king?'<a href="kings.html#k-'+p.king+'">'+esc(p.name)+' on Kings &amp; Prophets →</a>':'')+
+      (PMAP[p.id]?'<a href="maps.html#'+PMAP[p.id][0]+'">On the map: '+esc(PMAP[p.id][1])+' →</a>':'')+
     '</div><div class="nav">'+
       prev.map(x=>'<button type="button" data-go="'+x.id+'">↑ '+esc(x.name)+'</button>').join("")+
       next.map(x=>'<button type="button" data-go="'+x.id+'">↓ '+esc(x.name)+'</button>').join("")+'</div>';

@@ -296,6 +296,11 @@ const dup=new Set(P.map(p=>p.name).filter((n,i,a)=>a.indexOf(n)!==i));
 P.forEach(p=>p.key=slug(p.name)+(dup.has(p.name)?"-"+p.grp:""));
 const grpById=Object.fromEntries(GROUPS.map(g=>[g.id,g]));
 // Kings Matthew 1 names in the line of Jesus: Kings key → People page id
+// Map links: Kings key → [Maps place or journey id, label]
+const KMAP={samuel:["shiloh","Shiloh"],david:["jerusalem","Jerusalem"],solomon:["jerusalem","Jerusalem"],"jeroboam-i":["bethel","Bethel"],omri:["samaria","Samaria"],
+  ahab:["carmel","Mount Carmel"],hoshea:["samaria","Samaria"],hezekiah:["jerusalem","Jerusalem"],josiah:["megiddo","Megiddo"],jehoiachin:["exile","Exile to Babylon"],
+  zedekiah:["riblah","Riblah"],elijah:["carmel","Mount Carmel"],elisha:["dothan","Dothan"],jonah:["nineveh","Nineveh"],amos:["bethel","Bethel"],hosea:["samaria","Samaria"],
+  isaiah:["jerusalem","Jerusalem"],nahum:["nineveh","Nineveh"],jeremiah:["exile","Exile to Babylon"],daniel:["babylon","Babylon"],ezekiel:["babylon","Babylon"]};
 const LINE={david:"david",solomon:"solomon",rehoboam:"rehoboam",abijah:"abijah",asa:"asa",jehoshaphat:"jehoshaphat",jehoram:"joram",uzziah:"uzziah",
   jotham:"jotham",ahaz:"ahaz",hezekiah:"hezekiah",manasseh:"manasseh",amon:"amon",josiah:"josiah",jehoiachin:"jechoniah"};
 
@@ -398,6 +403,7 @@ function detail(p){
     ev.map(e=>'<a href="index.html#ev-'+e[2]+'">'+esc(e[1])+' on the timeline →</a>').join("")+
     (p.book?'<a href="books.html#b-'+slug(p.book)+'">'+esc(p.book)+' on the Books page →</a>':'')+
     (LINE[p.key]?'<a href="people.html#p-'+LINE[p.key]+'">In the family line of Jesus →</a>':'')+
+    (KMAP[p.key]?'<a href="maps.html#'+KMAP[p.key][0]+'">On the map: '+esc(KMAP[p.key][1])+' →</a>':'')+
     '<button type="button" class="link" data-zoom="'+p.id+'">Zoom to '+(p.v==="prophet"?"this ministry":"this reign")+'</button></div></div>';
 }
 

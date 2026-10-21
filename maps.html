@@ -369,7 +369,7 @@ const TRIPS=[
  {id:"paul3",name:"Paul's 3rd journey",era:"nt",color:"#1e7a4a",ref:"Acts 18:23–21:17",
   text:"Paul passes through Galatia and Phrygia to Ephesus, where he teaches for about three years. He then visits Macedonia and Greece, and sails back along the coast, saying farewell to the Ephesian elders at Miletus on his way to Jerusalem.",
   stops:["antioch",[37.0,35.2],"derbe","lystra","iconium","pantioch","ephesus","troas","~neapolis","philippi","thessalonica","berea","corinth","berea","thessalonica","philippi","neapolis","~troas","assos","~mitylene","~chios","~samos","~miletus","~cos","~rhodes","~patara",[34.3,32.9,1],"~tyre","~ptolemais","caesarea","jerusalem"]},
- {id:"rome",name:"Voyage to Rome",era:"nt",color:"#444c63",ref:"Acts 27–28",
+ {id:"voyage",name:"Voyage to Rome",era:"nt",color:"#444c63",ref:"Acts 27–28",
   text:"A prisoner appealing to Caesar, Paul sails from Caesarea. After the season turns, a storm drives the ship fourteen days across the sea until it wrecks on Malta. In spring they sail on to Italy and walk the Appian Way to Rome.",
   stops:["caesarea","~sidon",[35.4,35.2,1],[36.25,34.2,1],[35.85,32.5,1],[36.1,30.9,1],"~myra",[36.1,29.0,1],"~cnidus",[35.45,26.55,1],[34.85,26.0,1],"~fairhavens","~cauda","~malta","~syracuse","~rhegium","~puteoli","appius","rome"]},
  {id:"rev",name:"Seven churches",era:"nt",color:"#8c4a6b",ref:"Revelation 1–3",
@@ -380,6 +380,10 @@ const TRIPS=[
   stops:PLACES.filter(d=>d[9]&&d[9].ch).map(d=>d[0])}
 ];
 const tripById=Object.fromEntries(TRIPS.map(t=>[t.id,t]));
+// The books that tell each journey, for links to the Books page
+const TRIP_BOOKS={abraham:["Genesis"],jacob:["Genesis"],joseph:["Genesis"],exodus:["Exodus","Numbers","Deuteronomy"],exile:["2 Kings","Daniel","Ezra"],
+  flight:["Matthew"],jesus:["Matthew","Mark","Luke","John"],paul1:["Acts"],paul2:["Acts"],paul3:["Acts"],voyage:["Acts"],rev:["Revelation"],acts:["Acts"]};
+const bslug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-");
 const stopId=s=>typeof s==="string"?s.replace(/^~/,""):null;
 TRIPS.forEach(t=>{t.places=t.stops.map(stopId).filter(Boolean)});
 const tripsFor=id=>TRIPS.filter(t=>t.places.includes(id));
@@ -577,7 +581,7 @@ function setTrip(id,fit){
   const t=id&&tripById[id],box=$("#trip");
   if(!t){box.hidden=true;draw();if(fit)fitAll();return}
   box.style.setProperty("--c",t.color);
-  box.innerHTML='<h2>'+esc(t.name)+'</h2><p class="ref">'+t.ref.split("; ").map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">'+esc(r)+'</a>').join(" · ")+'</p><p>'+esc(t.text)+'</p>'+
+  box.innerHTML='<h2>'+esc(t.name)+'</h2><p class="ref">'+t.ref.split("; ").map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">'+esc(r)+'</a>').join(" · ")+(TRIP_BOOKS[t.id]?' · On the Books page: '+TRIP_BOOKS[t.id].map(b=>'<a href="books.html#b-'+bslug(b)+'">'+esc(b)+'</a>').join(", "):'')+'</p><p>'+esc(t.text)+'</p>'+
     '<ol class="stops">'+t.places.map((pid,i)=>'<li><button type="button" data-stop="'+i+'"'+(state.sel===pid?' aria-current="true"':'')+'><b>'+(i+1)+'</b>'+esc(P[pid].name)+'</button></li>').join("")+'</ol>';
   box.hidden=false;
   box.querySelectorAll("[data-stop]").forEach(b=>b.onclick=()=>openPlace(t.places[+b.dataset.stop],{fly:true,stop:+b.dataset.stop}));

@@ -140,6 +140,7 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .detail .acts{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;font-family:var(--ui);font-size:14px}
 .detail a{font-weight:700;color:var(--lapis);text-decoration:none}
 .detail a:hover{text-decoration:underline}
+.detail .onmap{color:var(--muted)}
 .detail button.link{font:inherit;font-weight:700;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer}
 .detail button.link:hover{text-decoration:underline}
 .empty{margin-top:30px;color:var(--muted);text-align:center;font-family:var(--ui)}
@@ -307,6 +308,22 @@ const catById=Object.fromEntries(CATS.map(c=>[c.id,c]));
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 // Prophets with their own row on the Kings & Prophets page, and the books that tell the kings' story
 const KP=new Set(["Joel","Jonah","Amos","Hosea","Isaiah","Micah","Nahum","Zephaniah","Jeremiah","Habakkuk","Daniel","Ezekiel","Obadiah"]);
+// Map links per book: [Maps place or journey id, label]
+const MAPS={"Genesis":[["abraham","Abraham's journey"],["jacob","Jacob's journeys"],["joseph","Joseph to Egypt"]],"Exodus":[["exodus","The Exodus route"]],
+ "Leviticus":[["sinai","Mount Sinai"]],"Numbers":[["exodus","The Exodus route"]],"Deuteronomy":[["exodus","The Exodus route"],["nebo","Mount Nebo"]],
+ "Joshua":[["jericho","Jericho"],["shechem","Shechem"]],"Ruth":[["bethlehem","Bethlehem"]],"1 Samuel":[["shiloh","Shiloh"],["elah","The Valley of Elah"]],
+ "2 Samuel":[["hebron","Hebron"],["jerusalem","Jerusalem"]],"1 Kings":[["jerusalem","Jerusalem"],["carmel","Mount Carmel"],["samaria","Samaria"]],
+ "2 Kings":[["samaria","Samaria"],["exile","Exile to Babylon"]],"2 Chronicles":[["jerusalem","Jerusalem"],["exile","Exile to Babylon"]],
+ "Ezra":[["exile","Return from exile"],["jerusalem","Jerusalem"]],"Nehemiah":[["susa","Susa"],["jerusalem","Jerusalem"]],"Esther":[["susa","Susa"]],
+ "Isaiah":[["jerusalem","Jerusalem"]],"Jeremiah":[["jerusalem","Jerusalem"],["exile","Exile to Babylon"]],"Lamentations":[["jerusalem","Jerusalem"]],
+ "Ezekiel":[["babylon","Babylon"]],"Daniel":[["babylon","Babylon"],["susa","Susa"]],"Hosea":[["samaria","Samaria"]],"Amos":[["bethel","Bethel"],["samaria","Samaria"]],
+ "Jonah":[["joppa","Joppa"],["nineveh","Nineveh"]],"Micah":[["bethlehem","Bethlehem"]],"Nahum":[["nineveh","Nineveh"]],"Haggai":[["jerusalem","Jerusalem"]],"Zechariah":[["jerusalem","Jerusalem"]],
+ "Matthew":[["jesus","Places of Jesus' life"],["flight","Flight to Egypt"]],"Mark":[["jesus","Places of Jesus' life"]],"Luke":[["jesus","Places of Jesus' life"]],"John":[["jesus","Places of Jesus' life"]],
+ "Acts":[["paul1","Paul's 1st journey"],["paul2","2nd journey"],["paul3","3rd journey"],["voyage","Voyage to Rome"],["acts","Churches in Acts"]],
+ "Romans":[["rome","Rome"]],"1 Corinthians":[["corinth","Corinth"]],"2 Corinthians":[["corinth","Corinth"]],"Galatians":[["paul1","Paul's 1st journey, through Galatia"]],
+ "Ephesians":[["ephesus","Ephesus"]],"Philippians":[["philippi","Philippi"]],"Colossians":[["colossae","Colossae"]],"1 Thessalonians":[["thessalonica","Thessalonica"]],
+ "2 Thessalonians":[["thessalonica","Thessalonica"]],"1 Timothy":[["ephesus","Ephesus"]],"2 Timothy":[["rome","Rome"]],"Philemon":[["colossae","Colossae"]],
+ "Revelation":[["rev","The seven churches"],["patmos","Patmos"]]};
 const KINGS_BOOKS=new Set(["1 Samuel","2 Samuel","1 Kings","2 Kings","1 Chronicles","2 Chronicles"]);
 
 // Same eras as the timeline page
@@ -415,6 +432,7 @@ function detail(b){
     '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
     (KP.has(b.name)?'<a href="kings.html#k-'+slug(b.name)+'">'+esc(b.name)+' among the kings →</a>':'')+
     (KINGS_BOOKS.has(b.name)?'<a href="kings.html">The kings on one chart →</a>':'')+
+    (MAPS[b.name]?'<span class="onmap">On the map: '+MAPS[b.name].map(m=>'<a href="maps.html#'+m[0]+'">'+esc(m[1])+'</a>').join(", ")+'</span>':'')+
     '<button type="button" class="link" data-zoom="'+b.id+'">Zoom to this book</button></div></div>';
 }
 
