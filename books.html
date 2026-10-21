@@ -55,12 +55,24 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .sitenav .ns{display:none}
 .sitenav.fade{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
 @media (max-width:560px){
-  .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
-  .sitenav::-webkit-scrollbar{display:none}
-  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
-  .sitenav .ns{display:inline}
-  .sitenav .theme-btn{margin-left:auto;flex:none}
+  /* Phones: site name, a Menu button that opens every page, and the theme toggle */
+  .sitenav{flex-wrap:nowrap;gap:8px;align-items:center}
+  .sitenav>a{display:none}
+  .sitenav .home{font-size:15px}
+  .sitenav .menu-btn{display:inline-flex}
+  .sitenav .theme-btn .tl{display:none}
+  .sitenav .theme-btn{flex:none}
 }
+.menu-btn{display:none;align-items:center;gap:6px;font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:4px 12px;border-radius:999px;cursor:pointer}
+.menu-btn[aria-expanded="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.menu-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.site-menu{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);padding:6px;display:grid;gap:2px;max-height:calc(100vh - 90px);overflow:auto;white-space:normal}
+.site-menu a{display:block;border:0;padding:9px 12px;border-radius:8px;color:var(--ink);text-decoration:none}
+.site-menu a b{display:block;font-size:15px}
+.site-menu a span{display:block;font-size:12.5px;color:var(--muted);font-weight:500}
+.site-menu a:hover,.site-menu a:focus-visible{background:var(--bg);outline:none}
+.site-menu a[aria-current="page"]{background:var(--lapis-soft)}
+.site-menu a[aria-current="page"] b::after{content:" · you are here";font-size:12px;font-weight:500;color:var(--muted)}
 .sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
 .theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
 .theme-btn:hover{border-color:var(--muted)}
@@ -161,7 +173,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">All 66 books on one timeline</div>
   <h1>Books of the Bible</h1>
@@ -595,6 +607,19 @@ build();fit(false);
 // The site nav sticks to the top; anything else that sticks sits below it (--navh).
 (function(){
   var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  // Phone menu: every page with a line about it, opened from the Menu button
+  var PAGES=[["index.html","Timeline","The story of Scripture, Creation to today"],["books.html","Books","All 66 books on one timeline"],
+    ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
+    ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
+    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
+  var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
+  PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
+    a.innerHTML="<b></b><span></span>";a.firstChild.textContent=p[1];a.lastChild.textContent=p[2];menu.appendChild(a)});
+  function setMenu(open,focus){menu.hidden=!open;mbtn.setAttribute("aria-expanded",open);if(open&&focus)menu.querySelector("a").focus();if(!open&&focus)mbtn.focus()}
+  mbtn.addEventListener("click",function(){setMenu(menu.hidden,true)});
+  document.addEventListener("click",function(e){if(!menu.hidden&&!e.target.closest("#siteMenu,#menuBtn"))setMenu(false)});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!menu.hidden){e.stopPropagation();setMenu(false,true)}},true);
+  addEventListener("resize",function(){if(!menu.hidden&&getComputedStyle(mbtn).display==="none")setMenu(false)});
   function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
   function stuck(){nav.classList.toggle("stuck",scrollY>4)}
   size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
