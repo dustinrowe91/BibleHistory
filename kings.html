@@ -44,6 +44,14 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
 .sitenav a:hover{color:var(--ink)}
 .sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+@media (max-width:560px){
+  .sitenav{flex-wrap:nowrap;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .theme-btn{margin-left:auto;flex:none}
+}
 .sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
 .theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
 .theme-btn:hover{border-color:var(--muted)}
@@ -75,7 +83,7 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 /* chart */
 .chart{position:relative;font-family:var(--ui);touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:grab}
 .chart.dragging{cursor:grabbing}
-.head{position:sticky;top:env(safe-area-inset-top,0px);z-index:4;background:var(--bg);display:grid;grid-template-columns:var(--lab) minmax(0,1fr);border-bottom:1px solid var(--line)}
+.head{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--navh,0px));z-index:4;background:var(--bg);display:grid;grid-template-columns:var(--lab) minmax(0,1fr);border-bottom:1px solid var(--line)}
 .head .corner{font-size:11px;color:var(--muted);align-self:end;padding:0 8px 6px 0;line-height:1.3}
 .track{position:relative;overflow:hidden;min-width:0}
 .evband{height:24px;margin-top:8px}
@@ -144,7 +152,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings &amp; Prophets</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings<span class="nl"> &amp; Prophets</span></a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">1 Samuel to 2 Kings and 2 Chronicles</div>
   <h1>Kings and Prophets</h1>
@@ -513,7 +521,7 @@ let rz;addEventListener("resize",()=>{cancelAnimationFrame(rz);rz=requestAnimati
 
 const themeBtn=$("#themeBtn");
 const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
-function syncTheme(){const d=curTheme()==="dark";themeBtn.textContent=d?"☀ Light":"☾ Dark";themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+function syncTheme(){const d=curTheme()==="dark";themeBtn.innerHTML=d?'<span aria-hidden="true">☀</span><span class="tl"> Light</span>':'<span aria-hidden="true">☾</span><span class="tl"> Dark</span>';themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
 themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
 syncTheme();
 
@@ -523,6 +531,15 @@ function fromHash(){
   const p=P.find(x=>x.key===m[1]);if(p){openP(p.id,true);zoomToP(p)}
 }
 fromHash();addEventListener("hashchange",fromHash);
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  stuck();addEventListener("scroll",stuck,{passive:true});
+})();
 </script>
 </body>
 </html>

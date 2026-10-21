@@ -46,7 +46,7 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .scale{display:flex;justify-content:space-between;font-family:var(--ui);font-size:12px;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
 
 /* controls */
-.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 12px;margin-top:18px;
+.controls{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--navh,0px));z-index:5;background:var(--bg);padding-block:14px 12px;margin-top:18px;
   border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
@@ -66,7 +66,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .count{font-family:var(--ui);font-size:13px;color:var(--muted)}
 
 /* timeline */
-.era{margin-top:36px;scroll-margin-top:170px}
+.era{margin-top:36px;scroll-margin-top:calc(170px + var(--navh,0px))}
 .era-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;border-bottom:2px solid var(--era);padding-bottom:6px}
 .era-head h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;color:var(--ink)}
 .era-head .span{font-family:var(--ui);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -106,10 +106,18 @@ footer{margin-top:48px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 .sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
 .sitenav a:hover{color:var(--ink)}
 .sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+@media (max-width:560px){
+  .sitenav{flex-wrap:nowrap;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .theme-btn{margin-left:auto;flex:none}
+}
 .sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
 .xlinks{display:flex;flex-direction:column;gap:2px;margin:4px 0 10px;font-family:var(--ui);font-size:14px}
 .xlinks .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.ev{scroll-margin-top:190px}
+.ev{scroll-margin-top:calc(190px + var(--navh,0px))}
 .ev.flash>button.head{background:var(--ochre-soft)}
 mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 .theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
@@ -131,7 +139,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
   .ref{white-space:normal}
   .detail{padding:0 12px 12px 10px}
   .era-head .books{margin-left:0;width:100%}
-  .era{scroll-margin-top:200px}
+  .era{scroll-margin-top:calc(200px + var(--navh,0px))}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
@@ -139,7 +147,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings &amp; Prophets</a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">Creation to today</div>
   <h1>The Story of Scripture</h1>
@@ -487,7 +495,7 @@ let nowTick=false;
 addEventListener("scroll",()=>{if(nowTick)return;nowTick=true;requestAnimationFrame(()=>{nowTick=false;updateNow()})},{passive:true});
 const themeBtn=$("#themeBtn");
 const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
-function syncTheme(){const d=curTheme()==="dark";themeBtn.textContent=d?"\u2600 Light":"\u263E Dark";themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+function syncTheme(){const d=curTheme()==="dark";themeBtn.innerHTML=d?'<span aria-hidden="true">\u2600</span><span class="tl"> Light</span>':'<span aria-hidden="true">\u263E</span><span class="tl"> Dark</span>';themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
 themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
 syncTheme();
 $("#churchToggle").addEventListener("click",e=>{
@@ -518,6 +526,15 @@ renderChips();render();
   const li=document.getElementById("ev-"+m[1]);if(!li)return;
   li.classList.add("flash");li.scrollIntoView({block:"start"});
   setTimeout(()=>li.classList.remove("flash"),2200);
+})();
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  stuck();addEventListener("scroll",stuck,{passive:true});
 })();
 </script>
 </body>

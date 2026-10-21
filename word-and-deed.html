@@ -100,7 +100,7 @@ p{margin:0}
 .group-h .ct{font-family:var(--font-ui);font-weight:400;font-size:13px;color:var(--ink3);font-variant-numeric:tabular-nums;white-space:nowrap}
 .sec-title{font-family:var(--font-ui);font-size:12px;letter-spacing:.09em;text-transform:uppercase;font-weight:600;color:var(--ink2);margin-top:1.5rem;padding-bottom:6px;border-bottom:2px solid var(--line)}
 .list{display:flex;flex-direction:column}
-.row{display:grid;grid-template-columns:20px minmax(0,1fr);gap:12px;padding:12px 4px;border-top:1px solid var(--line);scroll-margin-top:16px}
+.row{display:grid;grid-template-columns:20px minmax(0,1fr);gap:12px;padding:12px 4px;border-top:1px solid var(--line);scroll-margin-top:calc(16px + var(--navh,0px))}
 .row .cell{margin-top:3px;cursor:default}
 .row.flash{background:var(--sunk)}
 .ttl{font-weight:600;font-size:17px;line-height:1.35;text-wrap:balance}
@@ -124,6 +124,14 @@ ol.rules b{color:var(--ink);font-weight:600}
 .sitenav a:hover{color:var(--ink)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+@media (max-width:560px){
+  .sitenav{flex-wrap:nowrap;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .theme-btn{margin-left:auto;flex:none}
+}
 .theme-btn{font-family:var(--font-ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
 .theme-btn:focus-visible{outline:2px solid var(--word);outline-offset:2px}
 .theme-btn:hover{border-color:var(--ink2)}
@@ -138,7 +146,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 <body>
 
 <div class="wrap" id="app">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings &amp; Prophets</a><a href="word-and-deed.html" aria-current="page">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="word-and-deed.html" aria-current="page">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
   <section class="hero">
     <p class="eyebrow">The Gospels and Acts, every episode</p>
     <h1>Word and Deed</h1>
@@ -324,7 +332,7 @@ render();drawBars();drawDetail();
 (function(){
   var btn=document.getElementById("themeBtn");
   function cur(){return document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}
-  function sync(){var d=cur()==="dark";btn.textContent=d?"\u2600 Light":"\u263E Dark";btn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+  function sync(){var d=cur()==="dark";btn.innerHTML=d?'<span aria-hidden="true">\u2600</span><span class="tl"> Light</span>':'<span aria-hidden="true">\u263E</span><span class="tl"> Dark</span>';btn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
   btn.addEventListener("click",function(){var t=cur()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}sync()});
   sync();
 })();
@@ -335,6 +343,15 @@ render();drawBars();drawDetail();
   var row=document.getElementById("e"+id);if(!row)return;
   row.classList.add("flash");row.scrollIntoView({block:"start"});
   setTimeout(function(){row.classList.remove("flash")},2200);
+})();
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  stuck();addEventListener("scroll",stuck,{passive:true});
 })();
 </script>
 
