@@ -17,6 +17,7 @@
     { "name": "Timeline", "url": "index.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Books of the Bible", "short_name": "Books", "url": "books.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Kings and Prophets", "short_name": "Kings", "url": "kings.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "The Line of Jesus", "short_name": "People", "url": "people.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    { "name": "The Line of Jesus", "short_name": "People", "url": "people.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bible Maps", "short_name": "Maps", "url": "maps.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }

@@ -118,6 +118,7 @@ footer{margin-top:48px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 .sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
 .sitenav.stuck{border-bottom-color:var(--line)}
 .sitenav .ns{display:none}
+.sitenav.fade{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
 @media (max-width:560px){
   .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
   .sitenav::-webkit-scrollbar{display:none}
@@ -158,7 +159,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">Creation to today</div>
   <h1>The Story of Scripture</h1>
@@ -545,6 +546,11 @@ renderChips();render();
   function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
   function stuck(){nav.classList.toggle("stuck",scrollY>4)}
   size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  // On a phone the tabs scroll sideways: bring the current page into view, and fade the edge while more is hidden
+  var cur=nav.querySelector('[aria-current="page"]');
+  if(cur&&nav.scrollWidth>nav.clientWidth)nav.scrollLeft=cur.offsetLeft-(nav.clientWidth-cur.offsetWidth)/2;
+  function fade(){nav.classList.toggle("fade",nav.scrollLeft+nav.clientWidth<nav.scrollWidth-4)}
+  fade();nav.addEventListener("scroll",fade,{passive:true});addEventListener("resize",fade);
   stuck();addEventListener("scroll",stuck,{passive:true});
   // Keep the phone's status bar color in step with the light/dark toggle
   function bar(){

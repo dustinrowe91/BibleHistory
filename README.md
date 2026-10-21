@@ -1,11 +1,12 @@
 # Bible History
 
-Five linked pages for studying the Bible's story:
+Six linked pages for studying the Bible's story:
 
 - **Timeline** (`index.html`): the major events of the Bible, from Creation to Revelation, followed by major events of church history from AD 100 to today.
 - **Books** (`books.html`): all 66 books on one zoomable time axis, showing when each book's events take place or when it was written. Filter by group or by individual book, zoom by pinch, Ctrl/⌘ + scroll, or buttons, and tap a book for its dates, author, and summary.
 - **Kings and Prophets** (`kings.html`): every king of Israel and Judah and the prophets sent to them, on the same zoomable time axis. Each king is colored by the Bible's verdict on him, co-reigns are marked, and tapping anyone highlights everyone who lived at the same time.
 - **People** (`people.html`): Jesus' family line from Adam, following both Matthew 1 and Luke 3. The line forks into two columns where the Gospels trace different sons of David, and joins where they meet. Tap anyone for notes, life spans, the women Matthew names, and links to the Timeline and Kings pages.
+- **Maps** (`maps.html`): the places of the Bible on a zoomable map drawn from Natural Earth coastlines, with journeys traced out (Abraham, Jacob, Joseph, the Exodus, the exile, the flight to Egypt, Paul's three journeys and his voyage to Rome, the seven churches of Revelation). Tap any place for what happened there, with links to read it and to the Timeline.
 - **Word and Deed** (`word-and-deed.html`): every episode in the Gospels and Acts where Jesus or his followers preach or do a good work, scored for whether the two happen together.
 
 Gospel and Acts events on the timeline link to their Word and Deed entries, and those entries link back.
