@@ -43,10 +43,12 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
 .sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
 .sitenav.stuck{border-bottom-color:var(--line)}
+.sitenav .ns{display:none}
 @media (max-width:560px){
-  .sitenav{flex-wrap:nowrap;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
   .sitenav::-webkit-scrollbar{display:none}
   .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .ns{display:inline}
   .sitenav .theme-btn{margin-left:auto;flex:none}
 }
 .sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
@@ -148,7 +150,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">All 66 books on one timeline</div>
   <h1>Books of the Bible</h1>

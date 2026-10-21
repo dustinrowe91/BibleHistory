@@ -46,10 +46,12 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
 .sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
 .sitenav.stuck{border-bottom-color:var(--line)}
+.sitenav .ns{display:none}
 @media (max-width:560px){
-  .sitenav{flex-wrap:nowrap;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
   .sitenav::-webkit-scrollbar{display:none}
   .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .ns{display:inline}
   .sitenav .theme-btn{margin-left:auto;flex:none}
 }
 .sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
@@ -152,7 +154,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings<span class="nl"> &amp; Prophets</span></a><a href="word-and-deed.html">Word and Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html" aria-current="page">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
 <header>
   <div class="eyebrow">1 Samuel to 2 Kings and 2 Chronicles</div>
   <h1>Kings and Prophets</h1>
@@ -283,6 +285,9 @@ const P=DATA.map((d,i)=>({id:i,name:d[0],grp:d[1],from:d[2],sole:d[3],to:d[4],v:
 const dup=new Set(P.map(p=>p.name).filter((n,i,a)=>a.indexOf(n)!==i));
 P.forEach(p=>p.key=slug(p.name)+(dup.has(p.name)?"-"+p.grp:""));
 const grpById=Object.fromEntries(GROUPS.map(g=>[g.id,g]));
+// Kings Matthew 1 names in the line of Jesus: Kings key → People page id
+const LINE={david:"david",solomon:"solomon",rehoboam:"rehoboam",abijah:"abijah",asa:"asa",jehoshaphat:"jehoshaphat",jehoram:"joram",uzziah:"uzziah",
+  jotham:"jotham",ahaz:"ahaz",hezekiah:"hezekiah",manasseh:"manasseh",amon:"amon",josiah:"josiah",jehoiachin:"jechoniah"};
 
 const EVENTS=[
  [-1010,"David king","david-becomes-king"],
@@ -382,6 +387,7 @@ function detail(p){
     '<div class="acts">'+p.refs.split("; ").map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">Read '+esc(r)+' →</a>').join("")+
     ev.map(e=>'<a href="index.html#ev-'+e[2]+'">'+esc(e[1])+' on the timeline →</a>').join("")+
     (p.book?'<a href="books.html#b-'+slug(p.book)+'">'+esc(p.book)+' on the Books page →</a>':'')+
+    (LINE[p.key]?'<a href="people.html#p-'+LINE[p.key]+'">In the family line of Jesus →</a>':'')+
     '<button type="button" class="link" data-zoom="'+p.id+'">Zoom to '+(p.v==="prophet"?"this ministry":"this reign")+'</button></div></div>';
 }
 

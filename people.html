@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Line of Jesus</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: one vertical line of descent, Adam at the top and Jesus at the bottom. Where Matthew and Luke follow different sons it forks into two columns (Matthew left in lapis, Luke right in ochre) and joins again where they meet. Details open in a bottom sheet so the narrow columns never have to hold them. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+  --gap:14px; --spine:var(--line);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+.sitenav .ns{display:none}
+@media (max-width:560px){
+  .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .ns{display:inline}
+  .sitenav .theme-btn{margin-left:auto;flex:none}
+}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:hover{border-color:var(--muted)}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* controls */
+.controls{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--navh,0px));z-index:5;background:var(--bg);display:flex;flex-direction:column;gap:10px;padding-block:8px 12px;font-family:var(--ui);border-bottom:1px solid var(--line)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{flex:1 1 200px;min-width:0;font:inherit;font-family:var(--ui);font-size:15px;padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search:focus-visible{outline:2px solid var(--lapis);outline-offset:1px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{font-family:var(--ui);font-size:14px;font-weight:500;border:0;background:none;color:var(--muted);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--lapis);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--ochre);outline-offset:-2px}
+.toggle{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:5px 12px;border-radius:999px;cursor:pointer}
+.toggle[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.toggle:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.count{font-size:13px;color:var(--muted)}
+
+/* the tree */
+.tree{margin-top:22px;font-family:var(--ui)}
+.blk{position:relative}
+/* the spine: a 2px line through the center of each stack, drawn behind the cards */
+.stack{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px;padding-block:10px}
+.stack::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:2px;margin-left:-1px;background:var(--spine)}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--gap)}
+.split .stack{align-items:stretch}
+.fork,.join{position:relative;height:20px}
+.fork::before,.join::before{content:"";position:absolute;left:50%;width:2px;margin-left:-1px;height:10px;background:var(--spine)}
+.fork::before{top:0}.join::before{bottom:0}
+.fork::after,.join::after{content:"";position:absolute;left:calc((100% - var(--gap))/4 - 1px);right:calc((100% - var(--gap))/4 - 1px);height:10px;
+  border:2px solid var(--spine);border-bottom:0;border-radius:6px 6px 0 0}
+.fork::after{top:9px}
+.join::after{top:0;border-top:0;border-bottom:2px solid var(--spine);border-radius:0 0 6px 6px}
+.era{position:relative;display:flex;justify-content:center;padding-block:10px}
+.era::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:2px;margin-left:-1px;background:var(--spine)}
+.era span{position:relative;background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:6px 12px;
+  font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-align:center;max-width:100%}
+.era span small{display:block;font-size:12px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);margin-top:1px}
+.colhead{position:relative;text-align:center;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:6px 8px;border-radius:6px;
+  background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--c);line-height:1.35}
+.colhead small{display:block;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);font-size:12px}
+.start,.end{position:relative;text-align:center;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:4px 0}
+
+.node{position:relative;width:min(100%,400px);text-align:left;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;align-items:baseline;
+  background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 12px;cursor:pointer;color:var(--ink);font:inherit}
+.split .node{width:100%}
+.node:hover{border-color:var(--muted)}
+.node:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.node.key{border-width:1.5px;border-color:color-mix(in srgb,var(--ink) 35%,var(--line))}
+.node.sel{box-shadow:0 0 0 2px var(--ochre);border-color:var(--ochre)}
+.node.hit{background:var(--ochre-soft)}
+.node .nm{font-family:var(--body);font-weight:600;font-size:17px;line-height:1.25;min-width:0;overflow-wrap:anywhere}
+.node.key .nm{font-size:18.5px}
+.node .alt{font-family:var(--ui);font-size:12px;font-weight:500;color:var(--muted)}
+.node .meta{grid-column:1/-1;font-size:12.5px;color:var(--muted);line-height:1.35}
+.node .refs{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.ref{font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ref.m{background:var(--lapis-soft);color:var(--lapis)}
+.ref.l{background:var(--ochre-soft);color:var(--ochre)}
+.node .ic{grid-column:1/-1;display:flex;gap:6px;flex-wrap:wrap}
+.node .ic span{font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 7px}
+.more{position:relative;align-self:center;font:inherit;font-size:13px;font-weight:700;color:var(--lapis);background:var(--bg);border:1px dashed var(--muted);border-radius:999px;padding:4px 12px;cursor:pointer;max-width:100%}
+.more small{display:block;font-weight:500;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.more:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+mark{background:var(--ochre-soft);color:inherit;padding:0 1px;border-radius:2px}
+
+/* detail sheet */
+.sheet{position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(680px,100%);max-height:min(62vh,560px);overflow:auto;z-index:20;
+  background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:12px 12px 0 0;box-shadow:0 -8px 30px rgba(0,0,0,.18);
+  padding:16px max(18px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));font-family:var(--body)}
+.sheet h2{font-family:var(--display);font-size:24px;margin:0 36px 2px 0;letter-spacing:.03em;line-height:1.2}
+.sheet .sub{font-family:var(--ui);font-size:13px;color:var(--muted);margin:0 0 10px}
+.sheet p{margin:0 0 10px}
+.sheet dl{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;margin:0 0 12px;font-family:var(--ui);font-size:14px}
+.sheet dt{color:var(--muted);font-weight:700}
+.sheet dd{margin:0}
+.sheet .acts{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--ui);font-size:14px}
+.sheet a{font-weight:700;color:var(--lapis);text-decoration:none}
+.sheet a:hover{text-decoration:underline}
+.sheet .x{position:absolute;top:10px;right:12px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:18px;cursor:pointer;line-height:1}
+.sheet .nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;font-family:var(--ui)}
+.sheet .nav button{font:inherit;font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
+.sheet :focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+
+.why{margin-top:40px}
+.why h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.why dl{margin:14px 0 0;display:grid;gap:14px}
+.why dt{font-weight:600}
+.why dd{margin:0;color:var(--muted);max-width:68ch}
+footer{margin-top:40px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+body.sheet-open{padding-bottom:min(62vh,560px)}
+@media (max-width:560px){
+  :root{--gap:10px}
+  .node{padding:6px 9px;grid-template-columns:1fr}
+  .node .refs{justify-content:flex-start}
+  .split .node .nm{font-size:16px}
+  .split .node.key .nm{font-size:17px}
+  .colhead{font-size:10.5px;padding:5px 6px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html" aria-current="page">People</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<header>
+  <div class="eyebrow">Matthew 1 and Luke 3</div>
+  <h1>The Line of Jesus</h1>
+  <p class="lede">Jesus' family line from Adam to Joseph, following both Gospel genealogies. Where Matthew and Luke trace different sons, the line splits into two columns, then joins again where they meet. Tap anyone for who they were and where to read about them.</p>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input id="q" class="search" type="search" placeholder="Find a name…" aria-label="Find a name">
+    <div class="seg" role="group" aria-label="Genealogy">
+      <button type="button" data-g="both" aria-pressed="true">Both</button>
+      <button type="button" data-g="m" aria-pressed="false">Matthew</button>
+      <button type="button" data-g="l" aria-pressed="false">Luke</button>
+    </div>
+  </div>
+  <div class="row">
+    <button type="button" class="toggle" id="keyBtn" aria-pressed="false">Key people only</button>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main class="tree" id="tree"></main>
+
+<section class="why">
+  <h2>Why two genealogies?</h2>
+  <dl>
+    <div><dt>Different purposes</dt><dd>Matthew writes "the son of David, the son of Abraham" and runs forward from Abraham through Solomon and the kings of Judah, showing Jesus as the rightful heir to David's throne. Luke runs backward from Jesus to "Adam, the son of God," showing Him as the Savior of all humanity.</dd></div>
+    <div><dt>Two lines after David</dt><dd>Matthew follows Solomon; Luke follows Nathan, another son of David and Bathsheba. The two meet at Shealtiel and Zerubbabel, then part again until Joseph. Two explanations have long been given. Many hold that Luke traces Mary's line, with Heli as her father and Joseph counted as his son by marriage. Others, since Julius Africanus around AD 220, hold that both lines are Joseph's: one by birth and one by law, through a levirate marriage or an adoption.</dd></div>
+    <div><dt>Matthew's fourteens</dt><dd>Matthew arranges the names in three sets of fourteen (1:17): Abraham to David, David to the exile, and the exile to Christ. To do this he passes over some kings, such as Ahaziah, Joash, and Amaziah between Joram and Uzziah. In Hebrew usage "the father of" can mean "the ancestor of."</dd></div>
+    <div><dt>Women in Matthew</dt><dd>Matthew names four women besides Mary: Tamar, Rahab, Ruth, and "the wife of Uriah," Bathsheba. Several were foreigners, and each has a story of scandal or grace, a sign of the kind of people the Messiah came to save.</dd></div>
+    <div><dt>Joseph and Jesus</dt><dd>Both Gospels stop short of calling Joseph Jesus' father. Matthew says Joseph was "the husband of Mary, of whom Jesus was born," and Luke that Jesus was "the son (as was supposed) of Joseph." Through Joseph, Jesus is David's legal heir. Through Mary, He was born of a virgin.</dd></div>
+  </dl>
+</section>
+
+<footer>Names follow the ESV of Matthew 1:1–17 and Luke 3:23–38. Where Genesis or Kings spells a name differently, both forms are given. The names from Adam to Abraham appear only in Luke, and Genesis 5 and 11 give the life spans. Kings link to the Kings &amp; Prophets page, and key events to the Timeline.</footer>
+</div>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="false" aria-labelledby="sheetTitle" hidden></div>
+
+<script>
+const EVT={"creation":"Creation","the-fall":"The Fall","cain-and-abel":"Cain and Abel","the-flood":"The Flood","the-call-of-abram":"The Call of Abram",
+ "covenant-with-abraham":"Covenant with Abraham","binding-of-isaac":"Binding of Isaac","birth-of-isaac":"Birth of Isaac","jacob-s-ladder":"Jacob's Ladder",
+ "jacob-becomes-israel":"Jacob Becomes Israel","joseph-sold-into-slavery":"Joseph Sold into Slavery","fall-of-jericho":"Fall of Jericho","ruth-and-boaz":"Ruth and Boaz",
+ "david-and-goliath":"David and Goliath","david-becomes-king":"David Becomes King","covenant-with-david":"Covenant with David","solomon-s-temple":"Solomon's Temple",
+ "the-kingdom-divides":"The Kingdom Divides","isaiah-s-vision":"Isaiah's Vision","hezekiah-delivered":"Hezekiah Delivered","josiah-s-reform":"Josiah's Reform",
+ "fall-of-jerusalem":"Fall of Jerusalem","cyrus-lets-the-exiles-return":"Cyrus Lets the Exiles Return","second-temple-completed":"Second Temple Completed",
+ "birth-of-jesus":"Birth of Jesus","the-crucifixion":"The Crucifixion","the-resurrection":"The Resurrection"};
+// n(id, name, fields): m/l = verse in Matthew 1 / Luke 3; alt = other spelling; k = key person; y = life span in years;
+// meta = one line under the name; note; read = main passage; ev = timeline events; king = Kings & Prophets key; fam = family; wom = women Matthew names
+const n=(id,name,o)=>({id,name,...o});
+const KJ="King of Judah";
+const SECTIONS=[
+ {title:"Adam to Noah",sub:"Genesis 5 · in Luke only",color:"#5b6b8c",blocks:[["one",[
+  n("adam","Adam",{l:"38",k:1,y:930,meta:"The first man",read:"Genesis 1–5",ev:["creation","the-fall","cain-and-abel"],fam:"Sons: Cain, Abel, Seth, and others",
+    note:"Made from the dust in God's image. Luke ends his list with \"Adam, the son of God,\" presenting Jesus as the head of a new humanity (Romans 5:12–21)."}),
+  n("seth","Seth",{l:"38",k:1,y:912,read:"Genesis 4:25–5:8",note:"Born after Abel's murder, \"another offspring instead of Abel.\" In his days people began to call on the name of the LORD."}),
+  n("enosh","Enosh",{alt:"Enos",l:"38",y:905,read:"Genesis 5:6–11"}),
+  n("kenan","Kenan",{alt:"Cainan",l:"37",y:910,read:"Genesis 5:9–14"}),
+  n("mahalalel","Mahalalel",{alt:"Mahalaleel",l:"37",y:895,read:"Genesis 5:12–17"}),
+  n("jared","Jared",{l:"37",y:962,read:"Genesis 5:15–20"}),
+  n("enoch","Enoch",{l:"37",k:1,y:365,read:"Genesis 5:18–24",meta:"Walked with God",note:"\"Enoch walked with God, and he was not, for God took him.\" He was taken without dying (Hebrews 11:5)."}),
+  n("methuselah","Methuselah",{l:"37",k:1,y:969,read:"Genesis 5:21–27",meta:"Oldest man in the Bible",note:"The longest life recorded in Scripture. By Genesis's numbers he died in the year of the flood."}),
+  n("lamech","Lamech",{l:"36",y:777,read:"Genesis 5:25–31",note:"Named his son Noah, hoping he would bring relief from the curse on the ground. Not the Lamech of Cain's line."}),
+  n("noah","Noah",{l:"36",k:1,y:950,read:"Genesis 6–9",ev:["the-flood"],fam:"Sons: Shem, Ham, Japheth",note:"Found favor with God, built the ark, and was saved with his family through the flood."})
+ ]]]},
+ {title:"Noah to Abraham",sub:"Genesis 11 · in Luke only",color:"#5b6b8c",blocks:[["one",[
+  n("shem","Shem",{l:"36",k:1,y:600,read:"Genesis 9:18–27; 11:10–11",note:"Blessed by Noah: \"Blessed be the LORD, the God of Shem.\" The Semitic peoples take their name from him."}),
+  n("arphaxad","Arphaxad",{alt:"Arpachshad",l:"36",y:438,read:"Genesis 11:10–13"}),
+  n("cainan","Cainan",{l:"36",note:"Luke includes him, following the Greek Old Testament (the Septuagint). He is not in the Hebrew text of Genesis 11."}),
+  n("shelah","Shelah",{l:"35",y:433,read:"Genesis 11:12–15"}),
+  n("eber","Eber",{l:"35",k:1,y:464,read:"Genesis 10:21–25; 11:14–17",note:"His name is often linked with the word \"Hebrew.\""}),
+  n("peleg","Peleg",{l:"35",y:239,read:"Genesis 10:25; 11:16–19",note:"\"In his days the earth was divided.\""}),
+  n("reu","Reu",{l:"35",y:239,read:"Genesis 11:18–21"}),
+  n("serug","Serug",{l:"35",y:230,read:"Genesis 11:20–23"}),
+  n("nahor","Nahor",{l:"34",y:148,read:"Genesis 11:22–25",note:"Abraham's grandfather, not his brother of the same name."}),
+  n("terah","Terah",{l:"34",k:1,y:205,read:"Genesis 11:24–32",fam:"Sons: Abram, Nahor, Haran",note:"Left Ur of the Chaldeans with Abram and died in Haran. Joshua 24:2 says he served other gods."})
+ ]]]},
+ {title:"Abraham to David",sub:"Matthew's first fourteen",color:"#8a6a2e",blocks:[["one",[
+  n("abraham","Abraham",{m:"2",l:"34",k:1,y:175,read:"Genesis 12–25",ev:["the-call-of-abram","covenant-with-abraham","binding-of-isaac"],fam:"Sons: Ishmael, Isaac, and six by Keturah",
+    note:"Matthew begins with him: Jesus is \"the son of Abraham,\" the offspring through whom all the families of the earth are blessed (Galatians 3:16)."}),
+  n("isaac","Isaac",{m:"2",l:"34",k:1,y:180,read:"Genesis 21–27",ev:["birth-of-isaac","binding-of-isaac"],fam:"Sons: Esau and Jacob, twins",note:"The son of the promise, born when Abraham was a hundred."}),
+  n("jacob","Jacob",{m:"2",l:"34",k:1,y:147,read:"Genesis 25–35",ev:["jacob-s-ladder","jacob-becomes-israel"],fam:"Twelve sons, fathers of the tribes of Israel",note:"Renamed Israel after wrestling with God."}),
+  n("judah","Judah",{m:"2",l:"33",k:1,read:"Genesis 38; 44; 49:8–12",ev:["joseph-sold-into-slavery"],fam:"Sons: Er, Onan, Shelah, Perez, Zerah",note:"Jacob's fourth son. Jacob foretold that \"the scepter shall not depart from Judah\" (Genesis 49:10)."}),
+  n("perez","Perez",{m:"3",l:"33",k:1,read:"Genesis 38:27–30",fam:"Twin brother: Zerah",wom:"Mother: Tamar",note:"Born to Judah and his daughter-in-law Tamar. Tamar is the first of four women Matthew names."}),
+  n("hezron","Hezron",{m:"3",l:"33",read:"Ruth 4:18–19"})
+ ]],["split",[
+  n("ram","Ram",{m:"3",read:"Ruth 4:19",note:"Matthew and Ruth 4:19 name Ram here, where Luke has Arni and Admin. Some manuscripts of Luke read \"Aram,\" matching Matthew."})
+ ],[
+  n("arni","Arni",{l:"33",note:"Luke has Arni and Admin where Matthew and Ruth 4:19 have Ram."}),
+  n("admin","Admin",{l:"33",note:"Luke has Arni and Admin where Matthew and Ruth 4:19 have Ram."})
+ ],{m:"Matthew 1:3",l:"Luke 3:33"}],["one",[
+  n("amminadab","Amminadab",{m:"4",l:"33",note:"His daughter Elisheba married Aaron (Exodus 6:23)."}),
+  n("nahshon","Nahshon",{m:"4",l:"32",k:1,meta:"Leader of Judah",read:"Numbers 1:7; 7:12–17",note:"Leader of the tribe of Judah in the wilderness, the first to bring an offering for the altar."}),
+  n("salmon","Salmon",{alt:"Luke: Sala",m:"4",l:"32",k:1,ev:["fall-of-jericho"],wom:"Wife: Rahab",read:"Joshua 2; 6",note:"Matthew names his wife: Rahab, the Canaanite of Jericho who hid Israel's spies."}),
+  n("boaz","Boaz",{m:"5",l:"32",k:1,ev:["ruth-and-boaz"],wom:"Mother: Rahab. Wife: Ruth the Moabite",read:"Ruth 2–4",note:"The kinsman-redeemer who married Ruth."}),
+  n("obed","Obed",{m:"5",l:"32",k:1,wom:"Mother: Ruth",read:"Ruth 4:13–22",note:"\"A son has been born to Naomi.\" David's grandfather."}),
+  n("jesse","Jesse",{m:"5",l:"32",k:1,fam:"Eight sons; David was the youngest",read:"1 Samuel 16",note:"\"There shall come forth a shoot from the stump of Jesse\" (Isaiah 11:1)."}),
+  n("david","David",{m:"6",l:"31",k:1,meta:"King of Israel",king:"david",read:"1 Samuel 16 – 1 Kings 2",ev:["david-and-goliath","david-becomes-king","covenant-with-david"],
+    fam:"Sons include Solomon and Nathan, both by Bathsheba (1 Chronicles 3:5)",note:"God promised him a son whose throne would last forever. Here the genealogies part: Matthew follows Solomon and the kings, Luke follows Nathan."})
+ ]]]},
+ {title:"David to the exile",sub:"Matthew's second fourteen",color:"#6a3f8f",blocks:[["split",[
+  n("solomon","Solomon",{m:"6",k:1,meta:KJ.replace("Judah","Israel"),king:"solomon",ev:["solomon-s-temple"],wom:"Mother: Bathsheba, \"the wife of Uriah\"",read:"1 Kings 1–11",note:"Built the temple. Through him runs the royal line of Judah's kings."}),
+  n("rehoboam","Rehoboam",{m:"7",k:1,meta:KJ,king:"rehoboam",ev:["the-kingdom-divides"]}),
+  n("abijah","Abijah",{m:"7",meta:KJ,king:"abijah"}),
+  n("asa","Asa",{alt:"ESV: Asaph",m:"7",meta:KJ,king:"asa",note:"The oldest manuscripts read Asaph; King Asa is meant."}),
+  n("jehoshaphat","Jehoshaphat",{m:"8",meta:KJ,king:"jehoshaphat"}),
+  n("joram","Joram",{alt:"Jehoram",m:"8",meta:KJ,king:"jehoram",note:"Matthew goes from Joram straight to Uzziah, passing over Ahaziah, Joash, and Amaziah, to keep three sets of fourteen."}),
+  n("uzziah","Uzziah",{m:"8",k:1,meta:KJ,king:"uzziah",ev:["isaiah-s-vision"]}),
+  n("jotham","Jotham",{m:"9",meta:KJ,king:"jotham"}),
+  n("ahaz","Ahaz",{m:"9",meta:KJ,king:"ahaz"}),
+  n("hezekiah","Hezekiah",{m:"9",k:1,meta:KJ,king:"hezekiah",ev:["hezekiah-delivered"]}),
+  n("manasseh","Manasseh",{m:"10",meta:KJ,king:"manasseh"}),
+  n("amon","Amon",{alt:"ESV: Amos",m:"10",meta:KJ,king:"amon",note:"The oldest manuscripts read Amos; King Amon is meant."}),
+  n("josiah","Josiah",{m:"10",k:1,meta:KJ,king:"josiah",ev:["josiah-s-reform"]}),
+  n("jechoniah","Jechoniah",{alt:"Jehoiachin",m:"11",k:1,meta:KJ+", taken to Babylon",king:"jehoiachin",ev:["fall-of-jerusalem"],fam:"\"And his brothers\" (Matthew 1:11)",read:"2 Kings 24:8–17; Jeremiah 22:24–30",
+    note:"Carried off to Babylon in 597 BC. Jeremiah said none of his offspring would sit on David's throne. Matthew passes over his father Jehoiakim."})
+ ],[
+  n("nathan","Nathan",{l:"31",k:1,meta:"Son of David",read:"2 Samuel 5:14; Zechariah 12:12",note:"A son of David and Bathsheba, not the prophet Nathan. Zechariah 12:12 mentions \"the family of the house of Nathan.\""}),
+  n("mattatha","Mattatha",{l:"31"}),n("menna","Menna",{l:"31"}),n("melea","Melea",{l:"31"}),
+  n("eliakim-l","Eliakim",{l:"30"}),n("jonam","Jonam",{l:"30"}),n("joseph-l2","Joseph",{l:"30"}),n("judah-l","Judah",{l:"30"}),
+  n("simeon","Simeon",{l:"30"}),n("levi-l2","Levi",{l:"29"}),n("matthat-l2","Matthat",{l:"29"}),n("jorim","Jorim",{l:"29"}),
+  n("eliezer","Eliezer",{l:"29"}),n("joshua","Joshua",{l:"29"}),n("er","Er",{l:"28"}),n("elmadam","Elmadam",{l:"28"}),
+  n("cosam","Cosam",{l:"28"}),n("addi","Addi",{l:"28"}),n("melchi-l2","Melchi",{l:"28"}),
+  n("neri","Neri",{l:"27",k:1,note:"Luke names Neri as Shealtiel's father, where Matthew and 1 Chronicles 3:17 name Jechoniah. Shealtiel may have been the son of one by birth and the heir of the other by law."})
+ ],{m:"Matthew 1:6–11 · Solomon's line",l:"Luke 3:27–31 · Nathan's line"}]]},
+ {title:"Return from exile",sub:"Both Gospels meet again",color:"#2e7a78",blocks:[["one",[
+  n("shealtiel","Shealtiel",{m:"12",l:"27",k:1,read:"1 Chronicles 3:17",note:"Matthew calls him Jechoniah's son, Luke Neri's son. Here both genealogies meet again."}),
+  n("zerubbabel","Zerubbabel",{m:"12",l:"27",k:1,meta:"Governor of Judah",ev:["cyrus-lets-the-exiles-return","second-temple-completed"],read:"Ezra 3–5; Haggai 2:20–23",
+    note:"Led the first return from exile and rebuilt the temple. God called him His signet ring (Haggai 2:23), reversing the judgment on Jechoniah (Jeremiah 22:24). 1 Chronicles 3:19 lists him as a son of Pedaiah, Shealtiel's brother, perhaps through a levirate marriage."})
+ ]]]},
+ {title:"Exile to Christ",sub:"Matthew's third fourteen",color:"#7a7f8c",blocks:[["split",[
+  n("abiud","Abiud",{m:"13"}),n("eliakim-m","Eliakim",{m:"13"}),n("azor","Azor",{m:"13"}),n("zadok","Zadok",{m:"14"}),
+  n("achim","Achim",{m:"14"}),n("eliud","Eliud",{m:"14"}),n("eleazar","Eleazar",{m:"15"}),n("matthan","Matthan",{m:"15"}),
+  n("jacob-m","Jacob",{m:"15",k:1,meta:"Joseph's father in Matthew",note:"Matthew names Jacob as Joseph's father; Luke names Heli."})
+ ],[
+  n("rhesa","Rhesa",{l:"27"}),n("joanan","Joanan",{l:"27"}),n("joda","Joda",{l:"26"}),n("josech","Josech",{l:"26"}),
+  n("semein","Semein",{l:"26"}),n("mattathias-l1","Mattathias",{l:"26"}),n("maath","Maath",{l:"26"}),n("naggai","Naggai",{l:"25"}),
+  n("esli","Esli",{l:"25"}),n("nahum-l","Nahum",{l:"25",note:"Not the prophet Nahum."}),n("amos-l","Amos",{l:"25",note:"Not the prophet Amos."}),n("mattathias-l2","Mattathias",{l:"25"}),
+  n("joseph-l1","Joseph",{l:"24"}),n("jannai","Jannai",{l:"24"}),n("melchi-l1","Melchi",{l:"24"}),n("levi-l1","Levi",{l:"24"}),n("matthat-l1","Matthat",{l:"24"}),
+  n("heli","Heli",{l:"23",k:1,meta:"Joseph's father in Luke",note:"Many hold that Heli was Mary's father and Joseph his son by marriage. Others, that Heli and Matthew's Jacob were brothers, and Joseph was the son of one by birth and the other by law."})
+ ],{m:"Matthew 1:13–16",l:"Luke 3:23–27"}]]},
+ {title:"Jesus the Messiah",sub:"Both Gospels",color:"#a8701a",blocks:[["one",[
+  n("joseph","Joseph",{m:"16",l:"23",k:1,meta:"Husband of Mary",ev:["birth-of-jesus"],wom:"Wife: Mary, \"of whom Jesus was born\"",read:"Matthew 1:18–25; 2:13–23",
+    note:"Matthew says Jacob \"fathered\" each son until Joseph, \"the husband of Mary, of whom Jesus was born.\" Luke says Jesus was \"the son (as was supposed) of Joseph.\" Through Joseph, Jesus is David's legal heir."}),
+  n("jesus","Jesus",{m:"16",l:"23",k:1,meta:"The Christ",ev:["birth-of-jesus","the-crucifixion","the-resurrection"],read:"Matthew 1:1–17; Luke 3:23–38",
+    note:"\"The son of David, the son of Abraham\" (Matthew 1:1), and in Luke the son of \"Adam, the son of God.\" Matthew presents Him as the promised King, Luke as the Savior of all humanity."})
+ ]]]}
+];
+
+const ALL=[];
+SECTIONS.forEach((s,si)=>s.blocks.forEach(b=>{
+  const lists=b[0]==="one"?[b[1]]:[b[1],b[2]];
+  lists.forEach(l=>l.forEach(p=>{p.sec=si;ALL.push(p)}));
+}));
+const byId=Object.fromEntries(ALL.map(p=>[p.id,p]));
+const inView=(p,g)=>g==="both"||(g==="m"?!!p.m:!!p.l);
+// Each Gospel's own line in order, for the sheet's up/down buttons
+const LINES={m:ALL.filter(p=>p.m),l:ALL.filter(p=>p.l)};
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref)+"&version=ESV";
+const state={g:"both",key:false,q:"",open:null,expanded:new Set()};
+const hi=s=>{const t=esc(s);if(!state.q)return t;const q=state.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp("("+q+")","ig"),"<mark>$1</mark>")};
+const matches=p=>{if(!state.q)return false;const q=state.q.toLowerCase();return (p.name+" "+(p.alt||"")).toLowerCase().includes(q)};
+
+function card(p){
+  const refs=(state.g!=="l"&&p.m?'<span class="ref m">Mt 1:'+p.m+'</span>':'')+(state.g!=="m"&&p.l?'<span class="ref l">Lk 3:'+p.l+'</span>':'');
+  const meta=[p.meta,p.y?"Lived "+p.y+" years":""].filter(Boolean).join(" · ");
+  const ic=[p.king?"Kings":"",p.ev?"Timeline":"",p.wom?"Named women":""].filter(Boolean);
+  return '<button type="button" class="node'+(p.k?' key':'')+(state.open===p.id?' sel':'')+(matches(p)?' hit':'')+'" id="p-'+p.id+'" data-id="'+p.id+'">'+
+    '<span class="nm">'+hi(p.name)+(p.alt?' <span class="alt">('+hi(p.alt)+')</span>':'')+'</span><span class="refs">'+refs+'</span>'+
+    (meta?'<span class="meta">'+esc(meta)+'</span>':'')+
+    (ic.length?'<span class="ic">'+ic.map(i=>'<span>'+i+'</span>').join("")+'</span>':'')+'</button>';
+}
+// A list of people, with runs of lesser-known names folded into one button when "Key people only" is on
+function stack(list,runKey){
+  let html='<div class="stack">',run=[];
+  const flush=i=>{
+    if(!run.length)return;
+    const id=runKey+":"+i;
+    if(state.key&&!state.q&&!state.expanded.has(id)&&run.length>1)
+      html+='<button type="button" class="more" data-run="'+id+'">+ '+run.length+' more generations<small>'+esc(run.map(p=>p.name).join(", "))+'</small></button>';
+    else html+=run.map(card).join("");
+    run=[];
+  };
+  list.forEach((p,i)=>{if(p.k)(flush(i),html+=card(p));else run.push(p)});
+  flush("end");
+  return html+'</div>';
+}
+function render(){
+  const g=state.g;let html="",shown=0;
+  html+='<div class="start">'+(g==="m"?"Matthew 1:1 · \"The book of the genealogy of Jesus Christ\"":"From Adam")+'</div>';
+  SECTIONS.forEach((s,si)=>{
+    const blocks=s.blocks.map(b=>{
+      if(b[0]==="one")return {t:"one",l:b[1].filter(p=>inView(p,g))};
+      if(g==="both")return {t:"split",m:b[1],l:b[2],h:b[3]};
+      return {t:"one",l:(g==="m"?b[1]:b[2])};
+    }).filter(b=>b.t==="split"||b.l.length);
+    if(!blocks.length)return;
+    // "in Luke only" and "Both Gospels…" only mean something when both are shown; Matthew's fourteens only in his view
+    const sub=s.sub.split(" · ").filter(x=>!(g!=="both"&&(x==="in Luke only"||x.startsWith("Both Gospels")))&&!(g==="l"&&x.startsWith("Matthew's"))).join(" · ");
+    html+='<div class="era" style="--c:'+s.color+'"><span>'+esc(s.title)+(sub?'<small>'+esc(sub)+'</small>':'')+'</span></div>';
+    blocks.forEach((b,bi)=>{
+      if(b.t==="one"){html+=stack(b.l,si+"-"+bi);shown+=b.l.length;return}
+      html+='<div class="fork" aria-hidden="true"></div><div class="split">'+
+        '<div class="stack"><div class="colhead" style="--c:var(--lapis)">Matthew<small>'+esc(b.h.m)+'</small></div></div>'+
+        '<div class="stack"><div class="colhead" style="--c:var(--ochre)">Luke<small>'+esc(b.h.l)+'</small></div></div>'+
+        '<div>'+stack(b.m,si+"-"+bi+"m")+'</div><div>'+stack(b.l,si+"-"+bi+"l")+'</div></div><div class="join" aria-hidden="true"></div>';
+      shown+=b.m.length+b.l.length;
+    });
+  });
+  html+='<div class="end">'+(g==="l"?"Luke 3:38 · \"the son of Adam, the son of God\"":"Jesus Christ")+'</div>';
+  $("#tree").innerHTML=html;
+  const hits=state.q?ALL.filter(p=>inView(p,g)&&matches(p)).length:0;
+  $("#count").textContent=state.q?(hits?hits+(hits===1?" match":" matches"):"No matches"):shown+" names"+(g==="m"?" in Matthew":g==="l"?" in Luke":" across both Gospels");
+}
+
+// ---------- sheet ----------
+const sheet=$("#sheet");
+function openSheet(id,scroll){
+  const p=byId[id];if(!p)return;
+  if(!inView(p,state.g))setG("both");
+  // make sure the card is not folded away
+  if(state.key&&!p.k)state.expanded=new Set([...state.expanded,...[...document.querySelectorAll("[data-run]")].map(b=>b.dataset.run)]);
+  state.open=id;render();
+  const el=document.getElementById("p-"+id);
+  if(el&&scroll)el.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  // Up and down follow this person's own line; where the Gospels fork or rejoin there are two of each
+  const gs=(state.g==="both"?["m","l"]:[state.g]).filter(g=>p[g]);
+  const nb=d=>[...new Set(gs.map(g=>{const L=LINES[g],i=L.indexOf(p);return L[i+d]}).filter(Boolean))];
+  const prev=nb(-1),next=nb(1);
+  const src=[p.m?"Matthew 1:"+p.m:"",p.l?"Luke 3:"+p.l:""].filter(Boolean).join(" · ");
+  let dl="";
+  if(p.alt)dl+='<dt>Also spelled</dt><dd>'+esc(p.alt.replace(/^(ESV|Luke): /,""))+'</dd>';
+  if(p.y)dl+='<dt>Life span</dt><dd>'+p.y+' years</dd>';
+  if(p.fam)dl+='<dt>Family</dt><dd>'+esc(p.fam)+'</dd>';
+  if(p.wom)dl+='<dt>Women named</dt><dd>'+esc(p.wom)+'</dd>';
+  sheet.innerHTML='<button type="button" class="x" id="sheetX" aria-label="Close">×</button>'+
+    '<h2 id="sheetTitle">'+esc(p.name)+'</h2><p class="sub">'+esc([p.meta,src].filter(Boolean).join(" · "))+'</p>'+
+    (p.note?'<p>'+esc(p.note)+'</p>':'<p style="color:var(--muted)">Known only from this genealogy.</p>')+
+    (dl?'<dl>'+dl+'</dl>':'')+
+    '<div class="acts">'+
+      (p.read?p.read.split("; ").map(r=>'<a href="'+gw(r)+'" target="_blank" rel="noopener">Read '+esc(r)+' →</a>').join(""):"")+
+      (p.m?'<a href="'+gw("Matthew 1:"+p.m)+'" target="_blank" rel="noopener">Matthew 1:'+p.m+' →</a>':'')+
+      (p.l?'<a href="'+gw("Luke 3:"+p.l)+'" target="_blank" rel="noopener">Luke 3:'+p.l+' →</a>':'')+
+      (p.ev||[]).map(e=>'<a href="index.html#ev-'+e+'">'+esc(EVT[e])+' on the timeline →</a>').join("")+
+      (p.king?'<a href="kings.html#k-'+p.king+'">'+esc(p.name)+' on Kings &amp; Prophets →</a>':'')+
+    '</div><div class="nav">'+
+      prev.map(x=>'<button type="button" data-go="'+x.id+'">↑ '+esc(x.name)+'</button>').join("")+
+      next.map(x=>'<button type="button" data-go="'+x.id+'">↓ '+esc(x.name)+'</button>').join("")+'</div>';
+  sheet.hidden=false;document.body.classList.add("sheet-open");
+  $("#sheetX").onclick=closeSheet;
+  sheet.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>openSheet(b.dataset.go,true));
+  history.replaceState(null,"","#p-"+id);
+}
+function closeSheet(){
+  const id=state.open;state.open=null;sheet.hidden=true;document.body.classList.remove("sheet-open");render();
+  history.replaceState(null,"",location.pathname+location.search);
+  const el=id&&document.getElementById("p-"+id);el&&el.focus({preventScroll:true});
+}
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!sheet.hidden)closeSheet()});
+
+// ---------- controls ----------
+$("#tree").addEventListener("click",e=>{
+  const r=e.target.closest("[data-run]");if(r){state.expanded.add(r.dataset.run);render();return}
+  const b=e.target.closest(".node");if(!b)return;
+  b.dataset.id===state.open?closeSheet():openSheet(b.dataset.id,false);
+});
+function setG(g){state.g=g;document.querySelectorAll("[data-g]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.g===g));render()}
+document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{setG(b.dataset.g);if(state.open)openSheet(state.open,false)});
+$("#keyBtn").onclick=e=>{state.key=!state.key;state.expanded.clear();e.currentTarget.setAttribute("aria-pressed",state.key);render()};
+let qt;$("#q").addEventListener("input",e=>{
+  state.q=e.target.value.trim();render();clearTimeout(qt);
+  qt=setTimeout(()=>{const h=document.querySelector(".node.hit");h&&h.scrollIntoView({block:"center",behavior:"smooth"})},250);
+});
+
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.innerHTML=d?'<span aria-hidden="true">☀</span><span class="tl"> Light</span>':'<span aria-hidden="true">☾</span><span class="tl"> Dark</span>';themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
+
+render();
+function fromHash(){const m=/^#p-([a-z0-9-]+)$/.exec(location.hash);if(m&&byId[m[1]])openSheet(m[1],true)}
+fromHash();addEventListener("hashchange",fromHash);
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  stuck();addEventListener("scroll",stuck,{passive:true});
+})();
+</script>
+</body>
+</html>
