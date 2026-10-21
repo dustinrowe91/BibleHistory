@@ -18,6 +18,10 @@ Gospel and Acts events on the timeline link to their Word and Deed entries, and 
 - Every church named in Acts, marked on the timeline, with a "Churches in Acts only" filter
 - Tap any event for a summary, the people involved, and a link to the passage on BibleGateway
 
-Both are static pages: open `index.html` in a browser, or turn on GitHub Pages for this repo (Settings → Pages → deploy from `main`).
+All are static pages: open `index.html` in a browser, or turn on GitHub Pages for this repo (Settings → Pages → deploy from `main`).
+
+## Install as an app
+
+The site is a progressive web app. On GitHub Pages (or any HTTPS host), use **Add to Home Screen** on iPhone or **Install app** on Android and desktop Chrome. It opens full screen with its own icon and works offline after the first visit. `sw.js` saves the pages; bump its `VERSION` when adding or renaming files.
 
 Dates follow a conservative chronology (Exodus c. 1446 BC) and are approximate.

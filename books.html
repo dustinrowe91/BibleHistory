@@ -7,6 +7,15 @@
 <title>Books of the Bible</title>
 <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <meta name="claude:viewport-fit-sides" content="cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#eef0f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10141f" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bible History">
+<script>if("serviceWorker" in navigator&&location.protocol.startsWith("http"))addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
@@ -564,6 +573,12 @@ build();fit(false);
   function stuck(){nav.classList.toggle("stuck",scrollY>4)}
   size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
   stuck();addEventListener("scroll",stuck,{passive:true});
+  // Keep the phone's status bar color in step with the light/dark toggle
+  function bar(){
+    var t=root.dataset.theme,metas=document.querySelectorAll('meta[name="theme-color"]');
+    metas.forEach(function(m){var dark=t?t==="dark":/dark/.test(m.media);m.content=dark?"#10141f":"#eef0f3"});
+  }
+  bar();new MutationObserver(bar).observe(root,{attributes:true,attributeFilter:["data-theme"]});
 })();
 </script>
 </body>

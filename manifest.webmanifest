@@ -1,0 +1,22 @@
+{
+  "name": "Bible History",
+  "short_name": "Bible History",
+  "description": "The story of Scripture: a timeline from Creation to today, the books of the Bible, the kings and prophets, the line of Jesus, and Word and Deed.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef0f3",
+  "theme_color": "#eef0f3",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Timeline", "url": "index.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Books of the Bible", "short_name": "Books", "url": "books.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kings and Prophets", "short_name": "Kings", "url": "kings.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "The Line of Jesus", "short_name": "People", "url": "people.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
