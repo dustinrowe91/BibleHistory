@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Prophecy and Fulfillment</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#eef0f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10141f" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bible History">
+<script>if("serviceWorker" in navigator&&location.protocol.startsWith("http"))addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: each prophecy is one card split in two, the Old Testament promise on the left (lapis) and its New Testament fulfillment on the right (ochre), with the centuries between them on the hinge. Grouped in the order of Christ's life. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:960px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+.sitenav .ns{display:none}
+.sitenav.fade{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
+@media (max-width:560px){
+  .sitenav{flex-wrap:nowrap;gap:12px;font-size:13px;align-items:center;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav .home,.sitenav .nl,.sitenav .theme-btn .tl{display:none}
+  .sitenav .ns{display:inline}
+  .sitenav .theme-btn{margin-left:auto;flex:none}
+}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:hover{border-color:var(--muted)}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* controls */
+.controls{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--navh,0px));z-index:5;background:var(--bg);display:flex;flex-direction:column;gap:8px;padding-block:8px 10px;font-family:var(--ui);border-bottom:1px solid var(--line)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{flex:1 1 220px;min-width:0;font:inherit;font-family:var(--ui);font-size:15px;padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search:focus-visible{outline:2px solid var(--lapis);outline-offset:1px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:5px 10px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.chip:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.chip .n{opacity:.7;font-variant-numeric:tabular-nums}
+.count{font-size:13px;color:var(--muted)}
+.scope{font-size:13px;background:var(--ochre-soft);color:var(--ink);border-radius:6px;padding:5px 10px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.scope button{font:inherit;font-weight:700;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer}
+
+/* cards */
+.grp{font-family:var(--display);font-size:22px;letter-spacing:.03em;margin:34px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.grp small{display:block;font-family:var(--body);font-style:italic;font-size:16px;letter-spacing:0;color:var(--muted);font-weight:400;margin-top:2px}
+.pair{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;scroll-margin-top:calc(var(--navh,0px) + 130px)}
+.pair.flash{box-shadow:0 0 0 3px var(--ochre)}
+.pair>h3{margin:0;padding:12px 16px 0;font-family:var(--body);font-size:20px;font-weight:600;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.tag{font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--lapis-soft);color:var(--lapis)}
+.tag.e{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) 92px minmax(0,1fr);align-items:stretch;padding:10px 16px 12px}
+.side{min-width:0;border-left:3px solid var(--c);padding:4px 0 4px 12px}
+.side.ot{--c:var(--lapis)}
+.side.nt{--c:var(--ochre)}
+.side .lab{font-family:var(--ui);font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.side blockquote{margin:3px 0 4px;font-size:17px;line-height:1.45}
+.side .ref{font-family:var(--ui);font-size:13.5px;font-weight:700}
+.side .ref a{color:var(--c);text-decoration:none}
+.side .ref a:hover{text-decoration:underline}
+.side .ref span{font-weight:500;color:var(--muted)}
+.hinge{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-family:var(--ui);color:var(--muted);text-align:center;padding:0 6px}
+.hinge .arr{font-size:22px;line-height:1;color:var(--ochre)}
+.hinge .yrs{font-size:12px;font-weight:700;line-height:1.25}
+.note{margin:0;padding:0 16px 10px;color:var(--muted);font-size:15.5px;max-width:80ch}
+.see{display:flex;flex-wrap:wrap;gap:4px 16px;padding:8px 16px 12px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13.5px}
+.see a{color:var(--lapis);font-weight:700;text-decoration:none}
+.see a:hover{text-decoration:underline}
+mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
+.empty{margin-top:40px;color:var(--muted);text-align:center;font-family:var(--ui)}
+.why{margin-top:44px}
+.why h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.why dl{margin:14px 0 0;display:grid;gap:14px}
+.why dt{font-weight:600}
+.why dd{margin:0;color:var(--muted);max-width:70ch}
+.why a{color:var(--lapis);font-family:var(--ui);font-size:13.5px;font-weight:700;text-decoration:none;white-space:nowrap}
+footer{margin-top:40px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:640px){
+  .two{grid-template-columns:1fr;gap:0;padding:8px 14px 10px}
+  .hinge{flex-direction:row;justify-content:flex-start;gap:8px;padding:6px 0 6px 15px}
+  .hinge .arr{transform:rotate(90deg);font-size:18px}
+  .pair>h3{padding:10px 14px 0;font-size:18.5px}
+  .note{padding:0 14px 10px}.see{padding:8px 14px 10px}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html" aria-current="page">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="theme-btn" id="themeBtn"></button></nav>
+<header>
+  <div class="eyebrow">Promise and fulfillment</div>
+  <h1>Prophecy Fulfilled in Christ</h1>
+  <p class="lede">Old Testament promises side by side with their fulfillment in Jesus, in the order of His life: His birth, ministry, death, resurrection, and the coming of the Spirit. "Everything written about me in the Law of Moses and the Prophets and the Psalms must be fulfilled" (Luke 24:44).</p>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input id="q" class="search" type="search" placeholder="Search prophecies, books, or passages…" aria-label="Search prophecies">
+    <button type="button" class="chip" id="quotedBtn" aria-pressed="false">Quoted in the NT only</button>
+  </div>
+  <div class="chips" id="groups" role="group" aria-label="Part of Christ's life"></div>
+  <div class="row"><span class="count" id="count"></span><span class="scope" id="scope" hidden></span></div>
+</div>
+
+<main id="list"></main>
+<div class="empty" id="empty" hidden><p>No prophecies match.</p><button type="button" class="chip" id="clearBtn">Show all</button></div>
+
+<section class="why">
+  <h2>Reading prophecy</h2>
+  <dl>
+    <div><dt>Quoted and echoed</dt><dd>Most pairs here are made by the New Testament itself, which quotes the Old Testament words, often with "this took place to fulfill what the Lord had spoken by the prophet." These are marked <b>Quoted in the NT</b>. A few are <b>echoed</b>: the New Testament points to an event or pattern, like the Passover lamb or Jonah's three days, without quoting a prediction.</dd></div>
+    <div><dt>Words and patterns</dt><dd>Some prophecies are direct predictions, like Bethlehem in Micah 5:2. Others are patterns in Israel's story that Christ completes: Hosea 11:1 first speaks of Israel coming out of Egypt, and Matthew sees God's true Son retrace that path. Jesus taught His disciples to read all the Scriptures this way. <a href="#" data-ref="Luke 24:25–27, 44–47">Luke 24:25–27, 44–47</a></dd></div>
+    <div><dt>Spoken long before</dt><dd>The dates show how far apart promise and fulfillment stand, often seven centuries or more. Dates for the Old Testament follow the same conservative chronology as the rest of this site, and are approximate. <a href="#" data-ref="1 Peter 1:10–12">1 Peter 1:10–12</a></dd></div>
+  </dl>
+</section>
+
+<footer>Quotations follow the ESV, sometimes shortened. "About N years before" counts from when the promise was given (or, for Genesis, recorded) to the event that fulfilled it. Each pair links to the Timeline and to both books on the Books page.</footer>
+</div>
+
+<script>
+const GROUPS=[
+ {id:"birth",name:"Birth and family line",sub:"The promised offspring arrives"},
+ {id:"ministry",name:"His ministry",sub:"The Servant who brings good news"},
+ {id:"passion",name:"Betrayal and death",sub:"The suffering Servant and the pierced King"},
+ {id:"risen",name:"Risen and reigning",sub:"Not abandoned to the grave, seated at God's right hand"},
+ {id:"spirit",name:"The Spirit and the nations",sub:"The blessing of Abraham comes to the Gentiles"}
+];
+// [id, group, title, OT passage, OT words, OT year (BC, null if unknown), NT passage, NT words, year fulfilled (negative = BC), q = quoted / e = echoed, timeline event, extra links, note]
+const DATA=[
+ ["seed-of-woman","birth","The offspring of the woman","Genesis 3:15","He shall bruise your head, and you shall bruise his heel.",1406,"Galatians 4:4; 1 John 3:8","God sent forth his Son, born of woman. … The reason the Son of God appeared was to destroy the works of the devil.",-5,"e","the-fall",[["covenants.html#adam","The covenant with Adam"]],"The first promise of the gospel, spoken in Eden and recorded by Moses."],
+ ["abraham-seed","birth","Abraham's offspring blesses the nations","Genesis 22:18","In your offspring shall all the nations of the earth be blessed.",1406,"Galatians 3:8, 16","\"And to your offspring,\" who is Christ.",-5,"q","covenant-with-abraham",[["covenants.html#abraham","The covenant with Abraham"],["people.html#p-abraham","Abraham in the line of Jesus"]],""],
+ ["judah","birth","From the tribe of Judah","Genesis 49:10","The scepter shall not depart from Judah.",1406,"Hebrews 7:14; Revelation 5:5","It is evident that our Lord was descended from Judah. … The Lion of the tribe of Judah, the Root of David, has conquered.",-5,"e","birth-of-jesus",[["people.html#p-judah","Judah in the line of Jesus"]],""],
+ ["star","birth","A star out of Jacob","Numbers 24:17","A star shall come out of Jacob, and a scepter shall rise out of Israel.",1406,"Matthew 2:1–2","We saw his star when it rose and have come to worship him.",-5,"e","birth-of-jesus",[],"Balaam's oracle; the wise men from the east followed a star to the King of the Jews."],
+ ["david-throne","birth","A son of David on an everlasting throne","2 Samuel 7:12–13","I will raise up your offspring after you. … I will establish the throne of his kingdom forever.",1000,"Luke 1:31–33","The Lord God will give to him the throne of his father David … and of his kingdom there will be no end.",-5,"q","covenant-with-david",[["covenants.html#david","The covenant with David"],["kings.html#k-david","David on Kings & Prophets"]],""],
+ ["virgin","birth","Born of a virgin","Isaiah 7:14","Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.",735,"Matthew 1:22–23","All this took place to fulfill what the Lord had spoken by the prophet.",-5,"q","birth-of-jesus",[["kings.html#k-ahaz","King Ahaz, who first heard it"]],"Given to King Ahaz as a sign; Immanuel means \"God with us.\""],
+ ["bethlehem","birth","Born in Bethlehem","Micah 5:2","But you, O Bethlehem Ephrathah … from you shall come forth for me one who is to be ruler in Israel.",700,"Matthew 2:4–6","In Bethlehem of Judea, for so it is written by the prophet.",-5,"q","birth-of-jesus",[["maps.html#bethlehem","Bethlehem on the map"]],"The chief priests and scribes answered Herod from this verse without hesitation."],
+ ["egypt","birth","Called out of Egypt","Hosea 11:1","When Israel was a child, I loved him, and out of Egypt I called my son.",750,"Matthew 2:14–15","This was to fulfill what the Lord had spoken by the prophet, \"Out of Egypt I called my son.\"",-4,"q","birth-of-jesus",[["maps.html#flight","The flight to Egypt on the map"]],"Hosea looks back at the exodus; Matthew sees God's true Son retrace Israel's path."],
+ ["ramah","birth","Weeping in Ramah","Jeremiah 31:15","Rachel is weeping for her children; she refuses to be comforted.",600,"Matthew 2:16–18","Then was fulfilled what was spoken by the prophet Jeremiah.",-4,"q","birth-of-jesus",[],"Herod's slaughter of Bethlehem's boys echoes the grief of the exile, and the same chapter of Jeremiah goes on to promise the new covenant."],
+ ["forerunner","birth","A messenger to prepare the way","Isaiah 40:3; Malachi 3:1","In the wilderness prepare the way of the LORD. … Behold, I send my messenger, and he will prepare the way before me.",430,"Mark 1:2–4","John appeared, baptizing in the wilderness and proclaiming a baptism of repentance.",27,"q","baptism-of-jesus",[],"Mark joins Malachi and Isaiah. The years count from Malachi, the later of the two."],
+
+ ["galilee","ministry","A great light in Galilee","Isaiah 9:1–2","The people who walked in darkness have seen a great light.",735,"Matthew 4:12–16","The people dwelling in darkness have seen a great light.",28,"q","sermon-on-the-mount",[["maps.html#capernaum","Capernaum on the map"]],"Jesus made His home in Capernaum, \"in the territory of Zebulun and Naphtali.\""],
+ ["good-news","ministry","Anointed to bring good news","Isaiah 61:1–2","The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the poor.",700,"Luke 4:16–21","Today this Scripture has been fulfilled in your hearing.",28,"q","baptism-of-jesus",[["maps.html#nazareth","Nazareth on the map"]],"Read by Jesus Himself in the synagogue at Nazareth. He stopped mid-verse, before \"the day of vengeance of our God.\""],
+ ["healing","ministry","He took our illnesses","Isaiah 53:4","Surely he has borne our griefs and carried our sorrows.",700,"Matthew 8:16–17","This was to fulfill what was spoken by the prophet Isaiah: \"He took our illnesses and bore our diseases.\"",28,"q","sermon-on-the-mount",[],""],
+ ["parables","ministry","Teaching in parables","Psalm 78:2","I will open my mouth in a parable; I will utter dark sayings from of old.",950,"Matthew 13:34–35","This was to fulfill what was spoken by the prophet: \"I will open my mouth in parables.\"",29,"q",null,[],"A psalm of Asaph."],
+ ["prophet","ministry","A prophet like Moses","Deuteronomy 18:15","The LORD your God will raise up for you a prophet like me from among you … it is to him you shall listen.",1406,"Acts 3:22–26; John 6:14","This is indeed the Prophet who is to come into the world!",29,"q","feeding-the-5-000",[["covenants.html#moses","The covenant at Sinai"]],"Peter applies Moses' words to Jesus at the temple."],
+ ["zeal","ministry","Zeal for God's house","Psalm 69:9","Zeal for your house has consumed me.",1000,"John 2:13–17","His disciples remembered that it was written, \"Zeal for your house will consume me.\"",27,"q",null,[],"When Jesus drove the money-changers from the temple."],
+ ["donkey","ministry","The King on a donkey","Zechariah 9:9","Behold, your king is coming to you; righteous and having salvation is he, humble and mounted on a donkey.",480,"Matthew 21:4–5; John 12:14–16","This took place to fulfill what was spoken by the prophet.",30,"q","triumphal-entry",[],""],
+
+ ["cornerstone","passion","The rejected stone","Psalm 118:22–23","The stone that the builders rejected has become the cornerstone.",null,"Matthew 21:42; Acts 4:10–11","This Jesus is the stone that was rejected by you, the builders, which has become the cornerstone.",30,"q","the-crucifixion",[],"Jesus quoted it of Himself; Peter preached it to the Sanhedrin."],
+ ["betrayed","passion","Betrayed by a friend","Psalm 41:9","Even my close friend in whom I trusted, who ate my bread, has lifted his heel against me.",1000,"John 13:18–26","The Scripture will be fulfilled, \"He who ate my bread has lifted his heel against me.\"",30,"q","the-last-supper",[],""],
+ ["silver","passion","Thirty pieces of silver","Zechariah 11:12–13","They weighed out as my wages thirty pieces of silver. … I threw them into the house of the LORD, to the potter.",480,"Matthew 26:14–15; 27:3–10","They took the thirty pieces of silver … and gave them for the potter's field.",30,"q","the-last-supper",[],"Matthew credits Jeremiah, the greater prophet, likely because he draws on Jeremiah's potter and field as well (Jeremiah 19; 32)."],
+ ["scattered","passion","The shepherd struck","Zechariah 13:7","Strike the shepherd, and the sheep will be scattered.",480,"Matthew 26:31, 56","You will all fall away because of me this night. For it is written, \"I will strike the shepherd.\"",30,"q","the-last-supper",[],"Then all the disciples left Him and fled."],
+ ["silent","passion","Silent before His accusers","Isaiah 53:7","Like a lamb that is led to the slaughter … so he opened not his mouth.",700,"Matthew 27:12–14; Acts 8:32–35","He gave him no answer, not even to a single charge.",30,"q","the-crucifixion",[],"Philip began with this passage and told the Ethiopian official the good news about Jesus."],
+ ["forsaken","passion","\"My God, my God\"","Psalm 22:1","My God, my God, why have you forsaken me?",1000,"Matthew 27:46","Jesus cried out with a loud voice, \"Eli, Eli, lema sabachthani?\"",30,"q","the-crucifixion",[],"Jesus prayed the first line of the psalm from the cross, a psalm that ends in praise and the nations turning to the LORD."],
+ ["mocked","passion","Mocked: \"Let God deliver him\"","Psalm 22:7–8","All who see me mock me. … \"He trusts in the LORD; let him deliver him.\"",1000,"Matthew 27:39–43","He trusts in God; let God deliver him now, if he desires him.",30,"e","the-crucifixion",[],"The chief priests unknowingly spoke the psalm's own words."],
+ ["pierced","passion","Hands and feet pierced","Psalm 22:16","They have pierced my hands and feet.",1000,"Luke 24:39–40; John 20:25–27","See my hands and my feet. … Put your finger here, and see my hands.",30,"e","the-crucifixion",[],"Written centuries before crucifixion was practiced. The traditional Hebrew text reads \"like a lion\"; the ESV follows other Hebrew manuscripts and the Septuagint."],
+ ["garments","passion","Lots cast for His clothing","Psalm 22:18","They divide my garments among them, and for my clothing they cast lots.",1000,"John 19:23–24","This was to fulfill the Scripture which says, \"They divided my garments among them.\"",30,"q","the-crucifixion",[],""],
+ ["transgressors","passion","Numbered with the transgressors","Isaiah 53:12","He poured out his soul to death and was numbered with the transgressors.",700,"Luke 22:37; 23:32–33","This Scripture must be fulfilled in me: \"And he was numbered with the transgressors.\"",30,"q","the-crucifixion",[],"Crucified between two criminals."],
+ ["wounds","passion","Wounded for our transgressions","Isaiah 53:5–6","He was pierced for our transgressions; he was crushed for our iniquities … and with his wounds we are healed.",700,"1 Peter 2:24–25","He himself bore our sins in his body on the tree. … By his wounds you have been healed.",30,"q","the-crucifixion",[["covenants.html#new","The New Covenant"]],""],
+ ["vinegar","passion","Sour wine for His thirst","Psalm 69:21","For my thirst they gave me sour wine to drink.",1000,"John 19:28–30","To fulfill the Scripture, \"I thirst.\" A jar full of sour wine stood there.",30,"q","the-crucifixion",[],""],
+ ["bones","passion","Not a bone broken","Exodus 12:46; Psalm 34:20","He keeps all his bones; not one of them is broken.",1000,"John 19:32–36","These things took place that the Scripture might be fulfilled: \"Not one of his bones will be broken.\"",30,"q","the-crucifixion",[],"The soldiers broke the legs of the two criminals, but not Jesus'. The Passover lamb's bones were not to be broken either."],
+ ["looked","passion","They will look on the one they pierced","Zechariah 12:10","When they look on me, on him whom they have pierced, they shall mourn for him.",480,"John 19:34–37","Another Scripture says, \"They will look on him whom they have pierced.\"",30,"q","the-crucifixion",[],""],
+ ["rich-tomb","passion","With a rich man in His death","Isaiah 53:9","They made his grave with the wicked and with a rich man in his death.",700,"Matthew 27:57–60","A rich man from Arimathea, named Joseph … laid it in his own new tomb.",30,"e","the-crucifixion",[],""],
+ ["passover","passion","The Passover lamb","Exodus 12:3–13","When I see the blood, I will pass over you.",1446,"1 Corinthians 5:7; John 1:29","Christ, our Passover lamb, has been sacrificed.",30,"e","plagues-and-passover",[["covenants.html#moses","The covenant at Sinai"]],"Jesus died at Passover, the Lamb of God who takes away the sin of the world."],
+ ["serpent","passion","Lifted up like the serpent","Numbers 21:8–9","If a serpent bit anyone, he would look at the bronze serpent and live.",1406,"John 3:14–15","As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up.",30,"e","the-crucifixion",[["maps.html#punon","Punon on the map"]],"Jesus Himself drew the comparison."],
+ ["jonah","passion","Three days and three nights","Jonah 1:17","Jonah was in the belly of the fish three days and three nights.",760,"Matthew 12:39–40","So will the Son of Man be three days and three nights in the heart of the earth.",30,"e","jonah-and-nineveh",[["kings.html#k-jonah","Jonah on Kings & Prophets"]],"The sign Jesus gave to those demanding a sign."],
+
+ ["not-abandoned","risen","Not abandoned to the grave","Psalm 16:10","You will not abandon my soul to Sheol, or let your holy one see corruption.",1000,"Acts 2:24–32; 13:35–37","He foresaw and spoke about the resurrection of the Christ.",30,"q","the-resurrection",[],"Peter's argument at Pentecost: David died and was buried, so he spoke of the Christ."],
+ ["my-son","risen","\"You are my Son\"","Psalm 2:7","You are my Son; today I have begotten you.",1000,"Acts 13:32–33; Hebrews 1:5","This he has fulfilled to us their children by raising Jesus.",30,"q","the-resurrection",[],""],
+ ["ascended","risen","Ascended on high","Psalm 68:18","You ascended on high, leading a host of captives in your train.",1000,"Ephesians 4:7–10","When he ascended on high he led a host of captives, and he gave gifts to men.",30,"q","great-commission-ascension",[],""],
+ ["right-hand","risen","Seated at God's right hand","Psalm 110:1","The LORD says to my Lord: \"Sit at my right hand, until I make your enemies your footstool.\"",1000,"Acts 2:33–36; Hebrews 1:13","God has made him both Lord and Christ, this Jesus whom you crucified.",30,"q","great-commission-ascension",[],"The Old Testament verse most quoted in the New."],
+ ["priest","risen","A priest forever","Psalm 110:4","You are a priest forever after the order of Melchizedek.",1000,"Hebrews 5:5–10; 7:23–25","He always lives to make intercession for them.",30,"q","great-commission-ascension",[],""],
+ ["son-of-man","risen","The Son of Man on the clouds","Daniel 7:13–14","With the clouds of heaven there came one like a son of man … and to him was given dominion.",553,"Matthew 26:63–64; Revelation 1:7","You will see the Son of Man seated at the right hand of Power and coming on the clouds of heaven.",30,"q","great-commission-ascension",[["kings.html#k-daniel","Daniel on Kings & Prophets"]],"Jesus' answer under oath at His trial, which the high priest called blasphemy."],
+
+ ["spirit","spirit","The Spirit poured out","Joel 2:28–32","I will pour out my Spirit on all flesh.",835,"Acts 2:14–21","This is what was uttered through the prophet Joel.",30,"q","pentecost",[["kings.html#k-joel","Joel on Kings & Prophets"]],"Joel's date is debated; some place him after the exile."],
+ ["new-covenant","spirit","The new covenant","Jeremiah 31:31–34","Behold, the days are coming, declares the LORD, when I will make a new covenant.",600,"Luke 22:20; Hebrews 8:6–13","This cup that is poured out for you is the new covenant in my blood.",30,"q","the-last-supper",[["covenants.html#new","The New Covenant"]],""],
+ ["light-nations","spirit","A light for the nations","Isaiah 49:6","I will make you as a light for the nations, that my salvation may reach to the end of the earth.",700,"Acts 13:46–48; Luke 2:30–32","I have made you a light for the Gentiles. … And when the Gentiles heard this, they began rejoicing.",47,"q","pisidian-antioch",[["maps.html#pantioch","Pisidian Antioch on the map"]],"Simeon sang it over the infant Jesus; Paul preached it at Pisidian Antioch."],
+ ["davids-tent","spirit","David's fallen tent rebuilt","Amos 9:11–12","In that day I will raise up the booth of David that is fallen … and all the nations who are called by my name.",760,"Acts 15:13–18","With this the words of the prophets agree.",49,"q","jerusalem-council",[["kings.html#k-amos","Amos on Kings & Prophets"]],"James quoted Amos at the Jerusalem Council to show that God was calling Gentiles without circumcision."]
+];
+const P=DATA.map(d=>({id:d[0],g:d[1],title:d[2],otRef:d[3],ot:d[4],otY:d[5],ntRef:d[6],nt:d[7],ntY:d[8],q:d[9]==="q",ev:d[10],extra:d[11],note:d[12]}));
+const EVT={"the-fall":"The Fall","covenant-with-abraham":"Covenant with Abraham","covenant-with-david":"Covenant with David","birth-of-jesus":"Birth of Jesus",
+ "baptism-of-jesus":"Baptism of Jesus","sermon-on-the-mount":"Sermon on the Mount","feeding-the-5-000":"Feeding the 5,000","triumphal-entry":"Triumphal Entry",
+ "the-last-supper":"The Last Supper","the-crucifixion":"The Crucifixion","the-resurrection":"The Resurrection","great-commission-ascension":"Great Commission & Ascension",
+ "pentecost":"Pentecost","pisidian-antioch":"Pisidian Antioch","jerusalem-council":"Jerusalem Council","plagues-and-passover":"Plagues and Passover","jonah-and-nineveh":"Jonah and Nineveh"};
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref)+"&version=ESV";
+// "Genesis 15:5; 22:18" → ["Genesis 15:5", "Genesis 22:18"]: a reference without a book continues the one before it
+const splitRefs=s=>{let book="";return s.split("; ").map(r=>{const m=/^((?:[1-3] )?[A-Z][a-z]+(?: of [A-Z][a-z]+)?) \d/.exec(r);if(m)book=m[1];else if(book)r=book+" "+r;return r})};
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+// Book names as the Books page has them ("Psalm 22" is in "Psalms")
+const booksOf=r=>[...new Set(splitRefs(r).map(x=>/^((?:[1-3] )?[A-Z][a-z]+(?: of [A-Z][a-z]+)?)/.exec(x)[1].replace(/^Psalm$/,"Psalms")))];
+const yr=y=>y<0?(-y)+" BC":"AD "+y;
+function gap(p){
+  if(p.otY==null)return "";
+  // no year zero between 1 BC and AD 1
+  const n=p.ntY>0?p.otY+p.ntY-1:p.otY+p.ntY,r=n>=150?Math.round(n/50)*50:Math.round(n/10)*10;
+  return "about "+r.toLocaleString()+" years";
+}
+
+const state={g:"all",q:"",quoted:false,scope:null};
+const hi=s=>{const t=esc(s);if(!state.q)return t;const q=state.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp("("+q+")","ig"),"<mark>$1</mark>")};
+function inScope(p){
+  if(!state.scope)return true;
+  if(state.scope.type==="ev")return p.ev===state.scope.v;
+  if(state.scope.type==="book")return booksOf(p.otRef).includes(state.scope.v)||booksOf(p.ntRef).includes(state.scope.v);
+  return true;
+}
+function matches(p){
+  if(state.g!=="all"&&p.g!==state.g)return false;
+  if(state.quoted&&!p.q)return false;
+  if(!inScope(p))return false;
+  if(!state.q)return true;
+  return [p.title,p.otRef,p.ot,p.ntRef,p.nt,p.note].join(" ").toLowerCase().includes(state.q.toLowerCase());
+}
+const refLinks=(r,cls)=>{const full=splitRefs(r);return r.split("; ").map((x,i)=>'<a href="'+gw(full[i])+'" target="_blank" rel="noopener">'+hi(x)+'</a>').join(", ")};
+function card(p){
+  const books=[...booksOf(p.otRef),...booksOf(p.ntRef)].filter((b,i,a)=>a.indexOf(b)===i);
+  return '<article class="pair" id="'+p.id+'"><h3>'+hi(p.title)+'<span class="tag'+(p.q?'':' e')+'">'+(p.q?'Quoted in the NT':'Echoed')+'</span></h3>'+
+    '<div class="two">'+
+      '<div class="side ot"><div class="lab">Promised</div><blockquote>'+hi(p.ot)+'</blockquote><div class="ref">'+refLinks(p.otRef)+(p.otY!=null?' <span>· c. '+p.otY+' BC</span>':'')+'</div></div>'+
+      '<div class="hinge" aria-hidden="true"><span class="arr">→</span><span class="yrs">'+esc(gap(p))+'</span></div>'+
+      '<div class="side nt"><div class="lab">Fulfilled</div><blockquote>'+hi(p.nt)+'</blockquote><div class="ref">'+refLinks(p.ntRef)+' <span>· c. '+yr(p.ntY)+'</span></div></div>'+
+    '</div>'+(p.note?'<p class="note">'+hi(p.note)+'</p>':'')+
+    '<div class="see">'+(p.ev?'<a href="index.html#ev-'+p.ev+'">'+esc(EVT[p.ev])+' on the timeline →</a>':'')+
+      books.map(b=>'<a href="books.html#b-'+slug(b)+'">'+esc(b)+' →</a>').join("")+
+      p.extra.map(x=>'<a href="'+x[0]+'">'+esc(x[1])+' →</a>').join("")+'</div></article>';
+}
+function render(){
+  let html="",n=0;
+  GROUPS.forEach(g=>{
+    const list=P.filter(p=>p.g===g.id&&matches(p));if(!list.length)return;n+=list.length;
+    html+='<h2 class="grp" id="g-'+g.id+'">'+esc(g.name)+'<small>'+esc(g.sub)+'</small></h2>'+list.map(card).join("");
+  });
+  $("#list").innerHTML=html;$("#empty").hidden=n>0;
+  $("#count").textContent=n+" of "+P.length+" prophecies"+(state.q?' matching "'+state.q+'"':"");
+  const sc=$("#scope");
+  if(state.scope){sc.hidden=false;sc.innerHTML='Showing prophecies for <b>'+esc(state.scope.label)+'</b><button type="button" id="unscope">Show all</button>';$("#unscope").onclick=()=>{state.scope=null;history.replaceState(null,"",location.pathname);render()}}
+  else sc.hidden=true;
+  renderGroups();
+}
+function renderGroups(){
+  const base=P.filter(p=>(!state.quoted||p.q)&&inScope(p));
+  $("#groups").innerHTML='<button type="button" class="chip" data-g="all" aria-pressed="'+(state.g==="all")+'">All <span class="n">'+base.length+'</span></button>'+
+    GROUPS.map(g=>'<button type="button" class="chip" data-g="'+g.id+'" aria-pressed="'+(state.g===g.id)+'">'+esc(g.name)+' <span class="n">'+base.filter(p=>p.g===g.id).length+'</span></button>').join("");
+}
+$("#groups").addEventListener("click",e=>{const b=e.target.closest("[data-g]");if(!b)return;state.g=b.dataset.g;render();
+  if(state.g!=="all"){const h=document.getElementById("g-"+state.g);h&&scrollTo({top:h.getBoundingClientRect().top+scrollY-$(".controls").getBoundingClientRect().bottom-8})}});
+$("#quotedBtn").onclick=e=>{state.quoted=!state.quoted;e.currentTarget.setAttribute("aria-pressed",state.quoted);render()};
+$("#q").addEventListener("input",e=>{state.q=e.target.value.trim();render()});
+$("#clearBtn").onclick=()=>{state.q="";$("#q").value="";state.g="all";state.quoted=false;$("#quotedBtn").setAttribute("aria-pressed","false");state.scope=null;render()};
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-ref]");if(a){e.preventDefault();open(gw(splitRefs(a.dataset.ref).join("; ")),"_blank","noopener")}});
+
+// Links in: #ev=<timeline event>, #book=<Book name>, or #<prophecy id>
+function fromHash(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  let m;
+  if((m=/^ev=(.+)$/.exec(h))&&P.some(p=>p.ev===m[1]))state.scope={type:"ev",v:m[1],label:EVT[m[1]]};
+  else if((m=/^book=(.+)$/.exec(h)))state.scope={type:"book",v:m[1],label:"the book of "+m[1]};
+  render();
+  const el=!state.scope&&h&&document.getElementById(h);
+  // land the card just below the sticky nav and controls; again once web fonts load, since they change both heights
+  if(el){
+    const land=()=>scrollTo({top:el.getBoundingClientRect().top+scrollY-$(".controls").getBoundingClientRect().height-document.querySelector(".sitenav").offsetHeight-10});
+    land();if(document.fonts)document.fonts.ready.then(()=>requestAnimationFrame(land));
+    el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),2200);
+  }
+}
+
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.innerHTML=d?'<span aria-hidden="true">☀</span><span class="tl"> Light</span>':'<span aria-hidden="true">☾</span><span class="tl"> Dark</span>';themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
+fromHash();addEventListener("hashchange",fromHash);
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  // On a phone the tabs scroll sideways: bring the current page into view, and fade the edge while more is hidden
+  var cur=nav.querySelector('[aria-current="page"]');
+  if(cur&&nav.scrollWidth>nav.clientWidth)nav.scrollLeft=cur.offsetLeft-(nav.clientWidth-cur.offsetWidth)/2;
+  function fade(){nav.classList.toggle("fade",nav.scrollLeft+nav.clientWidth<nav.scrollWidth-4)}
+  fade();nav.addEventListener("scroll",fade,{passive:true});addEventListener("resize",fade);
+  stuck();addEventListener("scroll",stuck,{passive:true});
+  function bar(){
+    var t=root.dataset.theme,metas=document.querySelectorAll('meta[name="theme-color"]');
+    metas.forEach(function(m){var dark=t?t==="dark":/dark/.test(m.media);m.content=dark?"#10141f":"#eef0f3"});
+  }
+  bar();new MutationObserver(bar).observe(root,{attributes:true,attributeFilter:["data-theme"]});
+})();
+</script>
+</body>
+</html>
