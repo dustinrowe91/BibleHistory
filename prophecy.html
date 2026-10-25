@@ -140,7 +140,7 @@ footer{margin-top:40px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html" aria-current="page">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html" aria-current="page">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">Promise and fulfillment</div>
   <h1>Prophecy Fulfilled in Christ</h1>
@@ -215,7 +215,7 @@ const DATA=[
  ["bones","passion","Not a bone broken","Exodus 12:46; Psalm 34:20","He keeps all his bones; not one of them is broken.",1000,"John 19:32–36","These things took place that the Scripture might be fulfilled: \"Not one of his bones will be broken.\"",30,"q","the-crucifixion",[],"The soldiers broke the legs of the two criminals, but not Jesus'. The Passover lamb's bones were not to be broken either."],
  ["looked","passion","They will look on the one they pierced","Zechariah 12:10","When they look on me, on him whom they have pierced, they shall mourn for him.",480,"John 19:34–37","Another Scripture says, \"They will look on him whom they have pierced.\"",30,"q","the-crucifixion",[],""],
  ["rich-tomb","passion","With a rich man in His death","Isaiah 53:9","They made his grave with the wicked and with a rich man in his death.",700,"Matthew 27:57–60","A rich man from Arimathea, named Joseph … laid it in his own new tomb.",30,"e","the-crucifixion",[],""],
- ["passover","passion","The Passover lamb","Exodus 12:3–13","When I see the blood, I will pass over you.",1446,"1 Corinthians 5:7; John 1:29","Christ, our Passover lamb, has been sacrificed.",30,"e","plagues-and-passover",[["covenants.html#moses","The covenant at Sinai"]],"Jesus died at Passover, the Lamb of God who takes away the sin of the world."],
+ ["passover","passion","The Passover lamb","Exodus 12:3–13","When I see the blood, I will pass over you.",1446,"1 Corinthians 5:7; John 1:29","Christ, our Passover lamb, has been sacrificed.",30,"e","plagues-and-passover",[["covenants.html#moses","The covenant at Sinai"],["plagues.html#firstborn","The tenth plague and the first Passover"]],"Jesus died at Passover, the Lamb of God who takes away the sin of the world."],
  ["serpent","passion","Lifted up like the serpent","Numbers 21:8–9","If a serpent bit anyone, he would look at the bronze serpent and live.",1406,"John 3:14–15","As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up.",30,"e","the-crucifixion",[["maps.html#punon","Punon on the map"]],"Jesus Himself drew the comparison."],
  ["jonah","passion","Three days and three nights","Jonah 1:17","Jonah was in the belly of the fish three days and three nights.",760,"Matthew 12:39–40","So will the Son of Man be three days and three nights in the heart of the earth.",30,"e","jonah-and-nineveh",[["kings.html#k-jonah","Jonah on Kings & Prophets"]],"The sign Jesus gave to those demanding a sign."],
 
@@ -336,6 +336,7 @@ fromHash();addEventListener("hashchange",fromHash);
   var PAGES=[["index.html","Timeline","The story of Scripture, Creation to today"],["books.html","Books","All 66 books on one timeline"],
     ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
     ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
+    ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
     ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
   var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
   PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");

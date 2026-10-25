@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Plagues of Egypt</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#eef0f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10141f" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bible History">
+<script>if("serviceWorker" in navigator&&location.protocol.startsWith("http"))addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: the judgments laid out the way Exodus arranges them: a sign, three rounds of three plagues (warned at the river, warned at the palace, no warning), the death of the firstborn, and the sea. The overview is a map of that pattern; each card below opens one judgment and follows it through the rest of Scripture. */
+:root{
+  --bg:#eef0f3; --surface:#fbfbfc; --ink:#1b2234; --muted:#5a6276; --line:#d3d8e2;
+  --lapis:#2747a3; --lapis-soft:#dfe5f6; --ochre:#a8701a; --ochre-soft:#f5ead6; --crimson:#b0313e; --crimson-soft:#f6e1e3;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya",Georgia,"Times New Roman",serif;
+  --ui:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; --crimson:#e0707b; --crimson-soft:#3a1d22; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#181e2d; --ink:#e7e9f0; --muted:#9aa2b8; --line:#2c3449;
+  --lapis:#8ea6f0; --lapis-soft:#22305a; --ochre:#e0ac55; --ochre-soft:#3a2d17; --crimson:#e0707b; --crimson-soft:#3a1d22; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);line-height:1.1;margin:8px 0 12px;text-wrap:balance;letter-spacing:.02em}
+.lede{color:var(--muted);max-width:64ch;margin:0}
+.sitenav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding-block:14px 0;font-family:var(--ui);font-size:14px}
+.sitenav .home{font-family:var(--display);font-weight:700;letter-spacing:.04em;color:var(--ink);margin-right:auto}
+.sitenav a{color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sitenav a:hover{color:var(--ink)}
+.sitenav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ochre)}
+.sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
+.sitenav.stuck{border-bottom-color:var(--line)}
+.sitenav .ns{display:none}
+.sitenav.fade{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
+@media (max-width:560px){
+  /* Phones: site name, a Menu button that opens every page, and the theme toggle */
+  .sitenav{flex-wrap:nowrap;gap:8px;align-items:center}
+  .sitenav>a{display:none}
+  .sitenav .home{font-size:15px}
+  .sitenav .menu-btn{display:inline-flex}
+  .sitenav .theme-btn .tl{display:none}
+  .sitenav .theme-btn{flex:none}
+}
+.menu-btn{display:none;align-items:center;gap:6px;font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:4px 12px;border-radius:999px;cursor:pointer}
+.menu-btn[aria-expanded="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.menu-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.site-menu{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);padding:6px;display:grid;gap:2px;max-height:calc(100vh - 90px);overflow:auto;white-space:normal}
+.site-menu a{display:block;border:0;padding:9px 12px;border-radius:8px;color:var(--ink);text-decoration:none}
+.site-menu a b{display:block;font-size:15px}
+.site-menu a span{display:block;font-size:12.5px;color:var(--muted);font-weight:500}
+.site-menu a:hover,.site-menu a:focus-visible{background:var(--bg);outline:none}
+.site-menu a[aria-current="page"]{background:var(--lapis-soft)}
+.site-menu a[aria-current="page"] b::after{content:" · you are here";font-size:12px;font-weight:500;color:var(--muted)}
+.sitenav a:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
+.theme-btn:hover{border-color:var(--muted)}
+.theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* overview: the pattern of the plagues */
+.pattern{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-family:var(--ui)}
+.pattern h2{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.prow{display:grid;grid-template-columns:11rem repeat(3,minmax(0,1fr));gap:8px;align-items:stretch;margin-bottom:8px}
+.prow .rl{font-size:12.5px;color:var(--muted);line-height:1.3;align-self:center}
+.prow .rl b{display:block;color:var(--ink);font-size:13px}
+.prow.one{grid-template-columns:11rem minmax(0,1fr)}
+.tile{display:flex;flex-direction:column;gap:1px;text-align:left;font:inherit;border:1px solid var(--line);border-left:4px solid var(--c);background:var(--bg);color:var(--ink);border-radius:6px;padding:7px 9px;cursor:pointer;transition:opacity .15s,box-shadow .15s}
+.tile:hover{border-color:var(--muted);border-left-color:var(--c)}
+.tile:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.tile .tn{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.tile .tt{font-family:var(--body);font-weight:600;font-size:16.5px;line-height:1.2}
+.tile .tm{font-size:11.5px;color:var(--muted);display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
+.pattern.hl .tile{opacity:.32}
+.pattern.hl .tile.on{opacity:1;box-shadow:0 0 0 2px var(--ochre)}
+.lens{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.lens .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip{flex:none;font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:4px 10px;border-radius:999px;cursor:pointer}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.chip:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.lensnote{font-size:13.5px;color:var(--muted);margin:8px 0 0;min-height:1.2em}
+
+/* plague cards */
+.card{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:16px 18px;scroll-margin-top:calc(var(--navh,0px) + 14px)}
+.card.flash{box-shadow:0 0 0 3px var(--ochre)}
+.card .kick{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.card h2{font-family:var(--display);font-size:26px;letter-spacing:.03em;margin:2px 0 0;line-height:1.15}
+.card .heb{font-family:var(--ui);font-size:13.5px;color:var(--muted);margin:2px 0 10px}
+.card .heb a{color:var(--lapis);font-weight:700;text-decoration:none}
+.card p{margin:0 0 10px;max-width:72ch}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:4px 0 14px;font-family:var(--ui)}
+.fact{background:var(--bg);border-radius:6px;padding:7px 9px;font-size:13px;line-height:1.35}
+.fact b{display:block;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.fact.yes{background:var(--lapis-soft)}
+.fact.god{background:var(--crimson-soft)}
+.fact a{color:var(--lapis);font-weight:700;text-decoration:none;white-space:nowrap}
+.word{border-left:3px solid var(--ochre);padding:4px 0 4px 12px;margin:0 0 14px;font-size:18px;font-style:italic}
+.word a{font-style:normal;font-family:var(--ui);font-size:13px;font-weight:700;color:var(--ochre);text-decoration:none;white-space:nowrap}
+.gods{font-size:15.5px;color:var(--muted);margin:0 0 14px}
+.gods b{font-family:var(--ui);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.card h3{font-family:var(--ui);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.echo{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:0}
+.echo li{display:grid;grid-template-columns:10.5rem minmax(0,1fr);gap:2px 12px;padding:7px 0;border-top:1px solid var(--line);align-items:baseline}
+.echo li:first-child{border-top:0}
+.echo .er{font-family:var(--ui);font-size:13.5px;font-weight:700}
+.echo .er a{color:var(--lapis);text-decoration:none}
+.echo .er a:hover{text-decoration:underline}
+.echo .en{font-size:16px}
+.echo li.rev .er a{color:var(--crimson)}
+.sig{background:var(--ochre-soft);border-radius:8px;padding:12px 14px;margin:8px 0 12px}
+.sig b{display:block;font-family:var(--ui);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin-bottom:2px}
+.sig p{margin:0 0 8px}.sig p:last-child{margin:0}
+.see{display:flex;flex-wrap:wrap;gap:4px 16px;font-family:var(--ui);font-size:13.5px}
+.see a{color:var(--lapis);font-weight:700;text-decoration:none}
+.see a:hover{text-decoration:underline}
+.top{font-family:var(--ui);font-size:12.5px;color:var(--muted);text-decoration:none;margin-left:auto}
+
+/* closing sections */
+.study{margin-top:44px}
+.study h2{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.03em;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.study h3{font-family:var(--body);font-size:19px;font-weight:600;margin:20px 0 4px}
+.study p{margin:0 0 10px;max-width:72ch;color:var(--ink)}
+.study a{color:var(--lapis);font-family:var(--ui);font-size:13.5px;font-weight:700;text-decoration:none;white-space:nowrap}
+table.rev{width:100%;border-collapse:collapse;font-size:15.5px;margin:6px 0 10px}
+table.rev th{font-family:var(--ui);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:2px solid var(--line);padding:6px 8px}
+table.rev td{border-bottom:1px solid var(--line);padding:7px 8px;vertical-align:top}
+table.rev td:first-child{font-weight:600}
+.hardgrid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;margin:10px 0 6px;font-family:var(--ui)}
+.hardgrid div{border-radius:4px;padding:6px 2px;text-align:center;font-size:11px;font-weight:700;line-height:1.2;color:#fff}
+.hardgrid .self{background:#5b6b8c}.hardgrid .pass{background:#8a8f9c}.hardgrid .god{background:var(--crimson)}
+.hkey{display:flex;gap:6px 16px;flex-wrap:wrap;font-family:var(--ui);font-size:12.5px;color:var(--muted)}
+.hkey i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+footer{margin-top:40px;font-family:var(--ui);font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:700px){
+  .prow,.prow.one{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .prow .rl{grid-column:1/-1}
+  .prow.one .tile{grid-column:1/-1}
+  .tile .tt{font-size:15px}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .echo li{grid-template-columns:1fr}
+  .hardgrid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .card{padding:14px}
+  table.rev{font-size:14.5px}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html" aria-current="page">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<header>
+  <div class="eyebrow">Exodus 7–14 · c. 1446 BC</div>
+  <h1>The Plagues of Egypt</h1>
+  <p class="lede">Ten plagues, with the sign that opened the contest and the sea that ended it: twelve judgments on Pharaoh and the gods of Egypt. Each one shows who is the LORD, and each echoes on through Scripture, to the cross and the last judgment. "On all the gods of Egypt I will execute judgments: I am the LORD" (Exodus 12:12).</p>
+</header>
+
+<section class="pattern" id="pattern" aria-label="The pattern of the plagues">
+  <h2>The pattern: a sign, three rounds of three, the firstborn, and the sea</h2>
+  <div id="rows"></div>
+  <div class="lens" role="group" aria-label="Highlight"><span class="lbl">Highlight</span><span id="lenses" style="display:contents"></span></div>
+  <p class="lensnote" id="lensnote" aria-live="polite"></p>
+</section>
+
+<main id="cards"></main>
+
+<section class="study" id="hardening">
+  <h2>The hardening of Pharaoh's heart</h2>
+  <p>Before Moses ever went to Egypt, God told him, "I will harden his heart, so that he will not let the people go" (Exodus 4:21; 7:3). Then, plague by plague, the text says three things: Pharaoh hardened his heart, his heart was hardened, and the LORD hardened his heart. Through the first five plagues Pharaoh hardens himself or "is hardened." From the sixth on, the LORD is named as the one who hardens him, though at the hail Pharaoh "hardened his heart" once more (9:34).</p>
+  <div class="hardgrid" id="hardgrid" aria-label="Who hardened Pharaoh's heart, judgment by judgment"></div>
+  <div class="hkey"><span><i style="background:#5b6b8c"></i>Pharaoh hardened his own heart</span><span><i style="background:#8a8f9c"></i>"His heart was hardened"</span><span><i style="background:var(--crimson)"></i>The LORD hardened his heart</span></div>
+  <p style="margin-top:12px">Both are true together. God is sovereign over the heart of a king (Proverbs 21:1), and Pharaoh is fully guilty for his own pride and cruelty. Paul draws the lesson in Romans 9: "For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth. So then he has mercy on whomever he wills, and he hardens whomever he wills." When the objector asks how God can still find fault, Paul does not soften either truth, but answers, "Who are you, O man, to answer back to God?" <a href="#" data-ref="Romans 9:14–24">Romans 9:14–24</a></p>
+  <p>The warning stands for every hearer. The Philistines remembered: "Why should you harden your hearts as the Egyptians and Pharaoh hardened their hearts?" And Hebrews still says, "Today, if you hear his voice, do not harden your hearts." <a href="#" data-ref="1 Samuel 6:6">1 Samuel 6:6</a> · <a href="#" data-ref="Hebrews 3:7–15">Hebrews 3:7–15</a></p>
+
+  <h2 style="margin-top:36px">"That you may know that I am the LORD"</h2>
+  <p>The plagues are not random disasters. God says again and again why He sends them: so that Egypt, Pharaoh, and Israel would know who He is. He is the LORD, there is none like Him in all the earth, the earth is His, and He makes a distinction between His people and the world.</p>
+  <p id="knowlist"></p>
+
+  <h2 style="margin-top:36px">The plagues and the last judgment</h2>
+  <p>Revelation's trumpets and bowls deliberately echo Egypt. The judgments that fell on one kingdom foreshadow the judgment that will fall on the whole world in rebellion against God. And the people of God, delivered through it all, stand beside a sea and sing "the song of Moses, the servant of God, and the song of the Lamb" (Revelation 15:3).</p>
+  <table class="rev"><thead><tr><th>In Egypt</th><th>Trumpets</th><th>Bowls</th></tr></thead><tbody id="revtable"></tbody></table>
+  <p>The two witnesses of Revelation 11 likewise have "power over the waters to turn them into blood and to strike the earth with every kind of plague." <a href="#" data-ref="Revelation 11:6">Revelation 11:6</a></p>
+
+  <h2 style="margin-top:36px">Redeemed by blood</h2>
+  <p>In the first plagues God set Israel apart without any sign. At the last plague He did not. Israel was spared not because they were better than Egypt, but because a lamb died in the place of their firstborn and its blood was on the door. "When I see the blood, I will pass over you." Every household under the blood was safe, and every household without it was not.</p>
+  <p>That night is the gospel in picture. "Christ, our Passover lamb, has been sacrificed." He was killed at Passover, not a bone of Him was broken, and by His blood God's people are redeemed, "not with perishable things such as silver or gold, but with the precious blood of Christ, like that of a lamb without blemish or spot." The judgment that passed over Israel fell on Him: darkness over the land at noon, and the death of God's only Son, so that all who shelter under His blood are passed over. <a href="#" data-ref="Exodus 12:13">Exodus 12:13</a> · <a href="#" data-ref="1 Corinthians 5:7">1 Corinthians 5:7</a> · <a href="#" data-ref="1 Peter 1:18–19">1 Peter 1:18–19</a> · <a href="#" data-ref="John 19:36">John 19:36</a></p>
+</section>
+
+<footer>Quotations follow the ESV. Scripture does not number the plagues; Exodus records ten, and Psalms 78 and 105 retell them in their own order and selection. The sign of the staff and the drowning at the sea are counted here because they open and close the same contest with Pharaoh. The Egyptian gods each plague is "often linked with" are scholarly suggestions, not claims the text makes. The text says only that God judged "all the gods of Egypt" (Exodus 12:12; Numbers 33:4).</footer>
+</div>
+
+<script>
+// One record per judgment. warn: "river" | "palace" | "none" | "-"; mag: magicians imitated it ("yes" | "fail" | "-");
+// spared: Israel explicitly spared (verse) or null; hard: [who, verse] where who is self | pass | god
+const PL=[
+ {id:"staff",n:"The sign",name:"The Staff Becomes a Serpent",heb:"tannin, \"serpent\" or \"dragon\"",ref:"Exodus 7:8–13",color:"#5b6b8c",warn:"-",mag:"yes",spared:null,hard:["pass","7:13"],rev:null,
+  summary:"Before the plagues, Pharaoh demands a sign. Aaron throws down his staff and it becomes a serpent. Pharaoh's magicians do the same by their secret arts, but Aaron's staff swallows up theirs.",
+  word:["When Pharaoh says to you, \"Prove yourselves by working a miracle,\" then you shall say to Aaron, \"Take your staff and cast it down before Pharaoh.\"","Exodus 7:9"],
+  gods:"The cobra (Wadjet) worn on Pharaoh's crown, the emblem of his divine power.",
+  echoes:[["Exodus 4:2–5","The same sign was given to Moses at the burning bush, so that Israel would believe."],
+   ["Exodus 15:12","At the sea the image returns: \"You stretched out your right hand; the earth swallowed them.\""],
+   ["Ezekiel 29:3","God calls Pharaoh \"the great dragon\" (tannin) lying in the Nile, the same word as Aaron's serpent."],
+   ["Isaiah 51:9–10","The LORD who \"pierced the dragon\" is the one who dried up the sea for the redeemed to pass over."],
+   ["2 Timothy 3:8","Paul names the magicians, Jannes and Jambres, as the pattern of false teachers who oppose the truth."]],
+  sig:["The contest is set: the power behind Pharaoh against the LORD. Egypt's magicians can imitate, but they cannot prevail, and the serpent that swallows the others is in the hand of God's messenger.","From Genesis 3:15 on, the serpent stands for the enemy of God's people. Here God shows from the start that the dragon of Egypt will be swallowed up, as the ancient serpent will be crushed by the offspring of the woman."],
+  see:[["index.html#ev-the-burning-bush","The Burning Bush on the timeline"],["covenants.html#adam","The first promise against the serpent"]]},
+
+ {id:"blood",n:"Plague 1",name:"Water Turned to Blood",heb:"dam, \"blood\"",ref:"Exodus 7:14–25",color:"#2747a3",warn:"river",mag:"yes",spared:null,hard:["pass","7:22"],rev:"Trumpet 2 (8:8–9) · Bowls 2–3 (16:3–6)",
+  summary:"Moses meets Pharaoh at the Nile in the morning. Aaron strikes the river, and all the water of Egypt becomes blood. The fish die, the river stinks, and the Egyptians dig for water to drink. The magicians copy it, and Pharaoh goes home unmoved. The plague lasts seven days.",
+  word:["By this you shall know that I am the LORD.","Exodus 7:17"],
+  gods:"Hapi, god of the Nile's flood, and the Nile itself, the source of Egypt's life.",
+  echoes:[["Exodus 1:22","Pharaoh had ordered every Hebrew baby boy thrown into the Nile. The river that carried their blood now runs with blood."],
+   ["Psalm 78:44; 105:29","Israel's songs remember it: \"He turned their rivers to blood, so that they could not drink of their streams.\""],
+   ["John 2:1–11","Moses' first sign turned water to blood, death; Jesus' first sign turned water into wine, joy. \"The law was given through Moses; grace and truth came through Jesus Christ\" (John 1:17)."],
+   ["Revelation 8:8–9","At the second trumpet, a third of the sea becomes blood.","rev"],
+   ["Revelation 16:3–6","At the second and third bowls, the sea and rivers become blood: \"They have shed the blood of saints and prophets, and you have given them blood to drink. It is what they deserve!\"","rev"]],
+  sig:["God's judgment fits the crime. Egypt drowned Israel's sons in the Nile, and now Egypt cannot drink from it. The God who sees the blood of His people does not forget it, and Revelation applies the same justice to every persecutor of the church.","The first plague also strikes at Egypt's life source and its god. What Egypt trusted for life becomes death."],
+  see:[["maps.html#rameses","Rameses on the map"]]},
+
+ {id:"frogs",n:"Plague 2",name:"Frogs",heb:"tsephardea, \"frogs\"",ref:"Exodus 8:1–15",color:"#2747a3",warn:"palace",mag:"yes",spared:null,hard:["self","8:15"],rev:"Bowl 6 (16:13–14)",
+  summary:"Frogs come up from the Nile and fill the land: houses, bedrooms, beds, ovens, and kneading bowls. The magicians can make more frogs, but not remove them. Pharaoh begs Moses to pray, promising to let the people go. The frogs die in heaps, but when Pharaoh sees relief he hardens his heart.",
+  word:["Be it as you say, so that you may know that there is no one like the LORD our God.","Exodus 8:10"],
+  gods:"Heqet, the frog-headed goddess of fertility and childbirth.",
+  echoes:[["Psalm 78:45; 105:30","\"Their land swarmed with frogs, even in the chambers of their kings.\""],
+   ["Revelation 16:13–14","Under the sixth bowl, three unclean spirits like frogs come from the mouths of the dragon, the beast, and the false prophet, to gather the kings of the earth for battle.","rev"]],
+  sig:["Pharaoh's first plea shows the pattern of a hard heart: sorrow for the consequences of sin, not for the sin. When the pressure lifted, the promise lifted with it.","The magicians could add to the plague but never take it away. The powers of this world can multiply misery; only the LORD can remove it."],
+  see:[]},
+
+ {id:"gnats",n:"Plague 3",name:"Gnats",heb:"kinnim, \"gnats\" or \"lice\"",ref:"Exodus 8:16–19",color:"#2747a3",warn:"none",mag:"fail",spared:null,hard:["pass","8:19"],rev:null,
+  summary:"Without warning, Aaron strikes the dust, and the dust of the earth becomes gnats on man and beast throughout Egypt. The magicians try and fail, and confess, \"This is the finger of God.\" Pharaoh will not listen.",
+  word:["This is the finger of God.","Exodus 8:19"],
+  gods:"No single god; the plague strikes the land itself and humbles the magicians who served Egypt's gods.",
+  echoes:[["Psalm 105:31","\"He spoke, and there came swarms of flies, and gnats throughout their country.\""],
+   ["Exodus 31:18","The same \"finger of God\" wrote the Ten Commandments on the tablets of stone."],
+   ["Luke 11:20","Jesus takes up the magicians' words: \"If it is by the finger of God that I cast out demons, then the kingdom of God has come upon you.\""]],
+  sig:["Here the magicians reach the end of their power, and Pharaoh's own servants confess the truth he refuses. Knowing the truth is not the same as bowing to it.","When Jesus drives out demons \"by the finger of God,\" He is doing what only the God of the exodus can do: overthrowing the strong man and setting captives free."],
+  see:[]},
+
+ {id:"flies",n:"Plague 4",name:"Swarms of Flies",heb:"arov, \"swarms\"",ref:"Exodus 8:20–32",color:"#2e7a78",warn:"river",mag:"-",spared:"8:22–23",hard:["self","8:32"],rev:null,
+  summary:"Moses meets Pharaoh at the river in the morning again. Heavy swarms of flies ruin the land, but not the land of Goshen, where Israel lives. Pharaoh bargains: sacrifice here in Egypt, then do not go very far. He agrees, then hardens his heart once more.",
+  word:["I will set apart the land of Goshen, where my people dwell … that you may know that I am the LORD in the midst of the earth. Thus I will put a division between my people and your people.","Exodus 8:22–23"],
+  gods:"Possibly Khepri, the scarab-headed god of new life; the text does not say.",
+  echoes:[["Psalm 78:45; 105:31","\"He sent among them swarms of flies, which devoured them.\""],
+   ["Exodus 8:23","The word translated \"division\" is, in the Hebrew text, \"redemption\" (pedut). The difference between Israel and Egypt is God's redemption, not Israel's merit."],
+   ["Malachi 3:18","\"Then once more you shall see the distinction between the righteous and the wicked, between one who serves God and one who does not serve him.\""]],
+  sig:["From this plague on, God marks out His people. Israel was no less sinful than Egypt; the distinction is God's free and sovereign grace. \"I will have mercy on whom I have mercy\" (Exodus 33:19; Romans 9:15).","Pharaoh's offers, worship here, not too far, only the men, without the flocks, are the half-obedience of a heart that will not yield. God accepts nothing less than His people wholly set free to serve Him."],
+  see:[]},
+
+ {id:"livestock",n:"Plague 5",name:"Death of Livestock",heb:"dever, \"pestilence\"",ref:"Exodus 9:1–7",color:"#2e7a78",warn:"palace",mag:"-",spared:"9:4–6",hard:["pass","9:7"],rev:null,
+  summary:"A severe plague strikes Egypt's horses, donkeys, camels, herds, and flocks in the field, and they die. Pharaoh sends to check: not one animal of Israel has died. Still his heart is hardened.",
+  word:["The LORD will make a distinction between the livestock of Israel and the livestock of Egypt, so that nothing of all that belongs to the people of Israel shall die.","Exodus 9:4"],
+  gods:"Apis, the sacred bull, and Hathor, the cow goddess.",
+  echoes:[["Psalm 50:10","\"Every beast of the forest is mine, the cattle on a thousand hills.\""],
+   ["Psalm 78:50","\"He did not spare them from death, but gave their lives over to the plague.\""],
+   ["Amos 4:10","God later warns Israel, \"I sent among you a pestilence after the manner of Egypt,\" yet you did not return to me."]],
+  sig:["Egypt's wealth and worship stood in its herds. God shows that all of it is His, to give and to take.","Pharaoh's servants could see the distinction with their own eyes. Evidence does not soften a heart set against God; only His grace can."],
+  see:[]},
+
+ {id:"boils",n:"Plague 6",name:"Boils",heb:"shechin, \"boils\"",ref:"Exodus 9:8–12",color:"#2e7a78",warn:"none",mag:"fail",spared:null,hard:["god","9:12"],rev:"Bowl 1 (16:2)",
+  summary:"Moses throws soot from a kiln into the air before Pharaoh, and it becomes festering boils on man and beast in all Egypt. The magicians cannot even stand before Moses because of the boils. For the first time the text says, \"the LORD hardened the heart of Pharaoh.\"",
+  word:["But the LORD hardened the heart of Pharaoh, and he did not listen to them, as the LORD had spoken to Moses.","Exodus 9:12"],
+  gods:"Sekhmet, goddess of plagues and of healing, and the priests who called on her.",
+  echoes:[["Deuteronomy 4:20","Egypt was \"the iron furnace\" of Israel's slavery. Soot from Egypt's own furnaces now falls on Egypt."],
+   ["Deuteronomy 28:27, 60","If Israel breaks the covenant: \"The LORD will strike you with the boils of Egypt\" and \"all the diseases of Egypt.\" The curses of Egypt become covenant curses."],
+   ["Job 2:7","Satan strikes Job \"with loathsome sores,\" the same word, in a story where God is sovereign over affliction."],
+   ["Revelation 16:2","At the first bowl, \"harmful and painful sores\" break out on those who bear the mark of the beast and worship its image.","rev"]],
+  sig:["Here the hardening turns. Pharaoh had five times hardened himself; now God gives him over to the hardness he chose. This is judgment: God confirming a sinner in the sin he loves (Romans 1:24, 28).","The magicians, Egypt's spiritual defenders, cannot stand. In the covenant God later warns Israel that these same curses will fall on them if they turn away, and at the cross the curse of the law fell on Christ in His people's place (Galatians 3:13)."],
+  see:[["covenants.html#moses","The covenant at Sinai and its curses"]]},
+
+ {id:"hail",n:"Plague 7",name:"Hail",heb:"barad, \"hail\"",ref:"Exodus 9:13–35",color:"#6a3f8f",warn:"river",mag:"-",spared:"9:26",hard:["self","9:34–35"],rev:"Trumpet 1 (8:7) · Bowl 7 (16:21)",
+  summary:"God warns that He will send the heaviest hail Egypt has ever seen, and tells Egypt how to escape it. Those who fear the word of the LORD bring their servants and livestock inside. Hail and fire strike everything left in the field, except in Goshen. Pharaoh confesses, \"This time I have sinned; the LORD is in the right,\" but when the hail stops he sins again.",
+  word:["For this purpose I have raised you up, to show you my power, so that my name may be proclaimed in all the earth.","Exodus 9:16"],
+  gods:"Nut, goddess of the sky, and Seth, god of storms.",
+  echoes:[["Romans 9:17–18","Paul quotes Exodus 9:16: \"So then he has mercy on whomever he wills, and he hardens whomever he wills.\""],
+   ["Joshua 10:11","God fights for Israel at Beth-horon with hailstones from heaven."],
+   ["Psalm 78:47–48; 105:32–33","\"He gave them hail for rain, and fiery lightning bolts through their land.\""],
+   ["Revelation 8:7","At the first trumpet, hail and fire mixed with blood are thrown on the earth.","rev"],
+   ["Revelation 16:21","At the seventh bowl, great hailstones fall, and people curse God for the plague.","rev"]],
+  sig:["God states His purpose plainly: He raised up Pharaoh to display His power and make His name known in all the earth. God's glory is the end for which He governs history, even the rise of His enemies.","Mercy shines in judgment. God warned before He struck, and some of Pharaoh's own servants \"feared the word of the LORD\" and were spared. Saving faith is believing God's word before the hail falls.","Pharaoh's confession was true in its words and false in its heart. Sorrow under pressure is not repentance."],
+  see:[]},
+
+ {id:"locusts",n:"Plague 8",name:"Locusts",heb:"arbeh, \"locust\"",ref:"Exodus 10:1–20",color:"#6a3f8f",warn:"palace",mag:"-",spared:null,hard:["god","10:20"],rev:"Trumpet 5 (9:1–11)",
+  summary:"Pharaoh's own servants beg him to let Israel go: \"Do you not yet understand that Egypt is ruined?\" He offers to release only the men. An east wind brings locusts that cover the land and eat everything the hail left. Pharaoh confesses again, a west wind carries them into the sea, and the LORD hardens his heart.",
+  word:["I have hardened his heart … that you may tell in the hearing of your son and of your grandson how I have dealt harshly with the Egyptians … that you may know that I am the LORD.","Exodus 10:1–2"],
+  gods:"No single god; the plague destroys the harvest Egypt's gods were trusted to give.",
+  echoes:[["Joel 1–2","A locust plague becomes a picture of the coming day of the LORD, and a call to return to Him with all your heart, for He is gracious and merciful."],
+   ["Psalm 78:46; 105:34–35","\"He gave their crops to the destroying caterpillar and the fruit of their labor to the locust.\""],
+   ["Deuteronomy 28:38, 42","Locusts become one of the curses for covenant breaking."],
+   ["Revelation 9:1–11","At the fifth trumpet, locusts rise from the bottomless pit to torment those without the seal of God.","rev"]],
+  sig:["God tells Moses that the plagues are also for Israel's children and grandchildren: a story to be told in every generation. Remembering God's works of judgment and salvation is how faith is passed on (Psalm 78:4–7).","East wind and west wind come and go at His word. Nothing in creation acts apart from His providence."],
+  see:[]},
+
+ {id:"darkness",n:"Plague 9",name:"Darkness",heb:"choshekh, \"darkness\"",ref:"Exodus 10:21–29",color:"#6a3f8f",warn:"none",mag:"-",spared:"10:23",hard:["god","10:27"],rev:"Trumpet 4 (8:12) · Bowl 5 (16:10–11)",
+  summary:"Without warning, a darkness \"to be felt\" covers Egypt for three days, so that no one can see or move. \"But all the people of Israel had light where they lived.\" Pharaoh offers to let the people go, but not their flocks, then drives Moses out: \"Never see my face again.\"",
+  word:["But all the people of Israel had light where they lived.","Exodus 10:23"],
+  gods:"Ra (Amun-Ra), the sun god, chief of Egypt's gods, whose son Pharaoh claimed to be.",
+  echoes:[["Psalm 105:28","Psalm 105 begins its retelling here: \"He sent darkness, and made the land dark.\""],
+   ["Amos 8:9","\"On that day,\" declares the Lord GOD, \"I will make the sun go down at noon and darken the earth in broad daylight.\""],
+   ["Matthew 27:45","When Jesus hung on the cross, \"there was darkness over all the land\" for three hours, as He bore the judgment His people deserved."],
+   ["Colossians 1:13; 1 Peter 2:9","God \"has delivered us from the domain of darkness,\" and called His people \"out of darkness into his marvelous light.\""],
+   ["Revelation 16:10–11","At the fifth bowl, the beast's kingdom is plunged into darkness, and people curse God and do not repent.","rev"]],
+  sig:["Egypt's greatest god is blotted out. The sun that Egypt worshiped rises and sets at the word of the God of Israel.","Darkness covered Egypt for three days; darkness covered the land for three hours at the cross. There the light of the world entered the darkness of judgment, so that those who belong to Him might walk in the light."],
+  see:[["index.html#ev-the-crucifixion","The Crucifixion on the timeline"]]},
+
+ {id:"firstborn",n:"Plague 10",name:"Death of the Firstborn",heb:"makkat bekhorot, \"the striking of the firstborn\"",ref:"Exodus 11:1–12:36",color:"#b0313e",warn:"palace",mag:"-",spared:"11:7; 12:13",hard:["god","11:10"],rev:null,
+  summary:"At midnight the LORD strikes down every firstborn in Egypt, from the firstborn of Pharaoh on his throne to the firstborn of the captive in the dungeon. There is a great cry in Egypt, for there is not a house without someone dead. But in every house where the blood of the Passover lamb is on the doorframe, the LORD passes over. Pharaoh drives Israel out that night.",
+  word:["On all the gods of Egypt I will execute judgments: I am the LORD. The blood shall be a sign for you … and when I see the blood, I will pass over you.","Exodus 12:12–13"],
+  gods:"Pharaoh himself, honored as a god and son of Ra, and his heir. \"On their gods also the LORD executed judgments\" (Numbers 33:4).",
+  echoes:[["Exodus 4:22–23","God's first message to Pharaoh: \"Israel is my firstborn son … Let my son go. If you refuse, behold, I will kill your firstborn son.\""],
+   ["Exodus 13:1–2, 11–15","Every firstborn in Israel now belongs to the LORD and must be redeemed, in memory of this night."],
+   ["Psalm 78:51; 105:36; 136:10","\"He struck down every firstborn in Egypt\" … \"for his steadfast love endures forever.\""],
+   ["John 1:29; 19:36","Jesus is \"the Lamb of God, who takes away the sin of the world,\" and like the Passover lamb, not one of His bones was broken."],
+   ["1 Corinthians 5:7","\"Christ, our Passover lamb, has been sacrificed.\""],
+   ["Hebrews 11:28","\"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\""],
+   ["Luke 22:7–20","At Passover Jesus gives the bread and the cup: \"This cup … is the new covenant in my blood.\""]],
+  sig:["The last plague answers the first message: Israel is God's firstborn son, and because Pharaoh would not let God's son go, he lost his own. Then God gives His own Son, His only Son, for His people.","Israel's firstborn were spared not because Israel was sinless, but because a spotless lamb died in each house in their place, and its blood was applied. This is substitution: the judgment passes over those who are under the blood. Every household under the blood was safe; no household without it was.","The Passover meal becomes the Lord's Supper, where Christ our Passover is remembered until He comes."],
+  see:[["index.html#ev-plagues-and-passover","Plagues and Passover on the timeline"],["prophecy.html#passover","The Passover lamb on the Prophecy page"],["covenants.html#new","The New Covenant"]]},
+
+ {id:"sea",n:"The end",name:"Pharaoh's Army in the Sea",heb:"yam suph, \"the Red Sea\" or \"Sea of Reeds\"",ref:"Exodus 14–15",color:"#5b6b8c",warn:"-",mag:"-",spared:"14:19–22",hard:["god","14:4, 8, 17"],rev:"Revelation 15:2–4",
+  summary:"Pharaoh changes his mind and pursues Israel with his chariots. Trapped at the sea, Israel is told, \"The LORD will fight for you, and you have only to be silent.\" The waters part, Israel crosses on dry ground, and the sea returns over Pharaoh's whole army. Israel sees, fears the LORD, believes, and sings.",
+  word:["I will harden Pharaoh's heart, and he will pursue them, and I will get glory over Pharaoh and all his host, and the Egyptians shall know that I am the LORD.","Exodus 14:4"],
+  gods:"Pharaoh's army, the pride of Egypt, and the sea, which ancient peoples saw as chaos. Both obey the LORD.",
+  echoes:[["Exodus 15:1–18","The Song of Moses: \"I will sing to the LORD, for he has triumphed gloriously; the horse and his rider he has thrown into the sea.\""],
+   ["Joshua 2:9–11","Forty years later Rahab says Jericho heard what the LORD did at the sea, \"for the LORD your God, he is God in the heavens above and on the earth beneath.\""],
+   ["Psalm 106:7–12; 136:13–15","\"He saved them for his name's sake, that he might make known his mighty power.\""],
+   ["1 Corinthians 10:1–2","Israel was \"baptized into Moses in the cloud and in the sea,\" a pattern of the church's baptism and a warning against unbelief."],
+   ["Hebrews 11:29","\"By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\""],
+   ["Revelation 15:2–4","The conquerors stand beside a sea of glass and sing \"the song of Moses, the servant of God, and the song of the Lamb.\"","rev"]],
+  sig:["The same water that saved Israel destroyed Egypt. Salvation and judgment come in one act of God, as they do at the cross and will at the last day.","Israel contributed nothing: \"The LORD will fight for you, and you have only to be silent.\" Salvation belongs to the LORD, and it ends in worship. The first song in the Bible is sung by the redeemed, and the last song in Revelation is the same song, now the song of the Lamb."],
+  see:[["index.html#ev-crossing-the-red-sea","Crossing the Red Sea on the timeline"],["maps.html#exodus","The Exodus route on the map"],["maps.html#redsea","The crossing on the map"]]}
+];
+const KNOW=[["Exodus 7:5","The Egyptians shall know that I am the LORD."],["Exodus 7:17","By this you shall know that I am the LORD."],["Exodus 8:10","…that you may know that there is no one like the LORD our God."],
+ ["Exodus 8:22","…that you may know that I am the LORD in the midst of the earth."],["Exodus 9:14","…so that you may know that there is none like me in all the earth."],
+ ["Exodus 9:29","…so that you may know that the earth is the LORD's."],["Exodus 10:2","…that you may know that I am the LORD."],["Exodus 11:7","…that you may know that the LORD makes a distinction between Egypt and Israel."],
+ ["Exodus 14:4, 18","…and the Egyptians shall know that I am the LORD."]];
+const REV=[["Water to blood","8:8–9: a third of the sea becomes blood","16:3–6: sea and rivers become blood"],["Frogs","","16:13: unclean spirits like frogs"],
+ ["Boils","","16:2: painful sores"],["Hail and fire","8:7: hail and fire mixed with blood","16:21: great hailstones"],["Locusts","9:1–11: locusts from the pit",""],
+ ["Darkness","8:12: a third of sun, moon, and stars darkened","16:10–11: the beast's kingdom in darkness"],["The sea and the song","","15:2–4: the song of Moses and the Lamb"]];
+const ROWS=[{label:"The sign",sub:"Before Pharaoh",ids:["staff"]},
+ {label:"Round one",sub:"Warned early in the morning, warned at the palace, then no warning",ids:["blood","frogs","gnats"]},
+ {label:"Round two",sub:"The same pattern; now Israel is set apart",ids:["flies","livestock","boils"]},
+ {label:"Round three",sub:"The same pattern; the heaviest blows",ids:["hail","locusts","darkness"]},
+ {label:"The last plague",sub:"Passover",ids:["firstborn"]},{label:"The end",sub:"The sea",ids:["sea"]}];
+const LENSES=[
+ {id:"spared",name:"Israel spared",test:p=>!!p.spared,note:"The text says Israel was spared from the fourth plague on: \"I will put a division between my people and your people.\""},
+ {id:"mag",name:"Magicians",test:p=>p.mag==="yes"||p.mag==="fail",note:"The magicians copy the sign and the first two plagues, fail at the third (\"This is the finger of God\"), and cannot stand before Moses at the sixth."},
+ {id:"god",name:"The LORD hardened",test:p=>p.hard[0]==="god",note:"From the sixth plague on, the text names the LORD as the one who hardened Pharaoh's heart, as He had foretold in Exodus 4:21. At the hail, Pharaoh also hardens himself (9:34)."},
+ {id:"none",name:"No warning",test:p=>p.warn==="none",note:"The third plague of each round comes without warning: gnats, boils, and darkness."},
+ {id:"rev",name:"Echoed in Revelation",test:p=>!!p.rev,note:"Revelation's trumpets and bowls take up these plagues for the last judgment."}
+];
+const byId=Object.fromEntries(PL.map(p=>[p.id,p]));
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gw=ref=>"https://www.biblegateway.com/passage/?search="+encodeURIComponent(ref)+"&version=ESV";
+// "Genesis 15:5; 22:18" → ["Genesis 15:5", "Genesis 22:18"]: a reference without a book continues the one before it
+const splitRefs=s=>{let book="";return s.split("; ").map(r=>{const m=/^((?:[1-3] )?[A-Z][a-z]+(?: of [A-Z][a-z]+)?) \d/.exec(r);if(m)book=m[1];else if(book)r=book+" "+r;return r})};
+const refs=r=>{const f=splitRefs(r);return r.split("; ").map((x,i)=>'<a href="'+gw(f[i])+'" target="_blank" rel="noopener">'+esc(x)+'</a>').join("; ")};
+const exo=v=>'<a href="'+gw("Exodus "+v)+'" target="_blank" rel="noopener">'+esc(v)+'</a>';
+const WARN={river:"Early in the morning, before Pharaoh",palace:"Go in to Pharaoh",none:"None",["-"]:""};
+const HARD={self:"Pharaoh hardened his heart",pass:"His heart was hardened",god:"The LORD hardened his heart"};
+
+function tile(p){
+  const meta=[p.spared?"Israel spared":"",p.hard[0]==="god"?"LORD hardened":""].filter(Boolean);
+  return '<button type="button" class="tile" data-go="'+p.id+'" style="--c:'+p.color+'"><span class="tn">'+esc(p.n)+'</span><span class="tt">'+esc(p.name)+'</span>'+
+    (meta.length?'<span class="tm">'+meta.map(esc).join(" · ")+'</span>':'')+'</button>';
+}
+$("#rows").innerHTML=ROWS.map(r=>'<div class="prow'+(r.ids.length===1?' one':'')+'"><div class="rl"><b>'+esc(r.label)+'</b>'+esc(r.sub)+'</div>'+r.ids.map(id=>tile(byId[id])).join("")+'</div>').join("");
+
+function card(p){
+  const fact=(cls,label,val)=>'<div class="fact '+cls+'"><b>'+label+'</b>'+val+'</div>';
+  const facts=
+    fact("", "Warning", p.warn==="-"?"<span style='color:var(--muted)'>Not a plague of the series</span>":esc(WARN[p.warn]))+
+    fact("", "Magicians", p.mag==="yes"?"Imitated it":p.mag==="fail"?"Could not":"<span style='color:var(--muted)'>Not mentioned</span>")+
+    fact(p.spared?"yes":"", "Israel spared", p.spared?"Yes, "+exo(p.spared):"<span style='color:var(--muted)'>Not stated</span>")+
+    fact(p.hard[0]==="god"?"god":"", "Pharaoh's heart", esc(HARD[p.hard[0]])+", "+exo(p.hard[1]));
+  return '<article class="card" id="'+p.id+'" style="--c:'+p.color+'">'+
+    '<div class="kick">'+esc(p.n)+'</div><h2>'+esc(p.name)+'</h2><p class="heb">'+refs(p.ref)+' · Hebrew '+esc(p.heb)+'</p>'+
+    '<p>'+esc(p.summary)+'</p><div class="facts">'+facts+'</div>'+
+    '<blockquote class="word">"'+esc(p.word[0])+'" '+refs(p.word[1])+'</blockquote>'+
+    '<p class="gods"><b>Often linked with</b> '+esc(p.gods)+'</p>'+
+    '<h3>Echoes in Scripture</h3><ul class="echo">'+p.echoes.map(e=>'<li'+(e[2]?' class="rev"':'')+'><span class="er">'+refs(e[0])+'</span><span class="en">'+esc(e[1])+'</span></li>').join("")+'</ul>'+
+    '<div class="sig"><b>Significance</b>'+p.sig.map(s=>'<p>'+esc(s)+'</p>').join("")+'</div>'+
+    '<div class="see">'+p.see.map(s=>'<a href="'+s[0]+'">'+esc(s[1])+' →</a>').join("")+'<a href="books.html#b-exodus">Exodus on the Books page →</a><a class="top" href="#pattern">↑ The pattern</a></div></article>';
+}
+$("#cards").innerHTML=PL.map(card).join("");
+$("#hardgrid").innerHTML=PL.map(p=>'<div class="'+p.hard[0]+'" title="'+esc(p.name+": "+HARD[p.hard[0]]+" (Exodus "+p.hard[1]+")")+'">'+esc(p.n.replace("Plague ",""))+'</div>').join("");
+$("#knowlist").innerHTML=KNOW.map(k=>'"'+esc(k[1])+'" '+refs(k[0])).join("<br>");
+$("#revtable").innerHTML=REV.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+(r[1]?esc(r[1]):'<span style="color:var(--muted)">·</span>')+'</td><td>'+(r[2]?esc(r[2]):'<span style="color:var(--muted)">·</span>')+'</td></tr>').join("");
+
+// overview: highlight a thread, or jump to a card
+let lens=null;
+function renderLenses(){
+  $("#lenses").innerHTML=LENSES.map(l=>'<button type="button" class="chip" data-lens="'+l.id+'" aria-pressed="'+(lens===l.id)+'">'+esc(l.name)+'</button>').join("");
+  const L=LENSES.find(l=>l.id===lens);
+  $("#pattern").classList.toggle("hl",!!L);
+  document.querySelectorAll("#rows .tile").forEach(t=>t.classList.toggle("on",!!L&&L.test(byId[t.dataset.go])));
+  $("#lensnote").textContent=L?L.note:"Tap a judgment to read it, or highlight a thread through all twelve.";
+}
+$("#lenses").addEventListener("click",e=>{const b=e.target.closest("[data-lens]");if(!b)return;lens=lens===b.dataset.lens?null:b.dataset.lens;renderLenses()});
+function go(id,smooth){
+  const el=document.getElementById(id);if(!el)return;
+  const land=()=>scrollTo({top:el.getBoundingClientRect().top+scrollY-document.querySelector(".sitenav").offsetHeight-12,behavior:smooth&&!matchMedia("(prefers-reduced-motion: reduce)").matches?"smooth":"auto"});
+  land();el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),2000);
+}
+$("#rows").addEventListener("click",e=>{const t=e.target.closest("[data-go]");if(t){history.replaceState(null,"","#"+t.dataset.go);go(t.dataset.go,true)}});
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-ref]");if(a){e.preventDefault();open(gw(splitRefs(a.dataset.ref).join("; ")),"_blank","noopener")}});
+renderLenses();
+
+const themeBtn=$("#themeBtn");
+const curTheme=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function syncTheme(){const d=curTheme()==="dark";themeBtn.innerHTML=d?'<span aria-hidden="true">☀</span><span class="tl"> Light</span>':'<span aria-hidden="true">☾</span><span class="tl"> Dark</span>';themeBtn.setAttribute("aria-label","Switch to "+(d?"light":"dark")+" theme")}
+themeBtn.addEventListener("click",()=>{const t=curTheme()==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}syncTheme()});
+syncTheme();
+function fromHash(){const id=location.hash.slice(1);if(byId[id]||id==="hardening"){go(id,false);if(document.fonts)document.fonts.ready.then(()=>requestAnimationFrame(()=>go(id,false)))}}
+fromHash();addEventListener("hashchange",fromHash);
+
+// The site nav sticks to the top; anything else that sticks sits below it (--navh).
+(function(){
+  var nav=document.querySelector(".sitenav"),root=document.documentElement;
+  // Phone menu: every page with a line about it, opened from the Menu button
+  var PAGES=[["index.html","Timeline","The story of Scripture, Creation to today"],["books.html","Books","All 66 books on one timeline"],
+    ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
+    ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
+    ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
+    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
+  var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
+  PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
+    a.innerHTML="<b></b><span></span>";a.firstChild.textContent=p[1];a.lastChild.textContent=p[2];menu.appendChild(a)});
+  function setMenu(open,focus){menu.hidden=!open;mbtn.setAttribute("aria-expanded",open);if(open&&focus)menu.querySelector("a").focus();if(!open&&focus)mbtn.focus()}
+  mbtn.addEventListener("click",function(){setMenu(menu.hidden,true)});
+  document.addEventListener("click",function(e){if(!menu.hidden&&!e.target.closest("#siteMenu,#menuBtn"))setMenu(false)});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!menu.hidden){e.stopPropagation();setMenu(false,true)}},true);
+  addEventListener("resize",function(){if(!menu.hidden&&getComputedStyle(mbtn).display==="none")setMenu(false)});
+  function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  function stuck(){nav.classList.toggle("stuck",scrollY>4)}
+  size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
+  stuck();addEventListener("scroll",stuck,{passive:true});
+  function bar(){
+    var t=root.dataset.theme,metas=document.querySelectorAll('meta[name="theme-color"]');
+    metas.forEach(function(m){var dark=t?t==="dark":/dark/.test(m.media);m.content=dark?"#10141f":"#eef0f3"});
+  }
+  bar();new MutationObserver(bar).observe(root,{attributes:true,attributeFilter:["data-theme"]});
+})();
+</script>
+</body>
+</html>

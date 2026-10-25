@@ -171,7 +171,7 @@ mark{background:var(--ochre-soft);color:inherit;padding:0 2px;border-radius:2px}
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html" aria-current="page">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">Creation to today</div>
   <h1>The Story of Scripture</h1>
@@ -536,6 +536,7 @@ function seeAlso(e){
   if(SEE_MAP[s])links.push('<a href="maps.html#'+SEE_MAP[s][0]+'">On the map: '+esc(SEE_MAP[s][1])+' →</a>');
   if(SEE_PEOPLE[s])links.push('<a href="people.html#p-'+SEE_PEOPLE[s][0]+'">In the line of Jesus: '+esc(SEE_PEOPLE[s][1])+' →</a>');
   if(SEE_KINGS[s])links.push('<a href="kings.html#k-'+SEE_KINGS[s]+'">Kings &amp; Prophets: '+esc(SEE_KINGS[s].replace(/-i$/," I").replace(/^./,c=>c.toUpperCase()))+' →</a>');
+  if(s==="plagues-and-passover"||s==="crossing-the-red-sea")links.push('<a href="plagues.html#'+(s==="crossing-the-red-sea"?"sea":"blood")+'">The plagues of Egypt, plague by plague →</a>');
   if(SEE_PROPHECY[s])links.push('<a href="prophecy.html#ev='+s+'">'+(SEE_PROPHECY[s]>1?SEE_PROPHECY[s]+' prophecies':'A prophecy')+' fulfilled here →</a>');
   if(SEE_COV[s])links.push('<a href="covenants.html#'+SEE_COV[s][0]+'">Covenants: '+esc(SEE_COV[s][1])+' →</a>');
   const bk=!e.lens&&/^([1-3] )?[A-Z][a-z]+/.exec(e.ref);
@@ -607,6 +608,7 @@ renderChips();render();
   var PAGES=[["index.html","Timeline","The story of Scripture, Creation to today"],["books.html","Books","All 66 books on one timeline"],
     ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
     ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
+    ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
     ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
   var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
   PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
