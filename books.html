@@ -173,7 +173,7 @@ footer{margin-top:28px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html" aria-current="page">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><a href="study.html">Study</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">All 66 books on one timeline</div>
   <h1>Books of the Bible</h1>
@@ -447,6 +447,7 @@ function detail(b){
   return '<div class="detail"><p>'+esc(b.summary)+'</p><dl>'+
     '<dt>Events covered</dt><dd>'+esc(cov)+'</dd><dt>Written</dt><dd>'+esc(wr)+'</dd><dt>Author</dt><dd>'+esc(b.author)+'</dd></dl>'+
     '<div class="acts"><a href="'+gw(b.name+" 1")+'" target="_blank" rel="noopener">Read '+esc(b.name)+' 1 →</a>'+
+    '<a href="study.html#book='+encodeURIComponent(b.name)+'">Study '+esc(b.name)+' chapter by chapter →</a>'+
     (KP.has(b.name)?'<a href="kings.html#k-'+(b.name==="Zechariah"?"zechariah-prophet":slug(b.name))+'">'+esc(b.name)+' among the kings →</a>':'')+
     (KINGS_BOOKS.has(b.name)?'<a href="kings.html">The kings on one chart →</a>':'')+
     (PROPHECY[b.name]?'<a href="prophecy.html#book='+encodeURIComponent(b.name)+'">'+(b.cat==="gospels"||b.cat==="acts"||b.cat==="paul"||b.cat==="general"||b.cat==="rev"?"Prophecies it shows fulfilled":"Prophecies fulfilled in Christ")+' ('+PROPHECY[b.name]+') →</a>':'')+
@@ -613,7 +614,8 @@ build();fit(false);
     ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
     ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
     ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
-    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
+    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"],
+    ["study.html","Study","Every chapter, step by step"]];
   var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
   PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
     a.innerHTML="<b></b><span></span>";a.firstChild.textContent=p[1];a.lastChild.textContent=p[2];menu.appendChild(a)});

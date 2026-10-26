@@ -1,0 +1,313 @@
+{
+  "ref": "PSA.23",
+  "book": "Psalms",
+  "chapter": 23,
+  "title": "The LORD Is My Shepherd",
+  "status": "draft",
+  "source": "pilot",
+  "updated": "2026-10-26",
+  "theme": "Because the covenant LORD himself shepherds David, he lacks nothing he needs, fears no evil in the darkest valley, and is pursued by God's goodness and steadfast love for the rest of his life.",
+  "keyVerses": [
+    "1",
+    "4",
+    "6"
+  ],
+  "steps": {
+    "language": [
+      {
+        "word": "רֹעִי",
+        "translit": "roʿi",
+        "strongs": "H7462",
+        "gloss": "my shepherd",
+        "verses": "1",
+        "note": "A participle of raʿah, 'to shepherd, feed, tend.' In the ancient Near East kings were called shepherds of their people. David, a shepherd who became king, calls the LORD his shepherd: the king himself is one of God's sheep."
+      },
+      {
+        "word": "חָסֵר",
+        "translit": "ḥaser",
+        "strongs": "H2637",
+        "gloss": "to lack, be in want",
+        "verses": "1",
+        "note": "The same verb sums up Israel's wilderness years: 'you have lacked nothing' (Deuteronomy 2:7; Nehemiah 9:21). The psalm claims for one person what God did for a whole nation in the desert."
+      },
+      {
+        "word": "צַלְמָוֶת",
+        "translit": "ṣalmawet",
+        "strongs": "H6757",
+        "gloss": "deep darkness; shadow of death",
+        "verses": "4",
+        "note": "Traditionally read as a compound, 'shadow' plus 'death'; many scholars read it as a single word for thick darkness. Either way it names the most frightening place a sheep could go, whether death itself or any deadly danger."
+      },
+      {
+        "word": "חֶסֶד",
+        "translit": "ḥesed",
+        "strongs": "H2617",
+        "gloss": "steadfast love, covenant faithfulness, mercy",
+        "verses": "6",
+        "note": "God's loyal, covenant-keeping love, the love that keeps its promises. Pairing it with 'goodness' makes verse 6 a summary of everything the shepherd and host have done."
+      },
+      {
+        "word": "רָדַף",
+        "translit": "radap",
+        "strongs": "H7291",
+        "gloss": "to pursue, chase",
+        "verses": "6",
+        "note": "Usually used of enemies hunting someone down. Here goodness and steadfast love are the pursuers. With enemies watching in verse 5, the only ones chasing David are God's kindnesses."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God as shepherd of his people",
+        "refs": [
+          "Genesis 48:15",
+          "Psalm 80:1",
+          "Isaiah 40:11",
+          "Ezekiel 34:11-16",
+          "Micah 7:14"
+        ],
+        "note": "Jacob blesses Joseph in the name of the God who shepherded him all his life. The prophets promise that God himself will shepherd scattered Israel when its human shepherds fail."
+      },
+      {
+        "theme": "Led and provided for in the wilderness",
+        "refs": [
+          "Exodus 15:13",
+          "Deuteronomy 2:7",
+          "Psalm 78:19-20, 52",
+          "Nehemiah 9:19-21"
+        ],
+        "note": "Provision of food and water, guidance, a table spread in the wilderness, and lacking nothing all recall the exodus journey."
+      },
+      {
+        "theme": "Dwelling in the LORD's house",
+        "refs": [
+          "Psalm 27:4",
+          "Psalm 84:4, 10",
+          "John 14:2-3"
+        ],
+        "note": "The deepest desire in David's psalms is to live in God's presence; Jesus promises a place in his Father's house."
+      }
+    ],
+    "context": {
+      "setting": "A psalm of David in Book 1 of the Psalter. It sits between Psalm 22, the cry of a suffering king that ends in praise, and Psalm 24, the King of glory entering his holy hill. The superscription gives no occasion, so the psalm reads as David's settled confidence after a life of danger.",
+      "flow": [
+        {
+          "verses": "1-3",
+          "label": "The shepherd provides",
+          "note": "Rest, water, restored life and right paths, all 'for his name's sake.' David speaks about the LORD in the third person."
+        },
+        {
+          "verses": "4",
+          "label": "The shepherd is present",
+          "note": "In the darkest valley the voice shifts to 'you': 'for you are with me.' The center of the psalm is God's presence in danger."
+        },
+        {
+          "verses": "5",
+          "label": "The host welcomes",
+          "note": "The picture changes from field to banquet. God hosts David in full view of his enemies, honors him with oil, and fills his cup."
+        },
+        {
+          "verses": "6",
+          "label": "For all my days",
+          "note": "Goodness and steadfast love pursue David through life, and he expects to live in the LORD's house for as long as days last."
+        }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        {
+          "ref": "John 10:11-16",
+          "from": "1",
+          "note": "No New Testament text quotes Psalm 23, but Jesus claims the shepherd role the Old Testament reserves for the LORD: 'I am the good shepherd,' who lays down his life for the sheep and knows them by name."
+        },
+        {
+          "ref": "1 Peter 2:25",
+          "from": "1",
+          "note": "Peter applies the title directly to Christ: the Shepherd and Overseer of your souls."
+        },
+        {
+          "ref": "Hebrews 13:20",
+          "from": "1",
+          "note": "Christ is the great shepherd of the sheep, brought back from the dead by the blood of the eternal covenant."
+        }
+      ],
+      "tier2": [
+        {
+          "ref": "Ezekiel 34:11-16",
+          "from": "1-2",
+          "note": "God promises to search for his sheep himself, feed them in good pasture, and make them lie down, the same picture as verses 1-2, after Israel's leaders have failed them."
+        },
+        {
+          "ref": "Revelation 7:16-17",
+          "from": "1-2",
+          "note": "The Lamb will be the shepherd of the redeemed, guiding them to springs of living water, and God will wipe away every tear."
+        },
+        {
+          "ref": "Isaiah 40:11",
+          "from": "1",
+          "note": "God tends his flock like a shepherd, gathering the lambs in his arms."
+        },
+        {
+          "ref": "Genesis 48:15",
+          "from": "1",
+          "note": "Jacob speaks of the God who has been his shepherd all his life, the earliest use of the image."
+        }
+      ],
+      "tier3": [
+        {
+          "ref": "1 Samuel 17:34-35",
+          "from": "4",
+          "note": "David the shepherd fought lions and bears for his sheep. The rod in verse 4 is a weapon of that kind of protection."
+        },
+        {
+          "ref": "Psalm 27:4",
+          "from": "6",
+          "note": "The one thing David asks is to dwell in the house of the LORD all the days of his life."
+        },
+        {
+          "ref": "Luke 14:15-24",
+          "from": "5",
+          "note": "The banquet God prepares, where unlikely guests are welcomed, echoes the table set before enemies."
+        }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Charles Spurgeon",
+        "work": "The Treasury of David",
+        "view": "Spurgeon dwells on the word 'my.' The psalm's comfort belongs to someone who can claim the LORD personally, and its confidence is meant for the believer's whole life, not only for the deathbed."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Psalms 1-72 (Tyndale Old Testament Commentaries)",
+        "view": "Kidner reads the psalm as two pictures, shepherd and host, rather than one. The second is not a break in the imagery but a step further: the God who guides his sheep also welcomes his guest as an honored friend at his table."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "The LORD is my shepherd; I shall not want.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "I shall not want"
+          },
+          {
+            "version": "NIV",
+            "text": "I lack nothing"
+          },
+          {
+            "version": "NASB",
+            "text": "I will not be in need"
+          },
+          {
+            "version": "CSB",
+            "text": "I have what I need"
+          }
+        ],
+        "note": "'Want' in the KJV means 'lack,' not 'desire.' The modern versions remove the risk of reading it as 'I will not wish for anything.'"
+      },
+      {
+        "verse": "4",
+        "kjv": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "the valley of the shadow of death"
+          },
+          {
+            "version": "NIV",
+            "text": "the darkest valley"
+          },
+          {
+            "version": "CSB",
+            "text": "the darkest valley"
+          }
+        ],
+        "note": "The difference follows how translators read ṣalmawet (see step 1). 'Darkest valley' widens the verse to any deadly danger; 'shadow of death' keeps the traditional reading and is often footnoted in the others."
+      },
+      {
+        "verse": "6",
+        "kjv": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "goodness and mercy shall follow me ... forever"
+          },
+          {
+            "version": "NIV",
+            "text": "goodness and love will follow me ... forever"
+          },
+          {
+            "version": "CSB",
+            "text": "goodness and faithful love will pursue me ... as long as I live"
+          }
+        ],
+        "note": "CSB's 'pursue' keeps the force of radap. 'For ever' renders a Hebrew phrase that means 'for length of days,' which CSB translates as 'as long as I live.' The Hebrew text reads 'I will return to' the house; the Greek translation and most English versions read 'dwell,' which differs by a single letter in Hebrew."
+      }
+    ],
+    "gospel": "Jesus is the shepherd this psalm sings about. He calls himself the good shepherd who lays down his life for the sheep, and he went into the valley of the shadow of death himself, alone, so that his sheep would never walk through it without him. Psalm 22, just before this one, gives the words he prayed on the cross. Because he rose as the great shepherd, his people can say 'I will fear no evil' even at death, and the table and the house in verses 5-6 point ahead to the marriage supper of the Lamb and the Father's house.",
+    "application": [
+      "Contentment rests on who your shepherd is, not on what you have. 'I shall not want' is a statement of trust, not a promise of every wish.",
+      "When fear comes, speak to God directly, as David does in verse 4. The psalm turns from 'he' to 'you' at the darkest point.",
+      "Expect God's leading to come through 'right paths' that honor his name, even when they lead through valleys rather than around them.",
+      "Read God's goodness as pursuing you, especially after failure. His steadfast love is chasing you, not your enemies."
+    ],
+    "misapplications": [
+      {
+        "claim": "Psalm 23 is mainly a funeral psalm about dying.",
+        "correction": "Verse 4 is one line, and the psalm speaks of 'all the days of my life.' It is about trusting God through the whole of life, which is why it also comforts at death."
+      },
+      {
+        "claim": "'I shall not want' means God will give me whatever I ask for.",
+        "correction": "The sheep lacks nothing it needs because the shepherd decides the pasture and the path. Wilderness Israel 'lacked nothing' while eating manna, not while living in luxury."
+      },
+      {
+        "claim": "The psalm describes a life without danger.",
+        "correction": "There are dark valleys and enemies in the psalm. The promise is God's presence in danger, not escape from it."
+      }
+    ],
+    "contrasts": [
+      {
+        "a": "Darkest valley",
+        "b": "Green pastures",
+        "verses": "2, 4",
+        "note": "The same shepherd leads into both. His presence, not the setting, is what changes the sheep's experience."
+      },
+      {
+        "a": "Enemies",
+        "b": "Table",
+        "verses": "5",
+        "note": "Enemies are present but powerless; God's hospitality happens in full view of them."
+      },
+      {
+        "a": "Pursued by enemies",
+        "b": "Pursued by goodness",
+        "verses": "5-6",
+        "note": "The verb usually used of enemies hunting a person down describes God's kindness instead."
+      }
+    ],
+    "features": [
+      {
+        "label": "Turn to 'you' at the center",
+        "note": "Verses 1-3 speak about the LORD; verses 4-5 speak to him. The shift comes in the darkest valley, which places the closest relationship in the worst place."
+      },
+      {
+        "label": "Two pictures",
+        "note": "The shepherd and his sheep (1-4) give way to the host and his guest (5-6). Both describe a powerful protector who also provides."
+      },
+      {
+        "label": "Bracketed by the LORD",
+        "note": "The covenant name YHWH opens and closes the psalm (vv1, 6). Everything between depends on who he is."
+      },
+      {
+        "label": "Between the cross and the crown",
+        "note": "Placed between Psalm 22's suffering king and Psalm 24's King of glory, the psalm reads as the life of the sheep under a shepherd who suffered and now reigns."
+      }
+    ],
+    "summary": "Psalm 23 says the covenant LORD personally shepherds his people, so they lack nothing they truly need. His presence goes with them into the darkest valley and his hospitality honors them before their enemies. The psalm ends with God's goodness and steadfast love pursuing them for life and the hope of living in his house, a hope fulfilled in Jesus, the good shepherd who laid down his life and rose again.",
+    "metaArc": {
+      "book": "Book 1 of the Psalms is mostly David's prayers in trouble. Psalm 23 is its most settled expression of trust, and with Psalms 22 and 24 it forms a sequence from suffering to confident trust to the King's victorious entry.",
+      "redemptive": "Promise moving toward redemption. The God who shepherded Israel through the wilderness promises through Ezekiel to shepherd his people himself; Jesus claims that role, and Revelation shows the Lamb shepherding the redeemed in the new creation."
+    }
+  }
+}

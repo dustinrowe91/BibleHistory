@@ -182,7 +182,7 @@ footer a{color:var(--lapis)}
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html" aria-current="page">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html" aria-current="page">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><a href="study.html">Study</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">From Ur to Rome</div>
   <h1>Bible Maps</h1>
@@ -679,7 +679,8 @@ setView(px(30.5),py(34.5),Math.min(EXT.w,px(46)-px(15)));
     ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
     ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
     ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
-    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
+    ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"],
+    ["study.html","Study","Every chapter, step by step"]];
   var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
   PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
     a.innerHTML="<b></b><span></span>";a.firstChild.textContent=p[1];a.lastChild.textContent=p[2];menu.appendChild(a)});

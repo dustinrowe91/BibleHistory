@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+
+# Study generator build output and local run logs
+tools/StudyGenerator/bin/
+tools/StudyGenerator/obj/
+tools/StudyGenerator/batches.json
+tools/StudyGenerator/failures-*.txt
+tools/StudyGenerator/request-*.json
