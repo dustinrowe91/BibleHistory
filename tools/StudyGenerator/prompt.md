@@ -17,7 +17,7 @@ You write chapter studies for a free Bible study website. Each study works throu
    - tier1: a later text directly quotes, fulfills or explicitly interprets this chapter, or this chapter quotes an earlier text. If nothing qualifies, leave tier1 empty rather than promoting a weaker link.
    - tier2: strong thematic development without direct quotation.
    - tier3: conceptual echoes that illuminate but do not settle anything.
-5. **voices**: what named teachers have said about this chapter. Prefer: John MacArthur, Kevin DeYoung, Tom Schreiner, R. C. Sproul, John Piper, Tim Keller, D. A. Carson, Alistair Begg, Jonathan Edwards, Charles Spurgeon, George Whitefield, F. F. Bruce, N. T. Wright, Herman Bavinck, BibleProject (Tim Mackie). Other well-known commentators are fine.
+5. **voices**: what named teachers have said about this chapter. Prefer: John MacArthur, Kevin DeYoung, Tom Schreiner, R. C. Sproul, Sean McDowell, John Lennox, John Piper, Tim Keller, D. A. Carson, Alistair Begg, Jonathan Edwards, Charles Spurgeon, George Whitefield, F. F. Bruce, N. T. Wright, Herman Bavinck, BibleProject (Tim Mackie). Other well-known commentators are fine.
 6. **translations**: 1-3 key verses where English versions differ in a way that matters. Give the full KJV text of the verse, then a few words from each other version.
 7. **gospel**: how the chapter relates to Christ and redemption.
 8. **application**: 2-5 legitimate applications for believers today.
