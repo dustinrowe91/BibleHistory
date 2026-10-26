@@ -1,0 +1,189 @@
+{
+  "ref": "JHN.3",
+  "book": "John",
+  "chapter": 3,
+  "title": "You Must Be Born Again",
+  "status": "draft",
+  "source": "pilot",
+  "updated": "2026-10-26",
+  "theme": "No one can see God's kingdom by learning or effort; life comes from above, by the Spirit, through believing in the Son whom God gave and lifted up.",
+  "keyVerses": ["3", "14-16", "30", "36"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἄνωθεν",
+        "translit": "anōthen",
+        "strongs": "G509",
+        "gloss": "again; from above",
+        "verses": "3, 7, 31",
+        "note": "The word can mean 'again' or 'from above,' and John uses both senses on purpose. Nicodemus hears 'a second time' (v4); Jesus means a birth that comes from God. Verse 31 uses the same word for the Son who 'comes from above,' which settles the direction: this birth comes down from heaven, it is not achieved from below."
+      },
+      {
+        "word": "πνεῦμα",
+        "translit": "pneuma",
+        "strongs": "G4151",
+        "gloss": "spirit; wind; breath",
+        "verses": "5-8, 34",
+        "note": "In verse 8 the same word means both 'wind' and 'Spirit,' so the sentence is a pun: the wind blows where it wills, and so does the Spirit. You can see the wind's effects but cannot steer it; the new birth is real, visible in its results, and not under human control."
+      },
+      {
+        "word": "ὑψόω",
+        "translit": "hypsoō",
+        "strongs": "G5312",
+        "gloss": "to lift up; to exalt",
+        "verses": "14",
+        "note": "The verb means both physical raising and exaltation. In John it always points to the cross (8:28; 12:32-33), where Jesus is lifted up in death and, in the same act, glorified."
+      },
+      {
+        "word": "μονογενής",
+        "translit": "monogenēs",
+        "strongs": "G3439",
+        "gloss": "only, unique, one of a kind",
+        "verses": "16, 18",
+        "note": "Older translations rendered it 'only begotten'; most modern ones give 'only' or 'one and only.' The stress falls on uniqueness: the Son is the only one of his kind, which is why the gift is so costly. The same word describes Isaac as Abraham's unique son in Hebrews 11:17."
+      },
+      {
+        "word": "πιστεύω",
+        "translit": "pisteuō",
+        "strongs": "G4100",
+        "gloss": "to believe, trust",
+        "verses": "12, 15, 16, 18, 36",
+        "note": "John's Gospel never uses the noun 'faith'; it always uses the verb, often 'believe into' (eis) the Son. Believing is an active entrusting of oneself to a person, and the chapter makes it the single dividing line between life and condemnation."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Born of God",
+        "refs": ["John 1:12-13", "1 John 3:9", "1 John 5:1", "1 Peter 1:3, 23", "James 1:18"],
+        "note": "John's prologue already said God's children are born 'not of blood nor of the will of the flesh,' but of God. The theme returns throughout 1 John and is picked up by Peter and James: new birth is God's act, through his word."
+      },
+      {
+        "theme": "Lifted up",
+        "refs": ["John 8:28", "John 12:32-34", "Isaiah 52:13"],
+        "note": "Jesus speaks three times of the Son of Man being lifted up. Isaiah's servant 'shall be high and lifted up' in the Greek Old Testament, using the same verb, just before the description of his suffering."
+      },
+      {
+        "theme": "Light and darkness",
+        "refs": ["John 1:4-9", "John 8:12", "John 12:46", "1 John 1:5-7"],
+        "note": "Light is John's picture of the Son's revealing presence; people's response to the light exposes what they love."
+      }
+    ],
+    "context": {
+      "setting": "Jesus is in Jerusalem at the first Passover of his ministry (2:13, 23). Many believed because of his signs, but Jesus did not entrust himself to them because he knew what was in people (2:23-25). Nicodemus is the first example of that kind of believer, and the chapter shows what real believing involves.",
+      "flow": [
+        { "verses": "1-8", "label": "Born from above", "note": "A respected teacher comes at night with compliments; Jesus replies that no one sees the kingdom without a birth from above, of water and Spirit." },
+        { "verses": "9-15", "label": "Heavenly things", "note": "Israel's teacher does not understand. Jesus speaks as the one who came down from heaven and points to Moses' bronze serpent as a picture of his own lifting up." },
+        { "verses": "16-21", "label": "God's love and the verdict", "note": "God gave his Son to save, not condemn. The verdict is already visible: people who love darkness avoid the light, and those who do what is true come to it." },
+        { "verses": "22-30", "label": "He must increase", "note": "John the Baptist's disciples worry about Jesus' growing following. John calls himself the friend of the bridegroom whose joy is full as Jesus takes center stage." },
+        { "verses": "31-36", "label": "The one from above", "note": "The Son from above speaks God's words and has the Spirit without measure. Whoever believes has eternal life; whoever does not obey him remains under God's wrath." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Numbers 21:4-9", "from": "14", "note": "Jesus names this event himself. Dying Israelites looked at the bronze serpent Moses lifted on a pole and lived; looking in trust to the lifted-up Son brings eternal life." },
+        { "ref": "John 12:32-33", "from": "14", "note": "John explains 'lifted up' directly: Jesus said this to show by what kind of death he was going to die." },
+        { "ref": "1 John 4:9-10", "from": "16", "note": "The same author restates 3:16: God showed his love by sending his only Son so we might live through him, as the propitiation for our sins." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 36:25-27", "from": "5", "note": "God promises to sprinkle clean water on Israel, give a new heart, and put his Spirit within them. Water and Spirit together: this is likely what Jesus expects 'the teacher of Israel' to know (v10)." },
+        { "ref": "Titus 3:5", "from": "5", "note": "Paul speaks of 'the washing of regeneration and renewal of the Holy Spirit,' joining the same two images." },
+        { "ref": "John 1:12-13", "from": "3", "note": "The prologue's summary of the new birth: received by believing, caused by God." },
+        { "ref": "Romans 8:1", "from": "18", "note": "Paul's 'no condemnation for those in Christ Jesus' develops 'whoever believes in him is not condemned.'" }
+      ],
+      "tier3": [
+        { "ref": "Genesis 22:2", "from": "16", "note": "God asks Abraham for 'your son, your only son, whom you love.' The phrasing of love and a uniquely beloved son is echoed when God gives his own Son." },
+        { "ref": "Ecclesiastes 11:5", "from": "8", "note": "The Preacher says we do not know the way of the wind (or spirit), just as we do not know the work of God." },
+        { "ref": "John 7:50-51; 19:39", "from": "1", "note": "Nicodemus appears twice more, first defending Jesus' right to a hearing, then bringing spices for his burial. His story moves out of the night." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. A. Carson",
+        "work": "The Gospel According to John (Pillar New Testament Commentary)",
+        "view": "Carson reads 'water and Spirit' as one birth described with Ezekiel 36's two images of cleansing and renewal, rather than as two births or a reference to Christian baptism, which Nicodemus could not have understood. He also argues that verses 16-21 are most likely the evangelist's own reflection on Jesus' words."
+      },
+      {
+        "name": "R. C. Sproul",
+        "work": "Born Again; Chosen by God",
+        "view": "Sproul uses this chapter as a central text for regeneration as God's work alone. Just as no one contributes to their own physical birth, the Spirit gives new life first, and faith follows from it."
+      },
+      {
+        "name": "John Piper",
+        "work": "Finally Alive",
+        "view": "Piper's book on the new birth stresses that it is a real change of nature, not a label. Those born of God come to the light and love it; a life that keeps preferring darkness raises a serious question about whether that birth has happened."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
+        "renderings": [
+          { "version": "ESV", "text": "born again (note: or from above)" },
+          { "version": "NIV", "text": "born again (note: or born from above)" },
+          { "version": "CSB", "text": "born again (note: or from above)" }
+        ],
+        "note": "Every major version puts 'again' in the text and 'from above' in a note, but John probably intends both. Nicodemus's question in verse 4 only makes sense if he heard 'again.'"
+      },
+      {
+        "verse": "16",
+        "kjv": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+        "renderings": [
+          { "version": "ESV", "text": "his only Son" },
+          { "version": "NIV", "text": "his one and only Son" },
+          { "version": "NASB", "text": "His only Son (1995: only begotten)" },
+          { "version": "CSB", "text": "his one and only Son" }
+        ],
+        "note": "The difference reflects how translators read monogenēs: 'only begotten' follows the Latin tradition; most modern scholars take the word to mean 'unique.' Either way, the Son's eternal relation to the Father is taught elsewhere in John (1:1, 18)."
+      },
+      {
+        "verse": "36",
+        "kjv": "He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.",
+        "renderings": [
+          { "version": "ESV", "text": "whoever does not obey the Son" },
+          { "version": "NASB", "text": "the one who does not obey the Son" },
+          { "version": "NIV", "text": "whoever rejects the Son" },
+          { "version": "CSB", "text": "the one who rejects the Son" }
+        ],
+        "note": "The second verb (apeitheō) is not simply 'believe not' but 'disobey' or 'refuse.' Unbelief in John is a refusal of the Son, not a lack of information, and it leaves a person under wrath that 'remains,' the same verb John uses for abiding."
+      }
+    ],
+    "gospel": "The chapter gives the whole gospel in miniature. Our problem is deeper than ignorance: we must be born again, and only God can do that. God's answer is love that gives, the Father sending his unique Son, who is lifted up on the cross the way the serpent was lifted up in the wilderness. As dying Israelites lived by looking, sinners live by believing in the crucified Son. The Spirit brings the new birth, the Son provides the remedy, and the Father's love is the source.",
+    "application": [
+      "Religious knowledge and respectability are not the same as new life. Nicodemus was Israel's teacher and still needed to be born from above; ask the same question of yourself, not only of others.",
+      "Point people to look at Christ lifted up, not to their own effort. The bronze serpent was not medicine to apply but an object to look at in trust.",
+      "Pray for people who seem far off, since the Spirit, like the wind, goes where he wills. Nicodemus's later courage (19:39) shows that a slow start is not the end of the story.",
+      "Take John the Baptist's posture in ministry and in life: 'He must increase, but I must decrease.' Joy comes from seeing Christ honored, not from one's own following growing."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Born again' describes a particular type of Christian, or a fresh start you can choose for yourself.",
+        "correction": "Jesus says no one sees the kingdom without it, and the passive voice ('be born') shows it is something done to us by God. It is not a personality type or a self-improvement project."
+      },
+      {
+        "claim": "'God so loved the world' means everyone will be saved in the end.",
+        "correction": "The same paragraph says whoever does not believe is condemned already (v18) and that God's wrath remains on whoever refuses the Son (v36). The love is wide in its offer; the life is received by believing."
+      },
+      {
+        "claim": "'So loved' is mainly about how much God loved.",
+        "correction": "The Greek houtōs usually means 'in this way.' The verse explains how God showed his love: by giving his Son. The size of the love is shown by the gift."
+      }
+    ],
+    "contrasts": [
+      { "a": "Flesh", "b": "Spirit", "verses": "6", "note": "Human nature can only produce more human nature; spiritual life must come from the Spirit." },
+      { "a": "Earthly things", "b": "Heavenly things", "verses": "12, 31", "note": "Jesus alone came down from heaven and so can speak of heavenly things with authority." },
+      { "a": "Perish", "b": "Eternal life", "verses": "15-16, 36", "note": "There are only two outcomes, and believing in the Son decides between them." },
+      { "a": "Light", "b": "Darkness", "verses": "19-21", "note": "People avoid the light because they love darkness; coming to the light shows that one's works have been done in God." }
+    ],
+    "features": [
+      { "label": "Misunderstanding as teaching device", "note": "John often has Jesus say something with a double meaning that a listener takes the wrong way (the temple in 2:19-21, living water in 4:10-15). Nicodemus's literal 'second birth' opens the door for the deeper meaning." },
+      { "label": "Night", "note": "Nicodemus comes 'by night' (v2). In John, night is more than a time of day (9:4; 11:10; 13:30), and the chapter later says people love darkness rather than light (v19)." },
+      { "label": "The conversation widens", "note": "From verse 7 the 'you' becomes plural in Greek: 'you all must be born again.' Nicodemus fades out of the scene and Jesus addresses everyone like him." },
+      { "label": "Two witnesses from above", "note": "The chapter pairs Jesus' testimony to Nicodemus with John the Baptist's testimony to his disciples, and both halves end on believing in the Son and eternal life (vv15-18, 36)." }
+    ],
+    "summary": "John 3 teaches that entering God's kingdom requires a new birth from above, worked by the Spirit, which no human effort or religious standing can produce. God's love is the source of that new life: he gave his unique Son to be lifted up on the cross, so that whoever believes in him does not perish but has eternal life. Believing in the Son divides humanity into two, and the response to him exposes what people love.",
+    "metaArc": {
+      "book": "John's Gospel is written so that readers may believe Jesus is the Christ, the Son of God, and have life in his name (20:31). Chapter 3 states that purpose most directly: the first long conversation in the book explains what that life is, how it comes, and what is at stake.",
+      "redemptive": "Redemption. Ezekiel's promise of cleansing water and a new Spirit, and the wilderness serpent that saved dying Israel, are fulfilled in the Son's cross and the Spirit's new birth. The 'kingdom of God' points ahead to the new creation, which begins now in those born from above."
+    }
+  }
+}

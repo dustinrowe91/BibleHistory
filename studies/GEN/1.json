@@ -1,0 +1,188 @@
+{
+  "ref": "GEN.1",
+  "book": "Genesis",
+  "chapter": 1,
+  "title": "In the Beginning God",
+  "status": "draft",
+  "source": "pilot",
+  "updated": "2026-10-26",
+  "theme": "The one God creates everything by his word, forms the empty earth and fills it, calls it very good, and makes humanity in his image to rule it under him.",
+  "keyVerses": ["1", "2", "26-28", "31"],
+  "steps": {
+    "language": [
+      {
+        "word": "בָּרָא",
+        "translit": "bara",
+        "strongs": "H1254",
+        "gloss": "to create",
+        "verses": "1, 21, 27",
+        "note": "In the Old Testament this verb only ever has God as its subject, and it never names material that God works on. It appears at three turning points: the heavens and the earth, the first living creatures, and humanity, where it is used three times in one verse (v27)."
+      },
+      {
+        "word": "תֹהוּ וָבֹהוּ",
+        "translit": "tohu wabohu",
+        "strongs": "H8414",
+        "gloss": "formless and empty",
+        "verses": "2",
+        "note": "A rhyming pair describing the earth before God's ordering work: unshaped and unfilled. The rest of the chapter answers both problems, with days 1-3 giving form and days 4-6 filling. Jeremiah uses the same pair to describe judgment as creation undone (Jeremiah 4:23)."
+      },
+      {
+        "word": "רוּחַ",
+        "translit": "ruaḥ",
+        "strongs": "H7307",
+        "gloss": "Spirit; wind; breath",
+        "verses": "2",
+        "note": "The Spirit of God 'hovers' over the waters. The rare verb (raḥap) describes an eagle hovering over its young in Deuteronomy 32:11, a picture of protective, life-giving presence before God speaks."
+      },
+      {
+        "word": "צֶלֶם",
+        "translit": "ṣelem",
+        "strongs": "H6754",
+        "gloss": "image",
+        "verses": "26-27",
+        "note": "The usual word for a statue or representation, including idols. Ancient kings set up images of themselves to mark their rule. God places living images of himself in his world, and pairs it with 'likeness' (demut, H1823) to stress resemblance."
+      },
+      {
+        "word": "טוֹב",
+        "translit": "ṭov",
+        "strongs": "H2896",
+        "gloss": "good",
+        "verses": "4, 10, 12, 18, 21, 25, 31",
+        "note": "God's verdict on his work appears seven times, ending with 'very good' over everything together. The world is good because God made it and judges it so, which rules out any view that matter itself is evil."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Creation by the word",
+        "refs": ["Psalm 33:6, 9", "Psalm 148:5", "John 1:1-3", "Hebrews 11:3", "2 Peter 3:5"],
+        "note": "'And God said' is the engine of the chapter. The psalms, John and Hebrews all return to it: God spoke, and it was."
+      },
+      {
+        "theme": "The image of God",
+        "refs": ["Genesis 5:1-3", "Genesis 9:6", "James 3:9", "Colossians 1:15", "Colossians 3:10", "Romans 8:29"],
+        "note": "The image survives the fall (Genesis 9:6; James 3:9), Christ is the true image of God, and believers are renewed into that image."
+      },
+      {
+        "theme": "Light out of darkness and new creation",
+        "refs": ["Isaiah 65:17", "2 Corinthians 4:6", "2 Corinthians 5:17", "Revelation 21:1-5; 22:5"],
+        "note": "Salvation is described as a second creation. The Bible ends where it began, with a new heaven and earth and light that never fails."
+      }
+    ],
+    "context": {
+      "setting": "The opening of Genesis and of the whole Bible. The account actually runs from 1:1 to 2:3, ending with the seventh day, and comes before the first of Genesis's 'these are the generations' headings (2:4). It was first given to Israel, a people surrounded by nations that worshipped the sun, the sea and many gods.",
+      "flow": [
+        { "verses": "1-2", "label": "Heading and starting point", "note": "God creates everything. The earth is formless, empty and dark, but the Spirit of God is present over the waters." },
+        { "verses": "3-13", "label": "Days 1-3: forming", "note": "God separates light from darkness, waters above from waters below, and sea from land, which then sprouts plants." },
+        { "verses": "14-25", "label": "Days 4-6a: filling", "note": "God fills the spaces he made: lights for day and night, creatures for sky and sea, and animals for land. Each filling matches a day from the first three." },
+        { "verses": "26-31", "label": "Day 6b: humanity", "note": "God deliberates, 'Let us make man,' creates humanity male and female in his image, blesses them to be fruitful and rule, gives them food, and calls everything very good." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "John 1:1-3", "from": "1", "note": "John opens with 'In the beginning' and identifies the Word through whom all things were made, who is with God and is God." },
+        { "ref": "2 Corinthians 4:6", "from": "3", "note": "Paul cites God's command 'Let light shine out of darkness' and says the same God shines in believers' hearts with the knowledge of his glory in Christ." },
+        { "ref": "Matthew 19:4-6", "from": "27", "note": "Jesus quotes 'he made them male and female' as the foundation for marriage." },
+        { "ref": "Hebrews 11:3", "from": "1-3", "note": "By faith we understand the universe was made by the word of God, so that what is seen was not made from things that are visible." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 1:15-17", "from": "26-27", "note": "Christ is the image of the invisible God, and all things were created through him and for him." },
+        { "ref": "Psalm 8:3-8", "from": "26-28", "note": "A meditation on the heavens and on humanity's dominion over the creatures, using Genesis 1's list of fish, birds and beasts." },
+        { "ref": "Psalm 104", "from": "1-31", "note": "A hymn that walks through creation in roughly the same order as Genesis 1." },
+        { "ref": "Revelation 21:1-5; 22:5", "from": "1-5", "note": "A new heaven and earth with no more sea and no more night: creation's goal reached." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 39:32, 43; 40:33-34", "from": "31", "note": "The tabernacle account ends with work finished, Moses seeing all of it, and a blessing, close to the language that ends the creation week. The world is pictured as God's temple." },
+        { "ref": "Proverbs 8:22-31", "from": "1-10", "note": "Wisdom speaks of being present when God set the heavens in place and marked out the sea." },
+        { "ref": "Jeremiah 4:23-26", "from": "2", "note": "The prophet sees the land return to formless and void with no light: judgment pictured as creation reversed." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Herman Bavinck",
+        "work": "Reformed Dogmatics, vol. 2: God and Creation",
+        "view": "Bavinck treats creation from nothing as a foundation of Christian faith: God depends on nothing, and the world depends wholly on him. He reads the chapter as the work of the triune God and the image of God as belonging to the whole human person, not to one faculty only."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Genesis and 'Heaven and Earth' videos and podcasts",
+        "view": "BibleProject presents the seven days as the building of a cosmic temple where heaven and earth overlap. Humans are God's image placed in that temple, appointed to represent his rule and extend his good order across the earth."
+      },
+      {
+        "name": "R. C. Sproul",
+        "work": "Not a Chance",
+        "view": "Sproul argues that chance has no power to cause anything, so the existence of the world requires a self-existent Creator. Genesis 1:1 states the only adequate answer to why there is something rather than nothing."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+        "renderings": [
+          { "version": "ESV", "text": "without form and void ... hovering over" },
+          { "version": "NIV", "text": "formless and empty ... hovering over" },
+          { "version": "CSB", "text": "formless and empty ... hovering over" },
+          { "version": "NASB", "text": "formless and void (1995) ... moving over" }
+        ],
+        "note": "'Formless and empty' makes the structure of the chapter easier to see: God gives form and then fills. 'Hovering' captures the bird-like image better than the KJV's 'moved.'"
+      },
+      {
+        "verse": "6",
+        "kjv": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
+        "renderings": [
+          { "version": "ESV", "text": "an expanse" },
+          { "version": "NASB", "text": "an expanse" },
+          { "version": "CSB", "text": "an expanse" },
+          { "version": "NIV", "text": "a vault" }
+        ],
+        "note": "Raqiaʿ comes from a verb meaning to beat out or spread thin. 'Firmament' and 'vault' stress something solid; 'expanse' stresses something spread out. All describe the sky as seen from the ground."
+      },
+      {
+        "verse": "26",
+        "kjv": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "Let us make man in our image" },
+          { "version": "NIV", "text": "Let us make mankind in our image" },
+          { "version": "CSB", "text": "Let us make man in our image" }
+        ],
+        "note": "Hebrew ʾadam means humanity here, as 'let them' and verse 27's 'male and female' show. NIV's 'mankind' makes that explicit; ESV and CSB keep 'man,' which also prepares for Adam as a name."
+      }
+    ],
+    "gospel": "The God who said 'Let there be light' is the God who shines in our hearts with the light of Christ (2 Corinthians 4:6). The Word through whom all things were made became flesh (John 1:14), and Christ is the true image of God that Adam was made to be. What sin defaced, Christ restores: believers are a new creation, being renewed in the image of their Creator, and the story ends with a new heaven and earth. Salvation is not an escape from creation but God's rescue and renewal of it.",
+    "application": [
+      "Worship God as Creator, and refuse to treat anything in creation, whether sun, nature, money or ourselves, as a god. The chapter was a direct challenge to the idols of Israel's neighbors.",
+      "Treat every person with dignity, since every human being bears God's image regardless of ability, age or status.",
+      "Receive the physical world, bodies, food, work and marriage as gifts God called good, rather than as things to despise or worship.",
+      "Rule creation as stewards answerable to God, caring for it as his representatives rather than exploiting it."
+    ],
+    "misapplications": [
+      {
+        "claim": "Dominion gives humans license to use the earth however they please.",
+        "correction": "Dominion is exercised as God's image, so it should reflect his care. Genesis 2:15 explains it as working and keeping the garden."
+      },
+      {
+        "claim": "The chapter's main purpose is to settle every scientific question about how and when.",
+        "correction": "Faithful Christians differ on the length of the days and on how the account relates to science. The chapter's own emphasis is who created, that he did so by his word, that the world is good, and what humans are. Those points stand whichever view of the days one holds."
+      },
+      {
+        "claim": "The image of God is one human capacity, such as reason, so people without it are less human.",
+        "correction": "The text ties the image to what humans are and are called to do, ruling as God's representatives, male and female together. It is not removed by disability, age or sin (Genesis 9:6)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Darkness", "b": "Light", "verses": "2-5", "note": "God's first word brings light; darkness is not destroyed but named and bounded." },
+      { "a": "Formless and empty", "b": "Formed and filled", "verses": "2, 3-31", "note": "The chapter's structure answers both conditions of verse 2." },
+      { "a": "Creator", "b": "Creature", "verses": "1, 14-18", "note": "The sun and moon, worshipped by Israel's neighbors, are only lamps God hung in the sky." }
+    ],
+    "features": [
+      { "label": "Matching days", "note": "Days 1-3 create realms (light, sky and sea, land) and days 4-6 fill them (lights, birds and fish, animals and people), in the same order." },
+      { "label": "Sevens", "note": "Verse 1 has seven Hebrew words, God's verdict 'good' appears seven times, and the account ends on the seventh day (2:1-3)." },
+      { "label": "Unnamed sun and moon", "note": "The text calls them 'the greater light' and 'the lesser light' instead of using the common words that were also names of gods, a quiet polemic against astral worship." },
+      { "label": "A pause before humanity", "note": "Every other act begins 'Let there be'; humanity begins with God's deliberation, 'Let us make,' marking it as the climax of the week." }
+    ],
+    "summary": "Genesis 1 teaches that the one true God created all things by his word, freely and from nothing, and shaped a formless, empty world into an ordered and filled home that he called very good. Humanity, male and female, is made in his image to represent his rule and care for his world. The chapter sets out who God is, what the world is, and what we are, and the rest of Scripture's story of fall, redemption and new creation builds on it.",
+    "metaArc": {
+      "book": "Genesis is a book of beginnings: of the world, of sin, of the nations and of Israel. Chapter 1 sets the standard of 'very good' against which the fall in chapter 3 and everything after it is measured, and the blessing to be fruitful and multiply is repeated to Noah and the patriarchs.",
+      "redemptive": "Creation. Everything else in the Bible's story, from Fall and Promise through Redemption to New Creation, presupposes this chapter, and the last chapters of Revelation answer it with a new heaven and earth."
+    }
+  }
+}

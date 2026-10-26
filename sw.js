@@ -1,10 +1,11 @@
 // Offline support. Pages: network first, so an update shows as soon as you're online; the saved copy is used offline
 // or if the network takes more than 3 seconds. Fonts: saved copy first, since they never change.
 // Bump VERSION when adding or renaming files so old caches are cleared.
-const VERSION = "v5";
+const VERSION = "v6";
 const CACHE = "bible-history-" + VERSION;
 const CORE = [
-  "./", "index.html", "books.html", "kings.html", "people.html", "covenants.html", "prophecy.html", "plagues.html", "maps.html", "word-and-deed.html",
+  "./", "index.html", "books.html", "kings.html", "people.html", "covenants.html", "prophecy.html", "plagues.html", "maps.html", "word-and-deed.html", "study.html",
+  "studies/canon.json", "studies/index.json",
   "manifest.webmanifest", "favicon.svg",
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png"
 ];
