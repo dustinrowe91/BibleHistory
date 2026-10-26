@@ -1,0 +1,190 @@
+{
+  "ref": "EPH.4",
+  "book": "Ephesians",
+  "chapter": 4,
+  "title": "Walk Worthy of Your Calling",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Because of all God has done, believers must live worthy of their calling: keeping the unity the Spirit gives, using the ascended Christ's gifts to build one another up to maturity, and putting off the old self to put on the new self created after God's likeness.",
+  "keyVerses": ["1-3", "11-13", "22-24", "32"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἀξίως",
+        "translit": "axiōs",
+        "strongs": "G516",
+        "gloss": "worthily, in a manner that matches",
+        "verses": "1",
+        "note": "The word describes something whose weight matches something else. A worthy walk is one that matches the calling described in chapters 1-3. It does not earn the calling; it fits it."
+      },
+      {
+        "word": "ἑνότης",
+        "translit": "henotēs",
+        "strongs": "G1775",
+        "gloss": "unity, oneness",
+        "verses": "3, 13",
+        "note": "This word appears only twice in the New Testament, both in this chapter. In verse 3 believers are to 'keep' the unity the Spirit has already created; in verse 13 they grow toward 'the unity of the faith' as a goal. Unity is both a gift to guard and a maturity to reach."
+      },
+      {
+        "word": "καταρτισμός",
+        "translit": "katartismos",
+        "strongs": "G2677",
+        "gloss": "equipping, making fit, restoring",
+        "verses": "12",
+        "note": "The noun is used only here. Its related verb describes mending nets (Matthew 4:21) and restoring someone caught in sin (Galatians 6:1). Leaders are given to repair and fit out God's people for their work."
+      },
+      {
+        "word": "ἀληθεύω",
+        "translit": "alētheuō",
+        "strongs": "G226",
+        "gloss": "to speak or live the truth",
+        "verses": "15",
+        "note": "A verb formed from 'truth,' something like 'truthing.' It includes speaking truth but is broader: holding to and living by the truth, always 'in love.' It answers verse 14, where false teaching blows immature believers about."
+      },
+      {
+        "word": "λυπέω",
+        "translit": "lypeō",
+        "strongs": "G3076",
+        "gloss": "to grieve, cause sorrow",
+        "verses": "30",
+        "note": "Only a person can be grieved. The command not to grieve the Holy Spirit shows that the Spirit is personal and is pained by the sins of speech and attitude listed around it."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Walking as a way of life",
+        "refs": ["Ephesians 2:2, 10", "Ephesians 5:2, 8, 15", "Colossians 1:10", "1 Thessalonians 2:12"],
+        "note": "'Walk' is Paul's picture for daily conduct. Ephesians uses it again and again to contrast the old life with the new."
+      },
+      {
+        "theme": "One body, many gifts",
+        "refs": ["Romans 12:3-8", "1 Corinthians 12:4-27", "1 Peter 4:10-11"],
+        "note": "Every believer receives grace for service, and the variety of gifts serves the unity of the body."
+      },
+      {
+        "theme": "Putting off and putting on",
+        "refs": ["Colossians 3:5-14", "Romans 13:12-14", "Galatians 3:27"],
+        "note": "Paul pictures change as changing clothes: taking off the habits of the old life and putting on Christ and the virtues that belong to him."
+      },
+      {
+        "theme": "Forgive as you have been forgiven",
+        "refs": ["Matthew 6:12, 14-15", "Matthew 18:21-35", "Colossians 3:13"],
+        "note": "Jesus taught that those forgiven much must forgive. Paul grounds the command in what God did 'in Christ.'"
+      }
+    ],
+    "context": {
+      "setting": "'Therefore' in verse 1 turns from the doctrine of chapters 1-3 to the practice of chapters 4-6. Having shown that God has made one new people in Christ, Paul now urges them to live as that people. He reminds them again that he writes as 'the prisoner of the Lord.'",
+      "flow": [
+        { "verses": "1-6", "label": "Keep the unity", "note": "Walk worthy with humility, gentleness, patience and love, eager to keep the Spirit's unity, because there is one body, one Spirit, one hope, one Lord, one faith, one baptism and one God and Father." },
+        { "verses": "7-10", "label": "Gifts from the ascended Christ", "note": "Grace was given to each one. Quoting Psalm 68, Paul says the Christ who descended and ascended gives gifts to his people." },
+        { "verses": "11-16", "label": "Built up to maturity", "note": "Apostles, prophets, evangelists and shepherd-teachers equip the saints for ministry, so the body grows to maturity, stable against false teaching, speaking the truth in love, each part doing its work." },
+        { "verses": "17-24", "label": "No longer as the Gentiles", "note": "Believers must not live in the futility, darkness and hardness of their old life. They learned Christ: put off the old self, be renewed in mind, put on the new self created after God's likeness." },
+        { "verses": "25-32", "label": "Old habits replaced", "note": "Specific changes: truth instead of lies, anger dealt with quickly, work instead of theft, building words instead of corrupt ones, kindness and forgiveness instead of bitterness, as God forgave you in Christ." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 68:18", "from": "8", "note": "Paul quotes the psalm of God's victorious ascent to his sanctuary and applies it to Christ's ascension. Where the Hebrew says the conqueror 'received gifts,' Paul says he 'gave gifts,' since the victor shares the spoils with his people." },
+        { "ref": "Zechariah 8:16", "from": "25", "note": "'Speak the truth to one another' is a direct quotation of the prophet's instructions for the restored people of God." },
+        { "ref": "Psalm 4:4", "from": "26", "note": "'Be angry, and do not sin' quotes the Greek translation of the psalm, which goes on to tell the reader to reflect in silence on their bed." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 3:5-15", "from": "22-32", "note": "The companion letter has the same pattern: put off the old self and its practices, put on the new self renewed after its Creator's image, and forgive as the Lord forgave you." },
+        { "ref": "Isaiah 63:10", "from": "30", "note": "Israel in the wilderness 'rebelled and grieved his Holy Spirit.' This is the only Old Testament passage with the same wording." },
+        { "ref": "1 Corinthians 12:4-27", "from": "4-7, 11-16", "note": "One Spirit, Lord and God distributes varied gifts in one body, so that each member needs the others." },
+        { "ref": "John 17:20-23", "from": "3, 13", "note": "Jesus prayed that those who believe would be one, as he and the Father are one, so that the world would believe." },
+        { "ref": "Romans 12:2", "from": "23", "note": "Do not be conformed to this world, but be transformed by the renewal of your mind." }
+      ],
+      "tier3": [
+        { "ref": "Deuteronomy 6:4", "from": "5-6", "note": "'The LORD is one.' Paul's list of 'ones' reaches its climax in the one God and Father, now known as Father, Son and Spirit." },
+        { "ref": "Genesis 1:26-27", "from": "24", "note": "The new self is 'created after the likeness of God.' Salvation restores the image that sin defaced." },
+        { "ref": "James 1:19-20", "from": "26, 29, 31", "note": "Be slow to speak and slow to anger, for human anger does not produce the righteousness of God." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "Christian Unity: An Exposition of Ephesians 4:1-16",
+        "view": "Lloyd-Jones insists that the unity Paul describes is the Spirit's creation, not something churches manufacture. It is bound up with 'one faith,' so it cannot be achieved by setting aside doctrine. On that basis he was critical of efforts at church union that downplayed truth."
+      },
+      {
+        "name": "John Stott",
+        "work": "The Message of Ephesians (The Bible Speaks Today)",
+        "view": "Stott reads verses 11-12 as describing pastors and teachers who equip all of God's people for their ministries. He argues against a church where the clergy does the ministry and the congregation watches, and for every member being active in service."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men.",
+        "renderings": [
+          { "version": "ESV", "text": "he led a host of captives, and he gave gifts to men" },
+          { "version": "NIV", "text": "he took many captives and gave gifts to his people" },
+          { "version": "NASB", "text": "He led captive a host of captives" }
+        ],
+        "note": "'Led captivity captive' is a literal Hebrew idiom for leading a train of captives in a victory procession. Modern versions translate the sense. The picture is a conquering king returning in triumph."
+      },
+      {
+        "verse": "12",
+        "kjv": "For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ:",
+        "renderings": [
+          { "version": "ESV", "text": "to equip the saints for the work of ministry, for building up the body" },
+          { "version": "NIV", "text": "to equip his people for works of service" },
+          { "version": "CSB", "text": "equipping the saints for the work of ministry" }
+        ],
+        "note": "The KJV's commas read as three separate jobs for leaders. Modern versions read one chain: leaders equip the saints, the saints do the work of ministry, and so the body is built up. The change in Greek prepositions (pros, then eis) supports the modern reading, though some scholars still defend the older one."
+      },
+      {
+        "verse": "26",
+        "kjv": "Be ye angry, and sin not: let not the sun go down upon your wrath:",
+        "renderings": [
+          { "version": "ESV", "text": "Be angry and do not sin" },
+          { "version": "NIV", "text": "In your anger do not sin" },
+          { "version": "CSB", "text": "Be angry and do not sin" }
+        ],
+        "note": "The Greek has two imperatives, quoted from Psalm 4:4. Most interpreters agree it is not a command to become angry but a recognition that anger will come, with a strict limit: do not let it lead to sin, and deal with it before the day ends."
+      }
+    ],
+    "gospel": "Every command in this chapter rests on the gospel. The unity believers keep was made by Christ's cross (2:14-16). The gifts they use come from the Christ who descended to earth and ascended in victory to fill all things. The new self they put on is 'created' by God, not self-made. And the closing command reaches back to the heart of the gospel: forgive one another 'as God in Christ forgave you.' Christian behavior is the fruit of grace received.",
+    "application": [
+      "Make every effort to keep peace in your church through humility, gentleness and patience. Unity is worth working for because Christ died for it.",
+      "Find your place in the body. Grace has been given to each one (v7), and the body grows when 'each part' does its work (v16).",
+      "Hold truth and love together. Speak truth, but in love; show love, but never by giving up the truth.",
+      "Replace sins rather than only removing them: the thief becomes a worker who gives, and the corrupt talker learns to speak words that give grace.",
+      "Deal with anger quickly. Unresolved anger gives the devil a foothold (v27)."
+    ],
+    "misapplications": [
+      {
+        "claim": "Unity means overlooking doctrinal differences for the sake of getting along.",
+        "correction": "The unity Paul describes includes 'one faith' (v5) and grows toward 'the unity of the faith and of the knowledge of the Son of God' (v13), as believers speak the truth in love. Unity built on abandoned truth is not the unity of this chapter."
+      },
+      {
+        "claim": "'Be angry and sin not' gives permission to stay angry if the cause is just.",
+        "correction": "The same paragraph says 'let not the sun go down upon your wrath' and ends with 'let all bitterness, and wrath, and anger... be put away from you' (v31). The verse limits anger; it does not license it."
+      },
+      {
+        "claim": "Ministry is the pastor's job, and church members are the audience.",
+        "correction": "Leaders are given 'to equip the saints for the work of ministry' (v12). The ministry belongs to the whole body."
+      }
+    ],
+    "contrasts": [
+      { "a": "Old self", "b": "New self", "verses": "22-24", "note": "One is corrupted by deceitful desires; the other is created after God's likeness in true righteousness and holiness." },
+      { "a": "Children tossed by every wind", "b": "Mature in Christ", "verses": "13-15", "note": "Maturity is measured by Christ and shown in stability against error." },
+      { "a": "Falsehood", "b": "Truth", "verses": "25", "note": "Because we are members of one another, lies harm the body." },
+      { "a": "Stealing", "b": "Working to give", "verses": "28", "note": "The goal is not just honest income but generosity." },
+      { "a": "Bitterness and malice", "b": "Kindness and forgiveness", "verses": "31-32", "note": "The pattern is God's forgiveness in Christ." }
+    ],
+    "features": [
+      { "label": "Seven 'ones'", "note": "Verses 4-6 list seven unities, arranged around the Spirit (one body, one Spirit, one hope), the Lord (one Lord, one faith, one baptism) and the Father (one God and Father of all)." },
+      { "label": "From indicative to imperative", "note": "Chapters 1-3 contain almost no commands; chapters 4-6 contain many. The 'therefore' of 4:1 marks the turn from what God has done to how believers should live." },
+      { "label": "Each sin paired with a replacement", "note": "Verses 25-32 follow a pattern: what to stop, what to start, and why. Change is not mere restraint but replacement." },
+      { "label": "Victory procession", "note": "Psalm 68 pictures God ascending Mount Zion after battle. Paul uses it to show the ascended Christ distributing the spoils of his victory as gifts to his church." }
+    ],
+    "summary": "Ephesians 4 turns doctrine into life. Believers called by grace must walk worthy of that calling by guarding the unity the Spirit has created and growing together to maturity through the gifts of the ascended Christ, speaking the truth in love. Having learned Christ, they put off the old self and put on the new, replacing lies, anger, theft, corrupt words and bitterness with truth, generosity, upbuilding speech, kindness and the forgiveness they have received from God in Christ.",
+    "metaArc": {
+      "book": "Chapter 4 begins the practical half of the letter. Its call to unity applies chapter 2's one new humanity, and its call to holiness begins the 'walk' instructions that continue through 5:21. The household instructions and spiritual warfare of chapters 5-6 build on it.",
+      "redemptive": "Redemption at work in the present. The ascended Christ fills all things and gives gifts, and his people are being renewed after the image of God in which humanity was first created, moving toward the maturity and full stature of Christ."
+    }
+  }
+}

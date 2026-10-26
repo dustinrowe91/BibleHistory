@@ -1,0 +1,179 @@
+{
+  "ref": "EPH.5",
+  "book": "Ephesians",
+  "chapter": 5,
+  "title": "Walk in Love, Light and Wisdom",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "As God's beloved children, believers imitate him by walking in love as Christ loved us, living as children of light and walking wisely, filled with the Spirit. That Spirit-filled life shows itself in marriage, where a wife's submission and a husband's self-giving love picture the relationship between Christ and his church.",
+  "keyVerses": ["1-2", "8", "18-21", "25"],
+  "steps": {
+    "language": [
+      {
+        "word": "μιμητής",
+        "translit": "mimētēs",
+        "strongs": "G3402",
+        "gloss": "imitator",
+        "verses": "1",
+        "note": "Our word 'mimic' comes from it. Elsewhere Paul tells believers to imitate him as he imitates Christ (1 Corinthians 11:1); only here does he say to imitate God directly. The reason is family likeness: children copy a beloved father."
+      },
+      {
+        "word": "ἀγαπάω",
+        "translit": "agapaō",
+        "strongs": "G25",
+        "gloss": "to love",
+        "verses": "2, 25, 28, 33",
+        "note": "The chapter defines love by Christ's action: he 'loved us and gave himself up for us' (v2), and he 'loved the church and gave himself up for her' (v25). Both the general command and the specific command to husbands point to the same self-giving model."
+      },
+      {
+        "word": "ἐξαγοράζω",
+        "translit": "exagorazō",
+        "strongs": "G1805",
+        "gloss": "to buy up, redeem",
+        "verses": "16",
+        "note": "A marketplace word for buying something up, the same verb Paul uses for Christ redeeming us from the curse of the law (Galatians 3:13). Believers are to buy up 'the time' (kairos, the opportune moment) because the days are evil."
+      },
+      {
+        "word": "πληρόω",
+        "translit": "plēroō",
+        "strongs": "G4137",
+        "gloss": "to fill",
+        "verses": "18",
+        "note": "'Be filled' is a present, passive command: keep on being filled, by Someone other than yourself. It probably means 'be filled by the Spirit' (with Christ's fullness, compare 1:23; 3:19). The contrast with wine is about what controls a person."
+      },
+      {
+        "word": "ὑποτάσσω",
+        "translit": "hypotassō",
+        "strongs": "G5293",
+        "gloss": "to submit, place oneself under",
+        "verses": "21, 24",
+        "note": "In the middle voice it means a voluntary choice to yield, not being forced under. Verse 21 makes submission one of the marks of Spirit-filled believers toward one another, and verses 22-24 apply it to wives toward their own husbands, 'as to the Lord.'"
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Christ's self-giving love",
+        "refs": ["Galatians 2:20", "John 15:12-13", "1 John 3:16", "Titus 2:14"],
+        "note": "'He loved me and gave himself for me' is the shape of Christian love: costly action for another's good."
+      },
+      {
+        "theme": "Light and darkness",
+        "refs": ["John 8:12", "Romans 13:12-14", "1 Thessalonians 5:4-8", "1 Peter 2:9"],
+        "note": "Believers have been called out of darkness into light. They no longer belong to the night and should live like it."
+      },
+      {
+        "theme": "God as husband of his people",
+        "refs": ["Isaiah 54:5", "Hosea 2:16-20", "2 Corinthians 11:2", "Revelation 19:7-9"],
+        "note": "The Old Testament pictures the LORD as Israel's husband; the New Testament presents Christ as the bridegroom and the church as his bride, awaiting the marriage supper of the Lamb."
+      },
+      {
+        "theme": "Household instructions",
+        "refs": ["Colossians 3:18-4:1", "1 Peter 2:18-3:7", "Titus 2:1-10"],
+        "note": "Several letters give instructions for wives and husbands, children and parents, slaves and masters. Ephesians develops the marriage section far more than the others."
+      }
+    ],
+    "context": {
+      "setting": "The 'walk' instructions that began in 4:1 continue: walk in love (5:2), walk as children of light (5:8), walk wisely (5:15). Verses 18-21 describe the Spirit-filled life, and the last of its results, mutual submission (v21), opens the household instructions that run to 6:9. The verse division at 5:21-22 is later; Paul's thought flows straight from one to the other.",
+      "flow": [
+        { "verses": "1-2", "label": "Walk in love", "note": "Imitate God as beloved children, walking in love as Christ loved us and gave himself as a fragrant offering and sacrifice to God." },
+        { "verses": "3-7", "label": "No impurity or greed", "note": "Sexual immorality, impurity and covetousness must not even be named among saints; crude talk is replaced by thanksgiving. Such things bring God's wrath." },
+        { "verses": "8-14", "label": "Children of light", "note": "You were once darkness but are now light in the Lord. Walk as children of light, expose the works of darkness, and wake up so Christ will shine on you." },
+        { "verses": "15-21", "label": "Walk wisely, filled with the Spirit", "note": "Make the best use of the time, understand the Lord's will, and instead of being drunk with wine be filled with the Spirit: speaking, singing, giving thanks and submitting to one another." },
+        { "verses": "22-24", "label": "Wives", "note": "Wives submit to their own husbands as to the Lord, as the church submits to Christ, its head and Savior." },
+        { "verses": "25-33", "label": "Husbands", "note": "Husbands love your wives as Christ loved the church and gave himself up for her, to make her holy. A man who loves his wife loves himself, as Genesis 2:24 shows, and this profound mystery refers to Christ and the church." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 2:24", "from": "31", "note": "Paul quotes the creation account of marriage in full and says it ultimately refers to Christ and the church. From the beginning, marriage was designed to picture that union." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 3:16-19", "from": "18-25", "note": "The parallel letter links the word of Christ dwelling richly, singing psalms, hymns and spiritual songs, and giving thanks, directly to instructions for wives and husbands." },
+        { "ref": "Exodus 29:18; Leviticus 1:9", "from": "2", "note": "Burnt offerings were 'a pleasing aroma to the LORD.' Christ's death is the offering those sacrifices pointed to." },
+        { "ref": "Isaiah 60:1-2", "from": "14", "note": "'Arise, shine, for your light has come.' Verse 14's call is likely an early Christian hymn drawing on Isaiah's language of light rising on God's people." },
+        { "ref": "Revelation 19:7-9; 21:2", "from": "27", "note": "The marriage of the Lamb has come, and his bride is clothed in fine linen, bright and pure: the church presented in splendor." },
+        { "ref": "1 Peter 3:1-7", "from": "22-33", "note": "Peter gives parallel instructions: wives are to be subject to their husbands, and husbands are to live with their wives in an understanding way, honoring them as co-heirs of grace." }
+      ],
+      "tier3": [
+        { "ref": "Acts 2:4, 13-15", "from": "18", "note": "At Pentecost the disciples, filled with the Spirit, were mocked as being drunk on new wine. Spirit-filling and drunkenness are contrasted there too." },
+        { "ref": "Proverbs 23:29-35", "from": "18", "note": "A vivid picture of the misery and loss of control that wine brings." },
+        { "ref": "Psalm 90:12", "from": "15-16", "note": "'Teach us to number our days, that we may get a heart of wisdom' fits the call to walk wisely and redeem the time." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "Life in the Spirit in Marriage, Home & Work: An Exposition of Ephesians 5:18-6:9",
+        "view": "Lloyd-Jones treats verse 18 as the key to everything that follows. Marriage, family and work relationships are where being filled with the Spirit becomes visible, and the household instructions cannot be obeyed without that filling."
+      },
+      {
+        "name": "Timothy Keller",
+        "work": "The Meaning of Marriage",
+        "view": "Keller builds much of his book on this passage. He argues that marriage is meant to reflect the gospel: a husband's headship is defined by Christ's self-sacrificial love, a wife's submission is a free and strong choice, and each spouse is called to serve the other's growth toward the person God is making them."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "Redeeming the time, because the days are evil.",
+        "renderings": [
+          { "version": "ESV", "text": "making the best use of the time" },
+          { "version": "NIV", "text": "making the most of every opportunity" },
+          { "version": "NASB", "text": "making the most of your time" },
+          { "version": "CSB", "text": "making the most of the time" }
+        ],
+        "note": "'Time' here is kairos, the right or opportune moment, not chronos, duration. NIV's 'every opportunity' brings that out. The point is not merely busyness but seizing moments to do God's will."
+      },
+      {
+        "verse": "21",
+        "kjv": "Submitting yourselves one to another in the fear of God.",
+        "renderings": [
+          { "version": "ESV", "text": "submitting to one another out of reverence for Christ" },
+          { "version": "NIV", "text": "Submit to one another out of reverence for Christ" },
+          { "version": "CSB", "text": "submitting to one another in the fear of Christ" }
+        ],
+        "note": "The oldest manuscripts read 'Christ' rather than 'God.' In Greek, verse 21 is the last of the participles that depend on 'be filled with the Spirit' (v18), and some early manuscripts of verse 22 have no verb at all ('wives, to your own husbands'), borrowing 'submit' from verse 21. NIV starts a new sentence, which slightly hides that link."
+      }
+    ],
+    "gospel": "Christ's self-giving is the center of this chapter. He loved us and gave himself as an offering to God (v2); he loved the church and gave himself up for her, to make her holy, washing her by the word and presenting her to himself in splendor, without spot or wrinkle (v25-27). The mystery of verse 32 is that marriage itself was designed from creation to picture this gospel. The light that wakes the sleeper and raises the dead is Christ shining on them (v14).",
+    "application": [
+      "Measure your love by the cross. Ask not 'what do I feel?' but 'what will it cost me to do this person good?'",
+      "Replace impure or crude talk with thanksgiving (v4). Gratitude crowds out the desires that feed immorality.",
+      "Use your time deliberately. Ask what opportunities God is giving you this week and how to use them for his purposes.",
+      "Seek to be continually filled with the Spirit, and look for the evidence the text gives: worship together, thanks to God in everything, and humble submission to one another.",
+      "In marriage, wives honor their husbands as to the Lord, and husbands lead by laying down their lives, nourishing and cherishing their wives as Christ does the church."
+    ],
+    "misapplications": [
+      {
+        "claim": "A husband's headship gives him the right to dominate or demand.",
+        "correction": "Paul spends three times as many words on husbands as on wives, and every one points to Christ's self-giving: love, give yourself up, nourish, cherish. Headship modeled on the cross is measured by sacrifice, not control."
+      },
+      {
+        "claim": "Submission means a wife must accept abuse or obey any man.",
+        "correction": "Submission is to 'your own husbands' and 'as to the Lord' (v22). It never requires sin or tolerating harm. Faithful Christians differ on how 'head' and 'submit' apply in marriage (complementarian and egalitarian readings), but all agree the passage never licenses mistreatment."
+      },
+      {
+        "claim": "Being 'filled with the Spirit' means having a spectacular spiritual experience.",
+        "correction": "The text describes the results in ordinary terms: speaking to one another in psalms and songs, singing to the Lord, thanking God always and submitting to one another (v19-21)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Darkness", "b": "Light", "verses": "8-14", "note": "Paul does not say they were in darkness but that they were darkness; now they are light in the Lord." },
+      { "a": "Unwise", "b": "Wise", "verses": "15-17", "note": "Wisdom is understanding what the will of the Lord is and acting on it." },
+      { "a": "Drunk with wine", "b": "Filled with the Spirit", "verses": "18", "note": "Both are a kind of being controlled; one leads to waste and debauchery, the other to worship and service." },
+      { "a": "Crude joking", "b": "Thanksgiving", "verses": "4", "note": "Paul's replacement for impure talk is gratitude." }
+    ],
+    "features": [
+      { "label": "One command, five results", "note": "In Greek, 'be filled with the Spirit' (v18) is followed by five participles: speaking, singing, making melody, giving thanks and submitting (v19-21). Spirit-filling is known by its effects." },
+      { "label": "An early hymn", "note": "Verse 14 ('Awake, O sleeper, and arise from the dead') does not exactly match any Old Testament text. Many scholars think it quotes an early Christian hymn, possibly sung at baptisms." },
+      { "label": "Marriage as a picture", "note": "Paul moves back and forth between Christ and the church and husband and wife until he says the 'mystery' of Genesis 2:24 is about Christ and the church (v32). The earthly marriage is the copy; the heavenly one is the original." },
+      { "label": "Bridal imagery", "note": "Washing, splendor, and being presented without spot or wrinkle (v26-27) echo the preparation of a bride, and perhaps Ezekiel 16:8-14, where God washes and adorns his people." }
+    ],
+    "summary": "Ephesians 5 calls God's beloved children to imitate their Father by walking in love modeled on Christ's sacrifice, in purity and thanksgiving as children of light, and in wisdom that uses every opportunity. The source of that life is being continually filled with the Spirit, which shows in worship, gratitude and mutual submission. In marriage, a wife's submission and a husband's self-giving love together picture the great mystery: Christ's love for the church, for which he gave himself to make her holy and glorious.",
+    "metaArc": {
+      "book": "Chapter 5 continues the practical 'walk' of chapter 4 and starts the household instructions, which reach into chapter 6 (children, parents, slaves and masters). The Christ-and-church picture applies chapter 1's description of Christ as head of the church, his body.",
+      "redemptive": "Creation and New Creation meet here. Marriage, established at creation (Genesis 2:24), turns out to point to Christ and his bride, whose wedding is celebrated at the end of the Bible (Revelation 19, 21). Holy living now anticipates that day."
+    }
+  }
+}

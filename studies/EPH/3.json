@@ -1,0 +1,173 @@
+{
+  "ref": "EPH.3",
+  "book": "Ephesians",
+  "chapter": 3,
+  "title": "The Mystery Revealed and the Love That Surpasses Knowledge",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The mystery hidden for ages is now revealed: Gentiles are fellow heirs with Israel in Christ, and through the church God displays his wisdom even to the heavenly powers. Paul prays that believers would be strengthened to grasp the immeasurable love of Christ, and gives glory to the God who can do far more than we ask.",
+  "keyVerses": ["6", "10", "17-19", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "μυστήριον",
+        "translit": "mystērion",
+        "strongs": "G3466",
+        "gloss": "mystery, secret now revealed",
+        "verses": "3, 4, 9",
+        "note": "In Paul, a mystery is not a puzzle or private knowledge for insiders. It is part of God's plan that was hidden in earlier generations and is now openly revealed and proclaimed. Verse 6 states this mystery outright: Gentiles share fully with Israel in Christ."
+      },
+      {
+        "word": "οἰκονομία",
+        "translit": "oikonomia",
+        "strongs": "G3622",
+        "gloss": "stewardship, administration, plan",
+        "verses": "2, 9",
+        "note": "The management of a household (our word 'economy' comes from it). In verse 2 it is the stewardship entrusted to Paul; in verse 9 (and 1:10) it is God's own administration of his plan. Paul is a steward carrying out the master's design."
+      },
+      {
+        "word": "συγκληρονόμος",
+        "translit": "synklēronomos",
+        "strongs": "G4789",
+        "gloss": "fellow heir",
+        "verses": "6",
+        "note": "The first of three words in verse 6 built with syn- ('together'): fellow heirs, fellow members of the body (syssōma) and fellow partakers of the promise (symmetocha). Paul may have coined 'fellow body-members.' He stresses that Gentile believers share equally, not as second-class guests."
+      },
+      {
+        "word": "ἀνεξιχνίαστος",
+        "translit": "anexichniastos",
+        "strongs": "G421",
+        "gloss": "unsearchable, impossible to trace",
+        "verses": "8",
+        "note": "Literally 'not able to be tracked by footprints.' The riches of Christ cannot be fully explored. The only other New Testament use is Romans 11:33, of God's ways."
+      },
+      {
+        "word": "πολυποίκιλος",
+        "translit": "polypoikilos",
+        "strongs": "G4182",
+        "gloss": "manifold, many-sided, richly varied",
+        "verses": "10",
+        "note": "Used only here in the New Testament, it describes something intricately varied, like a richly colored fabric or a many-colored garland. A church of many peoples displays the many-sided wisdom of God."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The mystery hidden and now revealed",
+        "refs": ["Romans 16:25-26", "Colossians 1:25-27", "1 Corinthians 2:7-10"],
+        "note": "Paul repeatedly describes the gospel as a mystery kept secret for long ages and now disclosed. In Colossians the content is 'Christ in you, the hope of glory' among the Gentiles."
+      },
+      {
+        "theme": "Gentiles as heirs of the promise",
+        "refs": ["Genesis 12:3", "Galatians 3:8, 14, 29", "Romans 4:16-17"],
+        "note": "God told Abraham all nations would be blessed in him. Paul explains that this blessing reaches Gentiles in Christ, making them heirs according to the promise."
+      },
+      {
+        "theme": "The least of the apostles",
+        "refs": ["1 Corinthians 15:9-10", "1 Timothy 1:15-16"],
+        "note": "Paul consistently describes his calling as undeserved grace given to a former persecutor."
+      }
+    ],
+    "context": {
+      "setting": "Paul begins to pray in verse 1 ('For this reason I, Paul, a prisoner...') and then breaks off to explain his own ministry to the Gentiles, the reason he is in prison. He resumes the prayer in verse 14 with the same words. The doxology in verses 20-21 closes the first, doctrinal half of the letter.",
+      "flow": [
+        { "verses": "1-6", "label": "The mystery made known", "note": "God gave Paul, the prisoner for the Gentiles, insight into the mystery of Christ: Gentiles are fellow heirs, members of the same body and partakers of the promise." },
+        { "verses": "7-9", "label": "Paul's commission", "note": "Though the very least of all the saints, Paul was given grace to preach the unsearchable riches of Christ and to make plain God's long-hidden plan." },
+        { "verses": "10-13", "label": "Wisdom displayed to the powers", "note": "Through the church, God's manifold wisdom is now made known to the rulers and authorities in the heavenly places. So Paul's readers should not lose heart over his sufferings." },
+        { "verses": "14-19", "label": "Paul's prayer", "note": "Kneeling before the Father, Paul prays that they would be strengthened by the Spirit, that Christ would dwell in their hearts through faith, and that they would grasp and know Christ's love, which surpasses knowledge." },
+        { "verses": "20-21", "label": "Doxology", "note": "Glory in the church and in Christ Jesus to the God who is able to do far more abundantly than all we ask or think." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Ephesians 1:9-10", "from": "3", "note": "'As I have written briefly' points back to the earlier chapters. Paul explicitly interprets chapter 3's mystery by what he already said: God's plan to unite all things in Christ." },
+        { "ref": "Ephesians 2:11-22", "from": "6", "note": "Chapter 2 described Gentiles brought near and made one with Israel. Chapter 3 names that reality as the mystery revealed to Paul." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 1:24-29", "from": "1-9", "note": "The closest parallel: Paul suffers for the church, is a steward of the mystery hidden for ages, and proclaims Christ among the Gentiles." },
+        { "ref": "Romans 16:25-27", "from": "5, 9, 20-21", "note": "The mystery kept secret for long ages is now disclosed to all nations, ending in a doxology to the only wise God." },
+        { "ref": "Galatians 3:28-29", "from": "6", "note": "Those in Christ, Jew or Greek, are Abraham's offspring and heirs according to promise." },
+        { "ref": "1 Peter 1:10-12", "from": "5, 10", "note": "The prophets searched for what was revealed in the gospel, 'things into which angels long to look.' Heavenly beings learn from what God does in the church." }
+      ],
+      "tier3": [
+        { "ref": "Romans 11:33-36", "from": "8, 20-21", "note": "Paul's other great doxology marvels at God's 'unsearchable' judgments, using the same rare word as verse 8." },
+        { "ref": "Job 11:7-9", "from": "18", "note": "Can you find out the deep things of God? They are higher than heaven, deeper than Sheol, longer than the earth and broader than the sea. Paul applies the same dimensions to Christ's love." },
+        { "ref": "Psalm 103:11-12", "from": "18-19", "note": "As high as the heavens are above the earth is God's steadfast love toward those who fear him." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "The Unsearchable Riches of Christ: An Exposition of Ephesians 3",
+        "view": "Lloyd-Jones gives great weight to Paul's prayer in verses 14-19. He argues that 'to know the love of Christ' means more than understanding a doctrine: Paul prays for believers to experience Christ's love in a direct, assured and overwhelming way, and he urges Christians not to settle for less."
+      },
+      {
+        "name": "John Stott",
+        "work": "The Message of Ephesians (The Bible Speaks Today)",
+        "view": "Stott draws from verses 1-13 that the church is not an afterthought in God's plan. It is central to history, to the gospel Paul preached and to the Christian life, since God has chosen to display his wisdom to the universe through a reconciled community."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "Of whom the whole family in heaven and earth is named,",
+        "renderings": [
+          { "version": "ESV", "text": "from whom every family in heaven and on earth is named" },
+          { "version": "NIV", "text": "from whom every family in heaven and on earth derives its name" },
+          { "version": "CSB", "text": "from whom every family in heaven and on earth is named" }
+        ],
+        "note": "The Greek has no article, so 'every family' is the more likely sense than 'the whole family.' There is a wordplay: Paul kneels before the Father (patēr), from whom every family (patria) is named. All fatherhood takes its meaning from God."
+      },
+      {
+        "verse": "19",
+        "kjv": "And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God.",
+        "renderings": [
+          { "version": "ESV", "text": "filled with all the fullness of God" },
+          { "version": "NIV", "text": "filled to the measure of all the fullness of God" },
+          { "version": "CSB", "text": "filled with all the fullness of God" }
+        ],
+        "note": "The preposition (eis) can mean 'into' or 'up to.' NIV's 'to the measure of' makes clear that the fullness of God is the goal believers are filled toward, not something they contain."
+      }
+    ],
+    "gospel": "The chapter shows the gospel's reach. Christ's riches are 'unsearchable,' yet they are preached to Gentiles who were once without hope, and they make outsiders full heirs. Paul's own story fits: the least of all the saints, a former persecutor, is the one entrusted with this message. The goal of the gospel is not only forgiveness but Christ dwelling in the heart by faith, and believers rooted in a love so great that it surpasses knowledge.",
+    "application": [
+      "Value the local church as God's display of his wisdom, not merely a place to receive services. A diverse, reconciled congregation is a sermon to the universe.",
+      "Pray Paul's prayer for yourself and others. He asks for inner strength, Christ's indwelling and a grasp of his love, before anything else.",
+      "Pray with large expectations, because God is able to do far more than you ask or think. Let the doxology shape your requests.",
+      "See your own calling, however small you feel, as grace given to you for others. Paul called himself the least and still served with confidence.",
+      "Do not lose heart when faithful servants suffer. Paul tells the Ephesians his sufferings are their glory (v13)."
+    ],
+    "misapplications": [
+      {
+        "claim": "The 'mystery' is secret knowledge available only to spiritual insiders.",
+        "correction": "Paul says it is now revealed and that he was given grace to 'make all men see' it (v9). It is an open secret proclaimed to everyone."
+      },
+      {
+        "claim": "Verse 20 promises that God will give me whatever I can imagine.",
+        "correction": "The doxology closes a prayer for inner strength, Christ's indwelling and knowledge of his love, and its aim is 'glory in the church and in Christ Jesus' (v21). It celebrates God's power for those purposes, not a guarantee of personal wishes."
+      },
+      {
+        "claim": "Gentile Christians are secondary members of God's people.",
+        "correction": "Verse 6 uses three 'fellow' words to make the point as strongly as possible: fellow heirs, fellow members, fellow partakers."
+      }
+    ],
+    "contrasts": [
+      { "a": "Hidden", "b": "Revealed", "verses": "5, 9", "note": "What was not made known to earlier generations is now revealed by the Spirit to apostles and prophets." },
+      { "a": "Less than the least", "b": "Unsearchable riches", "verses": "8", "note": "The smallest messenger carries the greatest message." },
+      { "a": "Paul's sufferings", "b": "Their glory", "verses": "13", "note": "Paul's imprisonment serves the Gentiles' good." },
+      { "a": "Knowing", "b": "Surpassing knowledge", "verses": "19", "note": "Believers are to know a love that can never be fully known: real knowledge, never exhausted." }
+    ],
+    "features": [
+      { "label": "An interrupted prayer", "note": "'For this reason' in verse 1 begins a prayer that Paul pauses to explain his ministry, then repeats in verse 14 to resume it." },
+      { "label": "Less than the least", "note": "In verse 8 Paul makes a comparative out of a superlative (elachistoteros), something like 'leaster.' It is a deliberate, almost humorous coinage of humility." },
+      { "label": "Father and family", "note": "The wordplay between patēr (Father) and patria (family) in verses 14-15 roots every human family in God's fatherhood." },
+      { "label": "Four dimensions", "note": "Breadth, length, height and depth (v18) are not meant to be assigned separate meanings; together they express the immeasurable size of Christ's love." },
+      { "label": "A hinge doxology", "note": "Verses 20-21 close the first half of the letter. The 'therefore' of 4:1 then turns everything God has done into how believers should live." }
+    ],
+    "summary": "Ephesians 3 reveals the mystery hidden for ages: through the gospel, Gentiles are full heirs, members and partakers with Israel in Christ, and through this united church God displays his many-sided wisdom to the heavenly powers. Paul, the least of the saints, was entrusted with that message. He prays that believers would be strengthened by the Spirit, indwelt by Christ and filled by knowing a love beyond knowledge, and gives glory to the God who can do far more than we ask or think.",
+    "metaArc": {
+      "book": "Chapter 3 explains the significance of chapters 1-2 and of Paul's own imprisonment, then closes the doctrinal half of the letter with prayer and praise. Its doxology leads directly into the call of chapter 4 to live worthy of this calling.",
+      "redemptive": "Promise fulfilled in redemption. The promise to Abraham that all nations would be blessed is now realized in a church of Jew and Gentile, a foretaste of the new creation, where people from every nation worship the Lamb together (Revelation 7:9-10)."
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "ref": "EPH.1",
+  "book": "Ephesians",
+  "chapter": 1,
+  "title": "Every Spiritual Blessing in Christ",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Before the world began, the Father chose a people in Christ, the Son redeemed them by his blood, and the Spirit seals them, all to the praise of God's glory. Paul prays that believers would see how rich this is and how great the power is that raised Christ above every rival.",
+  "keyVerses": ["3", "7", "13-14", "22-23"],
+  "steps": {
+    "language": [
+      {
+        "word": "προορίζω",
+        "translit": "proorizō",
+        "strongs": "G4309",
+        "gloss": "to decide beforehand, predestine",
+        "verses": "5, 11",
+        "note": "Literally 'to mark out a boundary in advance.' Both times Paul uses it, he names the purpose: adoption as sons (v5) and living for the praise of God's glory (v11-12). Predestination here is about where God is taking his people, and it is grounded 'in love' and 'according to the purpose of his will.'"
+      },
+      {
+        "word": "υἱοθεσία",
+        "translit": "huiothesia",
+        "strongs": "G5206",
+        "gloss": "adoption as sons",
+        "verses": "5",
+        "note": "A legal term from the Roman world, where an adopted son received the full name, rights and inheritance of the family. Paul alone uses it in the New Testament (Romans 8:15, 23; 9:4; Galatians 4:5). It explains why the chapter speaks so much of inheritance (v11, 14, 18)."
+      },
+      {
+        "word": "ἀπολύτρωσις",
+        "translit": "apolytrōsis",
+        "strongs": "G629",
+        "gloss": "redemption, release by payment",
+        "verses": "7, 14",
+        "note": "Release secured by paying a price, as when a slave or captive was bought free. Verse 7 names the price, 'his blood,' and defines redemption as forgiveness. Verse 14 looks ahead to the final redemption when God takes full possession of his people."
+      },
+      {
+        "word": "ἀνακεφαλαιόω",
+        "translit": "anakephalaioō",
+        "strongs": "G346",
+        "gloss": "to sum up, bring together under one head",
+        "verses": "10",
+        "note": "The word was used for adding up a column of figures or summarizing an argument. God's plan for the fullness of time is to bring everything in heaven and on earth together under Christ. Its root, kephalē ('head'), anticipates verse 22, where Christ is 'head over all things.'"
+      },
+      {
+        "word": "ἀρραβών",
+        "translit": "arrabōn",
+        "strongs": "G728",
+        "gloss": "down payment, pledge",
+        "verses": "14",
+        "note": "A commercial term for a first installment that guarantees the rest will be paid. Paul uses it only of the Holy Spirit (also 2 Corinthians 1:22; 5:5). The Spirit given now is a real part of the inheritance and the guarantee of the whole."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Chosen and treasured by God",
+        "refs": ["Deuteronomy 7:6-8", "Exodus 19:5-6", "1 Peter 2:9", "Romans 8:29-30"],
+        "note": "Israel was chosen because the LORD set his love on them, not because they were great. The same language of a chosen, holy people and God's own possession is now applied to everyone in Christ, Jew and Gentile."
+      },
+      {
+        "theme": "The heavenly places",
+        "refs": ["Ephesians 1:20", "Ephesians 2:6", "Ephesians 3:10", "Ephesians 6:12"],
+        "note": "A phrase found only in Ephesians. It names the unseen realm where Christ reigns, where believers are already seated with him, and where hostile powers still fight. The blessings of verse 3 are real, but they belong to that realm first."
+      },
+      {
+        "theme": "Sealed with the Spirit",
+        "refs": ["2 Corinthians 1:21-22", "Ephesians 4:30", "Romans 8:23"],
+        "note": "A seal marked ownership and protected what was sealed. Paul repeatedly ties the Spirit's seal to the future 'day of redemption.'"
+      },
+      {
+        "theme": "Christ exalted over every power",
+        "refs": ["Psalm 110:1", "Philippians 2:9-11", "Colossians 2:10, 15", "1 Peter 3:22"],
+        "note": "Psalm 110's 'sit at my right hand' is the Old Testament text most quoted in the New. Here it explains what God's power did at the resurrection and ascension."
+      }
+    ],
+    "context": {
+      "setting": "Paul writes from prison (3:1; 4:1; 6:20), most likely in Rome around AD 60-62, at the same time as Colossians and Philemon; Tychicus carries the letter (6:21). Paul had spent about three years in Ephesus (Acts 19; 20:31). Several of the earliest manuscripts lack the words 'in Ephesus' in verse 1, which suggests the letter may have been meant to circulate among several churches in the region. Chapters 1-3 set out what God has done; chapters 4-6 show how to live in light of it.",
+      "flow": [
+        { "verses": "1-2", "label": "Greeting", "note": "Paul, an apostle by God's will, greets the saints and faithful in Christ with grace and peace." },
+        { "verses": "3-6", "label": "The Father chose", "note": "God chose his people in Christ before the foundation of the world to be holy, and predestined them in love for adoption, to the praise of his glorious grace." },
+        { "verses": "7-12", "label": "The Son redeemed", "note": "In Christ there is redemption through his blood, the forgiveness of sins, and the revealed mystery of God's plan to unite all things in him." },
+        { "verses": "13-14", "label": "The Spirit sealed", "note": "Those who heard the gospel and believed were sealed with the promised Holy Spirit, the guarantee of their inheritance." },
+        { "verses": "15-19", "label": "Paul's prayer", "note": "Paul prays that God would open their eyes to know the hope of his calling, the riches of his inheritance in the saints, and the greatness of his power toward those who believe." },
+        { "verses": "20-23", "label": "The power that raised Christ", "note": "That same power raised Christ, seated him far above every authority, put all things under his feet, and gave him as head over all things to the church, his body." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 110:1", "from": "20", "note": "'Sit at my right hand, until I make your enemies your footstool.' Paul describes the ascension in the psalm's words: God seated Christ at his right hand." },
+        { "ref": "Psalm 8:6", "from": "22", "note": "Paul quotes the psalm, 'you have put all things under his feet.' Written about humanity's God-given rule, it is fulfilled in Christ, the true man (also 1 Corinthians 15:27; Hebrews 2:6-9)." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 1:13-20", "from": "7, 10", "note": "The companion letter covers the same ground: redemption and forgiveness in the Son, all things created through him and reconciled by him, and Christ as head of the church." },
+        { "ref": "Romans 8:14-17, 28-30", "from": "5, 11", "note": "Adoption, the Spirit's witness, being heirs, and God's purpose from foreknowledge to glory, the same chain of ideas as verses 3-14." },
+        { "ref": "Galatians 4:4-7", "from": "5", "note": "God sent his Son in the fullness of time to redeem and adopt, and sent the Spirit into believers' hearts crying 'Abba! Father!'" },
+        { "ref": "2 Corinthians 1:21-22", "from": "13-14", "note": "God has sealed us and given his Spirit in our hearts as a guarantee, the same two images of seal and down payment." }
+      ],
+      "tier3": [
+        { "ref": "Deuteronomy 7:6-8", "from": "4", "note": "God chose Israel to be his treasured possession because he loved them. Election in love is not new with Ephesians." },
+        { "ref": "Exodus 19:5-6", "from": "14", "note": "Israel was to be God's own possession among all peoples. The 'possession' of verse 14 echoes that calling." },
+        { "ref": "1 Corinthians 2:9-12", "from": "17-18", "note": "What eye has not seen God has revealed by his Spirit. Paul's prayer for 'the Spirit of wisdom and revelation' asks for the same kind of seeing." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "God's Ultimate Purpose: An Exposition of Ephesians 1",
+        "view": "Lloyd-Jones treats verse 10 as the key to the chapter and to history: God's ultimate purpose is to bring all things together in Christ. He argues that believers find stability and assurance by starting from God's eternal plan rather than from their own feelings or circumstances."
+      },
+      {
+        "name": "F. F. Bruce",
+        "work": "The Epistles to the Colossians, to Philemon, and to the Ephesians (NICNT)",
+        "view": "Bruce regards Ephesians as a summing up of Paul's teaching, with God's plan to unite all things in Christ at its center. In his reading, the church of Jew and Gentile together is the first sign of that plan already at work."
+      },
+      {
+        "name": "Clinton E. Arnold",
+        "work": "Ephesians (Zondervan Exegetical Commentary on the New Testament)",
+        "view": "Arnold reads the letter against the background of western Asia Minor, where fear of spiritual powers, magic and the cult of Artemis was widespread. For readers like that, verses 19-23 are the point: Christ is seated far above every power that could threaten them, and his power is at work for them."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:",
+        "renderings": [
+          { "version": "ESV", "text": "holy and blameless before him. In love he predestined us" },
+          { "version": "NIV", "text": "holy and blameless in his sight. In love he predestined us" },
+          { "version": "CSB", "text": "holy and blameless in love before him. He predestined us" }
+        ],
+        "note": "The Greek manuscripts have no punctuation, so 'in love' can end verse 4 (our love, part of being holy) or begin verse 5 (God's love, the motive for predestining). KJV and CSB take the first reading; ESV and NIV the second. Both are true to Paul; the question is which he meant here."
+      },
+      {
+        "verse": "14",
+        "kjv": "Which is the earnest of our inheritance until the redemption of the purchased possession, unto the praise of his glory.",
+        "renderings": [
+          { "version": "ESV", "text": "the guarantee of our inheritance until we acquire possession of it" },
+          { "version": "NIV", "text": "until the redemption of those who are God's possession" },
+          { "version": "NASB", "text": "a pledge of our inheritance" },
+          { "version": "CSB", "text": "the down payment of our inheritance" }
+        ],
+        "note": "'Earnest' is an old word for a down payment (arrabōn). The versions also differ on whose 'possession' is redeemed: ours, the inheritance we will receive (ESV), or God's, the people he has bought (NIV, KJV 'purchased possession'). The Old Testament background of Israel as God's possession favors the second."
+      }
+    ],
+    "gospel": "This chapter is the gospel told from God's side. Salvation began in the Father's choice before creation, was accomplished when the Son shed his blood to buy forgiveness, and is applied when the Spirit seals those who hear 'the word of truth, the gospel of your salvation' and believe (v13). Nothing in it starts with us. The same power that raised Jesus from the dead and seated him above every authority is now at work for those who believe, and Christ reigns as head over all things for the sake of his church.",
+    "application": [
+      "Start your understanding of the Christian life with what God has done. Paul praises for twelve verses before he gives a single command.",
+      "Find assurance in God's purpose and the Spirit's seal, not in the strength of your feelings on a given day.",
+      "Let election produce humility and worship. It was 'to the praise of his glorious grace' (v6), so it leaves no room for pride.",
+      "Pray for other believers the way Paul does, asking above all that God would open their eyes to know him, their hope and his power.",
+      "Face fear of spiritual powers, the future or death with the fact that Christ is already seated above all of them."
+    ],
+    "misapplications": [
+      {
+        "claim": "If God chose his people, it doesn't matter how we live or whether we share the gospel.",
+        "correction": "God chose us 'that we should be holy' (v4), and the Ephesians were sealed when they 'heard the word of truth' and believed (v13). Election is the reason for holiness and the ground of confidence in preaching, not a replacement for either."
+      },
+      {
+        "claim": "'Every spiritual blessing' means God promises health and wealth now.",
+        "correction": "The blessings are 'spiritual' and 'in the heavenly places in Christ' (v3): adoption, forgiveness, the Spirit, an inheritance. Paul writes them from prison."
+      },
+      {
+        "claim": "The blessings in this chapter are only future.",
+        "correction": "God 'has blessed' us (v3), we 'have' redemption (v7), and we 'were sealed' (v13). Some of the inheritance is still to come (v14), but believers possess these blessings now."
+      }
+    ],
+    "contrasts": [
+      { "a": "Before the foundation of the world", "b": "The fullness of time", "verses": "4, 10", "note": "God's plan stretches from before creation to its completion, and every part of it is 'in Christ.'" },
+      { "a": "Heaven", "b": "Earth", "verses": "10", "note": "God's purpose is not to rescue people out of creation but to unite all things in heaven and on earth under Christ." },
+      { "a": "This age", "b": "The age to come", "verses": "21", "note": "Christ's name is above every name in both. The future reign has already begun." },
+      { "a": "Now (the down payment)", "b": "Then (full possession)", "verses": "13-14", "note": "The Spirit is the first installment of an inheritance believers do not yet fully have." }
+    ],
+    "features": [
+      { "label": "One long sentence", "note": "In Greek, verses 3-14 are a single sentence of over 200 words, piling blessing on blessing. It reads less like an argument than an outpouring of praise." },
+      { "label": "A threefold refrain", "note": "'To the praise of his glory' closes each section (v6, 12, 14), marking the work of the Father, the Son and the Spirit in turn." },
+      { "label": "'In Christ'", "note": "'In him,' 'in Christ' or 'in the Beloved' occurs about a dozen times in verses 3-14. Every blessing is found in union with Christ." },
+      { "label": "Praise then prayer", "note": "Paul first blesses God for what he has done (3-14), then prays that believers would grasp it (15-23). Doctrine leads to worship and then to prayer." }
+    ],
+    "summary": "Ephesians 1 shows that salvation comes from the eternal choice of the Father, the redeeming blood of the Son and the sealing of the Spirit, and that its goal is the praise of God's glory and the uniting of all things in Christ. Believers already have every spiritual blessing in him, with the Spirit as the guarantee of what is still to come. Paul prays that they would see these riches and the power that raised Christ and set him over every authority as head of his church.",
+    "metaArc": {
+      "book": "Chapter 1 lays the foundation for the whole letter. God's plan to unite all things in Christ (v10) is worked out in chapter 2 in the joining of Jew and Gentile, explained as the revealed mystery in chapter 3, and lived out in the unity, holiness and spiritual warfare of chapters 4-6.",
+      "redemptive": "The chapter spans the whole story: God's choice before creation, redemption through Christ's blood, the Spirit as the first installment of the inheritance, and the new creation in which all things in heaven and earth are brought together under Christ."
+    }
+  }
+}

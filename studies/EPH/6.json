@@ -1,0 +1,187 @@
+{
+  "ref": "EPH.6",
+  "book": "Ephesians",
+  "chapter": 6,
+  "title": "Stand Firm in the Armor of God",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Children and parents, slaves and masters, are to live out their relationships as people who serve the Lord. All believers must be strong in the Lord and stand against the devil's schemes in the full armor God provides, praying at all times, including for Paul, an ambassador in chains.",
+  "keyVerses": ["4", "10-13", "17-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "παιδεία",
+        "translit": "paideia",
+        "strongs": "G3809",
+        "gloss": "training, discipline, upbringing",
+        "verses": "4",
+        "note": "The whole process of raising a child, including correction. Hebrews 12:5-11 uses it for God's discipline of his children. Paired with nouthesia ('instruction, warning'), it describes parenting that both shapes and teaches, and it is 'of the Lord': his kind of training, under his authority."
+      },
+      {
+        "word": "μεθοδεία",
+        "translit": "methodeia",
+        "strongs": "G3180",
+        "gloss": "scheme, crafty strategy",
+        "verses": "11",
+        "note": "Our word 'method' comes from it. The New Testament uses it only in Ephesians, here and in 4:14 of the deceitful scheming of false teachers. The devil works by planned deception, not only by open attack."
+      },
+      {
+        "word": "πάλη",
+        "translit": "palē",
+        "strongs": "G3823",
+        "gloss": "wrestling, hand-to-hand struggle",
+        "verses": "12",
+        "note": "Used only here in the New Testament. In a letter full of armor and weapons, Paul chooses a word for close, personal grappling. The fight is up close and constant."
+      },
+      {
+        "word": "πανοπλία",
+        "translit": "panoplia",
+        "strongs": "G3833",
+        "gloss": "full armor, complete equipment",
+        "verses": "11, 13",
+        "note": "The complete equipment of a heavily armed soldier. The only other use is Luke 11:22, where a stronger man overcomes the strong man and takes away his armor, a picture of Christ defeating Satan. Here believers receive God's armor."
+      },
+      {
+        "word": "ἵστημι",
+        "translit": "histēmi",
+        "strongs": "G2476",
+        "gloss": "to stand, hold one's ground",
+        "verses": "11, 13, 14",
+        "note": "'Stand' or 'withstand' appears four times in verses 11-14. The believer's task is not to win new territory but to hold the ground Christ has already won."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Honor your father and mother",
+        "refs": ["Exodus 20:12", "Deuteronomy 5:16", "Colossians 3:20-21", "Proverbs 1:8-9"],
+        "note": "The fifth commandment is repeated throughout Scripture, and Colossians adds the same warning to fathers not to provoke their children."
+      },
+      {
+        "theme": "Serving the Lord in ordinary work",
+        "refs": ["Colossians 3:22-4:1", "1 Peter 2:18-21", "1 Corinthians 7:21-23", "Philemon 15-16"],
+        "note": "Paul tells believers in hard and unequal situations to work as for the Lord, while reminding masters that they have a Master too. To Philemon he urges receiving a returned slave 'no longer as a slave' but as a brother."
+      },
+      {
+        "theme": "Resisting the devil",
+        "refs": ["James 4:7", "1 Peter 5:8-9", "2 Corinthians 10:3-5", "2 Corinthians 2:11"],
+        "note": "Believers are to resist the devil firm in the faith, aware of his designs, using weapons that are not of the flesh."
+      },
+      {
+        "theme": "God's armor in the prophets",
+        "refs": ["Isaiah 11:5", "Isaiah 52:7", "Isaiah 59:17"],
+        "note": "Paul builds his armor list from Isaiah's pictures of the Messiah and of God himself as a warrior, not only from Roman soldiers."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-9 finish the household instructions that began in 5:21, all flowing from being filled with the Spirit. Then 'Finally' (v10) brings the letter to its close by setting everything in Ephesians, the blessings, the unity and the holy living, in the context of spiritual battle. Paul writes as a prisoner, probably under guard by Roman soldiers (Acts 28:16, 20), and asks for prayer to speak the gospel boldly.",
+      "flow": [
+        { "verses": "1-4", "label": "Children and parents", "note": "Children obey your parents in the Lord, honoring them as the commandment with a promise says. Fathers, do not provoke your children, but raise them in the Lord's discipline and instruction." },
+        { "verses": "5-9", "label": "Slaves and masters", "note": "Slaves serve sincerely as to Christ, doing God's will from the heart, knowing the Lord rewards. Masters, do the same toward them and stop threatening, since you share the same Master in heaven, who shows no partiality." },
+        { "verses": "10-13", "label": "Be strong and stand", "note": "Be strong in the Lord's mighty power and put on God's full armor to stand against the devil's schemes, for the struggle is against spiritual forces of evil, not flesh and blood." },
+        { "verses": "14-17", "label": "The armor", "note": "Stand with the belt of truth, the breastplate of righteousness, feet ready with the gospel of peace, the shield of faith, the helmet of salvation and the sword of the Spirit, the word of God." },
+        { "verses": "18-20", "label": "Praying always", "note": "Pray in the Spirit at all times for all the saints, and for Paul, an ambassador in chains, that he would proclaim the mystery of the gospel boldly." },
+        { "verses": "21-24", "label": "Farewell", "note": "Tychicus will bring news and encouragement. Peace, love with faith, and grace to all who love the Lord Jesus Christ with undying love." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 20:12; Deuteronomy 5:16", "from": "2-3", "note": "Paul quotes the fifth commandment and its promise of long life in the land, calling it 'the first commandment with promise.'" },
+        { "ref": "Isaiah 59:17", "from": "14, 17", "note": "The LORD 'put on righteousness as a breastplate, and a helmet of salvation on his head' as he came to save. Believers wear the very armor God wore." }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 52:7", "from": "15", "note": "'How beautiful upon the mountains are the feet of him who brings good news, who publishes peace.' The feet ready with the gospel of peace echo this herald." },
+        { "ref": "Isaiah 11:5", "from": "14", "note": "The Branch from Jesse wears righteousness as the belt of his waist and faithfulness as the belt of his loins." },
+        { "ref": "Colossians 3:20-4:1", "from": "1-9", "note": "The parallel household instructions use almost the same words for children, fathers, slaves and masters." },
+        { "ref": "1 Peter 5:8-9", "from": "11-13", "note": "Your adversary the devil prowls like a roaring lion; resist him, firm in your faith." },
+        { "ref": "Hebrews 4:12", "from": "17", "note": "The word of God is living and active, sharper than any two-edged sword." },
+        { "ref": "Colossians 4:2-4, 7-8", "from": "18-22", "note": "The same requests for prayer that God would open a door for the word, and the same messenger, Tychicus." }
+      ],
+      "tier3": [
+        { "ref": "1 Thessalonians 5:8", "from": "14-17", "note": "Paul uses armor imagery elsewhere too: the breastplate of faith and love, and the hope of salvation as a helmet." },
+        { "ref": "Luke 11:21-22", "from": "11", "note": "The stronger man overcomes the strong man and takes his armor (panoplia). Christ has already disarmed the enemy." },
+        { "ref": "Matthew 4:1-11", "from": "17", "note": "Jesus answers each temptation with 'It is written,' using the sword of the Spirit." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "The Christian Warfare and The Christian Soldier (Ephesians 6:10-20)",
+        "view": "Lloyd-Jones argues that many problems in the Christian life come from not taking the devil seriously as a real, personal enemy. He stresses that the strength to stand must be 'in the Lord,' not in technique, and that each piece of armor is a truth of the gospel the believer must understand and use."
+      },
+      {
+        "name": "William Gurnall",
+        "work": "The Christian in Complete Armour (1655-1662)",
+        "view": "This Puritan classic spends well over a thousand pages on Ephesians 6:10-20, taking each piece of armor in turn. Gurnall's main concern is that Christians be constantly watchful, finding their courage in Christ their captain rather than in themselves."
+      },
+      {
+        "name": "Tedd Tripp",
+        "work": "Shepherding a Child's Heart",
+        "view": "Tripp builds his approach to parenting on the principle that behavior comes from the heart. Discipline and instruction should aim at a child's heart and point them to Christ, not merely produce outward compliance, which is the spirit of verse 4's 'of the Lord.'"
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "And, ye fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord.",
+        "renderings": [
+          { "version": "ESV", "text": "in the discipline and instruction of the Lord" },
+          { "version": "NIV", "text": "in the training and instruction of the Lord" },
+          { "version": "CSB", "text": "don't stir up anger in your children" }
+        ],
+        "note": "'Nurture' (paideia) means training and discipline, not only gentle care; 'admonition' (nouthesia) means instruction and warning in words. The verse addresses fathers specifically, though the principle applies to mothers too (v1 speaks of 'parents')."
+      },
+      {
+        "verse": "12",
+        "kjv": "For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.",
+        "renderings": [
+          { "version": "ESV", "text": "against the spiritual forces of evil in the heavenly places" },
+          { "version": "NIV", "text": "against the spiritual forces of evil in the heavenly realms" },
+          { "version": "CSB", "text": "against evil, spiritual forces in the heavens" }
+        ],
+        "note": "'High places' is the same phrase as 'heavenly places' in 1:3, 1:20 and 2:6. The realm where believers are blessed and seated with Christ is also where hostile powers still fight. 'Spiritual wickedness' is better rendered 'spiritual forces of wickedness,' as it refers to beings, not a quality."
+      }
+    ],
+    "gospel": "Every piece of armor is a gift from God and points to Christ. Isaiah pictures God himself, and his Messiah, wearing righteousness and salvation as he comes to rescue his people; Paul gives that armor to believers. Truth, righteousness, the gospel of peace, faith, salvation and the word of God are not human achievements but what Christ has secured. Believers fight from his victory, not for it: they 'stand' on ground already won by the one who disarmed the powers at the cross (Colossians 2:15).",
+    "application": [
+      "Children, honor and obey your parents as an act of obedience to the Lord. Parents, especially fathers, avoid harshness that provokes, and raise children with both training and instruction pointed to Christ.",
+      "At work, serve wholeheartedly as though serving Christ, whether anyone is watching or not. If you have authority over others, remember you also have a Master in heaven.",
+      "Remember who the real enemy is. The people who oppose or hurt you are not your ultimate foes.",
+      "Put on the armor daily by holding to the truths of the gospel, living in righteousness, trusting God's promises and knowing his word well enough to use it.",
+      "Pray persistently for other believers, and especially for those who preach the gospel, that they would speak boldly and clearly."
+    ],
+    "misapplications": [
+      {
+        "claim": "This chapter endorses slavery.",
+        "correction": "Paul addresses Christians as they found themselves in the Roman household, but he undercuts the institution's logic: slave and master share one Master who shows no partiality (v9), and threats are forbidden. Elsewhere he condemns enslavers (1 Timothy 1:10) and urges a master to receive his runaway slave as a brother (Philemon 16)."
+      },
+      {
+        "claim": "Spiritual warfare means shouting at demons or using special techniques and formulas.",
+        "correction": "The armor in this passage is truth, righteousness, the gospel, faith, salvation and the word, and the main action is standing firm and praying. The weapons are gospel realities lived out, not rituals."
+      },
+      {
+        "claim": "Children must obey their parents in everything, no matter what, and parents have unlimited authority.",
+        "correction": "Children obey 'in the Lord' (v1), and fathers are immediately warned not to provoke their children (v4). Parental authority is real but accountable to God."
+      }
+    ],
+    "contrasts": [
+      { "a": "Flesh and blood", "b": "Spiritual forces of evil", "verses": "12", "note": "The visible opponent is not the real enemy." },
+      { "a": "Our own strength", "b": "The strength of his might", "verses": "10", "note": "The same power that raised Christ (1:19-20) is the strength believers stand in." },
+      { "a": "Earthly masters", "b": "The Master in heaven", "verses": "5-9", "note": "Every human authority answers to Christ, who shows no partiality." },
+      { "a": "Provoking", "b": "Bringing up", "verses": "4", "note": "Parental authority is meant to nurture, not crush." },
+      { "a": "Chains", "b": "Ambassador", "verses": "20", "note": "An envoy would normally wear honor; Christ's ambassador wears chains and still speaks boldly." }
+    ],
+    "features": [
+      { "label": "Stand, withstand, stand, stand", "note": "Verses 11-14 repeat the verb four times. The posture of Christian warfare is holding ground, not seizing it." },
+      { "label": "God's own armor", "note": "Paul draws the belt, breastplate, shoes and helmet from Isaiah 11, 52 and 59, where they belong to God and his Messiah. The soldiers guarding Paul may have supplied the picture, but Isaiah supplied the meaning." },
+      { "label": "One offensive weapon", "note": "Every piece of armor is defensive except the sword, which is the word of God, spoken (rhēma) in the moment of need." },
+      { "label": "Grace and peace at both ends", "note": "The letter opens with 'grace to you and peace' (1:2) and closes with 'peace' (6:23) and 'grace' (6:24). Everything in between flows from and returns to God's grace." },
+      { "label": "'In the heavenly places' once more", "note": "The phrase that opened the letter's blessings (1:3) closes it in battle (6:12). Believers are seated with Christ in the heavenly places and must stand there against enemies until he puts them all under his feet." }
+    ],
+    "summary": "Ephesians 6 completes the picture of the Spirit-filled life in the home and workplace, where children and parents, slaves and masters relate to one another as people who serve the same Lord. Then it sets the whole Christian life in the context of battle against real spiritual enemies. Believers stand firm not in their own strength but in God's armor, the truths of the gospel that Christ has secured, and they fight by holding their ground, using God's word and praying at all times.",
+    "metaArc": {
+      "book": "Chapter 6 ends the letter's practical section and draws its themes together. The powers Christ was exalted over in chapter 1, the heavenly places where believers are seated in chapter 2, and the unity and holiness of chapters 4-5 are now seen as the ground to be held in battle until the end.",
+      "redemptive": "Between Redemption and New Creation. Christ has already triumphed over the powers at the cross and in his exaltation, but the final defeat of evil is still to come. The church lives in that gap, standing firm in God's armor until the day of redemption (4:30)."
+    }
+  }
+}
