@@ -11,7 +11,7 @@ Ten linked pages for studying the Bible's story:
 - **Plagues** (`plagues.html`): the ten plagues of Egypt, with the sign of the staff before them and the sea after, laid out in Exodus's pattern of three rounds of three. Each shows the warning, the magicians, whether Israel was spared, who hardened Pharaoh's heart, its echoes through Scripture to Revelation, and its significance.
 - **Maps** (`maps.html`): the places of the Bible on a zoomable map drawn from Natural Earth coastlines, with journeys traced out (Abraham, Jacob, Joseph, the Exodus, the exile, the flight to Egypt, Paul's three journeys and his voyage to Rome, the seven churches of Revelation). Tap any place for what happened there, with links to read it and to the Timeline.
 - **Word and Deed** (`word-and-deed.html`): every episode in the Gospels and Acts where Jesus or his followers preach or do a good work, scored for whether the two happen together.
-- **Study** (`study.html`): a study of any of the 1,189 chapters, worked through a 12-step method: original language, usage elsewhere, context, cross-references in three tiers, theological voices, translation comparison, gospel connection, application, misapplications, contrasts, unique features, and a summary. Pick a book and chapter from the grid; chapters with a dot have a study. Each book on the Books page links to its studies.
+- **Study** (`study.html`): a study of any of the 1,189 chapters, worked through a 12-step method: original language, usage elsewhere, context, cross-references in three tiers, theological voices, translation comparison, gospel connection, application, misapplications, contrasts, unique features, and a summary, followed by questions to consider for personal study or a small group. Pick a book and chapter from the grid; chapters with a dot have a study. Each book on the Books page links to its studies.
 
 Gospel and Acts events on the timeline link to their Word and Deed entries, and those entries link back.
 
@@ -47,7 +47,7 @@ dotnet run -- collect                # write finished studies and rebuild the in
 dotnet run -- review ROM 8           # mark a study reviewed (--undo to revert)
 ```
 
-Chapters that already have a study are skipped unless you pass `--force`; `--model` picks the model (default `claude-sonnet-5-5`) and `--limit N` caps a batch. `dryrun ROM 8` saves the request without calling the API. The prompt is in `tools/StudyGenerator/prompt.md`, with John 3 included as the worked example. Run a few chapters with `one` and read them before submitting a large batch.
+Chapters that already have a study are skipped unless you pass `--force`; `--model` picks the model (default `claude-opus-5-5`) and `--limit N` caps a batch. `dryrun ROM 8` saves the request without calling the API. The prompt is in `tools/StudyGenerator/prompt.md`, with John 3 included as the worked example. Run a few chapters with `one` and read them before submitting a large batch.
 
 All are static pages: open `index.html` in a browser (the Study page needs a web server to load its data, for example `python3 -m http.server`), or turn on GitHub Pages for this repo (Settings → Pages → deploy from `main`).
 

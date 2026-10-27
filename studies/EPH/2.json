@@ -191,6 +191,14 @@
     "metaArc": {
       "book": "Chapter 2 shows God's plan to unite all things in Christ (1:10) taking shape in the church: first in individuals raised with Christ, then in Jews and Gentiles made one. Chapter 3 calls this union the mystery now revealed, and chapter 4 begins by urging believers to keep the unity Christ has created.",
       "redemptive": "Redemption, looking back to the promise to Abraham that all nations would be blessed and to the prophets' hope for peace to those far and near. The one new humanity and God's temple of living people anticipate the new creation, where God dwells with all his peoples."
-    }
+    },
+    "questions": [
+      {"kind": "observe", "question": "List every description of our condition in verses 1-3, and every description of the Gentiles in verse 12.", "verses": "1-3, 12"},
+      {"kind": "observe", "question": "After 'But God,' what does God do? List each action.", "verses": "4-7"},
+      {"kind": "interpret", "question": "How can salvation be 'not of works' (v9) and yet 'for good works' (v10)?", "verses": "8-10"},
+      {"kind": "interpret", "question": "What did Christ's death accomplish between people, not only between people and God?", "verses": "14-18"},
+      {"kind": "apply", "question": "What are you tempted to boast in before God or others, and how does verse 9 answer it?", "verses": "8-9"},
+      {"kind": "apply", "question": "Who in your church is most unlike you, and what would it look like to treat them as family?", "verses": "19-22"}
+    ]
   }
 }

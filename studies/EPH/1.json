@@ -179,6 +179,14 @@
     "metaArc": {
       "book": "Chapter 1 lays the foundation for the whole letter. God's plan to unite all things in Christ (v10) is worked out in chapter 2 in the joining of Jew and Gentile, explained as the revealed mystery in chapter 3, and lived out in the unity, holiness and spiritual warfare of chapters 4-6.",
       "redemptive": "The chapter spans the whole story: God's choice before creation, redemption through Christ's blood, the Spirit as the first installment of the inheritance, and the new creation in which all things in heaven and earth are brought together under Christ."
-    }
+    },
+    "questions": [
+      {"kind": "observe", "question": "In verses 3-14, find each 'in him' or 'in Christ.' What blessing is attached to each?", "verses": "3-14"},
+      {"kind": "observe", "question": "What three things does Paul pray the Ephesians will know?", "verses": "18-19"},
+      {"kind": "interpret", "question": "What does each person of the Trinity do in verses 3-14, and why does each section end with 'to the praise of his glory'?", "verses": "3-14"},
+      {"kind": "interpret", "question": "Why does Paul measure God's power toward believers by Christ's resurrection and ascension?", "verses": "19-23"},
+      {"kind": "apply", "question": "Paul praises God for twelve verses before giving a single command. How would starting with what God has done change the way you pray?", "verses": "3"},
+      {"kind": "apply", "question": "What fear, pressure or power in your life needs to be seen in light of Christ seated 'far above' it?", "verses": "20-22"}
+    ]
   }
 }

@@ -9,7 +9,7 @@
 //   studygen review JHN 3              Mark a study as reviewed (or --undo)
 //   studygen dryrun JHN 4              Write the request for one chapter to request-JHN-4.json without calling the API
 //
-// Options: --model <id> (default claude-sonnet-5-5), --force (regenerate chapters that already have a study).
+// Options: --model <id> (default claude-opus-5-5), --force (regenerate chapters that already have a study).
 // Needs ANTHROPIC_API_KEY in the environment for one, submit, status and collect.
 
 using System.Net.Http.Headers;
@@ -68,7 +68,7 @@ sealed class Options
 {
     public string Command = "";
     public List<string> Positional = [];
-    public string Model = "claude-sonnet-5-5";
+    public string Model = "claude-opus-5-5";
     public bool Force, All, Undo;
     public int? Limit;
     public HashSet<string> Books = [];
@@ -415,7 +415,7 @@ sealed class App(Repo repo, Options opts)
             if (s[k] is not JsonValue v || string.IsNullOrWhiteSpace((string?)v)) p.Add($"missing {k}");
         if (s["steps"] is not JsonObject st) { p.Add("missing steps"); return p; }
 
-        foreach (var k in new[] { "language", "usage", "voices", "translations", "application", "misapplications", "contrasts", "features" })
+        foreach (var k in new[] { "language", "usage", "voices", "translations", "application", "misapplications", "contrasts", "features", "questions" })
             if (st[k] is not JsonArray a || a.Count == 0) p.Add($"step {k} is empty");
         foreach (var k in new[] { "gospel", "summary" })
             if (st[k] is not JsonValue v || string.IsNullOrWhiteSpace((string?)v)) p.Add($"step {k} is empty");
@@ -423,6 +423,9 @@ sealed class App(Repo repo, Options opts)
         if (st["crossRefs"] is not JsonObject cr || cr["tier1"] is not JsonArray || cr["tier2"] is not JsonArray || cr["tier3"] is not JsonArray)
             p.Add("crossRefs needs tier1, tier2 and tier3");
         if (st["metaArc"]?["book"] is null || st["metaArc"]?["redemptive"] is null) p.Add("metaArc incomplete");
+        if (st["questions"] is JsonArray qs)
+            foreach (var k in new[] { "observe", "interpret", "apply" })
+                if (!qs.Any(q => (string?)q?["kind"] == k)) p.Add($"questions need at least one '{k}' question");
 
         // Guard against long quotations of copyrighted translations.
         if (st["translations"] is JsonArray tr)
