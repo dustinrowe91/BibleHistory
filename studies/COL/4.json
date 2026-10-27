@@ -1,0 +1,170 @@
+{
+  "ref": "COL.4",
+  "book": "Colossians",
+  "chapter": 4,
+  "title": "Making the Most of the Time",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Masters are to treat their servants justly because they too have a Master in heaven, and the whole church is to devote itself to watchful, thankful prayer and to wise, gracious speech toward outsiders. Paul closes with greetings from a circle of coworkers whose names show the gospel binding together people of every background.",
+  "keyVerses": ["2", "3-4", "5-6", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "προσκαρτερέω",
+        "translit": "proskartereō",
+        "strongs": "G4342",
+        "gloss": "to devote oneself to, persist in",
+        "verses": "2",
+        "note": "The word Luke uses of the first church, which 'devoted themselves' to the apostles' teaching and to prayer (Acts 2:42). It describes steady perseverance, not occasional bursts."
+      },
+      {
+        "word": "γρηγορέω",
+        "translit": "grēgoreō",
+        "strongs": "G1127",
+        "gloss": "to stay awake, be watchful",
+        "verses": "2",
+        "note": "Jesus told his disciples to watch and pray in Gethsemane (Matthew 26:41) and to stay alert for his return (Mark 13:33-37). Prayer here is alert, attentive and expectant."
+      },
+      {
+        "word": "ἐξαγοράζω",
+        "translit": "exagorazō",
+        "strongs": "G1805",
+        "gloss": "to buy up, redeem",
+        "verses": "5",
+        "note": "A marketplace word: to buy up everything available, as a merchant snaps up a bargain. Believers are to seize each opportunity with outsiders. Elsewhere Paul uses the same verb of Christ redeeming us from the law's curse (Galatians 3:13)."
+      },
+      {
+        "word": "ἅλας",
+        "translit": "halas",
+        "strongs": "G217",
+        "gloss": "salt",
+        "verses": "6",
+        "note": "Salt preserved food and gave it flavor. Speech 'seasoned with salt' is wholesome, interesting and fitting, never bland or corrupt. It echoes Jesus' call to his disciples to be the salt of the earth (Matthew 5:13)."
+      },
+      {
+        "word": "ἀγωνίζομαι",
+        "translit": "agōnizomai",
+        "strongs": "G75",
+        "gloss": "to struggle, contend as in an athletic contest",
+        "verses": "12",
+        "note": "The root of the English 'agonize.' Epaphras is 'always struggling' for the Colossians in prayer, the same word Paul uses of his own labor in 1:29. Prayer is real work."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Watchful prayer",
+        "refs": ["Matthew 26:41", "Ephesians 6:18", "1 Thessalonians 5:17-18", "1 Peter 4:7"],
+        "note": "The New Testament repeatedly joins prayer with alertness and thanks, especially in view of trials and the Lord's return."
+      },
+      {
+        "theme": "An open door for the word",
+        "refs": ["Acts 14:27", "1 Corinthians 16:9", "2 Corinthians 2:12", "Revelation 3:8"],
+        "note": "Paul, in chains, does not ask for release but for an open door to speak. God opens doors for the gospel even when doors to freedom are shut."
+      },
+      {
+        "theme": "Wise conduct toward outsiders",
+        "refs": ["1 Thessalonians 4:11-12", "1 Peter 2:12; 3:15", "Matthew 10:16"],
+        "note": "Believers' daily conduct and ready, gentle answers commend the gospel to those who do not yet believe."
+      },
+      {
+        "theme": "Restored coworkers",
+        "refs": ["Acts 13:13; 15:37-39", "2 Timothy 4:11", "Philemon 10-16"],
+        "note": "Mark, once the cause of a sharp split between Paul and Barnabas, and Onesimus, once a runaway, both appear here as trusted brothers. The gospel restores broken relationships."
+      }
+    ],
+    "context": {
+      "setting": "The household instructions of 3:18 conclude with a word to masters in 4:1. Paul then gives closing exhortations and a long list of greetings. Tychicus will carry the letter, along with Onesimus, the slave whose return is the subject of Philemon; several of the same names appear in Philemon 23-24, confirming the letters were sent together. Paul also asks for this letter to be exchanged with the church in nearby Laodicea.",
+      "flow": [
+        { "verses": "1", "label": "Masters", "note": "Masters must treat their servants justly and fairly, knowing they also have a Master in heaven." },
+        { "verses": "2-4", "label": "Pray, and pray for us", "note": "Continue steadfastly in prayer, watchful and thankful, and pray that God would open a door for Paul to speak the mystery of Christ clearly." },
+        { "verses": "5-6", "label": "Wisdom toward outsiders", "note": "Walk in wisdom toward outsiders, making the most of the time, with gracious speech seasoned with salt." },
+        { "verses": "7-9", "label": "Tychicus and Onesimus", "note": "The letter carriers will report Paul's situation and encourage their hearts." },
+        { "verses": "10-14", "label": "Greetings from Paul's companions", "note": "Aristarchus, Mark, Jesus called Justus, Epaphras who struggles in prayer for them, Luke the beloved physician, and Demas send greetings." },
+        { "verses": "15-18", "label": "Final instructions and signature", "note": "Greet Laodicea and Nympha's house church, exchange letters with Laodicea, tell Archippus to fulfill his ministry; Paul signs in his own hand: remember my chains, grace be with you." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Ephesians 6:9", "from": "1", "note": "Masters are to stop threatening, knowing that their Master and their slaves' Master is in heaven, with no partiality." },
+        { "ref": "Ephesians 6:18-22", "from": "2-4, 7-8", "note": "Prayer at all times, a request for boldness to proclaim the mystery as an ambassador in chains, and a near-identical commendation of Tychicus." },
+        { "ref": "Philemon 1-2, 10-16, 23-24", "from": "9-14, 17", "note": "The companion letter names Onesimus, Archippus, Epaphras, Mark, Aristarchus, Demas and Luke, and pleads for Onesimus to be received as a brother." },
+        { "ref": "2 Timothy 4:10-11", "from": "10, 14", "note": "Later, Demas has deserted Paul, only Luke remains with him, and Paul asks for Mark, 'very useful to me for ministry.'" },
+        { "ref": "Acts 15:37-39", "from": "10", "note": "Paul once refused to take Mark because he had deserted them. Here Paul tells the church to welcome him." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 5:13", "from": "6", "note": "Jesus calls his disciples the salt of the earth. Speech seasoned with salt is one way that calling shows itself." },
+        { "ref": "Proverbs 25:11; 15:23", "from": "6", "note": "A word fitly spoken and a timely word are a delight. Paul wants believers to know how to answer each person." },
+        { "ref": "Revelation 3:14-22", "from": "13, 16", "note": "Some decades later the risen Christ addresses the Laodicean church, now comfortable and lukewarm." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. B. Lightfoot",
+        "work": "Saint Paul's Epistles to the Colossians and to Philemon",
+        "view": "Lightfoot argued that the 'letter from Laodicea' (v16) was most likely the letter we call Ephesians, written as a circular to churches in the region and reaching Colossae by way of Laodicea. Many have followed him, though others think it was a letter that has not survived."
+      },
+      {
+        "name": "F. F. Bruce",
+        "work": "The Pauline Circle",
+        "view": "Bruce drew attention to the people around Paul named in passages like this one. He saw Mark's appearance here as evidence that the old breach between Paul and Mark had been healed and that Mark had become a valued member of Paul's team."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "Walk in wisdom toward them that are without, redeeming the time.",
+        "renderings": [
+          { "version": "ESV", "text": "making the best use of the time" },
+          { "version": "NIV", "text": "make the most of every opportunity" }
+        ],
+        "note": "'Redeeming the time' is a literal rendering of a marketplace idiom: buy up the moment. ESV keeps 'time'; NIV explains it as opportunity. 'Them that are without' means outsiders, people outside the church."
+      },
+      {
+        "verse": "15",
+        "kjv": "Salute the brethren which are in Laodicea, and Nymphas, and the church which is in his house.",
+        "renderings": [
+          { "version": "ESV", "text": "Nympha and the church in her house" },
+          { "version": "NIV", "text": "Nympha and the church in her house" },
+          { "version": "NKJV", "text": "Nymphas and the church that is in his house" }
+        ],
+        "note": "The Greek manuscripts differ: some read 'his house,' some 'her house,' and some 'their house.' Most modern versions follow the reading 'her,' which makes Nympha a woman who hosted a church in her home."
+      }
+    ],
+    "gospel": "Paul is in chains for 'the mystery of Christ' (v3), and his one request is that the message be spoken clearly. The names in the greetings show what the gospel does: Onesimus, a slave who had run away, is 'our faithful and beloved brother' (v9); Mark, who once deserted Paul, is now commended; Jews and Gentiles labor side by side for the kingdom of God (v11). Masters are reminded that they have a Master in heaven, the Lord Christ, before whom everyone stands equal.",
+    "application": [
+      "If you have authority over others at work or at home, use it justly and fairly, remembering you answer to Christ.",
+      "Make prayer a steady habit, alert and full of thanks, and pray specifically for those who preach the gospel.",
+      "Look for opportunities with unbelieving neighbors and coworkers, and let your words be gracious and thoughtful rather than harsh or dull.",
+      "Value the ministry of prayer for others. Epaphras's struggle in prayer is counted as real labor for the church.",
+      "Do not write off people who have failed. Mark's story shows that restoration and renewed usefulness are possible."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Seasoned with salt' means Christians should be sharp-tongued or cutting.",
+        "correction": "Paul says speech should be 'always gracious, seasoned with salt.' Salt adds flavor and preserves; it is paired with grace, not opposed to it."
+      },
+      {
+        "claim": "The greetings are filler that can be skipped.",
+        "correction": "These names show the gospel at work in real relationships: a reconciled coworker, a slave called a brother, a faithful physician, a pastor urged to persevere. They also warn, since Demas later deserts Paul (2 Timothy 4:10)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Earthly masters", "b": "The Master in heaven", "verses": "1", "note": "Every human authority is itself under authority." },
+      { "a": "Paul in chains", "b": "An open door for the word", "verses": "3, 18", "note": "Paul's prison does not stop the gospel; he prays for doors to open while his own remains locked." },
+      { "a": "Insiders", "b": "Outsiders", "verses": "5", "note": "The church's life is not only for itself; it is lived wisely before those who are watching." }
+    ],
+    "features": [
+      { "label": "A personal signature", "note": "Paul dictated his letters but signed with his own hand (v18; compare 2 Thessalonians 3:17). 'Remember my chains' is a brief, moving plea from prison." },
+      { "label": "Mirror lists", "note": "Paul first names three Jewish coworkers, 'the only men of the circumcision' among his fellow workers (v10-11), then Gentile companions Epaphras, Luke and Demas (v12-14)." },
+      { "label": "Letters for sharing", "note": "Verse 16 shows apostolic letters being read aloud in church and passed between congregations, an early step toward the New Testament collection." },
+      { "label": "A word to one man", "note": "The letter ends with a pointed message to Archippus, to fulfill the ministry he received in the Lord, a reminder that callings must be finished, not just begun." }
+    ],
+    "summary": "Colossians 4 completes the household instructions and turns the church outward and upward: steadfast, watchful, thankful prayer, and wise, gracious conduct toward those outside. The closing greetings put flesh on the letter's message that Christ is all and in all, as former slaves, restored deserters, Jews and Gentiles serve together. Paul, still in chains, asks only that the mystery of Christ go out clearly.",
+    "metaArc": {
+      "book": "Chapter 4 closes the letter by applying Christ's lordship to prayer, witness and community, and by tying Colossians to Philemon and to the wider network of churches in the Lycus valley.",
+      "redemptive": "The chapter shows redemption at work in a living community: people of every background reconciled to God and to one another, praying and speaking until the mystery of Christ is known among the nations and the new creation comes."
+    }
+  }
+}
