@@ -1,0 +1,169 @@
+{
+  "ref": "EXO.15",
+  "book": "Exodus",
+  "chapter": 15,
+  "title": "The LORD Is My Strength and My Song",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Israel's first song celebrates the LORD as the warrior who triumphed at the sea and the redeemer who will lead his people to his holy dwelling and reign forever. Three days later, the bitter waters of Marah test them, and God reveals himself as the LORD who heals.",
+  "keyVerses": ["2-3", "11", "18", "26"],
+  "steps": {
+    "language": [
+      {
+        "word": "זִמְרָת",
+        "translit": "zimrat",
+        "strongs": "H2176",
+        "gloss": "song, or strength, protection",
+        "verses": "2",
+        "note": "Traditionally 'song,' but some scholars connect it to a root meaning 'strength' or 'protection.' Either way, verse 2 is quoted word for word in Psalm 118:14 and Isaiah 12:2, so it became a standard confession of faith."
+      },
+      {
+        "word": "חֶסֶד",
+        "translit": "chesed",
+        "strongs": "H2617",
+        "gloss": "steadfast love, covenant loyalty",
+        "verses": "13",
+        "note": "The first appearance in Exodus of one of the great words of the Old Testament. God leads his redeemed people by his chesed, his faithful, committed love within the covenant. It returns at the heart of God's self-description in 34:6-7."
+      },
+      {
+        "word": "קָנָה",
+        "translit": "qanah",
+        "strongs": "H7069",
+        "gloss": "to acquire, purchase, create",
+        "verses": "16",
+        "note": "'The people whom you have purchased.' Israel is God's acquired possession, bought by his act of redemption. The same verb is used of God as Creator (Genesis 14:19)."
+      },
+      {
+        "word": "מָלַךְ",
+        "translit": "malak",
+        "strongs": "H4427",
+        "gloss": "to reign as king",
+        "verses": "18",
+        "note": "'The LORD will reign forever and ever.' The first explicit statement of God's kingship in the Bible. Pharaoh's claim to rule is over; the LORD is king."
+      },
+      {
+        "word": "רָפָא",
+        "translit": "rapha",
+        "strongs": "H7495",
+        "gloss": "to heal",
+        "verses": "26",
+        "note": "'I am the LORD, your healer' (YHWH rophe'ka). God promises freedom from the diseases of Egypt for an obedient people. Healing in Scripture covers bodies, land and the whole person restored to God."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The song of Moses",
+        "refs": ["Psalm 118:14", "Isaiah 12:2", "Revelation 15:3-4"],
+        "note": "Verse 2 is repeated by the psalmist and Isaiah, and Revelation shows the redeemed singing 'the song of Moses, the servant of God, and the song of the Lamb.'"
+      },
+      {
+        "theme": "Who is like you?",
+        "refs": ["Psalm 89:6-8", "Micah 7:18", "1 Kings 8:23"],
+        "note": "Micah turns the question toward forgiveness: 'Who is a God like you, pardoning iniquity?'"
+      },
+      {
+        "theme": "The LORD as divine warrior",
+        "refs": ["Psalm 24:8", "Isaiah 42:13", "Zephaniah 3:17", "Revelation 19:11-16"],
+        "note": "The LORD 'mighty in battle' fights for his people. Revelation pictures Christ as the rider on the white horse who judges and makes war in righteousness."
+      },
+      {
+        "theme": "Testing and complaint in the wilderness",
+        "refs": ["Exodus 16:2-4", "Numbers 14:22", "Deuteronomy 8:2-3", "1 Corinthians 10:9-11"],
+        "note": "Marah begins a pattern of testing, grumbling and provision that runs through the wilderness narrative."
+      }
+    ],
+    "context": {
+      "setting": "Standing on the far shore with the Egyptians dead behind them, Moses and Israel sing. This poem is among the oldest in the Hebrew Bible by its language. It looks back to the sea (v1-12) and forward to Canaan and the sanctuary (v13-18). Then the narrative resumes as Israel enters the wilderness of Shur.",
+      "flow": [
+        { "verses": "1-5", "label": "The LORD has triumphed", "note": "Horse and rider thrown into the sea; the LORD is strength, song and salvation; he is a warrior; Pharaoh's chariots sank like a stone." },
+        { "verses": "6-12", "label": "Your right hand, O LORD", "note": "God's right hand shatters the enemy; at the blast of his nostrils the waters piled up; the enemy boasted but sank like lead. Who is like you among the gods?" },
+        { "verses": "13-18", "label": "You will bring them in", "note": "God leads his redeemed people by steadfast love to his holy abode. The nations tremble, and God plants his people on his mountain, the sanctuary his hands established. The LORD will reign forever." },
+        { "verses": "19-21", "label": "Miriam's song", "note": "Miriam the prophetess leads the women with tambourines and dancing, singing the refrain: Sing to the LORD, for he has triumphed gloriously." },
+        { "verses": "22-27", "label": "Marah and Elim", "note": "After three days without water, Israel finds bitter water and grumbles. God shows Moses a log that makes the water sweet, tests them with a statute and promises to be their healer. They camp at Elim with twelve springs and seventy palms." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Revelation 15:2-4", "from": "1, 11", "note": "The victors by the sea of glass sing the song of Moses and the Lamb: 'Who will not fear, O Lord, and glorify your name?'" },
+        { "ref": "Psalm 118:14; Isaiah 12:2", "from": "2", "note": "Both quote verse 2 exactly: 'The LORD is my strength and my song, and he has become my salvation.'" },
+        { "ref": "Joshua 2:9-11", "from": "14-16", "note": "Rahab reports that terror fell on Canaan when they heard how the LORD dried up the Red Sea, exactly as the song predicted." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 78:54", "from": "17", "note": "God brought them to his holy land, to the mountain his right hand had won." },
+        { "ref": "Deuteronomy 8:2-3", "from": "25", "note": "God tested Israel in the wilderness to humble them and to know what was in their hearts." },
+        { "ref": "Exodus 23:25-26", "from": "26", "note": "Another promise that God will take sickness away from an obedient people." }
+      ],
+      "tier3": [
+        { "ref": "1 Peter 2:24", "from": "25-26", "note": "By Christ's wounds we are healed. Many Christians have seen the wood that sweetened Marah's water as a picture of the cross." },
+        { "ref": "Luke 1:46-55", "from": "1-21", "note": "Mary's song echoes Israel's: the mighty brought down and the humble lifted up by God's arm." },
+        { "ref": "Hebrews 12:22", "from": "17", "note": "Believers have come to Mount Zion, the city of the living God, the place the song anticipated." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "T. Desmond Alexander",
+        "work": "From Paradise to the Promised Land",
+        "view": "Alexander highlights that the song looks beyond the sea to God's dwelling (v13, 17). The goal of the exodus is not only freedom from Egypt but God living among his people, a theme that leads to the tabernacle and runs through the whole Bible."
+      },
+      {
+        "name": "Umberto Cassuto",
+        "work": "A Commentary on the Book of Exodus",
+        "view": "Cassuto treats the Song of the Sea as an ancient, carefully structured poem, drawing on traditional poetic forms of the region, and reads it as a unified composition rather than a patchwork of sources."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.",
+        "renderings": [
+          { "version": "ESV", "text": "my strength and my song ... and I will praise him" },
+          { "version": "NIV", "text": "The LORD is my strength and my defense" }
+        ],
+        "note": "The Hebrew zimrat can mean 'song' or 'strength/protection'; NIV chooses 'defense.' KJV's 'I will prepare him an habitation' takes an uncertain verb as 'make a dwelling'; most modern versions read 'I will praise him.'"
+      },
+      {
+        "verse": "3",
+        "kjv": "The LORD is a man of war: the LORD is his name.",
+        "renderings": [
+          { "version": "ESV", "text": "The LORD is a man of war" },
+          { "version": "NIV", "text": "The LORD is a warrior" }
+        ],
+        "note": "The Hebrew is literally 'man of war.' The point is that God personally fought for Israel when they could not fight for themselves (14:14)."
+      }
+    ],
+    "gospel": "Israel's first song praises a God who saves by his own right hand, redeems a people he has purchased, leads them by steadfast love and brings them to dwell with him. That is the gospel in a hymn. Revelation shows the church singing the same song as 'the song of Moses and the Lamb,' because Christ's victory over sin, death and Satan is the greater exodus. And at Marah, when the people grumbled, God did not destroy them but showed a piece of wood that made bitter water sweet, a gracious provision many have seen as a picture of the cross that turns bitterness into healing.",
+    "application": [
+      "Respond to God's saving acts with praise. Salvation leads to singing.",
+      "Remember that redemption has a destination: God's presence and his reign. Freedom is for worship.",
+      "Expect testing after great victories, and bring needs to God instead of grumbling.",
+      "Trust the LORD as healer, while remembering his healing is ultimately complete only in the new creation."
+    ],
+    "misapplications": [
+      {
+        "claim": "'I am the LORD who heals you' promises that faithful believers will never be sick.",
+        "correction": "The promise is tied to Israel's covenant setting and to 'the diseases of Egypt' (v26). Faithful people in Scripture still suffered illness (2 Timothy 4:20). God's healing is real but its fullness comes at the resurrection."
+      },
+      {
+        "claim": "Celebrating God's victory over enemies is unchristian triumphalism.",
+        "correction": "The song celebrates God's justice against oppressors who murdered children and refused every warning. Revelation 15 and 19 show that rejoicing in God's righteous judgment belongs to Christian worship too."
+      }
+    ],
+    "contrasts": [
+      { "a": "Singing", "b": "Grumbling", "verses": "1, 24", "note": "Three days separate the song of triumph from complaint at Marah. Gratitude can fade fast." },
+      { "a": "Pharaoh's boast", "b": "God's breath", "verses": "9-10", "note": "'I will pursue, I will overtake, I will divide the spoil.' Then God blew, and they sank like lead." },
+      { "a": "Bitter water", "b": "Sweet water", "verses": "23, 25", "note": "God transforms what is undrinkable into provision." }
+    ],
+    "features": [
+      { "label": "Past and future", "note": "The song moves from what God has done (the sea) to what he will do (bring Israel to his mountain), so present praise becomes confident hope." },
+      { "label": "Similes of sinking", "note": "The Egyptians sank 'like a stone' (v5) and 'like lead' (v10), and were consumed 'like stubble' (v7)." },
+      { "label": "Miriam the prophetess", "note": "The first woman called a prophet in Scripture leads the women in worship (v20). Her refrain likely served as the song's chorus." },
+      { "label": "Twelve and seventy", "note": "Elim's twelve springs and seventy palm trees (v27) echo the twelve tribes and seventy descendants of Jacob, a picture of rest after testing." }
+    ],
+    "summary": "Exodus 15 is Israel's hymn of salvation. It praises the LORD as warrior, redeemer and king, celebrates his incomparable holiness, and looks ahead to God planting his people in his sanctuary and reigning forever. The episode at Marah shows how quickly praise can turn to complaint, and how God responds with provision and a promise to heal.",
+    "metaArc": {
+      "book": "Chapter 15 closes the Egypt section of Exodus with worship and opens the wilderness section with testing. The song's goal, God's sanctuary among his people, anticipates the tabernacle chapters.",
+      "redemptive": "This chapter celebrates Redemption and anticipates New Creation: God's people brought into his presence under his eternal reign, the song the redeemed sing in Revelation."
+    }
+  }
+}

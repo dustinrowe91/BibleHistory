@@ -1,0 +1,189 @@
+{
+  "ref": "EXO.32",
+  "book": "Exodus",
+  "chapter": 32,
+  "title": "These Are Your Gods, O Israel",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "While Moses is on the mountain, Israel demands a god they can see, and Aaron makes a golden calf. God threatens to destroy the people, but Moses intercedes and God relents. Moses breaks the tablets, destroys the calf, the Levites carry out judgment, and Moses offers himself to bear the people's sin.",
+  "keyVerses": ["4", "11-14", "26", "31-32"],
+  "steps": {
+    "language": [
+      {
+        "word": "עֵגֶל",
+        "translit": "egel",
+        "strongs": "H5695",
+        "gloss": "calf, young bull",
+        "verses": "4, 8, 19-20, 24",
+        "note": "A young bull, a common symbol of strength and fertility in the ancient Near East. Whether the calf represented another god or was meant as an image of the LORD himself (v5, 'a feast to the LORD'), it broke the second commandment and amounted to rejecting God."
+      },
+      {
+        "word": "קְשֵׁה עֹרֶף",
+        "translit": "qesheh oreph",
+        "gloss": "stiff-necked",
+        "verses": "9",
+        "note": "An image from farming: an ox that will not bend its neck to the yoke. God's verdict on Israel returns in 33:3, 5 and 34:9, and Stephen applies it to his hearers in Acts 7:51."
+      },
+      {
+        "word": "חָלָה",
+        "translit": "chalah",
+        "strongs": "H2470",
+        "gloss": "to entreat, implore",
+        "verses": "11",
+        "note": "Literally 'to soften the face' of someone. Moses pleads with God, appealing to God's own name, his reputation among the nations and his promises to the patriarchs."
+      },
+      {
+        "word": "נָחַם",
+        "translit": "nacham",
+        "strongs": "H5162",
+        "gloss": "to relent, change course, be grieved",
+        "verses": "12, 14",
+        "note": "God 'relented from the disaster.' Scripture says God does not change his mind like a man (Numbers 23:19), yet he responds to intercession and repentance. His threat was real, and his response to Moses' prayer was also part of his purpose."
+      },
+      {
+        "word": "פָּרַע",
+        "translit": "para",
+        "strongs": "H6544",
+        "gloss": "to let loose, run wild",
+        "verses": "25",
+        "note": "The people were 'broken loose,' out of control, and Aaron had 'let them loose.' Idolatry led to moral chaos and shame before their enemies."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The golden calf remembered",
+        "refs": ["Deuteronomy 9:7-21", "Psalm 106:19-23", "Nehemiah 9:18", "Acts 7:39-41"],
+        "note": "They exchanged the glory of God for the image of an ox that eats grass, and Moses stood in the breach. Stephen cites the calf as proof that Israel rejected Moses."
+      },
+      {
+        "theme": "Idolatry as exchanging God's glory",
+        "refs": ["Romans 1:22-23", "1 Corinthians 10:7", "1 John 5:21"],
+        "note": "Paul quotes verse 6, 'The people sat down to eat and drink and rose up to play,' warning the church not to be idolaters."
+      },
+      {
+        "theme": "Jeroboam's calves",
+        "refs": ["1 Kings 12:28-30", "Hosea 8:5-6"],
+        "note": "Jeroboam later set up golden calves in Bethel and Dan using Aaron's words: 'Behold your gods, O Israel, who brought you up out of Egypt.'"
+      },
+      {
+        "theme": "Blot me out of your book",
+        "refs": ["Psalm 69:28", "Daniel 12:1", "Romans 9:3", "Revelation 3:5"],
+        "note": "Moses' willingness to be blotted out for Israel is echoed by Paul, who wished himself accursed for his kinsmen."
+      }
+    ],
+    "context": {
+      "setting": "Moses has been on Sinai forty days receiving the tabernacle plan (chapters 25-31). Below, the people have just pledged 'All that the LORD has spoken we will do' (24:3, 7). Chapters 32-34 form one story of covenant broken and renewed, and it is the turning point of the second half of Exodus.",
+      "flow": [
+        { "verses": "1-6", "label": "Make us gods", "note": "The people tell Aaron to make gods to go before them since they do not know what became of Moses. Aaron makes a golden calf from their earrings and an altar; they offer sacrifices, eat, drink and rise up to play." },
+        { "verses": "7-14", "label": "Moses intercedes", "note": "God tells Moses that 'your people' have corrupted themselves and he will consume them and make a great nation of Moses. Moses pleads on the basis of God's name and promises, and God relents." },
+        { "verses": "15-20", "label": "The tablets broken", "note": "Moses descends with the tablets, sees the calf and dancing, and in anger shatters the tablets. He burns the calf, grinds it to powder, scatters it on water and makes Israel drink it." },
+        { "verses": "21-24", "label": "Aaron's excuse", "note": "Aaron blames the people and claims he threw gold into the fire 'and out came this calf.'" },
+        { "verses": "25-29", "label": "Who is on the LORD's side?", "note": "Moses calls for those on the LORD's side. The Levites gather and, at his command, strike down about three thousand." },
+        { "verses": "30-35", "label": "Blot me out", "note": "Moses returns to God to make atonement, asking God to forgive or else blot him out of his book. God says he will blot out the sinner, will send his angel, and sends a plague." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Corinthians 10:7", "from": "6", "note": "Paul quotes the verse: 'Do not be idolaters as some of them were.'" },
+        { "ref": "Acts 7:39-41", "from": "1, 4", "note": "Stephen recounts that in their hearts they turned back to Egypt and made a calf." },
+        { "ref": "Deuteronomy 9:12-21", "from": "7-20", "note": "Moses' own retelling, including forty more days of prayer and the grinding of the calf." },
+        { "ref": "Psalm 106:19-23", "from": "4, 11-14", "note": "God would have destroyed them had not Moses stood in the breach before him." }
+      ],
+      "tier2": [
+        { "ref": "1 Kings 12:28", "from": "4", "note": "Jeroboam repeats the calf and its slogan, showing how the sin recurs." },
+        { "ref": "Romans 9:3", "from": "32", "note": "Paul, like Moses, is willing to be cut off for the sake of his people." },
+        { "ref": "Numbers 25:7-13", "from": "26-29", "note": "Phinehas, a Levite, is zealous against idolatry and immorality, and receives a covenant of priesthood." }
+      ],
+      "tier3": [
+        { "ref": "Romans 1:23", "from": "4", "note": "Exchanging the glory of the immortal God for images is the root of human sin." },
+        { "ref": "Hebrews 7:25", "from": "11-13, 31-32", "note": "Moses' intercession anticipates Christ, who always lives to intercede." },
+        { "ref": "Galatians 3:13", "from": "32", "note": "What Moses could only offer, Christ accomplished: becoming a curse for us." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Brevard S. Childs",
+        "work": "The Book of Exodus",
+        "view": "Childs reads chapters 32-34 as a unified story of covenant broken and restored. The calf episode shows that Israel's existence after Sinai rests entirely on God's forgiveness, and Moses' intercession is central to how Israel survives."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin is severe on Aaron's weakness and ridiculous excuse. He also argues that the calf was not intended as a different god but as a representation of the LORD, which shows that worshiping the true God by images is itself idolatry."
+      },
+      {
+        "name": "Martin Luther",
+        "work": "Large Catechism",
+        "view": "Luther teaches that whatever the heart clings to and relies on above all is in truth its god. Idolatry therefore begins in the heart's trust before it is ever cast in gold, which is the lesson the calf makes visible."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "And he received them at their hand, and fashioned it with a graving tool, after he had made it a molten calf: and they said, These be thy gods, O Israel, which brought thee up out of the land of Egypt.",
+        "renderings": [
+          { "version": "ESV", "text": "These are your gods, O Israel" },
+          { "version": "NIV", "text": "These are your gods, Israel" }
+        ],
+        "note": "The Hebrew elohim can mean 'God' or 'gods,' and the verb here is plural. With a single calf, some think it means 'This is your God,' referring to the LORD in image form. The plural may also mock the act, as in Nehemiah 9:18, which reads 'This is your God.'"
+      },
+      {
+        "verse": "14",
+        "kjv": "And the LORD repented of the evil which he thought to do unto his people.",
+        "renderings": [
+          { "version": "ESV", "text": "And the LORD relented from the disaster" },
+          { "version": "NIV", "text": "Then the LORD relented" }
+        ],
+        "note": "In 1611 'repent' meant a change of course, and 'evil' meant harm or disaster, not wickedness. God did not repent of sin; he turned from the judgment he had announced, in response to Moses' prayer."
+      },
+      {
+        "verse": "25",
+        "kjv": "And when Moses saw that the people were naked; (for Aaron had made them naked unto their shame among their enemies:)",
+        "renderings": [
+          { "version": "ESV", "text": "the people had broken loose" },
+          { "version": "NIV", "text": "the people were running wild" }
+        ],
+        "note": "The Hebrew para means to let loose or let hair hang free. KJV's 'naked' is a guess; modern versions take it as being out of control."
+      }
+    ],
+    "gospel": "Israel broke the covenant within weeks of making it, and God's judgment was right. Moses stood between God and the people, appealed to God's promises, and even offered to be blotted out in their place. God would not accept Moses as a substitute, because Moses was himself a sinner. But God provided the one who could be: Christ, the mediator who did not merely offer to be cut off but was cut off, bearing the curse so that his people's names would never be blotted out.",
+    "application": [
+      "Examine what you turn to when God seems absent or slow. The calf was made in a time of waiting.",
+      "Worship God only as he has revealed himself, not as we would like to picture him.",
+      "Pray for others boldly, appealing to God's name and promises, as Moses did.",
+      "Refuse excuses. Aaron blamed the people and the fire; repentance owns sin.",
+      "Stand on the LORD's side, even when it costs."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's relenting means he was persuaded to change his character or plan.",
+        "correction": "Moses appealed to God's own promises and glory (v11-13). God's response to intercession reveals his mercy, which was always his character (34:6-7). Prayer is one of the means he ordains."
+      },
+      {
+        "claim": "The calf was harmless because the people called it a feast to the LORD.",
+        "correction": "Using the LORD's name did not make it true worship (v5). God calls it corruption and turning aside from his way (v7-8). Worshiping God by an image is forbidden by the second commandment."
+      },
+      {
+        "claim": "The Levites' violence is a model for dealing with false worship today.",
+        "correction": "This was a unique judgment within Israel's theocracy, at God's command. In the new covenant, the church deals with idolatry by preaching, repentance and discipline (1 Corinthians 5:11-13), not the sword."
+      }
+    ],
+    "contrasts": [
+      { "a": "God's tablets", "b": "Aaron's calf", "verses": "15-16, 19-20", "note": "God's writing on stone shattered; man's gold idol ground to dust." },
+      { "a": "'Your people'", "b": "'Your people'", "verses": "7, 11", "note": "God calls them Moses' people; Moses calls them God's people. Ownership is the crux of the intercession." },
+      { "a": "Moses' intercession", "b": "Aaron's excuse", "verses": "11-13, 22-24", "note": "One leader stands in the gap; the other passes blame." }
+    ],
+    "features": [
+      { "label": "Ironic timing", "note": "While God gives Moses the pattern for true worship, the people invent false worship below the mountain." },
+      { "label": "Undoing the exodus", "note": "The people credit the calf with bringing them out of Egypt (v4), giving to an image the glory of the LORD's great act." },
+      { "label": "Aaron's absurd excuse", "note": "'I threw it into the fire, and out came this calf' (v24) contrasts with verse 4, where Aaron shaped it with a tool." },
+      { "label": "Drinking the idol", "note": "Moses makes Israel drink the powdered calf (v20), perhaps a kind of ordeal and a vivid way to show the idol's worthlessness." }
+    ],
+    "summary": "Exodus 32 is the great covenant breach. Impatient and fearful, Israel makes a golden calf and credits it with their salvation. God's wrath is just, but Moses intercedes on the basis of God's promises and offers himself for the people. The tablets are broken, the idol destroyed and judgment carried out, yet the chapter leaves Israel's future hanging on God's mercy and a mediator's prayer.",
+    "metaArc": {
+      "book": "Chapter 32 begins the central crisis of Exodus 32-34. The covenant just made is broken, and God's presence among Israel, the goal of the tabernacle, is in doubt.",
+      "redemptive": "This is the Fall repeated within God's redeemed people, showing that even after redemption, they need a better mediator and a new heart, fulfilled in Christ and the new covenant."
+    }
+  }
+}

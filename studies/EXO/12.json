@@ -1,0 +1,180 @@
+{
+  "ref": "EXO.12",
+  "book": "Exodus",
+  "chapter": 12,
+  "title": "When I See the Blood",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God institutes the Passover: a spotless lamb is killed, its blood marks the doorframe, and the LORD passes over those houses when he strikes Egypt's firstborn. At midnight the judgment falls, Pharaoh drives Israel out, and after 430 years the LORD's hosts leave Egypt. The night is to be remembered forever.",
+  "keyVerses": ["3-7", "13", "26-27", "41"],
+  "steps": {
+    "language": [
+      {
+        "word": "פֶּסַח",
+        "translit": "pesach",
+        "strongs": "H6453",
+        "gloss": "Passover",
+        "verses": "11, 21, 27, 43",
+        "note": "From the verb pasach (H6452), 'to pass over' or 'to hover over, protect' (Isaiah 31:5 uses it of God shielding Jerusalem). The LORD passes over the marked houses, and many think the word also carries the sense of standing guard over them."
+      },
+      {
+        "word": "שֶׂה",
+        "translit": "seh",
+        "strongs": "H7716",
+        "gloss": "lamb, kid, one of the flock",
+        "verses": "3-5, 21",
+        "note": "The animal could be a sheep or a goat, but had to be a year-old male without blemish. One for each household, chosen on the tenth day, kept until the fourteenth, and killed at twilight."
+      },
+      {
+        "word": "דָּם",
+        "translit": "dam",
+        "strongs": "H1818",
+        "gloss": "blood",
+        "verses": "7, 13, 22-23",
+        "note": "The blood is a 'sign for you' (v13). It shows that a life has been given in place of the firstborn. Israel is not spared because they are better than Egypt but because of the blood."
+      },
+      {
+        "word": "מַצָּה",
+        "translit": "matstsah",
+        "strongs": "H4682",
+        "gloss": "unleavened bread",
+        "verses": "8, 15-20, 39",
+        "note": "Bread made without yeast. It recalls the haste of departure (v39), and leaven (chamets, H2557) becomes a picture of corruption to be removed (1 Corinthians 5:7-8)."
+      },
+      {
+        "word": "זִכָּרוֹן",
+        "translit": "zikkaron",
+        "strongs": "H2146",
+        "gloss": "memorial, remembrance",
+        "verses": "14",
+        "note": "'This day shall be for you a memorial.' Passover is meant to bring the event into every generation's present. Jesus uses the same idea at the Last Supper: 'Do this in remembrance of me.'"
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Christ our Passover lamb",
+        "refs": ["1 Corinthians 5:7", "John 1:29", "1 Peter 1:18-19", "Revelation 5:6-9"],
+        "note": "Paul says plainly that Christ, our Passover lamb, has been sacrificed. Peter speaks of redemption by the precious blood of Christ, like a lamb without blemish."
+      },
+      {
+        "theme": "Not a bone broken",
+        "refs": ["Exodus 12:46", "Numbers 9:12", "Psalm 34:20", "John 19:36"],
+        "note": "John sees the Passover instruction fulfilled when the soldiers did not break Jesus' legs."
+      },
+      {
+        "theme": "The Lord's Supper and Passover",
+        "refs": ["Luke 22:7-20", "Matthew 26:17-29", "1 Corinthians 11:23-26"],
+        "note": "Jesus instituted the Supper during the Passover meal, reinterpreting the bread and cup around his body and his blood of the new covenant."
+      },
+      {
+        "theme": "Removing the leaven",
+        "refs": ["1 Corinthians 5:6-8", "Galatians 5:9", "Matthew 16:6"],
+        "note": "Paul tells the church to clean out the old leaven of malice and wickedness and keep the feast with the bread of sincerity and truth."
+      }
+    ],
+    "context": {
+      "setting": "The tenth plague, announced in chapter 11, is now carried out, but first God gives instructions for the Passover and the Feast of Unleavened Bread. The narrative alternates between the night in Egypt and instructions for every future generation. The month (Abib, later Nisan, in spring) becomes the first month of Israel's year.",
+      "flow": [
+        { "verses": "1-13", "label": "The Passover lamb", "note": "Each household chooses a spotless lamb, kills it at twilight on the fourteenth day, puts its blood on the doorposts and lintel, and eats it roasted with unleavened bread and bitter herbs, dressed to travel. When God sees the blood, he will pass over." },
+        { "verses": "14-20", "label": "Unleavened Bread", "note": "A seven-day feast is commanded for all generations, with leaven removed from every house." },
+        { "verses": "21-28", "label": "Moses instructs the elders", "note": "Hyssop is dipped in blood and applied; no one leaves the house until morning. When children ask what this means, parents are to explain the LORD's Passover. The people bow and obey." },
+        { "verses": "29-36", "label": "Midnight", "note": "The LORD strikes every firstborn in Egypt. A great cry goes up. Pharaoh summons Moses at night and tells Israel to go; the Egyptians urge them out, and Israel leaves with silver, gold and clothing." },
+        { "verses": "37-42", "label": "The departure", "note": "About 600,000 men on foot plus women, children and a mixed multitude leave from Rameses for Succoth, after 430 years. It is a night of watching for the LORD." },
+        { "verses": "43-51", "label": "Who may eat", "note": "No foreigner may eat unless circumcised; one law applies to native and sojourner. Not a bone of the lamb is to be broken." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Corinthians 5:7", "from": "3-6, 21", "note": "'Christ, our Passover lamb, has been sacrificed.' The New Testament's direct identification of Jesus with this chapter." },
+        { "ref": "John 19:36", "from": "46", "note": "'Not one of his bones will be broken' is quoted as fulfilled at the cross." },
+        { "ref": "Hebrews 11:28", "from": "21-23", "note": "By faith Moses kept the Passover and sprinkled the blood, so that the destroyer would not touch Israel's firstborn." }
+      ],
+      "tier2": [
+        { "ref": "Luke 22:14-20", "from": "14, 26-27", "note": "Jesus eagerly desired to eat this Passover before he suffered, and gave its bread and cup new meaning." },
+        { "ref": "1 Peter 1:18-19", "from": "5", "note": "Ransomed not with silver or gold but with the precious blood of Christ, like that of a lamb without blemish or spot." },
+        { "ref": "Galatians 3:17", "from": "40-41", "note": "Paul counts 430 years from the promise to the giving of the law, likely following the Greek text of Exodus 12:40, which includes the patriarchs' time in Canaan." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 51:7", "from": "22", "note": "'Purge me with hyssop.' David draws on the cleansing use of hyssop that began with Passover." },
+        { "ref": "Revelation 7:14", "from": "13", "note": "The great multitude has washed their robes in the blood of the Lamb." },
+        { "ref": "Ephesians 2:12-13, 19", "from": "48-49", "note": "Gentiles, once strangers, are brought near by Christ's blood and made fellow citizens, as the circumcised sojourner could join the Passover." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Charles H. Spurgeon",
+        "work": "Sermons on Exodus 12:13",
+        "view": "Spurgeon repeatedly preached that the Israelite's safety rested on God seeing the blood, not on the person inside seeing it clearly or feeling secure. A trembling believer under the blood was as safe as a confident one, because God looks to the sacrifice of Christ, not to the strength of our faith."
+      },
+      {
+        "name": "N. T. Wright",
+        "work": "Jesus and the Victory of God",
+        "view": "Wright argues that Jesus deliberately chose Passover, the festival of liberation from Egypt, to explain his coming death. By reshaping the meal around himself, he presented his death as the new exodus that would free God's people from their real enemy."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin calls the Passover a sacrament of the Old Testament that pointed to Christ. The blood on the doorposts did not save by any power of its own; God used it as a sign and seal of the deliverance that would finally be accomplished in Christ's sacrifice."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "And the blood shall be to you for a token upon the houses where ye are: and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy you, when I smite the land of Egypt.",
+        "renderings": [
+          { "version": "ESV", "text": "The blood shall be a sign for you" },
+          { "version": "NIV", "text": "The blood will be a sign for you" }
+        ],
+        "note": "'Token' is older English for 'sign' (ot), the same word used for the plagues and the staff. The sign is 'for you,' assuring Israel, but it is God who sees it and passes over."
+      },
+      {
+        "verse": "38",
+        "kjv": "And a mixed multitude went up also with them; and flocks, and herds, even very much cattle.",
+        "renderings": [
+          { "version": "ESV", "text": "A mixed multitude also went up with them" },
+          { "version": "NIV", "text": "Many other people went up with them" }
+        ],
+        "note": "The Hebrew 'erev rav' describes a large crowd of non-Israelites, probably including Egyptians who had come to fear the LORD (9:20) and other slaves. From the start, God's redeemed people included outsiders."
+      }
+    ],
+    "gospel": "Passover is the clearest picture of the gospel in the Old Testament. Every firstborn deserved death, Israel's as well as Egypt's, and the only escape was a spotless lamb dying in their place, its blood marking those who sheltered under it. Jesus died at Passover as the true Lamb of God; not one of his bones was broken; and God passes over in judgment all who are covered by his blood. The meal he gave his disciples that night continues to proclaim his death until he comes.",
+    "application": [
+      "Rest your confidence on the blood of Christ, not on the strength of your feelings. God said, 'When I see the blood.'",
+      "Keep the Lord's Supper as Israel kept Passover: with remembrance, gratitude and readiness to follow God.",
+      "Teach children the meaning of the gospel. God expected them to ask, 'What do you mean by this?'",
+      "Put away 'leaven' from your life, the old ways of malice and wickedness, because Christ has been sacrificed.",
+      "Welcome outsiders. God's law made room for the sojourner who joined his people."
+    ],
+    "misapplications": [
+      {
+        "claim": "Israel was spared because they were more righteous than the Egyptians.",
+        "correction": "The judgment would have struck any house without blood (v23). Israel had complained and doubted (5:21; 6:9). Their safety lay entirely in the substitute God provided."
+      },
+      {
+        "claim": "The blood worked like a magic charm.",
+        "correction": "The blood was a sign 'for you' (v13), applied in obedient faith (Hebrews 11:28). Its power was in God's promise and what it pointed to, not in the substance itself."
+      },
+      {
+        "claim": "Passover was for ethnic Israelites only.",
+        "correction": "A mixed multitude left with Israel (v38), and any foreigner who joined the covenant could eat (v48-49). 'There shall be one law for the native and for the stranger.'"
+      }
+    ],
+    "contrasts": [
+      { "a": "Houses with blood", "b": "Houses without", "verses": "13, 23, 29-30", "note": "The only difference between life and death that night was the blood on the doorframe." },
+      { "a": "Slavery", "b": "Exodus", "verses": "31, 41", "note": "In one night Israel goes from Pharaoh's slaves to the LORD's hosts marching out." },
+      { "a": "Egypt's cry", "b": "Israel's watching", "verses": "30, 42", "note": "A night of wailing for Egypt is a night of vigil for Israel." }
+    ],
+    "features": [
+      { "label": "History and liturgy woven together", "note": "The chapter moves between the first Passover and its yearly observance, so that later generations relive the event rather than merely recall it." },
+      { "label": "A new calendar", "note": "'This month shall be for you the beginning of months' (v2). Redemption resets time for God's people." },
+      { "label": "Questions from children", "note": "The rite is designed to provoke children's questions (v26), making every household a place of teaching. Jewish Passover still includes children's questions." },
+      { "label": "Judgment on the gods", "note": "'On all the gods of Egypt I will execute judgments' (v12; Numbers 33:4). The tenth plague strikes Pharaoh, the supposed son of the gods, through his own heir." }
+    ],
+    "summary": "Exodus 12 is the night of redemption. God provides a lamb whose blood shields Israel's firstborn from the judgment that falls on Egypt, and in one night his people walk out of 430 years of bondage. The Passover is established as a memorial for every generation, and the New Testament declares its fulfillment in Christ, our Passover lamb.",
+    "metaArc": {
+      "book": "Chapter 12 is the climax of the exodus from Egypt and the center of the book's first half. The release from Pharaoh is complete; the journey to Sinai and the life of worship can begin.",
+      "redemptive": "This is Redemption at its most vivid in the Old Testament: substitution, blood, deliverance from death and slavery, and a meal of remembrance, all fulfilled in Christ's death at Passover."
+    }
+  }
+}

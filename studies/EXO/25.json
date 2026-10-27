@@ -1,0 +1,182 @@
+{
+  "ref": "EXO.25",
+  "book": "Exodus",
+  "chapter": 25,
+  "title": "That I May Dwell in Their Midst",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God asks for freewill offerings so that Israel can build him a sanctuary and he can dwell among them. He begins with the furniture at the heart of his dwelling: the ark of the covenant with its mercy seat and cherubim, where he will meet with Moses, the table for the bread of the presence, and the golden lampstand, all made according to the pattern shown on the mountain.",
+  "keyVerses": ["8-9", "21-22", "30", "40"],
+  "steps": {
+    "language": [
+      {
+        "word": "מִשְׁכָּן",
+        "translit": "mishkan",
+        "strongs": "H4908",
+        "gloss": "dwelling place, tabernacle",
+        "verses": "9",
+        "note": "From shakan, 'to dwell, settle' (H7931), used in verse 8: 'that I may dwell in their midst.' The tabernacle is God's tent among his people's tents. John 1:14 says the Word 'tabernacled' among us."
+      },
+      {
+        "word": "תְּרוּמָה",
+        "translit": "terumah",
+        "strongs": "H8641",
+        "gloss": "contribution, offering lifted up",
+        "verses": "2-3",
+        "note": "An offering set apart from one's goods for God. It is to come from 'every man whose heart moves him.' The house of God begins with willing gifts, not taxes."
+      },
+      {
+        "word": "תַּבְנִית",
+        "translit": "tavnit",
+        "strongs": "H8403",
+        "gloss": "pattern, model, plan",
+        "verses": "9, 40",
+        "note": "Moses must build 'exactly as I show you' the pattern of the tabernacle. Hebrews 8:5 says the earthly tabernacle is a copy and shadow of the heavenly things."
+      },
+      {
+        "word": "כַּפֹּרֶת",
+        "translit": "kapporet",
+        "strongs": "H3727",
+        "gloss": "mercy seat, atonement cover",
+        "verses": "17-22",
+        "note": "The gold lid of the ark, from the root kaphar, 'to atone, cover.' On the Day of Atonement blood was sprinkled on it (Leviticus 16:14-15). Paul calls Christ the hilastērion, the Greek word used for the mercy seat, in Romans 3:25."
+      },
+      {
+        "word": "כְּרוּב",
+        "translit": "kerub",
+        "strongs": "H3742",
+        "gloss": "cherub",
+        "verses": "18-22",
+        "note": "Heavenly guardians, last seen guarding the way to the tree of life (Genesis 3:24). Now, facing each other over the mercy seat, they mark the place where God meets his people. The ark is pictured as God's throne or footstool."
+      },
+      {
+        "word": "מְנוֹרָה",
+        "translit": "menorah",
+        "strongs": "H4501",
+        "gloss": "lampstand",
+        "verses": "31-40",
+        "note": "A seven-branched lampstand of pure gold shaped like an almond tree, with buds, blossoms and flowers. Many see it as a stylized tree of life, giving light in God's house."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God dwelling with his people",
+        "refs": ["Exodus 29:45-46", "Leviticus 26:11-12", "John 1:14", "2 Corinthians 6:16", "Revelation 21:3"],
+        "note": "The story of the Bible moves from Eden to the tabernacle to the temple to Christ to the church to the new Jerusalem, where God's dwelling is with man."
+      },
+      {
+        "theme": "The mercy seat",
+        "refs": ["Leviticus 16:13-16", "Romans 3:25", "Hebrews 9:5"],
+        "note": "Paul says God put forward Christ as a 'propitiation' (the mercy-seat word) by his blood, the place where God's wrath is turned away and mercy meets sinners."
+      },
+      {
+        "theme": "Copy and shadow",
+        "refs": ["Hebrews 8:5", "Hebrews 9:23-24", "Acts 7:44"],
+        "note": "Hebrews quotes verse 40 to show the tabernacle points beyond itself to the true sanctuary where Christ ministers."
+      },
+      {
+        "theme": "Bread and light",
+        "refs": ["Leviticus 24:1-9", "John 6:35", "John 8:12", "Revelation 1:12-13, 20"],
+        "note": "The bread of the presence and the lampstand are fulfilled in Christ, the bread of life and light of the world. Revelation pictures the churches as lampstands with Christ among them."
+      }
+    ],
+    "context": {
+      "setting": "Moses is on Sinai for forty days (24:18). Chapters 25-31 give seven speeches of instruction for the tabernacle, its furniture, priesthood and offerings. Chapters 35-40 record the construction in almost the same words. Nearly a third of Exodus is about the tabernacle, showing how central God's presence is to the book. The instructions begin at the center, the ark, and work outward.",
+      "flow": [
+        { "verses": "1-9", "label": "A sanctuary from willing hearts", "note": "God asks for contributions from all whose hearts move them: gold, silver, bronze, yarns, skins, wood, oil, spices and stones, so that they make a sanctuary and he may dwell among them, following the pattern he shows." },
+        { "verses": "10-22", "label": "The ark and mercy seat", "note": "A chest of acacia wood overlaid with gold, carried by poles, holding the testimony. Its gold mercy seat has two cherubim facing each other with wings spread. There God will meet with Moses and speak." },
+        { "verses": "23-30", "label": "The table", "note": "A gold-covered table with plates, dishes, flagons and bowls, holding the bread of the presence continually before God." },
+        { "verses": "31-40", "label": "The lampstand", "note": "A lampstand hammered from a talent of pure gold with six branches and almond-flower cups, and seven lamps giving light. Make it after the pattern shown on the mountain." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 8:5", "from": "40", "note": "Quoting 'See that you make everything according to the pattern that was shown you on the mountain' to show that the tabernacle is a copy and shadow." },
+        { "ref": "Hebrews 9:1-5", "from": "10-31", "note": "Hebrews lists the lampstand, table, bread of presence, ark and cherubim overshadowing the mercy seat." },
+        { "ref": "Romans 3:25", "from": "17", "note": "Christ is put forward as the mercy seat, the place of atonement, by his blood." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 3:24", "from": "18-20", "note": "Cherubim guarded Eden after the fall. Their presence in the tabernacle marks it as a return to God's presence, but with guarded access." },
+        { "ref": "1 Kings 8:6-11", "from": "10-22", "note": "The ark is brought into Solomon's temple beneath the cherubim, and the glory fills the house." },
+        { "ref": "John 1:14", "from": "8-9", "note": "The Word became flesh and dwelt (tabernacled) among us, and we saw his glory." }
+      ],
+      "tier3": [
+        { "ref": "2 Corinthians 9:7", "from": "2", "note": "God loves a cheerful giver, not one who gives reluctantly or under compulsion." },
+        { "ref": "Psalm 80:1; 99:1", "from": "22", "note": "God is described as 'enthroned upon the cherubim.'" },
+        { "ref": "Revelation 11:19", "from": "10", "note": "John sees God's temple in heaven opened and the ark of his covenant within." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Temple and the Church's Mission",
+        "view": "Beale argues that the tabernacle and temple were designed as small models of the cosmos and echoes of Eden, with cherubim, tree-like lampstand and precious materials. God's goal from the start was to extend his dwelling presence to fill the whole earth, a goal fulfilled in Christ and the church."
+      },
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress reads each part of the tabernacle as pointing to Christ: the ark as God's throne and the place of mercy, the bread as God's provision of life, and the lampstand as the light of God's presence. Christ is the true meeting place of God and humanity."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin affirms that the tabernacle shadowed spiritual realities fulfilled in Christ, but warns against speculative allegories that find hidden meanings in every peg and color. Interpreters should hold to what Scripture itself teaches about these types."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "17",
+        "kjv": "And thou shalt make a mercy seat of pure gold: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall make a mercy seat of pure gold" },
+          { "version": "NIV", "text": "Make an atonement cover of pure gold" }
+        ],
+        "note": "'Mercy seat' comes from Tyndale and Luther, following the Greek and Latin. NIV's 'atonement cover' reflects the root kaphar. Both capture something: it covered the ark, and it was the place of atonement and mercy."
+      },
+      {
+        "verse": "30",
+        "kjv": "And thou shalt set upon the table shewbread before me alway.",
+        "renderings": [
+          { "version": "ESV", "text": "the bread of the Presence on the table before me" },
+          { "version": "NIV", "text": "the bread of the Presence on this table" }
+        ],
+        "note": "The Hebrew is 'bread of the face,' bread set before God's face. 'Shewbread' (show-bread) is Tyndale's term. Jesus mentions David eating it (Mark 2:26)."
+      }
+    ],
+    "gospel": "God's great desire is to dwell with his people: 'Let them make me a sanctuary, that I may dwell in their midst.' The tabernacle fulfilled that in part, but the barriers of holiness remained. In Jesus, the Word became flesh and tabernacled among us, and he himself is the mercy seat where God's justice and mercy meet in his blood. He is the bread of the presence and the light of God's house. Through him, God now dwells in his people by the Spirit, and one day the dwelling of God will be with man forever.",
+    "application": [
+      "Give to God's work willingly, from a moved heart, not under pressure.",
+      "Treasure God's presence above everything. Exodus spends more space on the tabernacle than on the plagues.",
+      "Come to Christ as the true mercy seat, where your sin is covered and God meets with you.",
+      "Follow God's pattern in worship, letting his word, not our creativity, define how we approach him.",
+      "Let Christ's light shine through you as part of the church, the lampstand in the world."
+    ],
+    "misapplications": [
+      {
+        "claim": "Every detail of the tabernacle has a hidden spiritual meaning to be decoded.",
+        "correction": "Scripture explains the main typology (Hebrews 8-10), but many details are practical or aesthetic. Interpretation should follow the clear New Testament fulfillment, not speculation."
+      },
+      {
+        "claim": "God needed a house because he cannot be everywhere.",
+        "correction": "Solomon prayed, 'Heaven and the highest heaven cannot contain you' (1 Kings 8:27). The tabernacle was God's gracious choice to be present in a special way among his people, not a limit on him."
+      }
+    ],
+    "contrasts": [
+      { "a": "Heavenly pattern", "b": "Earthly copy", "verses": "9, 40", "note": "The tabernacle reflects a greater heavenly reality." },
+      { "a": "Law in the ark", "b": "Mercy on top", "verses": "16-21", "note": "The tablets of the law that condemn are covered by the place of atoning mercy." },
+      { "a": "Cherubim guarding", "b": "Cherubim overshadowing", "verses": "18-20", "note": "In Eden they kept sinners out; here they mark where God meets sinners." }
+    ],
+    "features": [
+      { "label": "From the center out", "note": "The instructions start with the ark, God's throne, and move outward to the table and lampstand, then the tent and courtyard. God's presence is the center." },
+      { "label": "Seven speeches", "note": "Chapters 25-31 contain seven speeches each beginning 'The LORD said to Moses,' and the seventh concerns the Sabbath, echoing the seven days of creation." },
+      { "label": "Eden imagery", "note": "Gold, precious stones, cherubim and a tree-like lampstand recall the garden where God first walked with humanity (Genesis 2:11-12)." },
+      { "label": "Mobile furniture", "note": "The ark and table have rings and poles. God's dwelling travels with his people." }
+    ],
+    "summary": "Exodus 25 begins the instructions for God's dwelling among Israel. God asks for willing gifts and reveals the pattern for the ark with its mercy seat and cherubim, the table for the bread of the presence, and the golden lampstand. The chapter shows that God's goal in redemption is to live among his people, a goal fulfilled in Christ and completed in the new creation.",
+    "metaArc": {
+      "book": "Chapter 25 opens the tabernacle instructions (chapters 25-31), the largest single section of Exodus. The book that began with Israel building cities for Pharaoh ends with Israel building a dwelling for God.",
+      "redemptive": "This belongs to Redemption pointing to New Creation: God dwelling with his people as in Eden, fulfilled in Christ, the church as God's temple, and the new Jerusalem."
+    }
+  }
+}

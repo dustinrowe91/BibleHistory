@@ -1,0 +1,159 @@
+{
+  "ref": "EXO.27",
+  "book": "Exodus",
+  "chapter": 27,
+  "title": "The Altar at the Entrance",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God describes the bronze altar of burnt offering that stands in the courtyard before the tent, the courtyard with its linen walls and single eastern gate, and the command for pure olive oil to keep the lamp burning before him continually. The way to God's presence begins at the altar.",
+  "keyVerses": ["1-2", "9", "16", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "מִזְבֵּחַ",
+        "translit": "mizbeach",
+        "strongs": "H4196",
+        "gloss": "altar",
+        "verses": "1-8",
+        "note": "From zavach, 'to slaughter for sacrifice.' The bronze altar was the largest piece of furniture, the first thing a worshiper met inside the gate. No one approached God's dwelling without passing the place of sacrifice."
+      },
+      {
+        "word": "קֶרֶן",
+        "translit": "qeren",
+        "strongs": "H7161",
+        "gloss": "horn",
+        "verses": "2",
+        "note": "Horns at the four corners were part of the altar. Blood was put on them for atonement (29:12; Leviticus 4:7), and people seeking mercy grasped them (1 Kings 1:50). Horns symbolize strength."
+      },
+      {
+        "word": "חָצֵר",
+        "translit": "chatser",
+        "strongs": "H2691",
+        "gloss": "court, enclosure",
+        "verses": "9-19",
+        "note": "A rectangle about 150 by 75 feet enclosed by linen hangings on pillars. It marked out holy space around the tent, separating it from the camp."
+      },
+      {
+        "word": "תָּמִיד",
+        "translit": "tamid",
+        "strongs": "H8548",
+        "gloss": "continually, regularly",
+        "verses": "20",
+        "note": "The lamp was to burn 'continually' from evening to morning. Tamid describes things in God's service that never stop: the bread of presence, the daily offering, the lamp. God's house is never dark or neglected."
+      },
+      {
+        "word": "אֹהֶל מוֹעֵד",
+        "translit": "ohel mo'ed",
+        "gloss": "tent of meeting",
+        "verses": "21",
+        "note": "The first time this name appears. Mo'ed (H4150) means an appointed meeting or time. The tabernacle is where God appoints to meet with his people (29:42-43)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Sacrifice at the entrance",
+        "refs": ["Leviticus 1:3-5", "Leviticus 17:11", "Hebrews 13:10-12"],
+        "note": "Burnt offerings were brought 'to the entrance of the tent of meeting.' Hebrews says 'we have an altar,' Christ, who suffered outside the gate."
+      },
+      {
+        "theme": "One way in",
+        "refs": ["John 10:7-9", "John 14:6", "Ephesians 2:18"],
+        "note": "The courtyard had one gate. Jesus says, 'I am the door,' and 'No one comes to the Father except through me.'"
+      },
+      {
+        "theme": "The lamp that does not go out",
+        "refs": ["Leviticus 24:1-4", "1 Samuel 3:3", "Revelation 21:23; 22:5"],
+        "note": "Samuel slept in the temple 'before the lamp of God had gone out.' In the new Jerusalem there is no need of lamp or sun, for the Lord God is its light."
+      }
+    ],
+    "context": {
+      "setting": "Having described the tent (chapter 26), God turns to the courtyard around it. The worshiper entering from the east would first meet the bronze altar, then the laver (described in 30:17-21), then the tent itself. The chapter ends by mentioning the oil and introducing Aaron's priesthood, which chapter 28 develops.",
+      "flow": [
+        { "verses": "1-8", "label": "The bronze altar", "note": "A square altar of acacia wood overlaid with bronze, five cubits square and three high, with horns at the corners, bronze utensils, a grating and poles for carrying. Make it hollow, as shown on the mountain." },
+        { "verses": "9-19", "label": "The courtyard", "note": "Linen hangings on bronze-based pillars enclose a court 100 by 50 cubits. On the east side a single gate with an embroidered screen of blue, purple and scarlet." },
+        { "verses": "20-21", "label": "Oil for the lamp", "note": "Israel brings pure beaten olive oil so the lamp may burn continually. Aaron and his sons tend it in the tent of meeting, outside the veil, from evening to morning, a statute forever." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 38:1-20", "from": "1-19", "note": "The altar and courtyard are built exactly as commanded." },
+        { "ref": "Leviticus 24:2-4", "from": "20-21", "note": "The command about the lamp's oil is repeated with the instruction to arrange the lamps before the LORD regularly." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 13:10-13", "from": "1", "note": "'We have an altar' from which those serving the tent have no right to eat; Jesus suffered outside the gate." },
+        { "ref": "1 Kings 1:50; 2:28", "from": "2", "note": "Adonijah and Joab grasp the altar's horns seeking mercy, showing they were a place of refuge." },
+        { "ref": "Matthew 25:1-13", "from": "20", "note": "In the parable, wise virgins keep oil for their lamps, ready for the bridegroom." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 100:4", "from": "9-19", "note": "Enter his gates with thanksgiving and his courts with praise." },
+        { "ref": "Revelation 6:9", "from": "1", "note": "John sees under the heavenly altar the souls of those slain for the word of God." },
+        { "ref": "Zechariah 4:1-6", "from": "20", "note": "Zechariah's vision of a lampstand fed by olive trees teaches 'Not by might, nor by power, but by my Spirit.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry sees in the altar standing at the entrance the lesson that sinners can approach God only through sacrifice, and he applies it to Christ, whose sacrifice is the foundation of all acceptable worship."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken emphasizes that the single gate and the altar just inside it taught Israel there was only one way to God, through sacrifice. He connects this to Jesus' claim to be the door and the one sacrifice for sin."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always.",
+        "renderings": [
+          { "version": "ESV", "text": "that a lamp may regularly be set up to burn" },
+          { "version": "NIV", "text": "so that the lamps may be kept burning" }
+        ],
+        "note": "The Hebrew tamid can mean 'always' or 'regularly.' Verse 21 says the lamp burned 'from evening to morning,' so many take it as a lamp tended every night without fail, rather than one that never went out by day."
+      },
+      {
+        "verse": "1",
+        "kjv": "And thou shalt make an altar of shittim wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall make the altar of acacia wood" },
+          { "version": "NIV", "text": "Build an altar of acacia wood" }
+        ],
+        "note": "'Shittim' is a transliteration of the Hebrew name for acacia, a hard desert wood resistant to rot, used throughout the tabernacle."
+      }
+    ],
+    "gospel": "The first thing inside the gate was the altar, because no one could come to God without a sacrifice. Christ is both the gate and the sacrifice. He is the one door to the Father, and his death is the altar where sin is dealt with once for all. Like those who fled to the altar's horns for mercy, sinners may run to him. And the lamp kept burning before God reminds us that his presence is never left dark; Christ is the light of the world, and his people shine with his light.",
+    "application": [
+      "Approach God through Christ's sacrifice, not around it.",
+      "Rejoice that there is a gate: God made a way in, even though it is only one way.",
+      "Keep the 'lamp' burning: faithful daily devotion, worship and prayer.",
+      "Bring your best to God's service, as Israel brought pure beaten oil."
+    ],
+    "misapplications": [
+      {
+        "claim": "All religious paths lead equally into God's presence.",
+        "correction": "The courtyard had a single gate on the east (v16), and the altar stood just inside. God sets the terms of approach, and the New Testament names Christ as the one way."
+      },
+      {
+        "claim": "The perpetual lamp means believers must keep a physical flame or ritual going.",
+        "correction": "The lamp served Israel's tabernacle worship. Its fulfillment is Christ, the light of the world, and the church as his lampstand (Revelation 1:20)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Bronze outside", "b": "Gold inside", "verses": "2-3, 17", "note": "The materials of the courtyard are less precious than those inside the tent, marking increasing holiness." },
+      { "a": "The camp", "b": "The court", "verses": "9-18", "note": "Linen walls marked off holy space from ordinary life." },
+      { "a": "Evening", "b": "Morning", "verses": "21", "note": "Through the night, light burned before God." }
+    ],
+    "features": [
+      { "label": "Largest piece", "note": "The altar was larger than all the other furniture combined, emphasizing the central place of sacrifice." },
+      { "label": "Pattern repeated", "note": "'As it has been shown you on the mountain' (v8) recalls 25:9, 40 and 26:30." },
+      { "label": "Courtyard proportions", "note": "100 by 50 cubits, with the tent placed toward the western half, so the altar stood in the middle of the open eastern space." }
+    ],
+    "summary": "Exodus 27 describes the bronze altar of burnt offering, the courtyard enclosing the tabernacle, and the oil for the lamp that burns before God each night. Its arrangement teaches that the way into God's presence goes through one gate and past one altar of sacrifice, pointing to Christ, the door and the offering for sin.",
+    "metaArc": {
+      "book": "Chapter 27 completes the description of the tabernacle complex and introduces the priests who tend it, leading into the priestly garments (chapter 28) and ordination (chapter 29).",
+      "redemptive": "This belongs to Redemption: sacrifice is the way to God's presence, fulfilled in Christ, while the perpetual light anticipates New Creation's light that never fades."
+    }
+  }
+}

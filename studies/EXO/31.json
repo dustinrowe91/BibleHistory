@@ -1,0 +1,160 @@
+{
+  "ref": "EXO.31",
+  "book": "Exodus",
+  "chapter": 31,
+  "title": "Filled with the Spirit of God",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God calls Bezalel by name and fills him with his Spirit for skilled artistry, appointing Oholiab and other gifted workers to build everything he has commanded. He then gives the Sabbath as the sign of his covenant, the sign that he sanctifies Israel, and hands Moses the two tablets written by the finger of God.",
+  "keyVerses": ["2-3", "6", "13", "18"],
+  "steps": {
+    "language": [
+      {
+        "word": "קָרָא בְשֵׁם",
+        "translit": "qara be-shem",
+        "gloss": "to call by name",
+        "verses": "2",
+        "note": "'I have called by name Bezalel.' The same phrase God uses for calling Israel (Isaiah 43:1) and Cyrus (Isaiah 45:3-4). An artisan is chosen as personally as a prophet."
+      },
+      {
+        "word": "רוּחַ אֱלֹהִים",
+        "translit": "ruach elohim",
+        "gloss": "Spirit of God",
+        "verses": "3",
+        "note": "The first person in Scripture said to be 'filled with the Spirit of God' is a craftsman. The same phrase describes the Spirit hovering over the waters at creation (Genesis 1:2), fitting for one who builds a small model of God's world."
+      },
+      {
+        "word": "חָכְמָה",
+        "translit": "chokmah",
+        "strongs": "H2451",
+        "gloss": "wisdom, skill",
+        "verses": "3, 6",
+        "note": "In Hebrew, wisdom includes practical skill: knowing how to make something well. God gives wisdom to metalworkers, stonecutters and woodcarvers as truly as to kings and sages."
+      },
+      {
+        "word": "אוֹת",
+        "translit": "ot",
+        "strongs": "H226",
+        "gloss": "sign",
+        "verses": "13, 17",
+        "note": "The Sabbath is 'a sign between me and you,' as the rainbow was for Noah and circumcision for Abraham. It marks Israel as the people God sanctifies."
+      },
+      {
+        "word": "נָפַשׁ",
+        "translit": "naphash",
+        "strongs": "H5314",
+        "gloss": "to be refreshed, catch one's breath",
+        "verses": "17",
+        "note": "'On the seventh day he rested and was refreshed.' A bold word applied to God, from the same root as nephesh (life, breath). God's rest is joyful completion, not recovery from tiredness."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Spirit gives gifts for building God's house",
+        "refs": ["Exodus 35:30-35", "1 Kings 7:13-14", "1 Corinthians 12:4-11", "Ephesians 4:11-12"],
+        "note": "Hiram the bronze worker is described in similar terms for Solomon's temple. In the New Testament the Spirit gives varied gifts to build up the church."
+      },
+      {
+        "theme": "The Sabbath as sign",
+        "refs": ["Ezekiel 20:12, 20", "Nehemiah 13:15-22", "Mark 2:27-28", "Hebrews 4:9-11"],
+        "note": "Ezekiel echoes verse 13: 'I gave them my Sabbaths, as a sign between me and them, that they might know that I am the LORD who sanctifies them.'"
+      },
+      {
+        "theme": "The finger of God",
+        "refs": ["Exodus 8:19", "Deuteronomy 9:10", "Luke 11:20", "2 Corinthians 3:3"],
+        "note": "Paul contrasts tablets of stone with the Spirit writing on tablets of human hearts."
+      }
+    ],
+    "context": {
+      "setting": "This is the last of the seven speeches in the tabernacle instructions (25:1-31:18). The sixth speech appoints craftsmen; the seventh is the Sabbath, echoing God's rest on the seventh day of creation. The chapter ends Moses' forty days on the mountain, leading straight into the golden calf.",
+      "flow": [
+        { "verses": "1-5", "label": "Bezalel filled with the Spirit", "note": "God calls Bezalel of Judah and fills him with the Spirit of God, with skill, intelligence and knowledge for gold, silver, bronze, stone and wood." },
+        { "verses": "6-11", "label": "Oholiab and the skilled", "note": "God appoints Oholiab of Dan and puts skill in the hearts of all the able, to make the tent, ark, furniture, garments, oil and incense as commanded." },
+        { "verses": "12-17", "label": "The Sabbath sign", "note": "Above all, keep my Sabbaths, a sign that I sanctify you. Whoever profanes it is to be put to death. Six days work, the seventh is holy rest, because God made heaven and earth in six days and rested." },
+        { "verses": "18", "label": "The two tablets", "note": "God gives Moses the two tablets of the testimony, stone tablets written by the finger of God." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 35:30-36:2", "from": "1-6", "note": "Moses announces Bezalel's calling and the work begins." },
+        { "ref": "Ezekiel 20:12", "from": "13", "note": "Ezekiel quotes the Sabbath as the sign that the LORD sanctifies Israel." },
+        { "ref": "Deuteronomy 9:10", "from": "18", "note": "Moses recalls the two tablets written with the finger of God." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 2:1-3", "from": "17", "note": "God finished his work and rested on the seventh day and made it holy." },
+        { "ref": "2 Corinthians 3:3", "from": "18", "note": "Believers are a letter from Christ, written not on tablets of stone but on human hearts by the Spirit." },
+        { "ref": "1 Chronicles 2:18-20", "from": "2", "note": "Bezalel's genealogy in Judah, grandson of Hur, links him to the line of Judah and of David." }
+      ],
+      "tier3": [
+        { "ref": "Colossians 2:16-17", "from": "13-17", "note": "Paul calls Sabbaths a shadow of things to come; the substance belongs to Christ." },
+        { "ref": "Ephesians 2:10", "from": "3-5", "note": "We are God's workmanship, created for good works he prepared beforehand." },
+        { "ref": "Matthew 11:28-29", "from": "17", "note": "Jesus offers rest for the soul to all who come to him." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken uses Bezalel to affirm the dignity of art and craftsmanship. The first person filled with God's Spirit was an artist, which shows that skilled, beautiful work can be a calling from God and an offering for his glory."
+      },
+      {
+        "name": "Meredith G. Kline",
+        "work": "The Structure of Biblical Authority",
+        "view": "Kline argues that the two tablets were not divided into two parts of the law but were duplicate copies of the whole covenant document, as with ancient treaties: one for God and one for Israel, both placed in the ark."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "Speak thou also unto the children of Israel, saying, Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations; that ye may know that I am the LORD that doth sanctify you.",
+        "renderings": [
+          { "version": "ESV", "text": "Above all you shall keep my Sabbaths" },
+          { "version": "NIV", "text": "You must observe my Sabbaths" }
+        ],
+        "note": "The Hebrew opens with an emphatic particle ('surely,' 'only,' 'above all'). Coming at the end of the tabernacle instructions, it may mean that even building God's house must not override the Sabbath."
+      },
+      {
+        "verse": "3",
+        "kjv": "And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship,",
+        "renderings": [
+          { "version": "ESV", "text": "I have filled him with the Spirit of God" },
+          { "version": "NIV", "text": "I have filled him with the Spirit of God" }
+        ],
+        "note": "KJV prints 'spirit' in lower case; modern versions capitalize it as the Holy Spirit. The Hebrew allows either, but the gift comes directly from God and matches later descriptions of the Spirit's work."
+      }
+    ],
+    "gospel": "The Spirit who filled Bezalel to build God's earthly dwelling now fills God's people to build a living temple, the church, with Christ as its cornerstone. The Sabbath was a sign that God sanctifies his people, and its rest points to Christ, who finished the work of redemption and gives rest to all who come to him. And the law written by God's finger on stone would be broken in the very next chapter; the new covenant promises that the Spirit will write it on hearts.",
+    "application": [
+      "See skilled work, art and craftsmanship as gifts of God's Spirit to be used for his glory.",
+      "Recognize that God calls ordinary people by name for specific work in his kingdom.",
+      "Keep a rhythm of rest that reflects trust that God, not you, sanctifies and sustains.",
+      "Work together. Bezalel led, Oholiab assisted, and many gifted hearts contributed."
+    ],
+    "misapplications": [
+      {
+        "claim": "Only preaching and spiritual leadership are true callings from God.",
+        "correction": "God calls Bezalel by name, fills him with his Spirit and gives him skill for metalwork, stonecutting and carving (v2-5). Craftsmanship can be a Spirit-given vocation."
+      },
+      {
+        "claim": "Christians must keep the Sabbath exactly as Israel did, including the death penalty.",
+        "correction": "The Sabbath was the sign of the Sinai covenant (v13, 16). The New Testament sees it fulfilled in Christ's rest (Colossians 2:16-17; Hebrews 4), while Christians debate how the principle of a day of rest and worship applies."
+      }
+    ],
+    "contrasts": [
+      { "a": "Six days of work", "b": "The seventh of rest", "verses": "15", "note": "Work and rest together reflect God's own pattern." },
+      { "a": "Human skill", "b": "Spirit-given skill", "verses": "3, 6", "note": "Natural ability is itself God's gift, and he fills it for his purposes." },
+      { "a": "Tablets of stone", "b": "God's own writing", "verses": "18", "note": "The covenant document is authored by God himself." }
+    ],
+    "features": [
+      { "label": "Creation echoes", "note": "Seven speeches ending in Sabbath, a Spirit-filled builder and a dwelling with cherubim and tree-like lampstand all recall Genesis 1-2." },
+      { "label": "Judah and Dan", "note": "Bezalel comes from Judah, the leading tribe; Oholiab from Dan, one of the least. God uses people from the whole community." },
+      { "label": "A dramatic pivot", "note": "Verse 18 ends the instructions with God's tablets in Moses' hands. Chapter 32 opens with the people making an idol at the foot of the mountain." }
+    ],
+    "summary": "Exodus 31 completes the tabernacle instructions by calling Spirit-filled craftsmen to build God's dwelling and by giving the Sabbath as the sign of the covenant, rooted in God's rest at creation. Moses receives the two tablets written by the finger of God. The chapter shows God equipping his people for his work and marking them as his own.",
+    "metaArc": {
+      "book": "Chapter 31 closes the first tabernacle section (25-31). The covenant tablets in Moses' hands set up the tragic contrast of the golden calf in chapter 32.",
+      "redemptive": "This belongs to Redemption and anticipates New Creation: the Spirit equips God's people to build his dwelling, and Sabbath rest points to the eternal rest God gives in Christ."
+    }
+  }
+}

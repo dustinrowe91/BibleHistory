@@ -1,0 +1,161 @@
+{
+  "ref": "EXO.39",
+  "book": "Exodus",
+  "chapter": 39,
+  "title": "As the LORD Had Commanded Moses",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "The workers make the priestly garments: the ephod, the breastpiece with the twelve tribes' names, the blue robe, the tunics and the gold plate 'Holy to the LORD,' each 'as the LORD had commanded Moses.' Then they bring the finished work to Moses, who inspects it, sees that it has all been done as God commanded, and blesses them.",
+  "keyVerses": ["1", "30", "32", "42-43"],
+  "steps": {
+    "language": [
+      {
+        "word": "כַּאֲשֶׁר צִוָּה יְהוָה",
+        "translit": "ka'asher tsivvah YHWH",
+        "gloss": "as the LORD commanded",
+        "verses": "1, 5, 7, 21, 26, 29, 31, 32, 42, 43",
+        "note": "The refrain 'as the LORD had commanded Moses' appears seven times in the making of the garments (v1-31) and again at the close. It marks complete, precise obedience, the reverse of the calf."
+      },
+      {
+        "word": "כָּלָה",
+        "translit": "kalah",
+        "strongs": "H3615",
+        "gloss": "to finish, complete",
+        "verses": "32",
+        "note": "'Thus all the work of the tabernacle was finished.' The same verb is used when God 'finished' the work of creation (Genesis 2:1-2)."
+      },
+      {
+        "word": "רָאָה",
+        "translit": "ra'ah",
+        "strongs": "H7200",
+        "gloss": "to see, look",
+        "verses": "43",
+        "note": "'Moses saw all the work, and behold...' This echoes 'God saw everything that he had made, and behold, it was very good' (Genesis 1:31)."
+      },
+      {
+        "word": "בָּרַךְ",
+        "translit": "barak",
+        "strongs": "H1288",
+        "gloss": "to bless",
+        "verses": "43",
+        "note": "'And Moses blessed them.' God blessed the seventh day and his creatures (Genesis 1:22, 28; 2:3). Moses blesses the people at the completion of their work."
+      },
+      {
+        "word": "קֹדֶשׁ לַיהוָה",
+        "translit": "qodesh la-YHWH",
+        "gloss": "Holy to the LORD",
+        "verses": "30",
+        "note": "Engraved on the gold plate of the turban, like a signet. The garments end with this inscription, which sums up their purpose."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Creation and tabernacle",
+        "refs": ["Genesis 1:31-2:3", "Exodus 40:33", "Revelation 21:5-6"],
+        "note": "Saw, finished, blessed: the vocabulary of creation week appears at the tabernacle's completion. God's dwelling is a new creation in miniature, and Revelation ends with 'It is done' and all things made new."
+      },
+      {
+        "theme": "Obedience as God commanded",
+        "refs": ["Genesis 6:22", "Deuteronomy 5:32", "John 14:15", "John 17:4"],
+        "note": "Noah 'did all that God commanded him' in building the ark. Jesus told the Father, 'I have accomplished the work that you gave me to do.'"
+      },
+      {
+        "theme": "Holy to the LORD",
+        "refs": ["Zechariah 14:20-21", "Revelation 14:1"],
+        "note": "What was once written on the high priest's turban will one day be written on everything and on every redeemed forehead."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 39 records the making of the garments described in chapter 28, then the presentation of all the work to Moses (v32-43). It is the last stage before the tabernacle is erected and filled with glory in chapter 40.",
+      "flow": [
+        { "verses": "1-7", "label": "The ephod", "note": "Gold is hammered into thin sheets and cut into threads to weave with the colored yarns. Onyx stones engraved with the tribes' names are set on the shoulder pieces." },
+        { "verses": "8-21", "label": "The breastpiece", "note": "The square breastpiece is made with twelve stones in four rows, each engraved with a tribe's name, fastened to the ephod with gold chains and blue cord." },
+        { "verses": "22-26", "label": "The robe", "note": "The blue robe with pomegranates and gold bells alternating around the hem." },
+        { "verses": "27-31", "label": "Tunics and the holy plate", "note": "Linen tunics, turban, caps, undergarments and sash, and the gold plate engraved 'Holy to the LORD' tied to the turban with blue cord." },
+        { "verses": "32-43", "label": "The work presented and blessed", "note": "All the work is finished. The people bring the tent and every item to Moses. He sees that they have done it all as the LORD commanded, and he blesses them." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 28:1-43", "from": "1-31", "note": "Each garment is made according to the instructions." },
+        { "ref": "Genesis 1:31; 2:1-3", "from": "32, 43", "note": "The language of seeing, finishing and blessing deliberately echoes creation." },
+        { "ref": "Leviticus 8:7-9", "from": "1-31", "note": "Moses clothes Aaron in these garments at his ordination." }
+      ],
+      "tier2": [
+        { "ref": "1 Kings 7:51; 8:14", "from": "32, 43", "note": "When Solomon's temple was finished, he blessed the assembly of Israel." },
+        { "ref": "John 19:30", "from": "32", "note": "'It is finished.' Christ completes the work of redemption." },
+        { "ref": "Hebrews 3:2-6", "from": "42-43", "note": "Moses was faithful in all God's house as a servant; Christ is faithful over God's house as a Son." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 25:21", "from": "43", "note": "'Well done, good and faithful servant.' Faithful work receives blessing." },
+        { "ref": "Philippians 1:6", "from": "32", "note": "He who began a good work will bring it to completion." },
+        { "ref": "Revelation 21:19-20", "from": "10-13", "note": "The precious stones of the breastpiece reappear in the foundations of the new Jerusalem." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Temple and the Church's Mission",
+        "view": "Beale points to the parallels between the completion of the tabernacle and the completion of creation, including seeing, finishing and blessing. He takes them as evidence that the tabernacle was meant as a small model of the cosmos and of Eden, the place where God dwells with his people."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken highlights the repeated phrase 'as the LORD had commanded Moses' as the theme of the chapter. After the disaster of the calf, Israel is now marked by careful obedience, and he applies this to Christians, whose obedience is the fruit of grace."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "32",
+        "kjv": "Thus was all the work of the tabernacle of the tent of the congregation finished: and the children of Israel did according to all that the LORD commanded Moses, so did they.",
+        "renderings": [
+          { "version": "ESV", "text": "the tabernacle of the tent of meeting was finished" },
+          { "version": "NIV", "text": "the tabernacle, the tent of meeting, was completed" }
+        ],
+        "note": "'Tent of the congregation' (KJV) and 'tent of meeting' translate ohel mo'ed. 'Meeting' is closer to the sense: the tent where God appoints to meet with his people (29:42-43)."
+      },
+      {
+        "verse": "43",
+        "kjv": "And Moses did look upon all the work, and, behold, they had done it as the LORD had commanded, even so had they done it: and Moses blessed them.",
+        "renderings": [
+          { "version": "ESV", "text": "And Moses saw all the work, and behold" },
+          { "version": "NIV", "text": "Moses inspected the work and saw" }
+        ],
+        "note": "ESV and KJV keep 'and behold,' preserving the echo of Genesis 1:31. NIV's 'inspected' is clear but loses the link."
+      }
+    ],
+    "gospel": "The high priest's garments are finished, bearing the tribes' names over his heart and 'Holy to the LORD' on his forehead. They wait for the priest who will wear them. Christ is the true high priest who needs no garment of gold to be holy, and he finished the work the Father gave him. As Moses looked on the finished tabernacle and blessed the people, God looked on the finished work of his Son and was pleased, and through him blesses his people.",
+    "application": [
+      "Do God's work 'as the LORD commanded,' with careful attention to his word.",
+      "Finish what God gives you to do; faithfulness over time matters.",
+      "Leaders, review and bless the work of those you serve with, as Moses did.",
+      "Rest in Christ's finished work as the foundation of all your service."
+    ],
+    "misapplications": [
+      {
+        "claim": "Precise obedience is legalism.",
+        "correction": "This obedience came from people who had been forgiven (chapter 34) and who gave willingly (chapters 35-36). Careful obedience in response to grace is love, not legalism (John 14:15)."
+      },
+      {
+        "claim": "Only Moses' work mattered; the people just carried things.",
+        "correction": "The text says 'the people of Israel had done all the work' (v42). The blessing falls on the whole community."
+      }
+    ],
+    "contrasts": [
+      { "a": "The calf", "b": "The tabernacle", "verses": "32, 42", "note": "Gold shaped by human design for idolatry versus gold shaped by God's design for true worship." },
+      { "a": "Command", "b": "Completion", "verses": "32", "note": "Everything God said in chapters 25-31, Israel did." },
+      { "a": "Separate parts", "b": "Finished whole", "verses": "33-41", "note": "Every piece is brought together for the first time, ready to be assembled." }
+    ],
+    "features": [
+      { "label": "Sevenfold refrain", "note": "'As the LORD commanded Moses' occurs seven times in verses 1-31, and chapter 40 has another seven, a structure of complete obedience." },
+      { "label": "Inventory in procession", "note": "Verses 33-41 list every item as it is brought to Moses, a kind of parade of obedience." },
+      { "label": "Gold thread", "note": "The detail of gold hammered thin and cut into threads (v3) is unique to this chapter, showing the skill involved." }
+    ],
+    "summary": "Exodus 39 completes the priestly garments and all the work of the tabernacle. Repeatedly, Israel does everything 'as the LORD had commanded Moses.' Moses sees the finished work and blesses the people, in words that echo God's completing and blessing of creation. The obedience of a forgiven people prepares for God's glory to fill his house.",
+    "metaArc": {
+      "book": "Chapter 39 brings the construction to completion and presents it to Moses, the final step before the tabernacle is raised and filled with God's glory in chapter 40.",
+      "redemptive": "This belongs to Redemption pointing to New Creation: a finished dwelling, blessed like creation, anticipating Christ's finished work and the new heavens and new earth."
+    }
+  }
+}

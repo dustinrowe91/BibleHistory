@@ -1,0 +1,154 @@
+{
+  "ref": "EXO.6",
+  "book": "Exodus",
+  "chapter": 6,
+  "title": "I Will Take You to Be My People",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God answers Moses' discouragement by renewing his name and covenant: I am the LORD, and I will bring you out, deliver you, redeem you, take you as my people and be your God. A genealogy then roots Moses and Aaron in Israel's family history before the confrontation resumes.",
+  "keyVerses": ["2-3", "6-8", "12"],
+  "steps": {
+    "language": [
+      {
+        "word": "גָּאַל",
+        "translit": "ga'al",
+        "strongs": "H1350",
+        "gloss": "to redeem, act as kinsman-redeemer",
+        "verses": "6",
+        "note": "The go'el was the near relative who bought back a family member sold into slavery, recovered lost land or avenged a death (Leviticus 25:25, 48; Ruth 4). God presents himself as Israel's next of kin, obligated by family love to set them free."
+      },
+      {
+        "word": "אֵל שַׁדָּי",
+        "translit": "El Shaddai",
+        "gloss": "God Almighty",
+        "verses": "3",
+        "note": "The name by which God appeared to the patriarchs (Genesis 17:1; 28:3; 35:11), usually in connection with promises of descendants. The patriarchs received promises; Israel is about to see them kept."
+      },
+      {
+        "word": "סְבָלָה",
+        "translit": "sevalah",
+        "strongs": "H5450",
+        "gloss": "burden, forced labor",
+        "verses": "6-7",
+        "note": "'I will bring you out from under the burdens of the Egyptians.' The word appeared in 1:11 and 2:11 and 5:4-5. God speaks directly to what Israel has felt."
+      },
+      {
+        "word": "קֹצֶר רוּחַ",
+        "translit": "qotser ruach",
+        "gloss": "shortness of spirit, broken spirit",
+        "verses": "9",
+        "note": "Israel would not listen 'because of their broken spirit and harsh slavery.' Literally 'shortness of breath.' Suffering can leave people too exhausted to hope, and the text treats this with understanding, not blame."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "I will be your God and you shall be my people",
+        "refs": ["Genesis 17:7-8", "Leviticus 26:12", "Jeremiah 31:33", "2 Corinthians 6:16", "Revelation 21:3"],
+        "note": "The covenant formula runs from Abraham to the new Jerusalem. It is the heart of every covenant and the goal of redemption."
+      },
+      {
+        "theme": "An outstretched arm",
+        "refs": ["Deuteronomy 4:34", "Deuteronomy 26:8", "Psalm 136:12", "Isaiah 53:1"],
+        "note": "Israel's confession of the exodus repeatedly names God's 'mighty hand and outstretched arm.' Isaiah asks, 'To whom has the arm of the LORD been revealed?' and answers with the suffering servant."
+      },
+      {
+        "theme": "Uncircumcised lips",
+        "refs": ["Jeremiah 6:10", "Isaiah 6:5", "Acts 7:51"],
+        "note": "Uncircumcision pictures something closed, unfit or unresponsive: lips, ears or heart. Moses feels his mouth is unfit for God's service."
+      }
+    ],
+    "context": {
+      "setting": "Moses has just accused God of not delivering his people (5:22-23). God answers in 6:1-8 with one of the richest covenant passages in the Old Testament. Verses 10-13 and 28-30 restate Moses' commission, framing a genealogy of Reuben, Simeon and Levi that focuses on the family of Aaron and Moses.",
+      "flow": [
+        { "verses": "1", "label": "Now you shall see", "note": "God promises that Pharaoh will not only let Israel go but drive them out by a strong hand." },
+        { "verses": "2-5", "label": "I am the LORD", "note": "God appeared to the patriarchs as God Almighty but did not make himself known to them by his name the LORD in the way he now will. He has heard the groaning and remembered his covenant." },
+        { "verses": "6-8", "label": "Seven 'I will' promises", "note": "Bring you out, deliver you, redeem you, take you as my people, be your God, bring you into the land, give it to you: all framed by 'I am the LORD.'" },
+        { "verses": "9-13", "label": "Broken spirits and faltering lips", "note": "Israel cannot listen for anguish, and Moses protests that if Israel will not listen, Pharaoh certainly will not." },
+        { "verses": "14-27", "label": "The family of Moses and Aaron", "note": "A genealogy of the first three tribes narrows to Levi, Amram, Aaron and Moses, and to Aaron's son Eleazar and grandson Phinehas." },
+        { "verses": "28-30", "label": "The commission resumed", "note": "The narrative returns to Moses' objection about his uncircumcised lips." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 17:1-8", "from": "3-4", "note": "God appeared to Abram as God Almighty and promised land and an everlasting covenant to be his God." },
+        { "ref": "Exodus 2:24", "from": "5", "note": "The words 'heard the groaning' and 'remembered my covenant' repeat the end of chapter 2." }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 7:8", "from": "6", "note": "The LORD redeemed Israel from slavery because he loved them and kept the oath he swore to their fathers." },
+        { "ref": "Titus 2:14", "from": "6-7", "note": "Christ gave himself to redeem us and to purify for himself a people for his own possession, the same pattern in the new covenant." },
+        { "ref": "Numbers 3:1-4; 26:57-61", "from": "16-25", "note": "Later genealogies of Levi and Aaron's sons, including Nadab and Abihu, who will die for offering unauthorized fire." }
+      ],
+      "tier3": [
+        { "ref": "1 Peter 2:9-10", "from": "7", "note": "Once not a people, now God's people: the church inherits the covenant formula." },
+        { "ref": "Ruth 4:1-10", "from": "6", "note": "Boaz as kinsman-redeemer shows the family meaning of ga'al that God applies to himself." },
+        { "ref": "Matthew 1:1-17", "from": "14-25", "note": "Like Exodus 6, Matthew pauses the story to root the deliverer in a family line." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. Alec Motyer",
+        "work": "The Message of Exodus",
+        "view": "Motyer argues that verse 3 does not mean the patriarchs had never heard the name LORD, since Genesis uses it often. It means they had not experienced what the name signifies: the God who redeems his people and judges his enemies, which the exodus would display."
+      },
+      {
+        "name": "Douglas K. Stuart",
+        "work": "Exodus (New American Commentary)",
+        "view": "Stuart notes that the genealogy is selective, giving only enough to establish the priestly line of Levi and the legitimacy of Moses and Aaron, and that the lifespans and generations listed need not account for every generation of the sojourn."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.",
+        "renderings": [
+          { "version": "ESV", "text": "by my name the LORD I did not make myself known" },
+          { "version": "NIV", "text": "I did not make myself fully known to them" }
+        ],
+        "note": "Genesis uses the name LORD many times, including on the lips of the patriarchs, so 'known' here likely means known by experience. NIV adds 'fully' to make this clear. 'Jehovah' is an older English form combining the consonants YHWH with the vowels of 'Adonai.'"
+      },
+      {
+        "verse": "12",
+        "kjv": "And Moses spake before the LORD, saying, Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?",
+        "renderings": [
+          { "version": "ESV", "text": "since I am of uncircumcised lips" },
+          { "version": "NIV", "text": "since I speak with faltering lips" }
+        ],
+        "note": "ESV and KJV keep the Hebrew image; NIV explains it. The image ties Moses' sense of unfitness to the covenant sign that featured in 4:24-26."
+      }
+    ],
+    "gospel": "God's seven promises in verses 6-8 are a summary of salvation: freed from slavery, redeemed by a kinsman, adopted as God's people, given an inheritance. Christ fulfills each. He became our kinsman by taking on flesh, redeemed us with his blood, made us God's people and secured an inheritance that cannot fade. Israel, broken in spirit, could not even listen; salvation rested entirely on 'I am the LORD,' not on their capacity to hope.",
+    "application": [
+      "When discouraged, return to who God is and what he has promised. God answered Moses with his name and his 'I will.'",
+      "Be patient with those whose spirits are broken by suffering; God was patient with Israel.",
+      "Rest in the fact that salvation depends on God's faithfulness, not on the strength of your faith at a given moment.",
+      "Value your spiritual family history. God works through generations and remembers names."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 3 proves the patriarchs never knew the name LORD, so Genesis must come from different sources.",
+        "correction": "The word 'know' often means to experience. The patriarchs used the name (Genesis 15:7; 28:13) but had not seen the great act of redemption that would reveal its meaning."
+      },
+      {
+        "claim": "The genealogy is an irrelevant interruption.",
+        "correction": "It establishes that Moses and Aaron are real men from a real family within Israel, prepares for Aaron's priesthood, and slows the story at the edge of the great contest."
+      }
+    ],
+    "contrasts": [
+      { "a": "Promised to the fathers", "b": "Experienced by their children", "verses": "3-4, 8", "note": "The patriarchs held promises; the exodus generation will see them kept." },
+      { "a": "Under Egypt's burdens", "b": "God's own people", "verses": "6-7", "note": "Redemption is a change of ownership and identity." },
+      { "a": "God's 'I will'", "b": "Israel's 'did not listen'", "verses": "6-9", "note": "God's promises do not wait for Israel's readiness." }
+    ],
+    "features": [
+      { "label": "Framed by the name", "note": "'I am the LORD' opens and closes God's speech (v2, 8) and appears at its center (v6), so the promises rest entirely on who God is." },
+      { "label": "Seven promises", "note": "Many count seven 'I will' statements in verses 6-8. Jewish Passover tradition ties its four cups to four of these verbs: bring out, deliver, redeem, take." },
+      { "label": "A genealogy that stops short", "note": "It begins with Reuben and Simeon as though listing all twelve tribes, then stops at Levi. The point is the priestly family." },
+      { "label": "Resumptive repetition", "note": "Verses 28-30 repeat 10-12, a Hebrew way of returning to the story after a digression." }
+    ],
+    "summary": "Exodus 6 is God's answer to discouragement. He restates his name and covenant and promises to bring out, deliver, redeem, adopt and bring in his people. Israel is too crushed to listen and Moses too doubtful to speak, but God's purpose stands on his own name, and he roots his servants in the history of his people.",
+    "metaArc": {
+      "book": "Chapter 6 is the theological charter of the exodus, defining what God will do and why. It closes the commissioning section (chapters 3-6) and prepares for the plagues.",
+      "redemptive": "Here the Promise is restated in the language of Redemption: kinsman, adoption, covenant and inheritance, words the New Testament uses for Christ's work."
+    }
+  }
+}

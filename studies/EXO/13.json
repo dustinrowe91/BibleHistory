@@ -1,0 +1,146 @@
+{
+  "ref": "EXO.13",
+  "book": "Exodus",
+  "chapter": 13,
+  "title": "By a Strong Hand the LORD Brought Us Out",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Because God spared Israel's firstborn, every firstborn now belongs to him and must be consecrated or redeemed. The feast of Unleavened Bread is to be kept as a sign. Then God leads his people, not by the short road but the long way, carrying Joseph's bones and guiding them by a pillar of cloud and fire.",
+  "keyVerses": ["2", "14", "17-18", "21-22"],
+  "steps": {
+    "language": [
+      {
+        "word": "קָדַשׁ",
+        "translit": "qadash",
+        "strongs": "H6942",
+        "gloss": "to consecrate, set apart as holy",
+        "verses": "2",
+        "note": "'Consecrate to me all the firstborn.' To consecrate is to set something apart as belonging to God. The firstborn who were spared are now God's possession."
+      },
+      {
+        "word": "פָּדָה",
+        "translit": "padah",
+        "strongs": "H6299",
+        "gloss": "to redeem, ransom",
+        "verses": "13, 15",
+        "note": "To buy back by paying a price. A firstborn son, or a firstborn donkey, which could not be sacrificed, was redeemed by substituting a lamb or a payment. Later the Levites were set apart in place of Israel's firstborn (Numbers 3:11-13)."
+      },
+      {
+        "word": "עַמּוּד",
+        "translit": "ammud",
+        "strongs": "H5982",
+        "gloss": "pillar, column",
+        "verses": "21-22",
+        "note": "A column of cloud by day and fire by night. It is the visible presence of the LORD who 'went before them.' It will stand between Israel and Egypt (14:19-20), descend on the tent of meeting (33:9) and fill the tabernacle (40:34-38)."
+      },
+      {
+        "word": "חֲמֻשִׁים",
+        "translit": "chamushim",
+        "strongs": "H2571",
+        "gloss": "in battle array, equipped",
+        "verses": "18",
+        "note": "Israel left 'in battle formation' or 'equipped,' perhaps related to the number five (organized in fifties or five divisions). They left orderly, not as a disorganized mob, yet God still did not lead them toward war."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The firstborn belong to God",
+        "refs": ["Numbers 3:11-13", "Numbers 18:15-16", "Luke 2:22-23", "Hebrews 12:23"],
+        "note": "Mary and Joseph presented Jesus at the temple 'as it is written in the Law of the Lord, Every male who first opens the womb shall be called holy to the Lord.' The church is 'the assembly of the firstborn.'"
+      },
+      {
+        "theme": "A sign on the hand and between the eyes",
+        "refs": ["Deuteronomy 6:8", "Deuteronomy 11:18", "Revelation 13:16; 14:1"],
+        "note": "God's word and deeds are to shape what Israel does (hand) and thinks (forehead). Revelation contrasts the beast's mark with the Lamb's name on his people's foreheads."
+      },
+      {
+        "theme": "God's presence in cloud and fire",
+        "refs": ["Numbers 9:15-23", "Nehemiah 9:12, 19", "Isaiah 4:5", "1 Corinthians 10:1-2"],
+        "note": "Isaiah promises that God will again create a cloud by day and fire by night over Zion. Paul says Israel was 'baptized into Moses in the cloud and in the sea.'"
+      }
+    ],
+    "context": {
+      "setting": "Israel has left Rameses and reached Succoth (12:37). Before the sea crossing, God gives instructions about the firstborn and the feast, framed by the command to explain to children why. The 'way of the land of the Philistines' was the coastal road along the Mediterranean, guarded by Egyptian forts.",
+      "flow": [
+        { "verses": "1-2", "label": "Consecrate the firstborn", "note": "Every firstborn male of people and animals belongs to the LORD." },
+        { "verses": "3-10", "label": "Remember this day", "note": "Moses commands the feast of Unleavened Bread in the land God will give, as a sign on the hand and memorial between the eyes, explained to children." },
+        { "verses": "11-16", "label": "Redeem the firstborn", "note": "Firstborn animals are sacrificed; firstborn sons and donkeys are redeemed. When a son asks, 'What does this mean?' the answer is: by a strong hand the LORD brought us out." },
+        { "verses": "17-19", "label": "The long way", "note": "God leads Israel not by the short Philistine road but by the wilderness toward the Red Sea, lest war make them turn back. Moses takes Joseph's bones." },
+        { "verses": "20-22", "label": "Pillar of cloud and fire", "note": "The LORD goes before them in a pillar of cloud by day and fire by night, never departing." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 50:25", "from": "19", "note": "Joseph made Israel swear to carry up his bones. Moses keeps the oath, and Joshua buries them at Shechem (Joshua 24:32)." },
+        { "ref": "Luke 2:22-23", "from": "2, 12", "note": "Jesus is presented at the temple in obedience to this law of the firstborn." },
+        { "ref": "Hebrews 11:22", "from": "19", "note": "By faith Joseph gave directions about his bones, trusting God would bring Israel out." }
+      ],
+      "tier2": [
+        { "ref": "Numbers 3:40-51", "from": "13-15", "note": "The Levites take the place of Israel's firstborn, and the remaining firstborn are redeemed with silver." },
+        { "ref": "1 Corinthians 10:1-4", "from": "21", "note": "Paul reads the cloud and the sea as Israel's baptism and calls it an example for the church." },
+        { "ref": "Deuteronomy 6:20-25", "from": "14", "note": "Another 'when your son asks' passage, with the exodus as the answer." }
+      ],
+      "tier3": [
+        { "ref": "Romans 8:29", "from": "2", "note": "Christ is the firstborn among many brothers. God's firstborn Son was not redeemed by a substitute but became one." },
+        { "ref": "Psalm 23:3", "from": "17-18", "note": "He leads me in paths of righteousness for his name's sake, even when those paths are not the shortest." },
+        { "ref": "1 Corinthians 10:13", "from": "17", "note": "God will not let you be tested beyond what you can bear, as he kept Israel from war they were not ready to face." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken stresses that God's guidance in verses 17-18 was wise and kind, though it looked like a detour. God knew his people's weakness and chose a path that protected them, which encourages believers to trust his leading when it seems roundabout."
+      },
+      {
+        "name": "J. Alec Motyer",
+        "work": "The Message of Exodus",
+        "view": "Motyer emphasizes that redemption creates ownership: the firstborn spared at Passover now belong to God. The redeemed are not free to live for themselves but are claimed by the God who saved them."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "18",
+        "kjv": "But God led the people about, through the way of the wilderness of the Red sea: and the children of Israel went up harnessed out of the land of Egypt.",
+        "renderings": [
+          { "version": "ESV", "text": "equipped for battle" },
+          { "version": "NIV", "text": "ready for battle" }
+        ],
+        "note": "'Harnessed' is old English for 'armed.' The Hebrew term is uncertain but suggests an organized, prepared company. 'Red Sea' translates Yam Suph, literally 'Sea of Reeds,' though the same name is used for the Gulf of Aqaba in 1 Kings 9:26."
+      }
+    ],
+    "gospel": "Israel's firstborn lived because a lamb died, so they belonged to God and had to be redeemed. Jesus, Mary's firstborn, was presented under this very law, yet he was God's firstborn Son who would not be bought back but would himself become the ransom. Through his blood, believers are 'the assembly of the firstborn' and belong to God. And just as the LORD went before Israel in cloud and fire, Christ goes before his people, leading by the path he knows is best.",
+    "application": [
+      "Live as someone who belongs to God. Redemption means you are 'bought with a price.'",
+      "Build reminders of God's deliverance into daily life, so that faith shapes what your hands do and your mind thinks.",
+      "Answer children's questions with the story of what God did, not just with rules.",
+      "Trust God's guidance when he takes you the long way. He knows what you are ready to face."
+    ],
+    "misapplications": [
+      {
+        "claim": "The longest, hardest path is always God's will.",
+        "correction": "God chose the wilderness road for a specific reason: Israel was not ready for war (v17). His guidance is wise, not arbitrary, and it was given by his visible presence."
+      },
+      {
+        "claim": "Signs on the hand and forehead require physical objects to please God.",
+        "correction": "Later Jewish practice used phylacteries, but the point is that God's acts and word are to shape action and thought. Jesus criticized displays done to be seen (Matthew 23:5)."
+      }
+    ],
+    "contrasts": [
+      { "a": "The short road", "b": "The wilderness road", "verses": "17-18", "note": "God's way is not always the quickest, but it fits his people's weakness and his purpose." },
+      { "a": "Consecrated", "b": "Redeemed", "verses": "2, 13", "note": "Animals that could be sacrificed were given; sons were bought back. Every firstborn belonged to God either way." },
+      { "a": "Day", "b": "Night", "verses": "21-22", "note": "Cloud and fire: God's presence never left them, whatever the hour." }
+    ],
+    "features": [
+      { "label": "Children's questions", "note": "Verses 8 and 14 again build teaching into the rituals, a feature of Exodus 12-13." },
+      { "label": "Joseph's bones", "note": "A small detail that ties Exodus to Genesis and shows that the exodus fulfills promises made centuries earlier." },
+      { "label": "The LORD goes before", "note": "Israel is not led by Moses alone but by the LORD himself in visible form, a presence that becomes the tabernacle's glory." }
+    ],
+    "summary": "Exodus 13 teaches that redemption creates belonging. The firstborn spared by the Passover lamb now belong to God and must be consecrated or redeemed, and Israel must remember and explain what God did. God then leads his people wisely by a longer road, carrying Joseph's bones in fulfillment of old promises, with his own presence going before them in cloud and fire.",
+    "metaArc": {
+      "book": "Chapter 13 bridges the Passover and the sea crossing, adding the law of the firstborn and the guiding pillar. The pillar becomes a thread that runs to the tabernacle's dedication in chapter 40.",
+      "redemptive": "This belongs to Redemption: the redeemed are owned and led by God. It anticipates Christ, the firstborn Son and ransom, and his people as the assembly of the firstborn."
+    }
+  }
+}

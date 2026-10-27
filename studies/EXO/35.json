@@ -1,0 +1,161 @@
+{
+  "ref": "EXO.35",
+  "book": "Exodus",
+  "chapter": 35,
+  "title": "Everyone Whose Heart Stirred Him",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "With the covenant renewed, Moses gathers Israel, repeats the Sabbath command, and calls for offerings and skilled workers for the tabernacle. Men and women whose hearts are stirred bring gold, yarn, wood and spices, and Moses announces that God has filled Bezalel and Oholiab with his Spirit to make everything and to teach others.",
+  "keyVerses": ["5", "21", "29", "31"],
+  "steps": {
+    "language": [
+      {
+        "word": "נָדִיב לֵב",
+        "translit": "nadiv lev",
+        "gloss": "willing of heart, generous",
+        "verses": "5, 22",
+        "note": "'Whoever is of a generous heart.' The word nadiv (H5081) means noble or willing, and is related to nedavah, a freewill offering. God's dwelling is built from gifts freely given."
+      },
+      {
+        "word": "נָשָׂא לֵב",
+        "translit": "nasa lev",
+        "gloss": "heart lifted up, stirred",
+        "verses": "21, 26",
+        "note": "'Everyone whose heart stirred him' is literally 'whose heart lifted him.' The same verb nasa that describes God lifting away sin (34:7) now describes hearts lifted to give."
+      },
+      {
+        "word": "נְדָבָה",
+        "translit": "nedavah",
+        "strongs": "H5071",
+        "gloss": "freewill offering",
+        "verses": "29",
+        "note": "An offering beyond what is required, given spontaneously out of love. All the men and women whose hearts moved them brought it to the LORD."
+      },
+      {
+        "word": "חֲכַם לֵב",
+        "translit": "chakam lev",
+        "gloss": "wise of heart, skilled",
+        "verses": "10, 25, 35",
+        "note": "Skill is located in the heart, the center of the person. 'Every skillful craftsman' and 'all the women who were skillful' contributed their abilities as offerings."
+      },
+      {
+        "word": "יָרָה",
+        "translit": "yarah",
+        "strongs": "H3384",
+        "gloss": "to teach, instruct",
+        "verses": "34",
+        "note": "God put it in Bezalel's and Oholiab's hearts 'to teach.' The same root gives torah, instruction. Gifted workers multiply their gifts by training others."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Cheerful, willing giving",
+        "refs": ["1 Chronicles 29:6-9, 14", "2 Corinthians 8:1-5, 12", "2 Corinthians 9:7"],
+        "note": "David's leaders gave willingly for the temple and rejoiced. Paul praises the Macedonians who gave beyond their means, of their own accord."
+      },
+      {
+        "theme": "Spirit-filled skill",
+        "refs": ["Exodus 31:1-6", "Acts 6:3", "1 Peter 4:10-11"],
+        "note": "Even serving tables required people 'full of the Spirit and wisdom.' Each believer is to use his gift to serve others as a good steward of God's grace."
+      },
+      {
+        "theme": "Women in the work of God's house",
+        "refs": ["Exodus 38:8", "Luke 8:1-3", "Acts 9:36-39", "Romans 16:1-6"],
+        "note": "Women spun yarn and goat hair and brought jewelry for the tabernacle. Women supported Jesus' ministry from their means, and Dorcas made garments for the needy."
+      }
+    ],
+    "context": {
+      "setting": "Chapters 35-40 record the building of the tabernacle, repeating the instructions of chapters 25-31 almost word for word, but in the order of construction and now as fulfilled. The repetition after chapters 32-34 shows that God's plan survived Israel's sin. The Sabbath command now comes first, the reverse of chapter 31.",
+      "flow": [
+        { "verses": "1-3", "label": "Sabbath first", "note": "Moses assembles the people and commands six days of work and a holy Sabbath, with no fire kindled in their homes." },
+        { "verses": "4-9", "label": "Call for offerings", "note": "Whoever has a generous heart is to bring gold, silver, bronze, yarns, linen, goat hair, skins, wood, oil, spices and stones." },
+        { "verses": "10-19", "label": "Call for craftsmen", "note": "Every skillful person is to come and make everything God commanded: tent, ark, table, lampstand, altars, basin, court and garments." },
+        { "verses": "20-29", "label": "The people respond", "note": "Everyone whose heart stirred him brings gifts. Men and women bring jewelry; women spin yarn and goat hair; leaders bring stones, spices and oil. All bring a freewill offering." },
+        { "verses": "30-35", "label": "Bezalel and Oholiab", "note": "Moses announces that God has called Bezalel, filled him with his Spirit for every craft, and given him and Oholiab the ability to teach." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 25:1-7", "from": "4-9", "note": "The list of materials repeats God's original request." },
+        { "ref": "Exodus 31:1-11", "from": "30-35", "note": "Bezalel's calling is announced as God had told Moses." },
+        { "ref": "Exodus 31:12-17", "from": "1-3", "note": "The Sabbath command that closed the instructions now opens the construction." }
+      ],
+      "tier2": [
+        { "ref": "1 Chronicles 29:1-9", "from": "21-29", "note": "Israel gives freely for Solomon's temple, and the people rejoice because they gave willingly." },
+        { "ref": "Ezra 1:5-6; 2:68-69", "from": "21", "note": "After the exile, those whose spirit God stirred gave freewill offerings to rebuild the house of God." },
+        { "ref": "2 Corinthians 8:12", "from": "5", "note": "If the readiness is there, the gift is acceptable according to what a person has." }
+      ],
+      "tier3": [
+        { "ref": "Ephesians 2:21-22", "from": "10-19", "note": "Believers are built together into a dwelling place for God by the Spirit." },
+        { "ref": "Philippians 2:13", "from": "21", "note": "God works in you both to will and to work for his good pleasure, as he stirred Israel's hearts." },
+        { "ref": "Colossians 3:23", "from": "25-26", "note": "Whatever you do, work heartily, as for the Lord." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken notes that the same people who gave gold for an idol in chapter 32 now give gold for God's house. Grace transforms giving: forgiven people give generously, willingly and joyfully to the worship of the true God."
+      },
+      {
+        "name": "Brevard S. Childs",
+        "work": "The Book of Exodus",
+        "view": "Childs argues that the repetition of the tabernacle material after the calf episode is deliberate. Placed after the covenant renewal, it shows that God's original plan for dwelling among Israel was not cancelled by their sin but carried forward by his forgiveness."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "And they came, every one whose heart stirred him up, and every one whom his spirit made willing, and they brought the LORD's offering to the work of the tabernacle of the congregation, and for all his service, and for the holy garments.",
+        "renderings": [
+          { "version": "ESV", "text": "everyone whose heart stirred him, and everyone whose spirit moved him" },
+          { "version": "NIV", "text": "everyone who was willing and whose heart moved them" }
+        ],
+        "note": "The Hebrew uses both 'heart' and 'spirit' to stress inner willingness. The giving came from within, not from pressure."
+      },
+      {
+        "verse": "3",
+        "kjv": "Ye shall kindle no fire throughout your habitations upon the sabbath day.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall kindle no fire in all your dwelling places" },
+          { "version": "NIV", "text": "Do not light a fire in any of your dwellings" }
+        ],
+        "note": "The ban on kindling fire may be specially relevant to the metalwork about to begin, which required furnaces. Even building God's house was not to break his rest."
+      }
+    ],
+    "gospel": "The people who gave their gold for a calf now give it freely for God's dwelling, because they have been forgiven. Grace produces generosity. The gospel works the same way: Christ, though rich, became poor for our sake, and those who know his grace give themselves first to the Lord and then gladly give their resources. And just as God's Spirit filled Bezalel to build the tabernacle, the Spirit now gifts every believer to build up the church, the living temple where God dwells.",
+    "application": [
+      "Give to God willingly and generously, as a response to grace, not out of compulsion.",
+      "Offer your skills as well as your money; spinning yarn was as valuable as gold.",
+      "Teach and train others in what God has gifted you to do.",
+      "Keep God's rest even when doing God's work.",
+      "Let God redirect what was once used for idols toward his worship."
+    ],
+    "misapplications": [
+      {
+        "claim": "Pressure and guilt are acceptable ways to raise money for God's work.",
+        "correction": "The tabernacle was built from gifts by 'whoever has a generous heart' (v5) and 'everyone whose heart stirred him' (v21). God values willing giving (2 Corinthians 9:7)."
+      },
+      {
+        "claim": "Only leaders' contributions really count.",
+        "correction": "The chapter lists men, women, the skilled, the leaders and 'all the people.' Women's spinning is mentioned as prominently as the leaders' precious stones."
+      }
+    ],
+    "contrasts": [
+      { "a": "Gold for a calf", "b": "Gold for the tabernacle", "verses": "22", "note": "The same jewelry and the same people, now redirected toward true worship after forgiveness." },
+      { "a": "Command", "b": "Willing response", "verses": "4-5, 21", "note": "God commands the offering but receives only what is freely given." },
+      { "a": "Work", "b": "Rest", "verses": "2", "note": "The great building project begins with the reminder to rest." }
+    ],
+    "features": [
+      { "label": "Repetition with purpose", "note": "Chapters 35-40 echo 25-31 closely, emphasizing exact obedience: Israel does what God commanded." },
+      { "label": "Order reversed", "note": "The Sabbath, last in the instructions (31:12-17), comes first in the construction (35:1-3), framing the whole section with God's rest." },
+      { "label": "Whole-community effort", "note": "Men, women, leaders and craftsmen all contribute, showing that God's dwelling belongs to all his people." }
+    ],
+    "summary": "Exodus 35 begins the construction of the tabernacle. After restating the Sabbath, Moses invites willing gifts and skilled labor, and the whole community responds generously, men and women alike. God has filled Bezalel and Oholiab with his Spirit to lead and teach. The forgiven people who once made an idol now build a dwelling for the true God.",
+    "metaArc": {
+      "book": "Chapter 35 opens the construction section (35-40), mirroring the instructions (25-31) after the crisis (32-34). It demonstrates the covenant restored in practice.",
+      "redemptive": "This belongs to Redemption: forgiven people respond with generosity and Spirit-given work to build God's dwelling, pointing to the church built by the Spirit in Christ."
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "ref": "EXO.1",
+  "book": "Exodus",
+  "chapter": 1,
+  "title": "The More They Were Oppressed, the More They Multiplied",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God keeps his promise to make Abraham's family a great nation, even in Egypt, and no king can stop it. Pharaoh's escalating schemes to crush Israel fail, and two midwives who fear God more than the king become the first heroes of the book.",
+  "keyVerses": ["7", "12", "17", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּרָה וְרָבָה",
+        "translit": "parah ve-ravah",
+        "gloss": "be fruitful and multiply",
+        "verses": "7, 10, 12, 20",
+        "note": "Verse 7 piles up five verbs (fruitful, increased greatly, multiplied, grew strong, filled the land) that deliberately echo Genesis 1:28 and 9:1. God's creation blessing is being fulfilled in Abraham's family, and Pharaoh sets himself against it."
+      },
+      {
+        "word": "עָבַד",
+        "translit": "avad",
+        "strongs": "H5647",
+        "gloss": "to work, serve, worship",
+        "verses": "13-14",
+        "note": "The Hebrew uses this root five times in two verses: the Egyptians made Israel 'serve' with 'service' in 'hard bondage.' The same word means worship. The question of the book is whom Israel will serve, Pharaoh or the LORD (4:23; 7:16)."
+      },
+      {
+        "word": "יָרֵא",
+        "translit": "yare",
+        "strongs": "H3372",
+        "gloss": "to fear, revere",
+        "verses": "17, 21",
+        "note": "The midwives 'feared God,' so they would not obey the king. Fear of God in the Old Testament is reverent awe that shapes what a person does. Here it is the reason two ordinary women defy the most powerful man in the world."
+      },
+      {
+        "word": "חָכַם",
+        "translit": "chakam",
+        "strongs": "H2449",
+        "gloss": "to be wise, deal shrewdly",
+        "verses": "10",
+        "note": "'Come, let us deal shrewdly with them.' Pharaoh's worldly wisdom is cunning cruelty. The rest of the chapter shows how foolish it is to scheme against the God of Israel."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The promise of many descendants",
+        "refs": ["Genesis 12:2", "Genesis 15:5", "Genesis 46:3", "Acts 7:17"],
+        "note": "God told Jacob, 'I will make you into a great nation there' in Egypt. Stephen picks up the story at exactly this point: as the time of the promise drew near, the people grew and multiplied in Egypt."
+      },
+      {
+        "theme": "Oppression foretold",
+        "refs": ["Genesis 15:13-14", "Deuteronomy 26:5-8", "Acts 7:19"],
+        "note": "God had warned Abraham that his offspring would be afflicted in a foreign land and then come out with great possessions. Israel's suffering is not outside God's plan."
+      },
+      {
+        "theme": "A king who kills children",
+        "refs": ["Matthew 2:16-18", "Revelation 12:4-5"],
+        "note": "Pharaoh's attack on Hebrew baby boys is repeated when Herod kills the boys of Bethlehem. Behind both is the dragon who tries to devour the promised child."
+      }
+    ],
+    "context": {
+      "setting": "Exodus picks up where Genesis ends. Jacob's family of seventy has settled in Egypt under Joseph's protection. Several centuries pass between verses 6 and 8 (Genesis 15:13 speaks of four hundred years; Exodus 12:40 of 430). On a conservative chronology, the oppression falls in Egypt's New Kingdom, before an exodus around 1446 BC.",
+      "flow": [
+        { "verses": "1-7", "label": "From seventy to a multitude", "note": "The sons of Jacob are named, Joseph's generation dies, and Israel fills the land as God promised." },
+        { "verses": "8-14", "label": "A new king and hard labor", "note": "A king who did not know Joseph fears Israel's numbers and enslaves them to build Pithom and Raamses, but the more they are afflicted, the more they grow." },
+        { "verses": "15-21", "label": "The midwives fear God", "note": "Pharaoh orders the Hebrew midwives Shiphrah and Puah to kill newborn boys. They refuse, and God deals well with them and gives them families." },
+        { "verses": "22", "label": "Every son into the Nile", "note": "Pharaoh commands all his people to throw every Hebrew baby boy into the river, setting up the next chapter." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 46:27", "from": "5", "note": "The seventy persons of Jacob's house who came to Egypt are counted again here, tying Exodus directly to the end of Genesis." },
+        { "ref": "Genesis 50:24-26", "from": "6", "note": "Joseph died saying 'God will surely visit you, and bring you out of this land.' Exodus opens with his death and ends with that promise kept (Exodus 13:19)." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 1:28", "from": "7", "note": "The vocabulary of verse 7 is the creation mandate. Israel's growth is God's new humanity spreading out." },
+        { "ref": "Acts 7:17-19", "from": "8-22", "note": "Stephen retells this chapter: the people multiplied, a king arose who knew not Joseph, and he forced them to expose their infants." },
+        { "ref": "Hebrews 11:23", "from": "17", "note": "Moses' parents, like the midwives, were not afraid of the king's command. Faith overcomes fear of rulers." }
+      ],
+      "tier3": [
+        { "ref": "Acts 5:29", "from": "17", "note": "'We must obey God rather than men.' The apostles stand where the midwives stood." },
+        { "ref": "Psalm 105:24-25", "from": "9-12", "note": "God made his people very fruitful and stronger than their foes, and turned the Egyptians' hearts to hate them." },
+        { "ref": "Matthew 2:16", "from": "22", "note": "Herod's order to kill the boys of Bethlehem repeats Pharaoh's, with the same result: the promised deliverer escapes." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Augustine",
+        "work": "Against Lying",
+        "view": "Augustine argues that God rewarded the midwives for their mercy in saving the children, not for the untruth they told Pharaoh. Their kindness was praised and their lie forgiven, so the passage cannot be used to justify lying."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin likewise judges that the midwives' answer to Pharaoh was a fault, but one God pardoned because their refusal to kill came from genuine fear of him. He stresses that God's blessing on them shows how he honors those who obey him over unjust rulers."
+      },
+      {
+        "name": "Christopher J. H. Wright",
+        "work": "The Mission of God",
+        "view": "Wright treats the exodus as the Old Testament's model of what redemption means. It begins here with political oppression, economic exploitation and the killing of children, and God's rescue answers all of it, not only the spiritual side."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "And it came to pass, because the midwives feared God, that he made them houses.",
+        "renderings": [
+          { "version": "ESV", "text": "he gave them families" },
+          { "version": "NIV", "text": "he gave them families of their own" },
+          { "version": "CSB", "text": "he gave them families" }
+        ],
+        "note": "The Hebrew says God 'made them houses.' A 'house' often means a household or family line (2 Samuel 7:11), so modern versions read it as children. The women who protected other people's babies were given families of their own."
+      }
+    ],
+    "gospel": "Exodus begins with a deliverer not yet born and a tyrant trying to destroy God's people by killing their sons. The pattern returns when Herod murders the infants of Bethlehem and the child Jesus escapes, and Revelation 12 shows the dragon behind both kings. God's purpose to bless the nations through Abraham's offspring cannot be stopped by any ruler. The more the world afflicted Israel, the more they multiplied, and the church has found the same: the suffering of God's people is often the soil of their growth.",
+    "application": [
+      "Trust that God's promises keep moving forward even when generations pass and circumstances turn hostile.",
+      "Fear God more than any human authority. When a ruler commands what God forbids, believers must refuse, as the midwives did.",
+      "Value and protect human life, especially the youngest and most vulnerable, whom powerful people find inconvenient.",
+      "Do not be surprised when faithfulness brings opposition; affliction can be the very means of growth."
+    ],
+    "misapplications": [
+      {
+        "claim": "The midwives show that lying is fine when the cause is good.",
+        "correction": "God blessed them 'because the midwives feared God' (v21), which verse 17 defines as refusing to kill. The text praises their refusal, not their words to Pharaoh, and Scripture elsewhere condemns deceit."
+      },
+      {
+        "claim": "Israel's growth was simply the natural result of good conditions.",
+        "correction": "The language of verse 7 is the blessing of Genesis 1 and the promise to Abraham. Israel grew most when conditions were worst (v12), which points to God, not circumstances."
+      }
+    ],
+    "contrasts": [
+      { "a": "The fear of Pharaoh", "b": "The fear of God", "verses": "12, 17", "note": "The Egyptians dreaded Israel and the king feared their numbers; the midwives feared God and were not afraid of the king." },
+      { "a": "Pharaoh's shrewdness", "b": "God's blessing", "verses": "10, 20", "note": "Every scheme of the most powerful man on earth backfires, while God quietly multiplies his people." },
+      { "a": "Death", "b": "Life", "verses": "16, 22", "note": "Pharaoh commands death in the birthing room and the river; God gives life and families." }
+    ],
+    "features": [
+      { "label": "Nameless king, named midwives", "note": "The mighty Pharaoh is never named, while two humble midwives, Shiphrah and Puah, are. Scripture remembers the faithful, not the famous." },
+      { "label": "Three escalating schemes", "note": "Forced labor, secret infanticide by midwives, then open murder by the whole nation. Each fails, and each makes the next more desperate." },
+      { "label": "Irony of the Nile", "note": "Pharaoh makes the river an instrument of death. In the next chapter the river becomes the means by which the future deliverer is saved." },
+      { "label": "Seventy", "note": "The number from Genesis 46 recalls the seventy nations of Genesis 10. Israel is a small model of the whole human family God means to bless." }
+    ],
+    "summary": "Exodus 1 shows God keeping his promise to Abraham in the darkest setting. Pharaoh tries labor, secret murder and public murder to stop Israel's growth, and each attempt fails, because the creation blessing rests on this people. Two midwives who fear God show that faithful courage matters, and that God sees and rewards it.",
+    "metaArc": {
+      "book": "The opening chapter sets the problem the whole book answers: God's people are enslaved to a false lord who serves death. Everything that follows, from Moses' birth to the tabernacle, moves Israel from serving Pharaoh to serving the LORD.",
+      "redemptive": "This is the Promise stage under threat. The creation blessing and Abraham's promise are growing, but a hostile power holds God's people captive, preparing for the great act of Redemption that will become the pattern for Christ's work."
+    }
+  }
+}

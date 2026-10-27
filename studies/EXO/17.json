@@ -1,0 +1,157 @@
+{
+  "ref": "EXO.17",
+  "book": "Exodus",
+  "chapter": 17,
+  "title": "Is the LORD Among Us or Not?",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "At Rephidim Israel quarrels with Moses and tests the LORD over water, and God provides water from a rock struck by Moses' staff. Then Amalek attacks, and Israel prevails as long as Moses' hands are held up, with Joshua fighting below. Moses builds an altar named 'The LORD is my banner.'",
+  "keyVerses": ["6-7", "11-12", "15"],
+  "steps": {
+    "language": [
+      {
+        "word": "רִיב",
+        "translit": "riv",
+        "strongs": "H7378",
+        "gloss": "to quarrel, contend, bring a lawsuit",
+        "verses": "2, 7",
+        "note": "A legal word for bringing a case against someone. Israel 'contends' with Moses as if suing him. The place is named Meribah, 'quarreling,' after it."
+      },
+      {
+        "word": "נָסָה",
+        "translit": "nasah",
+        "strongs": "H5254",
+        "gloss": "to test, put to the proof",
+        "verses": "2, 7",
+        "note": "In chapter 16 God tested Israel; here Israel tests God, demanding proof that he is with them. The place is named Massah, 'testing.' Scripture repeatedly warns against testing God this way (Deuteronomy 6:16)."
+      },
+      {
+        "word": "צוּר",
+        "translit": "tsur",
+        "strongs": "H6697",
+        "gloss": "rock",
+        "verses": "6",
+        "note": "God stands before Moses 'on the rock at Horeb.' The rock becomes one of the great names for God himself in Israel's songs (Deuteronomy 32:4; Psalm 18:2). Paul says 'the Rock was Christ.'"
+      },
+      {
+        "word": "נֵס",
+        "translit": "nes",
+        "strongs": "H5251",
+        "gloss": "banner, standard, signal pole",
+        "verses": "15",
+        "note": "Moses names the altar YHWH Nissi, 'The LORD is my banner.' A banner was a rallying point in battle. Israel's victory and identity are gathered around God himself. Isaiah uses the word of the root of Jesse standing as a banner for the peoples (11:10)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Massah and Meribah",
+        "refs": ["Psalm 95:7-11", "Hebrews 3:7-19", "Deuteronomy 6:16", "Numbers 20:1-13"],
+        "note": "Psalm 95 warns, 'Do not harden your hearts as at Meribah,' and Hebrews applies it to Christians who must not fall away through unbelief."
+      },
+      {
+        "theme": "Water from the rock",
+        "refs": ["Psalm 78:15-16", "Psalm 105:41", "Isaiah 48:21", "1 Corinthians 10:4", "John 7:37-39"],
+        "note": "Paul says Israel drank from the spiritual Rock that followed them, 'and the Rock was Christ.' Jesus offers living water to the thirsty."
+      },
+      {
+        "theme": "War with Amalek",
+        "refs": ["Deuteronomy 25:17-19", "1 Samuel 15:2-3", "Esther 3:1"],
+        "note": "Amalek attacked the weak at the rear of Israel's line (Deuteronomy 25:18). The conflict continues into Saul's reign, and Haman the Agagite may be a descendant of Amalek's king."
+      }
+    ],
+    "context": {
+      "setting": "Israel moves from the wilderness of Sin to Rephidim, near Horeb (Sinai). Two episodes show the dangers of the wilderness: lack of water from within and enemies from without. Joshua appears here for the first time.",
+      "flow": [
+        { "verses": "1-4", "label": "No water", "note": "At Rephidim there is no water. The people quarrel with Moses and test the LORD, and Moses fears they will stone him." },
+        { "verses": "5-7", "label": "Strike the rock", "note": "God tells Moses to take the elders and his staff and strike the rock at Horeb, where God will stand before him. Water flows. The place is named Massah and Meribah because they asked, 'Is the LORD among us or not?'" },
+        { "verses": "8-13", "label": "Hands lifted up", "note": "Amalek attacks. Joshua leads the fighting while Moses stands on the hill with the staff of God. When his hands are raised Israel prevails; Aaron and Hur support his arms until sunset. Joshua defeats Amalek." },
+        { "verses": "14-16", "label": "The LORD is my banner", "note": "God tells Moses to write a memorial in a book and recite it to Joshua. Moses builds an altar named 'The LORD is my banner': the LORD will have war with Amalek from generation to generation." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Corinthians 10:4", "from": "6", "note": "'They drank from the spiritual Rock that followed them, and the Rock was Christ.'" },
+        { "ref": "Psalm 95:8-9", "from": "7", "note": "'Do not harden your hearts, as at Meribah, as on the day at Massah in the wilderness.'" },
+        { "ref": "Hebrews 3:7-11, 15", "from": "7", "note": "Hebrews quotes Psalm 95 to warn the church against an unbelieving heart." },
+        { "ref": "Deuteronomy 25:17-19", "from": "8, 14", "note": "Moses recalls Amalek's cowardly attack and repeats the command to blot out their memory." }
+      ],
+      "tier2": [
+        { "ref": "Numbers 20:7-13", "from": "5-6", "note": "Later Moses strikes a rock again when told to speak to it, and is barred from Canaan." },
+        { "ref": "John 7:37-39", "from": "6", "note": "Jesus cries, 'If anyone thirsts, let him come to me and drink,' speaking of the Spirit." },
+        { "ref": "1 Samuel 15:2-3", "from": "16", "note": "God commands Saul to carry out judgment on Amalek for what they did to Israel on the way from Egypt." }
+      ],
+      "tier3": [
+        { "ref": "John 19:34", "from": "6", "note": "When Jesus was struck by the spear, blood and water flowed. Many see the smitten rock pointing to the smitten Christ." },
+        { "ref": "Exodus 4:2-4", "from": "9", "note": "The staff of God from the bush is used again, now held aloft over the battle." },
+        { "ref": "James 5:16", "from": "11-12", "note": "The prayer of a righteous person has great power; Moses' raised hands are often read as intercession." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry reads Moses' raised hands as a picture of prayer and the power of intercession, and Aaron and Hur holding them up as a picture of how believers should support those who lead and pray for God's people. He notes that both the sword of Joshua and the hands of Moses were needed."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on 1 Corinthians",
+        "view": "Explaining Paul's 'the Rock was Christ,' Calvin argues that the rock was a sign of Christ, called by the name of what it signified, as in the sacraments. Israel's drink in the desert was a real spiritual gift of Christ to them, not merely a lucky find of water."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "For he said, Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation.",
+        "renderings": [
+          { "version": "ESV", "text": "A hand upon the throne of the LORD!" },
+          { "version": "NIV", "text": "Because hands were lifted up against the throne of the LORD" }
+        ],
+        "note": "The Hebrew is difficult and literally reads 'a hand on the throne (or banner) of Yah.' KJV takes it as an oath with hand raised; NIV as Amalek's hostility to God's throne. Some suggest the text should read 'banner' (nes) instead of 'throne' (kes), matching verse 15."
+      },
+      {
+        "verse": "7",
+        "kjv": "And he called the name of the place Massah, and Meribah, because of the chiding of the children of Israel, and because they tempted the LORD, saying, Is the LORD among us, or not?",
+        "renderings": [
+          { "version": "ESV", "text": "because of the quarreling of the people" },
+          { "version": "NIV", "text": "because the Israelites quarreled" }
+        ],
+        "note": "'Chiding' and 'tempted' are older words for quarreling and testing. 'Testing' God means demanding that he prove himself, not being enticed to sin."
+      }
+    ],
+    "gospel": "God stood on the rock and Moses struck it with the staff of judgment, and water poured out for a quarreling people. Paul says 'the Rock was Christ.' At the cross, the Son of God was struck in the place of rebels, and from him flows the living water of the Spirit. The battle with Amalek adds another picture: victory came through a mediator interceding on the hill. Christ, our great high priest, always lives to intercede for us, and his hands never grow weary.",
+    "application": [
+      "Do not demand that God prove himself before you trust him. 'Is the LORD among us or not?' was asked by people who had just seen the manna.",
+      "Come to Christ when thirsty; he is the rock from whom living water flows.",
+      "Support those who carry heavy burdens in ministry, as Aaron and Hur held up Moses' hands.",
+      "Pray and fight together. Victory came through both the intercession on the hill and the battle below.",
+      "Rally around the LORD as your banner, not around human leaders or strategies."
+    ],
+    "misapplications": [
+      {
+        "claim": "Moses' staff was a magic wand that guaranteed victory.",
+        "correction": "The staff signified God's power and Moses' dependence on him. Victory depended on the LORD, and the altar names him, not the staff, as Israel's banner (v15)."
+      },
+      {
+        "claim": "The command about Amalek justifies ethnic violence today.",
+        "correction": "The judgment on Amalek was a specific act of God within Israel's history, against a nation that attacked the weak (Deuteronomy 25:18). Christians fight not against flesh and blood but against spiritual powers (Ephesians 6:12)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Israel tests God", "b": "God provides for Israel", "verses": "2, 6", "note": "God answers unbelief with grace, not immediate judgment." },
+      { "a": "Hands raised", "b": "Hands lowered", "verses": "11", "note": "Israel's success depended on the visible sign of dependence on God." },
+      { "a": "Remembered", "b": "Blotted out", "verses": "14", "note": "God's victory is to be written down and remembered; Amalek's memory will be erased." }
+    ],
+    "features": [
+      { "label": "First mention of writing", "note": "Verse 14 is the first time God tells Moses to write something in a book, a significant moment for the origin of Scripture." },
+      { "label": "Joshua introduced", "note": "Joshua appears without introduction as a military leader. His name, 'The LORD saves,' is the Hebrew form of Jesus." },
+      { "label": "Paired episodes", "note": "Water from the rock (internal crisis) and Amalek's attack (external crisis) show God meeting both kinds of wilderness danger." },
+      { "label": "Place names as warnings", "note": "Massah and Meribah become shorthand in later Scripture for Israel's unbelief." }
+    ],
+    "summary": "Exodus 17 shows God's grace to a doubting people and his victory over their enemies. Israel tests the LORD by asking whether he is among them, yet God gives water from the rock he stands on. Against Amalek, Israel wins through Moses' raised hands supported by others and Joshua's fighting below, and Moses honors the LORD as Israel's banner.",
+    "metaArc": {
+      "book": "Chapter 17 brings Israel to the edge of Sinai with two more wilderness lessons. Meribah becomes a lasting warning, and Joshua's first appearance prepares for his later leadership.",
+      "redemptive": "This belongs to Redemption's journey: God sustains and defends his people, foreshadowing Christ the smitten Rock and the interceding Mediator."
+    }
+  }
+}

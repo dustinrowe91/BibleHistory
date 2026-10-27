@@ -1,0 +1,160 @@
+{
+  "ref": "EXO.4",
+  "book": "Exodus",
+  "chapter": 4,
+  "title": "Israel Is My Firstborn Son",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God answers Moses' remaining objections with signs, promises and Aaron's help, and sends him back to Egypt with a message: Israel is God's firstborn son, and Pharaoh must let him go to serve God. On the way, God confronts Moses over his uncircumcised son, and Israel believes and worships.",
+  "keyVerses": ["11-12", "22-23", "31"],
+  "steps": {
+    "language": [
+      {
+        "word": "אוֹת",
+        "translit": "ot",
+        "strongs": "H226",
+        "gloss": "sign",
+        "verses": "8, 9, 17, 28, 30",
+        "note": "A sign is a visible act that points beyond itself to confirm a message. The staff, the leprous hand and the water turned to blood authenticate Moses as God's messenger and preview the coming plagues."
+      },
+      {
+        "word": "בְּכוֹר",
+        "translit": "bekor",
+        "strongs": "H1060",
+        "gloss": "firstborn",
+        "verses": "22-23",
+        "note": "The firstborn son was the heir with special standing. Calling Israel God's firstborn makes the conflict personal: Pharaoh is holding God's son captive, so Pharaoh's own firstborn is at stake. This sets up the tenth plague."
+      },
+      {
+        "word": "חָזַק",
+        "translit": "chazaq",
+        "strongs": "H2388",
+        "gloss": "to be strong, strengthen, harden",
+        "verses": "21",
+        "note": "'I will harden his heart.' The verb means to make strong or firm, so the hardening is a stiffening of Pharaoh's will in the direction it already leaned. This is the first of about twenty references to Pharaoh's hardened heart."
+      },
+      {
+        "word": "פֶּה",
+        "translit": "peh",
+        "strongs": "H6310",
+        "gloss": "mouth",
+        "verses": "10-12, 15-16",
+        "note": "Moses says he is 'heavy of mouth.' God answers, 'Who has made man's mouth?' and promises, 'I will be with your mouth.' The chapter is about whose words will go to Pharaoh."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Israel as God's son",
+        "refs": ["Deuteronomy 32:6", "Hosea 11:1", "Matthew 2:15", "Romans 9:4"],
+        "note": "Hosea recalls, 'Out of Egypt I called my son.' Matthew applies it to Jesus, the true Son, who relives Israel's story faithfully."
+      },
+      {
+        "theme": "God makes the mouth",
+        "refs": ["Jeremiah 1:6-9", "Matthew 10:19-20", "1 Corinthians 2:1-5"],
+        "note": "Jeremiah objects that he is only a youth; God touches his mouth. Jesus promises his disciples that the Spirit will give them words before rulers."
+      },
+      {
+        "theme": "Circumcision as the covenant sign",
+        "refs": ["Genesis 17:9-14", "Joshua 5:2-9", "Romans 4:11"],
+        "note": "Any uncircumcised male was to be cut off from God's people. Moses could not lead Israel as covenant mediator while neglecting the covenant sign in his own home."
+      }
+    ],
+    "context": {
+      "setting": "The bush conversation continues from chapter 3. Moses raises his last three objections, then returns to Jethro, takes his family and sets out for Egypt. Aaron meets him at the mountain of God, and the two bring God's word to Israel's elders.",
+      "flow": [
+        { "verses": "1-9", "label": "Three signs", "note": "To answer 'They will not believe me,' God gives the staff that becomes a serpent, the hand that turns leprous and is healed, and water that turns to blood." },
+        { "verses": "10-17", "label": "Slow of speech", "note": "Moses pleads that he is not eloquent and then begs God to send someone else. God's anger burns, but he appoints Aaron as Moses' mouthpiece." },
+        { "verses": "18-23", "label": "Return to Egypt", "note": "Moses leaves with God's staff. God tells him to perform the wonders, warns that Pharaoh's heart will be hardened, and gives the message: let my firstborn son go, or I will kill your firstborn son." },
+        { "verses": "24-26", "label": "The bridegroom of blood", "note": "At a lodging place the LORD seeks to kill Moses; Zipporah circumcises their son and touches Moses with the foreskin, and the LORD lets him alone." },
+        { "verses": "27-31", "label": "Israel believes", "note": "Aaron meets Moses, they gather the elders, Aaron speaks and the signs are done, and the people believe that the LORD has visited them and bow in worship." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 11:4-5; 12:29", "from": "22-23", "note": "The threat of verse 23 is carried out: the LORD strikes every firstborn in Egypt, from Pharaoh's to the captive's." },
+        { "ref": "Hosea 11:1; Matthew 2:15", "from": "22", "note": "Israel as God's son, called out of Egypt, becomes a key text for Matthew's presentation of Jesus." }
+      ],
+      "tier2": [
+        { "ref": "Romans 9:17-18", "from": "21", "note": "Paul draws on Pharaoh's hardening to show that God has mercy on whom he wills and hardens whom he wills." },
+        { "ref": "Genesis 17:14", "from": "24-26", "note": "The uncircumcised male breaks God's covenant and is cut off, which explains the danger Moses faced." },
+        { "ref": "Exodus 7:1-2", "from": "16", "note": "God expands the arrangement: Moses will be 'like God' to Pharaoh and Aaron his prophet." }
+      ],
+      "tier3": [
+        { "ref": "2 Corinthians 12:9-10", "from": "10-12", "note": "God's power is made perfect in weakness. Moses' weak mouth is no barrier to God's word." },
+        { "ref": "Numbers 21:8-9; John 3:14", "from": "3-4", "note": "A serpent on a staff appears again in the wilderness as a sign of healing, and Jesus applies it to his cross." },
+        { "ref": "Galatians 4:4-7", "from": "22", "note": "Through the true Son, believers receive adoption and are sons and heirs of God." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "R. C. Sproul",
+        "work": "Chosen by God",
+        "view": "Sproul argues that God hardens Pharaoh not by putting fresh evil into a good heart but by withdrawing restraint and giving Pharaoh over to the wickedness already in him. The hardening is a judgment that lets a sinner have what he wants."
+      },
+      {
+        "name": "Brevard S. Childs",
+        "work": "The Book of Exodus",
+        "view": "Childs admits that the episode at the lodging place (v24-26) is one of the most obscure in the Old Testament. He reads it in its present setting as stressing the seriousness of circumcision and showing that even Moses could not be exempt from the covenant's demands."
+      },
+      {
+        "name": "Douglas K. Stuart",
+        "work": "Exodus (New American Commentary)",
+        "view": "Stuart takes the encounter in verses 24-26 as God's judgment on Moses for failing to circumcise his son. The leader who would bring Israel into covenant had to be in covenant himself, and Zipporah's quick action saved his life."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "25",
+        "kjv": "Then Zipporah took a sharp stone, and cut off the foreskin of her son, and cast it at his feet, and said, Surely a bloody husband art thou to me.",
+        "renderings": [
+          { "version": "ESV", "text": "Surely you are a bridegroom of blood to me!" },
+          { "version": "NIV", "text": "Surely you are a bridegroom of blood to me" }
+        ],
+        "note": "The Hebrew is very compressed, and it is unclear whose 'feet' are touched and to whom Zipporah speaks. 'Bridegroom of blood' likely means that the blood of circumcision has restored her husband to her from death."
+      },
+      {
+        "verse": "10",
+        "kjv": "And Moses said unto the LORD, O my Lord, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of speech, and of a slow tongue.",
+        "renderings": [
+          { "version": "ESV", "text": "I am slow of speech and of tongue" },
+          { "version": "NIV", "text": "I am slow of speech and tongue" }
+        ],
+        "note": "Literally 'heavy of mouth and heavy of tongue.' Whether Moses had a speech impediment or simply lacked confidence is debated. Stephen says he was 'mighty in words' in Egypt (Acts 7:22), which suggests self-doubt."
+      }
+    ],
+    "gospel": "God names Israel his firstborn son and demands his release, at the cost of Egypt's firstborn. The gospel turns this around: God gave up his own firstborn, his only Son, to set his people free. Jesus is the true Israel, called out of Egypt, who succeeds where Israel failed. And just as Moses' life was spared only through blood, so the covenant mediator of the new covenant would shed his own blood for those who belong to him.",
+    "application": [
+      "Do not use weakness as an excuse to refuse God's call. The God who made the mouth can use any mouth.",
+      "Take God's covenant commands seriously in your own home. Leaders are not exempt from obedience.",
+      "Recognize the dignity of belonging to God as his children. He fights for those he calls his sons.",
+      "Respond to God's word as Israel did here: believe, bow and worship."
+    ],
+    "misapplications": [
+      {
+        "claim": "God hardened an innocent Pharaoh who wanted to let Israel go.",
+        "correction": "Pharaoh was already enslaving and murdering Israel (chapter 1). Exodus says both that God hardened his heart and that Pharaoh hardened his own heart (8:15, 32). God's judgment confirmed Pharaoh's chosen path."
+      },
+      {
+        "claim": "Moses' reluctance was humility God approved.",
+        "correction": "God's anger burned against Moses (v14). His first question may have been honest, but his final plea, 'send someone else,' was refusal, and it cost him: Aaron would share his role."
+      }
+    ],
+    "contrasts": [
+      { "a": "God's firstborn", "b": "Pharaoh's firstborn", "verses": "22-23", "note": "The conflict is between two fathers and their sons. Pharaoh's refusal to release God's son will cost him his own." },
+      { "a": "Moses' weakness", "b": "God's power", "verses": "10-12", "note": "The signs and God's 'I will be with your mouth' meet every objection with divine sufficiency." },
+      { "a": "Unbelief feared", "b": "Belief given", "verses": "1, 31", "note": "Moses feared they would not believe; the chapter ends with the people believing and worshiping." }
+    ],
+    "features": [
+      { "label": "The staff of God", "note": "Moses' ordinary shepherd's staff becomes 'the staff of God' (v20), the instrument of plagues and of the sea's parting." },
+      { "label": "Serpent before Pharaoh", "note": "The cobra was a symbol of Pharaoh's royal power, worn on his crown. God gives Moses power over the serpent, a hint of the contest ahead." },
+      { "label": "Death and life in one chapter", "note": "God threatens Pharaoh's firstborn, then seeks Moses' life, then spares him through the blood of a son. Passover themes appear early." },
+      { "label": "Five objections answered", "note": "Moses' excuses end here. God has answered each, but grace does not erase consequences: the work is now shared with Aaron." }
+    ],
+    "summary": "Exodus 4 completes God's call of Moses. God answers fear with signs and weakness with his presence, but he will not accept outright refusal. He frames the coming struggle as a battle over his firstborn son, insists that his servant keep the covenant, and brings his people to faith and worship.",
+    "metaArc": {
+      "book": "Chapter 4 bridges the call at the bush and the confrontation in Egypt. It introduces the signs, the hardening of Pharaoh's heart, Aaron's role and the firstborn theme that climaxes in the Passover.",
+      "redemptive": "This chapter belongs to Redemption in preparation. God claims Israel as his son, anticipating Christ the true Son and the adoption of all who are united to him."
+    }
+  }
+}

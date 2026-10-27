@@ -1,0 +1,283 @@
+{
+  "ref": "EXO.30",
+  "book": "Exodus",
+  "chapter": 30,
+  "title": "A Ransom for Your Lives",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God completes the tabernacle instructions with the golden altar of incense before the veil, the half-shekel ransom paid equally by every Israelite, the bronze basin for priests to wash, and the holy anointing oil and incense, which may not be copied for ordinary use.",
+  "keyVerses": [
+    "7-8",
+    "10",
+    "12",
+    "20-21"
+  ],
+  "steps": {
+    "language": [
+      {
+        "word": "קְטֹרֶת",
+        "translit": "qetoret",
+        "strongs": "H7004",
+        "gloss": "incense",
+        "verses": "1, 7-9, 34-38",
+        "note": "Fragrant smoke rising before God every morning and evening. Psalm 141:2 compares prayer to incense, and Revelation shows the prayers of the saints rising with incense before God's throne."
+      },
+      {
+        "word": "כֹּפֶר",
+        "translit": "kopher",
+        "strongs": "H3724",
+        "gloss": "ransom, price of a life",
+        "verses": "12",
+        "note": "A payment that covers or redeems a life. Each counted Israelite paid half a shekel 'as a ransom for his life,' so that no plague would come when they were numbered. Their lives were God's, redeemed at a price."
+      },
+      {
+        "word": "כִּיּוֹר",
+        "translit": "kiyyor",
+        "strongs": "H3595",
+        "gloss": "basin, laver",
+        "verses": "18",
+        "note": "A bronze basin between the altar and the tent. Priests washed hands and feet before serving 'lest they die.' Approaching God requires cleansing again and again."
+      },
+      {
+        "word": "מִשְׁחָה",
+        "translit": "mishchah",
+        "strongs": "H4888",
+        "gloss": "anointing",
+        "verses": "25, 31",
+        "note": "Holy oil compounded with myrrh, cinnamon, cane and cassia. It made the tabernacle, its furniture and the priests holy. The related word mashiach, 'anointed one,' becomes 'Messiah' and, in Greek, 'Christ.'"
+      },
+      {
+        "word": "קֹדֶשׁ קָדָשִׁים",
+        "translit": "qodesh qodashim",
+        "gloss": "most holy",
+        "verses": "10, 29, 36",
+        "note": "The incense altar, the anointed furnishings and the incense itself are 'most holy.' Whatever touches the anointed things becomes holy (v29), showing holiness as a powerful, contagious reality."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Prayer as incense",
+        "refs": [
+          "Psalm 141:2",
+          "Luke 1:8-13",
+          "Revelation 5:8",
+          "Revelation 8:3-4"
+        ],
+        "note": "Zechariah was burning incense when the angel announced John's birth, while the people prayed outside. Revelation joins incense and the saints' prayers."
+      },
+      {
+        "theme": "Ransom",
+        "refs": [
+          "Numbers 3:46-51",
+          "Mark 10:45",
+          "1 Timothy 2:5-6",
+          "1 Peter 1:18-19"
+        ],
+        "note": "Jesus came 'to give his life as a ransom for many.' Peter says we were ransomed not with silver but with Christ's precious blood."
+      },
+      {
+        "theme": "The temple tax",
+        "refs": [
+          "2 Chronicles 24:6-9",
+          "Matthew 17:24-27"
+        ],
+        "note": "Later Israel paid the half-shekel yearly. Jesus, the Son, was free from the tax but paid it to avoid offense, through a coin in a fish's mouth."
+      },
+      {
+        "theme": "Anointing",
+        "refs": [
+          "1 Samuel 16:13",
+          "Psalm 133:2",
+          "Luke 4:18",
+          "1 John 2:20, 27"
+        ],
+        "note": "Priests, kings and prophets were anointed. Jesus is anointed by the Spirit, and believers have an anointing from the Holy One."
+      }
+    ],
+    "context": {
+      "setting": "These items come after the climax of 29:45-46 as a kind of appendix to the main instructions. The incense altar stands inside the holy place directly before the veil. The census ransom anticipates the counting in Numbers 1 and provides silver for the tabernacle (38:25-28).",
+      "flow": [
+        {
+          "verses": "1-10",
+          "label": "The altar of incense",
+          "note": "A small gold-covered altar before the veil. Aaron burns fragrant incense every morning and evening. No other incense or offering may be placed on it. Once a year it receives atoning blood."
+        },
+        {
+          "verses": "11-16",
+          "label": "The ransom money",
+          "note": "Each person counted, twenty years and older, gives half a shekel as a ransom for his life. Rich and poor give the same. It is used for the service of the tent as a memorial."
+        },
+        {
+          "verses": "17-21",
+          "label": "The basin for washing",
+          "note": "A bronze basin with water between the tent and the altar. Priests wash hands and feet before entering or serving, lest they die."
+        },
+        {
+          "verses": "22-33",
+          "label": "The anointing oil",
+          "note": "A holy oil of choice spices and olive oil anoints the tabernacle, furniture and priests. It must not be used on ordinary people or copied."
+        },
+        {
+          "verses": "34-38",
+          "label": "The holy incense",
+          "note": "Sweet spices with frankincense, salted, pure and holy. A portion is placed before the testimony. No one may make it for personal enjoyment."
+        }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        {
+          "ref": "Leviticus 16:18-19",
+          "from": "10",
+          "note": "On the Day of Atonement, blood is put on the horns of the altar to cleanse it."
+        },
+        {
+          "ref": "Exodus 38:25-28",
+          "from": "12-16",
+          "note": "The ransom silver from 603,550 men is used for the tabernacle's silver bases and hooks."
+        },
+        {
+          "ref": "Luke 1:8-11",
+          "from": "7-8",
+          "note": "Zechariah serves at the altar of incense when Gabriel appears to him."
+        }
+      ],
+      "tier2": [
+        {
+          "ref": "Revelation 8:3-4",
+          "from": "1-8",
+          "note": "An angel offers incense with the prayers of all the saints on the golden altar before the throne."
+        },
+        {
+          "ref": "2 Samuel 24:1-17",
+          "from": "12",
+          "note": "David's census without God's sanction brings a plague, recalling the danger in verse 12."
+        },
+        {
+          "ref": "John 13:8-10",
+          "from": "19-21",
+          "note": "Jesus washes his disciples' feet and says one who has bathed needs only to wash his feet."
+        }
+      ],
+      "tier3": [
+        {
+          "ref": "Mark 10:45",
+          "from": "12",
+          "note": "The Son of Man came to give his life as a ransom for many."
+        },
+        {
+          "ref": "2 Corinthians 2:14-16",
+          "from": "34-35",
+          "note": "Believers are the aroma of Christ to God."
+        },
+        {
+          "ref": "Hebrews 7:25",
+          "from": "7-8",
+          "note": "Christ always lives to make intercession, like incense rising continually."
+        }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry notes that the rich and poor paid the same ransom, showing that all souls are of equal value before God and all are equally in need of redemption. No one could buy a better place before God."
+      },
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress connects the altar of incense with Christ's intercession, the ransom with Christ's death that redeems his people, and the anointing oil with the Holy Spirit who rests on Christ and is given to those united to him."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "12",
+        "kjv": "When thou takest the sum of the children of Israel after their number, then shall they give every man a ransom for his soul unto the LORD, when thou numberest them; that there be no plague among them, when thou numberest them.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "a ransom for his life to the LORD"
+          },
+          {
+            "version": "NIV",
+            "text": "a ransom for his life"
+          }
+        ],
+        "note": "The Hebrew nephesh can mean soul, life or person. 'Life' captures the meaning here: each person's life belonged to God and was ransomed."
+      },
+      {
+        "verse": "15",
+        "kjv": "the poor shall not give less than half a shekel, when they give an offering unto the LORD, to make an atonement for your souls.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "the poor shall not give less"
+          },
+          {
+            "version": "NIV",
+            "text": "the poor are not to give less"
+          }
+        ],
+        "note": "The versions agree. The equality of the ransom is the point: atonement is the same for everyone."
+      }
+    ],
+    "gospel": "Every Israelite needed a ransom for his life, and rich and poor paid the same. The gospel announces a ransom no one could pay: Christ gave his life as a ransom for many, redeeming with his blood rather than silver. He is also our intercessor, whose prayers rise before the Father like incense morning and evening, and the Anointed One on whom the Spirit rests. The basin reminds us that we need continual cleansing, and Christ washes his people, not only once but again and again as they walk with him.",
+    "application": [
+      "Pray regularly, morning and evening, knowing that prayer through Christ rises like incense before God.",
+      "Remember that your life belongs to God and was redeemed at a price.",
+      "Reject any idea that wealth or status gives you a better standing before God.",
+      "Come to Christ for daily cleansing as you serve him.",
+      "Honor what is holy; do not make God's things into tools for personal pleasure or display."
+    ],
+    "misapplications": [
+      {
+        "claim": "Paying money to the church secures God's favor or atonement.",
+        "correction": "The half-shekel was a symbolic ransom in Israel's covenant, and it pointed to the true ransom. Peter says we are redeemed 'not with perishable things such as silver or gold, but with the precious blood of Christ' (1 Peter 1:18-19)."
+      },
+      {
+        "claim": "Special oils or incense today carry the holiness of the tabernacle's.",
+        "correction": "These compounds were unique to the tabernacle and forbidden for ordinary use. Their fulfillment is the Spirit's anointing and the prayers of God's people, not physical products."
+      }
+    ],
+    "contrasts": [
+      {
+        "a": "Rich",
+        "b": "Poor",
+        "verses": "15",
+        "note": "Equal ransom for unequal people: all stand on the same ground before God."
+      },
+      {
+        "a": "Holy incense",
+        "b": "Strange incense",
+        "verses": "9",
+        "note": "Only what God prescribes may be offered. Nadab and Abihu later die offering 'strange fire' (Leviticus 10:1)."
+      },
+      {
+        "a": "Common",
+        "b": "Holy",
+        "verses": "32-33, 37-38",
+        "note": "The oil and incense must not be used for ordinary purposes; holiness means set apart."
+      }
+    ],
+    "features": [
+      {
+        "label": "Placement of the incense altar",
+        "note": "Though it belongs in the holy place, it is described here rather than in chapter 25, perhaps to tie it closely to the priests' daily ministry."
+      },
+      {
+        "label": "Shekel of the sanctuary",
+        "note": "A standard weight (20 gerahs) so that every ransom was exact and equal."
+      },
+      {
+        "label": "Hands and feet",
+        "note": "Priests washed the parts that did the work and walked in God's courts (v19)."
+      }
+    ],
+    "summary": "Exodus 30 completes the tabernacle's furnishings and provisions. The golden altar of incense brings fragrance before God morning and evening; the half-shekel ransom, equal for all, acknowledges that every life belongs to God; the bronze basin provides cleansing for those who serve; and the holy oil and incense set the tabernacle apart. Each points to Christ's ransom, intercession, cleansing and anointing.",
+    "metaArc": {
+      "book": "Chapter 30 holds four of the seven speeches in the tabernacle instructions (v11, 17, 22, 34 each open 'The LORD said to Moses'), filling in details before the call of the craftsmen and the Sabbath sign in chapter 31.",
+      "redemptive": "This belongs to Redemption: ransom, cleansing and intercession, all fulfilled in Christ, whose people become a fragrant offering to God."
+    }
+  }
+}

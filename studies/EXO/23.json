@@ -1,0 +1,168 @@
+{
+  "ref": "EXO.23",
+  "book": "Exodus",
+  "chapter": 23,
+  "title": "I Send an Angel Before You",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "The Book of the Covenant closes with laws for honest courts and kindness even to enemies, the rhythms of sabbath year, sabbath day and three annual feasts, and God's promise to send his angel before Israel, drive out the nations gradually and bless his people if they obey and refuse other gods.",
+  "keyVerses": ["2", "4-5", "9", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "שֹׁחַד",
+        "translit": "shochad",
+        "strongs": "H7810",
+        "gloss": "bribe",
+        "verses": "8",
+        "note": "'A bribe blinds the clear-sighted and subverts the cause of those who are in the right.' The law recognizes how money corrupts judgment, even of good people."
+      },
+      {
+        "word": "מַלְאָךְ",
+        "translit": "mal'ak",
+        "strongs": "H4397",
+        "gloss": "angel, messenger",
+        "verses": "20, 23",
+        "note": "God sends his messenger to guard Israel on the way. 'My name is in him' (v21) and he has authority to pardon or not, which makes many see him as the angel of the LORD, a manifestation of God himself."
+      },
+      {
+        "word": "חַג",
+        "translit": "chag",
+        "strongs": "H2282",
+        "gloss": "pilgrimage feast",
+        "verses": "14-17",
+        "note": "Three times a year all Israel's males were to appear before the LORD: at Unleavened Bread (spring), Harvest or Weeks (early summer), and Ingathering or Booths (autumn). Worship was built into Israel's calendar and agriculture."
+      },
+      {
+        "word": "צִרְעָה",
+        "translit": "tsir'ah",
+        "strongs": "H6880",
+        "gloss": "hornet, or terror, discouragement",
+        "verses": "28",
+        "note": "God will send 'hornets' before Israel. It may be literal insects or a figure for panic and terror that God sends on the nations (compare v27). Either way, God fights for his people."
+      },
+      {
+        "word": "מְעַט מְעַט",
+        "translit": "me'at me'at",
+        "gloss": "little by little",
+        "verses": "30",
+        "note": "God will not drive out the nations in a single year, lest the land become desolate and wild animals multiply. Conquest and growth will be gradual, matched to Israel's capacity."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Love for enemies",
+        "refs": ["Proverbs 25:21-22", "Matthew 5:43-48", "Romans 12:20"],
+        "note": "Helping an enemy's donkey (v4-5) anticipates Jesus' command to love enemies and Paul's 'If your enemy is hungry, feed him.'"
+      },
+      {
+        "theme": "Justice without partiality",
+        "refs": ["Leviticus 19:15", "Deuteronomy 16:19-20", "James 2:1-9"],
+        "note": "Courts must not favor the poor or the rich, nor follow the crowd. James condemns partiality in the church."
+      },
+      {
+        "theme": "The angel who goes before",
+        "refs": ["Exodus 14:19", "Exodus 32:34; 33:2", "Malachi 3:1", "Mark 1:2"],
+        "note": "Malachi's 'I send my messenger, and he will prepare the way before me' echoes verse 20 in Greek and is applied in Mark to John the Baptist preparing for Jesus."
+      },
+      {
+        "theme": "Sabbath year and rest for the land",
+        "refs": ["Leviticus 25:1-7", "2 Chronicles 36:21", "Hebrews 4:9"],
+        "note": "Neglect of the sabbath years is one reason Chronicles gives for the exile: the land enjoyed its sabbaths."
+      }
+    ],
+    "context": {
+      "setting": "This is the last section of the Book of the Covenant (20:22-23:33). It moves from justice in court to Israel's sacred calendar and ends with promises and warnings about entering Canaan. Chapter 24 will ratify these words in a covenant ceremony.",
+      "flow": [
+        { "verses": "1-9", "label": "Justice in court and kindness to enemies", "note": "No false reports, following the crowd, partiality, bribes or oppressing the sojourner. Return your enemy's stray ox and help his overloaded donkey." },
+        { "verses": "10-13", "label": "Sabbath year and day", "note": "Let the land rest every seventh year so the poor and animals may eat; rest on the seventh day so servants, sojourners and animals may be refreshed. Do not mention other gods' names." },
+        { "verses": "14-19", "label": "Three feasts", "note": "Keep Unleavened Bread, Harvest and Ingathering; no one appears before God empty-handed. Laws on sacrifice and firstfruits; do not boil a young goat in its mother's milk." },
+        { "verses": "20-33", "label": "The angel and the land", "note": "God sends his angel to guard and lead Israel; they must obey him. God will bless food and water, remove sickness, drive out the nations little by little, and set borders. Israel must make no covenant with the nations or their gods." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 16:1-17", "from": "14-17", "note": "The three feasts are described in fuller detail, with the same rule that no one appears empty-handed." },
+        { "ref": "Exodus 34:26; Deuteronomy 14:21", "from": "19", "note": "The prohibition on boiling a kid in its mother's milk is repeated twice more." },
+        { "ref": "Mark 1:2", "from": "20", "note": "Mark's opening quotation blends Malachi 3:1 with the wording of Exodus 23:20 to present John as the messenger before the Lord." }
+      ],
+      "tier2": [
+        { "ref": "Romans 12:20-21", "from": "4-5", "note": "If your enemy is hungry, feed him; overcome evil with good." },
+        { "ref": "Judges 2:1-3", "from": "32-33", "note": "The angel of the LORD rebukes Israel for making covenants with the Canaanites, warning that their gods will be a snare, as verse 33 said." },
+        { "ref": "Joshua 24:12", "from": "28", "note": "God reminds Israel that he sent the hornet before them, and it was not by their sword or bow." }
+      ],
+      "tier3": [
+        { "ref": "Acts 2:1", "from": "16", "note": "The Feast of Harvest (Weeks, Pentecost) becomes the day the Spirit is poured out, the firstfruits of a worldwide harvest." },
+        { "ref": "Philippians 1:6", "from": "29-30", "note": "God brings his work to completion, sometimes 'little by little,' according to his wise timing." },
+        { "ref": "Matthew 5:44-45", "from": "4-5", "note": "Jesus calls his followers to love enemies and so be sons of their Father." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Nahum M. Sarna",
+        "work": "Exploring Exodus",
+        "view": "Sarna notes that the prohibition on boiling a kid in its mother's milk has puzzled interpreters since antiquity. He discusses the suggestion that it opposed a Canaanite ritual, while also noting the view that it expresses a humane sensibility, separating the source of life from a means of death."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin treats the laws about the enemy's ox and donkey as proof that the law already required love for enemies. Christ did not add a new rule in Matthew 5 but cleared away the false teaching that limited love to friends."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "19",
+        "kjv": "The first of the firstfruits of thy land thou shalt bring into the house of the LORD thy God. Thou shalt not seethe a kid in his mother's milk.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall not boil a young goat in its mother's milk." },
+          { "version": "NIV", "text": "Do not cook a young goat in its mother's milk." }
+        ],
+        "note": "'Seethe' is old English for boil. The reason for the law is debated (pagan ritual, humane concern, or separating life and death). Later Jewish tradition built on it the separation of meat and dairy."
+      },
+      {
+        "verse": "2",
+        "kjv": "Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment:",
+        "renderings": [
+          { "version": "ESV", "text": "You shall not fall in with the many to do evil" },
+          { "version": "NIV", "text": "Do not follow the crowd in doing wrong" }
+        ],
+        "note": "The command is set in a court context: witnesses must not bend testimony to match the majority. It applies broadly to the pressure to conform."
+      }
+    ],
+    "gospel": "God sends his angel before Israel, one who bears God's name and must be obeyed. The New Testament shows that the messenger who prepares the way leads to the Lord himself, Jesus, who bears God's name fully and leads his people into their inheritance. The law's call to love even an enemy's donkey reflects the heart of God, who loved us while we were his enemies and gave his Son for us. The three feasts, too, point forward: Passover to Christ's death, Firstfruits to his resurrection and the Spirit at Pentecost, and Ingathering to the final harvest.",
+    "application": [
+      "Do not follow the crowd in doing wrong, and refuse anything that resembles a bribe.",
+      "Help your enemies in practical ways; love begins with their lost ox or overloaded donkey.",
+      "Build rhythms of rest and worship into your calendar, and let rest extend to those who work for you.",
+      "Give God the first and best, not the leftovers.",
+      "Trust God's timing when change comes 'little by little.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "Justice means always siding with the poor.",
+        "correction": "Verse 3 forbids partiality toward the poor in a lawsuit, and verse 6 forbids perverting justice against them. Justice is impartial truth, with special protection against the oppression the poor so often suffer."
+      },
+      {
+        "claim": "God's promise to remove sickness (v25) means obedient believers will never be ill.",
+        "correction": "The promise belongs to Israel's covenant blessings in the land. Faithful believers suffer illness in Scripture; the full removal of sickness awaits the new creation (Revelation 21:4)."
+      }
+    ],
+    "contrasts": [
+      { "a": "The crowd", "b": "The truth", "verses": "2", "note": "Justice requires courage to stand against majority opinion." },
+      { "a": "Enemy", "b": "Neighbor", "verses": "4-5", "note": "Personal hostility does not cancel duties of kindness." },
+      { "a": "All at once", "b": "Little by little", "verses": "29-30", "note": "God's gradual work is not delay but wisdom." }
+    ],
+    "features": [
+      { "label": "Sabbath rhythms extended", "note": "Seventh-year rest for the land and seventh-day rest for workers apply the Sabbath principle to economics and ecology." },
+      { "label": "Concern for animals", "note": "The ox and donkey of an enemy, the wild animals in the fallow field, the mother goat: the law shows care for creatures." },
+      { "label": "Promises and warnings", "note": "The book ends, like ancient treaties, with blessings for obedience and warnings against disloyalty." },
+      { "label": "An inclusio on sojourners", "note": "'You know the heart of a sojourner' (v9) echoes 22:21, framing the social laws with Israel's memory of Egypt." }
+    ],
+    "summary": "Exodus 23 completes the Book of the Covenant. It calls for honest, impartial courts and active kindness to enemies, sets Israel's life to rhythms of rest and worship, and ends with God's promise to guard and lead his people by his angel, to bless them and to give them the land little by little, as long as they worship him alone.",
+    "metaArc": {
+      "book": "Chapter 23 closes the laws of the covenant and looks ahead to the conquest. It prepares for the covenant ratification in chapter 24 and the tabernacle instructions that follow.",
+      "redemptive": "This belongs to Redemption and Promise: God guides his people toward the inheritance, a journey fulfilled in Christ who leads his people to the eternal rest and the final harvest."
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "ref": "EXO.2",
+  "book": "Exodus",
+  "chapter": 2,
+  "title": "Drawn Out of the Water",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God preserves the future deliverer through the courage of women and the providence of an ark on the Nile. Moses' own attempt to rescue Israel fails and drives him into exile, but the chapter ends with God hearing Israel's groaning and remembering his covenant.",
+  "keyVerses": ["2-3", "10", "23-25"],
+  "steps": {
+    "language": [
+      {
+        "word": "תֵּבָה",
+        "translit": "tevah",
+        "strongs": "H8392",
+        "gloss": "ark, basket",
+        "verses": "3, 5",
+        "note": "This word is used only here and for Noah's ark in Genesis 6-9. Both are covered with pitch, both carry God's chosen one through deadly water. The baby in the basket is a small new Noah."
+      },
+      {
+        "word": "טוֹב",
+        "translit": "tov",
+        "strongs": "H2896",
+        "gloss": "good, fine",
+        "verses": "2",
+        "note": "His mother 'saw that he was good,' the same words God speaks over creation in Genesis 1. Something of God's new beginning is present in this child."
+      },
+      {
+        "word": "מָשָׁה",
+        "translit": "mashah",
+        "strongs": "H4871",
+        "gloss": "to draw out",
+        "verses": "10",
+        "note": "Pharaoh's daughter names him Moses because 'I drew him out of the water.' The name probably also has an Egyptian sound (meaning 'son' or 'born'), but the Hebrew wordplay looks ahead: the one drawn out of water will draw Israel out through the sea."
+      },
+      {
+        "word": "זָכַר",
+        "translit": "zakar",
+        "strongs": "H2142",
+        "gloss": "to remember",
+        "verses": "24",
+        "note": "When God 'remembers' in Scripture, it does not mean he had forgotten. It means he turns to act on a commitment, as when he remembered Noah (Genesis 8:1). Here he remembers his covenant with Abraham, Isaac and Jacob."
+      },
+      {
+        "word": "יָדַע",
+        "translit": "yada",
+        "strongs": "H3045",
+        "gloss": "to know",
+        "verses": "25",
+        "note": "The chapter ends with 'and God knew.' A new king 'did not know Joseph' (1:8), but God knows his people intimately, with the kind of knowing that leads to action."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Saved through water",
+        "refs": ["Genesis 7:1, 23", "Exodus 14:21-22", "1 Peter 3:20-21"],
+        "note": "Noah, the baby Moses and Israel at the sea are all brought safely through water that destroys others. Peter sees baptism in this pattern."
+      },
+      {
+        "theme": "God hears the cry of the oppressed",
+        "refs": ["Exodus 3:7-9", "Exodus 22:23, 27", "Psalm 34:17", "James 5:4"],
+        "note": "Israel's cry 'came up to God.' The same God warns that if the widow or the poor cry to him, he will hear."
+      },
+      {
+        "theme": "A deliverer rejected by his own",
+        "refs": ["Acts 7:23-29, 35", "Genesis 37:8", "John 1:11"],
+        "note": "'Who made you a prince and a judge over us?' Stephen points out that Israel rejected Moses before God sent him back, as they rejected Joseph, and as they would reject Jesus."
+      }
+    ],
+    "context": {
+      "setting": "Pharaoh has ordered every Hebrew son thrown into the Nile (1:22). The chapter covers about eighty years in a few verses: Moses' birth, his years in the palace (Acts 7:22-23 says he was educated in Egyptian wisdom and was forty when he went out to his people), and the start of a long exile in Midian.",
+      "flow": [
+        { "verses": "1-4", "label": "Hidden and set afloat", "note": "A Levite woman hides her son three months, then places him in a pitch-covered basket among the reeds while his sister watches." },
+        { "verses": "5-10", "label": "Rescued by Pharaoh's daughter", "note": "Pharaoh's daughter finds and pities the child, hires his own mother as nurse, and adopts him as Moses." },
+        { "verses": "11-15", "label": "Moses strikes and flees", "note": "Grown up, Moses kills an Egyptian beating a Hebrew; the next day a Hebrew rejects his intervention, and Moses flees from Pharaoh to Midian." },
+        { "verses": "16-22", "label": "A stranger in Midian", "note": "At a well Moses defends the priest of Midian's daughters, is welcomed, marries Zipporah, and names his son Gershom, 'a sojourner there.'" },
+        { "verses": "23-25", "label": "God hears and remembers", "note": "The king dies, Israel groans in slavery, and God hears, remembers his covenant, sees and knows." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:20-29", "from": "1-15", "note": "Stephen retells the chapter, adding that Moses supposed his brothers would understand God was delivering them through him." },
+        { "ref": "Hebrews 11:23-27", "from": "2, 11, 15", "note": "By faith Moses' parents hid him, and by faith Moses refused to be called the son of Pharaoh's daughter, choosing mistreatment with God's people." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 6:14", "from": "3", "note": "Noah's ark was also coated with pitch. The rare word tevah ties the two rescues together." },
+        { "ref": "Genesis 24:11-20; 29:1-12", "from": "15-17", "note": "Abraham's servant and Jacob both met future wives at wells. Moses' meeting at the well follows a familiar pattern of God's provision." },
+        { "ref": "Exodus 6:5", "from": "24", "note": "God repeats that he has heard the groaning of Israel and remembered his covenant, now with the promise of redemption." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 2:13-15", "from": "15", "note": "Like Moses, the child Jesus escapes a king's murderous decree and lives for a time in a foreign land." },
+        { "ref": "Psalm 18:16", "from": "10", "note": "David uses Moses' word: 'He drew me out of many waters.'" },
+        { "ref": "1 Corinthians 1:27-28", "from": "1-10", "note": "God works through a slave mother, a young girl and a foreign princess. He chooses the weak to shame the strong." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "James K. Hoffmeier",
+        "work": "Israel in Egypt",
+        "view": "Hoffmeier argues that the details of Moses' birth story fit an Egyptian setting: reed baskets sealed with pitch, the royal household raising foreign children, and a name that matches a common Egyptian element meaning 'born of.' He takes this as evidence that the account preserves real memory of Israel in Egypt."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken stresses God's providence in this chapter. God is not named until verse 23, yet he is at work in every detail, from the princess's timing to the mother being paid to nurse her own son, preparing a deliverer long before anyone asked."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "25",
+        "kjv": "And God looked upon the children of Israel, and God had respect unto them.",
+        "renderings": [
+          { "version": "ESV", "text": "and God knew" },
+          { "version": "NIV", "text": "and was concerned about them" },
+          { "version": "CSB", "text": "and God knew" }
+        ],
+        "note": "The Hebrew ends abruptly with 'and God knew.' ESV and CSB keep the bare verb; NIV and KJV explain what it means. The short ending answers 1:8: Pharaoh did not know, but God knows."
+      },
+      {
+        "verse": "2",
+        "kjv": "And the woman conceived, and bare a son: and when she saw him that he was a goodly child, she hid him three months.",
+        "renderings": [
+          { "version": "ESV", "text": "she saw that he was a fine child" },
+          { "version": "NIV", "text": "she saw that he was a fine child" },
+          { "version": "NASB", "text": "she saw that he was beautiful" }
+        ],
+        "note": "The Hebrew is simply 'good' (tov), the word of Genesis 1. Acts 7:20 says he was 'beautiful before God,' and Hebrews 11:23 that his parents saw he was no ordinary child."
+      }
+    ],
+    "gospel": "The deliverer of Israel begins as a helpless infant under a king's death sentence, saved through water and hidden among the enemy. His first attempt to save his people is met with 'Who made you a ruler over us?' and he becomes a stranger far from home. Jesus follows the same path more fully: born under a murderous king, rejected by his own people, yet sent by the God who hears groaning and remembers his covenant. The chapter's last verses are the heart of the gospel: before Israel knew a deliverer was coming, God heard, remembered, saw and knew.",
+    "application": [
+      "Look for God's providence in ordinary details. He is not named until verse 23, yet he directs every event.",
+      "Courage in small acts matters: a mother's hiding, a sister's watching, a princess's pity.",
+      "God's work is not done by human force. Moses' violent rescue failed; God's rescue would come in God's time and way.",
+      "When you groan under hardship, know that God hears, remembers his promises and knows you."
+    ],
+    "misapplications": [
+      {
+        "claim": "Moses' killing of the Egyptian shows that righteous anger justifies taking matters into your own hands.",
+        "correction": "Moses acted secretly, 'looked this way and that' (v12), and it ended in fear and flight. God later sent him back on God's terms. Stephen says his brothers did not understand, but the text never commends the killing."
+      },
+      {
+        "claim": "God was absent while Israel suffered.",
+        "correction": "God's silence in verses 1-22 is not absence; he was preserving and preparing the deliverer. Verses 23-25 reveal that he had heard and remembered all along."
+      }
+    ],
+    "contrasts": [
+      { "a": "Pharaoh's decree of death", "b": "Pharaoh's daughter's pity", "verses": "5-6", "note": "God uses the tyrant's own household to undo the tyrant's plan." },
+      { "a": "Prince in Egypt", "b": "Sojourner in Midian", "verses": "10, 22", "note": "Moses moves from the palace to the wilderness, from privilege to obscurity, where God will shape him." },
+      { "a": "Moses' strength", "b": "God's timing", "verses": "11-15, 23-25", "note": "Moses tries to save by his own hand and fails; God remembers his covenant and the true deliverance begins." }
+    ],
+    "features": [
+      { "label": "God hidden, then revealed", "note": "God is not mentioned for twenty-two verses; then he is the subject of four verbs in a row: God heard, remembered, saw and knew." },
+      { "label": "Women save the deliverer", "note": "The midwives, Moses' mother, his sister, Pharaoh's daughter, and later Zipporah (4:25): women outwit Pharaoh's plan at every turn." },
+      { "label": "Ironies of the river", "note": "The Nile meant for drowning Hebrew boys becomes the place Moses is saved, and the mother forbidden to keep her son is paid by Pharaoh's household to nurse him." },
+      { "label": "Gershom", "note": "Moses names his son 'a sojourner there' (v22). He shares Israel's identity as strangers in a land not their own." }
+    ],
+    "summary": "Exodus 2 shows God preserving his chosen deliverer through ordinary people and surprising reversals. Moses' early zeal fails and sends him into exile, teaching that rescue will not come by human strength. The chapter's close turns the story: God hears Israel's groaning, remembers his covenant with the patriarchs, sees his people and knows them.",
+    "metaArc": {
+      "book": "Chapter 2 introduces Moses, the human agent of the exodus, and shows him rejected and exiled before he is sent. Its final verses set up the call at the burning bush and announce that the covenant God is about to act.",
+      "redemptive": "This is the Promise stage turning toward Redemption. God's covenant with Abraham is the ground of the coming rescue, and the deliverer's life anticipates the rejected and exalted Christ."
+    }
+  }
+}

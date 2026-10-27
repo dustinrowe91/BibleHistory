@@ -1,0 +1,153 @@
+{
+  "ref": "EXO.11",
+  "book": "Exodus",
+  "chapter": 11,
+  "title": "One More Plague",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God announces the final plague: at midnight he will go through Egypt and every firstborn will die, while not even a dog will growl against Israel. Moses leaves Pharaoh in hot anger, and the narrator sums up the plagues: God multiplied his wonders, and Pharaoh would not listen.",
+  "keyVerses": ["1", "4-7", "9-10"],
+  "steps": {
+    "language": [
+      {
+        "word": "נֶגַע",
+        "translit": "nega",
+        "strongs": "H5061",
+        "gloss": "plague, stroke, blow",
+        "verses": "1",
+        "note": "From a verb meaning 'to touch' or 'strike.' This is the only time Exodus calls a plague by this word. It is the decisive blow, God's own touch upon Egypt."
+      },
+      {
+        "word": "בְּכוֹר",
+        "translit": "bekor",
+        "strongs": "H1060",
+        "gloss": "firstborn",
+        "verses": "5",
+        "note": "From Pharaoh's firstborn on the throne to the slave girl's firstborn at the millstone, and the firstborn of animals. The threat of 4:23 is now announced: because Pharaoh would not release God's firstborn, Egypt's firstborn will die."
+      },
+      {
+        "word": "צְעָקָה",
+        "translit": "tse'aqah",
+        "strongs": "H6818",
+        "gloss": "outcry, wailing",
+        "verses": "6",
+        "note": "'A great cry such as there has never been.' The same word described Israel's cry under oppression (3:7, 9). The cry that once rose from Hebrew slaves will now rise from all Egypt."
+      },
+      {
+        "word": "חֵן",
+        "translit": "chen",
+        "strongs": "H2580",
+        "gloss": "favor, grace",
+        "verses": "3",
+        "note": "'The LORD gave the people favor in the sight of the Egyptians.' The same word for grace later describes Moses' standing before God (33:12-17). God turns the hearts of the oppressors to give to the oppressed."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Midnight judgment",
+        "refs": ["Exodus 12:29", "Job 34:20", "Matthew 25:6"],
+        "note": "In a moment, at midnight, God's judgment arrives. Jesus' parable of the bridegroom arriving at midnight warns that the final day will come suddenly."
+      },
+      {
+        "theme": "The great cry",
+        "refs": ["Exodus 3:7-9", "Exodus 12:30", "Revelation 18:9-10"],
+        "note": "Oppressors who caused the cry of the oppressed are brought to cry themselves. Babylon's merchants weep at her fall."
+      },
+      {
+        "theme": "God makes a distinction",
+        "refs": ["Exodus 8:22-23", "Exodus 9:4", "Malachi 3:17-18"],
+        "note": "The plagues have shown repeatedly that God knows and spares his own. Here the distinction is between life and death."
+      }
+    ],
+    "context": {
+      "setting": "This short chapter continues the scene from 10:28-29. Moses is still before Pharaoh when he delivers the final warning (v4-8), then leaves in anger. Verses 1-3 are God's earlier word to Moses, and verses 9-10 summarize the plague narrative before the Passover instructions.",
+      "flow": [
+        { "verses": "1-3", "label": "One more plague", "note": "God tells Moses that after one more plague Pharaoh will drive Israel out completely. Israel is to ask for silver and gold, and God gives them favor; Moses himself is held in great honor in Egypt." },
+        { "verses": "4-8", "label": "Midnight", "note": "Moses announces that about midnight the LORD will go out through Egypt and every firstborn will die, with a great cry, but not a dog will growl against Israel. Pharaoh's servants will bow to Moses. Moses leaves in hot anger." },
+        { "verses": "9-10", "label": "Summary of the wonders", "note": "The LORD had said Pharaoh would not listen so that his wonders might be multiplied. Moses and Aaron did all these wonders, and the LORD hardened Pharaoh's heart." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 4:22-23", "from": "4-5", "note": "God's warning at Moses' commissioning, 'I will kill your firstborn son,' is now announced as imminent." },
+        { "ref": "Exodus 3:21-22; 12:35-36", "from": "2-3", "note": "God promised at the bush that Israel would not go empty-handed, and the promise is fulfilled when Egypt gives freely." },
+        { "ref": "Genesis 15:14", "from": "2", "note": "God told Abraham his offspring would come out with great possessions." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 105:36-38", "from": "5", "note": "He struck down all the firstborn in their land; Egypt was glad when they departed, for dread had fallen on them." },
+        { "ref": "Hebrews 11:28", "from": "4-5", "note": "By faith Moses kept the Passover so that the destroyer of the firstborn would not touch Israel." },
+        { "ref": "John 12:37-40", "from": "10", "note": "Though Jesus did many signs, they did not believe. John cites Isaiah on hardening, as Exodus closes the plagues on Pharaoh's unbelief." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 16:7", "from": "3", "note": "When a man's ways please the LORD, he makes even his enemies to be at peace with him." },
+        { "ref": "Romans 2:4-5", "from": "9-10", "note": "Hardness despises God's kindness and stores up wrath for the day of judgment." },
+        { "ref": "Ephesians 4:26", "from": "8", "note": "Moses' 'hot anger' was not sinful rage but righteous indignation at Pharaoh's cruelty and pride." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Brevard S. Childs",
+        "work": "The Book of Exodus",
+        "view": "Childs notes how verses 9-10 close the plague narrative with a theological summary, tying together the multiplied wonders and the hardened heart before the Passover. In his reading, the final form presents the plagues as a single drama leading to the death of the firstborn."
+      },
+      {
+        "name": "Augustine",
+        "work": "On Christian Doctrine",
+        "view": "Augustine reads the gold and silver Israel received from Egypt as a figure of the truth, wisdom and useful learning found among pagans, which Christians may take and use for the service of the gospel, since it belongs to God."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "7",
+        "kjv": "But against any of the children of Israel shall not a dog move his tongue, against man or beast: that ye may know how that the LORD doth put a difference between the Egyptians and Israel.",
+        "renderings": [
+          { "version": "ESV", "text": "not a dog shall growl" },
+          { "version": "NIV", "text": "not a dog will bark" }
+        ],
+        "note": "The Hebrew says 'not a dog will sharpen its tongue.' In a night of wailing across Egypt, Israel will be so untouched that not even a dog will bark at them."
+      },
+      {
+        "verse": "2",
+        "kjv": "Speak now in the ears of the people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver, and jewels of gold.",
+        "renderings": [
+          { "version": "ESV", "text": "that they ask, every man of his neighbor" },
+          { "version": "NIV", "text": "ask their neighbors for articles of silver and gold" }
+        ],
+        "note": "As in 3:22, 'borrow' is misleading. The Hebrew sha'al means 'ask,' and Egypt gave freely (12:36). It was payment after generations of unpaid labor."
+      }
+    ],
+    "gospel": "God announces death for every firstborn in Egypt, the just penalty for a nation that enslaved his firstborn son and drowned Hebrew children. The question the next chapter answers is how anyone, including Israel's firstborn, can escape. The answer will be a substitute lamb. In the fullness of time, God did not spare his own firstborn Son but gave him up for us all, so that judgment would pass over those who shelter in his blood.",
+    "application": [
+      "Do not treat God's patience as permission. Nine plagues gave Pharaoh opportunity after opportunity; the tenth came at midnight.",
+      "Know that God sees and will answer the cry of the oppressed, and that oppressors will answer to him.",
+      "Trust God to provide for his people even through those who once opposed them.",
+      "Remember that God's distinction between his people and the world rests on his grace, as the Passover will show."
+    ],
+    "misapplications": [
+      {
+        "claim": "The death of the firstborn shows God as cruel and arbitrary.",
+        "correction": "Egypt had slaughtered Israel's sons for decades (1:16, 22), and nine plagues with repeated warnings preceded this. The judgment is just and measured to Egypt's crime, and even Israel's firstborn would need a lamb to be spared."
+      },
+      {
+        "claim": "Israel deceived the Egyptians by 'borrowing' what they never meant to return.",
+        "correction": "The word means 'ask.' Egypt gave because God gave Israel favor (v3; 12:36), and the gifts were long-overdue wages."
+      }
+    ],
+    "contrasts": [
+      { "a": "A great cry in Egypt", "b": "Silence in Israel", "verses": "6-7", "note": "Not even a dog growls against Israel on the night all Egypt wails." },
+      { "a": "Pharaoh on the throne", "b": "The slave girl at the mill", "verses": "5", "note": "Death reaches from the top of society to the bottom; no one is exempt by status." },
+      { "a": "Moses honored", "b": "Pharaoh hardened", "verses": "3, 10", "note": "Egypt's people and officials esteem Moses, while their king remains defiant." }
+    ],
+    "features": [
+      { "label": "A pause before the climax", "note": "Chapter 11 announces but does not narrate the tenth plague. The Passover instructions in chapter 12 come between warning and fulfillment." },
+      { "label": "Ironic reversal", "note": "Pharaoh's servants who once worked Israel will come and bow to Moses, begging Israel to leave (v8)." },
+      { "label": "Summary bracket", "note": "Verses 9-10 echo 7:3-4, closing the plague narrative with the same themes it began with: hardened heart, multiplied wonders." }
+    ],
+    "summary": "Exodus 11 announces the final and decisive judgment: the death of every firstborn in Egypt. God gives Israel favor and promises a complete departure, and he will make a distinction so clear that not a dog will growl at Israel. The chapter closes the plague narrative with a summary: God multiplied his wonders, and Pharaoh's hardened heart refused to listen.",
+    "metaArc": {
+      "book": "Chapter 11 is the hinge between the first nine plagues and the Passover. It announces the judgment whose escape chapter 12 explains.",
+      "redemptive": "This belongs to Redemption: judgment on the firstborn sets the stage for the substitute lamb, the clearest Old Testament picture of Christ's sacrifice."
+    }
+  }
+}

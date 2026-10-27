@@ -1,0 +1,188 @@
+{
+  "ref": "EXO.20",
+  "book": "Exodus",
+  "chapter": 20,
+  "title": "I Am the LORD Your God, Who Brought You Out",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God speaks the Ten Commandments to Israel, beginning with who he is and what he has done. The people, terrified by the thunder and smoke, ask Moses to speak for God, and God gives the first instructions for worship: no gods of silver or gold, and a simple altar where he will come and bless them.",
+  "keyVerses": ["2-3", "8", "13-17", "20"],
+  "steps": {
+    "language": [
+      {
+        "word": "עֲשֶׂרֶת הַדְּבָרִים",
+        "translit": "aseret ha-devarim",
+        "gloss": "the ten words",
+        "verses": "1",
+        "note": "Exodus calls them 'all these words' (v1), and later 'the ten words' (34:28; Deuteronomy 4:13), which is where 'Decalogue' comes from. They are God's direct speech to the whole people."
+      },
+      {
+        "word": "פֶּסֶל",
+        "translit": "pesel",
+        "strongs": "H6459",
+        "gloss": "carved image, idol",
+        "verses": "4",
+        "note": "An image carved from wood or stone. The second commandment forbids making an image to worship, including images meant to represent the LORD himself, since Israel 'saw no form' at Sinai (Deuteronomy 4:15-16)."
+      },
+      {
+        "word": "קַנָּא",
+        "translit": "qanna",
+        "strongs": "H7067",
+        "gloss": "jealous",
+        "verses": "5",
+        "note": "God's jealousy is not petty envy but the exclusive, protective love of a husband for his wife. It refuses to share his people with false gods."
+      },
+      {
+        "word": "שָׁוְא",
+        "translit": "shav",
+        "strongs": "H7723",
+        "gloss": "emptiness, vanity, falsehood",
+        "verses": "7",
+        "note": "To take God's name 'in vain' is to lift it up for an empty or false purpose: false oaths, careless use, or claiming his name while living against it."
+      },
+      {
+        "word": "רָצַח",
+        "translit": "ratsach",
+        "strongs": "H7523",
+        "gloss": "to murder, kill unlawfully",
+        "verses": "13",
+        "note": "This verb refers to unlawful killing, including manslaughter, and is not used for killing in war or for judicial execution, which the law itself commands elsewhere. Hence 'murder' in modern versions."
+      },
+      {
+        "word": "חָמַד",
+        "translit": "chamad",
+        "strongs": "H2530",
+        "gloss": "to covet, desire",
+        "verses": "17",
+        "note": "The tenth commandment goes beyond actions to desires of the heart. Paul says this was the command that showed him his sin (Romans 7:7)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The commandments summarized in love",
+        "refs": ["Deuteronomy 6:4-5", "Leviticus 19:18", "Matthew 22:36-40", "Romans 13:8-10"],
+        "note": "Jesus sums up the law as love for God and love for neighbor, the two halves of the Ten Commandments. Paul says love is the fulfilling of the law."
+      },
+      {
+        "theme": "Jesus deepens the commandments",
+        "refs": ["Matthew 5:21-30", "Matthew 19:16-19", "Mark 7:10"],
+        "note": "Jesus shows that murder includes anger and adultery includes lust. He quotes the commandments to the rich young man."
+      },
+      {
+        "theme": "Honor father and mother",
+        "refs": ["Deuteronomy 5:16", "Ephesians 6:1-3", "Mark 7:9-13"],
+        "note": "Paul calls this 'the first commandment with a promise.' Jesus condemns using religious loopholes to avoid supporting parents."
+      },
+      {
+        "theme": "Sabbath rest",
+        "refs": ["Genesis 2:2-3", "Deuteronomy 5:12-15", "Mark 2:27-28", "Hebrews 4:9-10"],
+        "note": "Exodus grounds the Sabbath in creation, Deuteronomy in redemption from Egypt. Jesus is Lord of the Sabbath, and a Sabbath rest remains for God's people."
+      }
+    ],
+    "context": {
+      "setting": "God has descended on Sinai in fire (chapter 19). Now he speaks the Ten Commandments aloud to all Israel, the only part of the law spoken directly to the people. They are later written on two stone tablets (31:18) and repeated with small differences in Deuteronomy 5. The commands that follow in chapters 21-23 apply them to everyday life.",
+      "flow": [
+        { "verses": "1-2", "label": "The prologue", "note": "God speaks: I am the LORD your God, who brought you out of Egypt, out of the house of slavery." },
+        { "verses": "3-11", "label": "Love for God", "note": "No other gods; no idols; not taking his name in vain; remembering the Sabbath, grounded in God's rest after creation." },
+        { "verses": "12-17", "label": "Love for neighbor", "note": "Honor parents; do not murder, commit adultery, steal, bear false witness or covet." },
+        { "verses": "18-21", "label": "Fear to keep you from sin", "note": "The people tremble and ask Moses to speak to them instead. Moses says God has come to test them so that the fear of him will keep them from sinning. Moses approaches the thick darkness where God is." },
+        { "verses": "22-26", "label": "How to worship", "note": "No gods of silver or gold beside God; an altar of earth or uncut stone; no steps that would expose the priest. Where God causes his name to be remembered, he will come and bless." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 5:6-21", "from": "2-17", "note": "Moses repeats the Ten Commandments to the next generation, with the Sabbath grounded in the exodus." },
+        { "ref": "Matthew 5:21-22, 27-28", "from": "13-14", "note": "Jesus quotes the sixth and seventh commandments and extends them to the heart." },
+        { "ref": "Romans 13:9", "from": "13-17", "note": "Paul quotes several commandments and says they are summed up in 'Love your neighbor as yourself.'" },
+        { "ref": "Ephesians 6:2-3", "from": "12", "note": "Paul quotes the fifth commandment with its promise for children in the church." }
+      ],
+      "tier2": [
+        { "ref": "Romans 7:7", "from": "17", "note": "Paul would not have known coveting if the law had not said 'You shall not covet.'" },
+        { "ref": "Hebrews 12:18-24", "from": "18-19", "note": "Hebrews contrasts the terrifying voice at Sinai with the better word of Jesus' blood." },
+        { "ref": "James 2:10-11", "from": "13-14", "note": "James cites the commandments to show that breaking one makes a person guilty of the law." }
+      ],
+      "tier3": [
+        { "ref": "Galatians 3:17-24", "from": "1-2", "note": "The law came 430 years after the promise and does not cancel it; it guards God's people until Christ." },
+        { "ref": "1 John 5:21", "from": "3-4", "note": "Little children, keep yourselves from idols." },
+        { "ref": "John 4:21-24", "from": "24", "note": "Jesus says true worshipers will worship in spirit and truth, not tied to one place, fulfilling 'in every place where I cause my name to be remembered.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Martin Luther",
+        "work": "Large Catechism",
+        "view": "Luther explains the first commandment by saying that whatever your heart clings to and trusts is your god. All the commandments depend on the first, and every sin begins with failing to fear, love and trust God above all things."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Institutes of the Christian Religion, Book 2",
+        "view": "Calvin teaches that each commandment means more than its words: forbidding a sin implies commanding its opposite virtue, and naming an outward act includes the inner attitude. The law is a mirror that shows us our sin, a restraint on evil, and a guide for believers."
+      },
+      {
+        "name": "Kevin DeYoung",
+        "work": "The Ten Commandments",
+        "view": "DeYoung stresses that the commandments come after 'I brought you out of Egypt.' They are not a ladder to climb to God but the shape of life for people already rescued, and Christians obey them as a grateful response to grace."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "Thou shalt not kill.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall not murder." },
+          { "version": "NIV", "text": "You shall not murder." }
+        ],
+        "note": "The Hebrew verb ratsach is narrower than 'kill' in modern English. The same law authorizes capital punishment (21:12) and warfare, so 'murder' better captures the meaning: the unlawful taking of human life."
+      },
+      {
+        "verse": "7",
+        "kjv": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
+        "renderings": [
+          { "version": "ESV", "text": "take the name of the LORD your God in vain" },
+          { "version": "NIV", "text": "You shall not misuse the name of the LORD your God" }
+        ],
+        "note": "'Take' is literally 'lift up' or 'carry.' The command covers false oaths and careless speech, but also bearing God's name, as his people do, while living in a way that empties it of meaning."
+      }
+    ],
+    "gospel": "The Ten Commandments begin with grace: 'I am the LORD your God, who brought you out of slavery.' They describe the life of a redeemed people. But no one has kept them perfectly, and Paul says the law reveals our sin and leaves every mouth stopped. Jesus is the only one who loved God with all his heart and his neighbor as himself; he fulfilled the law and bore its curse for those who broke it. Through him, God writes the law on hearts by his Spirit, so that the redeemed begin to keep it out of love.",
+    "application": [
+      "Read the commandments as a description of freedom. They were given to people just released from slavery.",
+      "Search your heart for 'other gods': whatever you trust and cling to more than God.",
+      "Keep a rhythm of rest and worship that reflects trust in God's provision.",
+      "Apply the commandments to motives and words, not just outward acts, as Jesus taught.",
+      "Let the law drive you to Christ for forgiveness and to the Spirit for power to obey."
+    ],
+    "misapplications": [
+      {
+        "claim": "Keeping the Ten Commandments is how a person earns God's favor.",
+        "correction": "The commandments come after 'who brought you out of Egypt' (v2). They are the response to redemption, not the means of it. Paul says no one is justified by works of the law (Galatians 2:16)."
+      },
+      {
+        "claim": "The commandments only forbid outward actions.",
+        "correction": "The tenth commandment forbids coveting, a desire of the heart, and Jesus showed anger and lust break the sixth and seventh. God's law reaches the heart."
+      },
+      {
+        "claim": "'Visiting iniquity to the third and fourth generation' means God punishes innocent children for parents' sins.",
+        "correction": "The phrase speaks of 'those who hate me' (v5), describing the spreading consequences of sin in families who continue in it. Ezekiel 18:20 says the son will not bear the iniquity of the father. God's love extends to thousands (v6)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Third and fourth generation", "b": "Thousands", "verses": "5-6", "note": "God's judgment is limited; his steadfast love is lavish and far-reaching." },
+      { "a": "The people stand far off", "b": "Moses draws near", "verses": "21", "note": "Fear keeps the people back, while the mediator enters the thick darkness." },
+      { "a": "Gods of silver and gold", "b": "An altar of earth", "verses": "23-24", "note": "Worship is not about impressive objects but God's presence and blessing." },
+      { "a": "Fear that drives away", "b": "Fear that keeps from sin", "verses": "20", "note": "Moses tells them 'Do not fear' yet hopes 'the fear of him may be before you.' Terror is replaced by reverence." }
+    ],
+    "features": [
+      { "label": "Two tables", "note": "The commands divide naturally into duties toward God (v3-11) and toward neighbor (v12-17), the two great commandments Jesus names." },
+      { "label": "Numbering differs", "note": "Jewish tradition counts verse 2 as the first 'word.' Catholics and Lutherans combine no other gods and no images, and split coveting into two. Reformed and Orthodox count no images as a separate second commandment." },
+      { "label": "Short and absolute", "note": "Most commandments are short negative statements with no exceptions listed, setting boundaries rather than detailed rules." },
+      { "label": "Simple altars", "note": "The altar laws (v24-26) forbid tool-cut stones and steps, keeping worship free from human pride and pagan practices." }
+    ],
+    "summary": "Exodus 20 records God speaking the Ten Commandments, the foundation of Israel's covenant life. They begin with redemption, call for exclusive love for God and practical love for neighbor, and reach from actions to the heart. Israel's fear before God's voice leads them to want a mediator, and God gives instructions for simple worship where he will come and bless.",
+    "metaArc": {
+      "book": "Chapter 20 is the heart of the Sinai covenant. Everything in the Book of the Covenant (chapters 21-23) applies these words, and the tablets they are written on are placed in the ark at the center of the tabernacle.",
+      "redemptive": "This belongs to Redemption: the law shapes a redeemed people, reveals sin, and points to Christ who fulfills it and writes it on his people's hearts in the new covenant."
+    }
+  }
+}
