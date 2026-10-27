@@ -1,0 +1,171 @@
+{
+  "ref": "REV.2",
+  "book": "Revelation",
+  "chapter": 2,
+  "title": "Return to Your First Love",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The risen Christ speaks to four churches: Ephesus, orthodox but loveless; Smyrna, poor and persecuted but rich; Pergamum, faithful under pressure yet tolerating compromise; and Thyatira, growing in love yet tolerating a false prophetess. He knows each one, calls them to repent or endure, and promises great rewards to the one who conquers.",
+  "keyVerses": ["4-5", "10", "17", "26-27"],
+  "steps": {
+    "language": [
+      {
+        "word": "νικάω",
+        "translit": "nikaō",
+        "strongs": "G3528",
+        "gloss": "to conquer, overcome, be victorious",
+        "verses": "7, 11, 17, 26",
+        "note": "Every letter ends with a promise 'to the one who conquers.' In Revelation believers conquer the way the Lamb did, by faithful witness even to death (5:5-6; 12:11). Victory here means staying true to Christ, not winning by force."
+      },
+      {
+        "word": "μετανοέω",
+        "translit": "metanoeō",
+        "strongs": "G3340",
+        "gloss": "to repent, change one's mind and direction",
+        "verses": "5, 16, 21-22",
+        "note": "The word appears eight times in the seven letters. Repentance is Christ's call to his own churches, not only to unbelievers, and it is given with time and opportunity (v21)."
+      },
+      {
+        "word": "ὑπομονή",
+        "translit": "hypomonē",
+        "strongs": "G5281",
+        "gloss": "patient endurance, steadfastness",
+        "verses": "2-3, 19",
+        "note": "Literally 'remaining under' a load. It is not passive waiting but active perseverance under pressure. Christ praises it in Ephesus and Thyatira, and the whole book calls the saints to it (13:10; 14:12)."
+      },
+      {
+        "word": "ψῆφος",
+        "translit": "psēphos",
+        "strongs": "G5586",
+        "gloss": "pebble, stone",
+        "verses": "17",
+        "note": "Small stones had many uses in the ancient world: jurors voted acquittal with a white stone, and stones served as tokens of admission to feasts. The exact background is uncertain, but the promise is of acceptance and a personal, secret name from Christ."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The tree of life",
+        "refs": ["Genesis 2:9; 3:22-24", "Proverbs 3:18", "Revelation 22:2, 14, 19"],
+        "note": "The tree barred to humanity after the fall is promised to the conqueror in Ephesus (v7) and stands in the city at the end of the book. Revelation ends where Genesis began."
+      },
+      {
+        "theme": "Balaam and Jezebel",
+        "refs": ["Numbers 25:1-3; 31:16", "1 Kings 16:31-33", "2 Kings 9:22"],
+        "note": "Balaam counseled Moab to lure Israel into idolatry and sexual sin; Jezebel promoted Baal worship in Israel. Christ uses their names for teachers inside the church who encouraged the same compromise."
+      },
+      {
+        "theme": "Crown of life",
+        "refs": ["James 1:12", "1 Corinthians 9:25", "2 Timothy 4:8"],
+        "note": "The victor's wreath given to those who endure. For Smyrna, it is promised to those faithful even unto death."
+      },
+      {
+        "theme": "Ruling the nations with a rod of iron",
+        "refs": ["Psalm 2:8-9", "Revelation 12:5", "Revelation 19:15"],
+        "note": "The rule promised to the Messiah in Psalm 2 is shared with his faithful people (v26-27)."
+      }
+    ],
+    "context": {
+      "setting": "The seven churches lay on a circular road through the Roman province of Asia, and the letters probably follow the route a messenger would travel. Each letter follows a pattern: a title of Christ drawn from chapter 1, 'I know your works,' praise and/or rebuke, a command, a call to hear what the Spirit says to the churches, and a promise to the one who conquers. Ephesus was the great city of the region with the temple of Artemis; Smyrna was proud of its loyalty to Rome and had a hostile Jewish community; Pergamum was a center of the emperor cult; Thyatira was a commercial town known for trade guilds, which held feasts honoring their patron gods.",
+      "flow": [
+        { "verses": "1-7", "label": "Ephesus", "note": "Commended for hard work, endurance and testing false apostles, but rebuked for abandoning the love they had at first. Remember, repent and do the first works, or lose your lampstand." },
+        { "verses": "8-11", "label": "Smyrna", "note": "Poor yet rich, slandered and about to suffer prison. No rebuke: be faithful unto death and receive the crown of life." },
+        { "verses": "12-17", "label": "Pergamum", "note": "Faithful where Satan's throne is, even when Antipas was killed, but tolerating those who hold the teaching of Balaam and the Nicolaitans. Repent, or Christ will fight them with the sword of his mouth." },
+        { "verses": "18-29", "label": "Thyatira", "note": "Love, faith, service and endurance growing, but tolerating 'Jezebel,' who leads servants into immorality and idol feasts. Judgment is coming on her; the rest are to hold fast until Christ comes." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 2:8-9", "from": "26-27", "note": "'Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter's vessel.' Christ applies the Messiah's promised authority to those who conquer." },
+        { "ref": "Numbers 25:1-3; 31:16", "from": "14", "note": "The account of Balaam's counsel leading Israel to eat sacrifices to idols and commit sexual immorality, which verse 14 directly recalls." }
+      ],
+      "tier2": [
+        { "ref": "Acts 20:28-31", "from": "2", "note": "Paul warned the Ephesian elders that fierce wolves would arise. Decades later the church has tested false apostles and found them liars." },
+        { "ref": "Jeremiah 17:10", "from": "23", "note": "'I the LORD search the heart, I try the reins, even to give every man according to his ways.' Christ claims this divine role." },
+        { "ref": "1 Corinthians 8-10", "from": "14, 20", "note": "Paul's discussion of food offered to idols and the danger of sharing in idol feasts, the very issue in Pergamum and Thyatira." },
+        { "ref": "Genesis 2:9; 3:22-24", "from": "7", "note": "The tree of life in Eden, which sinful humanity was barred from, is restored to those who conquer." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 16:31-35", "from": "17", "note": "Manna fed Israel in the wilderness and a jar was kept hidden in the ark. Christ promises hidden manna, himself as the bread of life (John 6:48-51)." },
+        { "ref": "1 Kings 16:31; 21:25", "from": "20", "note": "Ahab's queen who stirred him up to evil, a picture of a powerful influence leading God's people into idolatry." },
+        { "ref": "Daniel 1:12-15", "from": "10", "note": "Daniel and his friends were tested ten days. 'Ten days' may suggest a limited period of trial." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Colin J. Hemer",
+        "work": "The Letters to the Seven Churches of Asia in Their Local Setting",
+        "view": "Hemer showed how closely each letter fits what is known of its city. He connected 'Satan's throne' in Pergamum with its prominence in emperor worship and its great temples, and the promise of a crown to Smyrna with that city's civic pride and imagery."
+      },
+      {
+        "name": "John Stott",
+        "work": "What Christ Thinks of the Church",
+        "view": "Stott took the letters as Christ's assessment of churches in every age. He saw in Ephesus a warning that sound doctrine and hard work cannot make up for a loss of love for Christ and for one another."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale argues that the chief danger facing most of the seven churches was not persecution but compromise with the surrounding idolatrous culture, especially in the trade guilds. The visions that follow are meant to show these churches what is really at stake."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "Nevertheless I have somewhat against thee, because thou hast left thy first love.",
+        "renderings": [
+          { "version": "ESV", "text": "you have abandoned the love you had at first" },
+          { "version": "NIV", "text": "You have forsaken the love you had at first" }
+        ],
+        "note": "The KJV's 'somewhat against thee' can sound mild, but the Greek simply says 'I have against you.' The rebuke is serious enough that Christ threatens to remove their lampstand. 'First love' likely includes both love for Christ and love for one another."
+      },
+      {
+        "verse": "13",
+        "kjv": "I know thy works, and where thou dwellest, even where Satan's seat is: and thou holdest fast my name, and hast not denied my faith, even in those days wherein Antipas was my faithful martyr, who was slain among you, where Satan dwelleth.",
+        "renderings": [
+          { "version": "ESV", "text": "where Satan's throne is" },
+          { "version": "NIV", "text": "where Satan has his throne" }
+        ],
+        "note": "The Greek word is thronos, the same word used for God's throne in chapter 4. 'Seat' in older English meant a throne, but modern readers can miss that this sets up a rival throne. Faithful believers in Pergamum lived in its shadow."
+      }
+    ],
+    "gospel": "Each letter begins with Christ, who holds the churches in his hand, who died and came to life (v8), whose eyes see into hearts (v18). He gives what only he can give: access to the tree of life lost in Eden, deliverance from the second death, hidden manna, a new name, and a share in his own rule. His rebukes are themselves grace, since he calls even a false prophetess to repent and gives her time (v21). Smyrna's riches in the midst of poverty come from belonging to the one who conquered death.",
+    "application": [
+      "Check whether your faithfulness to truth is still warmed by love for Christ and others. Correct doctrine is necessary but not enough.",
+      "When faithfulness brings loss, remember that Christ sees it, sets a limit on it, and promises a crown of life.",
+      "Do not tolerate teaching in the church that makes peace with idolatry or sexual immorality, however spiritual it sounds.",
+      "Listen to Christ's rebukes as an offer. 'Remember, repent, do the first works' is a path back.",
+      "Hear every letter, not only the one that seems to fit you. Each ends 'hear what the Spirit says to the churches.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "The seven churches are only seven successive eras of church history, so the letters are not really addressed to us.",
+        "correction": "Some interpreters have seen a historical pattern in the letters, but each speaks to the actual condition of a real church, and each ends by calling all the churches to listen. Their warnings and promises apply to churches in every age."
+      },
+      {
+        "claim": "Love means accepting every teaching without judgment.",
+        "correction": "Ephesus is praised for testing false apostles (v2), and Thyatira, praised for love (v19), is rebuked for tolerating false teaching (v20). Christ requires both love and truth."
+      },
+      {
+        "claim": "Being faithful to Christ will bring prosperity.",
+        "correction": "The church Christ does not rebuke at all is poor and about to suffer prison (v9-10). Its riches are not material."
+      }
+    ],
+    "contrasts": [
+      { "a": "Poverty", "b": "Riches", "verses": "9", "note": "Smyrna was materially poor and spiritually rich, the reverse of Laodicea in chapter 3." },
+      { "a": "The first death", "b": "The second death", "verses": "10-11", "note": "Believers may lose their lives, but the second death, final judgment, cannot harm them." },
+      { "a": "Satan's throne", "b": "Christ's authority", "verses": "13, 26-27", "note": "The churches live under a rival power, but the authority Christ received from the Father will be shared with his faithful people." },
+      { "a": "Jezebel's 'deep things'", "b": "Holding fast what you have", "verses": "24-25", "note": "The false teachers offered deeper secrets; Christ asks only for faithfulness to what was already given." }
+    ],
+    "features": [
+      { "label": "A repeating pattern", "note": "Each letter follows the same outline: address, title of Christ, 'I know,' assessment, command, call to hear, promise. The variations stand out against the pattern, such as Smyrna's lack of rebuke." },
+      { "label": "Titles drawn from chapter 1", "note": "Each letter introduces Christ with features from the opening vision suited to that church: to Pergamum, the sharp two-edged sword (1:16; 2:12), because he will fight with it (v16)." },
+      { "label": "'Those who say they are'", "note": "False apostles (v2), those who say they are Jews (v9), a woman who calls herself a prophetess (v20). Claimed identity is set against Christ's verdict." },
+      { "label": "Promises that reach to the end", "note": "The rewards promised here, the tree of life, a new name, rule with Christ, the morning star, are fulfilled in the closing chapters (20:4-6; 22:2, 4, 16)." }
+    ],
+    "summary": "Revelation 2 shows the risen Christ examining his churches with eyes like fire. He praises endurance and faithful witness, rebukes lost love and tolerance of false teaching, and calls for repentance. To every believer who conquers, by staying faithful as the Lamb did, he promises life, vindication and a share in his reign.",
+    "metaArc": {
+      "book": "Chapters 2-3 bridge the opening vision and the great visions of chapters 4-22. They show the real situation of the churches, and the visions that follow are God's answer to their temptations, fears and sufferings.",
+      "redemptive": "The promises reach back to creation and the fall, with the tree of life lost in Eden, and forward to new creation, where Christ's people eat from it again and share in his reign."
+    }
+  }
+}

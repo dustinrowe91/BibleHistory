@@ -1,0 +1,178 @@
+{
+  "ref": "REV.11",
+  "book": "Revelation",
+  "chapter": 11,
+  "title": "The Kingdom of the World Has Become the Kingdom of Our Lord",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "John measures God's temple, protecting its worshipers while the outer court is trampled for forty-two months. Two witnesses prophesy with power, are killed by the beast, lie unburied, and are raised and taken up to heaven. Then the seventh trumpet sounds and heaven proclaims that the kingdom of the world has become the kingdom of our Lord and of his Christ.",
+  "keyVerses": ["3", "11-12", "15", "17-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "ναός",
+        "translit": "naos",
+        "strongs": "G3485",
+        "gloss": "temple, sanctuary",
+        "verses": "1-2, 19",
+        "note": "The inner sanctuary rather than the whole temple complex. John measures it, marking it for protection, as in Ezekiel 40-42 and Zechariah 2. In the New Testament God's people are his temple (1 Corinthians 3:16; Ephesians 2:21), which many take as the meaning here."
+      },
+      {
+        "word": "μάρτυς",
+        "translit": "martys",
+        "strongs": "G3144",
+        "gloss": "witness",
+        "verses": "3",
+        "note": "Two witnesses were required to establish testimony under the law (Deuteronomy 19:15). The witnesses are also called two lampstands (v4), the same image used for churches in 1:20, which has led many to see them as the church in its prophetic witness."
+      },
+      {
+        "word": "ἀναβαίνω",
+        "translit": "anabainō",
+        "strongs": "G305",
+        "gloss": "to go up, ascend",
+        "verses": "7, 12",
+        "note": "The beast 'ascends' from the abyss to kill the witnesses (v7), but the witnesses 'ascend' to heaven in a cloud (v12). The same verb marks the clash and the reversal."
+      },
+      {
+        "word": "βασιλεία",
+        "translit": "basileia",
+        "strongs": "G932",
+        "gloss": "kingdom, reign",
+        "verses": "15",
+        "note": "Singular: 'the kingdom of the world' has become God's kingdom. All the world's rule, which the beast and Babylon claim, passes to God and his Christ. The verb 'has become' speaks of the outcome as settled."
+      },
+      {
+        "word": "διαφθείρω",
+        "translit": "diaphtheirō",
+        "strongs": "G1311",
+        "gloss": "to destroy, ruin, corrupt",
+        "verses": "18",
+        "note": "A play on words: God will 'destroy those who destroy the earth.' The same verb means both ruin and corrupt. God's judgment is fitting, and he is the defender of his creation."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Measuring the temple",
+        "refs": ["Ezekiel 40:3-5", "Zechariah 2:1-5"],
+        "note": "Measuring marked out what belonged to God and would be restored and protected."
+      },
+      {
+        "theme": "Forty-two months, 1,260 days, time-times-half a time",
+        "refs": ["Daniel 7:25", "Daniel 12:7", "Revelation 12:6, 14", "Revelation 13:5"],
+        "note": "The same period of three and a half years appears in different forms, drawn from Daniel. It marks a limited time of trial for God's people while hostile powers seem to prevail."
+      },
+      {
+        "theme": "Moses and Elijah",
+        "refs": ["Exodus 7:17-19", "1 Kings 17:1", "2 Kings 1:10", "Malachi 4:5", "Matthew 17:3"],
+        "note": "Shutting the sky, turning water to blood and calling down fire recall the two great Old Testament prophets, who appeared with Jesus at the transfiguration."
+      },
+      {
+        "theme": "The LORD reigns",
+        "refs": ["Psalm 2:1-2", "Psalm 99:1", "Exodus 15:18", "Daniel 2:44; 7:14"],
+        "note": "The nations rage against the LORD and his anointed, but his kingdom will fill the earth and stand forever."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-14 complete the interlude begun in chapter 10, showing the church's witness before the end. Verses 15-19 bring the seventh trumpet, which announces the kingdom and closes the second series of judgments. The chapter is among the hardest in Revelation. Futurists usually take the temple as a rebuilt temple in Jerusalem and the witnesses as two individuals; preterists see the Jerusalem temple before AD 70; many others read the temple as God's people and the witnesses as the faithful church prophesying through the church age.",
+      "flow": [
+        { "verses": "1-2", "label": "The temple measured", "note": "John measures the temple, altar and worshipers; the outer court is given to the nations, who trample the holy city for forty-two months." },
+        { "verses": "3-6", "label": "The two witnesses", "note": "Clothed in sackcloth, they prophesy 1,260 days; they are olive trees and lampstands, with power to call fire, shut the sky and strike the earth." },
+        { "verses": "7-10", "label": "Killed by the beast", "note": "The beast from the abyss kills them; their bodies lie in the street of the great city where their Lord was crucified, and the earth-dwellers celebrate." },
+        { "verses": "11-14", "label": "Raised and taken up", "note": "After three and a half days God's breath of life enters them; they stand, ascend in a cloud, an earthquake strikes, and the survivors give glory to God." },
+        { "verses": "15-18", "label": "The seventh trumpet", "note": "Loud voices proclaim the kingdom of our Lord and of his Christ; the elders give thanks that God has begun to reign, to judge the dead, reward his servants and destroy the destroyers." },
+        { "verses": "19", "label": "The ark revealed", "note": "God's temple in heaven opens, the ark of his covenant appears, with lightning, thunder, earthquake and hail." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Zechariah 4:2-3, 11-14", "from": "4", "note": "A lampstand and two olive trees, 'the two anointed ones, that stand by the Lord of the whole earth.' John names the witnesses with Zechariah's images." },
+        { "ref": "Psalm 2:1-2", "from": "15, 18", "note": "'The kings of the earth set themselves... against the LORD, and against his anointed.' The nations raged, and God's wrath came; 'his Christ' means his anointed." },
+        { "ref": "Ezekiel 37:5, 10", "from": "11", "note": "'I will cause breath to enter into you, and ye shall live... and the breath came into them, and they lived, and stood up upon their feet.' The witnesses are raised in Ezekiel's words." }
+      ],
+      "tier2": [
+        { "ref": "Daniel 7:21, 25", "from": "2, 7", "note": "The horn made war with the saints and prevailed for 'a time and times and the dividing of time.'" },
+        { "ref": "Luke 21:24", "from": "2", "note": "Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled." },
+        { "ref": "2 Kings 2:11", "from": "12", "note": "Elijah went up to heaven by a whirlwind; the witnesses go up in a cloud as their enemies watch." },
+        { "ref": "Acts 1:9-11", "from": "12", "note": "Jesus ascended in a cloud. The witnesses follow their Lord's pattern of death, resurrection and ascension." }
+      ],
+      "tier3": [
+        { "ref": "Deuteronomy 19:15", "from": "3", "note": "Testimony is established by two or three witnesses." },
+        { "ref": "Isaiah 1:9-10", "from": "8", "note": "Isaiah called Jerusalem's rulers 'Sodom' and its people 'Gomorrah,' showing how a city of God's people can be named after its sin." },
+        { "ref": "Exodus 25:10-22", "from": "19", "note": "The ark of the covenant held the tablets of the law and stood where God met his people. Its appearance signals God's covenant faithfulness." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham reads the two witnesses as a parable of the church's prophetic witness to the nations. Their death and vindication follow Jesus' own path, and the striking result in verse 13 is that most of the city, unlike in the judgments, gives glory to God, showing that the faithful witness of the church accomplishes what judgment alone did not."
+      },
+      {
+        "name": "John MacArthur",
+        "work": "Revelation 1-11 (MacArthur New Testament Commentary)",
+        "view": "MacArthur takes the two witnesses as two individual prophets who will minister in Jerusalem during the tribulation, performing miracles like Moses and Elijah, and the temple as a literal rebuilt temple in that future period."
+      },
+      {
+        "name": "Kenneth L. Gentry Jr.",
+        "work": "Before Jerusalem Fell: Dating the Book of Revelation",
+        "view": "Gentry argues that the command to measure the temple in verses 1-2 implies the Jerusalem temple was still standing, supporting a date for Revelation before its destruction in AD 70, and reads the trampling of the city as the Roman siege."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And their dead bodies shall lie in the street of the great city, which spiritually is called Sodom and Egypt, where also our Lord was crucified.",
+        "renderings": [
+          { "version": "ESV", "text": "the great city that symbolically is called Sodom and Egypt" },
+          { "version": "NIV", "text": "which is figuratively called Sodom and Egypt" }
+        ],
+        "note": "The Greek pneumatikōs means 'spiritually,' that is, as seen by the Spirit's insight. The city that kills the witnesses is called by the names of places that stood for wickedness and oppression, and it is where their Lord was crucified. Some see Jerusalem; others the world city opposed to God, of which Jerusalem was one example."
+      },
+      {
+        "verse": "17",
+        "kjv": "Saying, We give thee thanks, O Lord God Almighty, which art, and wast, and art to come; because thou hast taken to thee thy great power, and hast reigned.",
+        "renderings": [
+          { "version": "ESV", "text": "who is and who was, for you have taken your great power" },
+          { "version": "NIV", "text": "the One who is and who was" }
+        ],
+        "note": "The older manuscripts lack 'and art to come.' The omission is meaningful: the God who 'is to come' (1:4, 8; 4:8) has now come, and the elders give thanks that he has begun to reign."
+      }
+    ],
+    "gospel": "The witnesses' story is shaped like the gospel: they bear faithful testimony, are killed in the city 'where also our Lord was crucified,' lie dead three and a half days, are raised by God's breath and ascend in a cloud (v8-12). Christ's people share his path of suffering and vindication. And for the first time in the book, after their witness, people give glory to God (v13). Then the seventh trumpet proclaims the goal of all redemption: the kingdom of the world has become the kingdom of our Lord and of his Christ, and he shall reign forever and ever (v15).",
+    "application": [
+      "Bear faithful witness even when it costs you. The church's calling is prophetic testimony, often 'in sackcloth.'",
+      "Do not be surprised if the world celebrates the silencing of Christians (v10). God has the final word.",
+      "Trust that God protects his true worshipers, even when outward circumstances look like defeat.",
+      "Let the seventh trumpet shape your hope. The outcome of history is already announced: Christ will reign.",
+      "Join the elders' thanksgiving. God's reign means justice for the dead, reward for his servants and the end of those who destroy his earth."
+    ],
+    "misapplications": [
+      {
+        "claim": "The identity of the two witnesses can be determined with confidence, so the chapter is mainly about naming them.",
+        "correction": "Faithful interpreters have identified them as two future prophets, as Moses and Elijah, or as the church's witness. Whatever view one holds, the chapter's point is the pattern: faithful testimony, suffering, vindication and the coming kingdom."
+      },
+      {
+        "claim": "Christians should call down fire on their enemies like the witnesses.",
+        "correction": "The fire comes 'out of their mouth' (v5), a picture of the power of the prophetic word, recalling Jeremiah 5:14. Jesus rebuked disciples who wanted to call down fire on a village (Luke 9:54-55)."
+      }
+    ],
+    "contrasts": [
+      { "a": "The inner temple measured", "b": "The outer court trampled", "verses": "1-2", "note": "God's people are spiritually secure even while outwardly afflicted." },
+      { "a": "The earth-dwellers rejoice", "b": "Great fear falls on them", "verses": "10-11", "note": "The world's celebration over the witnesses' death turns to terror at their resurrection." },
+      { "a": "The kingdom of the world", "b": "The kingdom of our Lord and his Christ", "verses": "15", "note": "The goal of history: all rule passes to God." },
+      { "a": "The nations raged", "b": "Your wrath came", "verses": "18", "note": "Human rebellion meets God's righteous response." }
+    ],
+    "features": [
+      { "label": "Three and a half", "note": "Forty-two months, 1,260 days, three and a half days: half of seven, a broken period. The witnesses prophesy for three and a half years and lie dead for three and a half days, a short time compared with their ministry." },
+      { "label": "The witnesses relive Jesus' story", "note": "Witness, death in the city where their Lord was crucified, public display, resurrection after days, ascension in a cloud." },
+      { "label": "Repentance at last", "note": "After the trumpets, the survivors 'yet repented not' (9:20). After the witnesses' vindication, 'the remnant were affrighted, and gave glory to the God of heaven' (v13)." },
+      { "label": "Ending with the ark", "note": "The chapter, and the trumpet series, ends with the ark of the covenant seen in heaven (v19), a sign of God's presence and faithfulness, and the storm imagery that marks each series' close grows stronger with hail." }
+    ],
+    "summary": "Revelation 11 shows that God protects his true worshipers and empowers their witness even through a time of trampling and persecution. The two witnesses follow the path of their crucified and risen Lord, and their vindication leads people to give glory to God. Then the seventh trumpet announces the triumphant conclusion of history: the kingdom of the world has become the kingdom of our Lord and of his Christ, who will reign forever.",
+    "metaArc": {
+      "book": "Chapter 11 completes the trumpet series and anticipates the end, then the book steps back in chapter 12 to show the deeper spiritual conflict behind the church's suffering. Many see 11:15-19 as reaching the same final point as the seventh seal and seventh bowl.",
+      "redemptive": "The chapter pictures the church sharing Christ's sufferings and resurrection, and announces the consummation of redemption: God's kingdom fully come over all the world and the judgment and reward of the last day."
+    }
+  }
+}

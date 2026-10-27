@@ -1,0 +1,158 @@
+{
+  "ref": "REV.9",
+  "book": "Revelation",
+  "chapter": 9,
+  "title": "They Did Not Repent",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The fifth trumpet opens the abyss, releasing demonic locusts under a destroying king that torment, but cannot harm, those sealed by God. The sixth releases a vast army that kills a third of humanity. Yet the survivors still refuse to repent of their idols, murders, sorceries, immorality and thefts.",
+  "keyVerses": ["4", "11", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἄβυσσος",
+        "translit": "abyssos",
+        "strongs": "G12",
+        "gloss": "abyss, bottomless pit",
+        "verses": "1-2, 11",
+        "note": "In the Greek Old Testament it translates 'the deep' of Genesis 1:2. In the New Testament it is the prison of demons (Luke 8:31), the source of the beast (11:7; 17:8) and the place Satan is bound (20:1-3). Its key is given to the fallen star, so even the abyss opens only by permission."
+      },
+      {
+        "word": "ἀκρίς",
+        "translit": "akris",
+        "strongs": "G200",
+        "gloss": "locust",
+        "verses": "3, 7",
+        "note": "Locust swarms were among the most feared disasters of the ancient world, stripping land bare. These locusts are different: they harm not plants but people, and only those without God's seal. Their description (horses, crowns, human faces, women's hair, lions' teeth) piles up images of terror."
+      },
+      {
+        "word": "Ἀπολλύων",
+        "translit": "Apollyōn",
+        "strongs": "G623",
+        "gloss": "Destroyer",
+        "verses": "11",
+        "note": "The king of the locusts is named in Hebrew Abaddon ('destruction,' a name for the realm of the dead, Job 26:6) and in Greek Apollyon ('destroyer'). Some hear a jab at the god Apollo, whom emperors like Domitian liked to be associated with."
+      },
+      {
+        "word": "φαρμακεία",
+        "translit": "pharmakeia",
+        "strongs": "G5331",
+        "gloss": "sorcery, magic arts",
+        "verses": "21",
+        "note": "From pharmakon, a drug or potion, the source of English 'pharmacy.' In the ancient world it meant magic, spells and potions used to manipulate spiritual powers. Paul lists it among the works of the flesh (Galatians 5:20)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Locusts as God's army",
+        "refs": ["Exodus 10:12-15", "Joel 1:4-7", "Joel 2:1-11"],
+        "note": "The eighth plague on Egypt was locusts, and Joel describes a locust invasion as the LORD's army, with the appearance of horses and the sound of chariots, darkening the sun."
+      },
+      {
+        "theme": "Longing for death",
+        "refs": ["Job 3:21", "Jeremiah 8:3"],
+        "note": "Job described sufferers who long for death but it does not come. The torment is so severe that people seek death and cannot find it (v6)."
+      },
+      {
+        "theme": "The Euphrates and the armies from the north",
+        "refs": ["Genesis 15:18", "Isaiah 8:7-8", "Jeremiah 46:10", "Revelation 16:12"],
+        "note": "The Euphrates marked the edge of the promised land and the direction from which Assyrian and Babylonian invaders came."
+      },
+      {
+        "theme": "The futility of idols",
+        "refs": ["Psalm 115:4-8", "Psalm 135:15-18", "Daniel 5:23"],
+        "note": "Idols of gold, silver, bronze, stone and wood cannot see, hear or walk, the exact words of verse 20."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 9 describes the fifth and sixth trumpets, the first two of the three woes announced in 8:13. The judgments escalate from the natural world (8:7-12) to direct attacks on people by demonic forces. The imagery draws on the Exodus plagues, Joel's locust army and fears of invasion from beyond the Euphrates, where the Parthian cavalry, Rome's dreaded enemy, rode. The chapter's climax is not the judgments themselves but humanity's refusal to repent.",
+      "flow": [
+        { "verses": "1-6", "label": "Fifth trumpet: the abyss opened", "note": "A fallen star opens the abyss; smoke darkens the sky and locusts emerge with power to torment for five months those without God's seal." },
+        { "verses": "7-12", "label": "The locusts and their king", "note": "Like horses for battle with crowns, human faces, lions' teeth and scorpion tails; their king is Abaddon, Apollyon. The first woe has passed." },
+        { "verses": "13-16", "label": "Sixth trumpet: four angels released", "note": "A voice from the golden altar releases four angels bound at the Euphrates, prepared for the hour to kill a third of mankind; the cavalry numbers two hundred million." },
+        { "verses": "17-19", "label": "The horses and riders", "note": "Riders in fiery breastplates on horses with lions' heads breathing fire, smoke and sulfur, and tails like serpents." },
+        { "verses": "20-21", "label": "No repentance", "note": "The rest of mankind did not repent of worshiping demons and idols, or of their murders, sorceries, sexual immorality and thefts." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Joel 2:4-5", "from": "7-9", "note": "'The appearance of them is as the appearance of horses... like the noise of chariots.' John's locusts are described in Joel's words." },
+        { "ref": "Psalm 115:4-7", "from": "20", "note": "Idols of silver and gold: 'eyes have they, but they see not... feet have they, but they walk not.' Verse 20 echoes this taunt." },
+        { "ref": "Exodus 10:12-15", "from": "3", "note": "The plague of locusts covered Egypt and darkened the land, the background for the fifth trumpet." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 9:4-6", "from": "4", "note": "Those marked on the forehead were spared when judgment went through the city. The sealed of chapter 7 are protected from the locusts." },
+        { "ref": "Luke 8:31; 2 Peter 2:4; Jude 6", "from": "1-2", "note": "Demons fear the abyss, and fallen angels are kept in chains for judgment." },
+        { "ref": "Luke 10:18-19", "from": "1, 5", "note": "Jesus saw Satan fall like lightning and gave his disciples authority over serpents and scorpions." },
+        { "ref": "Exodus 7-11", "from": "20-21", "note": "Pharaoh hardened his heart through plague after plague. The earth-dwellers refuse to repent in the same way." }
+      ],
+      "tier3": [
+        { "ref": "Job 26:6; Proverbs 15:11", "from": "11", "note": "Abaddon appears as a name for the place of destruction, laid bare before God." },
+        { "ref": "Isaiah 14:12", "from": "1", "note": "A star fallen from heaven, used of the proud king of Babylon and often linked with Satan." },
+        { "ref": "Galatians 5:19-21", "from": "21", "note": "Paul's list of the works of the flesh, including idolatry, sorcery and sexual immorality." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale takes the locusts as demonic forces that bring spiritual and psychological torment on unbelievers, hardening them in their idolatry. He sees the protection of the sealed as meaning that believers will not suffer this inner torment of being given over to deception and despair."
+      },
+      {
+        "name": "Robert L. Thomas",
+        "work": "Revelation 8-22: An Exegetical Commentary",
+        "view": "Thomas takes the fifth and sixth trumpets as future events within the tribulation, with literal demonic beings released from a real abyss and a vast army of demonic horsemen, rather than symbols of ongoing conditions."
+      },
+      {
+        "name": "Craig S. Keener",
+        "work": "Revelation (NIV Application Commentary)",
+        "view": "Keener highlights the first-century fears behind the imagery: Joel's locusts and the Parthian horse-archers beyond the Euphrates whom Rome feared. He emphasizes that the chapter's point is that judgment alone does not change hearts, which is why the gospel must still be preached."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "Neither repented they of their murders, nor of their sorceries, nor of their fornication, nor of their thefts.",
+        "renderings": [
+          { "version": "ESV", "text": "nor their sorceries or their sexual immorality" },
+          { "version": "NIV", "text": "their magic arts, their sexual immorality" }
+        ],
+        "note": "Pharmakeia (sorceries) refers to magic and occult practices, often involving potions. 'Fornication' translates porneia, which covers all sexual immorality, so modern versions use the broader term."
+      }
+    ],
+    "gospel": "This chapter shows why the world needs more than suffering to be saved. Even severe judgment does not produce repentance; hearts remain hardened toward idols (v20-21). Only the Lamb's blood and the Spirit's seal change that. God's people are marked and protected from the destroyer (v4), just as Israel was spared from the plagues and the Passover angel. The voice that releases the sixth trumpet comes from the golden altar of prayer, showing again that God's judgments answer the cries of his people.",
+    "application": [
+      "Rest in God's protection. The forces of darkness are real, but they cannot touch those who bear his seal.",
+      "Do not assume that hardship will make people turn to God. Pray for and share the gospel, which alone changes hearts.",
+      "Examine your own heart for the sins listed in verses 20-21, especially modern forms of idolatry and occult practice.",
+      "Remember that evil is on a leash: the abyss is opened by a key that is given, for a set time and a limited purpose."
+    ],
+    "misapplications": [
+      {
+        "claim": "The locusts and horsemen are coded descriptions of modern helicopters, tanks or nuclear weapons.",
+        "correction": "John uses imagery from Joel, Exodus and his own world (horses, scorpions, lions) to convey terror and demonic power. Reading modern technology into it has produced many confident but mistaken predictions."
+      },
+      {
+        "claim": "If people just saw enough of God's judgment, they would believe.",
+        "correction": "Verses 20-21 say the opposite: after terrible judgments, those who survived still did not repent. Faith comes by hearing the word of Christ (Romans 10:17) and by God's grace."
+      }
+    ],
+    "contrasts": [
+      { "a": "Sealed", "b": "Unsealed", "verses": "4", "note": "The same judgment affects the two groups differently." },
+      { "a": "Seeking death", "b": "Death fleeing them", "verses": "6", "note": "A reversal of normal life, showing the horror of torment." },
+      { "a": "Severe judgment", "b": "Hardened hearts", "verses": "20-21", "note": "Judgment exposes what is in the heart rather than changing it." }
+    ],
+    "features": [
+      { "label": "'Like' and 'as it were'", "note": "John repeatedly uses comparisons (like horses, like gold, like human faces, like lions' teeth). He is describing visionary realities by analogy, not giving a technical description." },
+      { "label": "Two hundred million", "note": "Literally 'twice ten thousand times ten thousand,' a number meant to overwhelm, larger than any army of the ancient world." },
+      { "label": "Five months", "note": "The approximate life span of a locust and the length of a locust season. The torment is real but limited." },
+      { "label": "Idolatry and its fruit", "note": "Verse 20 names the root sin, worship of demons and idols; verse 21 lists its fruit in the way people treat one another: murder, sorcery, immorality and theft. False worship always spills over into broken relationships." }
+    ],
+    "summary": "Revelation 9 shows judgment intensifying as demonic forces are released to torment and kill, yet always under God's control and never against those he has sealed. Its sobering climax is that humanity, having survived, still refuses to repent of its idolatry and wickedness. The chapter exposes the depth of human rebellion and shows that only the grace of God, not judgment alone, can change a heart.",
+    "metaArc": {
+      "book": "Chapter 9 contains the first and second woes, the fifth and sixth trumpets. Like the sixth seal, the sixth trumpet is followed by an interlude (10:1-11:14) before the seventh sounds.",
+      "redemptive": "The chapter exposes the fall at its deepest: humanity enslaved to idols and demonic powers and unwilling to turn back. It sets the stage for the witness of the church in chapters 10-11 and the final defeat of evil."
+    }
+  }
+}

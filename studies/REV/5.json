@@ -1,0 +1,160 @@
+{
+  "ref": "REV.5",
+  "book": "Revelation",
+  "chapter": 5,
+  "title": "Worthy Is the Lamb",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "No one in all creation is worthy to open God's sealed scroll until John is told of the conquering Lion of Judah, and turns to see a Lamb standing as though slain. Because he was slain and ransomed a people from every nation, the Lamb takes the scroll, and all creation joins in worship of God and the Lamb together.",
+  "keyVerses": ["5-6", "9-10", "12", "13"],
+  "steps": {
+    "language": [
+      {
+        "word": "βιβλίον",
+        "translit": "biblion",
+        "strongs": "G975",
+        "gloss": "scroll, book",
+        "verses": "1-9",
+        "note": "A scroll written on both sides and sealed with seven seals, held in God's right hand. It most likely contains God's plan to judge evil and establish his kingdom. A sealed scroll could not be read or carried out until opened by someone with authority."
+      },
+      {
+        "word": "ἀρνίον",
+        "translit": "arnion",
+        "strongs": "G721",
+        "gloss": "lamb",
+        "verses": "6, 8, 12-13",
+        "note": "Revelation's main title for Christ, used about 28 times. A small, sacrificial animal appears where a conquering lion was announced. The Lamb has seven horns (complete power) and seven eyes (complete knowledge), yet still bears the marks of slaughter."
+      },
+      {
+        "word": "σφάζω",
+        "translit": "sphazō",
+        "strongs": "G4969",
+        "gloss": "to slaughter, slay",
+        "verses": "6, 9, 12",
+        "note": "The word for sacrificial slaughter. The perfect participle in verse 6 ('having been slain') suggests that Christ's death has lasting effects. The risen Lamb stands, alive, but the wounds remain."
+      },
+      {
+        "word": "ἀγοράζω",
+        "translit": "agorazō",
+        "strongs": "G59",
+        "gloss": "to buy, purchase",
+        "verses": "9",
+        "note": "From agora, the marketplace. Christ's blood is the price paid to acquire a people for God from every tribe, language, people and nation (compare 1 Corinthians 6:20)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Lion of Judah and Root of David",
+        "refs": ["Genesis 49:9-10", "Isaiah 11:1, 10", "Romans 15:12"],
+        "note": "Jacob foretold a ruler from Judah, pictured as a lion; Isaiah promised a shoot from Jesse's root. Both pointed to the Messiah, and John hears them fulfilled in Jesus."
+      },
+      {
+        "theme": "The Passover Lamb and the Servant",
+        "refs": ["Exodus 12:3-13", "Isaiah 53:7", "John 1:29", "1 Corinthians 5:7", "1 Peter 1:18-19"],
+        "note": "The lamb whose blood delivered Israel and the Servant led like a lamb to the slaughter both find their fulfillment in Christ, whose blood redeems."
+      },
+      {
+        "theme": "A new song",
+        "refs": ["Psalm 96:1", "Psalm 98:1", "Isaiah 42:10", "Revelation 14:3"],
+        "note": "In the Psalms a new song celebrates a new act of God's salvation. The greatest act of all calls forth the newest song."
+      },
+      {
+        "theme": "Every tribe and language",
+        "refs": ["Genesis 12:3", "Daniel 7:14", "Revelation 7:9"],
+        "note": "God promised Abraham blessing for all families of the earth. The Lamb's purchased people fulfill that promise."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 5 continues the throne room vision of chapter 4. There God was praised as Creator; here the Lamb is praised as Redeemer, and the circle of worship widens until it includes every creature. The opening of the scroll's seals begins in chapter 6, so this chapter explains why the Lamb has the right to unfold the events of history.",
+      "flow": [
+        { "verses": "1-4", "label": "The sealed scroll", "note": "A mighty angel asks who is worthy to open it; no one in heaven or on earth or under the earth is found, and John weeps." },
+        { "verses": "5-7", "label": "The Lion who is a Lamb", "note": "An elder announces the Lion of Judah has conquered; John sees a Lamb standing as though slain, who takes the scroll from the one on the throne." },
+        { "verses": "8-10", "label": "The new song", "note": "The creatures and elders, with harps and bowls of incense (the prayers of the saints), sing that the Lamb is worthy because he was slain and ransomed a people for God." },
+        { "verses": "11-12", "label": "Myriads of angels", "note": "Countless angels proclaim the slain Lamb worthy of power, wealth, wisdom, might, honor, glory and blessing." },
+        { "verses": "13-14", "label": "All creation", "note": "Every creature everywhere praises the one on the throne and the Lamb forever; the creatures say 'Amen' and the elders fall down in worship." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 49:9-10", "from": "5", "note": "'Judah is a lion's whelp... The sceptre shall not depart from Judah.' The title 'Lion of the tribe of Judah' comes from Jacob's blessing." },
+        { "ref": "Isaiah 11:1, 10", "from": "5", "note": "The shoot from the stem of Jesse and the 'root of Jesse.' Christ is 'the Root of David.'" },
+        { "ref": "Daniel 7:10", "from": "11", "note": "'Thousand thousands ministered unto him, and ten thousand times ten thousand stood before him.' John uses Daniel's numbers for the angels around the throne." }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 53:7", "from": "6, 9", "note": "The Servant was led as a lamb to the slaughter. The slain Lamb is the Servant who bore the sins of many." },
+        { "ref": "Exodus 19:5-6", "from": "10", "note": "A people purchased to be a kingdom of priests, now drawn from every nation." },
+        { "ref": "Ezekiel 2:9-10", "from": "1", "note": "Ezekiel was shown a scroll written on the front and back with lamentation and woe, which he was to eat (Revelation 10)." },
+        { "ref": "Philippians 2:9-11", "from": "13", "note": "Every knee in heaven, on earth and under the earth will bow to Jesus to the glory of God the Father, the same three realms as verse 13." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 141:2", "from": "8", "note": "'Let my prayer be set forth before thee as incense.' The saints' prayers rise before God's throne and, in chapter 8, help set his judgments in motion." },
+        { "ref": "Daniel 12:4, 9", "from": "1", "note": "Daniel was told to seal up the words until the time of the end. Now the Lamb opens what was sealed." },
+        { "ref": "Zechariah 4:10", "from": "6", "note": "The seven eyes of the LORD range through the whole earth. The Lamb has seven eyes, the seven spirits sent out into all the earth." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Theology of the Book of Revelation",
+        "view": "Bauckham argues that John hears 'Lion' but sees 'Lamb' on purpose. The Jewish hope of a conquering Messiah is not abandoned but reinterpreted: Jesus conquers by sacrificial death, and his followers conquer the same way, by faithful witness."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale connects this scene closely with Daniel 7, where the Son of Man approaches the Ancient of Days and receives dominion. He sees the Lamb's taking of the scroll as Christ's enthronement after his resurrection, when he received authority to carry out God's plan of judgment and redemption."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Revelation (video series)",
+        "view": "BibleProject presents this scene as the key to reading the whole book: the expected Lion turns out to be a slaughtered Lamb, so the violent imagery that follows must be read through the cross, where God defeats evil by self-giving love."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "9-10",
+        "kjv": "And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation; And hast made us unto our God kings and priests: and we shall reign on the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "you ransomed people for God... made them a kingdom and priests" },
+          { "version": "NIV", "text": "you purchased for God persons... made them to be a kingdom" },
+          { "version": "NKJV", "text": "have redeemed us to God... made us kings and priests" }
+        ],
+        "note": "Later manuscripts read 'us,' as if the elders sing of their own redemption; earlier ones read 'people' and 'them.' The difference touches the debate over who the elders are. Modern versions also follow manuscripts reading 'a kingdom' rather than 'kings,' matching 1:6."
+      }
+    ],
+    "gospel": "This chapter is the gospel in heaven's own words. Human history has no one worthy to open God's purposes, until the Lamb who was slain takes the scroll (v4-7). He is worthy not only because he is the Lion of David's line, but because he died, and by his blood ransomed people from every tribe, language, people and nation, making them a kingdom and priests to God (v9-10). The cross is not a defeat that the resurrection reversed; it is the victory itself. And the Lamb receives the same worship as the one on the throne (v13).",
+    "application": [
+      "When you are tempted to despair over evil, look to the Lamb. His death is God's answer to the brokenness of history.",
+      "Worship Jesus as God. Heaven gives him the same praise it gives the one on the throne.",
+      "Rejoice in the global, multiethnic church, and pray and work for the gospel to reach every people.",
+      "Pray with confidence. Your prayers are pictured as incense before God's throne (v8).",
+      "Follow the Lamb's way of conquering: faithful, self-giving witness rather than force."
+    ],
+    "misapplications": [
+      {
+        "claim": "The Lamb is a weak or gentle figure who must be replaced by the warrior of chapter 19 to finally win.",
+        "correction": "The Lamb has seven horns, complete power (v6), and 'has conquered' already (v5). The rider of chapter 19 is the same Christ, still 'clothed in a robe dipped in blood' (19:13)."
+      },
+      {
+        "claim": "Since John wept, Christians should be anxious about whether God's purposes will be fulfilled.",
+        "correction": "The elder's first words are 'Weep not' (v5). The Lamb has conquered and takes the scroll; the outcome is secure."
+      }
+    ],
+    "contrasts": [
+      { "a": "The Lion", "b": "The Lamb", "verses": "5-6", "note": "The power John hears about is revealed in the weakness he sees; Christ conquers through sacrifice." },
+      { "a": "No one worthy", "b": "The Lamb is worthy", "verses": "3-4, 9", "note": "All creation fails the test; only the slain Lamb passes it." },
+      { "a": "Slain", "b": "Standing", "verses": "6", "note": "Death and resurrection together in a single image." }
+    ],
+    "features": [
+      { "label": "Hearing and seeing", "note": "John hears of a lion (v5) but sees a lamb (v6), a pattern that recurs in the book (7:4, 9). What he sees interprets what he hears." },
+      { "label": "Widening circles of praise", "note": "Worship begins with four creatures and twenty-four elders, grows to countless angels, and finally includes every creature in heaven, on earth, under the earth and in the sea." },
+      { "label": "Sevenfold praise", "note": "The angels ascribe seven things to the Lamb (v12): power, wealth, wisdom, might, honor, glory and blessing, a complete ascription of worth." },
+      { "label": "Paired worship", "note": "Chapter 4 praises God as Creator; chapter 5 praises the Lamb as Redeemer; verse 13 joins them in one song 'to him who sits on the throne and to the Lamb.'" }
+    ],
+    "summary": "Revelation 5 reveals that the Lamb who was slain is the only one worthy to open God's plan for history and bring it to its goal. He conquered by his death, ransoming a people from every nation and making them a kingdom of priests. All creation joins in worship of God and the Lamb together, establishing that the crucified and risen Jesus shares God's throne and God's glory.",
+    "metaArc": {
+      "book": "Chapter 5 completes the throne room vision and introduces the Lamb as the central figure of the book. His taking the scroll sets the seals, trumpets and bowls in motion, and the Lamb's victory is the foundation for everything that follows.",
+      "redemptive": "The chapter stands at the heart of the story of redemption: the promise to Judah and David fulfilled, Passover and the Servant completed in the Lamb, and a people from all nations gathered to reign on the renewed earth."
+    }
+  }
+}

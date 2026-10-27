@@ -1,0 +1,176 @@
+{
+  "ref": "REV.20",
+  "book": "Revelation",
+  "chapter": 20,
+  "title": "The Thousand Years and the Great White Throne",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Satan is bound for a thousand years so that he can no longer deceive the nations, while those faithful to Christ reign with him. After a final rebellion is crushed by fire from heaven, the devil is thrown into the lake of fire. Then all the dead stand before the great white throne and are judged, and death and Hades themselves are destroyed.",
+  "keyVerses": ["2-3", "4", "6", "11-12"],
+  "steps": {
+    "language": [
+      {
+        "word": "χίλιοι",
+        "translit": "chilioi",
+        "strongs": "G5507",
+        "gloss": "thousand",
+        "verses": "2-7",
+        "note": "'A thousand years' appears six times in seven verses. The Latin for it gives us the word 'millennium.' Christians disagree on whether it is a literal span of time or a symbol of a long, complete period, as numbers often are in Revelation."
+      },
+      {
+        "word": "δέω",
+        "translit": "deō",
+        "strongs": "G1210",
+        "gloss": "to bind, tie up",
+        "verses": "2",
+        "note": "An angel seizes the dragon and binds him so that he can no longer deceive the nations (v3). Jesus used the same verb of binding the strong man to plunder his house (Matthew 12:29). Whether this binding began at Christ's first coming or awaits his return is central to the millennial debate."
+      },
+      {
+        "word": "ἀνάστασις",
+        "translit": "anastasis",
+        "strongs": "G386",
+        "gloss": "resurrection, rising",
+        "verses": "5-6",
+        "note": "'The first resurrection.' Premillennialists usually take it as the bodily resurrection of believers at Christ's return, followed by the resurrection of the rest after the thousand years; amillennialists often take it as the new birth or the believer's life with Christ after death, with one general bodily resurrection at the end."
+      },
+      {
+        "word": "δεύτερος θάνατος",
+        "translit": "deuteros thanatos",
+        "strongs": "G1208",
+        "gloss": "second death",
+        "verses": "6, 14",
+        "note": "Explained as 'the lake of fire' (v14; 21:8). The first death is the death of the body; the second is final, eternal separation from God under judgment. It has no power over those who share in the first resurrection."
+      },
+      {
+        "word": "βιβλίον τῆς ζωῆς",
+        "translit": "biblion tēs zōēs",
+        "strongs": "G975",
+        "gloss": "book of life",
+        "verses": "12, 15",
+        "note": "Books recording deeds are opened, and the book of life. People are judged according to their works, but rescue depends on having one's name written in the Lamb's book of life (13:8; 21:27)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Thrones and judgment given to the saints",
+        "refs": ["Daniel 7:9-10, 22, 27", "Matthew 19:28", "1 Corinthians 6:2-3"],
+        "note": "Daniel saw thrones set and judgment given to the saints of the Most High, who receive the kingdom. Jesus promised his apostles thrones."
+      },
+      {
+        "theme": "Gog and Magog",
+        "refs": ["Ezekiel 38-39"],
+        "note": "Ezekiel foresaw Gog of the land of Magog leading the nations against God's restored people, and being destroyed by fire from heaven. John uses the names for the final assault of the nations."
+      },
+      {
+        "theme": "Judgment according to works",
+        "refs": ["Psalm 62:12", "Ecclesiastes 12:14", "Matthew 16:27", "Romans 2:6", "2 Corinthians 5:10"],
+        "note": "Scripture consistently teaches that God will judge every person according to what they have done."
+      },
+      {
+        "theme": "The defeat of death",
+        "refs": ["Isaiah 25:8", "Hosea 13:14", "1 Corinthians 15:26, 54-55"],
+        "note": "Death is the last enemy to be destroyed. Here death and Hades are thrown into the lake of fire."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 20 follows the defeat of the beast and false prophet in chapter 19 and precedes the new creation in chapters 21-22. It is the only passage in Scripture that speaks of a thousand-year reign, and it has given rise to the main Christian views of the millennium. Premillennialists (both historic and dispensational) hold that Christ returns before a future thousand-year reign on earth. Amillennialists hold that the thousand years symbolize the present age between Christ's first and second comings, with Satan bound and the saints reigning with Christ. Postmillennialists hold that the gospel will bring a long era of righteousness and peace before Christ returns. Faithful Christians hold each view, and all agree that Christ will return, raise the dead, judge the world and make all things new.",
+      "flow": [
+        { "verses": "1-3", "label": "Satan bound", "note": "An angel with the key of the abyss seizes the dragon, binds him for a thousand years, and seals him in so he cannot deceive the nations until the thousand years are ended." },
+        { "verses": "4-6", "label": "The saints reign", "note": "John sees thrones and the souls of those beheaded for the testimony of Jesus who did not worship the beast; they live and reign with Christ a thousand years. This is the first resurrection; blessed are those who share in it." },
+        { "verses": "7-10", "label": "The final rebellion", "note": "Released, Satan deceives the nations, Gog and Magog, and gathers them against the camp of the saints and the beloved city; fire from heaven consumes them, and the devil is thrown into the lake of fire forever." },
+        { "verses": "11-15", "label": "The great white throne", "note": "Earth and sky flee from the one on the throne; the dead, great and small, are judged by what is written in the books; death and Hades are thrown into the lake of fire, as is anyone not found in the book of life." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Daniel 7:9-10, 22", "from": "4, 11-12", "note": "'I beheld till the thrones were cast down... the judgment was set, and the books were opened... and judgment was given to the saints of the most High.' John's thrones and books come from Daniel's vision." },
+        { "ref": "Ezekiel 38:2; 39:6", "from": "8-9", "note": "Gog, of the land of Magog, and fire sent on Magog. John names the final enemies from Ezekiel's prophecy." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 12:28-29", "from": "2-3", "note": "Jesus said he was binding the strong man and plundering his house by casting out demons by God's Spirit." },
+        { "ref": "John 5:24-29", "from": "5-6, 12-13", "note": "Jesus speaks of those who have passed from death to life now, and of an hour when all in the tombs will rise, some to life and some to judgment." },
+        { "ref": "1 Corinthians 15:22-26", "from": "5, 14", "note": "Christ the firstfruits, then those who belong to him at his coming, then the end, when he has destroyed every enemy, death last of all." },
+        { "ref": "Matthew 25:31-46", "from": "11-15", "note": "The Son of Man on his glorious throne judges all nations, separating sheep and goats." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 24:21-22", "from": "1-3", "note": "God punishes the host of heaven and the kings of the earth; they are gathered as prisoners in a pit and shut up for many days." },
+        { "ref": "2 Peter 2:4; Jude 6", "from": "1-3", "note": "Sinful angels are cast into darkness and kept in chains for judgment." },
+        { "ref": "2 Peter 3:8", "from": "2-7", "note": "'One day is with the Lord as a thousand years, and a thousand years as one day.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "George Eldon Ladd",
+        "work": "The Meaning of the Millennium: Four Views (ed. Robert G. Clouse)",
+        "view": "Ladd argued for historic premillennialism. He held that the same word 'lived' (ezēsan) must mean bodily resurrection in both verse 4 and verse 5, so there are two bodily resurrections separated by a thousand-year reign of Christ on earth after his return."
+      },
+      {
+        "name": "Anthony A. Hoekema",
+        "work": "The Meaning of the Millennium: Four Views (ed. Robert G. Clouse)",
+        "view": "Hoekema argued for amillennialism. He took the thousand years as the present age, with Satan bound in the sense that he cannot prevent the gospel from reaching the nations, and the reign of the souls in verse 4 as believers who have died reigning with Christ in heaven now."
+      },
+      {
+        "name": "Loraine Boettner",
+        "work": "The Meaning of the Millennium: Four Views (ed. Robert G. Clouse)",
+        "view": "Boettner argued for postmillennialism: through the spread of the gospel and the Spirit's work, the world will be largely Christianized, and a long era of righteousness and peace will precede Christ's return."
+      },
+      {
+        "name": "Herman A. Hoyt",
+        "work": "The Meaning of the Millennium: Four Views (ed. Robert G. Clouse)",
+        "view": "Hoyt argued for dispensational premillennialism: after a future tribulation, Christ will return to establish a literal thousand-year kingdom on earth, in which God's promises to national Israel will be fulfilled."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years.",
+        "renderings": [
+          { "version": "ESV", "text": "They came to life and reigned with Christ for a thousand years" },
+          { "version": "NIV", "text": "They came to life and reigned with Christ a thousand years" },
+          { "version": "NASB", "text": "they came to life and reigned with Christ" }
+        ],
+        "note": "The Greek verb ezēsan can mean 'they lived' or 'they came to life.' Modern versions choose the second, which many premillennialists see as bodily resurrection. Amillennialists often read it as the souls of the martyrs living and reigning with Christ in heaven during the present age."
+      }
+    ],
+    "gospel": "This chapter shows that Christ's victory leaves no enemy standing. The dragon who deceived the nations is bound and finally thrown into the lake of fire (v2, 10). Those who were beheaded for their testimony are vindicated and reign with Christ, and the second death has no power over them (v4-6). At the great white throne every person is judged by their works, and no one could stand on that basis alone. The hope of sinners is the book of life, which belongs to the Lamb who was slain (13:8). Even death and Hades are destroyed (v14), fulfilling the promise that death will be swallowed up forever.",
+    "application": [
+      "Hold your view of the millennium with humility and charity toward believers who see it differently. All agree on Christ's return, the resurrection and the judgment.",
+      "Take confidence that Satan's power is limited and his end is certain.",
+      "Live with the final judgment in view. Every person will give account to God.",
+      "Make sure your hope rests on having your name written in the Lamb's book of life, not on your record of works.",
+      "Take courage if faithfulness costs you. Those who suffer for Christ will reign with him."
+    ],
+    "misapplications": [
+      {
+        "claim": "One's view of the millennium is a test of genuine faith.",
+        "correction": "Orthodox, Bible-believing Christians throughout history have held premillennial, amillennial and postmillennial views. The creeds confess Christ's return, the resurrection and the judgment without specifying a millennial view."
+      },
+      {
+        "claim": "Judgment 'according to their works' means people are saved by good deeds.",
+        "correction": "The books show that all have sinned, but deliverance from the lake of fire depends on being written in the book of life (v15), which belongs to the Lamb (21:27). Works reveal whose people we are; they do not purchase salvation (Ephesians 2:8-10)."
+      },
+      {
+        "claim": "The lake of fire means the wicked simply cease to exist.",
+        "correction": "Verse 10 says the devil, beast and false prophet are tormented 'day and night for ever and ever.' Some evangelicals hold that human beings are finally annihilated, but the traditional and majority reading of this passage is conscious, unending punishment."
+      }
+    ],
+    "contrasts": [
+      { "a": "Satan bound", "b": "Satan released, then destroyed", "verses": "2-3, 7-10", "note": "His freedom is brief and ends in final defeat." },
+      { "a": "The first resurrection", "b": "The second death", "verses": "6", "note": "Those who share the first never experience the second." },
+      { "a": "Great and small", "b": "All judged alike", "verses": "12", "note": "No rank or status exempts anyone from standing before God." },
+      { "a": "Books of deeds", "b": "The book of life", "verses": "12, 15", "note": "Judgment by works, rescue by grace." }
+    ],
+    "features": [
+      { "label": "The fifth beatitude", "note": "'Blessed and holy is he that hath part in the first resurrection' (v6), the only beatitude in Revelation with 'holy' added." },
+      { "label": "The reverse order of defeat", "note": "The enemies appeared as dragon (12), beasts (13) and Babylon (17), and are defeated in reverse: Babylon (18), the beasts (19), and finally the dragon (20)." },
+      { "label": "Earth and heaven flee", "note": "Before the great white throne, earth and heaven flee away and no place is found for them (v11), clearing the way for the new heaven and new earth (21:1)." },
+      { "label": "Death and Hades destroyed", "note": "Death and Hades, which followed the fourth horseman (6:8), are themselves thrown into the lake of fire. The last enemy is gone." }
+    ],
+    "summary": "Revelation 20 completes the defeat of God's enemies: Satan is bound, the saints reign with Christ, the final rebellion is crushed, and the devil is cast into the lake of fire forever. All the dead stand before God's great white throne and are judged, and death itself is destroyed. Christians differ on how to understand the thousand years, but the chapter's message is shared by all: Christ's victory is total, the faithful will reign with him, and salvation rests on the Lamb's book of life.",
+    "metaArc": {
+      "book": "Chapter 20 completes the defeat of the enemies introduced in chapters 12-13, the dragon last of all, and the final judgment clears the way for the new heaven and new earth of chapters 21-22.",
+      "redemptive": "The chapter brings the fall to its end: the ancient serpent of Genesis 3 is finally destroyed, all humanity is judged, and death, the curse of sin, is abolished, opening onto the new creation."
+    }
+  }
+}

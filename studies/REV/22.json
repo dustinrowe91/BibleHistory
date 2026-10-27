@@ -1,0 +1,179 @@
+{
+  "ref": "REV.22",
+  "book": "Revelation",
+  "chapter": 22,
+  "title": "Surely I Come Quickly",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The river of the water of life flows from the throne of God and the Lamb, the tree of life heals the nations, the curse is gone, and God's servants see his face and reign forever. The book closes with Jesus' repeated promise, 'I am coming soon,' an open invitation for all who thirst to come and drink freely, a solemn warning not to add to or take from the prophecy, and the church's answering prayer: 'Come, Lord Jesus.'",
+  "keyVerses": ["3-4", "13", "17", "20"],
+  "steps": {
+    "language": [
+      {
+        "word": "ποταμός",
+        "translit": "potamos",
+        "strongs": "G4215",
+        "gloss": "river",
+        "verses": "1-2",
+        "note": "A river flowed out of Eden to water the garden (Genesis 2:10), and Ezekiel saw a river flow from the temple and give life wherever it went (Ezekiel 47:1-12). Now the river of the water of life flows from the throne of God and the Lamb through the city."
+      },
+      {
+        "word": "ξύλον",
+        "translit": "xylon",
+        "strongs": "G3586",
+        "gloss": "tree, wood",
+        "verses": "2, 14, 19",
+        "note": "The tree of life, from which humanity was barred after the fall (Genesis 3:22-24), now grows on both sides of the river, bearing fruit every month, with leaves for the healing of the nations. The same word is used for the cross (Acts 5:30; 1 Peter 2:24), the 'tree' by which access was restored."
+      },
+      {
+        "word": "κατάθεμα",
+        "translit": "katathema",
+        "strongs": "G2652",
+        "gloss": "curse, accursed thing",
+        "verses": "3",
+        "note": "'There shall be no more curse.' The curse that fell on the ground and on human life in Genesis 3:17-19 is removed entirely. Christ became a curse for us to redeem us from it (Galatians 3:13)."
+      },
+      {
+        "word": "πρόσωπον",
+        "translit": "prosōpon",
+        "strongs": "G4383",
+        "gloss": "face",
+        "verses": "4",
+        "note": "'They shall see his face.' Moses was told no one could see God's face and live (Exodus 33:20), and the priestly blessing longed for God's face to shine on his people (Numbers 6:25-26). The pure in heart will see God (Matthew 5:8). This is the highest blessing of the new creation."
+      },
+      {
+        "word": "ἔρχομαι",
+        "translit": "erchomai",
+        "strongs": "G2064",
+        "gloss": "to come",
+        "verses": "7, 12, 17, 20",
+        "note": "The word that ends the Bible. Jesus says 'I come quickly' three times (v7, 12, 20); the Spirit and the bride say 'Come' (v17); the thirsty are invited to come; and the church answers, 'Come, Lord Jesus.'"
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The river of life",
+        "refs": ["Genesis 2:10", "Psalm 46:4", "Ezekiel 47:1-12", "Zechariah 14:8", "John 7:37-39"],
+        "note": "From Eden's river to the river that makes glad the city of God to Jesus' promise of living water by the Spirit, Scripture's water imagery finds its goal here."
+      },
+      {
+        "theme": "Seeing God's face",
+        "refs": ["Exodus 33:18-23", "Psalm 17:15", "Matthew 5:8", "1 Corinthians 13:12", "1 John 3:2"],
+        "note": "What was forbidden and longed for, believers will finally enjoy: seeing God face to face."
+      },
+      {
+        "theme": "Alpha and Omega",
+        "refs": ["Isaiah 44:6; 48:12", "Revelation 1:8, 17; 21:6"],
+        "note": "God's title as the first and the last, beginning and end, now spoken by Jesus himself (v13)."
+      },
+      {
+        "theme": "Do not add or take away",
+        "refs": ["Deuteronomy 4:2", "Deuteronomy 12:32", "Proverbs 30:5-6"],
+        "note": "Moses warned Israel not to add to or subtract from God's commands. John applies the same seriousness to this prophecy."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-5 conclude the vision of the new Jerusalem begun in chapter 21, returning to Eden imagery. Verses 6-21 form the epilogue, which mirrors the prologue of chapter 1: the angel, John as witness, the blessing on those who keep the words, the nearness of the time, and the letter's closing grace. The voices of the angel, John and Jesus interweave. This is also the end of the Christian Bible, which began with a garden, a river and a tree, and now ends with them restored in a city.",
+      "flow": [
+        { "verses": "1-5", "label": "Eden restored", "note": "The river of life flows from the throne; the tree of life bears fruit for the healing of the nations; no more curse; God's servants worship him, see his face, bear his name and reign forever, with God as their light." },
+        { "verses": "6-9", "label": "These words are true", "note": "The angel affirms the words; Jesus says he is coming soon and blesses those who keep the prophecy; John again falls before the angel and is told to worship God." },
+        { "verses": "10-15", "label": "The time is near", "note": "Do not seal up the prophecy; let each continue in their way; Jesus is coming with his reward, the Alpha and Omega; blessed are those who wash their robes; outside are the dogs, sorcerers and all who love falsehood." },
+        { "verses": "16-17", "label": "Jesus' testimony and invitation", "note": "Jesus, the root and offspring of David and bright morning star, sent his angel; the Spirit and the bride say 'Come,' and whoever is thirsty may take the water of life freely." },
+        { "verses": "18-21", "label": "Warning, promise and prayer", "note": "Anyone who adds to or takes from the prophecy faces God's judgment; 'Surely I come quickly'; 'Amen. Even so, come, Lord Jesus'; the grace of the Lord Jesus be with all." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Ezekiel 47:1, 12", "from": "1-2", "note": "Water flowed from the temple, and on both banks grew trees whose fruit would not fail, bearing every month, with leaves for healing. John follows Ezekiel's vision closely." },
+        { "ref": "Genesis 2:9-10; 3:22-24", "from": "2-3", "note": "The tree of life and the river in Eden, and the cherubim barring the way after the curse. All three are restored here." },
+        { "ref": "Zechariah 14:11", "from": "3", "note": "'There shall be no more utter destruction; but Jerusalem shall be safely inhabited.' The Hebrew word for 'utter destruction' means a ban or curse, the background of verse 3." },
+        { "ref": "Isaiah 55:1", "from": "17", "note": "'Ho, every one that thirsteth, come ye to the waters... without money and without price.' The Bible's final invitation echoes Isaiah's." }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 11:1, 10", "from": "16", "note": "The shoot from Jesse's stem and the root of Jesse; Jesus is both David's root and his offspring." },
+        { "ref": "Numbers 24:17", "from": "16", "note": "'There shall come a Star out of Jacob.' Jesus is the bright morning star, the first light of the new day." },
+        { "ref": "Daniel 12:4, 9-10", "from": "10-11", "note": "Daniel's words were sealed till the end, and the wicked would continue in wickedness. John is told not to seal the prophecy, because the time is near." },
+        { "ref": "Deuteronomy 4:2", "from": "18-19", "note": "'Ye shall not add unto the word which I command you, neither shall ye diminish ought from it.'" }
+      ],
+      "tier3": [
+        { "ref": "Numbers 6:24-27", "from": "4", "note": "The priestly blessing asks God to make his face shine on his people and put his name on them. In the city they see his face and bear his name." },
+        { "ref": "John 7:37-39", "from": "17", "note": "'If any man thirst, let him come unto me, and drink,' Jesus said, speaking of the Spirit." },
+        { "ref": "1 Corinthians 16:22", "from": "20", "note": "'Maranatha,' the Aramaic prayer 'Our Lord, come,' which the early church prayed as Revelation ends." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale stresses that verses 1-5 portray the new creation as Eden restored and surpassed: what Adam lost, the Lamb regains and enlarges. God's people finally fulfill humanity's original calling to serve God as priests and reign as kings over creation, in his direct presence."
+      },
+      {
+        "name": "Richard Bauckham",
+        "work": "The Theology of the Book of Revelation",
+        "view": "Bauckham notes that the book ends not with predictions to decode but with an invitation and a prayer. The 'healing of the nations' (v2) shows that the hope of Revelation is not the destruction of the nations but their redemption, fulfilling God's promise to bless all peoples."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "14",
+        "kjv": "Blessed are they that do his commandments, that they may have right to the tree of life, and may enter in through the gates into the city.",
+        "renderings": [
+          { "version": "ESV", "text": "Blessed are those who wash their robes" },
+          { "version": "NIV", "text": "Blessed are those who wash their robes" },
+          { "version": "NKJV", "text": "Blessed are those who do His commandments" }
+        ],
+        "note": "In Greek the two readings look very similar ('wash their robes' and 'do his commandments'). The older manuscripts read 'wash their robes,' recalling 7:14, where robes are made white in the Lamb's blood. Entry to the city rests on cleansing by Christ."
+      },
+      {
+        "verse": "19",
+        "kjv": "And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from the things which are written in this book.",
+        "renderings": [
+          { "version": "ESV", "text": "God will take away his share in the tree of life" },
+          { "version": "NIV", "text": "any share in the tree of life" },
+          { "version": "NKJV", "text": "God shall take away his part from the Book of Life" }
+        ],
+        "note": "Almost all Greek manuscripts read 'tree of life.' The KJV's 'book of life' came from the Latin Vulgate when Erasmus, lacking a Greek manuscript for the end of Revelation, translated these verses back from Latin. Ironically, it is an example of the text being changed."
+      }
+    ],
+    "gospel": "The Bible ends with the gospel's last word: grace. What Adam lost, the Lamb restores: the river of life, the tree of life, the removal of the curse, and the face of God (v1-4). The throne is now 'the throne of God and of the Lamb' (v1, 3); the slain Lamb reigns forever. Entry belongs to those who 'wash their robes' (v14), cleansed by his blood. And the invitation remains open to the end: 'whosoever will, let him take the water of life freely' (v17). Jesus promises to come, and his people answer, 'Even so, come, Lord Jesus,' with the final blessing: 'The grace of our Lord Jesus Christ be with you all.'",
+    "application": [
+      "Fix your hope on seeing God's face. Every other joy points toward this one.",
+      "Respond to the invitation. If you are thirsty, come and drink freely; if you belong to Christ, join the Spirit and the bride in inviting others.",
+      "Keep the words of this prophecy (v7). Revelation is given to shape obedience, worship and endurance now.",
+      "Treat God's word with reverence, neither adding to it nor taking away from it.",
+      "Pray often and sincerely, 'Come, Lord Jesus.' Let that longing shape how you live."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verses 18-19 mean any error in copying or translating Revelation brings eternal damnation.",
+        "correction": "The warning, echoing Deuteronomy 4:2, is aimed at those who deliberately distort the prophecy's message, adding false teaching or removing its demands. It guards the truth of God's word, not scribes' or translators' honest mistakes."
+      },
+      {
+        "claim": "'I come quickly' was a mistaken promise, since two thousand years have passed.",
+        "correction": "The word can mean 'soon' or 'suddenly.' From God's view a thousand years are as a day, and the delay is his patience so that more may repent (2 Peter 3:8-9). Every generation is to live as though he may come at any moment."
+      },
+      {
+        "claim": "Revelation is mainly about fear and destruction.",
+        "correction": "The book ends with a river, a tree, healing, God's face, an open invitation and grace (v1-5, 17, 21). Its judgments serve this goal of renewal."
+      }
+    ],
+    "contrasts": [
+      { "a": "The curse of Genesis 3", "b": "No more curse", "verses": "3", "note": "The Bible's story ends by undoing its first tragedy." },
+      { "a": "Barred from the tree", "b": "Right to the tree", "verses": "14", "note": "Access to the tree of life, lost in Eden, is restored in Christ." },
+      { "a": "Inside the city", "b": "Outside", "verses": "14-15", "note": "Even at the end, the invitation comes with a warning." },
+      { "a": "Hidden face", "b": "Seeing his face", "verses": "4", "note": "The deepest longing of God's people is fulfilled." }
+    ],
+    "features": [
+      { "label": "Bookends", "note": "Genesis 1-3 and Revelation 21-22 match: creation of heaven and earth and a new heaven and earth; a garden and a garden city; the river and tree of life; the curse given and removed; God walking with humanity and dwelling with them." },
+      { "label": "Prologue and epilogue", "note": "The epilogue echoes chapter 1: an angel sent, John as witness, a blessing on those who keep the words, 'the time is at hand,' Jesus as Alpha and Omega, and a letter-style ending." },
+      { "label": "Blessings six and seven", "note": "'Blessed is he that keepeth the sayings' (v7) and 'blessed are they that wash their robes' (v14) complete the book's seven beatitudes." },
+      { "label": "The last prayer", "note": "Jesus' last words in the Bible are a promise, 'Surely I come quickly,' and the church's last words a prayer, 'Even so, come, Lord Jesus.'" }
+    ],
+    "summary": "Revelation 22 completes the vision of the new creation as Eden restored: the river and tree of life, the curse removed, and God's people seeing his face and reigning with him forever. The epilogue affirms that these words are true, calls readers to keep them, warns against distorting them, and extends Christ's open invitation to all who thirst. The Bible ends with Jesus' promise to come soon, the church's prayer for his coming, and the grace of the Lord Jesus.",
+    "metaArc": {
+      "book": "Chapter 22 concludes the final vision and the book. Its epilogue answers the prologue of chapter 1, and its promises fulfill the rewards held out to the conquerors in chapters 2-3, especially the tree of life (2:7), God's name (3:12) and the morning star (2:28).",
+      "redemptive": "The chapter completes the whole biblical story: creation's garden restored and surpassed, the fall's curse removed, redemption accomplished by the Lamb on the throne, and the new creation awaiting only his coming."
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "ref": "REV.17",
+  "book": "Revelation",
+  "chapter": 17,
+  "title": "Babylon the Great, Mother of Harlots",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "John is shown the great prostitute, Babylon, dressed in luxury and drunk with the blood of the saints, riding the scarlet beast. The angel explains the mystery: the beast and its allies will make war on the Lamb, but the Lamb will conquer them, for he is Lord of lords and King of kings; and in the end the beast will turn on the harlot and destroy her, fulfilling God's purpose.",
+  "keyVerses": ["5-6", "8", "14", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "πόρνη",
+        "translit": "pornē",
+        "strongs": "G4204",
+        "gloss": "prostitute, harlot",
+        "verses": "1, 5, 15-16",
+        "note": "The prophets called cities that traded in idolatry and exploitation harlots, including Tyre (Isaiah 23:15-18), Nineveh (Nahum 3:4) and unfaithful Jerusalem (Ezekiel 16). The harlot seduces the nations with wealth and idolatry, the opposite of the Lamb's pure bride."
+      },
+      {
+        "word": "μυστήριον",
+        "translit": "mystērion",
+        "strongs": "G3466",
+        "gloss": "mystery",
+        "verses": "5, 7",
+        "note": "The name on her forehead begins with 'mystery,' and the angel offers to explain 'the mystery of the woman and of the beast.' What looks glamorous and powerful is revealed for what it is."
+      },
+      {
+        "word": "θαυμάζω",
+        "translit": "thaumazō",
+        "strongs": "G2296",
+        "gloss": "to marvel, wonder, be astonished",
+        "verses": "6-8",
+        "note": "John 'wondered with great admiration' at the woman, and the angel asks why. The earth-dwellers also marvel at the beast. Even a prophet can be dazzled by worldly power; the angel's explanation breaks the spell."
+      },
+      {
+        "word": "ἐρημόω",
+        "translit": "erēmoō",
+        "strongs": "G2049",
+        "gloss": "to lay waste, make desolate",
+        "verses": "16",
+        "note": "The beast and the ten horns will hate the harlot, make her desolate and naked, devour her flesh and burn her. Evil turns on itself; the powers that propped her up destroy her."
+      },
+      {
+        "word": "κύριος κυρίων",
+        "translit": "kyrios kyriōn",
+        "strongs": "G2962",
+        "gloss": "Lord of lords",
+        "verses": "14",
+        "note": "A Hebrew way of saying 'the supreme Lord,' used of God in Deuteronomy 10:17. The Lamb bears God's own title, and in 19:16 it is written on the rider's robe."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Babylon",
+        "refs": ["Genesis 11:1-9", "Jeremiah 51:6-13", "Daniel 4:30", "1 Peter 5:13"],
+        "note": "From Babel's tower to Nebuchadnezzar's boast, Babylon stood for human pride and empire opposed to God. Peter seems to use 'Babylon' for Rome, where he was writing."
+      },
+      {
+        "theme": "The harlot city",
+        "refs": ["Isaiah 1:21", "Isaiah 23:15-18", "Ezekiel 16:15-34", "Nahum 3:4"],
+        "note": "The prophets used harlotry for spiritual unfaithfulness and for cities that sold themselves for wealth and power."
+      },
+      {
+        "theme": "Drunk on the blood of the saints",
+        "refs": ["Matthew 23:35", "Revelation 6:10; 18:24", "Revelation 19:2"],
+        "note": "The world city that persecutes God's people bears guilt for the blood of the righteous."
+      }
+    ],
+    "context": {
+      "setting": "Chapters 17-18 expand the seventh bowl's announcement that 'great Babylon came in remembrance before God' (16:19). For John's readers, the seven hills (v9) and the city 'which reigneth over the kings of the earth' (v18) pointed unmistakably to Rome, the city of seven hills that dominated the world through military power, trade and imperial religion. Interpreters differ on what Babylon represents beyond that: Rome itself (many preterists and others), apostate Jerusalem (some preterists), a future world city or system (futurists), or the seductive world system of every age, of which Rome was one expression (idealists and many others). Many Protestant Reformers identified Babylon with the papacy of their day, a reading few interpreters hold today.",
+      "flow": [
+        { "verses": "1-6", "label": "The harlot on the beast", "note": "An angel shows John the great prostitute seated on many waters and on a scarlet beast, clothed in purple and scarlet, holding a golden cup of abominations, named Babylon the great, drunk with the blood of the saints." },
+        { "verses": "7-8", "label": "The beast that was and is not", "note": "The beast was, is not, and is about to rise from the abyss and go to destruction; the earth-dwellers will marvel." },
+        { "verses": "9-11", "label": "Seven heads, seven hills, seven kings", "note": "The heads are seven mountains and seven kings: five have fallen, one is, one is yet to come; the beast is an eighth that belongs to the seven." },
+        { "verses": "12-14", "label": "Ten kings against the Lamb", "note": "Ten horns are kings who reign for one hour with the beast and make war on the Lamb, but the Lamb conquers, for he is Lord of lords and King of kings, with his called, chosen and faithful." },
+        { "verses": "15-18", "label": "The harlot destroyed", "note": "The waters are peoples and nations; the beast and the horns will hate and destroy the harlot, for God put it into their hearts to carry out his purpose; the woman is the great city." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Jeremiah 51:7, 13", "from": "1-2, 4", "note": "'Babylon hath been a golden cup in the LORD's hand, that made all the earth drunken... O thou that dwellest upon many waters.' John draws directly on Jeremiah's oracle." },
+        { "ref": "Daniel 7:7, 20, 24", "from": "3, 12", "note": "The fourth beast's ten horns are ten kings. John uses Daniel's interpretation for the beast's horns." },
+        { "ref": "Deuteronomy 10:17", "from": "14", "note": "'The LORD your God is God of gods, and Lord of lords.' The Lamb bears this title." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 16:35-41; 23:25-29", "from": "16", "note": "Unfaithful Jerusalem's lovers turn on her, strip her naked and burn her, the same fate as the harlot here." },
+        { "ref": "Isaiah 23:15-18", "from": "2", "note": "Tyre is pictured as a prostitute whose trade with the kingdoms of the world is her harlotry." },
+        { "ref": "Psalm 2:1-4", "from": "14", "note": "The kings of the earth take counsel against the LORD and his anointed, and he laughs at them." },
+        { "ref": "Proverbs 21:1", "from": "17", "note": "'The king's heart is in the hand of the LORD... he turneth it whithersoever he will.' God uses even his enemies to accomplish his purpose." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 11:4", "from": "5, 18", "note": "Babel's builders sought to make a name for themselves; Babylon wears a name on her forehead." },
+        { "ref": "James 4:4", "from": "2", "note": "Friendship with the world is spiritual adultery, enmity with God." },
+        { "ref": "Matthew 22:14", "from": "14", "note": "'Many are called, but few are chosen.' Those with the Lamb are called, chosen and faithful." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham argues that Babylon is Rome, portrayed as a seductive prostitute because Rome's power worked not only by force but by offering prosperity, security and luxury to those who cooperated. John unmasks the attractive face of empire to show its idolatry and its violence against God's people."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale sees Babylon as the world's economic, religious and cultural system in every age, in league with the state and hostile to God's people. Rome was its form in John's day, but the harlot reappears wherever society seduces believers to compromise for the sake of prosperity."
+      },
+      {
+        "name": "Kenneth L. Gentry Jr.",
+        "work": "Four Views on the Book of Revelation (ed. C. Marvin Pate)",
+        "view": "Gentry, in his preterist reading, identifies the harlot with first-century Jerusalem, which had been unfaithful to God and allied itself with Rome against Christ and his followers, and sees her destruction in the Roman destruction of the city in AD 70."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "The beast that thou sawest was, and is not; and shall ascend out of the bottomless pit, and go into perdition: and they that dwell on the earth shall wonder, whose names were not written in the book of life from the foundation of the world, when they behold the beast that was, and is not, and yet is.",
+        "renderings": [
+          { "version": "ESV", "text": "it was and is not and is to come" },
+          { "version": "NIV", "text": "it once was, now is not, and yet will come" }
+        ],
+        "note": "The older manuscripts read 'and is to come' (or 'will be present') rather than 'and yet is.' The phrase parodies God's name, 'who is and who was and who is to come' (1:4), but unlike God the beast's coming leads only to destruction."
+      },
+      {
+        "verse": "9",
+        "kjv": "And here is the mind which hath wisdom. The seven heads are seven mountains, on which the woman sitteth.",
+        "renderings": [
+          { "version": "ESV", "text": "the seven heads are seven mountains" },
+          { "version": "NIV", "text": "The seven heads are seven hills" }
+        ],
+        "note": "The Greek word can mean mountain or hill. NIV's 'hills' makes the reference to Rome, famously built on seven hills, clearer. Verse 10 adds a second meaning: the heads are also seven kings."
+      }
+    ],
+    "gospel": "Against Babylon's glittering power stands the Lamb. The kings of the earth make war on him, 'and the Lamb shall overcome them: for he is Lord of lords, and King of kings' (v14). Those with him are 'called, and chosen, and faithful,' saved by his call and choice, and proven by their faithfulness. The harlot offers a golden cup full of abominations; Christ offers living water freely (22:17). And God is sovereign even over the enemies of his people, turning their hatred on one another to fulfill his words (v17).",
+    "application": [
+      "Do not be dazzled by worldly wealth and power, as John was for a moment. Ask what is really in the golden cup.",
+      "Recognize the seductive side of opposition to God: comfort, prosperity and acceptance offered in return for compromise.",
+      "Take courage in the Lamb's certain victory over every coalition of power arrayed against him.",
+      "Trust God's sovereignty even over hostile rulers. He can turn their purposes to accomplish his own.",
+      "Be among the 'called, chosen and faithful' by holding fast to Christ."
+    ],
+    "misapplications": [
+      {
+        "claim": "The details of the seven kings and ten horns can be matched precisely to a list of modern nations or leaders.",
+        "correction": "Even John's first-century readers needed 'the mind which hath wisdom' (v9), and scholars still debate which emperors are meant. Repeated attempts to map the details onto modern politics have failed and distract from the call to faithful discernment."
+      },
+      {
+        "claim": "Since Babylon was Rome, the chapter has nothing to say to us.",
+        "correction": "The harlot's traits, luxury, idolatry, seduction of the nations and persecution of believers, recur in every age. The chapter trains believers to see through such powers wherever they appear."
+      }
+    ],
+    "contrasts": [
+      { "a": "The harlot", "b": "The bride (19:7-8; 21:2)", "verses": "1-6", "note": "Revelation sets two women, two cities and two destinies against each other: Babylon and the new Jerusalem." },
+      { "a": "The beast's war", "b": "The Lamb's victory", "verses": "14", "note": "The coalition of power loses to the slain Lamb and his faithful followers." },
+      { "a": "Allies", "b": "Destroyers", "verses": "3, 16", "note": "The beast that carried the harlot ends up destroying her. Evil has no loyalty." }
+    ],
+    "features": [
+      { "label": "Two women", "note": "The harlot is introduced with almost the same words as the bride in 21:9-10: 'Come hither; I will shew unto thee...' and 'he carried me away in the spirit.' The parallel invites comparison." },
+      { "label": "A parody of God's name", "note": "The beast 'was, and is not, and is to come' (v8, 11), mimicking God, 'which is, and which was, and which is to come' (1:8)." },
+      { "label": "The mark on her forehead", "note": "The harlot bears a name on her forehead, as the beast's followers bear its mark and the Lamb's people bear his name." },
+      { "label": "God's sovereign 'words'", "note": "All this happens 'until the words of God shall be fulfilled' (v17). Even the destruction of evil by evil serves God's plan." }
+    ],
+    "summary": "Revelation 17 exposes Babylon, the great harlot, as the seductive world city that intoxicates the nations with luxury and idolatry while persecuting God's people, supported by the beast's political power. The Lamb, Lord of lords and King of kings, will conquer the beast's alliance, and God will use the beast itself to destroy the harlot. The chapter calls believers to see through worldly glamour and to stand with the Lamb.",
+    "metaArc": {
+      "book": "Chapter 17 begins a section on Babylon's fall (17:1-19:10) that sets up the contrast with the bride, the new Jerusalem (21:9-22:5). Babylon's destruction is mourned in chapter 18 and celebrated in heaven in chapter 19.",
+      "redemptive": "The chapter shows the climax of human rebellion organized in a city opposed to God, from Babel to Rome and beyond, and its certain fall before the Lamb, preparing for the city that comes down from God."
+    }
+  }
+}
