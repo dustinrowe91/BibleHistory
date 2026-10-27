@@ -1,0 +1,173 @@
+{
+  "ref": "EXO.34",
+  "book": "Exodus",
+  "chapter": 34,
+  "title": "The LORD, Merciful and Gracious",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God renews the broken covenant. Moses cuts new tablets, and the LORD passes by proclaiming his name: merciful and gracious, slow to anger, abounding in steadfast love and faithfulness, forgiving sin yet not clearing the guilty. God restates key covenant commands, and Moses comes down with his face shining from speaking with God.",
+  "keyVerses": ["6-7", "9", "14", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "רַחוּם וְחַנּוּן",
+        "translit": "rachum ve-channun",
+        "gloss": "merciful and gracious",
+        "verses": "6",
+        "note": "Rachum (H7349), from the word for womb, speaks of tender compassion; channun (H2587) of free, undeserved favor. God leads his self-description with mercy right after Israel's worst sin."
+      },
+      {
+        "word": "אֶרֶךְ אַפַּיִם",
+        "translit": "erek appayim",
+        "gloss": "slow to anger, long of nostrils",
+        "verses": "6",
+        "note": "Literally 'long of nose,' since anger was pictured as heat in the nostrils. God's anger burns slowly. He is patient and gives time for repentance."
+      },
+      {
+        "word": "חֶסֶד וֶאֱמֶת",
+        "translit": "chesed ve-emet",
+        "gloss": "steadfast love and faithfulness",
+        "verses": "6-7",
+        "note": "Chesed (H2617) is loyal covenant love; emet (H571) is reliability and truth. The pair recurs throughout Scripture, and John says grace and truth came through Jesus Christ (John 1:14, 17)."
+      },
+      {
+        "word": "נָשָׂא",
+        "translit": "nasa",
+        "strongs": "H5375",
+        "gloss": "to lift, carry, forgive",
+        "verses": "7",
+        "note": "'Forgiving iniquity' is literally 'lifting' or 'carrying' it. God bears away sin. The same verb is used of the scapegoat that 'bears' iniquity (Leviticus 16:22) and of the servant who 'bore' the sin of many (Isaiah 53:12)."
+      },
+      {
+        "word": "קָרַן",
+        "translit": "qaran",
+        "strongs": "H7160",
+        "gloss": "to shine, send out rays",
+        "verses": "29-30, 35",
+        "note": "Related to qeren, 'horn,' because rays of light looked like horns. The Latin Vulgate translated it 'horned,' which is why Michelangelo's Moses has horns. The face shone from being in God's presence."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's self-revelation repeated",
+        "refs": ["Numbers 14:18", "Psalm 86:15", "Psalm 103:8", "Joel 2:13", "Jonah 4:2", "Nehemiah 9:17"],
+        "note": "Verses 6-7 are the most quoted description of God in the Old Testament. Moses, psalmists, prophets and Jonah all cite it, Jonah complaining that God's mercy extended even to Nineveh."
+      },
+      {
+        "theme": "Mercy and justice together",
+        "refs": ["Nahum 1:3", "Romans 3:25-26", "1 John 1:9"],
+        "note": "God forgives yet does not clear the guilty. Paul says the cross shows God to be both just and the justifier of the one who has faith in Jesus."
+      },
+      {
+        "theme": "The shining face and the veil",
+        "refs": ["2 Corinthians 3:7-18", "Matthew 17:2"],
+        "note": "Paul contrasts the fading glory on Moses' face with the greater, lasting glory of the new covenant. Believers behold the Lord's glory with unveiled face and are transformed."
+      },
+      {
+        "theme": "God whose name is Jealous",
+        "refs": ["Exodus 20:5", "Deuteronomy 4:24", "James 4:4-5"],
+        "note": "God's jealousy is his exclusive covenant love. Friendship with the world is spiritual adultery."
+      }
+    ],
+    "context": {
+      "setting": "God has agreed to go with his people (33:14-17) and to show Moses his glory (33:19-23). Now the covenant is formally renewed. Moses spends another forty days on the mountain. The commands in verses 10-26 restate parts of the Book of the Covenant with special focus on idolatry and worship, the very areas Israel had violated.",
+      "flow": [
+        { "verses": "1-4", "label": "New tablets", "note": "God tells Moses to cut two tablets like the first. Moses climbs Sinai alone early in the morning." },
+        { "verses": "5-9", "label": "The name proclaimed", "note": "The LORD descends in the cloud and passes before Moses, proclaiming his name and character. Moses bows, worships and asks God to go with them, pardon them and take them as his inheritance." },
+        { "verses": "10-17", "label": "Covenant renewed: no other gods", "note": "God promises marvels never done before. Israel must make no covenant with Canaan's peoples, tear down their altars and Asherah poles, and worship no other god, for the LORD's name is Jealous." },
+        { "verses": "18-26", "label": "Feasts and firstfruits", "note": "Laws on Unleavened Bread, the firstborn, Sabbath, the three feasts, and offerings are restated." },
+        { "verses": "27-28", "label": "Forty days", "note": "Moses writes the words; he stays forty days without food or water, and the Ten Words are written on the tablets." },
+        { "verses": "29-35", "label": "A shining face", "note": "Moses descends not knowing his face shines. The people fear to approach; he speaks to them and then veils his face, removing the veil when he goes before the LORD." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "2 Corinthians 3:7-18", "from": "29-35", "note": "Paul interprets the shining face and veil as a picture of the old covenant's fading glory and the new covenant's surpassing glory." },
+        { "ref": "Numbers 14:17-19", "from": "6-7", "note": "Moses quotes God's name back to him when interceding after the spies' report." },
+        { "ref": "Jonah 4:2", "from": "6", "note": "Jonah quotes this verse to explain why he fled: he knew God would show mercy to Nineveh." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 103:8-12", "from": "6-7", "note": "David expands the name: God does not deal with us according to our sins." },
+        { "ref": "John 1:14-18", "from": "6", "note": "The Word made flesh is 'full of grace and truth,' the Greek equivalent of chesed and emet." },
+        { "ref": "Deuteronomy 10:1-5", "from": "1-4, 28", "note": "Moses recounts cutting new tablets and placing them in the ark." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 17:2", "from": "29", "note": "Jesus' face shone like the sun at his transfiguration, not with reflected glory but his own." },
+        { "ref": "Micah 7:18-20", "from": "7, 9", "note": "Who is a God like you, pardoning iniquity? He shows faithfulness to Jacob and steadfast love to Abraham." },
+        { "ref": "Romans 3:25-26", "from": "7", "note": "At the cross God passes over former sins without compromising justice." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. Alec Motyer",
+        "work": "The Message of Exodus",
+        "view": "Motyer treats verses 6-7 as the fullest exposition of the divine name in the Old Testament. The God who redeemed Israel from Egypt now shows that his name means mercy for sinners, held together with a holiness that will not pretend sin is nothing."
+      },
+      {
+        "name": "Meredith G. Kline",
+        "work": "The Structure of Biblical Authority",
+        "view": "Kline reads the renewal of the tablets as the reissuing of a broken treaty. The suzerain graciously restores the covenant document after the vassal's rebellion, with the stipulations against idolatry emphasized."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Character of God series",
+        "view": "BibleProject treats Exodus 34:6-7 as a key to the whole Bible's portrait of God, tracing how later writers quote and reflect on it. The tension between forgiving sin and not ignoring it is held together and resolved in Jesus."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,",
+        "renderings": [
+          { "version": "ESV", "text": "slow to anger, and abounding in steadfast love and faithfulness" },
+          { "version": "NIV", "text": "slow to anger, abounding in love and faithfulness" }
+        ],
+        "note": "'Longsuffering' is a good old word for slow to anger. 'Goodness' and 'love' both render chesed; ESV's 'steadfast love' stresses its loyal, covenant-keeping quality."
+      },
+      {
+        "verse": "29",
+        "kjv": "And it came to pass, when Moses came down from mount Sinai with the two tables of testimony in Moses' hand, when he came down from the mount, that Moses wist not that the skin of his face shone while he talked with him.",
+        "renderings": [
+          { "version": "ESV", "text": "his face shone because he had been talking with God" },
+          { "version": "NIV", "text": "his face was radiant because he had spoken with the LORD" }
+        ],
+        "note": "'Wist not' means 'did not know.' Moses was unaware of the glory he reflected. The Latin translation 'horned' misread the verb qaran."
+      }
+    ],
+    "gospel": "After Israel's great sin, God revealed his name as merciful, gracious, slow to anger and abounding in steadfast love, forgiving iniquity, yet not clearing the guilty. How can both be true? The cross answers: God bears sin away by bearing it himself in his Son, so that he is both just and the justifier. John says the Word became flesh full of grace and truth, the very words of Exodus 34. Moses' face shone with a fading glory; believers see the glory of God in the face of Jesus Christ and are transformed into his likeness.",
+    "application": [
+      "Know God as he names himself: merciful, gracious, patient, loving, faithful and just.",
+      "Come back to God after failure. He renewed the covenant after the calf.",
+      "Pray God's character back to him, as Moses and later intercessors did.",
+      "Guard against idolatry by refusing compromise with what competes for your heart.",
+      "Spend time in God's presence; it leaves a mark others may notice before you do."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's mercy means he overlooks sin.",
+        "correction": "The same verse says he 'will by no means clear the guilty' (v7). God forgives by dealing with sin, not by ignoring it, which is why atonement is necessary."
+      },
+      {
+        "claim": "Moses veiled his face so the people would not see the glory and be overwhelmed.",
+        "correction": "That is part of it (v30), but Paul says he veiled it so Israel would not see the glory fading (2 Corinthians 3:13). Either way, the new covenant brings unveiled, lasting glory."
+      }
+    ],
+    "contrasts": [
+      { "a": "Forgiving iniquity", "b": "Not clearing the guilty", "verses": "7", "note": "Mercy and justice held together in God's name." },
+      { "a": "Thousands", "b": "Third and fourth generation", "verses": "7", "note": "God's love far outweighs the reach of his judgment." },
+      { "a": "First tablets", "b": "Second tablets", "verses": "1", "note": "God wrote the first on stone he made; Moses cut the second. The covenant is renewed by grace." }
+    ],
+    "features": [
+      { "label": "The name doubled", "note": "'The LORD, the LORD' (v6). The repetition signals the fullness and certainty of what follows." },
+      { "label": "Answer to 33:19", "note": "God promised to proclaim his name and show his goodness; here he does exactly that." },
+      { "label": "Ritual Decalogue", "note": "Some scholars call verses 14-26 a 'ritual decalogue,' focused on worship. In context it reapplies the covenant to the specific sins of chapter 32." },
+      { "label": "The forty days mirrored", "note": "A second forty days on the mountain (v28) mirrors the first (24:18). What was lost in forty days is restored in forty days." }
+    ],
+    "summary": "Exodus 34 renews the covenant Israel broke. God proclaims his name, revealing himself as merciful, gracious, slow to anger, abounding in steadfast love and faithfulness, forgiving sin yet just. He restates his claim to exclusive worship, and Moses returns with a face shining from God's presence. The chapter gives the Old Testament's central portrait of God's character.",
+    "metaArc": {
+      "book": "Chapter 34 resolves the crisis of chapters 32-34. With the covenant renewed and God's presence assured, the tabernacle can now be built (chapters 35-40).",
+      "redemptive": "This belongs to Redemption: grace renewing a broken covenant, fulfilled in Christ, in whom God's mercy and justice meet and his glory is seen without a veil."
+    }
+  }
+}

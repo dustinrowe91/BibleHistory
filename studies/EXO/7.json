@@ -1,0 +1,153 @@
+{
+  "ref": "EXO.7",
+  "book": "Exodus",
+  "chapter": 7,
+  "title": "The Egyptians Shall Know That I Am the LORD",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God sends Moses and Aaron to Pharaoh with signs. Aaron's staff swallows the magicians' staffs, and the Nile, Egypt's source of life, is turned to blood. Pharaoh's heart is hardened, but God has begun to show Egypt who he is.",
+  "keyVerses": ["3-5", "12", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "מוֹפֵת",
+        "translit": "mophet",
+        "strongs": "H4159",
+        "gloss": "wonder, portent",
+        "verses": "3, 9",
+        "note": "Often paired with 'signs' (ot). A wonder is an extraordinary event that startles and demands explanation. 'Signs and wonders' becomes the Bible's standard phrase for the exodus and later for Jesus' and the apostles' miracles (Acts 2:22, 43)."
+      },
+      {
+        "word": "תַּנִּין",
+        "translit": "tannin",
+        "strongs": "H8577",
+        "gloss": "serpent, sea creature, dragon",
+        "verses": "9-12",
+        "note": "Not the ordinary word for snake used in 4:3 (nachash). Tannin can mean a large reptile or a sea monster, and it is used for chaos powers and even for Pharaoh himself (Ezekiel 29:3). Aaron's tannin swallowing the others is a picture of God's victory over Egypt's power."
+      },
+      {
+        "word": "חַרְטֹם",
+        "translit": "chartom",
+        "strongs": "H2748",
+        "gloss": "magician, soothsayer-priest",
+        "verses": "11, 22",
+        "note": "A word borrowed from Egyptian for priests skilled in ritual texts and magic. The same word describes the magicians of Joseph's day (Genesis 41:8) and of Babylon (Daniel 2:2)."
+      },
+      {
+        "word": "כָּבֵד",
+        "translit": "kaved",
+        "strongs": "H3513",
+        "gloss": "heavy, hardened",
+        "verses": "14",
+        "note": "'Pharaoh's heart is heavy.' A different hardening word from chazaq (v13, 22). Ironically, the same root means glory: God will get 'glory' (kaved) over Pharaoh (14:4), whose heart is 'heavy' (kaved)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Knowing that I am the LORD",
+        "refs": ["Exodus 7:5, 17", "Exodus 14:4, 18", "Ezekiel 36:23", "John 17:3"],
+        "note": "This phrase is the refrain of the plagues and runs through Ezekiel's prophecies. The purpose of God's acts is that he be known."
+      },
+      {
+        "theme": "Water turned to blood",
+        "refs": ["Psalm 78:44", "Psalm 105:29", "Revelation 8:8; 16:3-4"],
+        "note": "The Psalms remember the first plague, and Revelation's trumpets and bowls repeat it as judgment on the world."
+      },
+      {
+        "theme": "Opposed by imitators",
+        "refs": ["2 Timothy 3:8", "Matthew 24:24", "2 Thessalonians 2:9"],
+        "note": "Paul names two of the magicians, Jannes and Jambres, from Jewish tradition. False teachers imitate God's power but cannot match it."
+      }
+    ],
+    "context": {
+      "setting": "After the genealogy, God restates Moses' commission (7:1-7). Moses is eighty and Aaron eighty-three. The first sign before Pharaoh is followed by the first of ten plagues, which strikes the Nile, the lifeblood of Egypt, worshiped through gods such as Hapi.",
+      "flow": [
+        { "verses": "1-7", "label": "Like God to Pharaoh", "note": "God makes Moses 'like God' to Pharaoh with Aaron as his prophet, announces the hardening of Pharaoh's heart and multiplied signs, and promises that Egypt will know he is the LORD." },
+        { "verses": "8-13", "label": "Staffs and serpents", "note": "Aaron's staff becomes a serpent; Pharaoh's magicians do the same by their secret arts, but Aaron's staff swallows theirs. Pharaoh's heart is hardened." },
+        { "verses": "14-18", "label": "The first plague announced", "note": "Moses meets Pharaoh at the river in the morning and announces that the Nile will turn to blood, so that Pharaoh will know that 'I am the LORD.'" },
+        { "verses": "19-25", "label": "The Nile turned to blood", "note": "Aaron stretches out the staff; the river and Egypt's waters become blood, fish die and the river stinks. The magicians copy it, Pharaoh turns away unmoved, and Egypt digs for water for seven days." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 78:43-44", "from": "20", "note": "Asaph recalls that God turned their rivers to blood so they could not drink from their streams." },
+        { "ref": "2 Timothy 3:8-9", "from": "11, 22", "note": "As Jannes and Jambres opposed Moses, false teachers oppose the truth, but their folly will become plain." }
+      ],
+      "tier2": [
+        { "ref": "Revelation 16:3-6", "from": "20-21", "note": "The second and third bowls turn sea and rivers to blood, and the angel declares God just because they shed the blood of saints." },
+        { "ref": "Exodus 1:22", "from": "17-21", "note": "Egypt made the Nile a grave for Hebrew babies; now the river itself becomes blood. The punishment fits the crime." },
+        { "ref": "Romans 9:17-18", "from": "3", "note": "Paul reads Pharaoh's hardening as God showing his power and proclaiming his name in all the earth." }
+      ],
+      "tier3": [
+        { "ref": "John 2:1-11", "from": "19-20", "note": "Moses' first sign turned water into blood; Jesus' first sign turned water into wine, life and joy instead of death." },
+        { "ref": "Ezekiel 29:3", "from": "9-12", "note": "God calls Pharaoh 'the great dragon (tannin) that lies in the midst of his streams.'" },
+        { "ref": "Isaiah 19:5-8", "from": "21", "note": "Isaiah's oracle against Egypt pictures the Nile drying up and its fishermen mourning." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John D. Currid",
+        "work": "Ancient Egypt and the Old Testament",
+        "view": "Currid argues that the plagues are a polemic against Egypt's gods and its divine king. The swallowing serpent and the bloodied Nile strike at symbols of Pharaoh's power and of the river on which Egypt's religion and life depended."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin holds that the magicians produced their effects by Satan's deception and illusion, which God permitted so that the superiority of his true power would be clearer when Aaron's staff swallowed theirs."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "And the LORD said unto Moses, See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet.",
+        "renderings": [
+          { "version": "ESV", "text": "I have made you like God to Pharaoh" },
+          { "version": "NIV", "text": "I have made you like God to Pharaoh" }
+        ],
+        "note": "The Hebrew reads 'I have made you God (elohim) to Pharaoh.' Modern versions add 'like' to avoid suggesting Moses is divine. The point is that Moses will speak with God's authority and Aaron will relay it, as a prophet speaks for God."
+      },
+      {
+        "verse": "13",
+        "kjv": "And he hardened Pharaoh's heart, that he hearkened not unto them; as the LORD had said.",
+        "renderings": [
+          { "version": "ESV", "text": "Still Pharaoh's heart was hardened" },
+          { "version": "NIV", "text": "Yet Pharaoh's heart became hard" }
+        ],
+        "note": "The Hebrew says 'Pharaoh's heart became strong,' with no stated subject. KJV supplies 'he' (God); modern versions keep the more neutral wording. Exodus speaks of God hardening, Pharaoh hardening, and the heart simply being hard."
+      }
+    ],
+    "gospel": "The first plague turns life-giving water into death, a judgment that fits Egypt's crime of drowning Israel's sons. Jesus' first sign reversed it, turning water into wine at a wedding. Where Moses' sign brought death to God's enemies, Christ's brings joy to God's people, because he would bear the judgment himself. The serpent swallowing serpents also points ahead to the one who crushes the serpent's head, disarming the powers and triumphing over them at the cross.",
+    "application": [
+      "Do not be impressed by counterfeit power. Satan can imitate, but he cannot outdo God.",
+      "Beware the hard heart that turns away and 'does not take this to heart' (v23). Repeated warnings ignored make the heart harder.",
+      "Remember that God's judgments reveal who he is. Even his acts against the wicked aim at his name being known.",
+      "Trust that God sees the injustice done to the vulnerable. The river that took Israel's children was itself judged."
+    ],
+    "misapplications": [
+      {
+        "claim": "The magicians' success shows that Moses was just a better magician.",
+        "correction": "The magicians could only copy and make things worse, adding blood where it was already blood. They could not reverse the plague, and Aaron's staff swallowed theirs (v12). By the third plague they confess 'This is the finger of God' (8:19)."
+      },
+      {
+        "claim": "The plagues were just natural disasters given a religious interpretation.",
+        "correction": "God may use natural processes, but the plagues come at Moses' word, at announced times, with Israel spared and in escalating order. The text presents them as God's deliberate acts of judgment."
+      }
+    ],
+    "contrasts": [
+      { "a": "God's power", "b": "Secret arts", "verses": "11-12", "note": "The magicians imitate, but God's power consumes theirs." },
+      { "a": "Water of life", "b": "Blood of death", "verses": "17-21", "note": "Egypt's source of life becomes a sign of death." },
+      { "a": "Moses' message", "b": "Pharaoh's indifference", "verses": "23", "note": "Pharaoh goes home and gives no thought to it. Hardness can look like simple indifference." }
+    ],
+    "features": [
+      { "label": "Ten plagues in three rounds", "note": "The plagues fall into three sets of three before the tenth. Each set begins with Moses meeting Pharaoh in the morning by the water (7:15; 8:20; 9:13)." },
+      { "label": "Measure for measure", "note": "Egypt used the Nile to kill Hebrew sons, so God turns the Nile to blood. Egypt will lose its own firstborn for enslaving God's firstborn." },
+      { "label": "Ages given", "note": "Verse 7 notes Moses is 80 and Aaron 83. God's great work begins in old age, after forty years in the palace and forty in the desert." }
+    ],
+    "summary": "Exodus 7 begins the contest between the LORD and Pharaoh. God's servants act with his authority; Pharaoh's magicians imitate but are outmatched; and the Nile, Egypt's life and pride, becomes blood. Pharaoh's hardened heart refuses to see, but God's purpose stands: Egypt will know that he is the LORD.",
+    "metaArc": {
+      "book": "Chapter 7 opens the plague narrative (7:8-11:10), the central conflict of Exodus 1-15. The pattern set here (announcement, act, magicians, hardening) repeats and escalates until the Passover.",
+      "redemptive": "The plagues belong to Redemption as judgment: God must defeat the powers that hold his people captive. They anticipate the final judgments of Revelation and Christ's victory over every rival power."
+    }
+  }
+}

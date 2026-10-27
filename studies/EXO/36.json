@@ -1,0 +1,153 @@
+{
+  "ref": "EXO.36",
+  "book": "Exodus",
+  "chapter": 36,
+  "title": "More Than Enough",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "The craftsmen begin work, but the people keep bringing offerings morning after morning until Moses must tell them to stop: there is more than enough. Then the workers make the tabernacle's curtains, coverings, frames, veil and screen exactly as God commanded.",
+  "keyVerses": ["1", "5-7", "35"],
+  "steps": {
+    "language": [
+      {
+        "word": "דַּי",
+        "translit": "dai",
+        "strongs": "H1767",
+        "gloss": "enough, sufficiency",
+        "verses": "5, 7",
+        "note": "'Much more than enough' and 'sufficient for all the work, and more.' A rare moment in Scripture when God's people give so much that they must be restrained."
+      },
+      {
+        "word": "כָּלָא",
+        "translit": "kala",
+        "strongs": "H3607",
+        "gloss": "to restrain, hold back",
+        "verses": "6",
+        "note": "'So the people were restrained from bringing.' The same people who would not be restrained from idolatry must now be restrained from generosity."
+      },
+      {
+        "word": "מְלָאכָה",
+        "translit": "mela'kah",
+        "strongs": "H4399",
+        "gloss": "work, craftsmanship",
+        "verses": "1-8",
+        "note": "Used repeatedly for the tabernacle 'work,' it is also the word for God's 'work' of creation from which he rested (Genesis 2:2-3). Israel's building echoes God's own creative work."
+      },
+      {
+        "word": "בֹּקֶר בַּבֹּקֶר",
+        "translit": "boqer ba-boqer",
+        "gloss": "morning by morning",
+        "verses": "3",
+        "note": "The people kept bringing freewill offerings 'every morning,' recalling the morning-by-morning manna. Daily they received from God; now daily they give to him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God supplies more than enough",
+        "refs": ["2 Chronicles 31:10", "Malachi 3:10", "2 Corinthians 9:8", "Ephesians 3:20"],
+        "note": "In Hezekiah's day the priests reported, 'We have eaten and had enough and have plenty left.' God is able to make all grace abound so that you have all sufficiency."
+      },
+      {
+        "theme": "Generosity from those who have little",
+        "refs": ["Mark 12:41-44", "2 Corinthians 8:1-4"],
+        "note": "Former slaves in the desert gave more than enough; the poor widow gave all she had; the Macedonians gave out of extreme poverty."
+      },
+      {
+        "theme": "Built according to the pattern",
+        "refs": ["Exodus 26:1-37", "Hebrews 8:5"],
+        "note": "Verses 8-38 repeat chapter 26 almost exactly, showing faithful obedience to the heavenly pattern."
+      }
+    ],
+    "context": {
+      "setting": "The construction continues from chapter 35. Verses 1-7 describe the overflowing offerings; verses 8-38 record the making of the tabernacle structure, in the same words as chapter 26. The order of construction differs from the order of instruction: the tent is built before the furniture that goes inside it.",
+      "flow": [
+        { "verses": "1-2", "label": "The work begins", "note": "Bezalel, Oholiab and every skilled person whose heart stirred them come to do the work as the LORD commanded." },
+        { "verses": "3-7", "label": "Too much to use", "note": "The people keep bringing freewill offerings every morning. The craftsmen report there is more than enough, and Moses proclaims that no one should bring more." },
+        { "verses": "8-19", "label": "Curtains and coverings", "note": "They make ten linen curtains with cherubim, eleven goat-hair curtains, and coverings of rams' skins and leather, joined into one tent." },
+        { "verses": "20-34", "label": "Frames and bars", "note": "They make acacia frames overlaid with gold, silver bases and bars, as commanded." },
+        { "verses": "35-38", "label": "Veil and screen", "note": "They make the veil with cherubim on four gold-overlaid pillars, and the entrance screen on five pillars with bronze bases." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 26:1-37", "from": "8-38", "note": "The construction matches the instructions point by point." },
+        { "ref": "Exodus 35:21, 29", "from": "3", "note": "The freewill offerings that began in chapter 35 continue beyond what was needed." }
+      ],
+      "tier2": [
+        { "ref": "2 Chronicles 31:5-10", "from": "5-7", "note": "Under Hezekiah, the people's tithes pile up in heaps, more than enough." },
+        { "ref": "1 Chronicles 29:9", "from": "3-7", "note": "The people rejoiced because they had given willingly with a whole heart." },
+        { "ref": "Exodus 16:16-18", "from": "3-7", "note": "With manna no one had too much or too little; now Israel gives beyond what is needed." }
+      ],
+      "tier3": [
+        { "ref": "John 10:10", "from": "5", "note": "Christ came that his people may have life in abundance." },
+        { "ref": "Acts 4:32-35", "from": "3-7", "note": "The early church shared so generously that there was no needy person among them." },
+        { "ref": "Matthew 25:21", "from": "1-2", "note": "Faithful servants who use their gifts well are commended and entrusted with more." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry calls it a rare thing for ministers to say 'Give no more,' and praises both the people's generosity and the honesty of the workmen, who would not keep what was not needed. He sees both as fruits of God's work in their hearts."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken observes that the people gave beyond the need because their hearts had been changed by God's forgiveness after the calf. He presents their overflowing generosity as an example for the church's support of gospel ministry."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.",
+        "renderings": [
+          { "version": "ESV", "text": "every craftsman in whom the LORD has put skill and intelligence" },
+          { "version": "NIV", "text": "every skilled person to whom the LORD has given skill and ability" }
+        ],
+        "note": "KJV's 'wise hearted' keeps the Hebrew image. Modern versions translate it as skill, which is right, but the Hebrew reminds us that practical skill is a form of God-given wisdom."
+      },
+      {
+        "verse": "5",
+        "kjv": "And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.",
+        "renderings": [
+          { "version": "ESV", "text": "The people bring much more than enough" },
+          { "version": "NIV", "text": "The people are bringing more than enough" }
+        ],
+        "note": "The versions agree. The Hebrew piles up words for abundance: 'multiplying to bring more than enough.'"
+      }
+    ],
+    "gospel": "Israel's overflowing generosity was the fruit of grace. They had just been forgiven for the calf, and forgiven people give. The gospel reveals a God who gives far more than enough: Christ gave himself, and in him God has blessed us with every spiritual blessing. Our generosity is a small reflection of his abundance, and in Christ there is always enough grace for every need.",
+    "application": [
+      "Give in proportion to grace received, not grudgingly.",
+      "Leaders should be honest about need, and say 'enough' when enough has come.",
+      "Faithfully follow God's pattern even in repetitive work; obedience in detail matters.",
+      "Trust that God supplies his work through his people's willing hearts."
+    ],
+    "misapplications": [
+      {
+        "claim": "Generous giving guarantees material prosperity in return.",
+        "correction": "The people gave without promise of return; they gave because they were forgiven and wanted to honor God. Scripture promises sufficiency for good works (2 Corinthians 9:8), not riches."
+      },
+      {
+        "claim": "God's work always needs more money.",
+        "correction": "Here the work had more than enough, and Moses stopped the giving. Wise stewardship sometimes says no to further gifts."
+      }
+    ],
+    "contrasts": [
+      { "a": "Not enough", "b": "More than enough", "verses": "5", "note": "Israel complained of lack in the wilderness; now they give in abundance." },
+      { "a": "Unrestrained in idolatry", "b": "Restrained from giving", "verses": "6", "note": "The people Aaron let run wild at the calf (32:25) must now be held back from generosity." },
+      { "a": "Instruction", "b": "Execution", "verses": "8-38", "note": "What God said in chapter 26, Israel does here." }
+    ],
+    "features": [
+      { "label": "Verbatim repetition", "note": "Hebrew narrative often repeats instruction in the record of fulfillment. The repetition celebrates obedience." },
+      { "label": "Building the house first", "note": "In the instructions God began with the ark at the center; in construction the workers begin with the tent that will house it." },
+      { "label": "Honest craftsmen", "note": "The workers stop their work to report surplus (v4-5) rather than quietly accept the extra." }
+    ],
+    "summary": "Exodus 36 shows the joy of a forgiven people building God's house. They give so generously every morning that Moses must stop them, because there is more than enough. The skilled workers then build the tabernacle's curtains, coverings, frames, veil and screen exactly as God commanded.",
+    "metaArc": {
+      "book": "Chapter 36 continues the construction section, emphasizing willing generosity and precise obedience that contrast with the rebellion of chapter 32.",
+      "redemptive": "This belongs to Redemption: a people restored by grace building God's dwelling, a picture of the church built up in love by gifts God supplies."
+    }
+  }
+}

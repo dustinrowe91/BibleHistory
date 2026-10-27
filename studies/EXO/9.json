@@ -1,0 +1,157 @@
+{
+  "ref": "EXO.9",
+  "book": "Exodus",
+  "chapter": 9,
+  "title": "That My Name May Be Proclaimed in All the Earth",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Disease on livestock, boils and the worst hailstorm in Egypt's history show God's power over life, health and sky. God tells Pharaoh that he raised him up to display that power and proclaim his name in all the earth, and some Egyptians begin to fear the word of the LORD.",
+  "keyVerses": ["14", "16", "20", "27"],
+  "steps": {
+    "language": [
+      {
+        "word": "דֶּבֶר",
+        "translit": "dever",
+        "strongs": "H1698",
+        "gloss": "pestilence, plague",
+        "verses": "3, 15",
+        "note": "A deadly disease. It strikes Egypt's livestock, while Israel's animals are untouched. In verse 15 God says he could have struck Egypt's people with pestilence and wiped them out, but he restrained himself for a purpose."
+      },
+      {
+        "word": "עָמַד",
+        "translit": "amad",
+        "strongs": "H5975",
+        "gloss": "to stand, cause to stand, raise up",
+        "verses": "16",
+        "note": "'For this purpose I have caused you to stand.' It can mean God has kept Pharaoh alive through the plagues, or that God brought him onto the stage of history. Paul's quotation in Romans 9:17 uses 'raised you up.'"
+      },
+      {
+        "word": "בָּרָד",
+        "translit": "barad",
+        "strongs": "H1259",
+        "gloss": "hail",
+        "verses": "18-34",
+        "note": "Mentioned some fourteen times in the chapter. Hail with fire running along the ground was unheard of in Egypt, where rain is rare. God shows his rule over the sky, which Egypt credited to its gods."
+      },
+      {
+        "word": "צַדִּיק",
+        "translit": "tsaddiq",
+        "strongs": "H6662",
+        "gloss": "righteous, in the right",
+        "verses": "27",
+        "note": "'The LORD is in the right, and I and my people are in the wrong.' Pharaoh uses legal language: God wins the case. But his confession proves short-lived."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's name proclaimed among the nations",
+        "refs": ["Romans 9:17", "Joshua 2:9-11", "1 Samuel 4:8", "Psalm 96:3"],
+        "note": "Forty years later Rahab in Jericho says that news of the exodus melted their hearts. The Philistines also remembered these plagues. God's purpose of verse 16 was fulfilled."
+      },
+      {
+        "theme": "Hail as divine judgment",
+        "refs": ["Joshua 10:11", "Psalm 18:12-13", "Isaiah 30:30", "Revelation 16:21"],
+        "note": "God fights with hail at Joshua's battle, and the last bowl of Revelation sends hailstones weighing a talent on an unrepentant world."
+      },
+      {
+        "theme": "Boils as a covenant curse",
+        "refs": ["Deuteronomy 28:27, 35", "Job 2:7", "Revelation 16:2"],
+        "note": "Moses warns Israel that if they reject God they will be struck with 'the boils of Egypt.' The first bowl of Revelation brings painful sores on those with the mark of the beast."
+      }
+    ],
+    "context": {
+      "setting": "Plagues five through seven complete the second round and begin the third. The hail plague receives the longest treatment of any plague before the tenth, with a speech explaining God's purpose and the first sign of Egyptians responding with fear. Egypt revered cattle (the Apis bull, the cow goddess Hathor), and its priests valued ritual purity.",
+      "flow": [
+        { "verses": "1-7", "label": "Livestock struck", "note": "A severe plague kills Egypt's horses, donkeys, camels, herds and flocks in the field, but not one of Israel's animals dies. Pharaoh investigates, yet his heart is hard." },
+        { "verses": "8-12", "label": "Boils", "note": "Moses throws soot from a kiln into the air, and boils break out on people and beasts. The magicians cannot even stand before Moses. The LORD hardens Pharaoh's heart." },
+        { "verses": "13-21", "label": "Why Pharaoh still stands", "note": "God says he could have wiped Egypt out but raised up Pharaoh to show his power and make his name known. He warns of hail and gives instructions to take shelter; some Egyptians who fear God's word obey." },
+        { "verses": "22-26", "label": "Hail and fire", "note": "Thunder, hail and fire strike all Egypt, killing those in the open and shattering trees. Only Goshen has no hail." },
+        { "verses": "27-35", "label": "'I have sinned this time'", "note": "Pharaoh confesses that the LORD is in the right, but when the storm stops he sins again. The flax and barley are ruined; the wheat survives." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 9:17", "from": "16", "note": "Paul quotes the verse: 'For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth.'" },
+        { "ref": "Psalm 78:47-50", "from": "3, 23-25", "note": "God destroyed their vines with hail, gave their cattle to the hail and their lives to the plague." },
+        { "ref": "Psalm 105:32-33", "from": "23-25", "note": "He gave them hail for rain and fiery lightning through their land." }
+      ],
+      "tier2": [
+        { "ref": "Revelation 16:2, 21", "from": "10, 24", "note": "The bowls of wrath repeat the boils and the great hail, and the people still curse God instead of repenting." },
+        { "ref": "Joshua 2:9-11", "from": "16", "note": "Rahab's confession shows God's name proclaimed beyond Egypt as he intended." },
+        { "ref": "Deuteronomy 28:27", "from": "9", "note": "The covenant curses warn Israel that they too could receive 'the boils of Egypt.'" }
+      ],
+      "tier3": [
+        { "ref": "2 Peter 3:9", "from": "15-16", "note": "God's patience in delaying judgment has purpose; he is not slow as some count slowness." },
+        { "ref": "Hebrews 11:7", "from": "19-21", "note": "Noah, warned of things not yet seen, acted in reverent fear. Some of Pharaoh's servants did likewise." },
+        { "ref": "2 Corinthians 7:10", "from": "27-28, 34", "note": "Worldly sorrow produces death; godly sorrow leads to repentance. Pharaoh shows the first kind." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Piper",
+        "work": "The Justification of God",
+        "view": "Piper argues from Exodus 9:16 and Romans 9:17 that God's ultimate aim in hardening Pharaoh was to display his power and glorify his name. He contends this is right because God's glory is the highest good, and that this text shapes Paul's teaching on God's sovereign freedom in mercy and hardening."
+      },
+      {
+        "name": "Douglas K. Stuart",
+        "work": "Exodus (New American Commentary)",
+        "view": "Stuart notes the mercy in the hail plague: God gave a warning and a way of escape, and some of Pharaoh's officials took it. The plagues were not only destruction but repeated invitations to fear the LORD."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "for this purpose I have raised you up" },
+          { "version": "NIV", "text": "I have raised you up for this very purpose" },
+          { "version": "NASB", "text": "I have allowed you to remain" }
+        ],
+        "note": "The Hebrew verb means 'cause to stand.' NASB takes it as 'let you remain' alive through the plagues (in contrast to v15); ESV and NIV follow Paul's wording in Romans 9:17. Both fit: God placed Pharaoh in history and kept him there for his purpose."
+      },
+      {
+        "verse": "27",
+        "kjv": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+        "renderings": [
+          { "version": "ESV", "text": "The LORD is in the right" },
+          { "version": "NIV", "text": "The LORD is in the right" }
+        ],
+        "note": "The Hebrew words tsaddiq and rasha can mean 'righteous' and 'wicked' or, in a legal setting, 'in the right' and 'in the wrong.' Pharaoh admits he has lost the case without truly turning from his ways."
+      }
+    ],
+    "gospel": "God tells Pharaoh he could have wiped Egypt out but held back to make his name known in all the earth. God's patience is purposeful, and in Christ we see its fullest purpose: God endured sin in order to show both his justice and his mercy at the cross. The hail fell everywhere except Goshen, and those who heeded God's warning and took shelter were spared. The gospel likewise warns of coming judgment and offers a shelter, and the call goes out even to Pharaoh's servants. Christ is the refuge for all who fear God's word.",
+    "application": [
+      "Heed God's warnings while there is time. Some Egyptians who feared God's word brought their servants and animals inside and were spared.",
+      "Distinguish between confession under pressure and genuine repentance. 'I have sinned this time' was not a change of heart.",
+      "Find comfort that history serves God's purpose: even hostile rulers are raised up and kept for his glory.",
+      "See God's patience as an opportunity, not a sign of weakness. He could have ended things sooner."
+    ],
+    "misapplications": [
+      {
+        "claim": "Romans 9:17 and Exodus 9:16 mean Pharaoh had no responsibility for his choices.",
+        "correction": "The same chapter says Pharaoh 'sinned yet again and hardened his heart' (v34). Scripture holds God's sovereign purpose and human responsibility together without letting either cancel the other."
+      },
+      {
+        "claim": "Pharaoh's confession in verse 27 shows genuine faith.",
+        "correction": "Moses immediately says, 'I know that you do not yet fear the LORD God' (v30), and once the hail stops, Pharaoh hardens his heart (v34). Words of confession without fear of God are empty."
+      }
+    ],
+    "contrasts": [
+      { "a": "Those who feared the word", "b": "Those who ignored it", "verses": "20-21", "note": "For the first time Egyptians divide over God's word; fearing it brought life." },
+      { "a": "Destruction deserved", "b": "Restraint for a purpose", "verses": "15-16", "note": "God's restraint is not leniency but the setting for a greater display of his name." },
+      { "a": "Confession", "b": "Repentance", "verses": "27, 34", "note": "Pharaoh says the right words, then does the same thing again." }
+    ],
+    "features": [
+      { "label": "Escalation", "note": "The magicians who imitated the first plagues now cannot even stand before Moses because of the boils (v11). Egypt's spiritual defenders are defeated." },
+      { "label": "First time the LORD hardens", "note": "Verse 12 is the first time the narrative says outright that the LORD hardened Pharaoh's heart, after Pharaoh had repeatedly hardened himself." },
+      { "label": "A calendar clue", "note": "The flax and barley were ruined, but wheat and emmer, which ripen later, survived (v31-32). The detail fits the Egyptian agricultural year and sets the hail in late winter." },
+      { "label": "Mercy inside judgment", "note": "The hail plague includes a warning and a way to be safe. God's judgments carry an invitation." }
+    ],
+    "summary": "Exodus 9 shows God's power over animals, bodies and sky, and states his purpose openly: he has raised Pharaoh up to display his power and make his name known in all the earth. God's judgments include warning and mercy, and some Egyptians fear his word. Pharaoh's confession without repentance shows a heart that has chosen hardness.",
+    "metaArc": {
+      "book": "Chapter 9 brings the plagues to their theological center with God's explanation of why Pharaoh still stands (v14-16). The fearful Egyptians anticipate the 'mixed multitude' who leave with Israel (12:38).",
+      "redemptive": "This chapter belongs to Redemption through judgment, and points forward to the gospel going to the nations so that God's name is proclaimed in all the earth."
+    }
+  }
+}

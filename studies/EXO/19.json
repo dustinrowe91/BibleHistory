@@ -1,0 +1,167 @@
+{
+  "ref": "EXO.19",
+  "book": "Exodus",
+  "chapter": 19,
+  "title": "A Kingdom of Priests and a Holy Nation",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "At Sinai God reminds Israel how he carried them on eagles' wings and brought them to himself, and offers a covenant: they will be his treasured possession, a kingdom of priests and a holy nation. The people consecrate themselves, and God descends on the mountain in fire, smoke, thunder and trumpet blast.",
+  "keyVerses": ["4-6", "8", "18"],
+  "steps": {
+    "language": [
+      {
+        "word": "סְגֻלָּה",
+        "translit": "segullah",
+        "strongs": "H5459",
+        "gloss": "treasured possession, personal treasure",
+        "verses": "5",
+        "note": "A king's private treasure, distinct from the general wealth of the realm (1 Chronicles 29:3). 'All the earth is mine,' God says, yet Israel will be his special treasure among the nations. Peter applies the idea to the church (1 Peter 2:9)."
+      },
+      {
+        "word": "בְּרִית",
+        "translit": "berit",
+        "strongs": "H1285",
+        "gloss": "covenant",
+        "verses": "5",
+        "note": "A binding relationship with commitments sealed by oath. The Sinai covenant comes after redemption, not before: God first saved Israel, then invited them to live as his covenant people."
+      },
+      {
+        "word": "מַמְלֶכֶת כֹּהֲנִים",
+        "translit": "mamleket kohanim",
+        "gloss": "kingdom of priests",
+        "verses": "6",
+        "note": "Priests stand between God and others. As a nation, Israel was to represent God to the world and bring the nations near to him. The whole people, not only a priestly class, has this calling."
+      },
+      {
+        "word": "גּוֹי קָדוֹשׁ",
+        "translit": "goy qadosh",
+        "gloss": "holy nation",
+        "verses": "6",
+        "note": "Set apart for God and marked by his character. 'Holy' here describes both a status (belonging to God) and a way of life (reflecting him), which the law will spell out."
+      },
+      {
+        "word": "קוֹל",
+        "translit": "qol",
+        "strongs": "H6963",
+        "gloss": "voice, sound, thunder",
+        "verses": "5, 16, 19",
+        "note": "'If you will indeed obey my voice' (v5), and on the third day there were 'voices' (thunders) and the 'voice' of the trumpet (v16). God answers Moses 'in thunder' (literally, with a voice, v19). The God who thunders is the God who speaks."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "A royal priesthood",
+        "refs": ["Deuteronomy 7:6", "Isaiah 61:6", "1 Peter 2:9", "Revelation 1:6; 5:10"],
+        "note": "Peter calls the church 'a chosen race, a royal priesthood, a holy nation, a people for his own possession,' and Revelation says Christ has made us a kingdom, priests to God."
+      },
+      {
+        "theme": "On eagles' wings",
+        "refs": ["Deuteronomy 32:10-12", "Isaiah 40:31", "Revelation 12:14"],
+        "note": "Like an eagle that stirs up its nest and carries its young on its pinions, the LORD alone led Israel."
+      },
+      {
+        "theme": "The terrifying mountain",
+        "refs": ["Deuteronomy 4:10-12; 5:22-27", "Psalm 68:8", "Hebrews 12:18-24"],
+        "note": "Hebrews contrasts Sinai's fire, darkness and trumpet with Mount Zion, the city of the living God, where believers come through Jesus, mediator of a new covenant."
+      }
+    ],
+    "context": {
+      "setting": "Three months after leaving Egypt, Israel arrives at Mount Sinai (Horeb), where God first appeared to Moses in the bush. They will stay here about a year (Numbers 10:11), and the record of that stay runs from Exodus 19 to Numbers 10, nearly a third of the Pentateuch. God fulfills the sign of 3:12: they worship on this mountain.",
+      "flow": [
+        { "verses": "1-2", "label": "Arrival at Sinai", "note": "In the third month Israel camps before the mountain." },
+        { "verses": "3-6", "label": "The covenant offered", "note": "God reminds Israel how he bore them on eagles' wings and brought them to himself, and offers to make them his treasured possession, a kingdom of priests and a holy nation." },
+        { "verses": "7-8", "label": "All that the LORD has spoken we will do", "note": "The elders bring the words to the people, and the people answer together." },
+        { "verses": "9-15", "label": "Consecration", "note": "God will come in a thick cloud. The people wash their garments, abstain from sexual relations, and do not touch the mountain, under penalty of death. Boundaries are set." },
+        { "verses": "16-25", "label": "God descends", "note": "On the third day thunder, lightning, thick cloud and a loud trumpet; the mountain smokes and quakes as God descends in fire. Moses goes up and is sent down to warn the people again not to break through." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Peter 2:9-10", "from": "5-6", "note": "Peter applies the titles of verses 5-6 to the church, Jew and Gentile together." },
+        { "ref": "Hebrews 12:18-21", "from": "12-13, 16-19", "note": "Hebrews describes this scene: touching the mountain meant death, and even Moses trembled." },
+        { "ref": "Revelation 1:6; 5:9-10", "from": "6", "note": "Christ has made his people a kingdom and priests to God, from every tribe and nation." }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 4:32-36", "from": "18-19", "note": "Has any people heard the voice of God speaking out of fire and lived? Moses calls Israel to remember." },
+        { "ref": "Exodus 3:12", "from": "1-2", "note": "God's sign to Moses at the bush is fulfilled: they serve God on this mountain." },
+        { "ref": "Acts 2:1-4", "from": "16-18", "note": "Pentecost, traditionally linked to the giving of the law, comes with sound from heaven and tongues of fire." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 2:2-3", "from": "3-6", "note": "In the last days the nations will stream to the mountain of the LORD to learn his law." },
+        { "ref": "Matthew 17:1-8", "from": "9", "note": "On another mountain the disciples see Jesus' glory, are covered by a bright cloud and hear God's voice." },
+        { "ref": "Psalm 18:7-15", "from": "16-19", "note": "David describes God coming down in fire, smoke and thunder, using Sinai imagery for his own rescue." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Kenneth A. Kitchen",
+        "work": "On the Reliability of the Old Testament",
+        "view": "Kitchen argues that the Sinai covenant follows the pattern of treaties from the late second millennium BC, with a historical prologue (v4: 'You yourselves have seen what I did'), stipulations, witnesses and blessings. He takes this as evidence for the covenant's early origin."
+      },
+      {
+        "name": "Gregory of Nyssa",
+        "work": "The Life of Moses",
+        "view": "Gregory treats Moses' ascent into the cloud and thick darkness as an image of the soul's growth in knowing God. The further one goes, the more one sees that God is beyond full comprehension, and darkness becomes the place of encounter."
+      },
+      {
+        "name": "Walter C. Kaiser Jr.",
+        "work": "Toward an Old Testament Theology",
+        "view": "Kaiser sees verses 5-6 as a key statement of God's promise-plan. Israel's calling as a kingdom of priests was missionary from the start: through Israel, God intended to bring blessing to all nations, continuing the promise to Abraham."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine:",
+        "renderings": [
+          { "version": "ESV", "text": "my treasured possession among all peoples" },
+          { "version": "NIV", "text": "you will be my treasured possession" }
+        ],
+        "note": "'Peculiar' in 1611 meant 'one's own,' not 'odd.' Segullah means personal treasure. 'Above all people' means 'out of all the peoples,' not that Israel was better than others."
+      },
+      {
+        "verse": "4",
+        "kjv": "Ye have seen what I did unto the Egyptians, and how I bare you on eagles' wings, and brought you unto myself.",
+        "renderings": [
+          { "version": "ESV", "text": "how I bore you on eagles' wings" },
+          { "version": "NIV", "text": "how I carried you on eagles' wings" }
+        ],
+        "note": "The versions agree. The climax is 'brought you to myself': the goal of the exodus was not a place but a relationship with God."
+      }
+    ],
+    "gospel": "God first saved Israel and then offered the covenant: grace before law. 'I brought you to myself' is the heart of the gospel. Yet the scene at Sinai shows how dangerous God's holiness is for sinners; the people could not touch the mountain without dying. Hebrews says Christians have not come to that mountain but to Mount Zion, to Jesus the mediator of a new covenant, whose blood speaks a better word. In him, the calling of verses 5-6 is fulfilled: a royal priesthood from every nation, God's treasured possession.",
+    "application": [
+      "Remember that obedience is a response to grace. God saved Israel before he gave the law.",
+      "Live as a royal priesthood: representing God to the world and praying for the world before God.",
+      "Approach God with reverence. His holiness is real, even though in Christ we draw near with confidence.",
+      "Be careful with quick promises. Israel said 'All that the LORD has spoken we will do,' and soon broke their word."
+    ],
+    "misapplications": [
+      {
+        "claim": "Israel became God's people by keeping the law.",
+        "correction": "God had already redeemed them and 'brought them to himself' (v4). The covenant tells them how to live as his people, not how to become his people."
+      },
+      {
+        "claim": "Being God's treasured people means being superior to others.",
+        "correction": "'All the earth is mine' (v5). Israel was chosen to serve as priests for the nations, and Deuteronomy 7:7 says they were chosen not because they were greater but because God loved them."
+      }
+    ],
+    "contrasts": [
+      { "a": "Nearness", "b": "Distance", "verses": "4, 12", "note": "God brought Israel to himself, yet set limits around the mountain. Holy love both invites and guards." },
+      { "a": "All the earth", "b": "Treasured possession", "verses": "5", "note": "God owns everything, and chooses a people for a special purpose within his world." },
+      { "a": "Promise", "b": "Performance", "verses": "8", "note": "The people's sincere promise will soon fail (chapter 32), showing the need for a better covenant." }
+    ],
+    "features": [
+      { "label": "Historical prologue", "note": "Verse 4 recounts what God has done before verse 5 says what Israel must do, like ancient treaties that began with the king's past kindness." },
+      { "label": "Third day", "note": "God appears 'on the third day' (v11, 16). In Scripture the third day is often a day of decisive divine action, culminating in the resurrection." },
+      { "label": "Moses up and down", "note": "Moses goes up and down the mountain repeatedly in chapters 19-24, embodying his role as mediator between God and the people." },
+      { "label": "Trumpet", "note": "The ram's horn sounds louder and louder (v19). Trumpets announce the coming of God, and the New Testament links a trumpet to Christ's return (1 Thessalonians 4:16)." }
+    ],
+    "summary": "Exodus 19 brings Israel to Sinai and to the covenant. God, who carried them out of Egypt on eagles' wings, calls them to be his treasured possession, a kingdom of priests and a holy nation. The people agree, consecrate themselves and stand trembling as God descends in fire on the mountain, a scene of awe that reveals both his nearness and his holiness.",
+    "metaArc": {
+      "book": "Chapter 19 begins the second major part of Exodus: covenant at Sinai (chapters 19-24), then the tabernacle. Redemption from Egypt now becomes relationship with God.",
+      "redemptive": "This belongs to Redemption and Promise: God forms a people to carry his blessing to the nations, a calling fulfilled in the church as a royal priesthood drawn from all peoples through Christ."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "ref": "EXO.37",
+  "book": "Exodus",
+  "chapter": 37,
+  "title": "Bezalel Made the Ark",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Bezalel crafts the holiest furnishings of the tabernacle: the ark with its mercy seat and cherubim, the table for the bread of the presence, the golden lampstand, the altar of incense, and the holy anointing oil and incense, each exactly as God had shown Moses.",
+  "keyVerses": ["1", "6-9", "17", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "אָרוֹן",
+        "translit": "aron",
+        "strongs": "H727",
+        "gloss": "ark, chest",
+        "verses": "1-5",
+        "note": "A wooden chest overlaid with gold, about 45 by 27 by 27 inches. It held the tablets of the testimony and was the most sacred object in Israel, the footstool of God's throne."
+      },
+      {
+        "word": "כַּפֹּרֶת",
+        "translit": "kapporet",
+        "strongs": "H3727",
+        "gloss": "mercy seat, atonement cover",
+        "verses": "6-9",
+        "note": "Hammered from pure gold with the cherubim as one piece. It sat on top of the ark, covering the law with the place where atoning blood would be sprinkled."
+      },
+      {
+        "word": "מִקְשָׁה",
+        "translit": "miqshah",
+        "strongs": "H4749",
+        "gloss": "hammered work",
+        "verses": "7, 17, 22",
+        "note": "The cherubim and the lampstand were beaten from single pieces of gold, not cast or assembled. Skilled, patient work produced unity and strength."
+      },
+      {
+        "word": "שָׁקֵד",
+        "translit": "shaqed",
+        "strongs": "H8247",
+        "gloss": "almond",
+        "verses": "19-20",
+        "note": "The lampstand's cups were shaped like almond blossoms. The almond, first tree to bloom in spring, may symbolize watchfulness and life; Aaron's rod later buds almonds (Numbers 17:8), and Jeremiah's almond branch shows God 'watching' over his word (Jeremiah 1:11-12)."
+      },
+      {
+        "word": "רֹקֵחַ",
+        "translit": "roqeach",
+        "strongs": "H7543",
+        "gloss": "perfumer",
+        "verses": "29",
+        "note": "The incense and oil were made 'as by the perfumer,' blended by a skilled compounder. Even fragrance in God's house was carefully crafted."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The ark of the covenant in Israel's story",
+        "refs": ["Joshua 3:14-17", "1 Samuel 4:3-11", "2 Samuel 6:1-15", "1 Kings 8:6-9"],
+        "note": "The ark leads Israel across the Jordan, is captured by the Philistines, is brought to Jerusalem by David, and rests in Solomon's temple."
+      },
+      {
+        "theme": "Christ the mercy seat",
+        "refs": ["Romans 3:25", "Hebrews 9:5", "1 John 2:2"],
+        "note": "Christ is the propitiation for our sins, the true place where God's wrath is satisfied and mercy is shown."
+      },
+      {
+        "theme": "The ark in heaven",
+        "refs": ["Jeremiah 3:16-17", "Revelation 11:19"],
+        "note": "Jeremiah foresees a day when the ark will not be missed because Jerusalem itself will be God's throne. Revelation shows the heavenly ark revealed."
+      }
+    ],
+    "context": {
+      "setting": "Construction continues. Chapter 37 repeats the instructions of 25:10-40 and 30:1-10, 22-38. Bezalel himself is named as maker of the ark (v1), the only furnishing explicitly credited to him personally, perhaps because of its supreme holiness.",
+      "flow": [
+        { "verses": "1-9", "label": "The ark and mercy seat", "note": "Bezalel makes the gold-covered ark with rings and poles, the pure-gold mercy seat, and two hammered cherubim facing each other with wings spread over it." },
+        { "verses": "10-16", "label": "The table", "note": "He makes the gold-overlaid table with its rim, rings, poles and gold vessels for pouring." },
+        { "verses": "17-24", "label": "The lampstand", "note": "He makes the lampstand of hammered pure gold with six branches, almond-blossom cups and seven lamps, from a talent of gold." },
+        { "verses": "25-28", "label": "The altar of incense", "note": "He makes the incense altar of acacia overlaid with gold, with horns, molding, rings and poles." },
+        { "verses": "29", "label": "Oil and incense", "note": "He makes the holy anointing oil and pure fragrant incense, blended by the perfumer." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 25:10-40", "from": "1-24", "note": "Each item is made exactly as described in God's instructions." },
+        { "ref": "Exodus 30:1-5, 22-38", "from": "25-29", "note": "The incense altar, oil and incense follow the earlier commands." },
+        { "ref": "Hebrews 9:2-5", "from": "1-24", "note": "Hebrews lists these furnishings as the shadows that point to Christ." }
+      ],
+      "tier2": [
+        { "ref": "Numbers 17:8", "from": "19-20", "note": "Aaron's staff sprouts almond blossoms, confirming his priesthood, later kept in the ark." },
+        { "ref": "Leviticus 16:14-15", "from": "6", "note": "On the Day of Atonement, the high priest sprinkles blood on the mercy seat." },
+        { "ref": "1 Samuel 4:4", "from": "7-9", "note": "God is called 'the LORD of hosts, who is enthroned on the cherubim.'" }
+      ],
+      "tier3": [
+        { "ref": "John 20:12", "from": "7-9", "note": "Mary sees two angels sitting where Jesus' body had lain, one at the head and one at the feet, like the cherubim at either end of the mercy seat." },
+        { "ref": "Revelation 1:12-13", "from": "17-24", "note": "John sees the risen Christ among seven golden lampstands." },
+        { "ref": "Psalm 141:2", "from": "25-29", "note": "Let my prayer be counted as incense before you." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress explains that the ark, table, lampstand and altar represent different aspects of God's presence and provision: rule and mercy, sustenance, light, and prayer. Each finds its fulfillment in Christ, in whom God dwells with his people."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin emphasizes that Bezalel's precise obedience teaches that worship must follow God's word, not human invention. God alone has the right to determine how he is approached, and the tabernacle's furnishings show that he did so in detail."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "And he made the mercy seat of pure gold: two cubits and a half was the length thereof, and one cubit and a half the breadth thereof.",
+        "renderings": [
+          { "version": "ESV", "text": "He made a mercy seat of pure gold" },
+          { "version": "NIV", "text": "He made the atonement cover of pure gold" }
+        ],
+        "note": "As in 25:17, the name of the lid reflects either its function of mercy or its connection with atonement (kaphar). The Greek Old Testament called it hilastērion, the word Paul uses for Christ in Romans 3:25."
+      },
+      {
+        "verse": "9",
+        "kjv": "And the cherubims spread out their wings on high, and covered with their wings over the mercy seat, with their faces one to another; even to the mercy seatward were the faces of the cherubims.",
+        "renderings": [
+          { "version": "ESV", "text": "overshadowing the mercy seat with their wings" },
+          { "version": "NIV", "text": "overshadowing the cover with them" }
+        ],
+        "note": "KJV adds an English plural to a Hebrew plural ('cherubims'). The cherubim face the mercy seat, gazing on the place of atonement, as angels long to look into the gospel (1 Peter 1:12)."
+      }
+    ],
+    "gospel": "At the heart of the tabernacle was the ark: the law inside, the mercy seat on top, and cherubim gazing down at the place where blood would be sprinkled. It is the gospel in gold. God's holy law is covered by the place of atonement, and judgment gives way to mercy because of blood. Christ is that mercy seat, put forward by God as the propitiation for our sins. Angels still long to look into it, and believers come boldly to the throne of grace through him.",
+    "application": [
+      "Look to Christ as the place where God's law and mercy meet for you.",
+      "Do God's work with care and skill; Bezalel's craftsmanship honored God.",
+      "Worship God as he has revealed, not by invention.",
+      "Let your prayers rise like incense, offered through Christ."
+    ],
+    "misapplications": [
+      {
+        "claim": "The ark had magical power that worked automatically.",
+        "correction": "When Israel took the ark into battle as a charm, they were defeated and the ark captured (1 Samuel 4). Its power was God's presence, which cannot be manipulated."
+      },
+      {
+        "claim": "Repeating these details in Scripture is unnecessary padding.",
+        "correction": "The repetition shows obedience corresponding to command, a key theme after the disobedience of chapter 32, and it underlines the holiness of these objects."
+      }
+    ],
+    "contrasts": [
+      { "a": "Law within", "b": "Mercy above", "verses": "1-6", "note": "The tablets that condemn are covered by the place of atonement." },
+      { "a": "Wood", "b": "Gold", "verses": "1-2", "note": "Ordinary acacia wood covered with pure gold, an earthly material clothed in glory." },
+      { "a": "Cast idol", "b": "Hammered gold", "verses": "7, 17", "note": "The calf was a molten image; the cherubim and lampstand were hammered for God's appointed worship." }
+    ],
+    "features": [
+      { "label": "Bezalel named", "note": "Only the ark is directly credited to Bezalel by name (v1), honoring the most sacred work." },
+      { "label": "Faithful repetition", "note": "The text follows chapter 25 closely, word for word in places." },
+      { "label": "Order of the holy place", "note": "Ark, table, lampstand, incense altar: the chapter moves from the Most Holy Place outward through the holy place." }
+    ],
+    "summary": "Exodus 37 records Bezalel making the holiest objects of the tabernacle: the ark and mercy seat with cherubim, the table, the golden lampstand, the altar of incense, and the holy oil and incense. Each is made exactly as God commanded, and together they set at the center of Israel's life the place where God's law, mercy and presence meet.",
+    "metaArc": {
+      "book": "Chapter 37 continues the construction, completing the furnishings of the tent before the outer court in chapter 38.",
+      "redemptive": "This belongs to Redemption: the mercy seat over the law is a picture of atonement, fulfilled in Christ, the true meeting place of God and sinners."
+    }
+  }
+}

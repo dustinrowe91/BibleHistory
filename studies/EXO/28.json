@@ -1,0 +1,177 @@
+{
+  "ref": "EXO.28",
+  "book": "Exodus",
+  "chapter": 28,
+  "title": "Holy Garments for Glory and for Beauty",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God sets apart Aaron and his sons as priests and designs holy garments for them. The high priest carries the names of Israel's twelve tribes on his shoulders and over his heart, bears the Urim and Thummim for judgment, and wears a gold plate inscribed 'Holy to the LORD,' so that he can represent the people before God.",
+  "keyVerses": ["2", "12", "29-30", "36-38"],
+  "steps": {
+    "language": [
+      {
+        "word": "כֹּהֵן",
+        "translit": "kohen",
+        "strongs": "H3548",
+        "gloss": "priest",
+        "verses": "1, 3-4, 41",
+        "note": "One who serves at God's sanctuary, offering sacrifices, teaching, and standing between God and the people. All Israel was called a kingdom of priests (19:6), but Aaron's family is set apart to serve in the tabernacle."
+      },
+      {
+        "word": "תִּפְאֶרֶת",
+        "translit": "tiph'eret",
+        "strongs": "H8597",
+        "gloss": "beauty, splendor",
+        "verses": "2, 40",
+        "note": "The garments are 'for glory and for beauty.' God cares about beauty in worship. The robes display the dignity of the office and reflect something of God's own glory."
+      },
+      {
+        "word": "חֹשֶׁן",
+        "translit": "choshen",
+        "strongs": "H2833",
+        "gloss": "breastpiece",
+        "verses": "15-30",
+        "note": "A square pouch with twelve precious stones, each engraved with a tribe's name. Aaron bears the names 'on his heart' before the LORD. It was called the breastpiece 'of judgment' because it held the Urim and Thummim."
+      },
+      {
+        "word": "אוּרִים וְתֻמִּים",
+        "translit": "urim ve-tummim",
+        "gloss": "Urim and Thummim",
+        "verses": "30",
+        "note": "Possibly meaning 'lights and perfections.' They were objects used to seek God's decisions (Numbers 27:21; 1 Samuel 28:6). How they worked is unknown; Scripture never describes it."
+      },
+      {
+        "word": "צִיץ",
+        "translit": "tsits",
+        "strongs": "H6731",
+        "gloss": "plate, flower, rosette",
+        "verses": "36",
+        "note": "A gold plate on the turban engraved 'Holy to the LORD.' Aaron 'shall bear any guilt from the holy things' (v38), so that Israel's gifts would be accepted. The high priest carries the people's imperfections before God."
+      },
+      {
+        "word": "מָלֵא יָד",
+        "translit": "male yad",
+        "gloss": "fill the hand, ordain",
+        "verses": "41",
+        "note": "Literally 'fill their hand.' The idiom for ordination, perhaps from placing the first offerings into the priest's hands (29:24). It means authorizing someone for service."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "A high priest who bears his people",
+        "refs": ["Hebrews 4:14-16", "Hebrews 7:23-28", "Hebrews 8:1-2"],
+        "note": "Jesus is the great high priest who sympathizes with our weakness and always lives to intercede. He carries his people's names before God."
+      },
+      {
+        "theme": "Clothed with righteousness",
+        "refs": ["Isaiah 61:10", "Zechariah 3:1-5", "Revelation 19:8"],
+        "note": "Zechariah sees Joshua the high priest stripped of filthy garments and given clean ones. God clothes his people in salvation and righteousness."
+      },
+      {
+        "theme": "Holy to the LORD",
+        "refs": ["Zechariah 14:20-21", "1 Peter 1:15-16", "Revelation 22:4"],
+        "note": "Zechariah foresees 'Holy to the LORD' inscribed even on horses' bells and cooking pots. In the new Jerusalem, God's name will be on the foreheads of all his servants."
+      },
+      {
+        "theme": "Precious stones",
+        "refs": ["Ezekiel 28:13", "Revelation 21:19-20"],
+        "note": "The breastpiece's stones echo the jewels of Eden and the foundation stones of the new Jerusalem."
+      }
+    ],
+    "context": {
+      "setting": "The tabernacle needs priests. God chooses Aaron and his four sons and describes their garments in detail before their ordination in chapter 29. The high priest's garments are the ephod, breastpiece, robe, tunic, turban and sash, many in the same colors and materials as the tabernacle itself.",
+      "flow": [
+        { "verses": "1-5", "label": "Priests and their garments", "note": "Aaron and his sons are set apart. Skilled people filled with a spirit of wisdom are to make holy garments for glory and beauty." },
+        { "verses": "6-14", "label": "The ephod", "note": "An apron-like vestment of gold, blue, purple, scarlet and linen, with two onyx stones on the shoulders engraved with Israel's names, six on each, as a memorial before the LORD." },
+        { "verses": "15-30", "label": "The breastpiece of judgment", "note": "A square breastpiece with twelve stones in four rows, each engraved with a tribe's name, bound to the ephod. Aaron bears their names on his heart, and the Urim and Thummim are placed in it." },
+        { "verses": "31-35", "label": "The robe", "note": "An all-blue robe with pomegranates and gold bells on the hem, so the sound is heard when Aaron goes in and out, lest he die." },
+        { "verses": "36-39", "label": "Holy to the LORD", "note": "A gold plate on the turban engraved 'Holy to the LORD,' so that Aaron bears the guilt of the holy gifts and they are accepted. A checkered tunic, turban and sash." },
+        { "verses": "40-43", "label": "Garments for his sons", "note": "Tunics, sashes and caps for Aaron's sons; anoint, ordain and consecrate them. Linen undergarments for modesty, lest they bear guilt and die." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 39:1-31", "from": "1-43", "note": "The garments are made exactly as commanded, with the repeated phrase 'as the LORD had commanded Moses.'" },
+        { "ref": "Leviticus 8:7-9", "from": "4", "note": "Moses clothes Aaron in these garments at his ordination." },
+        { "ref": "Hebrews 5:1-4", "from": "1", "note": "Every high priest is chosen from among men to act on their behalf before God, and no one takes this honor himself, but is called, as Aaron was." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 7:26-28", "from": "36-38", "note": "Jesus is the high priest we need: holy, innocent, unstained, separated from sinners, who needs no sacrifice for his own sins." },
+        { "ref": "Numbers 27:21", "from": "30", "note": "Joshua must stand before Eleazar the priest, who will inquire for him by the judgment of the Urim." },
+        { "ref": "Zechariah 3:1-5", "from": "2, 4", "note": "God gives the high priest clean garments and a clean turban, removing his iniquity." }
+      ],
+      "tier3": [
+        { "ref": "Song of Songs 8:6", "from": "29", "note": "'Set me as a seal upon your heart.' Aaron bears Israel's names over his heart as a sign of love and remembrance." },
+        { "ref": "Isaiah 49:16", "from": "9-12", "note": "God says, 'I have engraved you on the palms of my hands.'" },
+        { "ref": "Revelation 1:13", "from": "4", "note": "John sees the risen Christ clothed in a long robe with a golden sash, priestly garments." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress sees the high priest bearing Israel's names on his shoulders and heart as a picture of Christ, who carries his people with strength and love. The inscription 'Holy to the LORD' points to the holiness Christ possesses and gives to his people."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken draws comfort from the names on the breastpiece: every tribe, great or small, was carried into God's presence by the high priest. In the same way Christ carries every believer by name before the Father."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "36",
+        "kjv": "And thou shalt make a plate of pure gold, and grave upon it, like the engravings of a signet, HOLINESS TO THE LORD.",
+        "renderings": [
+          { "version": "ESV", "text": "Holy to the LORD" },
+          { "version": "NIV", "text": "HOLY TO THE LORD" }
+        ],
+        "note": "The Hebrew is literally 'Holiness to YHWH.' It declares that the high priest, and through him the people, belong to God. Verse 38 links the plate to bearing the guilt of the holy things."
+      },
+      {
+        "verse": "41",
+        "kjv": "And thou shalt put them upon Aaron thy brother, and his sons with him; and shalt anoint them, and consecrate them, and sanctify them, that they may minister unto me in the priest's office.",
+        "renderings": [
+          { "version": "ESV", "text": "anoint them and ordain them and consecrate them" },
+          { "version": "NIV", "text": "anoint and ordain them. Consecrate them" }
+        ],
+        "note": "KJV's 'consecrate' translates the idiom 'fill the hand' (ordain), and 'sanctify' translates qadash (consecrate). Modern versions separate the two ideas: authorizing for office and setting apart as holy."
+      }
+    ],
+    "gospel": "Aaron entered God's presence carrying the names of God's people on his shoulders and over his heart, and wearing 'Holy to the LORD' so that their imperfect gifts would be accepted. Christ is the high priest Aaron pictured. He carries his people with strength and love, he is holy in himself, and he bears the guilt that clings even to our worship. He does not need beautiful garments; he is the glory and beauty of God. And through him believers become a royal priesthood, clothed in his righteousness.",
+    "application": [
+      "Take comfort that Christ bears your name before God, on his shoulders and on his heart.",
+      "Value beauty in worship as a reflection of God's glory, without making it a substitute for holiness.",
+      "Pray for others as a priest would, carrying their names before God.",
+      "Remember that even our best worship needs a mediator to bear its imperfections.",
+      "Live as one marked 'Holy to the LORD.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "Christian ministers today are priests who mediate between God and the people like Aaron.",
+        "correction": "Hebrews teaches that Christ is the one high priest whose priesthood replaces Aaron's (Hebrews 7:11-28). All believers share a priestly calling (1 Peter 2:9), and no human minister stands between them and God."
+      },
+      {
+        "claim": "The Urim and Thummim show that believers can use objects to discover God's will.",
+        "correction": "They were a specific provision for Israel's priesthood and disappear after the early monarchy. God now speaks through his Son and his completed word (Hebrews 1:1-2)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Shoulders", "b": "Heart", "verses": "12, 29", "note": "The names are carried with strength and with love." },
+      { "a": "Glory and beauty", "b": "Guilt and death", "verses": "2, 35, 38, 43", "note": "The splendid garments exist because approaching God is dangerous for sinners." },
+      { "a": "One high priest", "b": "Twelve tribes", "verses": "21", "note": "A single mediator represents the whole people." }
+    ],
+    "features": [
+      { "label": "Tabernacle colors", "note": "The high priest's garments use the same blue, purple, scarlet, gold and linen as the tabernacle curtains. He is dressed like the dwelling he serves." },
+      { "label": "Bells and pomegranates", "note": "Bells announced the high priest's movement before God, and pomegranates symbolized fruitfulness." },
+      { "label": "Memorial before God", "note": "The stones are a 'memorial' (v12, 29), meaning they bring Israel to God's remembrance, not that God might forget." },
+      { "label": "Modesty", "note": "Linen undergarments (v42) prevent exposure, echoing the altar without steps (20:26) and contrasting with fertility cults." }
+    ],
+    "summary": "Exodus 28 provides the high priest's holy garments for glory and beauty. Each part says something about his role: he bears Israel's names on his shoulders and heart, seeks God's judgment, and wears 'Holy to the LORD' to carry the people's guilt so their offerings are accepted. The chapter points to Christ, the great high priest who carries his people before God.",
+    "metaArc": {
+      "book": "Chapter 28 shifts from the tabernacle structure to the priests who serve in it, preparing for their ordination in chapter 29 and the fuller priestly laws of Leviticus.",
+      "redemptive": "This belongs to Redemption through mediation, fulfilled in Christ's eternal priesthood and in the new creation where all God's servants bear his name."
+    }
+  }
+}

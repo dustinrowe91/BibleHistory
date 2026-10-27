@@ -1,0 +1,162 @@
+{
+  "ref": "EXO.24",
+  "book": "Exodus",
+  "chapter": 24,
+  "title": "The Blood of the Covenant",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Israel's covenant with God is sealed. Moses reads the Book of the Covenant, the people pledge obedience, and he sprinkles them with sacrificial blood, 'the blood of the covenant.' Then Moses, Aaron, his sons and seventy elders see the God of Israel and eat and drink in his presence, and Moses enters the cloud for forty days.",
+  "keyVerses": ["3", "7-8", "10-11", "17-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "דַּם הַבְּרִית",
+        "translit": "dam ha-berit",
+        "gloss": "blood of the covenant",
+        "verses": "8",
+        "note": "Blood from the burnt and peace offerings is thrown half on the altar (God's side) and half on the people. The covenant is sealed by sacrificial death, binding both parties. Jesus' words at the Last Supper deliberately echo this phrase."
+      },
+      {
+        "word": "סֵפֶר הַבְּרִית",
+        "translit": "sepher ha-berit",
+        "gloss": "Book of the Covenant",
+        "verses": "7",
+        "note": "Moses writes down God's words (v4) and reads them aloud. This is the first time a 'book' of Scripture is read to God's people, the start of Israel's life as a people of the written word."
+      },
+      {
+        "word": "חָזָה",
+        "translit": "chazah",
+        "strongs": "H2372",
+        "gloss": "to see, behold (as in a vision)",
+        "verses": "11",
+        "note": "'They beheld God, and ate and drank.' A word often used for prophetic vision. What they saw is described only by what was under God's feet, protecting his transcendence while affirming a real encounter."
+      },
+      {
+        "word": "כָּבוֹד",
+        "translit": "kavod",
+        "strongs": "H3519",
+        "gloss": "glory",
+        "verses": "16-17",
+        "note": "The glory of the LORD 'dwelt' (shakan) on Sinai, appearing like a devouring fire. The verb shakan gives us mishkan, the tabernacle, which is about to be described. The glory on the mountain will move into the tent."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The blood of the covenant",
+        "refs": ["Matthew 26:28", "Mark 14:24", "Luke 22:20", "Hebrews 9:18-22", "Hebrews 13:20"],
+        "note": "'This is my blood of the covenant, poured out for many for the forgiveness of sins.' Hebrews cites this chapter directly and calls Christ's blood 'the blood of the eternal covenant.'"
+      },
+      {
+        "theme": "Eating in God's presence",
+        "refs": ["Exodus 18:12", "Isaiah 25:6-8", "Luke 22:30", "Revelation 19:9"],
+        "note": "Isaiah foresees a feast for all peoples on God's mountain. Jesus promises his disciples they will eat and drink at his table in his kingdom."
+      },
+      {
+        "theme": "Forty days",
+        "refs": ["Exodus 34:28", "1 Kings 19:8", "Matthew 4:2", "Acts 1:3"],
+        "note": "Moses, Elijah and Jesus each spend forty days in solitude with God. Jesus appeared forty days after his resurrection."
+      },
+      {
+        "theme": "Seeing God and living",
+        "refs": ["Exodus 33:20", "Isaiah 6:1-5", "John 1:18", "1 John 3:2"],
+        "note": "No one has seen God in his full glory, yet God reveals himself in measure. The Son has made him known, and believers will see him as he is."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 24 completes the covenant ceremony begun in chapter 19. Verses 1-2 resume God's instruction from before the laws, verses 3-8 give the ceremony at the foot of the mountain, and verses 9-11 the meal on the mountain. Verses 12-18 send Moses up to receive the tablets and the tabernacle instructions (chapters 25-31).",
+      "flow": [
+        { "verses": "1-2", "label": "Come up, worship from afar", "note": "God calls Moses, Aaron, Nadab, Abihu and seventy elders to come up and worship at a distance; only Moses may come near." },
+        { "verses": "3-8", "label": "The covenant ratified", "note": "Moses tells the people God's words; they answer, 'All the words the LORD has spoken we will do.' He writes them down, builds an altar with twelve pillars, offers sacrifices, reads the Book of the Covenant, and throws the blood on the people: 'Behold the blood of the covenant.'" },
+        { "verses": "9-11", "label": "They saw God and ate", "note": "The leaders go up and see the God of Israel, with something like a sapphire pavement under his feet. God does not lay his hand on them; they eat and drink." },
+        { "verses": "12-18", "label": "Into the cloud", "note": "God calls Moses up to receive the stone tablets. Joshua accompanies him; Aaron and Hur are left in charge. The cloud covers the mountain six days; on the seventh God calls Moses, and he stays forty days and nights." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 9:18-22", "from": "6-8", "note": "Hebrews describes this ceremony: Moses sprinkled the book and the people, saying 'This is the blood of the covenant,' because without the shedding of blood there is no forgiveness." },
+        { "ref": "Matthew 26:27-28", "from": "8", "note": "Jesus says 'This is my blood of the covenant,' presenting his death as the sacrifice that seals a new covenant." },
+        { "ref": "Exodus 19:8", "from": "3, 7", "note": "The people's pledge is repeated twice more here, sealing the commitment they first made at the mountain." }
+      ],
+      "tier2": [
+        { "ref": "Jeremiah 31:31-34", "from": "8", "note": "God promises a new covenant, not like the one made when he brought Israel out of Egypt, which they broke." },
+        { "ref": "Ezekiel 1:26", "from": "10", "note": "Ezekiel sees above the heavenly platform a throne like sapphire with a likeness of a man on it." },
+        { "ref": "Leviticus 10:1-2", "from": "1, 9", "note": "Nadab and Abihu, privileged to see God here, later die for offering unauthorized fire. Privilege does not guarantee faithfulness." }
+      ],
+      "tier3": [
+        { "ref": "1 Peter 1:2", "from": "8", "note": "Believers are chosen 'for obedience to Jesus Christ and for sprinkling with his blood,' recalling the pledge and sprinkling at Sinai." },
+        { "ref": "Matthew 17:1-5", "from": "15-16", "note": "On the mountain of transfiguration a bright cloud overshadows Jesus and his companions, and God's voice speaks from it." },
+        { "ref": "Revelation 21:2-3", "from": "16-17", "note": "The dwelling of God with man, begun when the glory settled on Sinai and then in the tabernacle, is completed in the new Jerusalem." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Brevard S. Childs",
+        "work": "The Book of Exodus",
+        "view": "Childs observes that the chapter joins two kinds of covenant ceremony: a rite of blood and commitment at the foot of the mountain, and a meal of fellowship on it. Together they show the covenant as both a binding obligation and a communion with God."
+      },
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress reads the covenant ceremony as a shadow of Christ's work: the blood that binds God and people prefigures Christ's blood, and the meal in God's presence anticipates the fellowship believers enjoy with God through him."
+      },
+      {
+        "name": "Gregory of Nyssa",
+        "work": "The Life of Moses",
+        "view": "Gregory sees Moses' entry into the cloud as an image of the soul ascending beyond what the senses grasp. The deeper one goes into knowing God, the more one recognizes that he surpasses all knowledge."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "10",
+        "kjv": "And they saw the God of Israel: and there was under his feet as it were a paved work of a sapphire stone, and as it were the body of heaven in his clearness.",
+        "renderings": [
+          { "version": "ESV", "text": "a pavement of sapphire stone, like the very heaven for clearness" },
+          { "version": "NIV", "text": "something like a pavement made of lapis lazuli" }
+        ],
+        "note": "The Hebrew sappir probably refers to lapis lazuli, a deep blue stone, rather than the modern sapphire. The point is a dazzling blue like the sky, the floor of heaven seen from below."
+      },
+      {
+        "verse": "11",
+        "kjv": "And upon the nobles of the children of Israel he laid not his hand: also they saw God, and did eat and drink.",
+        "renderings": [
+          { "version": "ESV", "text": "they beheld God, and ate and drank" },
+          { "version": "NIV", "text": "they saw God, and they ate and drank" }
+        ],
+        "note": "'He laid not his hand' means God did not strike them, though they saw him. What normally would bring death became an occasion of fellowship."
+      }
+    ],
+    "gospel": "The covenant was sealed with blood sprinkled on the people, and the people pledged to obey. They broke the covenant within weeks. At the Last Supper, Jesus took up Moses' words: 'This is my blood of the covenant.' Christ's blood seals a new covenant that does not depend on our pledge but on his sacrifice, and in it God writes his law on our hearts. And just as the elders saw God and ate in his presence without being struck, believers come to the Lord's table and, through Christ, have fellowship with God and live.",
+    "application": [
+      "Listen to God's word read aloud and respond with commitment, as Israel did, knowing that our promises need Christ's faithfulness.",
+      "Approach the Lord's Supper as a covenant meal in God's presence, made possible by blood.",
+      "Wait on God patiently. Moses waited six days in the cloud before God called him.",
+      "Remember that privilege does not guarantee faithfulness; Nadab and Abihu saw God and later died in sin."
+    ],
+    "misapplications": [
+      {
+        "claim": "Israel's 'we will do' shows that people can keep God's covenant by sincere determination.",
+        "correction": "Within forty days they made a golden calf (chapter 32). Sincere promises are not enough; the covenant needed a better mediator and a new heart (Jeremiah 31:31-34)."
+      },
+      {
+        "claim": "Verse 10 contradicts the statement that no one can see God.",
+        "correction": "The elders saw a manifestation of God, described only by what was beneath his feet. No one sees God's full essence (33:20; John 1:18), but God graciously reveals himself in forms people can bear."
+      }
+    ],
+    "contrasts": [
+      { "a": "Worship from afar", "b": "Moses drawing near", "verses": "1-2", "note": "Graded access: people at the foot, leaders partway up, Moses alone into the cloud." },
+      { "a": "Devouring fire", "b": "A shared meal", "verses": "11, 17", "note": "God's glory looked like consuming fire to the people, yet the leaders ate in his presence." },
+      { "a": "Altar", "b": "People", "verses": "6, 8", "note": "Blood on both sides of the covenant binds God and Israel together." }
+    ],
+    "features": [
+      { "label": "Twelve pillars", "note": "Moses sets up twelve pillars for the twelve tribes beside the altar (v4), representing the whole nation in covenant with God." },
+      { "label": "Six days, then the seventh", "note": "The cloud covers the mountain six days and God calls on the seventh (v16), echoing creation and setting up tabernacle instructions with creation overtones." },
+      { "label": "Twice-spoken pledge", "note": "The people say 'All that the LORD has spoken we will do' in verses 3 and 7, emphasizing their full and public agreement." }
+    ],
+    "summary": "Exodus 24 seals the Sinai covenant. Israel hears God's words, pledges obedience and is sprinkled with the blood of the covenant. Their leaders see the God of Israel and share a meal in his presence, and Moses enters the glory cloud for forty days. The chapter anticipates Christ's blood of the new covenant and the fellowship it brings.",
+    "metaArc": {
+      "book": "Chapter 24 completes the covenant section (chapters 19-24) and launches the tabernacle section (chapters 25-40). The glory resting on the mountain will come to rest in the tabernacle.",
+      "redemptive": "This belongs to Redemption: a covenant sealed in blood, pointing to the new covenant in Christ's blood and the feast of God's people in New Creation."
+    }
+  }
+}

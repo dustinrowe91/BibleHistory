@@ -1,0 +1,174 @@
+{
+  "ref": "EXO.3",
+  "book": "Exodus",
+  "chapter": 3,
+  "title": "I AM WHO I AM",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "At the burning bush the holy God calls Moses, reveals that he has seen Israel's misery and come down to rescue them, and makes known his name: I AM WHO I AM, the LORD, the God of Abraham, Isaac and Jacob.",
+  "keyVerses": ["5", "7-8", "12", "14-15"],
+  "steps": {
+    "language": [
+      {
+        "word": "סְנֶה",
+        "translit": "seneh",
+        "strongs": "H5572",
+        "gloss": "bush, thornbush",
+        "verses": "2-4",
+        "note": "A thorny desert shrub. Its sound is close to 'Sinai,' the mountain where God will later appear in fire to the whole nation (19:18). The bush burns but is not consumed: the holy God is present without destroying."
+      },
+      {
+        "word": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+        "translit": "ehyeh asher ehyeh",
+        "gloss": "I am who I am, I will be who I will be",
+        "verses": "14",
+        "note": "Built from the verb hayah, 'to be.' It can mean that God is self-existent and unchanging, or that he will be whatever he will be for his people, faithfully present (compare 'I will be with you,' ehyeh immak, v12). Both ideas belong to the name."
+      },
+      {
+        "word": "יְהוָה",
+        "translit": "YHWH",
+        "strongs": "H3068",
+        "gloss": "the LORD",
+        "verses": "15",
+        "note": "God's personal covenant name, related to 'I AM.' English Bibles print it as 'LORD' in small capitals, following the Jewish custom of saying 'Lord' in its place. God calls it 'my name forever' and 'my memorial to all generations.'"
+      },
+      {
+        "word": "פָּקַד",
+        "translit": "paqad",
+        "strongs": "H6485",
+        "gloss": "to visit, attend to, take note of",
+        "verses": "16",
+        "note": "'I have surely visited you,' the very words of Joseph's dying promise in Genesis 50:24-25. God visiting means he comes to act for good or judgment. Here it is rescue."
+      },
+      {
+        "word": "קֹדֶשׁ",
+        "translit": "qodesh",
+        "strongs": "H6944",
+        "gloss": "holiness, holy",
+        "verses": "5",
+        "note": "The first time 'holy' appears in Exodus. Ground becomes holy because God is there. Holiness, God's set-apart purity and majesty, becomes one of the great themes of the book."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "I AM",
+        "refs": ["Isaiah 41:4", "Isaiah 43:10-13", "John 8:58", "Revelation 1:8"],
+        "note": "Isaiah develops the name: 'I am he; before me no god was formed.' Jesus takes it on his lips: 'Before Abraham was, I am,' and his hearers understood the claim."
+      },
+      {
+        "theme": "The God of Abraham, Isaac and Jacob",
+        "refs": ["Genesis 28:13", "Matthew 22:31-32", "Acts 3:13", "Acts 7:32"],
+        "note": "Jesus argues for the resurrection from this verse: God is not the God of the dead but of the living. Peter preaches that this same God has glorified his servant Jesus."
+      },
+      {
+        "theme": "Holy ground and removing sandals",
+        "refs": ["Joshua 5:15", "Isaiah 6:5"],
+        "note": "Joshua receives the same command before Jericho. Meeting the holy God brings awe and a sense of unworthiness."
+      },
+      {
+        "theme": "A land flowing with milk and honey",
+        "refs": ["Exodus 3:17", "Numbers 13:27", "Deuteronomy 6:3", "Jeremiah 11:5"],
+        "note": "The phrase for the promised land's abundance occurs about twenty times. It becomes a picture of the good life God gives in his presence."
+      }
+    ],
+    "context": {
+      "setting": "Moses has spent forty years as a shepherd in Midian (Acts 7:30). He is about eighty (7:7). He leads his father-in-law's flock to Horeb, 'the mountain of God,' another name for Sinai, where Israel will later meet God. This is one of the great revelation scenes in the Bible.",
+      "flow": [
+        { "verses": "1-6", "label": "The burning bush", "note": "The angel of the LORD appears in fire; God calls Moses by name, tells him to remove his sandals, and names himself the God of the patriarchs. Moses hides his face." },
+        { "verses": "7-10", "label": "I have seen, I have come down", "note": "God has seen his people's affliction, heard their cry and known their sufferings. He will bring them to a good land, and he sends Moses to Pharaoh." },
+        { "verses": "11-12", "label": "Who am I?", "note": "Moses' first objection. God answers not with Moses' qualifications but his own presence, with a sign: they will worship on this mountain." },
+        { "verses": "13-15", "label": "What is his name?", "note": "God reveals himself as I AM WHO I AM and the LORD, the God of their fathers, his name forever." },
+        { "verses": "16-22", "label": "The plan announced", "note": "Moses is to gather the elders, ask Pharaoh for a three-day journey to sacrifice, expect refusal and wonders, and Israel will leave with Egypt's silver and gold." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Mark 12:26-27", "from": "6", "note": "Jesus quotes 'I am the God of Abraham, and the God of Isaac, and the God of Jacob' to prove that the dead are raised." },
+        { "ref": "Acts 7:30-34", "from": "1-10", "note": "Stephen retells the bush scene and God's words 'I have surely seen the affliction of my people.'" },
+        { "ref": "Genesis 15:13-14", "from": "21-22", "note": "God promised Abraham that his offspring would come out of the land of their affliction with great possessions." }
+      ],
+      "tier2": [
+        { "ref": "John 8:58", "from": "14", "note": "Jesus' 'Before Abraham was, I am' identifies him with the God who spoke from the bush." },
+        { "ref": "Isaiah 6:1-8", "from": "5-11", "note": "Another call scene: vision of holiness, a sense of unworthiness, then a commission. Isaiah, like Moses, is sent to a people who will not listen." },
+        { "ref": "Exodus 19:16-18", "from": "2, 12", "note": "The sign of verse 12 is fulfilled when Israel stands at this mountain and God descends in fire." }
+      ],
+      "tier3": [
+        { "ref": "Revelation 1:4, 8", "from": "14", "note": "'Him who is and who was and who is to come' expands the meaning of the divine name." },
+        { "ref": "Matthew 28:20", "from": "12", "note": "'I am with you always.' Jesus' commission rests on the same promise of presence God gave Moses." },
+        { "ref": "Hebrews 12:29", "from": "2", "note": "'Our God is a consuming fire.' The bush that was not consumed shows mercy holding back what holiness could do." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. Alec Motyer",
+        "work": "The Revelation of the Divine Name",
+        "view": "Motyer argues that God's name is not a label but a revelation of his character, and that Israel learns what 'the LORD' means by what God does in the exodus: he is the God who is present to redeem his people and judge his enemies."
+      },
+      {
+        "name": "Gregory of Nyssa",
+        "work": "The Life of Moses",
+        "view": "Gregory reads the bush as the beginning of Moses' ascent in knowing God. Removing his sandals pictures setting aside earthly attachments, and the fire that does not consume he takes as a figure of the incarnation and of the virgin birth."
+      },
+      {
+        "name": "Augustine",
+        "work": "On Christian Doctrine",
+        "view": "Augustine uses Israel taking Egypt's gold and silver (v22) as a picture of how Christians should treat the truths found in pagan learning: they belong to God and may be taken and put to his service."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "14",
+        "kjv": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
+        "renderings": [
+          { "version": "ESV", "text": "I AM WHO I AM" },
+          { "version": "NIV", "text": "I AM WHO I AM" },
+          { "version": "NASB", "text": "I AM WHO I AM" }
+        ],
+        "note": "English versions agree, but the Hebrew verb can also be future: 'I will be what I will be,' which several versions give in a footnote. The name points both to God's self-existence and to his faithful presence with his people."
+      },
+      {
+        "verse": "22",
+        "kjv": "But every woman shall borrow of her neighbour, and of her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment: and ye shall put them upon your sons, and upon your daughters; and ye shall spoil the Egyptians.",
+        "renderings": [
+          { "version": "ESV", "text": "each woman shall ask of her neighbor" },
+          { "version": "NIV", "text": "Every woman is to ask her neighbor" }
+        ],
+        "note": "'Borrow' suggests the Israelites meant to return what they took. The Hebrew sha'al simply means 'ask,' and modern versions say so. The items were given as Israel's long-overdue wages, as God promised Abraham."
+      }
+    ],
+    "gospel": "God reveals himself as the one who sees, hears, knows and comes down to rescue. That is exactly what he did in Christ, who came down from heaven to deliver his people from a far worse slavery. Jesus claimed the name of the bush, 'I am,' and showed that the holy fire which could consume sinners would instead fall on him. The God who is 'the God of Abraham, Isaac and Jacob' is the God of the living, who raised Jesus and will raise all who belong to him.",
+    "application": [
+      "Approach God with reverence. He is holy, and he must make even the ground clean before we stand on it.",
+      "When you feel unqualified, remember God's answer to 'Who am I?' was 'I will be with you.' Your sufficiency is his presence.",
+      "Take comfort that God sees affliction and hears the cry of his people, even when years pass in silence.",
+      "Know God by his name. He is self-existent, faithful and unchanging, and he has made himself known to be trusted."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's name 'I AM' means God is an impersonal force or simply 'being' itself.",
+        "correction": "The name is given in a personal conversation by the God who sees, hears, comes down and sends (v7-10), and who is 'the God of your fathers' (v15). He is the living, personal God."
+      },
+      {
+        "claim": "God called Moses because he was the most capable leader available.",
+        "correction": "Moses himself asks 'Who am I?' (v11), and God answers with his own presence, not Moses' credentials. Forty years in the desert had taken away Moses' self-confidence."
+      }
+    ],
+    "contrasts": [
+      { "a": "Holiness", "b": "Presence", "verses": "2-5", "note": "God's holiness keeps Moses at a distance, yet God comes near to speak. The fire burns but does not consume." },
+      { "a": "'Who am I?'", "b": "'I AM'", "verses": "11, 14", "note": "Moses' weakness is answered not by building up Moses but by revealing God." },
+      { "a": "Affliction in Egypt", "b": "A good and broad land", "verses": "7-8", "note": "God's rescue is not only out of something but into something better." }
+    ],
+    "features": [
+      { "label": "Seeing and hearing", "note": "Moses turns aside to see; God sees Moses turn aside. God has seen the affliction and heard the cry. The scene is built around attention, human and divine." },
+      { "label": "The angel of the LORD", "note": "The angel appears in verse 2, but it is God who speaks in verse 4. Many interpreters see the angel of the LORD as a pre-incarnate appearance of the Son." },
+      { "label": "A sign after the fact", "note": "The sign that God sent Moses is that Israel will worship at this mountain (v12), a sign Moses can only see by trusting first." },
+      { "label": "First of five objections", "note": "Who am I? What is your name? What if they do not believe? I am not eloquent. Please send someone else. Chapters 3-4 build tension through Moses' reluctance." }
+    ],
+    "summary": "Exodus 3 is one of the Bible's central revelations of God. The holy God calls Moses from a burning bush, declares that he has seen and heard his suffering people, and promises to bring them out. He reveals his name, I AM WHO I AM and the LORD, as the faithful, self-existent God of the covenant who will be with those he sends.",
+    "metaArc": {
+      "book": "The call at the bush launches the exodus story and announces its whole plan: confrontation with Pharaoh, signs and wonders, departure with Egypt's wealth, and worship at this mountain. The fire on the bush returns in the fire on Sinai and the glory in the tabernacle.",
+      "redemptive": "This is the Promise moving into Redemption. God binds himself to his covenant with the patriarchs and reveals the name by which he will be known as Redeemer, a name Jesus will claim as his own."
+    }
+  }
+}

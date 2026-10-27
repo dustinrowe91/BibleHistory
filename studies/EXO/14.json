@@ -1,0 +1,170 @@
+{
+  "ref": "EXO.14",
+  "book": "Exodus",
+  "chapter": 14,
+  "title": "Stand Firm and See the Salvation of the LORD",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Trapped between Pharaoh's army and the sea, Israel panics, but Moses tells them to stand firm and see the LORD's salvation. God divides the sea, Israel walks through on dry ground, and the waters return on the Egyptians. Israel sees the great power of the LORD, fears him and believes.",
+  "keyVerses": ["13-14", "21-22", "30-31"],
+  "steps": {
+    "language": [
+      {
+        "word": "יְשׁוּעָה",
+        "translit": "yeshu'ah",
+        "strongs": "H3444",
+        "gloss": "salvation, deliverance",
+        "verses": "13",
+        "note": "The first use of this word in Exodus: 'see the salvation of the LORD.' The noun comes from the same root as the name Joshua and Jesus (Yeshua), 'the LORD saves.' Verse 30 uses the verb: 'Thus the LORD saved Israel.'"
+      },
+      {
+        "word": "כָּבֵד",
+        "translit": "kaved",
+        "strongs": "H3513",
+        "gloss": "to be glorified, get glory",
+        "verses": "4, 17-18",
+        "note": "'I will get glory over Pharaoh.' The root that described Pharaoh's 'heavy' heart now describes God's 'weighty' glory. Pharaoh's stubbornness becomes the occasion for God's honor."
+      },
+      {
+        "word": "לָחַם",
+        "translit": "lacham",
+        "strongs": "H3898",
+        "gloss": "to fight",
+        "verses": "14, 25",
+        "note": "'The LORD will fight for you.' In verse 25 the Egyptians admit it: 'the LORD fights for them.' This is the first time God is described as Israel's warrior, preparing for the song 'The LORD is a man of war' (15:3)."
+      },
+      {
+        "word": "יַבָּשָׁה",
+        "translit": "yabbashah",
+        "strongs": "H3004",
+        "gloss": "dry ground, dry land",
+        "verses": "16, 22, 29",
+        "note": "The same word for the 'dry land' that appeared when God separated the waters in Genesis 1:9-10. The crossing is an act of new creation: God divides the waters and makes dry ground appear for his people."
+      },
+      {
+        "word": "אָמַן",
+        "translit": "aman",
+        "strongs": "H539",
+        "gloss": "to believe, trust",
+        "verses": "31",
+        "note": "'They believed in the LORD and in his servant Moses.' The same word used of Abraham's faith in Genesis 15:6. Israel's faith here rests on seeing God's mighty work."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Through the waters",
+        "refs": ["Psalm 77:16-20", "Isaiah 43:2, 16-19", "Isaiah 51:10", "1 Corinthians 10:1-2"],
+        "note": "Isaiah promises a new exodus: 'When you pass through the waters, I will be with you.' Paul calls the crossing Israel's baptism into Moses."
+      },
+      {
+        "theme": "Stand still and see God save",
+        "refs": ["2 Chronicles 20:15-17", "Psalm 46:10", "Isaiah 30:15"],
+        "note": "Jehoshaphat's army hears almost the same words: 'You will not need to fight in this battle. Stand firm, hold your position, and see the salvation of the LORD.'"
+      },
+      {
+        "theme": "God divides the sea",
+        "refs": ["Psalm 74:13", "Psalm 106:9-12", "Nehemiah 9:11", "Hebrews 11:29"],
+        "note": "The crossing is celebrated through Israel's history as the defining display of God's power. Hebrews says Israel crossed by faith, and the Egyptians drowned attempting it."
+      }
+    ],
+    "context": {
+      "setting": "God deliberately turns Israel back to camp by the sea, near Pi-hahiroth and Baal-zephon, so that Pharaoh will think them trapped. The exact location is debated: many identify the Yam Suph with a body of water in the region of the Bitter Lakes or the Gulf of Suez; some argue for the Gulf of Aqaba. The text's emphasis is that no human means of escape was possible.",
+      "flow": [
+        { "verses": "1-4", "label": "A deliberate trap", "note": "God turns Israel back to camp by the sea so that Pharaoh will pursue, and God will get glory over Pharaoh and his army." },
+        { "verses": "5-9", "label": "Pharaoh pursues", "note": "Pharaoh regrets releasing Israel and pursues with 600 chosen chariots and all Egypt's chariots, overtaking them by the sea." },
+        { "verses": "10-14", "label": "Fear and faith", "note": "Israel cries out and blames Moses: were there no graves in Egypt? Moses answers: fear not, stand firm, see the salvation of the LORD. The LORD will fight for you." },
+        { "verses": "15-20", "label": "Go forward", "note": "God tells Moses to stretch out his staff and Israel to move forward. The angel of God and the pillar move behind Israel, bringing darkness to Egypt and light to Israel." },
+        { "verses": "21-25", "label": "Dry ground in the sea", "note": "A strong east wind divides the sea all night; Israel walks through on dry ground with walls of water. Egypt follows; God throws them into panic and clogs their chariot wheels." },
+        { "verses": "26-31", "label": "The waters return", "note": "At dawn the sea returns and covers Pharaoh's army; not one survives. Israel sees the Egyptians dead on the shore, fears the LORD and believes." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Corinthians 10:1-2", "from": "21-22", "note": "All passed through the sea and were baptized into Moses in the cloud and in the sea." },
+        { "ref": "Hebrews 11:29", "from": "22, 27", "note": "By faith Israel crossed the Red Sea as on dry land, but the Egyptians drowned when they attempted it." },
+        { "ref": "Psalm 106:7-12", "from": "11-12, 30-31", "note": "Israel rebelled by the sea, yet God saved them for his name's sake; then they believed his words and sang his praise." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 1:9-10", "from": "21-22", "note": "God gathered the waters and made dry land appear. The crossing is creation language applied to redemption." },
+        { "ref": "Isaiah 43:16-19", "from": "16, 21", "note": "The LORD who makes a way in the sea promises to do a new thing, a new exodus greater than the first." },
+        { "ref": "Romans 6:3-4", "from": "22, 30", "note": "Baptism into Christ's death and resurrection is the believer's passage from slavery to new life." }
+      ],
+      "tier3": [
+        { "ref": "Revelation 15:2-3", "from": "30-31", "note": "The victors stand beside a sea of glass and sing the song of Moses and the Lamb." },
+        { "ref": "Mark 4:39-41", "from": "21", "note": "Jesus commands the sea and the disciples ask, 'Who then is this, that even the wind and the sea obey him?'" },
+        { "ref": "Colossians 2:15", "from": "27-28", "note": "At the cross Christ disarmed the powers and triumphed over them, a final victory like Pharaoh's army on the shore." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "James K. Hoffmeier",
+        "work": "Israel in Egypt",
+        "view": "Hoffmeier argues that the place names and the 'Sea of Reeds' fit the geography of Egypt's eastern frontier, with its lakes, marshes and fortified road. He takes Yam Suph to refer to a body of water in that region and defends the account's historical setting."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken treats the crossing as a picture of salvation by grace alone. Israel did nothing to save themselves; they were told to stand still and then walk through on ground God had made dry. The gospel likewise calls sinners to rest in what God has done."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Exodus overview videos",
+        "view": "BibleProject presents the sea crossing as God's act of rescue through judgment: the waters that bring death to Egypt become the path of life for Israel. It connects this pattern to the flood and to Jesus' death and resurrection, through which God brings his people out of death into new life."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "14",
+        "kjv": "The LORD shall fight for you, and ye shall hold your peace.",
+        "renderings": [
+          { "version": "ESV", "text": "and you have only to be silent" },
+          { "version": "NIV", "text": "you need only to be still" }
+        ],
+        "note": "The Hebrew verb means to be silent or still. In context it rebukes Israel's panicked complaining (v11-12): stop protesting and watch God act. It does not mean passivity, since the next verse says 'Go forward.'"
+      },
+      {
+        "verse": "13",
+        "kjv": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever.",
+        "renderings": [
+          { "version": "ESV", "text": "Fear not, stand firm" },
+          { "version": "NIV", "text": "Do not be afraid. Stand firm" }
+        ],
+        "note": "The verb means to take one's stand. 'Stand still' could suggest doing nothing; 'stand firm' captures holding one's ground in faith instead of fleeing in fear."
+      }
+    ],
+    "gospel": "Israel was trapped, helpless and complaining, and God saved them in a way they could only receive. They passed through the waters of judgment on dry ground while their enemy was destroyed. The New Testament sees here the shape of salvation in Christ: he passed through death and came out the other side, and those united to him pass through with him in baptism, while sin and death, the powers that enslaved them, are drowned behind them. Like Israel, we are saved not by our fighting but by the Lord who fights for us.",
+    "application": [
+      "When you are trapped and afraid, look to the Lord's salvation rather than to your own resources. 'The LORD will fight for you.'",
+      "Stop the panicked complaining and trust; then go forward when God says go.",
+      "Remember that God sometimes leads his people into impossible places so that his glory will be unmistakable.",
+      "Let past deliverances deepen reverent fear and faith, as they did for Israel (v31)."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Be still' means God's people should never act.",
+        "correction": "The same God who said 'be still' said 'Go forward' (v15). Stillness here is the opposite of panic and complaint, not of obedience."
+      },
+      {
+        "claim": "The crossing was only a wind blowing shallow marsh water, so no miracle was involved.",
+        "correction": "God may use a strong east wind (v21), but the waters stood as walls (v22), parted at Moses' command, returned at a precise moment, and destroyed an army. The text presents a divine act through and beyond natural means."
+      }
+    ],
+    "contrasts": [
+      { "a": "Fear of Egypt", "b": "Fear of the LORD", "verses": "10, 31", "note": "Israel begins terrified of Pharaoh's army and ends in reverent fear of God." },
+      { "a": "Darkness for Egypt", "b": "Light for Israel", "verses": "20", "note": "The same pillar brings darkness to one camp and light to the other." },
+      { "a": "Dry ground", "b": "Drowning waters", "verses": "22, 28", "note": "The same sea is the path of salvation for Israel and the grave of Egypt." }
+    ],
+    "features": [
+      { "label": "Creation language", "note": "Wind (ruach), waters divided, dry land appearing: the crossing echoes Genesis 1:2, 9. Redemption is new creation." },
+      { "label": "Day and night structure", "note": "The night of crossing ends at the morning watch (v24) when God looks down and confuses Egypt. Israel sees salvation at dawn." },
+      { "label": "Hardening resolved", "note": "The hardened-heart theme ends here, with God getting glory over Pharaoh and the Egyptians knowing he is the LORD (v4, 18)." },
+      { "label": "Seen and seen no more", "note": "'The Egyptians whom you see today, you shall never see again' (v13), and Israel 'saw the Egyptians dead on the seashore' (v30)." }
+    ],
+    "summary": "Exodus 14 is the decisive act of salvation from Egypt. God leads Israel into an impossible position, fights for them, divides the sea and destroys the army of their oppressor. Israel contributes nothing but fear, yet God saves them for his glory, and they respond with reverent fear and faith in the LORD and his servant Moses.",
+    "metaArc": {
+      "book": "Chapter 14 completes the deliverance from Egypt begun in chapter 1. The power of Pharaoh is broken forever, and the people are ready to sing (chapter 15) and then to journey to Sinai.",
+      "redemptive": "This is Redemption's great Old Testament picture: salvation through judgment, new creation through waters, and freedom by God's arm alone, fulfilled in Christ's death and resurrection and pictured in baptism."
+    }
+  }
+}

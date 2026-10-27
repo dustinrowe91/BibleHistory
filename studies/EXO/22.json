@@ -1,0 +1,169 @@
+{
+  "ref": "EXO.22",
+  "book": "Exodus",
+  "chapter": 22,
+  "title": "You Were Sojourners in Egypt",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God's law protects property through restitution, guards sexual and religious faithfulness, and above all defends the sojourner, the widow, the orphan and the poor, because God hears their cry. Israel, once strangers in Egypt, must treat the vulnerable with the compassion God showed them.",
+  "keyVerses": ["21-24", "25-27", "31"],
+  "steps": {
+    "language": [
+      {
+        "word": "שָׁלַם",
+        "translit": "shalam",
+        "strongs": "H7999",
+        "gloss": "to repay, make restitution",
+        "verses": "1-15",
+        "note": "Related to shalom (peace, wholeness). Restitution restores what was broken in the community. Thieves repay double or more, rather than being imprisoned, so the victim is made whole."
+      },
+      {
+        "word": "גֵּר",
+        "translit": "ger",
+        "strongs": "H1616",
+        "gloss": "sojourner, resident foreigner",
+        "verses": "21",
+        "note": "A foreigner living among Israel without land or family protection. 'You were sojourners in the land of Egypt.' Israel's memory of being outsiders shapes how they must treat outsiders."
+      },
+      {
+        "word": "צָעַק",
+        "translit": "tsa'aq",
+        "strongs": "H6817",
+        "gloss": "to cry out",
+        "verses": "23, 27",
+        "note": "'If they cry out to me, I will surely hear their cry.' The same verb described Israel's cry in Egypt (3:7). God who heard Israel will hear the oppressed widow and orphan against Israel."
+      },
+      {
+        "word": "חַנּוּן",
+        "translit": "channun",
+        "strongs": "H2587",
+        "gloss": "gracious, compassionate",
+        "verses": "27",
+        "note": "'I will hear, for I am compassionate.' This is the first time God calls himself channun. The word reappears in his great self-description in 34:6. Laws about cloaks and loans rest on God's character."
+      },
+      {
+        "word": "נֶשֶׁךְ",
+        "translit": "neshek",
+        "strongs": "H5392",
+        "gloss": "interest, usury",
+        "verses": "25",
+        "note": "From a root meaning 'to bite.' Interest on a loan to a poor Israelite 'bites' into what little he has. Loans to the poor were to be acts of help, not profit."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Care for widows, orphans and sojourners",
+        "refs": ["Deuteronomy 10:17-19", "Deuteronomy 24:17-22", "Psalm 146:9", "James 1:27"],
+        "note": "God executes justice for the fatherless and widow and loves the sojourner. James calls caring for orphans and widows pure religion."
+      },
+      {
+        "theme": "Lending to the poor",
+        "refs": ["Leviticus 25:35-38", "Deuteronomy 23:19-20", "Psalm 15:5", "Luke 6:34-35"],
+        "note": "The righteous person 'does not put out his money at interest.' Jesus calls his followers to lend expecting nothing in return."
+      },
+      {
+        "theme": "Respect for God and rulers",
+        "refs": ["Acts 23:5", "Romans 13:1-7", "1 Peter 2:17"],
+        "note": "Paul, rebuked for speaking against the high priest, quotes verse 28 and apologizes: 'You shall not speak evil of a ruler of your people.'"
+      },
+      {
+        "theme": "A holy people",
+        "refs": ["Leviticus 11:44-45", "Leviticus 17:15", "1 Peter 1:15-16"],
+        "note": "'You shall be consecrated to me' (v31) introduces the holiness theme that Leviticus develops."
+      }
+    ],
+    "context": {
+      "setting": "The Book of the Covenant continues. After laws on injury (chapter 21), these laws cover theft, damage, deposits, seduction, sorcery and worship, then turn to the most vulnerable members of society. Many are case laws; the later ones are direct commands with God's reasons attached.",
+      "flow": [
+        { "verses": "1-4", "label": "Theft", "note": "Stolen livestock must be repaid four- or five-fold, or double if found alive. A thief killed breaking in at night is not avenged, but after sunrise his life is protected." },
+        { "verses": "5-15", "label": "Damage and deposits", "note": "Restitution for grazing, fire, lost or damaged goods, and disputes over deposits, decided before God." },
+        { "verses": "16-20", "label": "Seduction, sorcery and idolatry", "note": "A man who seduces an unbetrothed woman must marry her or pay the bride-price. Sorcery, bestiality and sacrifice to other gods are capital offenses." },
+        { "verses": "21-27", "label": "The vulnerable", "note": "Do not wrong or oppress the sojourner, widow or orphan; God will hear their cry and act. Lend to the poor without interest; return a pledged cloak by sunset, for God is compassionate." },
+        { "verses": "28-31", "label": "Honor and consecration", "note": "Do not revile God or curse a ruler. Give God the firstfruits and the firstborn. Be holy: do not eat flesh torn by beasts." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 23:5", "from": "28", "note": "Paul quotes 'You shall not speak evil of a ruler of your people.'" },
+        { "ref": "Deuteronomy 24:10-13, 17", "from": "26-27", "note": "The cloak law is restated: return the pledge at sunset so the poor man may sleep in it and bless you." },
+        { "ref": "Exodus 23:9", "from": "21", "note": "God repeats: 'You know the heart of a sojourner, for you were sojourners in Egypt.'" }
+      ],
+      "tier2": [
+        { "ref": "Luke 19:8", "from": "1", "note": "Zacchaeus promises to restore fourfold, following the law of restitution for theft." },
+        { "ref": "James 5:4", "from": "23", "note": "The cries of unpaid laborers reach the ears of the Lord of hosts." },
+        { "ref": "Deuteronomy 18:10-12", "from": "18", "note": "Israel must not practice sorcery or divination; these are abominations to the LORD." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 25:35-40", "from": "21-27", "note": "'I was a stranger and you welcomed me.' Jesus identifies with the vulnerable whom the law protects." },
+        { "ref": "Ephesians 4:28", "from": "1-4", "note": "Let the thief no longer steal, but work so he can share with anyone in need." },
+        { "ref": "Galatians 5:20", "from": "18", "note": "Sorcery remains among the works of the flesh, though the church deals with it by discipline and gospel, not the sword." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Christopher J. H. Wright",
+        "work": "Old Testament Ethics for the People of God",
+        "view": "Wright highlights how the motive clauses in verses 21-27 ground ethics in Israel's own story and God's character. Israel must treat the vulnerable as God treated them: 'you were sojourners,' 'I will hear,' 'I am compassionate.'"
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry stresses that God takes the side of the poor, the widow and the fatherless, who have no one to plead their cause. Those who oppress them make God their enemy, while those who show mercy imitate his compassion."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "28",
+        "kjv": "Thou shalt not revile the gods, nor curse the ruler of thy people.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall not revile God" },
+          { "version": "NIV", "text": "Do not blaspheme God" }
+        ],
+        "note": "The Hebrew word elohim usually means 'God' but can mean 'gods' or human judges (as some take 21:6). KJV reads 'the gods,' modern versions 'God.' The parallel 'ruler' suggests the command is about respect for authority, beginning with God."
+      },
+      {
+        "verse": "18",
+        "kjv": "Thou shalt not suffer a witch to live.",
+        "renderings": [
+          { "version": "ESV", "text": "You shall not permit a sorceress to live." },
+          { "version": "NIV", "text": "Do not allow a sorceress to live." }
+        ],
+        "note": "The Hebrew mekashephah refers to someone who practices sorcery or occult arts, not simply a herbalist or eccentric. It was a law for Israel's theocracy, and it was tragically misused in later witch hunts."
+      }
+    ],
+    "gospel": "God says, 'If the oppressed cry to me, I will surely hear, for I am compassionate.' The God who heard Israel's cry in Egypt hears every cry of the helpless, and in Christ he came to the poor, the outsider and the sinner. Jesus identified with the stranger and the needy, and he made restitution not for what he had stolen but for what we had stolen from God. The cloak returned at sunset is a small picture of grace: God covers those who have nothing to give.",
+    "application": [
+      "Make restitution when you wrong someone. Repentance includes repair.",
+      "Welcome and protect immigrants and outsiders, remembering that God's people were strangers too.",
+      "Care for widows, orphans and the poor; God takes their side and hears their cry.",
+      "Lend to those in need generously, not as an opportunity for profit from their hardship.",
+      "Speak respectfully of God and of those in authority."
+    ],
+    "misapplications": [
+      {
+        "claim": "These laws should be applied directly as civil law today, including the death penalty for sorcery.",
+        "correction": "They were given to Israel as a theocracy under the Sinai covenant. The New Testament church handles sin by discipline and the gospel (1 Corinthians 5:12-13), while the moral principles remain: God hates the occult and defends the vulnerable."
+      },
+      {
+        "claim": "The Bible is concerned only with spiritual matters, not money and justice.",
+        "correction": "This chapter regulates theft, loans, collateral and property disputes. God's law covers ordinary economic life, and Jesus and the prophets continue that concern."
+      }
+    ],
+    "contrasts": [
+      { "a": "Israel the oppressed", "b": "Israel the potential oppressor", "verses": "21", "note": "Remembering slavery should make Israel compassionate, not cruel." },
+      { "a": "God's compassion", "b": "God's wrath", "verses": "24, 27", "note": "The same God who is gracious to the poor burns with anger at those who oppress them." },
+      { "a": "Night", "b": "Day", "verses": "2-3", "note": "Self-defense against a burglar at night is permitted, but life is protected in daylight, a careful balance of property and life." }
+    ],
+    "features": [
+      { "label": "Motive clauses", "note": "Unlike most ancient law codes, Exodus explains why: 'for you were sojourners,' 'for I am compassionate.' God wants understanding hearts, not mere compliance." },
+      { "label": "Measure for measure", "note": "Oppress the widow and orphan, and 'your wives shall become widows and your children fatherless' (v24)." },
+      { "label": "Shift from cases to commands", "note": "Verses 1-17 are mainly 'if' cases; verses 18-31 are mainly direct commands, many with God speaking in the first person." }
+    ],
+    "summary": "Exodus 22 shows God's law reaching into property, family, religion and the treatment of the vulnerable. It requires restitution, forbids occult practices and idolatry, and above all protects the sojourner, widow, orphan and poor. Its reasons are personal: Israel knows what it is to be a stranger, and God is compassionate and hears the cry of the oppressed.",
+    "metaArc": {
+      "book": "Chapter 22 continues the Book of the Covenant, showing that the covenant community must reflect God's justice and mercy in every area of life.",
+      "redemptive": "This belongs to Redemption lived out: a redeemed people imitating the compassion of the God who rescued them, fulfilled in Christ's care for the least and the lost."
+    }
+  }
+}

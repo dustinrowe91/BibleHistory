@@ -1,0 +1,163 @@
+{
+  "ref": "EXO.26",
+  "book": "Exodus",
+  "chapter": 26,
+  "title": "The Veil Shall Separate the Holy Place from the Most Holy",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God gives the design of the tabernacle itself: layers of curtains and coverings over a frame of gold-covered boards, forming one tent. A veil embroidered with cherubim divides the holy place from the Most Holy Place, where the ark rests, so that God dwells among Israel while his holiness is guarded.",
+  "keyVerses": ["1", "6", "30", "33"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּרֹכֶת",
+        "translit": "paroket",
+        "strongs": "H6532",
+        "gloss": "veil, inner curtain",
+        "verses": "31-35",
+        "note": "The curtain that 'divides' the holy place from the Most Holy. It was embroidered with cherubim, recalling the guardians of Eden's entrance. Only the high priest passed through, once a year, with blood (Leviticus 16)."
+      },
+      {
+        "word": "קֹדֶשׁ הַקֳּדָשִׁים",
+        "translit": "qodesh ha-qodashim",
+        "gloss": "holy of holies, Most Holy Place",
+        "verses": "33-34",
+        "note": "A Hebrew superlative: the holiest place of all. It was a perfect cube (10 by 10 by 10 cubits by most reconstructions), as the inner sanctuary of Solomon's temple and the new Jerusalem would also be (1 Kings 6:20; Revelation 21:16)."
+      },
+      {
+        "word": "יְרִיעָה",
+        "translit": "yeri'ah",
+        "strongs": "H3407",
+        "gloss": "curtain",
+        "verses": "1-13",
+        "note": "Ten linen curtains formed the innermost layer, embroidered with cherubim, so that the priests inside saw a heavenly ceiling. Over them went goat-hair curtains, then rams' skins dyed red, then a durable outer covering."
+      },
+      {
+        "word": "אֶחָד",
+        "translit": "echad",
+        "strongs": "H259",
+        "gloss": "one",
+        "verses": "6, 11",
+        "note": "'So that the tabernacle may be a single whole' (literally 'one'). Clasps join the curtains into one tent. Many parts, one dwelling, a picture of unity in God's house (Ephesians 2:21-22)."
+      },
+      {
+        "word": "מִשְׁפָּט",
+        "translit": "mishpat",
+        "strongs": "H4941",
+        "gloss": "plan, rule, ordinance",
+        "verses": "30",
+        "note": "'Erect the tabernacle according to the plan (mishpat) shown you on the mountain.' The word for justice and judgment here means a prescribed design. God's dwelling follows God's order."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The veil torn",
+        "refs": ["Matthew 27:51", "Mark 15:38", "Hebrews 6:19-20", "Hebrews 10:19-22"],
+        "note": "When Jesus died, the temple veil was torn from top to bottom. Hebrews says we enter the holy places by his blood, through the curtain, that is, through his flesh."
+      },
+      {
+        "theme": "Entering the Most Holy Place",
+        "refs": ["Leviticus 16:2, 12-17", "Hebrews 9:6-12, 24"],
+        "note": "The high priest entered once a year, never without blood. Christ entered once for all into heaven itself, securing eternal redemption."
+      },
+      {
+        "theme": "God's tent",
+        "refs": ["Psalm 15:1", "Isaiah 54:2", "John 1:14", "Revelation 21:3"],
+        "note": "'Who shall sojourn in your tent?' God's dwelling as a tent among tents comes to completion when 'the dwelling place (tent) of God is with man.'"
+      }
+    ],
+    "context": {
+      "setting": "After the furniture (chapter 25), God describes the structure. Most reconstructions picture a tent about 45 feet long and 15 feet wide, divided into the holy place (20 by 10 cubits) and the Most Holy Place (10 by 10 cubits). It was portable, built of acacia wood and fabric, and designed to be taken down and carried by the Levites.",
+      "flow": [
+        { "verses": "1-6", "label": "Linen curtains with cherubim", "note": "Ten curtains of fine twined linen in blue, purple and scarlet, embroidered with cherubim, joined by loops and gold clasps into one tabernacle." },
+        { "verses": "7-14", "label": "Coverings", "note": "Eleven curtains of goat hair form a tent over the tabernacle, with coverings of tanned rams' skins and fine leather on top." },
+        { "verses": "15-30", "label": "The frame", "note": "Upright frames of acacia wood overlaid with gold, set in silver bases, held by gold-covered bars. Erect it according to the plan shown on the mountain." },
+        { "verses": "31-35", "label": "The veil", "note": "A veil of blue, purple, scarlet and linen with cherubim hangs on gold pillars to separate the Most Holy Place, where the ark and mercy seat go. The table and lampstand stand outside it." },
+        { "verses": "36-37", "label": "The entrance screen", "note": "An embroidered screen for the tent's entrance, hung on five pillars with bronze bases." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 9:2-3", "from": "31-35", "note": "Hebrews describes the first section with lampstand and table, and behind the second curtain the Most Holy Place." },
+        { "ref": "Hebrews 10:19-20", "from": "31-33", "note": "We enter by the new and living way Christ opened through the curtain, that is, through his flesh." },
+        { "ref": "Matthew 27:51", "from": "33", "note": "At Jesus' death the curtain of the temple was torn in two, from top to bottom." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 3:24", "from": "31", "note": "Cherubim guarded the way to the tree of life; cherubim on the veil guard the way to God's presence." },
+        { "ref": "1 Kings 6:16-20", "from": "33-34", "note": "Solomon's inner sanctuary was a perfect cube overlaid with gold." },
+        { "ref": "Revelation 21:16", "from": "33-34", "note": "The new Jerusalem is a cube, as if the whole city has become the Most Holy Place." }
+      ],
+      "tier3": [
+        { "ref": "Ephesians 2:19-22", "from": "6, 11", "note": "In Christ the whole structure is joined together and grows into a holy temple in the Lord." },
+        { "ref": "2 Corinthians 5:1", "from": "1-14", "note": "Paul compares the body to an earthly tent, awaiting a building from God." },
+        { "ref": "Hebrews 6:19", "from": "33", "note": "Our hope enters into the inner place behind the curtain, where Jesus has gone as forerunner." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Vern S. Poythress",
+        "work": "The Shadow of Christ in the Law of Moses",
+        "view": "Poythress explains the tabernacle's increasing holiness from courtyard to holy place to Most Holy Place as a picture of approaching God. The veil teaches that sinful people cannot simply walk into God's presence, and its tearing at Christ's death shows that he opened the way."
+      },
+      {
+        "name": "T. Desmond Alexander",
+        "work": "From Paradise to the Promised Land",
+        "view": "Alexander notes the gradations in materials, from bronze outside to silver and gold inside, and in who may enter. The design communicates that God is holy and present, and that access depends on holiness, which prepares for the priesthood and sacrifices."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "31",
+        "kjv": "And thou shalt make a vail of blue, and purple, and scarlet, and fine twined linen of cunning work: with cherubims shall it be made:",
+        "renderings": [
+          { "version": "ESV", "text": "with cherubim skillfully worked into it" },
+          { "version": "NIV", "text": "a curtain ... with cherubim woven into it by a skilled worker" }
+        ],
+        "note": "'Vail' is older spelling of veil. 'Cunning work' means skilled craftsmanship. NIV uses 'curtain,' which is accurate but loses the familiar link to the 'veil' of the Gospels and Hebrews."
+      },
+      {
+        "verse": "33",
+        "kjv": "And thou shalt hang up the vail under the taches, that thou mayest bring in thither within the vail the ark of the testimony: and the vail shall divide unto you between the holy place and the most holy.",
+        "renderings": [
+          { "version": "ESV", "text": "the veil shall separate ... the Holy Place from the Most Holy" },
+          { "version": "NIV", "text": "The curtain will separate the Holy Place from the Most Holy Place" }
+        ],
+        "note": "'Taches' are clasps. The veil's purpose is stated plainly: separation. That is what makes its tearing at the cross so significant."
+      }
+    ],
+    "gospel": "The veil was a constant message: God is present, but you cannot come in. Cherubim on the curtain stood guard as they had at Eden. When Jesus died, the curtain was torn from top to bottom, from God's side, and Hebrews says the way into the Most Holy Place was opened through his flesh. Believers can now draw near to God with confidence, not because his holiness has changed, but because Christ's blood has made us clean.",
+    "application": [
+      "Approach God with confidence through Christ, not with casual familiarity or fearful distance.",
+      "Remember the cost of access to God: the veil was opened by Christ's death.",
+      "See the church as one dwelling made of many parts, joined together by God.",
+      "Honor God's holiness even while enjoying his nearness."
+    ],
+    "misapplications": [
+      {
+        "claim": "Since the veil is torn, holiness no longer matters in approaching God.",
+        "correction": "Hebrews 10:19-22 calls believers to draw near with hearts sprinkled clean and bodies washed, and 12:28-29 to offer acceptable worship with reverence and awe. Access is by grace, and it produces holiness."
+      },
+      {
+        "claim": "The tabernacle details are irrelevant to Christians.",
+        "correction": "The New Testament repeatedly uses tabernacle language to explain Christ's work (John 1:14; Hebrews 8-10). Understanding the structure illuminates what Jesus accomplished."
+      }
+    ],
+    "contrasts": [
+      { "a": "Holy place", "b": "Most Holy Place", "verses": "33", "note": "Graded holiness teaches that drawing near to God requires increasing purity and mediation." },
+      { "a": "Plain outer covering", "b": "Beautiful inner curtains", "verses": "1, 14", "note": "Outside it looked like an ordinary tent; inside was beauty and glory." },
+      { "a": "Separated", "b": "One whole", "verses": "6, 33", "note": "The tabernacle is unified as one dwelling, yet divided within to guard God's presence." }
+    ],
+    "features": [
+      { "label": "Layers", "note": "Four layers of covering, from fine linen inside to tough leather outside, protected the dwelling. The best was hidden within." },
+      { "label": "Cherubim ceiling", "note": "The inner curtains were embroidered with cherubim, so priests in the holy place saw heaven's guardians above them." },
+      { "label": "Metals by holiness", "note": "Gold inside the tent, silver bases for the frames, bronze outside at the entrance and courtyard. Value increased toward God's presence." },
+      { "label": "Eastward entrance", "note": "The tabernacle faced east, like Eden's entrance (Genesis 3:24), so entering meant moving west, back toward God's presence." }
+    ],
+    "summary": "Exodus 26 describes the structure of God's dwelling: layered curtains over a gold-covered frame forming one tent. A veil embroidered with cherubim separates the holy place from the Most Holy Place where the ark rests. The design proclaims both God's nearness and his holiness, and prepares for the moment when Christ's death tore the veil and opened the way to God.",
+    "metaArc": {
+      "book": "Chapter 26 continues the tabernacle instructions, moving outward from the furniture to the tent. The separation it describes sets up the need for priests and sacrifices in chapters 28-30.",
+      "redemptive": "This belongs to Redemption and points to New Creation: God's presence guarded by holiness, opened through Christ, and finally filling a cube-shaped city where there is no veil at all."
+    }
+  }
+}

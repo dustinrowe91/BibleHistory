@@ -1,0 +1,154 @@
+{
+  "ref": "EXO.8",
+  "book": "Exodus",
+  "chapter": 8,
+  "title": "This Is the Finger of God",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Frogs, gnats and swarms of flies overwhelm Egypt. Pharaoh bargains and breaks his word, the magicians admit defeat, and God begins to set a clear distinction between his people and Egypt so that Pharaoh will know there is no one like the LORD.",
+  "keyVerses": ["10", "19", "22-23"],
+  "steps": {
+    "language": [
+      {
+        "word": "אֶצְבַּע אֱלֹהִים",
+        "translit": "etsba elohim",
+        "gloss": "the finger of God",
+        "verses": "19",
+        "note": "The magicians' confession that this power is God's, not human. The same phrase describes God writing the tablets of the law (31:18), and Jesus uses it for his casting out demons (Luke 11:20)."
+      },
+      {
+        "word": "פְּדֻת",
+        "translit": "pedut",
+        "strongs": "H6304",
+        "gloss": "redemption, division, distinction",
+        "verses": "23",
+        "note": "Usually translated 'division' or 'distinction,' but the word comes from padah, 'to ransom.' Its other uses (Psalm 111:9; 130:7) mean redemption. God's separating Israel from Egypt is itself an act of redemption."
+      },
+      {
+        "word": "פָּלָה",
+        "translit": "palah",
+        "strongs": "H6395",
+        "gloss": "to set apart, make distinct",
+        "verses": "22",
+        "note": "'I will set apart the land of Goshen.' From this plague on, Israel is spared (9:4, 26; 10:23; 11:7). The plagues begin to separate God's people from the world."
+      },
+      {
+        "word": "כָּבֵד",
+        "translit": "kaved",
+        "strongs": "H3513",
+        "gloss": "to make heavy, harden",
+        "verses": "15, 32",
+        "note": "Twice Pharaoh 'made his own heart heavy.' Exodus is clear that Pharaoh is responsible for his hardness, even as God's judgment is at work in it."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "None like the LORD",
+        "refs": ["Exodus 15:11", "Deuteronomy 33:26", "1 Kings 8:23", "Psalm 86:8", "Jeremiah 10:6"],
+        "note": "'There is none like the LORD our God' (v10) becomes a central confession of Israel's worship, sung at the sea and prayed by Solomon."
+      },
+      {
+        "theme": "The finger of God",
+        "refs": ["Exodus 31:18", "Deuteronomy 9:10", "Luke 11:20"],
+        "note": "Jesus says that if he casts out demons by the finger of God, the kingdom of God has come. His works are recognized by the same sign."
+      },
+      {
+        "theme": "God distinguishes his people",
+        "refs": ["Exodus 9:4; 11:7", "Malachi 3:18", "Psalm 91:7-10"],
+        "note": "God makes a distinction between the righteous and the wicked, between the one who serves him and the one who does not."
+      }
+    ],
+    "context": {
+      "setting": "Plagues two, three and four complete the first round and begin the second. The frog was linked in Egypt with fertility and the goddess Heqet; the dust of the earth and the land itself were Egypt's pride. Pharaoh's responses grow more complex: requests for prayer, broken promises and attempts to negotiate terms.",
+      "flow": [
+        { "verses": "1-7", "label": "Frogs", "note": "After warning, frogs come up from the Nile into houses, bedrooms, ovens and kneading bowls. The magicians produce more frogs." },
+        { "verses": "8-15", "label": "Pharaoh's first plea", "note": "Pharaoh asks Moses to pray and promises to let Israel go; Moses lets Pharaoh name the time so he will know there is none like the LORD. The frogs die in heaps, and Pharaoh hardens his heart." },
+        { "verses": "16-19", "label": "Gnats", "note": "Without warning, Aaron strikes the dust and it becomes gnats on man and beast. The magicians fail and confess, 'This is the finger of God,' but Pharaoh will not listen." },
+        { "verses": "20-24", "label": "Flies and the distinction", "note": "Moses meets Pharaoh at the water in the morning. Swarms ruin Egypt, but Goshen is spared, so Pharaoh will know that the LORD is in the midst of the earth." },
+        { "verses": "25-32", "label": "Bargaining", "note": "Pharaoh offers sacrifice 'in the land,' then 'not very far away.' Moses insists on a three-day journey. The flies leave, and Pharaoh hardens his heart again." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 78:45", "from": "6, 24", "note": "God sent swarms of flies that devoured them and frogs that destroyed them." },
+        { "ref": "Psalm 105:30-31", "from": "3, 17, 24", "note": "Their land swarmed with frogs, even in the chambers of their kings; he spoke, and there came swarms and gnats." },
+        { "ref": "Luke 11:20", "from": "19", "note": "Jesus uses the magicians' phrase: 'If I cast out demons by the finger of God, then the kingdom of God has come upon you.'" }
+      ],
+      "tier2": [
+        { "ref": "Revelation 16:13", "from": "6", "note": "John sees three unclean spirits like frogs coming from the dragon, the beast and the false prophet." },
+        { "ref": "Exodus 9:4, 26; 10:23; 11:7", "from": "22-23", "note": "The distinction begun here continues through the remaining plagues." },
+        { "ref": "Exodus 15:11", "from": "10", "note": "At the sea Israel sings, 'Who is like you, O LORD, among the gods?'" }
+      ],
+      "tier3": [
+        { "ref": "Hebrews 3:13", "from": "15, 32", "note": "Exhort one another daily, so that none of you is hardened by the deceitfulness of sin." },
+        { "ref": "2 Corinthians 6:17", "from": "22-23", "note": "'Come out from among them, and be separate.' God's people are distinct from the world." },
+        { "ref": "Ecclesiastes 8:11", "from": "15", "note": "Because judgment is not executed speedily, the heart is set to do evil, exactly what Pharaoh did when he 'saw there was relief.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John D. Currid",
+        "work": "A Study Commentary on Exodus",
+        "view": "Currid connects the frog plague with the Egyptian frog-headed goddess Heqet, associated with birth and fertility. A creature honored as a sign of life becomes a disgusting plague and dies in stinking heaps, mocking the gods Egypt trusted."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken sees Pharaoh's compromises as a picture of how sinners bargain with God: offering partial obedience, keeping God's people close, and repenting only while the pain lasts. True obedience goes where God says, on God's terms."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "23",
+        "kjv": "And I will put a division between my people and thy people: to morrow shall this sign be.",
+        "renderings": [
+          { "version": "ESV", "text": "Thus I will put a division between my people" },
+          { "version": "NIV", "text": "I will make a distinction between my people" }
+        ],
+        "note": "The Hebrew word pedut ordinarily means 'redemption' (Psalm 111:9; 130:7), and ESV gives 'set redemption' in a footnote. Some think the text should read a similar word meaning 'distinction.' Either way, God's separation of his people is the beginning of their redemption."
+      },
+      {
+        "verse": "19",
+        "kjv": "Then the magicians said unto Pharaoh, This is the finger of God: and Pharaoh's heart was hardened, and he hearkened not unto them; as the LORD had said.",
+        "renderings": [
+          { "version": "ESV", "text": "This is the finger of God" },
+          { "version": "NIV", "text": "This is the finger of God" }
+        ],
+        "note": "Versions agree on the key phrase. Note that 'God' here is elohim, not the covenant name LORD: the magicians recognize divine power without yet confessing the LORD."
+      }
+    ],
+    "gospel": "The magicians recognize 'the finger of God' in the gnats, and Jesus uses those exact words for his own works: when he casts out demons by the finger of God, the kingdom has arrived. The God who set apart Goshen and spared his people has drawn a far deeper line in Christ. Those who belong to him are ransomed, set apart from the judgment that falls on the world, not because they are better but because God has redeemed them. Pharaoh's half-repentance, which lasted only as long as the pain, also warns us against a faith that bargains rather than surrenders.",
+    "application": [
+      "Beware of repentance that lasts only as long as discomfort. Pharaoh's relief led straight back to hardness.",
+      "Refuse compromises that limit obedience: 'in the land' or 'not very far.' God's call is to full allegiance.",
+      "Recognize God's hand when you see it, and do not stop at recognition. The magicians admitted the truth but did not worship.",
+      "Take comfort that God knows his own and distinguishes them, even when trouble surrounds them."
+    ],
+    "misapplications": [
+      {
+        "claim": "Recognizing God's power is the same as faith.",
+        "correction": "The magicians say 'This is the finger of God' (v19) yet remain Pharaoh's servants. Pharaoh asks for prayer (v8, 28) but does not change. Faith submits."
+      },
+      {
+        "claim": "Being God's people means you will never suffer the troubles others do.",
+        "correction": "Israel suffered the first plagues along with Egypt and endured slavery for generations. God's distinction here serves his purpose of revealing himself, not a promise of exemption from every trial."
+      }
+    ],
+    "contrasts": [
+      { "a": "God's people", "b": "Pharaoh's people", "verses": "22-23", "note": "The separation begins: same country, different lot." },
+      { "a": "Pharaoh's promise", "b": "Pharaoh's hardening", "verses": "8, 15", "note": "Words spoken under pressure give way when relief comes." },
+      { "a": "Human arts", "b": "The finger of God", "verses": "18-19", "note": "The magicians reach the limit of what they can imitate." }
+    ],
+    "features": [
+      { "label": "The pattern of three", "note": "In each round the first plague is announced at the river in the morning, the second at the palace, and the third comes without warning. Gnats are the unannounced third." },
+      { "label": "Moses lets Pharaoh choose the time", "note": "'Be pleased to command me when' (v9). By naming the hour, Pharaoh will know the frogs' departure is God's doing, not chance." },
+      { "label": "Heaps that stink", "note": "The frogs are piled in heaps and the land stinks (v14), echoing 7:21 and answering 5:21, where Israel complained of being made to stink." }
+    ],
+    "summary": "Exodus 8 shows God's judgments escalating and his purpose sharpening. Frogs, gnats and flies humiliate Egypt; the magicians concede that this is God's finger; and the LORD begins to separate his people from Egypt. Pharaoh's prayers, promises and bargains reveal a heart that wants relief without surrender.",
+    "metaArc": {
+      "book": "Chapter 8 completes the first round of plagues and begins the second, introducing the distinction between Israel and Egypt that climaxes at the Passover and the sea.",
+      "redemptive": "This chapter belongs to Redemption: God separates and ransoms a people for himself, a pattern fulfilled when Christ redeems a people from the judgment that falls on the world."
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "ref": "EXO.16",
+  "book": "Exodus",
+  "chapter": 16,
+  "title": "Bread from Heaven",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "When Israel grumbles for food, God answers with quail in the evening and manna every morning, bread from heaven gathered daily. The manna tests whether Israel will trust God one day at a time and keep the Sabbath rest he gives, and a jar of it is kept as a memorial for generations.",
+  "keyVerses": ["4", "15", "18", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "מָן",
+        "translit": "man",
+        "strongs": "H4478",
+        "gloss": "manna; 'what?'",
+        "verses": "15, 31, 35",
+        "note": "When Israel first saw it they said, 'man hu?' ('What is it?'), and the name stuck. The food's name is a question, a reminder that God's provision was something they could not explain or produce."
+      },
+      {
+        "word": "נָסָה",
+        "translit": "nasah",
+        "strongs": "H5254",
+        "gloss": "to test, prove",
+        "verses": "4",
+        "note": "'That I may test them, whether they will walk in my law or not.' The manna is not only food but a test of trust and obedience. Deuteronomy 8:2-3 explains that the testing taught that man does not live by bread alone."
+      },
+      {
+        "word": "לוּן",
+        "translit": "lun",
+        "strongs": "H3885",
+        "gloss": "to grumble, murmur",
+        "verses": "2, 7-8, 12",
+        "note": "A key word of the wilderness. Moses tells Israel their grumbling is 'not against us but against the LORD' (v8). Grumbling is distrust spoken aloud."
+      },
+      {
+        "word": "שַׁבָּת",
+        "translit": "shabbat",
+        "strongs": "H7676",
+        "gloss": "Sabbath, rest",
+        "verses": "23, 25-26, 29",
+        "note": "The first time the word Sabbath appears in the Bible. Before the law is given at Sinai, God teaches the rhythm of six days and a seventh by giving double manna on the sixth day and none on the seventh."
+      },
+      {
+        "word": "כָּבוֹד",
+        "translit": "kavod",
+        "strongs": "H3519",
+        "gloss": "glory",
+        "verses": "7, 10",
+        "note": "'In the morning you shall see the glory of the LORD,' and the glory appears in the cloud. God's glory, his weighty, visible presence, answers his people's complaints with provision."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Bread from heaven",
+        "refs": ["Psalm 78:23-25", "Nehemiah 9:15, 20", "John 6:31-35, 48-51"],
+        "note": "Jesus says Moses did not give the true bread from heaven, but the Father gives it: 'I am the bread of life.' Those who ate manna died, but whoever eats this bread will live forever."
+      },
+      {
+        "theme": "Daily bread",
+        "refs": ["Matthew 6:11", "Proverbs 30:8-9", "Lamentations 3:22-23"],
+        "note": "'Give us this day our daily bread' echoes the morning-by-morning gathering of manna. God's mercies are new every morning."
+      },
+      {
+        "theme": "Enough for everyone",
+        "refs": ["2 Corinthians 8:13-15"],
+        "note": "Paul quotes verse 18, 'Whoever gathered much had nothing left over,' to encourage generous sharing so there is fairness among believers."
+      },
+      {
+        "theme": "Not by bread alone",
+        "refs": ["Deuteronomy 8:3", "Matthew 4:4"],
+        "note": "Jesus answers Satan's temptation in the wilderness with the lesson of the manna: man lives by every word that comes from the mouth of God."
+      }
+    ],
+    "context": {
+      "setting": "A month after leaving Egypt (v1), Israel enters the wilderness of Sin between Elim and Sinai. Food runs short, and the people look back to Egypt's pots of meat. The manna will continue for forty years until they eat the produce of Canaan (v35; Joshua 5:12).",
+      "flow": [
+        { "verses": "1-3", "label": "Grumbling for Egypt", "note": "The whole congregation complains against Moses and Aaron, wishing they had died in Egypt by the meat pots." },
+        { "verses": "4-12", "label": "God promises bread", "note": "God will rain bread from heaven, gathered daily with a double portion on the sixth day. Moses and Aaron say Israel's grumbling is against the LORD, and the glory of the LORD appears in the cloud." },
+        { "verses": "13-21", "label": "Quail and manna", "note": "Quail cover the camp in the evening; in the morning a fine, flake-like substance lies on the ground. Each gathers an omer per person, and no one has too much or too little. Leftovers kept overnight breed worms." },
+        { "verses": "22-30", "label": "The first Sabbath", "note": "On the sixth day they gather double; Moses announces a holy Sabbath. Some go out on the seventh day and find nothing, and God rebukes them. The people rest." },
+        { "verses": "31-36", "label": "A jar for generations", "note": "Manna tasted like wafers with honey. An omer is kept before the testimony as a memorial. Israel ate it forty years." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "John 6:31-35", "from": "4, 15", "note": "The crowd cites the manna; Jesus answers that he is the true bread from heaven that gives life to the world." },
+        { "ref": "2 Corinthians 8:15", "from": "18", "note": "Paul quotes the verse to commend fairness through generosity." },
+        { "ref": "Hebrews 9:4", "from": "33-34", "note": "The golden jar holding the manna was kept in the ark of the covenant." }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 8:2-3, 16", "from": "4", "note": "Moses explains that God fed Israel with manna to humble and test them and to teach that man lives by God's word." },
+        { "ref": "Numbers 11:4-9, 31-34", "from": "3, 13", "note": "Later Israel despises the manna and craves meat; quail come again, this time with judgment." },
+        { "ref": "Genesis 2:2-3", "from": "23-30", "note": "God rested on the seventh day and made it holy; now his people are taught to share his rest." }
+      ],
+      "tier3": [
+        { "ref": "Revelation 2:17", "from": "33", "note": "Christ promises 'hidden manna' to those who overcome, food from God's presence." },
+        { "ref": "Matthew 6:25-34", "from": "19-21", "note": "Jesus teaches not to be anxious about tomorrow; each day has enough trouble of its own." },
+        { "ref": "Psalm 78:18-25", "from": "2-3", "note": "They tested God in their heart by demanding food, yet he rained down manna, the bread of angels." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. A. Carson",
+        "work": "The Gospel According to John (Pillar New Testament Commentary)",
+        "view": "In discussing John 6, Carson shows that Jesus treats the manna as a real gift of God that nevertheless pointed beyond itself. The manna sustained life for a day; Jesus, the true bread from heaven, gives eternal life to those who believe in him."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken draws out the lesson of daily dependence: manna could not be stockpiled, so Israel had to trust God each morning. He connects it to the Lord's Prayer and to the daily need for Christ, the bread of life."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "And when the children of Israel saw it, they said one to another, It is manna: for they wist not what it was. And Moses said unto them, This is the bread which the LORD hath given you to eat.",
+        "renderings": [
+          { "version": "ESV", "text": "they said to one another, What is it?" },
+          { "version": "NIV", "text": "they said to each other, What is it?" }
+        ],
+        "note": "The Hebrew 'man hu' is a question, 'What is it?' The KJV takes it as a name, 'It is manna.' Both are right in a sense: the question became the food's name (v31)."
+      },
+      {
+        "verse": "29",
+        "kjv": "See, for that the LORD hath given you the sabbath, therefore he giveth you on the sixth day the bread of two days; abide ye every man in his place, let no man go out of his place on the seventh day.",
+        "renderings": [
+          { "version": "ESV", "text": "See! The LORD has given you the Sabbath" },
+          { "version": "NIV", "text": "the LORD has given you the Sabbath" }
+        ],
+        "note": "The Sabbath is presented as a gift before it is a command. God gives double food so that his people can rest."
+      }
+    ],
+    "gospel": "God answered grumbling with grace, raining bread from heaven on people who complained against him. Jesus said the manna pointed to him: 'I am the bread of life; whoever comes to me shall not hunger.' The manna sustained life for a day and the people who ate it died, but Christ gives himself for the life of the world, and those who feed on him by faith live forever. The rest God gave Israel on the seventh day also anticipates the rest Christ gives to the weary, a Sabbath rest that remains for the people of God.",
+    "application": [
+      "Depend on God daily. Pray for daily bread and trust him for tomorrow.",
+      "Recognize grumbling for what it is: complaint against God, not just against circumstances or leaders.",
+      "Receive rest as a gift. God provides so that his people can stop and trust him.",
+      "Feed on Christ, the true bread, through his word and by faith, every day.",
+      "Share freely so that no one has too little."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's daily provision means believers should never plan or save.",
+        "correction": "The manna was a specific training in trust, and on the sixth day Israel was told to gather double and keep it (v22-24). Scripture elsewhere commends wise planning (Proverbs 6:6-8). The lesson is trust, not carelessness."
+      },
+      {
+        "claim": "The Sabbath began only with the law at Sinai.",
+        "correction": "Here the Sabbath is taught before Sinai, and Genesis 2:3 roots it in creation. The Ten Commandments call Israel to 'remember' a rhythm God had already given."
+      }
+    ],
+    "contrasts": [
+      { "a": "Egypt's meat pots", "b": "Heaven's bread", "verses": "3-4", "note": "Israel remembers slavery as abundance; God gives a better food in freedom." },
+      { "a": "Gathering", "b": "Resting", "verses": "26-30", "note": "Six days of work, one of rest: both are acts of trust." },
+      { "a": "Hoarding", "b": "Trusting", "verses": "19-20", "note": "Manna kept overnight rotted; God's provision cannot be held as a guarantee against him." }
+    ],
+    "features": [
+      { "label": "Grumbling cycle", "note": "Need, complaint, God's provision and a test: this pattern starts at Marah (15:22-26) and repeats through the wilderness." },
+      { "label": "Equality of provision", "note": "Whether they gathered much or little, each had exactly an omer (v18). God's provision levels the community." },
+      { "label": "A memorial jar", "note": "The command to keep manna 'before the testimony' (v34) anticipates the ark, which is not yet built, showing the passage looks ahead to a later time." },
+      { "label": "Rain from heaven", "note": "God 'rains' bread (v4) as he rained hail on Egypt (9:23). The same heaven sends judgment on Egypt and mercy on Israel." }
+    ],
+    "summary": "Exodus 16 shows God's patient grace toward a grumbling people. He sends quail and manna, bread from heaven gathered daily, and uses it to test and teach trust, obedience and the rhythm of Sabbath rest. The manna sustained Israel for forty years and points to Christ, the true bread from heaven who gives eternal life.",
+    "metaArc": {
+      "book": "Chapter 16 develops the wilderness theme begun at Marah, introduces the Sabbath before Sinai, and shows a people still learning to trust. It prepares for the law by teaching dependence and obedience.",
+      "redemptive": "This belongs to Redemption's journey between deliverance and the promised land, a picture of the Christian life sustained by Christ, the bread of life, on the way to New Creation."
+    }
+  }
+}

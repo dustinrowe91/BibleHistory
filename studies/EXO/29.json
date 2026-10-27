@@ -1,0 +1,169 @@
+{
+  "ref": "EXO.29",
+  "book": "Exodus",
+  "chapter": 29,
+  "title": "I Will Dwell Among the People of Israel",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "God gives the seven-day ceremony for ordaining Aaron and his sons: washing, clothing, anointing, and offerings for sin, for dedication and for ordination, with blood on ear, thumb and toe. He commands a daily morning and evening offering and promises to meet Israel at the tabernacle, consecrate it by his glory, and dwell among them as their God.",
+  "keyVerses": ["4", "20", "42", "45-46"],
+  "steps": {
+    "language": [
+      {
+        "word": "כָּפַר",
+        "translit": "kaphar",
+        "strongs": "H3722",
+        "gloss": "to atone, make atonement",
+        "verses": "33, 36-37",
+        "note": "To cover, cleanse or ransom so that God's wrath is turned away and fellowship is restored. Even the altar needs atonement before it can be used (v36). Everything sinful people touch must be cleansed before God."
+      },
+      {
+        "word": "חַטָּאת",
+        "translit": "chatta't",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification offering",
+        "verses": "14, 36",
+        "note": "The same word means 'sin.' The priests are not exempt: a bull is offered for their sin before they can serve. Its body is burned outside the camp."
+      },
+      {
+        "word": "מִלֻּאִים",
+        "translit": "millu'im",
+        "strongs": "H4394",
+        "gloss": "ordination, filling",
+        "verses": "22, 26-27, 31, 34",
+        "note": "From male, 'to fill.' The 'ram of ordination' is literally the ram of filling, connected to the idiom 'filling the hand' for installing priests."
+      },
+      {
+        "word": "רֵיחַ נִיחוֹחַ",
+        "translit": "reach nichoach",
+        "gloss": "pleasing aroma, soothing smell",
+        "verses": "18, 25, 41",
+        "note": "The burnt offering is 'a pleasing aroma to the LORD,' the phrase first used of Noah's sacrifice (Genesis 8:21). Paul says Christ gave himself as 'a fragrant offering' (Ephesians 5:2)."
+      },
+      {
+        "word": "שָׁכַן",
+        "translit": "shakan",
+        "strongs": "H7931",
+        "gloss": "to dwell, settle",
+        "verses": "45-46",
+        "note": "'I will dwell among the people of Israel.' This is the purpose of the whole tabernacle and of the exodus itself: God brought them out 'that I might dwell among them' (v46)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Washing and consecration",
+        "refs": ["Leviticus 8:6", "John 13:8-10", "Titus 3:5", "Hebrews 10:22"],
+        "note": "Priests were washed before ordination. Believers are washed by regeneration, with hearts sprinkled clean and bodies washed with pure water."
+      },
+      {
+        "theme": "Outside the camp",
+        "refs": ["Leviticus 4:11-12", "Hebrews 13:11-13"],
+        "note": "Bodies of sin offerings were burned outside the camp. Hebrews says Jesus suffered outside the gate to sanctify the people through his blood."
+      },
+      {
+        "theme": "Daily offerings",
+        "refs": ["Numbers 28:3-8", "Daniel 9:21", "Acts 3:1", "Hebrews 10:11-14"],
+        "note": "Daniel prays at the evening offering; Peter and John go to the temple at the hour of prayer. Hebrews contrasts priests standing daily with Christ who sat down after one sacrifice."
+      },
+      {
+        "theme": "I will be their God",
+        "refs": ["Exodus 6:7", "Leviticus 26:11-12", "Revelation 21:3"],
+        "note": "The covenant promise of 6:7 is now attached to God's dwelling. Revelation 21 repeats it at the end of history."
+      }
+    ],
+    "context": {
+      "setting": "Following the garments (chapter 28), God gives the ordination rite, carried out in Leviticus 8-9. It lasts seven days, like creation. The chapter ends with the daily offerings and a climactic statement of God's purpose to dwell among Israel, which closes the main tabernacle instructions before the remaining items of chapters 30-31.",
+      "flow": [
+        { "verses": "1-9", "label": "Washing, clothing, anointing", "note": "Gather a bull, two rams and unleavened bread. Wash Aaron and his sons at the tent's entrance, clothe them, and anoint Aaron with oil. The priesthood will be theirs by a perpetual statute." },
+        { "verses": "10-14", "label": "The bull for sin", "note": "They lay hands on the bull, it is slaughtered, its blood put on the altar's horns, and its flesh burned outside the camp." },
+        { "verses": "15-18", "label": "The ram for burnt offering", "note": "The first ram is wholly burned on the altar, a pleasing aroma to the LORD." },
+        { "verses": "19-28", "label": "The ram of ordination", "note": "The second ram's blood is put on the right ear, thumb and big toe of each priest, and with oil sprinkled on them and their garments. Portions are waved before God and given to the priests." },
+        { "verses": "29-37", "label": "Seven days", "note": "The garments pass to Aaron's successors. The priests eat the ordination meat at the entrance. The ceremony lasts seven days, with daily atonement for the altar, which then becomes most holy." },
+        { "verses": "38-46", "label": "Daily offering and God's presence", "note": "Two lambs each day, morning and evening, a regular burnt offering. There God will meet with Israel, consecrate the tent by his glory, and dwell among them as their God who brought them out of Egypt." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Leviticus 8:1-36", "from": "1-37", "note": "Moses carries out this ordination exactly as commanded, over seven days." },
+        { "ref": "Numbers 28:3-8", "from": "38-42", "note": "The daily burnt offering is repeated in the calendar of offerings." },
+        { "ref": "Hebrews 13:11-12", "from": "14", "note": "As the bodies of sin offerings were burned outside the camp, Jesus suffered outside the gate." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 7:27-28", "from": "10-14", "note": "Aaron needed a sin offering for himself; Christ, the perfect high priest, did not." },
+        { "ref": "Hebrews 10:11-14", "from": "38-42", "note": "Priests stood daily offering the same sacrifices; Christ offered one sacrifice for all time and sat down." },
+        { "ref": "Ephesians 5:2", "from": "18", "note": "Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God." }
+      ],
+      "tier3": [
+        { "ref": "Romans 12:1", "from": "18", "note": "Believers present their bodies as living sacrifices, wholly given like the burnt offering." },
+        { "ref": "1 Peter 2:5", "from": "1-9", "note": "Believers are a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ." },
+        { "ref": "John 1:14", "from": "45", "note": "The Word became flesh and dwelt among us, fulfilling God's promise to dwell with his people." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "L. Michael Morales",
+        "work": "Who Shall Ascend the Mountain of the LORD?",
+        "view": "Morales argues that the whole tabernacle system is about bringing humanity back into God's presence. The ordination rites and sacrifices are the way God makes it possible for sinners to draw near and dwell with him, a return to the fellowship lost in Eden."
+      },
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken reads the blood on ear, thumb and toe as consecrating the whole person: ears to hear God, hands to serve him, feet to walk in his ways. He applies this to believers, who are set apart by Christ's blood for whole-life service."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "42",
+        "kjv": "This shall be a continual burnt offering throughout your generations at the door of the tabernacle of the congregation before the LORD: where I will meet you, to speak there unto thee.",
+        "renderings": [
+          { "version": "ESV", "text": "It shall be a regular burnt offering" },
+          { "version": "NASB", "text": "It shall be a continual burnt offering" }
+        ],
+        "note": "The Hebrew tamid means continual or regular. The offering happened twice daily without fail. 'Tabernacle of the congregation' is KJV's phrase for the tent of meeting."
+      },
+      {
+        "verse": "9",
+        "kjv": "And thou shalt gird them with girdles, Aaron and his sons, and put the bonnets on them: and the priest's office shall be theirs for a perpetual statute: and thou shalt consecrate Aaron and his sons.",
+        "renderings": [
+          { "version": "ESV", "text": "Thus you shall ordain Aaron and his sons" },
+          { "version": "NIV", "text": "Then you shall ordain Aaron and his sons" }
+        ],
+        "note": "'Consecrate' here translates 'fill the hand,' the idiom for ordination. 'Perpetual statute' means lasting for the duration of that covenant order, which Hebrews says has been fulfilled and replaced in Christ."
+      }
+    ],
+    "gospel": "Aaron could not serve until a bull was offered for his own sin. Christ, our high priest, needed no sacrifice for himself; he offered himself, the true sin offering burned outside the camp. Israel's priests offered lambs morning and evening, day after day, but Christ's single offering is a pleasing aroma to God forever and has perfected those who are being sanctified. And the goal of it all is the promise of verse 45: 'I will dwell among them and be their God,' fulfilled in Christ and finally in the new creation.",
+    "application": [
+      "Remember that service to God begins with cleansing. No one serves him without first being washed.",
+      "Offer your whole self: hearing, doing and walking are all consecrated by Christ's blood.",
+      "Keep rhythms of morning and evening devotion, as Israel's worship began and ended each day before God.",
+      "Rest in the finished sacrifice of Christ rather than in repeated efforts to make yourself acceptable.",
+      "Treasure the promise that God's purpose in saving you is to dwell with you."
+    ],
+    "misapplications": [
+      {
+        "claim": "Leaders are exempt from needing atonement because of their office.",
+        "correction": "Aaron and his sons had to lay hands on a sin offering for themselves before they could serve (v10-14). No minister stands above the need for grace."
+      },
+      {
+        "claim": "'A perpetual statute' means the Aaronic priesthood must continue today.",
+        "correction": "Hebrews 7:11-19 explains that the priesthood has changed with Christ's coming. 'Forever' in such laws means for the full duration of the Sinai order, which Christ fulfills."
+      }
+    ],
+    "contrasts": [
+      { "a": "Inside the camp", "b": "Outside the camp", "verses": "14", "note": "The sin offering's body was burned outside, removing sin from God's dwelling." },
+      { "a": "Morning", "b": "Evening", "verses": "39", "note": "Each day was framed by offering, a life lived continually before God." },
+      { "a": "Consecrated by blood", "b": "Consecrated by glory", "verses": "21, 43", "note": "The priests are consecrated by blood and oil; the tent will be consecrated by God's own glory." }
+    ],
+    "features": [
+      { "label": "Seven days", "note": "The ordination lasts seven days (v35), echoing creation week, and the altar becomes 'most holy' (v37)." },
+      { "label": "Three offerings", "note": "Sin offering (cleansing), burnt offering (dedication), and ordination offering (fellowship meal) form the order of approach: forgiveness, consecration, communion." },
+      { "label": "Climactic purpose statement", "note": "Verses 45-46 sum up the book: God brought Israel out of Egypt in order to dwell among them." }
+    ],
+    "summary": "Exodus 29 describes how Aaron and his sons are made priests through washing, clothing, anointing and sacrifice over seven days, and establishes the daily morning and evening offerings. Its climax states God's purpose: to meet with Israel, consecrate the tent by his glory, and dwell among them as their God. Christ fulfills both the priesthood and the sacrifices and makes God's dwelling with his people permanent.",
+    "metaArc": {
+      "book": "Chapter 29 completes the core tabernacle instructions with the priests' ordination and God's purpose statement (v45-46), the theological summit of the tabernacle section.",
+      "redemptive": "This belongs to Redemption's goal: God dwelling with his people, made possible through atonement and priesthood, fulfilled in Christ and completed in New Creation."
+    }
+  }
+}

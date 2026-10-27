@@ -1,0 +1,155 @@
+{
+  "ref": "EXO.18",
+  "book": "Exodus",
+  "chapter": 18,
+  "title": "Now I Know That the LORD Is Greater Than All Gods",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jethro, priest of Midian, hears what God has done, rejoices, confesses the LORD as greater than all gods and worships with Israel's elders. He then counsels Moses to share the work of judging with capable, God-fearing men, so that Moses will not wear himself out and the people will be served well.",
+  "keyVerses": ["10-11", "17-18", "21"],
+  "steps": {
+    "language": [
+      {
+        "word": "חֹתֵן",
+        "translit": "choten",
+        "strongs": "H2859",
+        "gloss": "father-in-law",
+        "verses": "1-27",
+        "note": "Jethro is called Moses' 'father-in-law' thirteen times. The repetition stresses family relationship and respect: a Gentile relative becomes a counselor to Israel's leader."
+      },
+      {
+        "word": "חָדָה",
+        "translit": "chadah",
+        "strongs": "H2302",
+        "gloss": "to rejoice",
+        "verses": "9",
+        "note": "A rare word for gladness. Jethro rejoices over 'all the good the LORD had done to Israel.' A Gentile delights in God's salvation of his people."
+      },
+      {
+        "word": "בָּצַע",
+        "translit": "betsa",
+        "strongs": "H1215",
+        "gloss": "unjust gain, profit",
+        "verses": "21",
+        "note": "Leaders must hate 'unjust gain.' The word is used for profit gained by violence, bribery or fraud. Integrity with money is a basic qualification for those who judge."
+      },
+      {
+        "word": "שָׁפַט",
+        "translit": "shaphat",
+        "strongs": "H8199",
+        "gloss": "to judge, govern",
+        "verses": "13, 16, 22, 26",
+        "note": "To judge in the Old Testament means to decide disputes and to govern rightly. Moses' role as judge is to make known 'the statutes of God and his laws' (v16)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Gentiles who confess the LORD",
+        "refs": ["Joshua 2:9-11", "Ruth 1:16", "2 Kings 5:15", "Daniel 4:34-37"],
+        "note": "Rahab, Ruth, Naaman and Nebuchadnezzar join Jethro in confessing the God of Israel. The exodus fulfills God's purpose that his name be known in all the earth."
+      },
+      {
+        "theme": "Qualifications for leaders",
+        "refs": ["Deuteronomy 1:9-18", "Acts 6:1-6", "1 Timothy 3:1-13", "Titus 1:5-9"],
+        "note": "Moses recalls this arrangement in Deuteronomy. The apostles likewise appoint qualified men to share the work so they can devote themselves to prayer and the word."
+      },
+      {
+        "theme": "Sharing the burden",
+        "refs": ["Numbers 11:14-17", "Galatians 6:2", "Romans 12:4-8"],
+        "note": "Moses later says 'I am not able to carry all this people alone,' and God gives the Spirit to seventy elders. The body of Christ shares gifts and burdens."
+      }
+    ],
+    "context": {
+      "setting": "Israel is camped at 'the mountain of God' (v5), Sinai. Jethro brings Zipporah and Moses' two sons, whom Moses had sent back earlier. The chapter may be placed here thematically; some details (such as the statutes of God in v16) suggest it occurs after the law-giving, while others suggest before. Either way it sits between the battle with Amalek and the arrival at Sinai, contrasting a hostile nation with a friendly Gentile.",
+      "flow": [
+        { "verses": "1-6", "label": "Jethro comes", "note": "Hearing what God did for Israel, Jethro brings Moses' wife and sons, Gershom and Eliezer, to the mountain of God." },
+        { "verses": "7-12", "label": "Jethro rejoices and worships", "note": "Moses tells him everything; Jethro rejoices, blesses the LORD, confesses that he is greater than all gods, offers sacrifices and eats with Aaron and the elders before God." },
+        { "verses": "13-18", "label": "What you are doing is not good", "note": "Jethro sees Moses judging the people from morning till evening and warns that he and the people will wear themselves out." },
+        { "verses": "19-23", "label": "Jethro's counsel", "note": "Moses should represent the people before God, teach them God's statutes, and appoint capable, God-fearing, trustworthy men over thousands, hundreds, fifties and tens, bringing only hard cases to Moses." },
+        { "verses": "24-27", "label": "Moses listens", "note": "Moses does what Jethro says, and Jethro returns to his land." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 1:9-18", "from": "13-26", "note": "Moses recalls appointing wise and experienced leaders as judges over thousands, hundreds, fifties and tens." },
+        { "ref": "Exodus 2:16-22; 4:18-20", "from": "1-6", "note": "Moses met Jethro (also called Reuel) in Midian, married his daughter and named his first son Gershom." }
+      ],
+      "tier2": [
+        { "ref": "Acts 6:1-4", "from": "17-22", "note": "The apostles appoint seven to serve tables so that they can devote themselves to prayer and the ministry of the word." },
+        { "ref": "Numbers 11:16-17", "from": "18", "note": "God himself provides seventy elders to help Moses bear the burden." },
+        { "ref": "Genesis 14:18-20", "from": "10-12", "note": "Melchizedek, another non-Israelite priest, blesses God Most High and shares a meal with Abram." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 11:14; 15:22", "from": "19", "note": "In an abundance of counselors there is safety. Even Moses needed advice." },
+        { "ref": "Isaiah 56:6-7", "from": "12", "note": "Foreigners who join themselves to the LORD will be brought to his holy mountain to worship." },
+        { "ref": "Matthew 11:28-30", "from": "18", "note": "Moses' burden was too heavy; Christ carries his people's burdens and gives rest." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Philip Graham Ryken",
+        "work": "Exodus: Saved for God's Glory",
+        "view": "Ryken uses Jethro's counsel to warn against leaders who try to do everything themselves. Delegation is not a lack of commitment but wisdom that serves the people better and allows gifts across the body to be used."
+      },
+      {
+        "name": "Christopher J. H. Wright",
+        "work": "The Mission of God",
+        "view": "Wright notes that the first recorded response to the exodus outside Israel is Jethro's praise and worship. It shows God's purpose that the nations would come to know him through what he did for Israel."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "Moreover thou shalt provide out of all the people able men, such as fear God, men of truth, hating covetousness; and place such over them, to be rulers of thousands, and rulers of hundreds, rulers of fifties, and rulers of tens:",
+        "renderings": [
+          { "version": "ESV", "text": "trustworthy and hate a bribe" },
+          { "version": "NIV", "text": "trustworthy men who hate dishonest gain" }
+        ],
+        "note": "'Covetousness' in the KJV translates betsa, gain gained unjustly. The qualifications are ability, fear of God, truthfulness and integrity with money."
+      },
+      {
+        "verse": "11",
+        "kjv": "Now I know that the LORD is greater than all gods: for in the thing wherein they dealt proudly he was above them.",
+        "renderings": [
+          { "version": "ESV", "text": "because in this affair they dealt arrogantly" },
+          { "version": "NIV", "text": "for he did this to those who had treated Israel arrogantly" }
+        ],
+        "note": "The Hebrew is compressed. The idea is that God showed his greatness by overcoming the proud Egyptians in the very thing they boasted about."
+      }
+    ],
+    "gospel": "Jethro, a Gentile priest, hears what God has done for Israel, rejoices and comes to worship. It is a preview of the gospel going to the nations, who hear of God's saving work in Christ and come to share a meal before God with his people. Moses could not carry the burden of the people alone. Only Christ, the true mediator, can bear all his people's burdens, and he gives gifts to his church so that the work is shared.",
+    "application": [
+      "Tell others what God has done. Moses' testimony led Jethro to praise and worship.",
+      "Welcome counsel, even from unexpected sources. Moses, God's chosen leader, listened to his father-in-law.",
+      "Leaders must not try to carry everything alone. Share the work with faithful people.",
+      "Choose leaders for character first: fearing God, truthful and incorruptible.",
+      "Rejoice in the salvation of others, as Jethro rejoiced in Israel's."
+    ],
+    "misapplications": [
+      {
+        "claim": "Delegating ministry shows a leader is unspiritual or lazy.",
+        "correction": "Jethro says Moses' approach is 'not good' (v17), and God affirms it in Deuteronomy 1 and Numbers 11. Moses still represents the people before God and teaches them; sharing the work makes that possible."
+      },
+      {
+        "claim": "Jethro's advice was mere human management technique, not spiritual.",
+        "correction": "Jethro frames it with 'God will be with you' and 'if God so commands you' (v19, 23). The qualifications are spiritual and moral, and the goal is that the people go home in peace."
+      }
+    ],
+    "contrasts": [
+      { "a": "Amalek", "b": "Jethro", "verses": "1, 9-12", "note": "Two peoples near Sinai: in chapter 17 one attacks Israel; here another blesses Israel's God. The nations respond to God's work differently." },
+      { "a": "Doing it alone", "b": "Sharing the load", "verses": "18, 22", "note": "Moses alone wears out; with help, he endures and the people are at peace." },
+      { "a": "Arrogant Egypt", "b": "Humble Jethro", "verses": "11-12", "note": "God brought down the proud; he receives the humble who come to worship." }
+    ],
+    "features": [
+      { "label": "A meal before God", "note": "Jethro, Aaron and the elders eat 'before God' (v12), anticipating the covenant meal on the mountain in 24:11." },
+      { "label": "Sons' names", "note": "Gershom ('a sojourner there') and Eliezer ('my God is help') sum up Moses' life story." },
+      { "label": "Placement", "note": "The chapter breaks the flow between Rephidim and Sinai, perhaps to set friendly Midian beside hostile Amalek before the law is given." }
+    ],
+    "summary": "Exodus 18 shows the exodus bearing fruit among the nations and wisdom shaping Israel's life. Jethro, hearing of God's deliverance, rejoices, confesses the LORD's supremacy and worships with Israel. His counsel to share the burden of judging with capable, God-fearing leaders protects both Moses and the people and prepares Israel to live under God's law.",
+    "metaArc": {
+      "book": "Chapter 18 closes the journey from Egypt to Sinai. It shows the nations' response to God's acts and establishes leadership structures before the covenant is given in chapters 19-24.",
+      "redemptive": "This belongs to Redemption and points to its mission: the nations hear of God's salvation and come to worship, a preview of the gospel to all peoples."
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "ref": "EXO.33",
+  "book": "Exodus",
+  "chapter": 33,
+  "title": "Show Me Your Glory",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "After the golden calf, God says he will send an angel but not go with Israel himself, and the people mourn. Moses, who speaks with God face to face in the tent outside the camp, pleads that God's presence go with them, and God agrees. Then Moses asks to see God's glory, and God promises to proclaim his name and show his goodness while hiding Moses in the rock.",
+  "keyVerses": ["3", "11", "14-16", "18-19"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּנִים",
+        "translit": "panim",
+        "strongs": "H6440",
+        "gloss": "face, presence",
+        "verses": "11, 14-15, 20, 23",
+        "note": "The same word means face and presence. Moses speaks with God 'face to face' (v11), God's 'face' (presence) will go with Israel (v14), yet no one can see God's 'face' and live (v20). The chapter plays on every sense of the word."
+      },
+      {
+        "word": "חֵן",
+        "translit": "chen",
+        "strongs": "H2580",
+        "gloss": "grace, favor",
+        "verses": "12-13, 16-17",
+        "note": "Used five times. Moses has 'found favor' in God's sight, and he builds his whole plea on it. Grace, not Israel's merit, is the ground of God's continued presence."
+      },
+      {
+        "word": "כָּבוֹד",
+        "translit": "kavod",
+        "strongs": "H3519",
+        "gloss": "glory",
+        "verses": "18, 22",
+        "note": "'Please show me your glory.' Moses asks for the fullest experience of God. God answers by speaking of his goodness and his name, showing that God's glory is above all his character."
+      },
+      {
+        "word": "טוּב",
+        "translit": "tuv",
+        "strongs": "H2898",
+        "gloss": "goodness",
+        "verses": "19",
+        "note": "'I will make all my goodness pass before you.' God's glory is not first a display of power but of goodness, gracious and merciful, as 34:6-7 will spell out."
+      },
+      {
+        "word": "רָחַם",
+        "translit": "racham",
+        "strongs": "H7355",
+        "gloss": "to have compassion, show mercy",
+        "verses": "19",
+        "note": "Related to the word for womb, it speaks of tender, motherly compassion. 'I will have compassion on whom I will have compassion' declares that God's mercy is freely given, never owed."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Mercy on whom I will",
+        "refs": ["Romans 9:14-16", "Ephesians 2:4-9"],
+        "note": "Paul quotes verse 19 to show that salvation depends not on human will or exertion but on God who has mercy."
+      },
+      {
+        "theme": "Face to face",
+        "refs": ["Numbers 12:6-8", "Deuteronomy 34:10", "1 Corinthians 13:12", "Revelation 22:4"],
+        "note": "No prophet arose like Moses, whom the LORD knew face to face. Believers will see God face to face, and his name will be on their foreheads."
+      },
+      {
+        "theme": "Seeing God's glory",
+        "refs": ["John 1:14, 18", "2 Corinthians 4:6", "Hebrews 1:3"],
+        "note": "The glory Moses asked to see is revealed in the face of Jesus Christ, full of grace and truth."
+      },
+      {
+        "theme": "God's presence makes his people distinct",
+        "refs": ["Deuteronomy 4:7", "Psalm 16:11", "Matthew 28:20"],
+        "note": "What nation has a god so near? God's presence, not a land or law, is what makes his people who they are."
+      }
+    ],
+    "context": {
+      "setting": "Israel has broken the covenant (chapter 32). The tabernacle has not yet been built, so Moses uses a temporary tent of meeting outside the camp. The question of this chapter is whether God will still dwell among a stiff-necked people; the answer will make the tabernacle chapters (35-40) possible.",
+      "flow": [
+        { "verses": "1-6", "label": "An angel, but not God", "note": "God tells Israel to go up to the land with his angel, but he will not go among them lest he consume them, for they are stiff-necked. The people mourn and strip off their ornaments." },
+        { "verses": "7-11", "label": "The tent outside the camp", "note": "Moses pitches a tent of meeting outside the camp. When he enters, the pillar of cloud descends and the LORD speaks with him face to face, as with a friend. Joshua stays in the tent." },
+        { "verses": "12-17", "label": "If your presence does not go", "note": "Moses pleads to know God's ways and asks that God's presence go with them, since only that distinguishes Israel. God says, 'My presence will go with you, and I will give you rest.'" },
+        { "verses": "18-23", "label": "Show me your glory", "note": "Moses asks to see God's glory. God will make his goodness pass by and proclaim his name, but Moses cannot see his face. God will put him in a cleft of the rock, cover him with his hand, and let him see his back." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 9:15", "from": "19", "note": "'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.'" },
+        { "ref": "Numbers 12:8", "from": "11", "note": "With Moses God speaks mouth to mouth, clearly, and he beholds the form of the LORD." },
+        { "ref": "John 1:17-18", "from": "18-20", "note": "No one has ever seen God; the only Son, who is at the Father's side, has made him known. Grace and truth came through Jesus Christ." }
+      ],
+      "tier2": [
+        { "ref": "Exodus 34:5-7", "from": "19", "note": "God fulfills his promise by passing by and proclaiming his name." },
+        { "ref": "1 Kings 19:9-13", "from": "21-22", "note": "Elijah, at the same mountain and in a cave, experiences God's passing by in a low whisper." },
+        { "ref": "Hebrews 13:12-13", "from": "7", "note": "Let us go to Jesus outside the camp, bearing his reproach, as the faithful went out to Moses' tent." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 11:28", "from": "14", "note": "'I will give you rest' is echoed by Jesus' promise of rest." },
+        { "ref": "John 15:14-15", "from": "11", "note": "Jesus calls his disciples friends, as God spoke with Moses as a friend." },
+        { "ref": "1 Corinthians 10:4", "from": "21-22", "note": "Many have connected the cleft in the rock with Christ, the Rock in whom believers are hidden." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Piper",
+        "work": "The Justification of God",
+        "view": "Piper argues that God's declaration in verse 19 is a statement of his glory and name: God's glory consists in his freedom to show mercy as he pleases. That is why Paul quotes it in Romans 9 to defend God's righteousness in election."
+      },
+      {
+        "name": "Gregory of Nyssa",
+        "work": "The Life of Moses",
+        "view": "Gregory reads Moses' request as the soul's endless longing for God, which is never finally satisfied because God is infinite. Seeing God's 'back' means following behind him wherever he leads, so the true vision of God is to keep following him."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentaries on the Four Last Books of Moses",
+        "view": "Calvin explains God's 'back' as a figure of accommodation: God shows himself in a measure fitted to human weakness. We cannot see God as he is, but we see enough of him in his works and word to know and trust him."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "23",
+        "kjv": "And I will take away mine hand, and thou shalt see my back parts: but my face shall not be seen.",
+        "renderings": [
+          { "version": "ESV", "text": "you shall see my back" },
+          { "version": "NIV", "text": "you will see my back" }
+        ],
+        "note": "The language is figurative. God has no body, but he speaks in human terms. Moses sees the after-effects of God's passing, the trailing edge of his glory, not his face."
+      },
+      {
+        "verse": "14",
+        "kjv": "And he said, My presence shall go with thee, and I will give thee rest.",
+        "renderings": [
+          { "version": "ESV", "text": "My presence will go with you" },
+          { "version": "NIV", "text": "My Presence will go with you" }
+        ],
+        "note": "Literally 'my face will go.' NIV capitalizes 'Presence' to show it refers to God himself, not a lesser messenger like the angel of verse 2."
+      }
+    ],
+    "gospel": "After the calf, the people deserved God's absence. Moses' plea rested on grace: 'If I have found favor in your sight.' God's answer, 'My presence will go with you,' is the whole gospel in a sentence. Moses asked to see God's glory, and God hid him in a rock and proclaimed his goodness and mercy. In Christ, God's glory is seen in a face, 'full of grace and truth,' and believers are hidden in Christ, the Rock, so that they can stand before the glory of God and live.",
+    "application": [
+      "Desire God's presence more than any blessing. Moses would rather stay in the desert with God than go to Canaan without him.",
+      "Build your prayers on God's grace, not on your record.",
+      "Ask God to show you his glory, and look for it in Jesus Christ.",
+      "Humble yourself when you have sinned; Israel removed their ornaments in mourning.",
+      "Rest in the truth that God's mercy is free. He shows mercy because he delights to, not because we earn it."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 11 contradicts verse 20, so the text is confused.",
+        "correction": "'Face to face' in verse 11 means direct, personal conversation, as with a friend. Verse 20 means no one can see God's full glory and live. The two describe different things."
+      },
+      {
+        "claim": "God's free mercy in verse 19 makes him arbitrary or unfair.",
+        "correction": "In context, God's name is goodness itself (v19; 34:6-7). Mercy is undeserved by definition. That God gives it freely is what makes it grace, and it is the only reason sinful Israel survived."
+      }
+    ],
+    "contrasts": [
+      { "a": "An angel", "b": "God's presence", "verses": "2-3, 14", "note": "Moses refuses a land without God; the presence is the prize." },
+      { "a": "Face to face", "b": "No one can see my face", "verses": "11, 20", "note": "Intimacy and transcendence together." },
+      { "a": "Stiff-necked people", "b": "Favor found", "verses": "3, 17", "note": "God's continued presence rests on grace given to the mediator." }
+    ],
+    "features": [
+      { "label": "A tent outside the camp", "note": "Because of Israel's sin, God's meeting place moves outside the camp. The tabernacle will later stand in the center." },
+      { "label": "Escalating requests", "note": "Moses asks to know God's ways, then for his presence to go, then to see his glory. Each answer encourages a bolder request." },
+      { "label": "Joshua in the tent", "note": "Joshua stays in the tent (v11), being formed in God's presence for future leadership." },
+      { "label": "Ornaments removed", "note": "Israel strips off the jewelry from which the calf was made, a sign of mourning and repentance (v4-6)." }
+    ],
+    "summary": "Exodus 33 asks whether God will still dwell among his sinful people. Moses, who speaks with God as a friend, pleads on the basis of grace that God's presence go with them, and God agrees. Moses then asks to see God's glory, and God promises to reveal his goodness and his name of free mercy, while sheltering Moses in the rock.",
+    "metaArc": {
+      "book": "Chapter 33 is the turning point of the calf story. God's promise of his presence makes covenant renewal (chapter 34) and the building of the tabernacle (chapters 35-40) possible.",
+      "redemptive": "This belongs to Redemption by grace through a mediator. It points to Christ, in whom God's glory is seen and his presence secured, and to New Creation, where we will see his face."
+    }
+  }
+}
