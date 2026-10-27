@@ -1,0 +1,175 @@
+{
+  "ref": "GEN.11",
+  "book": "Genesis",
+  "chapter": 11,
+  "title": "Let Us Make a Name",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "United humanity builds a city and tower at Babel to make a name for itself and avoid being scattered. God comes down, confuses their language and scatters them. The chapter then traces Shem's line to Terah and Abram, whose wife Sarai is barren.",
+  "keyVerses": ["4", "7-9", "27", "30"],
+  "steps": {
+    "language": [
+      {
+        "word": "שֵׁם",
+        "translit": "shem",
+        "strongs": "H8034",
+        "gloss": "name",
+        "verses": "4, 10",
+        "note": "The builders want to make a name (shem) for themselves. The genealogy that follows begins with Shem, whose name means 'name.' In the next chapter God promises Abram, 'I will make your name great' (12:2). A great name is God's gift, not a human achievement."
+      },
+      {
+        "word": "בָּלַל",
+        "translit": "balal",
+        "strongs": "H1101",
+        "gloss": "to confuse, mix",
+        "verses": "7, 9",
+        "note": "Babel is explained by a pun: the city is called Babel because there God 'confused' (balal) the language. In Babylonian, Babel meant 'gate of the god'; Genesis answers that it is really the place of confusion."
+      },
+      {
+        "word": "יָרַד",
+        "translit": "yarad",
+        "strongs": "H3381",
+        "gloss": "to come down",
+        "verses": "5, 7",
+        "note": "The builders aim for the heavens, but God has to come down even to see their tower. The irony shows how small human pride looks from heaven."
+      },
+      {
+        "word": "פּוּץ",
+        "translit": "puts",
+        "strongs": "H6327",
+        "gloss": "to scatter",
+        "verses": "4, 8, 9",
+        "note": "The builders' fear, 'lest we be scattered,' is exactly what happens. Their resistance to God's command to fill the earth is overruled."
+      },
+      {
+        "word": "עֲקָרָה",
+        "translit": "ʿaqarah",
+        "strongs": "H6135",
+        "gloss": "barren",
+        "verses": "30",
+        "note": "Sarai's barrenness is stated twice in one verse. The line of promise seems to hit a dead end, setting up the whole Abraham story as a test of whether God can do what he promises."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Babylon, city of pride",
+        "refs": ["Isaiah 14:13-15", "Isaiah 47", "Daniel 4:30", "Revelation 18:2"],
+        "note": "Babylon becomes the symbol of human pride that exalts itself against God, culminating in its fall in Revelation."
+      },
+      {
+        "theme": "Languages and the gospel",
+        "refs": ["Zephaniah 3:9", "Acts 2:4-11", "Revelation 7:9"],
+        "note": "At Pentecost the Spirit enables the gospel to be heard in many languages, gathering what Babel scattered without erasing the differences."
+      },
+      {
+        "theme": "Barrenness and promise",
+        "refs": ["Genesis 25:21", "Genesis 29:31", "1 Samuel 1:2", "Luke 1:7", "Romans 4:19"],
+        "note": "God repeatedly brings his chosen line through barren women, showing that his purposes depend on his power, not human ability."
+      }
+    ],
+    "context": {
+      "setting": "The end of the toledot of Noah's sons (10:1-11:9), followed by the toledot of Shem (11:10-26) and the opening of the toledot of Terah (11:27), which carries the story of Abraham. Babel is the last of the great judgments of Genesis 1-11.",
+      "flow": [
+        { "verses": "1-4", "label": "The builders' plan", "note": "With one language, people settle in Shinar and resolve to build a city and a tower reaching to heaven to make a name and avoid being scattered." },
+        { "verses": "5-9", "label": "God comes down", "note": "The LORD comes down, sees, confuses their language and scatters them, and the city is called Babel." },
+        { "verses": "10-26", "label": "Shem to Terah", "note": "Ten generations from Shem lead to Terah, father of Abram, Nahor and Haran, with lifespans steadily shortening." },
+        { "verses": "27-32", "label": "Terah's family", "note": "Haran dies in Ur, Abram marries Sarai, who is barren, and Terah sets out toward Canaan but settles in Haran and dies there." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:2-4", "from": "31", "note": "Stephen recounts God appearing to Abraham in Mesopotamia before he lived in Haran, and his move after his father's death." },
+        { "ref": "Luke 3:34-36", "from": "10-26", "note": "Luke's genealogy of Jesus runs through Terah, Nahor, Serug, Reu, Peleg, Eber, Shelah and Arphaxad to Shem." },
+        { "ref": "Joshua 24:2", "from": "27-31", "note": "Joshua says Terah and his family served other gods beyond the Euphrates." }
+      ],
+      "tier2": [
+        { "ref": "Acts 2:5-11", "from": "7-9", "note": "At Pentecost every nation hears in its own language, a reversal of Babel's confusion." },
+        { "ref": "Daniel 4:30-32", "from": "4", "note": "Nebuchadnezzar boasts of the great Babylon he built and is humbled by God." },
+        { "ref": "Revelation 18:2", "from": "9", "note": "Fallen, fallen is Babylon the great." },
+        { "ref": "Romans 4:19", "from": "30", "note": "Abraham did not weaken in faith considering Sarah's barrenness." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 2:1-4", "from": "4-5", "note": "The nations plot against the LORD, and he who sits in the heavens laughs." },
+        { "ref": "Hebrews 11:10", "from": "4", "note": "Abraham looked forward to the city whose designer and builder is God, unlike Babel built by human hands." },
+        { "ref": "Philippians 2:9", "from": "4", "note": "God gave Jesus the name above every name, the name the builders sought for themselves." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Walton",
+        "work": "Genesis (NIV Application Commentary)",
+        "view": "Walton argues that the tower was a ziggurat, a temple-stairway meant to bring the gods down to the city. The sin was trying to manipulate God for human benefit and security, reducing him to someone who meets human needs."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Genesis 11 (Redeemer Presbyterian Church)",
+        "view": "Keller has preached Babel as a picture of the human drive to make a name for ourselves, building identity on achievement rather than receiving it from God. He contrasts it with Abram, to whom God gives a name as a gift."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the irony of God coming down to see the tower that was meant to reach heaven. He sees Babel as society organizing itself without God, a pattern repeated in every age."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+        "renderings": [
+          { "version": "ESV", "text": "a tower with its top in the heavens" },
+          { "version": "NIV", "text": "a tower that reaches to the heavens" },
+          { "version": "CSB", "text": "a tower with its top in the sky" }
+        ],
+        "note": "'With its top in the heavens' was a common way of describing a very tall structure, especially temple towers. The builders' aim was to reach God's realm on their own terms."
+      },
+      {
+        "verse": "6",
+        "kjv": "And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.",
+        "renderings": [
+          { "version": "ESV", "text": "nothing that they propose to do will now be impossible" },
+          { "version": "NIV", "text": "nothing they plan to do will be impossible" },
+          { "version": "CSB", "text": "no plan of theirs will be impossible" }
+        ],
+        "note": "God does not fear human achievement; he sees where unchecked, united pride would lead and acts in mercy to restrain it."
+      }
+    ],
+    "gospel": "At Babel humans tried to reach heaven and make a name for themselves; in the gospel God comes down to us and gives us a name. Christ is the true ladder between heaven and earth (John 1:51), and God has given him the name above every name. At Pentecost the Spirit reverses Babel's confusion, not by erasing languages but by uniting believers from every tongue in one gospel. And the barren Sarai at the chapter's end shows that God will bring the promised seed by his own power, as he later did through a virgin's womb.",
+    "application": [
+      "Examine whether we are building our identity and security on achievement, reputation or unity apart from God.",
+      "Receive our worth and name as a gift from God in Christ.",
+      "Rejoice that the gospel crosses every language and culture; do not confuse unity with uniformity.",
+      "Bring our 'barren' places to God, trusting him to keep his promises when human means fail."
+    ],
+    "misapplications": [
+      {
+        "claim": "Babel teaches that technology, cities or architecture are sinful.",
+        "correction": "The sin is pride and refusing God's command to fill the earth, not building itself. Scripture ends with a God-built city (Revelation 21)."
+      },
+      {
+        "claim": "God scattered the nations because he felt threatened by human power.",
+        "correction": "God came down from heaven to see the tower; he is not threatened. His intervention restrains evil and pushes humanity to fulfill its calling to fill the earth."
+      },
+      {
+        "claim": "The chapter means different cultures and languages are a curse to be undone.",
+        "correction": "Revelation 7:9 pictures people from every language worshipping together. In Christ, diversity is redeemed, not erased."
+      }
+    ],
+    "contrasts": [
+      { "a": "Let us build", "b": "Let us go down", "verses": "4, 7", "note": "God's 'let us' answers the builders' 'let us.'" },
+      { "a": "Make a name for ourselves", "b": "I will make your name great", "verses": "4; 12:2", "note": "The name sought by pride is given by grace to Abram." },
+      { "a": "Reaching up", "b": "Coming down", "verses": "4-5", "note": "The tower meant to reach heaven is so small God must come down to see it." }
+    ],
+    "features": [
+      { "label": "Mirror structure", "note": "The story turns on verse 5: one language, settling, 'let us build,' city and tower, then the LORD comes down, and everything reverses through 'let us go down' to scattering." },
+      { "label": "Babel and balal", "note": "Babylon's proud name is turned into a pun on 'confusion,' a polemic against the empire that later destroyed Jerusalem." },
+      { "label": "Shem and name", "note": "Right after the builders seek a shem, the genealogy of Shem begins, quietly showing the line through which God will give a true name." },
+      { "label": "Shortening lives", "note": "Lifespans decline steadily from Shem (600) to Terah (205), showing the effects of sin and the passing of the pre-flood world." }
+    ],
+    "summary": "Genesis 11 closes the primeval history with humanity united in pride and scattered in judgment, showing that the problem of the human heart remains after the flood. God then narrows the story to one family, ending with Abram and his barren wife. The stage is set for God's gracious initiative to bless the scattered nations through one man.",
+    "metaArc": {
+      "book": "This chapter is the hinge of Genesis. It ends the story of the whole world (chapters 1-11) and begins the story of one family (chapters 12-50), through which God will address the world's problem.",
+      "redemptive": "Fall and Promise. The final scattering of the nations sets up the promise to Abram, which reaches its goal when Christ gathers people from every language into one new humanity."
+    }
+  }
+}

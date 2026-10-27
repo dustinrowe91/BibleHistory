@@ -1,0 +1,168 @@
+{
+  "ref": "GEN.7",
+  "book": "Genesis",
+  "chapter": 7,
+  "title": "The LORD Shut Him In",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Noah, his family and the animals enter the ark as God commanded, the LORD shuts the door, and the waters of judgment rise until every living thing on the earth is blotted out. Only Noah and those with him in the ark remain.",
+  "keyVerses": ["1", "11", "16", "23"],
+  "steps": {
+    "language": [
+      {
+        "word": "מַבּוּל",
+        "translit": "mabbul",
+        "strongs": "H3999",
+        "gloss": "flood, deluge",
+        "verses": "6, 7, 10, 17",
+        "note": "A word used almost only for Noah's flood, with one other appearance in Psalm 29:10, where the LORD sits enthroned over the flood. It names a unique, world-ending judgment."
+      },
+      {
+        "word": "תְּהוֹם",
+        "translit": "tehom",
+        "strongs": "H8415",
+        "gloss": "the deep",
+        "verses": "11",
+        "note": "The same word as 1:2, 'darkness was over the face of the deep.' When the fountains of the great deep burst open, the waters God separated at creation rush back together. The flood is creation undone."
+      },
+      {
+        "word": "גָּבַר",
+        "translit": "gavar",
+        "strongs": "H1396",
+        "gloss": "to prevail, grow strong",
+        "verses": "18, 19, 20, 24",
+        "note": "Repeated four times: the waters prevailed, prevailed exceedingly, and prevailed for 150 days. The repetition builds a sense of overwhelming, unstoppable judgment."
+      },
+      {
+        "word": "מָחָה",
+        "translit": "maḥah",
+        "strongs": "H4229",
+        "gloss": "to wipe out, blot out",
+        "verses": "4, 23",
+        "note": "God carries out what he said in 6:7. The word is used of wiping a dish clean (2 Kings 21:13) and of blotting names from a book (Exodus 32:32-33)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Waters of judgment and salvation",
+        "refs": ["Exodus 14:21-31", "Psalm 29:10", "Psalm 69:1-2", "1 Peter 3:20-21"],
+        "note": "Water that destroys the wicked carries the righteous to safety, at the flood and again at the Red Sea. Peter connects it to baptism."
+      },
+      {
+        "theme": "The closed door",
+        "refs": ["Matthew 25:10-12", "Luke 13:24-25", "John 10:9", "Revelation 3:7-8"],
+        "note": "Jesus speaks of a door that will be shut, leaving those outside. He is himself the door, and he opens doors no one can shut."
+      },
+      {
+        "theme": "A remnant preserved",
+        "refs": ["Isaiah 10:20-22", "Romans 11:5", "2 Peter 2:5"],
+        "note": "God judges but always keeps a remnant. Only eight people survived the flood, a pattern repeated in Israel's history."
+      }
+    ],
+    "context": {
+      "setting": "Part of Noah's toledot (6:9-9:29). The flood narrative is carefully structured, with chapter 7 describing the rising waters and chapter 8 their fall, turning on God's remembering Noah in 8:1.",
+      "flow": [
+        { "verses": "1-5", "label": "The command to enter", "note": "God tells Noah to enter with his household, seven pairs of clean animals and birds and one pair of unclean, because the rain will begin in seven days. Noah obeys." },
+        { "verses": "6-10", "label": "Entering the ark", "note": "Noah, his family and the animals go in, two by two, as God commanded, and after seven days the waters come." },
+        { "verses": "11-16", "label": "The flood begins", "note": "On a dated day the fountains of the deep burst and the windows of heaven open. Everyone enters, and the LORD shuts him in." },
+        { "verses": "17-24", "label": "The waters prevail", "note": "The waters rise and lift the ark above the mountains. Every living thing on land dies; only those in the ark remain. The waters prevail 150 days." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Matthew 24:38-39", "from": "7, 21-23", "note": "They were eating and drinking until the day Noah entered the ark, and did not know until the flood swept them all away." },
+        { "ref": "Luke 17:26-27", "from": "7, 21-23", "note": "Jesus repeats the same warning about sudden judgment." },
+        { "ref": "1 Peter 3:20", "from": "13, 23", "note": "Eight persons were brought safely through water." },
+        { "ref": "2 Peter 3:6", "from": "11, 21", "note": "The world that then existed was deluged with water and perished." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 11:7", "from": "1, 5", "note": "Noah's faith is seen in his obedience to a warning of things not yet seen." },
+        { "ref": "Psalm 29:10", "from": "17", "note": "The LORD sits enthroned over the flood; he remains king even over judgment." },
+        { "ref": "Isaiah 54:9", "from": "17-24", "note": "God recalls the waters of Noah as he promises never again to be angry with his restored people." },
+        { "ref": "Matthew 25:10", "from": "16", "note": "The door was shut, and those outside could not get in." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 1:6-10", "from": "11", "note": "The separation of waters above and below at creation is reversed in the flood." },
+        { "ref": "Leviticus 11", "from": "2", "note": "The distinction between clean and unclean animals is later spelled out in the law." },
+        { "ref": "Jonah 2:3-6", "from": "17-20", "note": "Jonah describes being swallowed by the deep, another picture of judgment by water and rescue by God." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 1-15 (Word Biblical Commentary)",
+        "view": "Wenham has argued that the whole flood account forms a large palistrophe, a mirrored structure whose turning point is God remembering Noah in 8:1. The numbers and dates in chapter 7 lead up to that center."
+      },
+      {
+        "name": "Charles Spurgeon",
+        "work": "Sermons on Genesis 7:16",
+        "view": "Spurgeon preached on 'the LORD shut him in' as a picture of the believer's security: God himself closes the door, so the one inside is kept safe by God's hand, not by his own grip."
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry dwells on God's patience in the seven days of waiting, his care in shutting Noah in, and the solemn finality of the door closing on those outside."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female.",
+        "renderings": [
+          { "version": "ESV", "text": "seven pairs" },
+          { "version": "NIV", "text": "seven pairs" },
+          { "version": "CSB", "text": "seven pairs" }
+        ],
+        "note": "The Hebrew says 'seven seven,' which can mean seven individuals or seven pairs. Modern versions read pairs, matching 'the male and his female.' The extra clean animals provided for sacrifice afterward (8:20)."
+      },
+      {
+        "verse": "11",
+        "kjv": "In the six hundredth year of Noah's life, in the second month, the seventeenth day of the month, the same day were all the fountains of the great deep broken up, and the windows of heaven were opened.",
+        "renderings": [
+          { "version": "ESV", "text": "the windows of the heavens were opened" },
+          { "version": "NIV", "text": "the floodgates of the heavens were opened" },
+          { "version": "CSB", "text": "the floodgates of the sky were opened" }
+        ],
+        "note": "'Windows' is literal; 'floodgates' conveys the effect. Waters come from below and above, undoing the separation of Genesis 1:6-9."
+      }
+    ],
+    "gospel": "Everyone outside the ark perished; everyone inside was saved, not because of where they stood but because of the ark God provided. The LORD himself shut the door. Christ is the one door to salvation (John 10:9), and those who are in him are kept by God's own hand (John 10:28-29). Jesus passed through the waters of judgment for us at the cross, and those united to him by faith come through to a new world. Yet the closed door also warns: there is a day when the invitation ends.",
+    "application": [
+      "Do what God says, when he says, as Noah did; delayed obedience is not obedience.",
+      "Rest in the security God gives: the believer is kept by God, not by the strength of his own faith.",
+      "Take seriously that judgment is certain and that today is the day to come in.",
+      "Trust that God is sovereign over chaos and disaster; he sits enthroned over the flood."
+    ],
+    "misapplications": [
+      {
+        "claim": "The flood shows that God is cruel or capricious.",
+        "correction": "The flood comes after long patience (1 Peter 3:20) and in response to violence that filled the earth (6:11-13). God grieved over it, and he preserved a family and creation itself."
+      },
+      {
+        "claim": "Natural disasters today are always direct punishments for specific sins.",
+        "correction": "The flood was a unique, announced judgment. Jesus warns against reading every disaster as proof of greater guilt (Luke 13:1-5), while using all of them as calls to repent."
+      },
+      {
+        "claim": "Being near the ark or knowing about it would have been enough.",
+        "correction": "Only those inside were saved. Knowing about Christ is not the same as being in him."
+      }
+    ],
+    "contrasts": [
+      { "a": "Inside the ark", "b": "Outside the ark", "verses": "16, 23", "note": "The door divides saved from lost." },
+      { "a": "All flesh died", "b": "Only Noah was left", "verses": "21-23", "note": "Total judgment and a preserved remnant." },
+      { "a": "Separated waters", "b": "Waters rejoined", "verses": "11", "note": "Creation's order is reversed in judgment." }
+    ],
+    "features": [
+      { "label": "Precise dates", "note": "The flood begins on a specific day of Noah's 600th year, written like a historical record rather than a fable." },
+      { "label": "Sevens and forties", "note": "Seven days of waiting, forty days of rain and 150 days of prevailing waters give the account a measured, solemn rhythm." },
+      { "label": "Repetition", "note": "The entry into the ark is described more than once (v7-9, 13-16), stressing complete obedience, just as God commanded." },
+      { "label": "God shut the door", "note": "Throughout the chapter the name is 'God,' but in verse 16 the covenant name 'the LORD' shuts Noah in, a personal touch of protection." }
+    ],
+    "summary": "Genesis 7 records the judgment God announced, carried out with terrible thoroughness, and the salvation he provided for those in the ark. Noah's obedience and God's shutting of the door show salvation as God's work received by faith. The flood reverses creation, setting the stage for a new beginning.",
+    "metaArc": {
+      "book": "This chapter is the rising half of the flood narrative, the high point of judgment in Genesis 1-11. It clears the stage for a renewed creation with Noah as its head.",
+      "redemptive": "Fall and judgment, with Promise preserved. The remnant in the ark carries the line of the promised seed, and the ark points to salvation in Christ."
+    }
+  }
+}

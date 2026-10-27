@@ -1,0 +1,167 @@
+{
+  "ref": "GEN.9",
+  "book": "Genesis",
+  "chapter": 9,
+  "title": "The Bow in the Cloud",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God renews the creation blessing with Noah, protects human life because humans bear his image, and makes a covenant with every living creature never again to destroy the earth by flood, sealed with the rainbow. Then Noah's drunkenness and Ham's disrespect show that sin survived the flood.",
+  "keyVerses": ["1", "6", "13", "15"],
+  "steps": {
+    "language": [
+      {
+        "word": "קֶשֶׁת",
+        "translit": "qeshet",
+        "strongs": "H7198",
+        "gloss": "bow (as in a warrior's bow)",
+        "verses": "13, 14, 16",
+        "note": "The ordinary word for a battle bow. Many interpreters see God hanging up his weapon, pointed away from the earth, as a sign that the war of judgment by water is over."
+      },
+      {
+        "word": "אוֹת",
+        "translit": "ʾot",
+        "strongs": "H226",
+        "gloss": "sign",
+        "verses": "12, 13, 17",
+        "note": "A visible pledge attached to a covenant. Circumcision (17:11) and the Sabbath (Exodus 31:13) are later covenant signs. This one is placed in the sky for all creation and is meant to remind God himself (v16)."
+      },
+      {
+        "word": "צֶלֶם",
+        "translit": "ṣelem",
+        "strongs": "H6754",
+        "gloss": "image",
+        "verses": "6",
+        "note": "The image of God survives the fall and the flood. Because every human bears it, murder is an attack on God's representative and must be answered by just punishment."
+      },
+      {
+        "word": "בְּרִית עוֹלָם",
+        "translit": "berit ʿolam",
+        "gloss": "everlasting covenant",
+        "verses": "16",
+        "note": "The first use of the phrase. God binds himself unconditionally, with no obligations placed on the creatures for the covenant to stand."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The sanctity of human life",
+        "refs": ["Exodus 20:13", "Numbers 35:33", "James 3:9", "Romans 13:4"],
+        "note": "Because humans bear God's image, murder is forbidden and governing authority is given the sword to restrain evil."
+      },
+      {
+        "theme": "Blood and life",
+        "refs": ["Leviticus 17:10-14", "Deuteronomy 12:23", "Acts 15:20, 29"],
+        "note": "Life is in the blood, so blood belongs to God. The prohibition is renewed in the law and was asked of Gentile believers in Acts 15 for the sake of fellowship."
+      },
+      {
+        "theme": "The rainbow around the throne",
+        "refs": ["Ezekiel 1:28", "Revelation 4:3", "Revelation 10:1"],
+        "note": "The rainbow reappears around God's throne, a sign that his glory and judgment are surrounded by covenant mercy."
+      }
+    ],
+    "context": {
+      "setting": "The close of Noah's toledot (6:9-9:29). After the flood, God restates the creation mandate to a new humanity and makes the first explicit covenant in Scripture. The chapter ends with Noah's death.",
+      "flow": [
+        { "verses": "1-7", "label": "Blessing renewed", "note": "God blesses Noah and his sons to be fruitful, gives them animals for food but forbids eating blood, and requires a reckoning for human blood." },
+        { "verses": "8-17", "label": "The covenant and its sign", "note": "God establishes his covenant with Noah, his offspring and every living creature, never again to flood the earth, and sets his bow in the cloud as its sign." },
+        { "verses": "18-23", "label": "Noah's shame", "note": "Noah plants a vineyard, becomes drunk and lies uncovered. Ham sees and tells his brothers; Shem and Japheth cover their father without looking." },
+        { "verses": "24-29", "label": "Curse and blessing", "note": "Noah curses Canaan, Ham's son, and blesses the God of Shem and Japheth's enlargement. Noah dies at 950." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 54:9-10", "from": "11, 15", "note": "As God swore the waters of Noah would never again cover the earth, so his steadfast love will not depart from his people." },
+        { "ref": "James 3:9", "from": "6", "note": "We curse people made in the likeness of God, which shows that the image remains." },
+        { "ref": "Acts 15:20", "from": "4", "note": "Gentile believers are asked to abstain from blood, echoing the command given to all Noah's descendants." }
+      ],
+      "tier2": [
+        { "ref": "Romans 13:4", "from": "6", "note": "The governing authority bears the sword as God's servant to carry out justice." },
+        { "ref": "Revelation 4:3", "from": "13", "note": "A rainbow surrounds the throne of God in heaven." },
+        { "ref": "Ezekiel 1:28", "from": "13", "note": "The glory of God looks like a rainbow in the clouds on a rainy day." },
+        { "ref": "Ephesians 5:18", "from": "21", "note": "Do not get drunk with wine, a warning illustrated in Noah's failure." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 1:28-30", "from": "1-3", "note": "The creation blessing is repeated, now with meat added to the diet." },
+        { "ref": "Habakkuk 2:15", "from": "21-22", "note": "A woe on anyone who makes his neighbor drunk to look on his nakedness." },
+        { "ref": "Joshua 9:23", "from": "25", "note": "Some Canaanites become servants to Israel, one outworking of the curse on Canaan." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "O. Palmer Robertson",
+        "work": "The Christ of the Covenants",
+        "view": "Robertson calls the Noahic covenant the covenant of preservation. God commits to sustain the created order so that his redemptive purposes, carried out through later covenants, have a stable world in which to unfold."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the realism of Scripture in showing the hero of the flood disgraced soon after. The curse on Canaan foreshadows the moral corruption of the Canaanites that later surfaces in Leviticus 18."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke stresses that the curse falls on Canaan, not on Ham's descendants generally, and that it was fulfilled when Israel took the land. He sharply rejects its use to justify racial slavery as a misreading."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man.",
+        "renderings": [
+          { "version": "ESV", "text": "by man shall his blood be shed" },
+          { "version": "NIV", "text": "by humans shall their blood be shed" },
+          { "version": "CSB", "text": "his blood will be shed by man" }
+        ],
+        "note": "The verse is a chiasm in Hebrew (shed-blood-man / man-blood-shed). It grounds human justice in the image of God, giving people a delegated authority to punish murder."
+      },
+      {
+        "verse": "13",
+        "kjv": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "I have set my bow in the cloud" },
+          { "version": "NIV", "text": "I have set my rainbow in the clouds" },
+          { "version": "CSB", "text": "I have placed my bow in the clouds" }
+        ],
+        "note": "'Bow' keeps the Hebrew image of a weapon; 'rainbow' is clearer for modern readers but loses the picture of God laying down his bow."
+      }
+    ],
+    "gospel": "God's covenant with Noah keeps the world in being so that the promise of a Redeemer can come to pass. The bow pointed toward heaven suggests that judgment's arrow will be aimed upward rather than at the earth, and at the cross God's judgment fell on his own Son in our place. The image of God, which makes every life precious, is restored in Christ, the true image. And Noah's failure shows that a fresh start cannot change the human heart; only the new birth can.",
+    "application": [
+      "Protect and honor every human life as bearing God's image, from conception to old age.",
+      "Support just government that restrains violence, as part of God's ordering of a fallen world.",
+      "Let the rainbow remind you that God keeps his promises.",
+      "Guard against drunkenness and the shame it brings, even in those who have walked faithfully.",
+      "Cover others' shame with love rather than exposing it (1 Peter 4:8)."
+    ],
+    "misapplications": [
+      {
+        "claim": "The curse of Ham justifies racial slavery or the subjugation of African peoples.",
+        "correction": "The curse is on Canaan, not Ham's other sons, and it concerns the Canaanites displaced in Joshua's time. Using it to justify racism is a grave misreading condemned by sound interpreters."
+      },
+      {
+        "claim": "The rainbow covenant means God will never judge the world again.",
+        "correction": "God promises never again to destroy the earth by flood. Scripture still teaches a final judgment by fire (2 Peter 3:7)."
+      },
+      {
+        "claim": "Noah's blessing and righteousness mean he was sinless.",
+        "correction": "Verses 20-21 show his failure plainly. Scripture's heroes are saved by grace, not by flawless lives."
+      }
+    ],
+    "contrasts": [
+      { "a": "Covered", "b": "Exposed", "verses": "22-23", "note": "Ham looks and tells; his brothers walk backward to cover." },
+      { "a": "Blessed", "b": "Cursed", "verses": "25-27", "note": "The lines of Shem and Canaan are set on different paths." },
+      { "a": "God's faithfulness", "b": "Human failure", "verses": "15, 21", "note": "The covenant stands even when its human partner stumbles." }
+    ],
+    "features": [
+      { "label": "Covenant repeated", "note": "The word 'covenant' appears seven times in verses 9-17, emphasizing God's solemn commitment." },
+      { "label": "God remembers", "note": "The sign is for God to see and remember (v16), a striking way of showing he binds himself to his word." },
+      { "label": "A second Adam's fall", "note": "Noah, a man of the soil, plants, eats or drinks the fruit, and nakedness and shame follow, echoing Genesis 3." },
+      { "label": "Blessed be the God of Shem", "note": "Noah blesses Shem's God rather than Shem, pointing to the line through which the knowledge of God will be preserved, leading to Abraham." }
+    ],
+    "summary": "Genesis 9 establishes God's covenant to preserve the earth, renews humanity's calling, and grounds justice and the value of human life in the image of God. Yet Noah's failure and the curse on Canaan show that sin persists in the new world. The blessing on Shem prepares for the line of Abraham.",
+    "metaArc": {
+      "book": "This chapter concludes Noah's toledot and transitions to the table of nations in chapter 10. The blessing of Shem anticipates the chosen line traced in chapter 11.",
+      "redemptive": "Promise. The Noahic covenant preserves the stage of history for redemption, and the rainbow returns around God's throne in Revelation."
+    }
+  }
+}

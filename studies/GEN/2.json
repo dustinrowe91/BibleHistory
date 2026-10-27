@@ -1,0 +1,170 @@
+{
+  "ref": "GEN.2",
+  "book": "Genesis",
+  "chapter": 2,
+  "title": "The Garden and the Gift of Rest",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God finishes creation and blesses the seventh day, then the account zooms in: the LORD God forms the man from dust, plants a garden for him to work and keep, gives one command, and makes the woman, so that man and woman stand together before him without shame.",
+  "keyVerses": ["3", "7", "15-17", "24"],
+  "steps": {
+    "language": [
+      {
+        "word": "שָׁבַת",
+        "translit": "shavat",
+        "strongs": "H7673",
+        "gloss": "to cease, rest",
+        "verses": "2-3",
+        "note": "The root behind 'Sabbath.' God does not rest because he is tired; he ceases because the work is complete. He then blesses and sets apart the seventh day, the first thing in Scripture called holy."
+      },
+      {
+        "word": "יָצַר",
+        "translit": "yatsar",
+        "gloss": "to form, shape",
+        "verses": "7, 8, 19",
+        "note": "The word for a potter shaping clay (Jeremiah 18:4-6). Where chapter 1 shows God commanding from above, here he works with his hands, forming the man from the dust of the ground (adamah), a wordplay on adam."
+      },
+      {
+        "word": "עָבַד / שָׁמַר",
+        "translit": "ʿavad / shamar",
+        "gloss": "to work, serve / to keep, guard",
+        "verses": "15",
+        "note": "Adam is put in the garden to work it and keep it. The same pair later describes the Levites serving and guarding the tabernacle (Numbers 3:7-8), one reason Eden is often read as the first sanctuary and Adam as its priest."
+      },
+      {
+        "word": "עֵזֶר כְּנֶגְדּוֹ",
+        "translit": "ʿezer kenegdo",
+        "gloss": "a helper corresponding to him",
+        "verses": "18, 20",
+        "note": "ʿEzer is most often used of God himself helping Israel (Psalm 33:20; 121:1-2), so it implies no inferiority. Kenegdo means 'opposite him' or 'matching him': a partner like him and yet different from him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Sabbath rest",
+        "refs": ["Exodus 20:8-11", "Exodus 31:17", "Hebrews 4:1-11", "Matthew 11:28-30"],
+        "note": "The fourth commandment grounds the Sabbath in this chapter. Hebrews treats God's seventh-day rest as a rest still offered to God's people, entered by faith."
+      },
+      {
+        "theme": "Dust and breath",
+        "refs": ["Genesis 3:19", "Job 33:4", "Psalm 103:14", "Ecclesiastes 12:7", "1 Corinthians 15:45-49"],
+        "note": "Humans are dust given life by God's breath. Scripture uses it both to humble us and to comfort us: God remembers that we are dust."
+      },
+      {
+        "theme": "Eden and the tree of life",
+        "refs": ["Ezekiel 28:13-14", "Ezekiel 47:1-12", "Revelation 2:7", "Revelation 22:1-2"],
+        "note": "Eden's river and tree of life return in Ezekiel's temple vision and in the New Jerusalem, where the tree of life stands beside the river of the water of life."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-3 close the creation week begun in chapter 1. Verse 4 begins the first 'these are the generations' (toledot) section of Genesis, which runs to 4:26. The divine name changes from 'God' to 'the LORD God,' joining the Creator of chapter 1 to the covenant name later revealed to Israel.",
+      "flow": [
+        { "verses": "1-3", "label": "The seventh day", "note": "Heaven and earth are finished. God ceases, blesses the seventh day and makes it holy." },
+        { "verses": "4-7", "label": "The man formed", "note": "Before field and rain, the LORD God forms the man from dust and breathes life into him." },
+        { "verses": "8-14", "label": "The garden planted", "note": "God plants a garden in Eden with every good tree, the tree of life and the tree of the knowledge of good and evil, watered by a river that divides into four." },
+        { "verses": "15-17", "label": "Work and command", "note": "The man is set to work and keep the garden, given every tree for food but one, with death as the penalty." },
+        { "verses": "18-25", "label": "The woman made", "note": "It is not good for the man to be alone. After naming the animals, he receives the woman built from his side, and the two become one flesh, naked and unashamed." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 20:11", "from": "2-3", "note": "The Sabbath command rests on God's seventh-day rest: he blessed the Sabbath day and made it holy." },
+        { "ref": "Matthew 19:4-6", "from": "24", "note": "Jesus joins Genesis 1:27 and 2:24 to teach that God made marriage and no one should separate what God has joined." },
+        { "ref": "1 Corinthians 15:45", "from": "7", "note": "Paul quotes 'the first man Adam became a living soul' and contrasts him with the last Adam, a life-giving Spirit." },
+        { "ref": "Ephesians 5:31-32", "from": "24", "note": "Paul quotes the one-flesh verse and says it ultimately refers to Christ and the church." },
+        { "ref": "Hebrews 4:4", "from": "2", "note": "Hebrews quotes God resting on the seventh day to describe the rest that remains for God's people." },
+        { "ref": "1 Timothy 2:13", "from": "7, 22", "note": "Paul appeals to the order in which Adam and Eve were formed." }
+      ],
+      "tier2": [
+        { "ref": "Revelation 22:1-5", "from": "9-10", "note": "The river and the tree of life reappear in the new creation, now with no curse." },
+        { "ref": "Ezekiel 47:1-12", "from": "10", "note": "A river flows from the temple and brings life wherever it goes, with fruit trees on its banks." },
+        { "ref": "Mark 2:27", "from": "3", "note": "The Sabbath was made for man, a gift of the Creator rather than a burden." },
+        { "ref": "Psalm 104:29-30", "from": "7", "note": "Creatures live when God sends his breath and return to dust when he takes it away." }
+      ],
+      "tier3": [
+        { "ref": "Numbers 3:7-8", "from": "15", "note": "The Levites 'serve' and 'guard' the tabernacle, the same verbs as Adam's calling in the garden." },
+        { "ref": "Proverbs 18:22", "from": "18", "note": "He who finds a wife finds a good thing, echoing the 'not good' of being alone." },
+        { "ref": "John 20:22", "from": "7", "note": "The risen Jesus breathes on his disciples and gives the Spirit, a new-creation echo of the first breath of life." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 1-15 (Word Biblical Commentary)",
+        "view": "Wenham argues that Eden is presented as an archetypal sanctuary, a place where God walks with man, with features that later appear in the tabernacle and temple. Adam's work of serving and guarding the garden is described in priestly terms."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner reads chapter 2 as a complement to chapter 1, not a rival account: it narrows the focus to humanity and the setting of the first relationships. He stresses that the one prohibition gave Adam a real choice to trust God's word."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Every Good Endeavor",
+        "view": "Keller points out that work appears in paradise before the fall, so work is part of God's good design rather than a punishment. Cultivating the world is a way humans reflect God's own creative work."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "18",
+        "kjv": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+        "renderings": [
+          { "version": "ESV", "text": "a helper fit for him" },
+          { "version": "NIV", "text": "a helper suitable for him" },
+          { "version": "CSB", "text": "a helper corresponding to him" },
+          { "version": "NASB", "text": "a helper suitable for him" }
+        ],
+        "note": "'Help meet' meant 'a help fit for him,' and later ran together into 'helpmeet.' The modern versions show that the phrase stresses correspondence: a partner who matches the man."
+      },
+      {
+        "verse": "24",
+        "kjv": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+        "renderings": [
+          { "version": "ESV", "text": "hold fast to his wife" },
+          { "version": "NIV", "text": "is united to his wife" },
+          { "version": "CSB", "text": "bonds with his wife" }
+        ],
+        "note": "The Hebrew davaq means to cling or stick, and is used elsewhere of Israel holding fast to the LORD (Deuteronomy 10:20). Marriage is a covenant bond, not merely a feeling."
+      }
+    ],
+    "gospel": "Adam was a son of God placed in a garden to guard it and to obey, and he would fail. Jesus is the last Adam (1 Corinthians 15:45), who obeyed in a garden at Gethsemane and gives the Spirit as the first Adam received breath. The rest God entered on the seventh day is offered to us in Christ (Matthew 11:28; Hebrews 4), and the marriage of chapter 2 points to Christ and his bride, the church (Ephesians 5:32), whose story ends in a garden-city with the tree of life.",
+    "application": [
+      "Keep a rhythm of rest as a gift and a confession that God, not our work, holds the world together.",
+      "See daily work, paid or unpaid, as part of God's good design for human life, done for him.",
+      "Honor marriage as God's covenant: leaving parents, holding fast to one's spouse, and becoming one flesh.",
+      "Value men and women equally as bearers of God's image while honoring the ways God made them to complement each other.",
+      "Remember our frailty as dust and our dependence on God for every breath."
+    ],
+    "misapplications": [
+      {
+        "claim": "Chapter 2 is a second creation story that contradicts chapter 1.",
+        "correction": "Chapter 2 opens a new section focused on humanity and the garden. It narrows the lens rather than retelling the week in order, and Jesus quotes both chapters together (Matthew 19:4-5)."
+      },
+      {
+        "claim": "Calling the woman a 'helper' makes her inferior or merely an assistant.",
+        "correction": "The same word is used of God as Israel's helper. The text stresses that she corresponds to the man and that he was incomplete without her."
+      },
+      {
+        "claim": "Work is a curse that came with the fall.",
+        "correction": "Adam is given work before sin enters (v15). The fall makes work painful and frustrating (3:17-19), but does not invent it."
+      }
+    ],
+    "contrasts": [
+      { "a": "Not good: alone", "b": "Good: one flesh", "verses": "18, 24", "note": "The first 'not good' in the Bible is not sin but solitude, which God himself answers." },
+      { "a": "Dust", "b": "Breath of God", "verses": "7", "note": "Humans are both lowly earth and God-breathed life." },
+      { "a": "Every tree freely", "b": "One tree forbidden", "verses": "16-17", "note": "God's generosity is lavish; the single limit tests trust." }
+    ],
+    "features": [
+      { "label": "Adam from adamah", "note": "The man (adam) is formed from the ground (adamah), a play that ties humanity to the earth he is to work." },
+      { "label": "Ish and ishshah", "note": "The man's poem in verse 23 plays on ish (man) and ishshah (woman), the first recorded human speech and the first poetry in the Bible." },
+      { "label": "No 'evening and morning'", "note": "The seventh day lacks the closing formula of the other six, which many readers take as a hint that God's rest is ongoing (Hebrews 4)." },
+      { "label": "The LORD God", "note": "The compound name 'LORD God' (YHWH Elohim) is used throughout chapters 2-3 and is rare elsewhere, linking the Creator with Israel's covenant God." }
+    ],
+    "summary": "Genesis 2 shows the goal of creation as rest with God and life in his presence. The LORD God forms the man personally, places him in a garden sanctuary to serve and guard it, gives him a word to trust, and gives him the woman as his partner. Work, marriage, rest and obedience are all part of God's good design before sin enters.",
+    "metaArc": {
+      "book": "This chapter begins the first toledot section of Genesis and sets the stage for the fall. The garden, the two trees, the command and the marriage are all in place so that chapter 3 can show how everything was lost.",
+      "redemptive": "Creation. Eden's rest, river, tree of life and marriage are all taken up again in the New Creation of Revelation 21-22."
+    }
+  }
+}
