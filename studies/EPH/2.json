@@ -1,0 +1,196 @@
+{
+  "ref": "EPH.2",
+  "book": "Ephesians",
+  "chapter": 2,
+  "title": "Dead, Made Alive, Brought Near",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "People who were spiritually dead have been made alive with Christ by grace through faith, created for good works. Gentiles who were far off have been brought near by his blood and joined with Jewish believers into one new people, a temple where God lives by his Spirit.",
+  "keyVerses": ["4-5", "8-10", "13-14", "19-22"],
+  "steps": {
+    "language": [
+      {
+        "word": "νεκρός",
+        "translit": "nekros",
+        "strongs": "G3498",
+        "gloss": "dead",
+        "verses": "1, 5",
+        "note": "Paul does not say people were weak or sick in sin, but dead. A dead person cannot cooperate in their own resurrection, which is why the remedy in verse 5 is entirely God's act."
+      },
+      {
+        "word": "συζωοποιέω",
+        "translit": "syzōopoieō",
+        "strongs": "G4806",
+        "gloss": "to make alive together with",
+        "verses": "5",
+        "note": "One of three verbs in verses 5-6 that Paul builds with the prefix syn- ('with'): made alive with, raised with, seated with. What God did for Christ at Easter and the ascension, he did for believers in union with him. The word appears only here and in Colossians 2:13."
+      },
+      {
+        "word": "ποίημα",
+        "translit": "poiēma",
+        "strongs": "G4161",
+        "gloss": "something made, workmanship",
+        "verses": "10",
+        "note": "Used only twice in the New Testament, here and in Romans 1:20 for 'the things that have been made' in creation. Believers are God's new creation, made in Christ for the good works he prepared."
+      },
+      {
+        "word": "μεσότοιχον",
+        "translit": "mesotoichon",
+        "strongs": "G3320",
+        "gloss": "dividing wall",
+        "verses": "14",
+        "note": "Found only here in the New Testament. It likely alludes to the barrier in the Jerusalem temple that kept Gentiles out of the inner courts on pain of death (see step 11), and more broadly to the law's commandments that separated Jew from Gentile (v15)."
+      },
+      {
+        "word": "ἀκρογωνιαῖος",
+        "translit": "akrogōniaios",
+        "strongs": "G204",
+        "gloss": "cornerstone",
+        "verses": "20",
+        "note": "The stone that sets the line and position for the whole building. The word comes from the Greek of Isaiah 28:16 and is used of Christ again in 1 Peter 2:6. Some scholars take it as the capstone at the top, but most read it as the foundation cornerstone."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Made alive from death",
+        "refs": ["Colossians 2:13", "Romans 6:4-11", "John 5:24-25", "Ezekiel 37:1-14"],
+        "note": "New birth is described as resurrection: the dead hear the voice of the Son of God and live, and those united to Christ are raised with him to walk in newness of life."
+      },
+      {
+        "theme": "Saved by grace, not by works",
+        "refs": ["Romans 3:23-28", "Romans 11:6", "Titus 3:4-7", "2 Timothy 1:9"],
+        "note": "Paul repeatedly sets grace against works as the ground of salvation, then insists that the saved will be zealous for good works."
+      },
+      {
+        "theme": "Those far off brought near",
+        "refs": ["Isaiah 57:19", "Acts 2:39", "Acts 22:21"],
+        "note": "Peter's Pentecost sermon uses the same language: the promise is 'for all who are far off.' Jesus sent Paul 'far away to the Gentiles.'"
+      },
+      {
+        "theme": "God's people as his temple",
+        "refs": ["1 Corinthians 3:16-17", "2 Corinthians 6:16", "1 Peter 2:4-6"],
+        "note": "After Christ, God's dwelling place is no longer a building in Jerusalem but his people, built together on Christ."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 1 ended with God's power raising Christ from the dead and seating him in the heavenly places. Chapter 2 shows the same power at work in believers, first in each person's rescue (1-10) and then in God's creating one people out of Jew and Gentile (11-22). Most of the original readers were Gentiles (2:11; 3:1).",
+      "flow": [
+        { "verses": "1-3", "label": "Dead in sins", "note": "All people, Jew and Gentile alike ('we all'), were dead in sin, following the world and the devil, ruled by the desires of the flesh, and by nature under God's wrath." },
+        { "verses": "4-7", "label": "But God", "note": "Because of his mercy and great love, God made us alive with Christ, raised us and seated us with him, so that for ages to come he might show the riches of his grace." },
+        { "verses": "8-10", "label": "By grace through faith", "note": "Salvation is God's gift, not our doing, so no one can boast. We are his workmanship, created in Christ for good works prepared in advance." },
+        { "verses": "11-13", "label": "Once far off", "note": "Gentiles were once without Christ, outside Israel, strangers to the covenants, without hope and without God, but now they are brought near by the blood of Christ." },
+        { "verses": "14-18", "label": "He is our peace", "note": "Christ broke down the dividing wall, set aside the law's commandments that divided, made one new humanity, and reconciled both to God through the cross. Both have access to the Father by one Spirit." },
+        { "verses": "19-22", "label": "One household, one temple", "note": "Gentile believers are now fellow citizens and members of God's household, built on the apostles and prophets with Christ as cornerstone, into a holy temple where God dwells by his Spirit." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 57:19", "from": "17", "note": "'Peace, peace, to the far and to the near, says the LORD.' Paul applies the promise directly: Christ preached peace to Gentiles who were far off and Jews who were near." },
+        { "ref": "Isaiah 28:16", "from": "20", "note": "God lays in Zion a tested, precious cornerstone. The New Testament applies this stone to Christ explicitly (Romans 9:33; 1 Peter 2:6), and Paul draws on its key word here." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 2:13-14", "from": "1, 5, 15", "note": "Dead in trespasses, made alive together with Christ, and the record of debt cancelled by being nailed to the cross: the companion letter's version of this chapter." },
+        { "ref": "Titus 3:4-7", "from": "4-9", "note": "God's goodness and loving kindness appeared and saved us, not because of works done by us but by his mercy, so that being justified by grace we might become heirs." },
+        { "ref": "Galatians 3:26-29", "from": "14-16", "note": "In Christ there is neither Jew nor Greek; all are one and are Abraham's offspring." },
+        { "ref": "Colossians 1:20-22", "from": "16", "note": "Christ reconciled all things by making peace through the blood of his cross, and reconciled those who were alienated and hostile in mind." },
+        { "ref": "1 Peter 2:4-10", "from": "19-22", "note": "Believers are living stones built into a spiritual house on Christ, the chosen cornerstone; once not a people, now God's people." }
+      ],
+      "tier3": [
+        { "ref": "Acts 21:27-30", "from": "14", "note": "Paul was arrested because he was accused of bringing Trophimus, a Gentile from Ephesus, past the temple barrier. The wall in verse 14 was the reason he was in chains as he wrote." },
+        { "ref": "Ezekiel 37:1-14", "from": "1, 5", "note": "God speaks to dry bones and they live. Only God's word and Spirit can bring the dead to life." },
+        { "ref": "Genesis 12:3", "from": "12", "note": "The 'covenants of promise' go back to God's word to Abraham that all the families of the earth would be blessed through him." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. Martyn Lloyd-Jones",
+        "work": "God's Way of Reconciliation: An Exposition of Ephesians 2",
+        "view": "Lloyd-Jones gives special attention to the words 'But God' in verse 4, calling them the turning point of the chapter and of the gospel. Everything before them is human ruin; everything after them is God's action, and he insists the bad news must be taken seriously for the good news to be grasped."
+      },
+      {
+        "name": "John Stott",
+        "work": "The Message of Ephesians (The Bible Speaks Today)",
+        "view": "Stott reads verses 1-3 as a picture of humanity under three hostile influences, the world, the flesh and the devil, and under God's just wrath. He then stresses that the reconciliation of Jew and Gentile in verses 11-22 is as much part of the gospel's achievement as the individual rescue of verses 1-10."
+      },
+      {
+        "name": "F. F. Bruce",
+        "work": "The Epistles to the Colossians, to Philemon, and to the Ephesians (NICNT)",
+        "view": "Bruce connects the 'dividing wall' with the stone barrier in the Jerusalem temple that warned Gentiles to go no further, and reads the chapter as Paul's account of what Christ achieved for Gentiles: full and equal membership with Jewish believers in the one people of God."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:",
+        "renderings": [
+          { "version": "ESV", "text": "And this is not your own doing; it is the gift of God" },
+          { "version": "NIV", "text": "and this is not from yourselves, it is the gift of God" },
+          { "version": "CSB", "text": "and this is not from yourselves; it is God's gift" }
+        ],
+        "note": "In Greek, 'this' (touto) is neuter, while 'grace' and 'faith' are both feminine. So 'this' most likely refers to the whole package, being saved by grace through faith, rather than to faith alone. The whole of salvation, including the faith that receives it, is God's gift."
+      },
+      {
+        "verse": "10",
+        "kjv": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+        "renderings": [
+          { "version": "ESV", "text": "we are his workmanship" },
+          { "version": "NIV", "text": "we are God's handiwork" },
+          { "version": "CSB", "text": "we are his workmanship" }
+        ],
+        "note": "'Handiwork' and 'workmanship' both render poiēma, a made thing. Notice the order: good works are the purpose of salvation (v10), not its cause (v9)."
+      },
+      {
+        "verse": "14",
+        "kjv": "For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us;",
+        "renderings": [
+          { "version": "ESV", "text": "broken down in his flesh the dividing wall of hostility" },
+          { "version": "NIV", "text": "destroyed the barrier, the dividing wall of hostility" },
+          { "version": "CSB", "text": "tore down the dividing wall of hostility" }
+        ],
+        "note": "Modern versions join 'hostility' (the first words of verse 15 in Greek) to the wall: the wall was the hostility itself. KJV keeps 'enmity' with verse 15 instead."
+      }
+    ],
+    "gospel": "Ephesians 2 may be the clearest short statement of the gospel in Paul's letters. Humanity is dead in sin and under wrath. But God, rich in mercy, made us alive with Christ, raised us and seated us with him, all by grace through faith, so that no one can boast. And the cross does more than reconcile individuals to God: Christ's blood brings outsiders near, his body on the cross ends the hostility between Jew and Gentile, and through him both have access to the Father by one Spirit. The gospel creates a new people, not just new persons.",
+    "application": [
+      "Rest your standing with God entirely on his grace. Faith receives salvation; it does not earn it.",
+      "Expect your life to show good works, and look for the ones God has prepared for you. They are the purpose of grace, not an optional extra.",
+      "Remember what you were. Paul tells the Ephesians to 'remember' (v11-12) so that gratitude and humility stay fresh.",
+      "Pursue reconciliation across ethnic and cultural lines in the church. Christ died to make one people, so division in his body contradicts the cross.",
+      "Treat the local church as God's dwelling place, not a voluntary club, and give yourself to its building up."
+    ],
+    "misapplications": [
+      {
+        "claim": "Faith is the good work I contribute so that God will save me.",
+        "correction": "Verse 8 says the whole of salvation, including faith, is 'not of yourselves' but God's gift, and verse 9 rules out boasting. Faith is the empty hand that receives, not a payment."
+      },
+      {
+        "claim": "Since salvation isn't by works, works don't matter.",
+        "correction": "Verse 10 follows immediately: we are created in Christ Jesus for good works that God prepared for us to walk in. Works are the fruit of salvation, never its root."
+      },
+      {
+        "claim": "Being right with God is personal; unity in the church is a secondary matter.",
+        "correction": "Paul says Christ's cross aimed to 'create in himself one new man' and reconcile 'both' to God 'in one body' (v15-16). Horizontal reconciliation is part of what the cross accomplished."
+      }
+    ],
+    "contrasts": [
+      { "a": "Dead", "b": "Made alive", "verses": "1, 5", "note": "Salvation is resurrection, not improvement." },
+      { "a": "Wrath", "b": "Mercy", "verses": "3-4", "note": "'Children of wrath' by nature become objects of God's rich mercy and great love." },
+      { "a": "Works", "b": "Grace", "verses": "8-9", "note": "Grace and boasting cannot exist together." },
+      { "a": "Far off", "b": "Brought near", "verses": "13, 17", "note": "Gentiles once without hope and without God now have access to the Father." },
+      { "a": "Strangers and aliens", "b": "Fellow citizens and household members", "verses": "12, 19", "note": "Outsiders become family." }
+    ],
+    "features": [
+      { "label": "'But God'", "note": "Two words in verse 4 turn the chapter. Verses 1-3 describe what we were; from verse 4 on, every main verb has God as its subject." },
+      { "label": "A walk that changes", "note": "Verse 2 says we once 'walked' in trespasses; verse 10 says we were created to 'walk' in good works. The same verb frames the first half of the chapter and introduces a theme that runs through chapters 4-5." },
+      { "label": "Three 'with' verbs", "note": "Made alive with, raised with and seated with Christ (v5-6) match the three events of chapter 1:20: raised, seated, exalted. Believers share in Christ's history." },
+      { "label": "The temple barrier", "note": "Two stone inscriptions from the Jerusalem temple's dividing barrier have been found (in 1871 and 1935). They warned foreigners not to pass, under penalty of death. That is the kind of wall Paul says Christ has broken down." },
+      { "label": "From wall to temple", "note": "The chapter moves from a wall that kept Gentiles out of God's house to a new house built from Jews and Gentiles together, with God himself living in it." }
+    ],
+    "summary": "Ephesians 2 shows the gospel's two great works. God takes people dead in sin and under wrath and, out of rich mercy, makes them alive with Christ, saving them by grace through faith, apart from works and for good works. And through the cross Christ ends the hostility between Jew and Gentile, making one new people with shared access to the Father and building them into a temple where God dwells by his Spirit.",
+    "metaArc": {
+      "book": "Chapter 2 shows God's plan to unite all things in Christ (1:10) taking shape in the church: first in individuals raised with Christ, then in Jews and Gentiles made one. Chapter 3 calls this union the mystery now revealed, and chapter 4 begins by urging believers to keep the unity Christ has created.",
+      "redemptive": "Redemption, looking back to the promise to Abraham that all nations would be blessed and to the prophets' hope for peace to those far and near. The one new humanity and God's temple of living people anticipate the new creation, where God dwells with all his peoples."
+    }
+  }
+}
