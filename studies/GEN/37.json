@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.37",
+  "book": "Genesis",
+  "chapter": 37,
+  "title": "Joseph the Dreamer Sold",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Jacob favors Joseph with a special robe, and Joseph's dreams of his family bowing to him deepen his brothers' hatred. When Joseph visits them in the fields, they plot to kill him, throw him into a pit, and sell him to traders headed for Egypt. They deceive their father with the bloodied robe, and Jacob mourns, while Joseph is sold into Potiphar's house.",
+  "keyVerses": ["3-4", "8", "20", "28"],
+  "steps": {
+    "language": [
+      {
+        "word": "כְּתֹנֶת פַּסִּים",
+        "translit": "ketonet passim",
+        "gloss": "a long robe with sleeves; robe of many colors",
+        "verses": "3, 23, 32",
+        "note": "The exact meaning is uncertain: either a richly colored or a long-sleeved robe. The only other use describes royal princesses' garments (2 Samuel 13:18). It marked Joseph as favored and perhaps as heir, setting him apart from his working brothers."
+      },
+      {
+        "word": "שָׂנֵא",
+        "translit": "saneʾ",
+        "strongs": "H8130",
+        "gloss": "to hate",
+        "verses": "4, 5, 8",
+        "note": "The brothers' hatred grows in three stages: because of their father's love, because of the first dream, and because of his words. They could not speak peaceably (shalom) to him."
+      },
+      {
+        "word": "חֲלוֹם",
+        "translit": "ḥalom",
+        "strongs": "H2472",
+        "gloss": "dream",
+        "verses": "5-11, 19-20",
+        "note": "Dreams drive the Joseph story: his two dreams here, the cupbearer's and baker's, and Pharaoh's two dreams. The brothers mock him as 'master of dreams' and plot to see what becomes of his dreams."
+      },
+      {
+        "word": "בּוֹר",
+        "translit": "bor",
+        "strongs": "H953",
+        "gloss": "pit, cistern",
+        "verses": "20-29",
+        "note": "An empty cistern without water. The pit becomes an image of death and despair in Scripture (Psalm 40:2; Zechariah 9:11). Joseph will later call his Egyptian prison a 'pit' too (40:15)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Joseph sold by his brothers",
+        "refs": ["Acts 7:9-10", "Psalm 105:16-19"],
+        "note": "Stephen says the patriarchs, jealous of Joseph, sold him into Egypt, but God was with him. Psalm 105 says God sent a man ahead of them, Joseph, sold as a slave."
+      },
+      {
+        "theme": "Deception with a garment and goat",
+        "refs": ["Genesis 27:9-16", "Genesis 38:17-26"],
+        "note": "Jacob deceived his father with a goat and his brother's garments; now his sons deceive him with a goat's blood and Joseph's garment."
+      },
+      {
+        "theme": "Rejected by his own",
+        "refs": ["John 1:11", "Mark 12:6-8", "Matthew 27:18"],
+        "note": "Joseph, sent by his father to his brothers and rejected out of envy, anticipates Jesus, whom his own did not receive and who was handed over out of envy."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26), the story of Joseph and his brothers. Jacob is now settled in Canaan. Joseph is seventeen. The story will explain how Israel came to be in Egypt and how God preserved his people.",
+      "flow": [
+        { "verses": "1-4", "label": "Favored son", "note": "Joseph brings a bad report of his brothers. Jacob loves him most and gives him a special robe, and his brothers hate him." },
+        { "verses": "5-11", "label": "Two dreams", "note": "Joseph dreams of his brothers' sheaves bowing to his, and of the sun, moon and eleven stars bowing to him. His brothers hate him more; his father rebukes him but keeps the matter in mind." },
+        { "verses": "12-17", "label": "Sent to his brothers", "note": "Jacob sends Joseph to check on his brothers at Shechem. A man directs him to Dothan." },
+        { "verses": "18-28", "label": "The plot", "note": "The brothers plan to kill him. Reuben persuades them to throw him in a pit instead, intending to rescue him. While they eat, Judah proposes selling him to Ishmaelite traders for twenty pieces of silver." },
+        { "verses": "29-36", "label": "The deception", "note": "Reuben finds the pit empty. The brothers dip Joseph's robe in goat's blood and let Jacob conclude a beast devoured him. Jacob refuses comfort. Joseph is sold to Potiphar in Egypt." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:9", "from": "11, 28", "note": "The patriarchs, jealous of Joseph, sold him into Egypt; but God was with him." },
+        { "ref": "Psalm 105:17", "from": "28, 36", "note": "He sent a man ahead of them, Joseph, who was sold as a slave." },
+        { "ref": "Genesis 42:21", "from": "23-24", "note": "Years later the brothers admit they saw Joseph's distress when he pleaded with them and would not listen." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 50:20", "from": "20, 28", "note": "What they meant for evil, God meant for good." },
+        { "ref": "Matthew 26:14-15", "from": "28", "note": "Judas sells Jesus for thirty pieces of silver, as Judah proposed selling Joseph for twenty." },
+        { "ref": "Mark 12:6-8", "from": "18-20", "note": "In the parable, the tenants say of the beloved son, 'Come, let us kill him.'" },
+        { "ref": "Proverbs 27:4", "from": "11", "note": "Who can stand before jealousy?" }
+      ],
+      "tier3": [
+        { "ref": "Genesis 42:6", "from": "7", "note": "The brothers bow before Joseph, fulfilling the first dream." },
+        { "ref": "Luke 2:19, 51", "from": "11", "note": "Mary keeps and ponders events, as Jacob kept Joseph's words in mind." },
+        { "ref": "Zechariah 9:11", "from": "24", "note": "God sets prisoners free from the waterless pit." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that everyone in the chapter contributes to the disaster: Jacob's favoritism, Joseph's tactlessness, and the brothers' envy and cruelty. Yet God's purpose, hinted at in the dreams, is already at work."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke sees Joseph's dreams as genuine revelation, though Joseph's way of sharing them may have been immature. He highlights the providential details, such as the man who directs Joseph and the passing caravan."
+      },
+      {
+        "name": "Alistair Begg",
+        "work": "Sermons on Joseph (Truth for Life)",
+        "view": "Begg has preached the Joseph story as a sustained lesson in God's providence: God is at work in ordinary and even evil events, so that nothing in the story is outside his purpose, though he is never named in this chapter."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "Now Israel loved Joseph more than all his children, because he was the son of his old age: and he made him a coat of many colours.",
+        "renderings": [
+          { "version": "ESV", "text": "a robe of many colors" },
+          { "version": "NIV", "text": "an ornate robe" },
+          { "version": "CSB", "text": "a long-sleeved robe" }
+        ],
+        "note": "The rare phrase ketonet passim may mean a robe reaching to the palms and soles, or one with colored stripes. Either way it signaled privilege."
+      },
+      {
+        "verse": "28",
+        "kjv": "Then there passed by Midianites merchantmen; and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt.",
+        "renderings": [
+          { "version": "ESV", "text": "for twenty shekels of silver" },
+          { "version": "NIV", "text": "for twenty shekels of silver" },
+          { "version": "CSB", "text": "for twenty pieces of silver" }
+        ],
+        "note": "The traders are called both Midianites and Ishmaelites. The terms may overlap, Ishmaelite being a general term for caravan traders (Judges 8:24). Twenty shekels was a typical price for a young slave."
+      }
+    ],
+    "gospel": "Joseph, the beloved son, is sent by his father to his brothers, rejected out of envy, stripped of his robe, thrown into a pit and sold for silver. The parallels with Jesus are striking: the Father's beloved Son came to his own, was hated without cause, handed over for silver, stripped of his clothing, and went down into death. Yet in both stories what humans meant for evil God meant for good, to save many lives (Genesis 50:20; Acts 2:23). The rejected brother will become the one who saves those who rejected him.",
+    "application": [
+      "Avoid favoritism in families, which breeds resentment and division.",
+      "Guard against envy, which can grow from resentment into cruelty.",
+      "Share what God shows us with humility and wisdom.",
+      "Trust that God's purposes are at work even when circumstances seem hopeless and God seems silent.",
+      "Speak up against wrongdoing, as Reuben tried to do, but do not stop halfway."
+    ],
+    "misapplications": [
+      {
+        "claim": "Joseph's dreams show that any dream we have is a message from God about our future greatness.",
+        "correction": "Joseph's dreams were special revelation for God's redemptive plan. Scripture warns against treating every dream as divine (Jeremiah 23:25-28)."
+      },
+      {
+        "claim": "The brothers were simply instruments of God's plan, so they bear no guilt.",
+        "correction": "The brothers later confess their guilt (42:21), and Joseph says they meant evil (50:20). God's sovereignty does not cancel human responsibility."
+      }
+    ],
+    "contrasts": [
+      { "a": "Father's love", "b": "Brothers' hatred", "verses": "3-4", "note": "Favoritism fuels envy." },
+      { "a": "Dreams of exaltation", "b": "Pit and slavery", "verses": "5-11, 24-28", "note": "The road to the fulfillment of God's word runs through humiliation." },
+      { "a": "Reuben's plan to rescue", "b": "Judah's plan to sell", "verses": "21-22, 26-27", "note": "Both brothers resist murder, but neither stands for what is right." }
+    ],
+    "features": [
+      { "label": "Garments", "note": "Joseph's robe is given, stripped and used in deception; garments will recur with Tamar, Potiphar's wife and Pharaoh's robes." },
+      { "label": "Here comes the dreamer", "note": "The brothers' sarcastic 'master of dreams' (v19) ironically names the gift that will make Joseph great." },
+      { "label": "They sat down to eat", "note": "The brothers eat a meal right after throwing Joseph in the pit, a chilling detail; the story will later turn on meals in Egypt." },
+      { "label": "God not named", "note": "God is not mentioned, yet his providence is woven through every coincidence." }
+    ],
+    "summary": "Genesis 37 begins the Joseph story with favoritism, dreams of exaltation, envy and betrayal. Joseph is sold into slavery and his father deceived into grief. God is silent in the text, but his purposes, revealed in the dreams, are already moving through the brothers' evil to bring about salvation.",
+    "metaArc": {
+      "book": "This chapter launches the toledot of Jacob, the Joseph narrative that closes Genesis. It explains how Israel will come to Egypt and sets up the long story of testing, repentance and reconciliation.",
+      "redemptive": "Promise. God works through human evil to preserve the family of promise, a pattern that reaches its height when Christ, betrayed and rejected, becomes the Savior."
+    }
+  }
+}

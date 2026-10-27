@@ -1,0 +1,166 @@
+{
+  "ref": "GEN.38",
+  "book": "Genesis",
+  "chapter": 38,
+  "title": "More Righteous Than I",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Judah leaves his brothers and marries a Canaanite. Two of his sons die for their wickedness, and he withholds his third son from their widow Tamar. Disguised, Tamar conceives by Judah himself. When exposed, Judah confesses that she is more righteous than he. Tamar bears twins, Perez and Zerah, and Perez becomes an ancestor of David and of Christ.",
+  "keyVerses": ["11", "25", "26", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "יִבֵּם",
+        "translit": "yibbem",
+        "strongs": "H2992",
+        "gloss": "to perform the duty of a brother-in-law (levirate)",
+        "verses": "8",
+        "note": "The custom, later in Deuteronomy 25:5-10, in which a man marries his dead brother's widow to raise up offspring in his brother's name. Onan refused this duty while exploiting the marriage, and the LORD put him to death."
+      },
+      {
+        "word": "הַכֶּר־נָא",
+        "translit": "hakker-naʾ",
+        "gloss": "please identify, recognize",
+        "verses": "25, 26",
+        "note": "Tamar sends Judah his seal, cord and staff with the words 'please identify.' It is the same phrase the brothers used when showing Jacob Joseph's robe (37:32). The deceiver of his father is now confronted with evidence he must recognize."
+      },
+      {
+        "word": "צָדְקָה מִמֶּנִּי",
+        "translit": "tsadeqah mimmenni",
+        "gloss": "she is more righteous than I",
+        "verses": "26",
+        "note": "Judah's confession is the turning point of his life. He admits Tamar acted for the sake of the family line, while he had failed his obligation. This is the first sign of the change that leads to his self-sacrifice for Benjamin (44:33)."
+      },
+      {
+        "word": "פֶּרֶץ",
+        "translit": "Perets",
+        "strongs": "H6557",
+        "gloss": "breach, breakthrough",
+        "verses": "29",
+        "note": "The second twin breaks through first, so he is named Perez. Again the younger overtakes the elder. Perez heads the line that leads to Boaz and David (Ruth 4:18-22)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Tamar in the line of Christ",
+        "refs": ["Ruth 4:12, 18-22", "1 Chronicles 2:3-15", "Matthew 1:3"],
+        "note": "Matthew names Tamar as the first of four women in Jesus' genealogy. The people of Bethlehem bless Boaz's house to be like the house of Perez."
+      },
+      {
+        "theme": "Levirate marriage",
+        "refs": ["Deuteronomy 25:5-10", "Ruth 3-4", "Matthew 22:24"],
+        "note": "Tamar's story and Ruth's both turn on a widow seeking a redeemer to continue a family line."
+      },
+      {
+        "theme": "Judah's transformation",
+        "refs": ["Genesis 37:26-27", "Genesis 43:8-9", "Genesis 44:18-34", "Genesis 49:8-12"],
+        "note": "Judah moves from selling Joseph, to confessing his sin with Tamar, to offering himself in Benjamin's place, and finally receives the royal blessing."
+      }
+    ],
+    "context": {
+      "setting": "Part of the toledot of Jacob (37:2-50:26). This chapter interrupts the Joseph story right after Joseph is sold, turning to Judah, whose line will become the royal tribe. It spans about twenty years and contrasts Judah's moral failure with Joseph's integrity in chapter 39.",
+      "flow": [
+        { "verses": "1-11", "label": "Judah's family", "note": "Judah goes down from his brothers, marries a Canaanite, and has three sons. Er is wicked and the LORD puts him to death; Onan refuses his duty to Tamar and dies. Judah sends Tamar home, promising his third son Shelah, but fears losing him too." },
+        { "verses": "12-23", "label": "Tamar's plan", "note": "Seeing she has not been given to Shelah, Tamar disguises herself by the road. Judah sleeps with her, leaving his seal, cord and staff as pledge. She disappears, and Judah cannot find her." },
+        { "verses": "24-26", "label": "Judah exposed", "note": "Told Tamar is pregnant, Judah orders her burned. She sends his items: please identify them. Judah confesses: she is more righteous than I." },
+        { "verses": "27-30", "label": "Perez and Zerah", "note": "Tamar bears twins. Zerah's hand comes first and is marked with scarlet, but Perez breaks out first." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Matthew 1:3", "from": "29-30", "note": "Judah the father of Perez and Zerah by Tamar, in the genealogy of Jesus Christ." },
+        { "ref": "Ruth 4:12, 18", "from": "29", "note": "May your house be like the house of Perez, whom Tamar bore to Judah; this is the line of Perez to David." },
+        { "ref": "1 Chronicles 2:3-4", "from": "1-30", "note": "Chronicles summarizes Judah's sons, including Er's death and Tamar's twins." }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 25:5-10", "from": "8-9", "note": "The law of levirate marriage, with shame for the brother who refuses." },
+        { "ref": "Genesis 37:32-33", "from": "25-26", "note": "'Please identify' recalls the brothers presenting Joseph's robe to deceive Jacob." },
+        { "ref": "Genesis 44:33", "from": "26", "note": "The changed Judah offers himself as a slave in place of Benjamin." },
+        { "ref": "Psalm 51:3-4", "from": "26", "note": "David, descendant of Perez, confesses his sin openly." }
+      ],
+      "tier3": [
+        { "ref": "Joshua 2:18", "from": "28", "note": "A scarlet cord marks Rahab's house, another woman in Christ's line." },
+        { "ref": "Genesis 25:22-26", "from": "27-30", "note": "Another set of twins where the younger comes first." },
+        { "ref": "1 Corinthians 6:18", "from": "15-16", "note": "Flee sexual immorality, the opposite of Judah's casual choice." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Genesis 38 (Redeemer Presbyterian Church)",
+        "view": "Keller has preached that God chose to bring the Messiah through this scandalous episode, which shows that Jesus came from a messy family line. The grace of God works through sinners like Judah and outsiders like Tamar."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke sees the chapter as the beginning of Judah's transformation: his confession that Tamar is more righteous marks a turn from the self-serving man of chapter 37 toward the self-sacrificing leader of chapter 44."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham argues that the chapter is deliberately placed: Judah's sexual failure contrasts with Joseph's purity in chapter 39, and verbal links like 'please identify' and the goat tie it to the deception of Jacob."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "26",
+        "kjv": "And Judah acknowledged them, and said, She hath been more righteous than I; because that I gave her not to Shelah my son. And he knew her again no more.",
+        "renderings": [
+          { "version": "ESV", "text": "She is more righteous than I" },
+          { "version": "NIV", "text": "She is more righteous than I" },
+          { "version": "CSB", "text": "She is more in the right than I" }
+        ],
+        "note": "'More righteous' means more in the right in this relationship, as she pursued the family obligation Judah neglected. It is not a blanket approval of her method."
+      },
+      {
+        "verse": "21",
+        "kjv": "Then he asked the men of that place, saying, Where is the harlot, that was openly by the way side? And they said, There was no harlot in this place.",
+        "renderings": [
+          { "version": "ESV", "text": "Where is the cult prostitute" },
+          { "version": "NIV", "text": "Where is the shrine prostitute" },
+          { "version": "CSB", "text": "Where is the cult prostitute" }
+        ],
+        "note": "Judah's friend uses qedeshah, linked to pagan shrine practices, perhaps as a more respectable term. It shows how deeply Judah had mingled with Canaanite ways."
+      }
+    ],
+    "gospel": "Matthew opens his Gospel by naming Tamar in Jesus' family tree, along with Rahab, Ruth and Bathsheba. The Savior came from a line marked by sin, scandal and grace. Judah, who sold his brother, is humbled into confession here and later offers himself in his brother's place, a picture of the Lion of the tribe of Judah who gave himself for his brothers. Perez, the 'breakthrough,' is ancestor of the one who breaks through sin and death for us. Jesus did not come from a spotless family; he came to save families like Judah's and ours.",
+    "application": [
+      "Beware of drifting away from God's people into compromising company, as Judah did.",
+      "Keep our obligations to the vulnerable, especially widows and those who depend on our word.",
+      "Confess sin honestly when confronted, as Judah did: 'She is more righteous than I.'",
+      "Take hope that God's grace can redeem shameful stories, including our own family histories.",
+      "Remember that God sees and judges sin, as with Er and Onan."
+    ],
+    "misapplications": [
+      {
+        "claim": "Judah's confession means Tamar's deception was fully right.",
+        "correction": "Judah says she was more in the right than he concerning the family duty. The narrative does not hold up her method as a model, but it vindicates her cause against his neglect."
+      },
+      {
+        "claim": "Onan's sin was simply about a sexual act, and the chapter is a general rule about contraception.",
+        "correction": "Onan's sin was refusing his duty to raise offspring for his brother while using Tamar. Christians differ on wider applications, but the text's focus is his selfish refusal and exploitation."
+      },
+      {
+        "claim": "This chapter is an embarrassing detour with no place in the Joseph story.",
+        "correction": "It begins Judah's transformation, contrasts with Joseph's integrity, and establishes the line of David and Christ."
+      }
+    ],
+    "contrasts": [
+      { "a": "Judah's double standard", "b": "Judah's confession", "verses": "24, 26", "note": "He condemns Tamar to death, then admits his own guilt." },
+      { "a": "Judah with a stranger", "b": "Joseph fleeing temptation", "verses": "16; 39:12", "note": "The two brothers face sexual temptation very differently." },
+      { "a": "Zerah's scarlet hand", "b": "Perez breaks through", "verses": "28-29", "note": "The expected firstborn is overtaken by the younger." }
+    ],
+    "features": [
+      { "label": "Interruption", "note": "The Joseph story pauses for about twenty years of Judah's life, a deliberate break that creates suspense and contrast." },
+      { "label": "Please identify", "note": "The phrase hakker-naʾ appears in 37:32 and 38:25, binding the brothers' sin against Jacob with Judah's exposure." },
+      { "label": "A goat", "note": "Judah pays with a young goat; the brothers used a goat's blood to deceive Jacob. Jacob had deceived Isaac with goats." },
+      { "label": "Judah went down", "note": "Judah 'went down' from his brothers (v1) as Joseph was 'brought down' to Egypt (39:1), a parallel descent." }
+    ],
+    "summary": "Genesis 38 tells the troubling story of Judah's moral failure and Tamar's determined pursuit of justice for the family line. Exposed, Judah confesses that Tamar is more righteous, the beginning of his transformation. From this scandal God brings Perez, ancestor of David and of Jesus, showing that his grace works through broken people to fulfill his promises.",
+    "metaArc": {
+      "book": "This chapter develops Judah, who will emerge as the leader among the brothers and receive the royal blessing in chapter 49. It contrasts with Joseph's faithfulness in the next chapter.",
+      "redemptive": "Promise. The line of the promised king continues through Judah and Perez to David and to Christ, by grace through human failure."
+    }
+  }
+}

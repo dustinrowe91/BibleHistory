@@ -1,0 +1,175 @@
+{
+  "ref": "GEN.50",
+  "book": "Genesis",
+  "chapter": 50,
+  "title": "God Meant It for Good",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Joseph mourns his father, and a great procession of Egyptians and Israelites carries Jacob to Canaan for burial at Machpelah. Back in Egypt, the brothers fear Joseph's revenge, but he weeps and reassures them: you meant evil against me, but God meant it for good, to save many lives. Joseph dies at 110, confident that God will visit Israel and bring them up to the promised land, and asks that his bones be carried there.",
+  "keyVerses": ["19", "20", "21", "24-25"],
+  "steps": {
+    "language": [
+      {
+        "word": "חָשַׁב",
+        "translit": "ḥashav",
+        "strongs": "H2803",
+        "gloss": "to plan, intend, devise; to reckon",
+        "verses": "20",
+        "note": "The same verb is used for the brothers' plan and God's plan: you planned evil, God planned it for good. The word also appears in 15:6, where God 'counted' Abram's faith as righteousness. Two intentions are at work in one event."
+      },
+      {
+        "word": "הַתַחַת אֱלֹהִים אָנִי",
+        "translit": "hataḥat ʾelohim ʾani",
+        "gloss": "Am I in the place of God?",
+        "verses": "19",
+        "note": "Joseph refuses to take vengeance, the role that belongs to God. Jacob spoke these words in anger (30:2); Joseph speaks them in mercy."
+      },
+      {
+        "word": "פָּקֹד יִפְקֹד",
+        "translit": "paqod yifqod",
+        "gloss": "God will surely visit",
+        "verses": "24, 25",
+        "note": "Joseph promises that God will 'surely visit' his people and bring them up. Moses repeats the very phrase when God appears to him (Exodus 3:16; 4:31), and takes Joseph's bones out of Egypt (Exodus 13:19)."
+      },
+      {
+        "word": "עֲצָמוֹת",
+        "translit": "ʿatsamot",
+        "strongs": "H6106",
+        "gloss": "bones",
+        "verses": "25",
+        "note": "Joseph makes Israel swear to carry his bones to Canaan. Hebrews 11:22 cites this as an act of faith. Joseph, ruler of Egypt, refuses to belong permanently to Egypt."
+      },
+      {
+        "word": "אָרוֹן",
+        "translit": "ʾaron",
+        "strongs": "H727",
+        "gloss": "coffin, chest",
+        "verses": "26",
+        "note": "Genesis ends with Joseph 'in a coffin in Egypt.' The same word later names the ark of the covenant. The book ends not with triumph but with a body waiting for God's promised visitation."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's sovereignty over evil for good",
+        "refs": ["Romans 8:28", "Acts 2:23", "Acts 4:27-28", "Psalm 76:10"],
+        "note": "Genesis 50:20 is the Old Testament's clearest statement that God works through human evil for good. The cross is its supreme example."
+      },
+      {
+        "theme": "Forgiveness that leaves vengeance to God",
+        "refs": ["Leviticus 19:18", "Romans 12:17-21", "Ephesians 4:32"],
+        "note": "Joseph refuses to take God's place and repays evil with kindness, the pattern Paul commends to believers."
+      },
+      {
+        "theme": "Joseph's bones",
+        "refs": ["Exodus 13:19", "Joshua 24:32", "Hebrews 11:22"],
+        "note": "Moses carries Joseph's bones out of Egypt, and Joshua buries them at Shechem, fulfilling the oath."
+      }
+    ],
+    "context": {
+      "setting": "The final chapter of the toledot of Jacob and of Genesis. The book that began with God creating life ends with death and burial, yet with faith that God will keep his promise. The family remains in Egypt, setting the stage for Exodus.",
+      "flow": [
+        { "verses": "1-3", "label": "Mourning Jacob", "note": "Joseph weeps over his father and has him embalmed. Egypt mourns seventy days." },
+        { "verses": "4-14", "label": "Burial in Canaan", "note": "With Pharaoh's permission, a great procession goes up to Canaan. They mourn seven days at Atad, and Jacob's sons bury him in the cave of Machpelah." },
+        { "verses": "15-21", "label": "Forgiveness confirmed", "note": "The brothers fear Joseph will now repay them and send a message asking forgiveness. Joseph weeps, refuses to take God's place, and says God meant their evil for good. He promises to provide for them and their children." },
+        { "verses": "22-26", "label": "Joseph's death", "note": "Joseph sees his great-grandchildren. Dying at 110, he assures his brothers that God will visit them and bring them to the land promised to Abraham, Isaac and Jacob, and makes them swear to carry his bones up. He is embalmed and placed in a coffin in Egypt." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:22", "from": "24-25", "note": "By faith Joseph, at the end of his life, made mention of the exodus and gave directions concerning his bones." },
+        { "ref": "Exodus 13:19", "from": "25", "note": "Moses takes Joseph's bones with him, for Joseph had made Israel swear that God would visit them." },
+        { "ref": "Joshua 24:32", "from": "25", "note": "Joseph's bones are buried at Shechem in the plot Jacob bought." },
+        { "ref": "Acts 7:15-16", "from": "13", "note": "Stephen recounts the patriarchs' burial in the land." }
+      ],
+      "tier2": [
+        { "ref": "Romans 8:28", "from": "20", "note": "God works all things together for good for those who love him." },
+        { "ref": "Acts 2:23", "from": "20", "note": "Jesus was delivered up by God's plan and killed by lawless men." },
+        { "ref": "Romans 12:19-21", "from": "19-21", "note": "Never avenge yourselves; overcome evil with good." },
+        { "ref": "Exodus 3:16", "from": "24", "note": "God tells Moses, 'I have surely visited you,' fulfilling Joseph's words." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 30:2", "from": "19", "note": "Jacob's angry 'Am I in the place of God?' is transformed into Joseph's merciful use of the same words." },
+        { "ref": "Matthew 27:57-60", "from": "13", "note": "Jesus is laid in a tomb in the land, but rises." },
+        { "ref": "Genesis 15:13-16", "from": "24", "note": "God foretold that Abraham's offspring would return after a long sojourn." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "R. C. Sproul",
+        "work": "The Invisible Hand",
+        "view": "Sproul treats Genesis 50:20 as a key text for providence: God's sovereign purpose and human evil intentions are both real in the same event, and God's purpose for good prevails without making him the author of sin."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that the brothers still struggle to believe Joseph's forgiveness after seventeen years, a picture of how hard it can be to rest in grace. Joseph's tears show the pain of being doubted."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Genesis videos",
+        "view": "BibleProject sums up Genesis by showing how God brings good from humans choosing evil, preserving the promised family. The book ends in a coffin in Egypt, inviting readers to wait for God's coming rescue."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+        "renderings": [
+          { "version": "ESV", "text": "you meant evil against me, but God meant it for good" },
+          { "version": "NIV", "text": "You intended to harm me, but God intended it for good" },
+          { "version": "CSB", "text": "You planned evil against me; God planned it for good" }
+        ],
+        "note": "The same Hebrew verb describes both intentions. The verse holds human responsibility and divine sovereignty together."
+      },
+      {
+        "verse": "24",
+        "kjv": "And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.",
+        "renderings": [
+          { "version": "ESV", "text": "God will visit you" },
+          { "version": "NIV", "text": "God will surely come to your aid" },
+          { "version": "CSB", "text": "God will certainly come to your aid" }
+        ],
+        "note": "Paqad, 'visit,' means God coming to act. Joseph's last words look forward to the Exodus and repeat the land promise to all three patriarchs."
+      }
+    ],
+    "gospel": "Genesis ends with the clearest statement of God's providence in the Old Testament: what humans meant for evil, God meant for good, to save many lives. The cross is the ultimate fulfillment, where the worst evil ever committed became God's means of salvation (Acts 2:23). Joseph, the rejected brother who becomes savior, forgives those who wronged him and provides for them, as Christ does for us. And Genesis closes with Joseph in a coffin, waiting for God to visit his people. That visitation came in Jesus (Luke 1:68), who did not stay in his tomb, and who will raise his people to the true promised land.",
+    "application": [
+      "Trust that God is at work for good even in the evil done to us.",
+      "Forgive those who have wronged us, refusing to take God's place as avenger.",
+      "Rest in forgiveness once it is given rather than continuing to fear.",
+      "Provide for and speak kindly to those who have hurt us.",
+      "Live and die in hope of God's promises, as Joseph did."
+    ],
+    "misapplications": [
+      {
+        "claim": "Since God meant it for good, the evil itself was good.",
+        "correction": "Joseph says the brothers meant evil. God brings good out of evil without making evil good or excusing it."
+      },
+      {
+        "claim": "Romans 8:28 and Genesis 50:20 mean we will always understand the good in this life.",
+        "correction": "Joseph saw it after many years, but many believers do not see the full purpose until eternity. Faith trusts God's goodness without always seeing it."
+      },
+      {
+        "claim": "Genesis ends in defeat with God's people stuck in Egypt.",
+        "correction": "It ends in hope: Joseph's words promise God's visitation and the return to the land, which Exodus begins to fulfill."
+      }
+    ],
+    "contrasts": [
+      { "a": "You meant evil", "b": "God meant good", "verses": "20", "note": "Two intentions in one event, with God's prevailing." },
+      { "a": "Fear of revenge", "b": "Comfort and kindness", "verses": "15, 21", "note": "Joseph answers fear with reassurance." },
+      { "a": "A coffin in Egypt", "b": "God will surely visit", "verses": "24-26", "note": "The book ends with death, but faces forward in hope." }
+    ],
+    "features": [
+      { "label": "From garden to coffin", "note": "Genesis opens with life in a garden and closes with a coffin in Egypt, framing the story of a fallen world awaiting redemption." },
+      { "label": "Joseph's tears", "note": "Joseph weeps seven times in the story; here he weeps at being doubted (v17), showing how much his forgiveness meant." },
+      { "label": "Am I in the place of God?", "note": "Joseph uses Jacob's earlier angry words (30:2) in a spirit of grace." },
+      { "label": "Visit repeated", "note": "The phrase 'God will surely visit you' appears twice (v24-25) and becomes a password of hope in Exodus." }
+    ],
+    "summary": "Genesis 50 brings the book to a close with Jacob's burial in the promised land, Joseph's reaffirmed forgiveness, and his death in faith. Joseph's words that God meant the brothers' evil for good sum up God's providence throughout Genesis. The book ends in Egypt with a coffin, yet with a promise: God will surely visit his people and bring them home.",
+    "metaArc": {
+      "book": "This chapter concludes Genesis, resolving the family conflict and pointing forward to the Exodus. Joseph's bones become a link between Genesis and the conquest of the land.",
+      "redemptive": "Promise awaiting Redemption. God's providence preserves his people and looks ahead to the Exodus, and ultimately to Christ, in whom God visited and redeemed his people and through whom the New Creation will come."
+    }
+  }
+}

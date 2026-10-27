@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.45",
+  "book": "Genesis",
+  "chapter": 45,
+  "title": "God Sent Me Before You",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Moved by Judah's plea, Joseph clears the room, weeps aloud and reveals himself: 'I am Joseph.' He tells his terrified brothers not to be distressed, for God sent him ahead to preserve life. He embraces them, and Pharaoh invites the whole family to Egypt. Jacob, hearing that Joseph is alive, revives and resolves to go see him before he dies.",
+  "keyVerses": ["3", "5", "7-8", "28"],
+  "steps": {
+    "language": [
+      {
+        "word": "אֲנִי יוֹסֵף",
+        "translit": "ʾani Yosef",
+        "gloss": "I am Joseph",
+        "verses": "3, 4",
+        "note": "Two Hebrew words that end years of secrecy. Joseph immediately asks if his father is still alive. The brothers are 'dismayed,' a word for terror before a ruler or judge."
+      },
+      {
+        "word": "שָׁלַח",
+        "translit": "shalaḥ",
+        "strongs": "H7971",
+        "gloss": "to send",
+        "verses": "5, 7, 8",
+        "note": "Three times Joseph says God 'sent' him. The brothers sold him, but God sent him. Joseph reads the whole story through God's purpose without excusing their sin."
+      },
+      {
+        "word": "מִחְיָה",
+        "translit": "miḥyah",
+        "strongs": "H4241",
+        "gloss": "preservation of life",
+        "verses": "5",
+        "note": "God sent Joseph 'to preserve life.' The purpose of his suffering was not his own exaltation but the saving of many lives."
+      },
+      {
+        "word": "שְׁאֵרִית / פְּלֵיטָה",
+        "translit": "sheʾerit / peletah",
+        "gloss": "remnant / survivors, deliverance",
+        "verses": "7",
+        "note": "God sent Joseph to preserve a remnant and keep many survivors alive. These words become important in the prophets for the faithful remnant God saves through judgment (Isaiah 10:20-22)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's sovereign purpose through human sin",
+        "refs": ["Genesis 50:20", "Psalm 105:16-17", "Acts 2:23", "Acts 4:27-28"],
+        "note": "Joseph says God sent him; the psalm says God sent a man ahead. At the cross, wicked hands carried out what God's plan had determined."
+      },
+      {
+        "theme": "Forgiveness and reconciliation",
+        "refs": ["Luke 15:20-24", "Ephesians 4:32", "Colossians 3:13"],
+        "note": "Joseph's embrace of the brothers who sold him models the forgiveness God shows in Christ."
+      },
+      {
+        "theme": "The remnant",
+        "refs": ["Isaiah 10:20-22", "Micah 2:12", "Romans 11:5"],
+        "note": "God preserves a remnant of his people through crisis, a theme that begins here and runs through the prophets to Paul."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Directly after Judah's offer to take Benjamin's place, Joseph can no longer hold back. It is the second year of the famine, with five years still to come (v6).",
+      "flow": [
+        { "verses": "1-4", "label": "I am Joseph", "note": "Joseph sends out the Egyptians, weeps so loudly the Egyptians hear, and reveals himself. The brothers cannot answer; he calls them close." },
+        { "verses": "5-8", "label": "God sent me", "note": "Joseph tells them not to be distressed, for God sent him ahead to preserve life, a remnant and a great deliverance. It was not you, but God." },
+        { "verses": "9-15", "label": "Bring my father", "note": "Joseph tells them to bring Jacob to Goshen, where he will provide for them. He weeps on Benjamin's neck, kisses his brothers, and after that they talk with him." },
+        { "verses": "16-24", "label": "Pharaoh's invitation", "note": "Pharaoh welcomes the family with wagons and the best of Egypt. Joseph sends gifts, five garments for Benjamin, and tells his brothers not to quarrel on the way." },
+        { "verses": "25-28", "label": "Jacob revives", "note": "Jacob does not believe them at first, but seeing the wagons, his spirit revives: Joseph is alive; I will go see him before I die." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:13-14", "from": "1-4, 9-11", "note": "On the second visit Joseph made himself known to his brothers and sent for Jacob and all his family." },
+        { "ref": "Psalm 105:17", "from": "5, 7", "note": "He sent a man before them, Joseph, sold as a slave." },
+        { "ref": "Genesis 50:19-20", "from": "5-8", "note": "Joseph later repeats: you meant evil, but God meant it for good, to keep many people alive." }
+      ],
+      "tier2": [
+        { "ref": "Acts 2:23", "from": "5-8", "note": "Jesus was delivered up by the definite plan of God and killed by lawless hands." },
+        { "ref": "Romans 8:28", "from": "5, 7", "note": "God works all things together for good for those who love him." },
+        { "ref": "Luke 15:20", "from": "14-15", "note": "The father runs, embraces and kisses his son." },
+        { "ref": "Luke 24:36-43", "from": "3-4", "note": "The risen Jesus appears to frightened disciples and invites them to come close." }
+      ],
+      "tier3": [
+        { "ref": "John 20:19-20", "from": "3", "note": "Jesus shows himself to his disciples, and their fear turns to joy." },
+        { "ref": "Philippians 1:12", "from": "5", "note": "What happened to Paul served to advance the gospel." },
+        { "ref": "Isaiah 10:20-22", "from": "7", "note": "A remnant will return." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin uses Joseph's words to teach that God's providence governs even human sins, so that the brothers' evil served God's plan, yet without making God the author of their sin or excusing their guilt."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner calls Joseph's self-revelation one of the great moments of the Old Testament. Joseph's faith in providence frees him to forgive, since he sees his suffering as part of God's design."
+      },
+      {
+        "name": "R. C. Sproul",
+        "work": "The Invisible Hand",
+        "view": "Sproul uses Joseph's story as a leading example of providence, God's hidden hand working through ordinary and even sinful human choices to accomplish his purposes."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before you to preserve life.",
+        "renderings": [
+          { "version": "ESV", "text": "God sent me before you to preserve life" },
+          { "version": "NIV", "text": "it was to save lives that God sent me" },
+          { "version": "CSB", "text": "God sent me ahead of you to preserve life" }
+        ],
+        "note": "The versions agree. Joseph does not deny that they sold him; he sets their act within God's larger purpose."
+      },
+      {
+        "verse": "7",
+        "kjv": "And God sent me before you to preserve you a posterity in the earth, and to save your lives by a great deliverance.",
+        "renderings": [
+          { "version": "ESV", "text": "to preserve for you a remnant on earth" },
+          { "version": "NIV", "text": "to preserve for you a remnant on earth" },
+          { "version": "CSB", "text": "to establish you as a remnant within the land" }
+        ],
+        "note": "'Posterity' and 'remnant' render sheʾerit. Modern versions highlight the remnant theme that becomes important in the prophets."
+      }
+    ],
+    "gospel": "Joseph, rejected and sold by his brothers, reveals himself as their exalted brother and savior, forgives them, and invites them to live under his provision. The parallels to Christ are rich: rejected by his own, sent ahead by God, exalted to the right hand of power, he reveals himself to those who wronged him and says, 'Come near.' As Joseph saw that God sent him to preserve life through great deliverance, so the cross, the greatest evil ever done, was God's plan to save many. The news that Joseph was alive revived Jacob; the news that Jesus is alive gives life to all who believe.",
+    "application": [
+      "Forgive those who have wronged us, trusting God's purposes in our suffering.",
+      "Read our hardships in light of God's providence without excusing sin.",
+      "Draw near to Christ, who invites guilty people close rather than pushing them away.",
+      "Share good news joyfully, as the brothers carried news of Joseph to Jacob.",
+      "Avoid quarrels and blame, as Joseph warned his brothers on the way home."
+    ],
+    "misapplications": [
+      {
+        "claim": "Because God sent Joseph, the brothers did nothing wrong.",
+        "correction": "Joseph says 'you sold me' (v4-5) and later 'you meant evil' (50:20). God's purpose overrules human sin without erasing human responsibility."
+      },
+      {
+        "claim": "We must always be able to see God's purpose in our suffering.",
+        "correction": "Joseph saw it only after many years. Believers trust God's purposes even when they cannot yet see them (Romans 8:28; Hebrews 11:13)."
+      }
+    ],
+    "contrasts": [
+      { "a": "You sold me", "b": "God sent me", "verses": "4-5", "note": "Human evil and divine purpose stand side by side." },
+      { "a": "Terror", "b": "Embrace", "verses": "3, 14-15", "note": "The brothers' fear turns to fellowship." },
+      { "a": "Jacob's disbelief", "b": "Jacob's revived spirit", "verses": "26-27", "note": "Good news becomes believable when he sees the wagons." }
+    ],
+    "features": [
+      { "label": "Joseph weeps aloud", "note": "Joseph weeps so loudly that Pharaoh's house hears, the third and most open of his weepings." },
+      { "label": "Come near", "note": "Joseph's invitation 'Come near to me, please' (v4) is the opposite of the distance the brothers had kept for years." },
+      { "label": "They talked with him", "note": "Verse 15 notes that after the embrace 'his brothers talked with him,' reversing 37:4, where they could not speak peaceably to him." },
+      { "label": "Do not quarrel", "note": "Joseph's warning not to quarrel on the way (v24) shows his realistic grasp of the brothers' history of blame." }
+    ],
+    "summary": "Genesis 45 is the emotional climax of the Joseph story. Joseph reveals himself, forgives his brothers, and interprets his suffering as God's plan to preserve life. The family is reconciled, Pharaoh invites them to Egypt, and Jacob's spirit revives at the news that Joseph is alive.",
+    "metaArc": {
+      "book": "This chapter resolves the conflict that began in chapter 37 and sets in motion Israel's move to Egypt in chapter 46, where the family will grow into a nation.",
+      "redemptive": "Promise and Redemption foreshadowed. God preserves the family of promise through the one they rejected, a pattern fulfilled in Christ, the rejected brother who saves."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.40",
+  "book": "Genesis",
+  "chapter": 40,
+  "title": "Interpretations Belong to God",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "In prison Joseph serves Pharaoh's cupbearer and baker. Both dream troubling dreams, and Joseph, crediting God, interprets them: in three days the cupbearer will be restored and the baker executed. It happens exactly so, but the cupbearer forgets Joseph, who remains in prison two more years.",
+  "keyVerses": ["8", "14-15", "20-22", "23"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּתַר / פִּתְרוֹן",
+        "translit": "patar / pitron",
+        "strongs": "H6622",
+        "gloss": "to interpret / interpretation",
+        "verses": "5, 8, 12, 16, 18, 22",
+        "note": "Used only in the Joseph story in the Old Testament. Joseph insists interpretation belongs to God, not to human skill. Egypt had professional dream interpreters, but they cannot help prisoners."
+      },
+      {
+        "word": "נָשָׂא רֹאשׁ",
+        "translit": "nasaʾ roʾsh",
+        "gloss": "to lift up the head",
+        "verses": "13, 19, 20",
+        "note": "A pun at the heart of the chapter. For the cupbearer, Pharaoh will 'lift up your head,' meaning restore you. For the baker, Pharaoh will 'lift up your head from you,' meaning behead you. On Pharaoh's birthday he lifts up both heads, in opposite ways."
+      },
+      {
+        "word": "זָכַר",
+        "translit": "zakar",
+        "strongs": "H2142",
+        "gloss": "to remember",
+        "verses": "14, 23",
+        "note": "Joseph asks the cupbearer to remember him, but he 'did not remember Joseph, but forgot him.' The double statement stresses the failure. Unlike the cupbearer, God does remember his people (8:1; 30:22)."
+      },
+      {
+        "word": "בּוֹר",
+        "translit": "bor",
+        "strongs": "H953",
+        "gloss": "pit, dungeon",
+        "verses": "15",
+        "note": "Joseph calls his prison a bor, the same word as the pit his brothers threw him in (37:24). He has gone from one pit to another, though innocent both times."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God reveals mysteries",
+        "refs": ["Genesis 41:16", "Daniel 2:27-28", "Daniel 2:47", "Amos 3:7"],
+        "note": "Like Joseph, Daniel tells a pagan king that only God can reveal what dreams mean. Both exiles rise to power through God-given wisdom."
+      },
+      {
+        "theme": "Forgotten by people, remembered by God",
+        "refs": ["Psalm 31:12", "Psalm 88:8, 18", "Isaiah 49:15", "Luke 23:42-43"],
+        "note": "The cupbearer forgets, but God never forgets his own. The thief on the cross asks Jesus to remember him and receives a promise of paradise."
+      },
+      {
+        "theme": "Third day",
+        "refs": ["Genesis 22:4", "Genesis 42:18", "Hosea 6:2", "1 Corinthians 15:4"],
+        "note": "Rescue and judgment come 'on the third day,' a recurring pattern that reaches its climax in Christ's resurrection."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Joseph has been in prison for some time after being falsely accused. The chapter sets up his rise in chapter 41, but first adds two more years of waiting (41:1).",
+      "flow": [
+        { "verses": "1-4", "label": "Two officials in prison", "note": "Pharaoh's cupbearer and baker offend him and are put in the same prison, where Joseph is assigned to attend them." },
+        { "verses": "5-8", "label": "Troubled by dreams", "note": "Both dream on the same night. Joseph notices their sad faces, and when they say no one can interpret, he answers that interpretations belong to God." },
+        { "verses": "9-15", "label": "The cupbearer's dream", "note": "Three branches, grapes and Pharaoh's cup mean the cupbearer will be restored in three days. Joseph asks him to remember him and tells of his innocence." },
+        { "verses": "16-19", "label": "The baker's dream", "note": "Three baskets with birds eating the baked goods mean the baker will be executed in three days." },
+        { "verses": "20-23", "label": "Fulfilled and forgotten", "note": "On Pharaoh's birthday the cupbearer is restored and the baker hanged, as Joseph said. But the cupbearer forgets Joseph." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 41:9-13", "from": "8-23", "note": "Two years later the cupbearer remembers his fault and tells Pharaoh how Joseph interpreted their dreams correctly." },
+        { "ref": "Psalm 105:19", "from": "8", "note": "Until what he had said came to pass, the word of the LORD tested him." }
+      ],
+      "tier2": [
+        { "ref": "Daniel 2:27-28", "from": "8", "note": "No wise men can show the king the mystery, but there is a God in heaven who reveals mysteries." },
+        { "ref": "Luke 23:39-43", "from": "13-19, 23", "note": "Two condemned men beside Jesus, one remembered and given life, as Joseph stands between two officials with opposite fates." },
+        { "ref": "Psalm 27:10", "from": "23", "note": "Though others forsake me, the LORD will take me in." },
+        { "ref": "Philippians 2:4", "from": "6-7", "note": "Look to the interests of others; Joseph notices the officials' sadness despite his own suffering." }
+      ],
+      "tier3": [
+        { "ref": "Hebrews 13:3", "from": "1-4", "note": "Remember those in prison, as though in prison with them." },
+        { "ref": "Proverbs 25:19", "from": "23", "note": "Trusting a faithless man in trouble is like a bad tooth or a lame foot." },
+        { "ref": "Matthew 26:27-28", "from": "11", "note": "A cup given into the hand of the king becomes a cup of the new covenant in Jesus." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that Joseph, though suffering unjustly, still pays attention to others' troubles and gives God the credit for his gift. The cupbearer's forgetfulness tests Joseph's patience but also times his release to God's purposes."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton highlights the wordplay on 'lifting the head,' showing how the same phrase announces life to one and death to the other. The narrative's precision underlines the reliability of the God-given interpretation."
+      },
+      {
+        "name": "Alistair Begg",
+        "work": "Sermons on Joseph (Truth for Life)",
+        "view": "Begg draws attention to the two forgotten years as part of God's providence. God's delays are not his denials, and Joseph's waiting prepared him for his calling."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you.",
+        "renderings": [
+          { "version": "ESV", "text": "Do not interpretations belong to God?" },
+          { "version": "NIV", "text": "Do not interpretations belong to God?" },
+          { "version": "CSB", "text": "Don't interpretations belong to God?" }
+        ],
+        "note": "The versions agree. Joseph's first words recorded in Egypt about his gift point away from himself to God."
+      },
+      {
+        "verse": "15",
+        "kjv": "For indeed I was stolen away out of the land of the Hebrews: and here also have I done nothing that they should put me into the dungeon.",
+        "renderings": [
+          { "version": "ESV", "text": "that they should put me into the pit" },
+          { "version": "NIV", "text": "to deserve being put in a dungeon" },
+          { "version": "CSB", "text": "that they should put me in the dungeon" }
+        ],
+        "note": "The ESV's 'pit' keeps the word bor from 37:24, connecting Joseph's two unjust imprisonments. Joseph speaks of being 'stolen' without naming his brothers."
+      }
+    ],
+    "gospel": "Joseph, an innocent man numbered with transgressors, stands between two condemned men and announces life to one and death to the other. Jesus hung between two criminals and promised paradise to one who asked to be remembered (Luke 23:42-43). The cupbearer forgot Joseph, but Christ never forgets those who call on him. And just as Pharaoh restored the cupbearer to put the cup in the king's hand, Christ restores sinners to fellowship with the King, offering the cup of the new covenant in his blood.",
+    "application": [
+      "Notice and care for others even in our own suffering.",
+      "Give God the credit for any gift or insight we have.",
+      "Do not put ultimate hope in people's promises; they may forget, but God will not.",
+      "Wait patiently through delays, trusting God's timing.",
+      "Remember those who have helped us and those who are suffering in prison."
+    ],
+    "misapplications": [
+      {
+        "claim": "Christians should seek to interpret dreams as Joseph did.",
+        "correction": "Joseph's interpretations were special revelation in God's redemptive plan. Believers today are guided chiefly by Scripture, and the chapter's emphasis is that interpretation belongs to God."
+      },
+      {
+        "claim": "Joseph's request to be remembered showed a lack of faith.",
+        "correction": "Using legitimate means to seek justice is not unbelief. Joseph trusted God and also spoke up about his innocence."
+      }
+    ],
+    "contrasts": [
+      { "a": "Head lifted up", "b": "Head lifted off", "verses": "13, 19", "note": "The same phrase brings restoration and death." },
+      { "a": "Cupbearer restored", "b": "Baker executed", "verses": "21-22", "note": "Two officials, two opposite fates, both foretold." },
+      { "a": "Remember me", "b": "Forgot him", "verses": "14, 23", "note": "Human forgetfulness contrasts with God's faithful remembrance." }
+    ],
+    "features": [
+      { "label": "Threes", "note": "Three branches, three baskets and three days structure both dreams and their fulfillment." },
+      { "label": "Pharaoh's birthday", "note": "The first birthday celebration mentioned in Scripture becomes a day of restoration and execution." },
+      { "label": "Double negative", "note": "Verse 23 says the cupbearer 'did not remember' and 'forgot,' stressing his failure." },
+      { "label": "Joseph's compassion", "note": "Joseph asks the officials why their faces are sad (v7), showing care in the midst of his own injustice." }
+    ],
+    "summary": "Genesis 40 shows Joseph faithful in prison, attentive to others and giving God the glory for interpreting dreams. God's word through him comes true exactly, but the cupbearer forgets him, and Joseph must wait two more years. The chapter teaches trust in God's timing and in his faithful remembrance when people forget.",
+    "metaArc": {
+      "book": "This chapter connects Joseph to Pharaoh's court through the cupbearer, preparing for Joseph's summons in chapter 41. The delay heightens the drama of his sudden rise.",
+      "redemptive": "Promise. God prepares the deliverance of his people through the faithfulness of a suffering servant, a pattern fulfilled in Christ."
+    }
+  }
+}

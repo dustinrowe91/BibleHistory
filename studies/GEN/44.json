@@ -1,0 +1,276 @@
+{
+  "ref": "GEN.44",
+  "book": "Genesis",
+  "chapter": 44,
+  "title": "Instead of the Boy",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Joseph plants his silver cup in Benjamin's sack and sends his steward to catch the brothers. When it is found, they tear their clothes and return together. Joseph offers to keep only Benjamin as a slave, giving them the chance to abandon Rachel's son as they once abandoned him. Instead Judah pleads for his father and offers himself as a slave in Benjamin's place.",
+  "keyVerses": [
+    "13",
+    "16",
+    "33",
+    "34"
+  ],
+  "steps": {
+    "language": [
+      {
+        "word": "גָּבִיעַ",
+        "translit": "gaviaʿ",
+        "strongs": "H1375",
+        "gloss": "cup, goblet",
+        "verses": "2, 12, 16, 17",
+        "note": "Joseph's silver cup, which the steward says he uses for divination (v5). Whether Joseph actually practiced divination or this was part of his role-play is debated; the cup is the instrument of the test."
+      },
+      {
+        "word": "מָצָא עָוֹן",
+        "translit": "matsaʾ ʿawon",
+        "gloss": "found out iniquity",
+        "verses": "16",
+        "note": "Judah says, 'God has found out the guilt of your servants.' He is innocent of stealing the cup, so he must mean their old sin against Joseph. He sees God's justice at work."
+      },
+      {
+        "word": "תַּחַת",
+        "translit": "taḥat",
+        "strongs": "H8478",
+        "gloss": "instead of, in place of",
+        "verses": "33",
+        "note": "Judah asks to remain as a slave 'instead of the boy.' It is the same word used when Abraham offered the ram 'instead of' Isaac (22:13). Judah becomes a willing substitute."
+      },
+      {
+        "word": "קָרַע שִׂמְלָה",
+        "translit": "qaraʿ simlah",
+        "gloss": "to tear one's clothes",
+        "verses": "13",
+        "note": "The brothers tear their garments in grief, as Reuben and Jacob did over Joseph (37:29, 34). Now they mourn for Benjamin, a sign that their hearts have changed."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Substitution",
+        "refs": [
+          "Genesis 22:13",
+          "Isaiah 53:4-6",
+          "Mark 10:45",
+          "1 Peter 3:18"
+        ],
+        "note": "Judah's offer to take Benjamin's place is one of the clearest pictures of substitution in Genesis, fulfilled when Christ, the righteous, dies for the unrighteous."
+      },
+      {
+        "theme": "Repentance proven by deeds",
+        "refs": [
+          "Matthew 3:8",
+          "Acts 26:20",
+          "2 Corinthians 7:10-11"
+        ],
+        "note": "The brothers' repentance is shown not only in words (42:21) but in refusing to abandon another favored son."
+      },
+      {
+        "theme": "Judah the leader",
+        "refs": [
+          "Genesis 49:8-10",
+          "1 Chronicles 5:2",
+          "Revelation 5:5"
+        ],
+        "note": "Judah's self-giving leadership here prepares for the scepter that will not depart from him."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). This is the climax of Joseph's testing. The situation recreates the brothers' original sin: a favored son of Rachel will become a slave in Egypt, and the brothers can go free if they abandon him.",
+      "flow": [
+        {
+          "verses": "1-5",
+          "label": "The cup planted",
+          "note": "Joseph orders the steward to fill their sacks, return their money, and put his silver cup in Benjamin's sack. After they leave, he sends the steward after them."
+        },
+        {
+          "verses": "6-13",
+          "label": "The cup found",
+          "note": "The brothers protest innocence and rashly pledge death for the thief. The cup is found in Benjamin's sack. They tear their clothes and all return to the city."
+        },
+        {
+          "verses": "14-17",
+          "label": "Before Joseph",
+          "note": "They fall before Joseph. Judah confesses that God has found out their guilt and offers all of them as slaves. Joseph insists only the one with the cup will stay; the rest may go in peace."
+        },
+        {
+          "verses": "18-34",
+          "label": "Judah's plea",
+          "note": "Judah recounts the story, describes his father's love for Benjamin and grief for Joseph, explains his pledge, and begs to stay as a slave instead of the boy, so his father will not die of grief."
+        }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        {
+          "ref": "Genesis 43:9",
+          "from": "32",
+          "note": "Judah recalls his pledge to be surety for Benjamin."
+        },
+        {
+          "ref": "Genesis 37:26-27",
+          "from": "33",
+          "note": "Judah, who proposed selling Joseph as a slave, now offers to become a slave himself."
+        }
+      ],
+      "tier2": [
+        {
+          "ref": "Isaiah 53:5-6",
+          "from": "33",
+          "note": "He was wounded for our transgressions; the LORD laid on him the iniquity of us all."
+        },
+        {
+          "ref": "John 15:13",
+          "from": "33",
+          "note": "Greater love has no one than this, that someone lay down his life for his friends."
+        },
+        {
+          "ref": "Hebrews 7:14",
+          "from": "18-34",
+          "note": "Our Lord descended from Judah."
+        },
+        {
+          "ref": "Romans 5:7-8",
+          "from": "33-34",
+          "note": "Christ died for us while we were still sinners."
+        }
+      ],
+      "tier3": [
+        {
+          "ref": "Genesis 22:13",
+          "from": "33",
+          "note": "The ram is offered 'instead of' Isaac, the same word as Judah's offer."
+        },
+        {
+          "ref": "Exodus 32:32",
+          "from": "33",
+          "note": "Moses offers to be blotted out of God's book for the people's sake."
+        },
+        {
+          "ref": "Romans 9:3",
+          "from": "33",
+          "note": "Paul could wish himself cut off for the sake of his brothers."
+        }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner calls Judah's speech one of the most moving in Scripture, a complete reversal of the man who sold his brother. Its power lies in its concern for the father and its willingness to sacrifice self."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke sees Judah's offer as proof of genuine transformation and as a foreshadowing of Christ, the Lion of Judah, who substitutes himself for his brothers. Judah's leadership through self-sacrifice qualifies him for the royal line."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Joseph (Redeemer Presbyterian Church)",
+        "view": "Keller has preached that Judah's willingness to take the place of the guilty-looking Benjamin is a picture of the gospel: the true and better Judah, Jesus, took our place and bore our penalty."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "And Judah said, What shall we say unto my lord? what shall we speak? or how shall we clear ourselves? God hath found out the iniquity of thy servants: behold, we are my lord's servants, both we, and he also with whom the cup is found.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "God has found out the guilt of your servants"
+          },
+          {
+            "version": "NIV",
+            "text": "God has uncovered your servants' guilt"
+          },
+          {
+            "version": "CSB",
+            "text": "God has exposed your servants' iniquity"
+          }
+        ],
+        "note": "Judah's words go beyond the cup. He sees God's hand exposing the brothers' long-hidden sin."
+      },
+      {
+        "verse": "33",
+        "kjv": "Now therefore, I pray thee, let thy servant abide instead of the lad a bondman to my lord; and let the lad go up with his brethren.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "let your servant remain instead of the boy"
+          },
+          {
+            "version": "NIV",
+            "text": "as my lord's slave in place of the boy"
+          },
+          {
+            "version": "CSB",
+            "text": "as my lord's slave in place of the boy"
+          }
+        ],
+        "note": "The versions agree. The key word is 'instead of,' the language of substitution."
+      }
+    ],
+    "gospel": "Judah, the brother who once sold Joseph into slavery, now offers himself to become a slave so that guilty-looking Benjamin can go free and his father be spared grief. It is one of the most beautiful pictures of the gospel in the Old Testament. Jesus, descended from Judah, took the place of the guilty, became a servant, and gave his life as a ransom for many (Mark 10:45), so that we could go home to the Father. Judah's transformation shows the power of God's grace to turn a betrayer into a substitute.",
+    "application": [
+      "Show repentance by changed actions, not only words.",
+      "Love others sacrificially, willing to bear costs on their behalf.",
+      "Consider how our choices affect those who love us, as Judah thought of his father.",
+      "Stand together with those under accusation rather than abandoning them.",
+      "Marvel at Christ, who took our place when we were guilty."
+    ],
+    "misapplications": [
+      {
+        "claim": "Joseph's trick with the cup shows deception is acceptable for good ends.",
+        "correction": "Joseph's test was a probing of his brothers' hearts by one in authority, leading to reconciliation. The narrative's focus is the brothers' transformation, not a rule for using deception."
+      },
+      {
+        "claim": "Judah's offer earned forgiveness for his past sin.",
+        "correction": "Judah's offer shows his changed heart; it does not pay for his sin. Forgiveness comes from Joseph's grace in chapter 45, a picture of God's grace."
+      }
+    ],
+    "contrasts": [
+      {
+        "a": "Judah sells Joseph",
+        "b": "Judah offers himself",
+        "verses": "37:27; 44:33",
+        "note": "The same man moves from betrayal to substitution."
+      },
+      {
+        "a": "Abandoning a brother",
+        "b": "Standing with a brother",
+        "verses": "13",
+        "note": "This time all the brothers return together."
+      },
+      {
+        "a": "Guilty",
+        "b": "Substitute",
+        "verses": "16, 33",
+        "note": "Judah confesses guilt and offers himself in the innocent one's place."
+      }
+    ],
+    "features": [
+      {
+        "label": "Recreated situation",
+        "note": "The test mirrors chapter 37: a favored son of Rachel faces slavery in Egypt, and the brothers can go free if they abandon him."
+      },
+      {
+        "label": "Longest speech in Genesis",
+        "note": "Judah's plea (v18-34) is the longest human speech in the book, and it centers on love for his father and willingness to sacrifice."
+      },
+      {
+        "label": "Father mentioned repeatedly",
+        "note": "Judah refers to 'my father' or 'your servant our father' many times, showing new concern for Jacob's grief."
+      },
+      {
+        "label": "Torn clothes",
+        "note": "The brothers tear their clothes as Jacob did over Joseph, the grief they once caused now felt for Benjamin."
+      }
+    ],
+    "summary": "Genesis 44 is the climax of the brothers' testing. Faced with the chance to abandon another favored son of Rachel, they refuse, and Judah offers himself as a slave in Benjamin's place. His speech proves a deep change of heart and stands among the clearest Old Testament pictures of substitution, pointing to Christ.",
+    "metaArc": {
+      "book": "This chapter completes the test begun in chapter 42 and sets up Joseph's self-revelation in chapter 45. Judah's transformation prepares for his royal blessing in chapter 49.",
+      "redemptive": "Redemption foreshadowed. Judah's substitutionary offer anticipates Christ, from the tribe of Judah, who takes the place of the guilty."
+    }
+  }
+}
