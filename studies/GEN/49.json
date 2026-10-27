@@ -1,0 +1,173 @@
+{
+  "ref": "GEN.49",
+  "book": "Genesis",
+  "chapter": 49,
+  "title": "The Scepter Shall Not Depart from Judah",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Jacob gathers his twelve sons and tells them what will happen to them in days to come. Reuben loses preeminence, Simeon and Levi are scattered for their violence, and Judah receives the scepter until the one comes to whom the obedience of the peoples belongs. Joseph receives rich blessings from the Mighty One of Jacob. Jacob charges them to bury him at Machpelah and breathes his last.",
+  "keyVerses": ["1", "8-10", "18", "22-26"],
+  "steps": {
+    "language": [
+      {
+        "word": "בְּאַחֲרִית הַיָּמִים",
+        "translit": "beʾaḥarit hayyamim",
+        "gloss": "in the latter days, days to come",
+        "verses": "1",
+        "note": "Jacob speaks of what will happen 'in the latter days.' The phrase later points to the messianic age (Isaiah 2:2; Daniel 10:14; Hebrews 1:2). His words are prophecy, not just a father's farewell."
+      },
+      {
+        "word": "שֵׁבֶט",
+        "translit": "shevet",
+        "strongs": "H7626",
+        "gloss": "scepter, staff, tribe",
+        "verses": "10, 16, 28",
+        "note": "The scepter is the symbol of royal rule. It will not depart from Judah. The same word also means 'tribe' (v16, 28), a fitting double sense in a chapter about the twelve tribes."
+      },
+      {
+        "word": "שִׁילֹה",
+        "translit": "shiloh",
+        "strongs": "H7886",
+        "gloss": "Shiloh; possibly 'he to whom it belongs' or 'tribute'",
+        "verses": "10",
+        "note": "One of the most debated words in Genesis. It may be a name (Shiloh), or be read as shelloh, 'whose it is,' matching Ezekiel 21:27, 'until he comes whose right it is.' Either way, Jewish and Christian interpreters long read it as messianic."
+      },
+      {
+        "word": "יְשׁוּעָה",
+        "translit": "yeshuʿah",
+        "strongs": "H3444",
+        "gloss": "salvation, deliverance",
+        "verses": "18",
+        "note": "In the middle of the blessings Jacob cries, 'I wait for your salvation, O LORD.' The first use of this noun in Scripture, related to the name Joshua and Jesus (Yeshua)."
+      },
+      {
+        "word": "אֲבִיר יַעֲקֹב",
+        "translit": "ʾAvir Yaʿaqov",
+        "gloss": "the Mighty One of Jacob",
+        "verses": "24",
+        "note": "Jacob piles up titles for God in Joseph's blessing: the Mighty One of Jacob, the Shepherd, the Stone of Israel, the God of your father, the Almighty. The title recurs in Psalm 132:2 and Isaiah 49:26."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Lion of the tribe of Judah",
+        "refs": ["Numbers 24:9, 17", "Revelation 5:5", "Hebrews 7:14"],
+        "note": "Balaam echoes the lion image and foresees a scepter rising from Israel. Revelation calls Jesus the Lion of the tribe of Judah who has conquered."
+      },
+      {
+        "theme": "The coming ruler",
+        "refs": ["Ezekiel 21:27", "Psalm 2:8-9", "Micah 5:2", "Luke 1:32-33"],
+        "note": "A king from Judah to whom the nations will be obedient runs through the prophets to the angel's announcement of Jesus' everlasting reign."
+      },
+      {
+        "theme": "Washing in the blood of grapes",
+        "refs": ["Isaiah 63:1-3", "Revelation 19:13-15", "John 2:1-11"],
+        "note": "The image of garments washed in wine and abundance of vines points to messianic plenty and to the warrior whose robe is dipped in blood."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). This is Jacob's deathbed testament, written in Hebrew poetry. It assigns each son's future role and is the longest poem in Genesis. It frames the tribes' later history in Israel.",
+      "flow": [
+        { "verses": "1-2", "label": "Gather and hear", "note": "Jacob calls his sons to hear what will befall them in days to come." },
+        { "verses": "3-7", "label": "Reuben, Simeon and Levi", "note": "Reuben, unstable as water, loses preeminence for defiling his father's bed. Simeon and Levi are cursed for their violent anger and scattered in Israel." },
+        { "verses": "8-12", "label": "Judah", "note": "Judah will be praised by his brothers, a lion's cub. The scepter will not depart from him until the coming of the one to whom the peoples' obedience belongs, in a time of abundance." },
+        { "verses": "13-21", "label": "Zebulun to Naphtali", "note": "Brief words for Zebulun, Issachar, Dan, Gad, Asher and Naphtali, with Jacob's cry, 'I wait for your salvation, O LORD.'" },
+        { "verses": "22-27", "label": "Joseph and Benjamin", "note": "Joseph, a fruitful bough, was attacked but made strong by the Mighty One of Jacob, and receives abundant blessings. Benjamin is a ravenous wolf." },
+        { "verses": "28-33", "label": "Jacob's death", "note": "These are the twelve tribes. Jacob charges them to bury him at Machpelah with Abraham, Sarah, Isaac, Rebekah and Leah, then draws up his feet and is gathered to his people." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Revelation 5:5", "from": "9", "note": "The Lion of the tribe of Judah, the Root of David, has conquered." },
+        { "ref": "Hebrews 7:14", "from": "10", "note": "It is evident that our Lord was descended from Judah." },
+        { "ref": "1 Chronicles 5:1-2", "from": "3-4, 8", "note": "Reuben's birthright went to Joseph's sons, but Judah became strong, and a ruler came from him." },
+        { "ref": "Hebrews 11:22", "from": "29-32", "note": "By faith Joseph, at his end, gave directions about his bones, as Jacob does here about his burial." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 21:27", "from": "10", "note": "Until he comes, the one to whom judgment belongs." },
+        { "ref": "Numbers 24:17", "from": "10", "note": "A star shall come out of Jacob, and a scepter shall rise out of Israel." },
+        { "ref": "Joshua 19:1-9; 21:1-42", "from": "7", "note": "Simeon's territory is within Judah, and Levi receives cities scattered throughout Israel, fulfilling the word." },
+        { "ref": "Deuteronomy 33", "from": "1-28", "note": "Moses' blessing of the tribes, a later parallel to Jacob's." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 63:1-3", "from": "11", "note": "The one coming from Edom with garments stained red." },
+        { "ref": "Psalm 118:22", "from": "24", "note": "The Stone of Israel anticipates the rejected stone that becomes the cornerstone." },
+        { "ref": "Exodus 32:26-29", "from": "5-7", "note": "Levi's zeal is redirected to God's service, turning the scattering into a priestly blessing." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin reads verse 10 as a prophecy of Christ: Judah's ruling authority would continue in some form until the coming of the Messiah, to whom the nations would gather."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham surveys the interpretations of 'Shiloh' and concludes that the verse points to a ruler from Judah whose reign will bring universal obedience and abundance. He notes that early Jewish interpreters also read it messianically."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner points out that character shapes destiny in the blessings: Reuben's instability and Simeon and Levi's violence cost them, while Judah's transformation brings him leadership. Yet grace triumphs, as Levi later becomes the priestly tribe."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "10",
+        "kjv": "The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come; and unto him shall the gathering of the people be.",
+        "renderings": [
+          { "version": "ESV", "text": "until tribute comes to him" },
+          { "version": "NIV", "text": "until he to whom it belongs shall come" },
+          { "version": "CSB", "text": "until he whose right it is comes" }
+        ],
+        "note": "The KJV keeps 'Shiloh' as a name; the others read it as 'tribute to him' or 'he to whom it belongs.' All agree that the verse looks to a ruler from Judah whom the peoples will obey."
+      },
+      {
+        "verse": "18",
+        "kjv": "I have waited for thy salvation, O LORD.",
+        "renderings": [
+          { "version": "ESV", "text": "I wait for your salvation, O LORD" },
+          { "version": "NIV", "text": "I look for your deliverance, LORD" },
+          { "version": "CSB", "text": "I wait for your salvation, LORD" }
+        ],
+        "note": "A sudden prayer in the middle of the blessings. The word yeshuʿah is the root of the name Jesus."
+      }
+    ],
+    "gospel": "Jacob's prophecy narrows the promise of the seed to the tribe of Judah: the scepter will remain there until the coming of the one to whom the nations will give obedience. Jesus, born of Judah's line, is the Lion of the tribe of Judah and the King whose reign brings the abundance pictured in vines and wine. Jacob's prayer, 'I wait for your salvation, O LORD,' uses the very word from which Jesus' name comes. The shepherd and stone of Israel named in Joseph's blessing also find their fulfillment in Christ.",
+    "application": [
+      "Recognize that our character and choices have lasting consequences.",
+      "Wait for God's salvation with patient hope, as Jacob did on his deathbed.",
+      "Worship Jesus as the King from Judah to whom all nations owe obedience.",
+      "Take courage from Joseph's blessing: those attacked can be made strong by the Mighty One of Jacob.",
+      "Remember that grace can redeem even a heritage of judgment, as with Levi."
+    ],
+    "misapplications": [
+      {
+        "claim": "The blessings are just a father's opinions about his sons' personalities.",
+        "correction": "Jacob speaks of the 'latter days,' and later history confirms the words (Judah's kingship, Levi's scattering). The New Testament reads verse 10 as fulfilled in Christ."
+      },
+      {
+        "claim": "Simeon and Levi's curse means God permanently rejected those tribes.",
+        "correction": "Levi's scattering became the priestly calling (Exodus 32:29; Numbers 18), showing God's grace transforming judgment into blessing."
+      }
+    ],
+    "contrasts": [
+      { "a": "Reuben, unstable", "b": "Judah, the lion", "verses": "4, 9", "note": "The firstborn loses preeminence; the fourth son receives the scepter." },
+      { "a": "Violent anger cursed", "b": "Joseph blessed", "verses": "5-7, 22-26", "note": "The brothers who harmed and the brother who was harmed receive opposite words." },
+      { "a": "Attacked", "b": "Made strong", "verses": "23-24", "note": "Joseph's enemies shot at him, but God strengthened his arms." }
+    ],
+    "features": [
+      { "label": "Poetry", "note": "The chapter is written in Hebrew poetry full of animal imagery: lion, donkey, serpent, deer, wolf." },
+      { "label": "Judah's wordplay", "note": "Judah (yehudah) will be praised (yoduka) by his brothers, a play on his name meaning praise." },
+      { "label": "Mid-poem prayer", "note": "Jacob's cry in verse 18 breaks the pattern, turning prophecy into prayer." },
+      { "label": "Twelve tribes", "note": "Verse 28 is the first time the sons are called 'the twelve tribes of Israel.'" }
+    ],
+    "summary": "Genesis 49 is Jacob's prophetic testament to his twelve sons. It explains the destinies of the tribes, with judgment on Reuben, Simeon and Levi, and richest blessing on Judah and Joseph. Judah receives the royal scepter until the coming of the one whom the nations will obey, a prophecy fulfilled in Jesus. Jacob dies in faith, waiting for God's salvation.",
+    "metaArc": {
+      "book": "This chapter brings the patriarchal story to its climax, defining the twelve tribes and the royal tribe of Judah. It closes Jacob's life and leads to his burial in chapter 50.",
+      "redemptive": "Promise. The seed promise of 3:15 and 12:3 narrows to Judah, pointing to David and finally to Christ, the Lion of Judah, whose reign brings the nations' obedience."
+    }
+  }
+}

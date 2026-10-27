@@ -1,0 +1,165 @@
+{
+  "ref": "GEN.42",
+  "book": "Genesis",
+  "chapter": 42,
+  "title": "We Are Guilty Concerning Our Brother",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Famine drives Joseph's ten brothers to Egypt to buy grain, and they bow before him without recognizing him. Joseph remembers his dreams, accuses them of spying, and tests them, keeping Simeon until they bring Benjamin. Their consciences awaken: they confess their guilt over Joseph. Jacob, finding their money returned, refuses to let Benjamin go.",
+  "keyVerses": ["6", "8-9", "21", "36"],
+  "steps": {
+    "language": [
+      {
+        "word": "נָכַר",
+        "translit": "nakar",
+        "strongs": "H5234",
+        "gloss": "to recognize; (in another form) to act as a stranger",
+        "verses": "7, 8",
+        "note": "Joseph 'recognized' them but 'made himself a stranger' to them, the same root used two ways. They did not recognize him. The root recalls the brothers' 'please identify' with Joseph's robe (37:32) and Tamar's with Judah (38:25)."
+      },
+      {
+        "word": "אֲשֵׁמִים",
+        "translit": "ʾashemim",
+        "strongs": "H818",
+        "gloss": "guilty",
+        "verses": "21",
+        "note": "The first confession by the brothers. They link their present distress to their sin against Joseph twenty years earlier. Guilt long buried surfaces under pressure."
+      },
+      {
+        "word": "צָרָה",
+        "translit": "tsarah",
+        "strongs": "H6869",
+        "gloss": "distress, anguish",
+        "verses": "21",
+        "note": "Used twice in one verse: they saw the distress of Joseph's soul, and now this distress has come on them. The repeated word shows they understand it as fitting consequence."
+      },
+      {
+        "word": "בָּחַן",
+        "translit": "baḥan",
+        "strongs": "H974",
+        "gloss": "to test, prove",
+        "verses": "15, 16",
+        "note": "Joseph says, 'By this you shall be tested.' The word is used of God testing hearts (Psalm 139:23; Jeremiah 17:10). Joseph's tests are aimed at revealing whether his brothers have changed."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Conscience and confession",
+        "refs": ["Psalm 32:3-5", "Proverbs 28:13", "Numbers 32:23", "1 John 1:9"],
+        "note": "Hidden sin weighs on the conscience until it is confessed. 'Be sure your sin will find you out.'"
+      },
+      {
+        "theme": "The dreams fulfilled",
+        "refs": ["Genesis 37:5-10", "Genesis 43:26", "Genesis 44:14", "Genesis 50:18"],
+        "note": "The brothers bow to Joseph repeatedly in Egypt, fulfilling the dreams they mocked."
+      },
+      {
+        "theme": "Not recognizing the deliverer",
+        "refs": ["John 1:10-11", "Luke 24:16", "Acts 7:13"],
+        "note": "The brothers do not recognize Joseph the first time; Stephen notes that on the second visit he made himself known, a pattern he applies to Israel and Jesus."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). The seven years of plenty are over, and the famine reaches Canaan. About twenty-two years have passed since Joseph was sold. The brothers' journeys to Egypt (chapters 42-45) are a carefully paced drama of testing and repentance.",
+      "flow": [
+        { "verses": "1-5", "label": "Sent to Egypt", "note": "Jacob sends ten sons to buy grain but keeps Benjamin, fearing harm to him." },
+        { "verses": "6-17", "label": "Bowing before Joseph", "note": "The brothers bow to the governor. Joseph recognizes them, remembers his dreams, accuses them of spying, and puts them in custody three days." },
+        { "verses": "18-24", "label": "Confession", "note": "Joseph keeps one brother and sends the rest home for Benjamin. The brothers confess their guilt over Joseph, not knowing he understands. Joseph turns away and weeps, then binds Simeon." },
+        { "verses": "25-28", "label": "Money returned", "note": "Joseph secretly returns their money. When one finds it, they tremble: what is this that God has done to us?" },
+        { "verses": "29-38", "label": "Jacob's refusal", "note": "They report to Jacob, finding all their money returned. Jacob says everything is against him and refuses to send Benjamin, despite Reuben's offer of his own sons." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 37:5-9", "from": "6, 9", "note": "Joseph remembers the dreams of his brothers' sheaves bowing to his." },
+        { "ref": "Acts 7:12-13", "from": "1-3", "note": "Jacob heard there was grain in Egypt and sent out our fathers the first time; on the second visit Joseph made himself known." },
+        { "ref": "Genesis 37:21-22", "from": "22", "note": "Reuben reminds them he told them not to sin against the boy." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 32:3-4", "from": "21", "note": "When I kept silent, my bones wasted away; your hand was heavy upon me." },
+        { "ref": "Numbers 32:23", "from": "21-22", "note": "Be sure your sin will find you out." },
+        { "ref": "Romans 8:28", "from": "36", "note": "Jacob thinks all things are against him; in fact God is working all things for good." },
+        { "ref": "Hebrews 12:11", "from": "15-20", "note": "Discipline seems painful at the moment but yields the peaceful fruit of righteousness." }
+      ],
+      "tier3": [
+        { "ref": "Luke 24:16", "from": "8", "note": "The disciples on the road to Emmaus are kept from recognizing the risen Jesus." },
+        { "ref": "John 11:35", "from": "24", "note": "Jesus weeps, as Joseph wept over his brothers." },
+        { "ref": "Proverbs 25:21-22", "from": "25", "note": "If your enemy is hungry, give him bread, which heaps coals on his head." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner sees Joseph's harshness not as revenge but as a means of testing and awakening his brothers' consciences. The weeping in verse 24 reveals that his heart is toward them, even while his manner is stern."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke stresses that the real question of chapters 42-44 is whether the brothers have changed, especially whether they will abandon another favored son of Rachel. The tests recreate the situation of their original sin."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin notes how God uses affliction to bring long-hidden sin to remembrance. The brothers had lived twenty years with a hardened conscience until trouble forced them to look at what they had done."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "And they said one to another, We are verily guilty concerning our brother, in that we saw the anguish of his soul, when he besought us, and we would not hear; therefore is this distress come upon us.",
+        "renderings": [
+          { "version": "ESV", "text": "In truth we are guilty concerning our brother" },
+          { "version": "NIV", "text": "Surely we are being punished because of our brother" },
+          { "version": "CSB", "text": "Obviously, we are being punished for what we did" }
+        ],
+        "note": "ʾAshemim can mean guilty or bearing the penalty of guilt. ESV and KJV emphasize the confession; NIV and CSB emphasize the consequence."
+      },
+      {
+        "verse": "36",
+        "kjv": "And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.",
+        "renderings": [
+          { "version": "ESV", "text": "All this has come against me" },
+          { "version": "NIV", "text": "Everything is against me!" },
+          { "version": "CSB", "text": "Everything happens to me!" }
+        ],
+        "note": "Jacob's despair is the opposite of the truth: everything was working toward his family's rescue. The reader knows what Jacob does not."
+      }
+    ],
+    "gospel": "The brothers stand before the one they rejected, now lord of all the land and holding the bread of life, and they do not recognize him. Their consciences are stirred and they confess their sin. The gospel follows the same path: the Christ we rejected is exalted, the Spirit convicts of sin, and confession leads to reconciliation. Joseph's tears as he hears their confession reflect the heart of Christ, who longs over those who wronged him and provides for them before they know who he is.",
+    "application": [
+      "Let hardship prompt honest self-examination and confession of hidden sin.",
+      "Recognize that unconfessed sin weighs on the conscience, even decades later.",
+      "Remember that what feels like 'everything against me' may be God working for our good.",
+      "When wronged, seek the restoration of those who hurt us, not revenge.",
+      "Show kindness to those who have wronged us, as Joseph returned his brothers' money."
+    ],
+    "misapplications": [
+      {
+        "claim": "Joseph was simply getting revenge on his brothers.",
+        "correction": "Joseph weeps (v24), provides for them, and returns their money. His tests aim at their repentance and the family's restoration."
+      },
+      {
+        "claim": "Every hardship is direct punishment for a specific past sin.",
+        "correction": "The brothers interpret their trouble that way, and here it does expose their guilt. But Scripture warns against assuming every suffering is punishment (John 9:2-3)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Joseph recognizes", "b": "Brothers do not recognize", "verses": "7-8", "note": "The one they sold knows them; they do not know him." },
+      { "a": "Stern words", "b": "Secret tears", "verses": "7, 24", "note": "Joseph's outward harshness hides inward compassion." },
+      { "a": "All things against me", "b": "God working for good", "verses": "36; 50:20", "note": "Jacob's despair is the reverse of reality." }
+    ],
+    "features": [
+      { "label": "Dramatic irony", "note": "The reader knows the governor is Joseph and understands their Hebrew, though they do not, giving every exchange double meaning." },
+      { "label": "Three days", "note": "Joseph holds them three days, perhaps recalling his own time in the pit and prison." },
+      { "label": "What has God done?", "note": "The brothers' first mention of God (v28) comes when they find the money, sensing his hand in their trouble." },
+      { "label": "Reuben's rash offer", "note": "Reuben offers his two sons' lives as surety, an offer Jacob rejects; Judah's later pledge of himself will succeed." }
+    ],
+    "summary": "Genesis 42 begins the reunion of Joseph and his brothers. The dreams are fulfilled as they bow before him, but Joseph tests them, and their buried guilt surfaces in confession. Jacob despairs, not knowing that God is working all things toward the rescue of his family.",
+    "metaArc": {
+      "book": "This chapter launches the testing sequence of chapters 42-44, which will reveal whether the brothers have changed and lead to the great reconciliation in chapter 45.",
+      "redemptive": "Promise. God uses famine and testing to bring Jacob's family to repentance and toward preservation in Egypt, foreshadowing the way Christ brings sinners to confession and reconciliation."
+    }
+  }
+}

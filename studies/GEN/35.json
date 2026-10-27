@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.35",
+  "book": "Genesis",
+  "chapter": 35,
+  "title": "Back to Bethel",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God calls Jacob back to Bethel. Jacob purifies his household, burying their foreign gods, and God protects them on the road. At Bethel God confirms the name Israel and the promises of Abraham. Then come three deaths: Deborah, Rachel in giving birth to Benjamin, and Isaac. Reuben's sin is noted, and the twelve sons are listed.",
+  "keyVerses": ["2-3", "10-12", "18", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "אֱלֹהֵי הַנֵּכָר",
+        "translit": "ʾelohe hannekar",
+        "gloss": "foreign gods",
+        "verses": "2, 4",
+        "note": "The household gods from Haran, perhaps including Rachel's stolen teraphim and plunder from Shechem. Before meeting God at Bethel, Jacob's household must put them away. Joshua uses the same words at the same place, Shechem (Joshua 24:23)."
+      },
+      {
+        "word": "חִתַּת אֱלֹהִים",
+        "translit": "ḥittat ʾelohim",
+        "gloss": "a terror from God",
+        "verses": "5",
+        "note": "After the massacre at Shechem, Jacob feared attack (34:30). God sends a dread on the surrounding cities so no one pursues. God protects the family despite their sin."
+      },
+      {
+        "word": "אֵל שַׁדַּי",
+        "translit": "ʾEl Shaddai",
+        "strongs": "H7706",
+        "gloss": "God Almighty",
+        "verses": "11",
+        "note": "God reveals himself to Jacob with the name he used to Abraham in 17:1 and repeats the creation blessing: be fruitful and multiply, with nations and kings coming from him."
+      },
+      {
+        "word": "בִּנְיָמִין",
+        "translit": "Binyamin",
+        "strongs": "H1144",
+        "gloss": "son of the right hand",
+        "verses": "18",
+        "note": "Dying Rachel names her son Ben-oni, 'son of my sorrow.' Jacob renames him Benjamin, 'son of the right hand,' a place of honor and strength, turning sorrow into hope."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Putting away idols",
+        "refs": ["Joshua 24:14, 23", "1 Samuel 7:3", "2 Corinthians 6:16-7:1", "1 John 5:21"],
+        "note": "Renewed worship begins with removing rival gods. Joshua, Samuel and the apostles call God's people to the same."
+      },
+      {
+        "theme": "Rachel weeping",
+        "refs": ["Jeremiah 31:15", "Matthew 2:18", "1 Samuel 10:2"],
+        "note": "Rachel's death near Bethlehem becomes an image of Israel's mothers mourning their children, applied by Matthew to Herod's massacre."
+      },
+      {
+        "theme": "Kings from Jacob",
+        "refs": ["Genesis 17:6, 16", "Genesis 49:10", "2 Samuel 7:12-16", "Matthew 1:1"],
+        "note": "God promises that kings will come from Jacob's body, fulfilled in David and supremely in Christ, the son of David."
+      }
+    ],
+    "context": {
+      "setting": "The final chapter of the toledot of Isaac (25:19-35:29). After the disaster at Shechem, God calls Jacob to fulfill the vow he made at Bethel decades earlier (28:20-22). The chapter ties up Jacob's story before the toledot of Esau (chapter 36) and of Jacob (Joseph's story, chapters 37-50).",
+      "flow": [
+        { "verses": "1-5", "label": "Purifying the household", "note": "God tells Jacob to go to Bethel. Jacob orders his household to put away foreign gods, purify themselves and change clothes. He buries the idols under the oak at Shechem, and a terror from God protects them." },
+        { "verses": "6-8", "label": "Altar at Bethel", "note": "Jacob builds an altar and names the place El-bethel. Deborah, Rebekah's nurse, dies and is buried there." },
+        { "verses": "9-15", "label": "God confirms the promise", "note": "God appears again, confirms the name Israel, reveals himself as God Almighty, and repeats the promises of nations, kings and land. Jacob sets up a pillar and pours a drink offering and oil on it." },
+        { "verses": "16-20", "label": "Rachel's death", "note": "On the way to Ephrath (Bethlehem), Rachel dies giving birth to Benjamin. Jacob sets a pillar on her grave." },
+        { "verses": "21-29", "label": "Reuben, the sons and Isaac", "note": "Reuben sleeps with Bilhah, and Israel hears of it. The twelve sons are listed by their mothers. Isaac dies at 180, and Esau and Jacob bury him." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 28:20-22", "from": "1-7", "note": "Jacob's Bethel vow is fulfilled: God brought him back, and Jacob returns to worship." },
+        { "ref": "Hosea 12:4", "from": "9-15", "note": "Jacob found God at Bethel, and there God spoke with us." },
+        { "ref": "Genesis 49:3-4", "from": "22", "note": "Reuben loses preeminence because he went up to his father's bed." },
+        { "ref": "Matthew 2:18", "from": "16-20", "note": "Matthew quotes Jeremiah's words about Rachel weeping for her children." }
+      ],
+      "tier2": [
+        { "ref": "Joshua 24:23", "from": "2-4", "note": "Joshua, at Shechem, tells Israel to put away the foreign gods among them." },
+        { "ref": "1 Chronicles 5:1", "from": "22", "note": "Reuben's birthright passes to Joseph's sons because of this sin." },
+        { "ref": "Genesis 17:1-8", "from": "11-12", "note": "God Almighty's promises to Abraham are repeated to Jacob." },
+        { "ref": "1 John 5:21", "from": "2", "note": "Little children, keep yourselves from idols." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 1:28", "from": "11", "note": "The creation command to be fruitful and multiply is renewed to Jacob." },
+        { "ref": "Psalm 110:1", "from": "18", "note": "Sit at my right hand, the honored place echoed in Benjamin's name." },
+        { "ref": "Micah 5:2", "from": "19", "note": "Bethlehem Ephrathah, where Rachel was buried, is where the ruler of Israel will be born." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner sees the return to Bethel as Jacob's spiritual renewal after the Shechem disaster: obedience, purification and worship. The chapter's mix of revelation and bereavement shows that God's promises carry his people through real loss."
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry draws practical lessons on family reformation: heads of households should lead their families in putting away sin and preparing to meet God, as Jacob did."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke notes that the chapter closes Jacob's story by echoing its start: Bethel, the name Israel, and the promises. Rachel's death near Bethlehem and the renaming of Benjamin mark both sorrow and hope."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "Then Jacob said unto his household, and to all that were with him, Put away the strange gods that are among you, and be clean, and change your garments:",
+        "renderings": [
+          { "version": "ESV", "text": "Put away the foreign gods" },
+          { "version": "NIV", "text": "Get rid of the foreign gods" },
+          { "version": "CSB", "text": "Get rid of the foreign gods" }
+        ],
+        "note": "'Strange' in the KJV means foreign. Purification and new clothing symbolize a fresh start before meeting God, as at Sinai (Exodus 19:10)."
+      },
+      {
+        "verse": "18",
+        "kjv": "And it came to pass, as her soul was in departing, (for she died) that she called his name Benoni: but his father called him Benjamin.",
+        "renderings": [
+          { "version": "ESV", "text": "as her soul was departing" },
+          { "version": "NIV", "text": "As she breathed her last" },
+          { "version": "CSB", "text": "With her last breath" }
+        ],
+        "note": "Nefesh can mean soul, life or breath. The verse describes Rachel's death, not a technical statement about the soul, though Scripture elsewhere affirms life beyond death."
+      }
+    ],
+    "gospel": "God calls Jacob back to the place of grace, and renewed fellowship begins with putting away idols. God then confirms his name and promises, including that kings will come from Jacob. Near Bethlehem Rachel dies, mourning a 'son of sorrow,' whom Jacob renames 'son of the right hand.' Centuries later, in Bethlehem, a son was born who would be a man of sorrows and be exalted to God's right hand. Christ turns our sorrow into joy and fulfills the promise of a king from Jacob's line.",
+    "application": [
+      "Return to God after spiritual decline, beginning with putting away idols.",
+      "Lead our households in repentance and renewed worship.",
+      "Keep the vows we make to God, even if delayed.",
+      "Grieve losses honestly while holding to God's promises.",
+      "Remember that sin like Reuben's has lasting consequences."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jacob's pillar and drink offering support using sacred objects in worship today.",
+        "correction": "Jacob's pillar marked a place of revelation in the patriarchal era. Later the law forbade sacred pillars associated with idolatry; Christian worship centers on Christ."
+      },
+      {
+        "claim": "Renewed obedience guarantees a life free of grief.",
+        "correction": "Right after God's renewed promise, Jacob loses Deborah, Rachel and Isaac. God's promises sustain through grief rather than preventing it."
+      }
+    ],
+    "contrasts": [
+      { "a": "Foreign gods", "b": "God Almighty", "verses": "2, 11", "note": "Idols are buried; the living God reveals himself." },
+      { "a": "Son of my sorrow", "b": "Son of the right hand", "verses": "18", "note": "Jacob turns a name of grief into a name of hope." },
+      { "a": "Promise of fruitfulness", "b": "Death", "verses": "11, 16-29", "note": "God promises life, and the chapter is framed by three deaths." }
+    ],
+    "features": [
+      { "label": "Three burials", "note": "Deborah, Rachel and Isaac all die in this chapter, marking the end of an era." },
+      { "label": "Bethel bookends", "note": "Jacob's journey that began at Bethel in chapter 28 closes at Bethel, with the same promises and a pillar." },
+      { "label": "Twelve complete", "note": "With Benjamin's birth, the twelve tribes are complete, and the list in verses 23-26 marks a structural end." },
+      { "label": "Esau and Jacob together", "note": "As Isaac and Ishmael buried Abraham, Esau and Jacob bury Isaac, a sign of their reconciliation." }
+    ],
+    "summary": "Genesis 35 shows Jacob's spiritual renewal at Bethel: idols put away, worship restored and God's promises confirmed. It also records deep grief, including Rachel's death and Isaac's passing. With Benjamin's birth, the twelve tribes are complete, and the story is ready to move to the next generation.",
+    "metaArc": {
+      "book": "This chapter closes the toledot of Isaac and Jacob's own story as the main actor. It completes the twelve sons and sets up the Joseph narrative, with Reuben's fall and Benjamin's birth important later.",
+      "redemptive": "Promise. God confirms that kings will come from Jacob, a promise fulfilled in David and in Christ, born in Bethlehem near Rachel's tomb."
+    }
+  }
+}

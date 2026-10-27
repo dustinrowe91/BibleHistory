@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.24",
+  "book": "Genesis",
+  "chapter": 24,
+  "title": "A Bride for Isaac",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Abraham sends his trusted servant back to his homeland to find a wife for Isaac from his own family, not from the Canaanites. The servant prays for guidance, and God leads him to Rebekah, who willingly leaves home to marry Isaac. The chapter shows God's steadfast love guiding ordinary steps to keep the promise moving.",
+  "keyVerses": ["12-14", "27", "58", "67"],
+  "steps": {
+    "language": [
+      {
+        "word": "חֶסֶד",
+        "translit": "ḥesed",
+        "strongs": "H2617",
+        "gloss": "steadfast love, loyal kindness",
+        "verses": "12, 14, 27, 49",
+        "note": "A key covenant word meaning faithful love that keeps commitments. The servant asks God to show ḥesed to Abraham, sees it in Rebekah's kindness, and praises God for it. It appears four times in the chapter."
+      },
+      {
+        "word": "אֱמֶת",
+        "translit": "ʾemet",
+        "strongs": "H571",
+        "gloss": "faithfulness, truth, reliability",
+        "verses": "27, 48, 49",
+        "note": "Often paired with ḥesed, it describes God's dependability. The servant blesses God who has not forsaken his steadfast love and faithfulness; John 1:14 says Jesus was full of grace and truth, echoing this pair."
+      },
+      {
+        "word": "הִקְרָה",
+        "translit": "hiqrah",
+        "strongs": "H7136",
+        "gloss": "to make happen, cause to meet",
+        "verses": "12",
+        "note": "The servant prays, 'make it happen for me today.' What looks like a chance meeting at the well is God's providence arranging events. The root qarah often means an apparent coincidence God directs (Ruth 2:3)."
+      },
+      {
+        "word": "מַלְאָךְ",
+        "translit": "malʾak",
+        "strongs": "H4397",
+        "gloss": "angel, messenger",
+        "verses": "7, 40",
+        "note": "Abraham assures the servant that God will send his angel before him. No angel appears visibly in the chapter, but God's guiding hand is evident throughout."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's guiding providence",
+        "refs": ["Proverbs 3:5-6", "Proverbs 16:9", "Psalm 37:23", "Romans 8:28"],
+        "note": "The heart plans its way, but the LORD establishes its steps. The servant's journey is a narrative illustration of these proverbs."
+      },
+      {
+        "theme": "Marriage within the faith",
+        "refs": ["Genesis 28:1-2", "Deuteronomy 7:3-4", "2 Corinthians 6:14", "1 Corinthians 7:39"],
+        "note": "Abraham refuses a Canaanite bride, as Isaac later instructs Jacob. Paul tells believers to marry 'only in the Lord.'"
+      },
+      {
+        "theme": "Meetings at a well",
+        "refs": ["Genesis 29:1-12", "Exodus 2:15-21", "John 4:5-26"],
+        "note": "Wells are places of divine appointments in Scripture: Jacob meets Rachel, Moses meets Zipporah, and Jesus meets the Samaritan woman."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11), the longest chapter in Genesis. With Sarah dead and Abraham old, the promise must move to the next generation. Isaac must not marry a Canaanite, nor may he return to Mesopotamia, so the servant must bring a bride back to the land.",
+      "flow": [
+        { "verses": "1-9", "label": "The oath", "note": "Abraham makes his servant swear to find Isaac a wife from his kindred, not to take Isaac back there, and trusts God to send his angel ahead." },
+        { "verses": "10-27", "label": "Prayer at the well", "note": "At the well in Nahor's city, the servant asks for a sign: the young woman who offers to water his camels. Before he finishes praying, Rebekah comes and does exactly that. He worships." },
+        { "verses": "28-49", "label": "The servant's account", "note": "Laban welcomes him. Before eating, the servant tells the whole story, emphasizing the LORD's guidance, and asks for an answer." },
+        { "verses": "50-61", "label": "I will go", "note": "Laban and Bethuel say the matter is from the LORD. The family wants delay, but Rebekah answers, 'I will go,' and leaves with a blessing." },
+        { "verses": "62-67", "label": "Isaac and Rebekah", "note": "Isaac, meditating in the field at evening, sees the camels. Rebekah veils herself. Isaac takes her into Sarah's tent, loves her, and is comforted after his mother's death." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 12:7", "from": "7", "note": "Abraham recalls God's promise to give the land to his offspring, the reason Isaac must not leave it." },
+        { "ref": "Genesis 22:23", "from": "15, 24", "note": "Rebekah's birth to Bethuel was announced at the end of chapter 22, preparing for this chapter." }
+      ],
+      "tier2": [
+        { "ref": "Proverbs 19:14", "from": "14, 50", "note": "House and wealth are inherited from fathers, but a prudent wife is from the LORD." },
+        { "ref": "Proverbs 16:9", "from": "12-27", "note": "The heart of man plans his way, but the LORD establishes his steps." },
+        { "ref": "Ephesians 5:25-27", "from": "58, 67", "note": "Christ loves the church as his bride, as Isaac loved Rebekah." },
+        { "ref": "2 Corinthians 11:2", "from": "4", "note": "Paul betroths the church to one husband, Christ, like a servant presenting a bride." }
+      ],
+      "tier3": [
+        { "ref": "Ruth 2:3", "from": "12", "note": "Ruth 'happened' to come to Boaz's field, the same root as the servant's prayer, showing providence in ordinary events." },
+        { "ref": "John 4:7", "from": "17", "note": "Jesus asks a woman at a well for a drink, as the servant did." },
+        { "ref": "Revelation 19:7-9", "from": "67", "note": "The marriage of the Lamb, the final union of Christ and his bride." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner calls this one of the most charming stories in Genesis and highlights the servant's prayerful dependence and his habit of immediately giving thanks. God's guidance comes through prayer, providence and ordinary means."
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry draws lessons on choosing a spouse wisely and prayerfully, and on Rebekah's diligence and kindness. He notes that the servant put his master's business before his own meal."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke observes that the chapter is a model of providence: God never speaks directly, yet his guidance is unmistakable. He also notes the servant's selflessness; he is never named, keeping attention on his master and on God."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "27",
+        "kjv": "And he said, Blessed be the LORD God of my master Abraham, who hath not left destitute my master of his mercy and his truth: I being in the way, the LORD led me to the house of my master's brethren.",
+        "renderings": [
+          { "version": "ESV", "text": "his steadfast love and his faithfulness" },
+          { "version": "NIV", "text": "his kindness and faithfulness" },
+          { "version": "CSB", "text": "his kindness and faithfulness" }
+        ],
+        "note": "Ḥesed is hard to translate: 'mercy,' 'kindness' and 'steadfast love' each capture part of it. The pairing with ʾemet emphasizes God's loyal, dependable love."
+      },
+      {
+        "verse": "63",
+        "kjv": "And Isaac went out to meditate in the field at the eventide: and he lifted up his eyes, and saw, and, behold, the camels were coming.",
+        "renderings": [
+          { "version": "ESV", "text": "to meditate in the field toward evening" },
+          { "version": "NIV", "text": "to meditate" },
+          { "version": "CSB", "text": "to walk in the field" }
+        ],
+        "note": "The Hebrew verb is rare and uncertain; it may mean meditate, pray, or walk. Most versions follow the traditional sense of quiet reflection."
+      }
+    ],
+    "gospel": "A trusted servant goes to a far country to seek a bride for the beloved son of the father, and the bride leaves her home to come to a son she has not yet seen. Many readers have seen here a picture of the gospel: the Father sends the Spirit and his messengers to call a bride for his Son, and the church, loving Christ though she has not seen him (1 Peter 1:8), leaves the old life to belong to him. The story also shows God's ḥesed and ʾemet, the grace and truth that come in full in Jesus Christ (John 1:14).",
+    "application": [
+      "Pray specifically for guidance in decisions, and then watch for God's answer in ordinary events.",
+      "Give thanks immediately when God answers, as the servant did.",
+      "Seek a spouse who shares faith in the Lord, and value character such as kindness and diligence.",
+      "Be faithful in serving others' interests, as the unnamed servant served his master.",
+      "Respond decisively when God's will is clear, like Rebekah's 'I will go.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "The servant's sign shows we should decide major issues by setting up tests for God.",
+        "correction": "The servant asked for a sign that tested character (generous hospitality), within God's revealed will and after prayer. Scripture warns against putting God to the test, and believers today are guided chiefly by Scripture, wisdom and counsel."
+      },
+      {
+        "claim": "Arranged marriage is the only biblical model for finding a spouse.",
+        "correction": "The chapter describes the custom of its time. Its lasting lessons are prayer, faithfulness to God, wise character and dependence on providence, which apply in many cultures."
+      }
+    ],
+    "contrasts": [
+      { "a": "Canaanite wives", "b": "A bride from Abraham's family", "verses": "3-4", "note": "Isaac's marriage must not compromise the covenant line." },
+      { "a": "Delay", "b": "I will go", "verses": "55-58", "note": "Rebekah's family hesitates; Rebekah decides." },
+      { "a": "Grief for his mother", "b": "Comfort in his wife", "verses": "67", "note": "The chapter ends with love healing loss." }
+    ],
+    "features": [
+      { "label": "Longest chapter in Genesis", "note": "The story is told twice, once as narrative and once by the servant (v34-49), emphasizing God's guidance." },
+      { "label": "An unnamed servant", "note": "The servant is never named, keeping the focus on Abraham, Isaac and above all the LORD." },
+      { "label": "Before I had finished", "note": "Rebekah arrives before the servant finishes praying (v15, 45), a picture of God's readiness to answer (Isaiah 65:24)." },
+      { "label": "Rebekah's energy", "note": "Rebekah hurries, runs, and draws water for ten camels, which could require a very large quantity, showing exceptional generosity and strength." }
+    ],
+    "summary": "Genesis 24 shows God's steadfast love guiding the ordinary steps of a faithful servant to provide a bride for Isaac and so carry the promise into the next generation. Prayer, providence and willing obedience meet. Rebekah's choice to leave home and go to Isaac mirrors Abraham's own call, and the marriage brings comfort after grief.",
+    "metaArc": {
+      "book": "This chapter transfers the promise to Isaac's household. Rebekah becomes the next matriarch and, like Sarah, will face barrenness before bearing the next heir.",
+      "redemptive": "Promise. God preserves the covenant line through a marriage he arranges, a story many have read as an image of Christ and his bride, the church."
+    }
+  }
+}

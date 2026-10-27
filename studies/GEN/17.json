@@ -1,0 +1,176 @@
+{
+  "ref": "GEN.17",
+  "book": "Genesis",
+  "chapter": 17,
+  "title": "Father of Many Nations",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "When Abram is 99, God Almighty appears, renames him Abraham, father of many nations, and establishes an everlasting covenant to be his God and his offspring's God. Circumcision is the sign. Sarai is renamed Sarah and promised a son, Isaac, within a year; Abraham laughs, and obeys the same day.",
+  "keyVerses": ["1", "5", "7", "19"],
+  "steps": {
+    "language": [
+      {
+        "word": "אֵל שַׁדַּי",
+        "translit": "ʾEl Shaddai",
+        "strongs": "H7706",
+        "gloss": "God Almighty",
+        "verses": "1",
+        "note": "The first use of this name, which appears especially in contexts of fruitfulness and promise (28:3; 35:11; 48:3). Its exact derivation is debated, but it presents God as all-powerful, able to give life where it is humanly impossible."
+      },
+      {
+        "word": "תָּמִים",
+        "translit": "tamim",
+        "strongs": "H8549",
+        "gloss": "blameless, whole, complete",
+        "verses": "1",
+        "note": "Used of sacrificial animals without blemish and of Noah (6:9). It means wholehearted integrity rather than sinless perfection: a life undivided in loyalty to God."
+      },
+      {
+        "word": "אַבְרָהָם",
+        "translit": "ʾAvraham",
+        "strongs": "H85",
+        "gloss": "father of a multitude",
+        "verses": "5",
+        "note": "Abram meant 'exalted father.' The new name sounds like 'father of a multitude' (ʾav hamon). God renames him based on what he will do, before Abraham has even one son by Sarah."
+      },
+      {
+        "word": "אוֹת בְּרִית",
+        "translit": "ʾot berit",
+        "gloss": "sign of the covenant",
+        "verses": "11",
+        "note": "Circumcision marks the covenant in the flesh of every male, including servants and foreigners in the household. Like the rainbow, it is a sign; its meaning lies in the promise it signifies."
+      },
+      {
+        "word": "יִצְחָק",
+        "translit": "Yitsḥaq",
+        "strongs": "H3327",
+        "gloss": "he laughs",
+        "verses": "17, 19",
+        "note": "Abraham falls on his face and laughs at the idea of a son at 100. God tells him to name the child Isaac, 'he laughs,' turning incredulous laughter into joyful laughter."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "I will be their God",
+        "refs": ["Exodus 6:7", "Leviticus 26:12", "Jeremiah 31:33", "2 Corinthians 6:16", "Revelation 21:3"],
+        "note": "The covenant formula 'I will be your God and you will be my people' runs from Abraham through Sinai and the new covenant to the new creation."
+      },
+      {
+        "theme": "Circumcision of the heart",
+        "refs": ["Deuteronomy 10:16", "Deuteronomy 30:6", "Jeremiah 4:4", "Romans 2:28-29", "Colossians 2:11-12"],
+        "note": "Even in the Old Testament the outward sign pointed to an inward reality. The New Testament speaks of a circumcision made without hands, by Christ."
+      },
+      {
+        "theme": "Father of many nations",
+        "refs": ["Romans 4:11-18", "Galatians 3:7-9, 29", "Nehemiah 9:7"],
+        "note": "Paul argues Abraham was counted righteous before he was circumcised, so he is the father of all who believe, circumcised or not."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). Thirteen years after Ishmael's birth (16:16; 17:1, 25), God appears again and expands the covenant of chapter 15, adding the sign of circumcision and identifying Sarah as the promised son's mother.",
+      "flow": [
+        { "verses": "1-8", "label": "The covenant expanded", "note": "God Almighty calls Abram to walk blamelessly, renames him Abraham, and promises nations, kings, the land and to be God to his offspring forever." },
+        { "verses": "9-14", "label": "The sign of circumcision", "note": "Every male, including servants, must be circumcised on the eighth day; anyone uncircumcised has broken the covenant." },
+        { "verses": "15-22", "label": "Sarah and Isaac", "note": "Sarai becomes Sarah and will be the mother of nations. Abraham laughs and pleads for Ishmael; God blesses Ishmael but establishes his covenant with Isaac." },
+        { "verses": "23-27", "label": "Obedience that day", "note": "Abraham circumcises himself, Ishmael and every male in his household that very day." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 4:9-12", "from": "10-11", "note": "Abraham received circumcision as a sign and seal of the righteousness he had by faith while uncircumcised." },
+        { "ref": "Romans 4:17", "from": "5", "note": "Paul quotes 'I have made you the father of many nations' and says God gives life to the dead and calls into existence what does not exist." },
+        { "ref": "Acts 7:8", "from": "10-12", "note": "God gave Abraham the covenant of circumcision, and he circumcised Isaac on the eighth day." },
+        { "ref": "Galatians 3:16", "from": "7", "note": "The promises were spoken to Abraham and his offspring, who is Christ." }
+      ],
+      "tier2": [
+        { "ref": "Colossians 2:11-12", "from": "11", "note": "In Christ believers were circumcised with a circumcision made without hands, buried with him in baptism." },
+        { "ref": "Deuteronomy 30:6", "from": "10", "note": "God will circumcise the hearts of his people so they will love him." },
+        { "ref": "Luke 2:21", "from": "12", "note": "Jesus is circumcised on the eighth day and given his name." },
+        { "ref": "Revelation 21:3", "from": "7-8", "note": "God will dwell with his people; they will be his people and he will be their God." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 25:12-16", "from": "20", "note": "Ishmael becomes the father of twelve princes, as promised." },
+        { "ref": "Matthew 1:1-6", "from": "6, 16", "note": "Kings come from Abraham's line, including David." },
+        { "ref": "Philippians 3:3", "from": "13", "note": "We are the circumcision, who worship by the Spirit and glory in Christ Jesus." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "O. Palmer Robertson",
+        "work": "The Christ of the Covenants",
+        "view": "Robertson presents circumcision as a sign of both blessing and curse: cutting away flesh pictured cleansing and also the curse of being cut off. He emphasizes the covenant's heart: 'to be God to you and to your offspring.'"
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees circumcision as a sacrament sealing God's promise, applied to infants within the covenant household, and he links it to baptism as the sign of the same covenant of grace in the New Testament."
+      },
+      {
+        "name": "Thomas Schreiner",
+        "work": "Covenant and God's Purpose for the World",
+        "view": "Schreiner, writing from a credobaptist perspective, agrees that circumcision pointed to a deeper heart reality, but stresses that in the new covenant the sign belongs to those who have the reality, believers, so baptism and circumcision are related but not identical."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
+        "renderings": [
+          { "version": "ESV", "text": "walk before me, and be blameless" },
+          { "version": "NIV", "text": "walk before me faithfully and be blameless" },
+          { "version": "CSB", "text": "Live in my presence and be blameless" }
+        ],
+        "note": "'Perfect' in older English meant complete or whole. 'Blameless' is closer to tamim: wholehearted integrity, not sinlessness."
+      },
+      {
+        "verse": "5",
+        "kjv": "Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee.",
+        "renderings": [
+          { "version": "ESV", "text": "the father of a multitude of nations" },
+          { "version": "NIV", "text": "a father of many nations" },
+          { "version": "CSB", "text": "the father of many nations" }
+        ],
+        "note": "God speaks in the past tense, 'I have made you,' as if it were already done. Paul calls this God calling into existence things that do not exist (Romans 4:17)."
+      }
+    ],
+    "gospel": "God Almighty promises to be God to Abraham and his offspring forever, the heart of every covenant to come. Paul shows that Abraham was justified before he was circumcised, so he is father of all who believe, Jew and Gentile alike. The promised son comes by a miracle to a barren woman, foreshadowing the virgin birth. In Christ, the true offspring of Abraham, believers receive a circumcision of the heart made without hands (Colossians 2:11) and become heirs of the promise, so that people from every nation become Abraham's children.",
+    "application": [
+      "Walk before God with wholehearted integrity, aware that we live in his presence.",
+      "Trust God Almighty to do what is humanly impossible, as Sarah's pregnancy at 90 shows.",
+      "Find our identity in the name God gives us, based on his promise, not our record.",
+      "Value the outward signs of God's covenant but seek the inward reality they point to.",
+      "Obey promptly, as Abraham acted 'that very day.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "Circumcision or any outward rite makes a person right with God by itself.",
+        "correction": "Abraham was counted righteous before circumcision (Romans 4:10-11), and the prophets called for circumcised hearts. The sign points to faith; it does not replace it."
+      },
+      {
+        "claim": "Christians must be circumcised to be full members of God's people.",
+        "correction": "The New Testament rejects this (Acts 15; Galatians 5:2-6). In Christ the reality the sign pointed to has come."
+      },
+      {
+        "claim": "God's choice of Isaac means he rejected Ishmael entirely.",
+        "correction": "God hears Abraham's prayer and blesses Ishmael with fruitfulness and nationhood (v20), while the covenant line passes through Isaac."
+      }
+    ],
+    "contrasts": [
+      { "a": "Abraham's laughter", "b": "God's promise", "verses": "17-19", "note": "Human disbelief meets God's patient assurance and a son named for laughter." },
+      { "a": "Ishmael blessed", "b": "Isaac chosen", "verses": "20-21", "note": "God's blessing is wide; his covenant line is specific." },
+      { "a": "Cut off", "b": "Kept in covenant", "verses": "14", "note": "Refusing the sign was refusing the covenant itself." }
+    ],
+    "features": [
+      { "label": "Name changes", "note": "Both Abram and Sarai receive new names; in each the change signals God's new work. Sarah, 'princess,' will be the mother of kings." },
+      { "label": "Covenant repeated", "note": "'Covenant' occurs thirteen times in the chapter, more than in any other chapter of Genesis." },
+      { "label": "Everlasting", "note": "The covenant, the possession of the land and God's relationship to Abraham's offspring are all called 'everlasting.'" },
+      { "label": "That very day", "note": "Verses 23 and 26 stress immediate obedience, the reverse of the waiting and scheming of chapter 16." }
+    ],
+    "summary": "Genesis 17 confirms God's everlasting covenant with Abraham, gives new names that embody the promise, and appoints circumcision as its sign. God specifies that the promised son will come through Sarah, and Abraham responds with immediate obedience. The heart of the covenant is God's commitment to be God to his people.",
+    "metaArc": {
+      "book": "This chapter is the climax of the covenant-making in the Abraham story. It narrows the line of promise to Isaac and sets up the announcement of his birth in chapter 18.",
+      "redemptive": "Promise. The covenant formula 'I will be your God' runs through Scripture and is fulfilled in the new covenant in Christ and finally in the New Creation, where God dwells with his people."
+    }
+  }
+}

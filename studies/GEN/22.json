@@ -1,0 +1,177 @@
+{
+  "ref": "GEN.22",
+  "book": "Genesis",
+  "chapter": 22,
+  "title": "The LORD Will Provide",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God tests Abraham by commanding him to offer Isaac, his only son whom he loves, on a mountain in Moriah. Abraham obeys, trusting that God will provide. At the last moment the angel of the LORD stops him, a ram is offered in Isaac's place, and God swears by himself to bless Abraham and all nations through his offspring.",
+  "keyVerses": ["2", "8", "12-14", "16-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "נִסָּה",
+        "translit": "nissah",
+        "strongs": "H5254",
+        "gloss": "to test, prove",
+        "verses": "1",
+        "note": "The narrator tells the reader from the start that this is a test, not a desire for child sacrifice. God tests to reveal and strengthen faith (Exodus 20:20; Deuteronomy 8:2), not to tempt to evil (James 1:13)."
+      },
+      {
+        "word": "יָחִיד",
+        "translit": "yaḥid",
+        "strongs": "H3173",
+        "gloss": "only, unique, only-begotten",
+        "verses": "2, 12, 16",
+        "note": "Isaac is Abraham's 'only son' in the sense of unique heir of the promise (Ishmael is already sent away). The Greek Old Testament renders it agapētos, 'beloved,' the word the Father uses of Jesus at his baptism."
+      },
+      {
+        "word": "יִרְאֶה",
+        "translit": "yirʾeh",
+        "gloss": "he will see / provide",
+        "verses": "8, 14",
+        "note": "From raʾah, to see. 'God will see to it' means God will provide. Abraham names the place YHWH-yireh, 'the LORD will provide,' and the saying arises: 'on the mount of the LORD it will be seen/provided.'"
+      },
+      {
+        "word": "תַּחַת",
+        "translit": "taḥat",
+        "strongs": "H8478",
+        "gloss": "instead of, in place of",
+        "verses": "13",
+        "note": "Abraham offers the ram 'instead of his son.' The first explicit statement of substitution in a sacrifice in Scripture."
+      },
+      {
+        "word": "בִּי נִשְׁבַּעְתִּי",
+        "translit": "bi nishbaʿti",
+        "gloss": "by myself I have sworn",
+        "verses": "16",
+        "note": "The only time in Genesis God swears an oath. Having no one greater, he swears by himself, and Hebrews 6:13-18 says this gives believers strong encouragement."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The beloved only son",
+        "refs": ["Matthew 3:17", "John 3:16", "Romans 8:32", "1 John 4:9"],
+        "note": "The language of 'your son, your only son, whom you love' is echoed when the Father calls Jesus his beloved Son and gives his only Son for the world."
+      },
+      {
+        "theme": "God provides the lamb",
+        "refs": ["Exodus 12:3-13", "Isaiah 53:7", "John 1:29", "1 Peter 1:19", "Revelation 5:6"],
+        "note": "Abraham's 'God will provide the lamb' anticipates the Passover lamb and John the Baptist's cry, 'Behold, the Lamb of God.'"
+      },
+      {
+        "theme": "Mount Moriah",
+        "refs": ["2 Chronicles 3:1", "Psalm 24:3"],
+        "note": "Solomon builds the temple on Mount Moriah, linking Abraham's sacrifice to the place where Israel's sacrifices would be offered, near where Jesus was crucified."
+      }
+    ],
+    "context": {
+      "setting": "The climax of the story of Abraham (11:27-25:11). After decades of waiting for Isaac, God asks Abraham to give him back. The chapter echoes 12:1 ('go,' to a place God will show) and ends with the fullest form of the promise.",
+      "flow": [
+        { "verses": "1-2", "label": "The command", "note": "God calls Abraham and tells him to take his only son Isaac, whom he loves, and offer him as a burnt offering on a mountain in Moriah." },
+        { "verses": "3-8", "label": "The journey", "note": "Abraham rises early and sets out. On the third day he sees the place, tells the servants 'we will come back,' and answers Isaac's question: God will provide the lamb." },
+        { "verses": "9-14", "label": "The altar and the ram", "note": "Abraham binds Isaac and raises the knife. The angel of the LORD stops him: now I know you fear God. Abraham sees a ram caught in a thicket and offers it in Isaac's place, naming the place 'The LORD will provide.'" },
+        { "verses": "15-19", "label": "The oath", "note": "God swears by himself to bless Abraham, multiply his offspring as stars and sand, give them victory, and bless all nations in his offspring, because Abraham obeyed." },
+        { "verses": "20-24", "label": "News of Nahor's family", "note": "Abraham hears of his brother's children, including Rebekah, preparing for Isaac's marriage." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:17-19", "from": "1-10", "note": "By faith Abraham offered Isaac, considering that God was able to raise him from the dead; figuratively he did receive him back." },
+        { "ref": "James 2:21-23", "from": "9-12", "note": "Abraham's faith was completed by his works when he offered Isaac, fulfilling 'Abraham believed God.'" },
+        { "ref": "Hebrews 6:13-17", "from": "16-17", "note": "God swore by himself and said, 'Surely I will bless you and multiply you.'" },
+        { "ref": "Acts 3:25", "from": "18", "note": "Peter quotes 'in your offspring shall all the families of the earth be blessed' and applies it to Jesus." },
+        { "ref": "Galatians 3:16", "from": "18", "note": "The promises were made to Abraham and to his offspring, singular, who is Christ." }
+      ],
+      "tier2": [
+        { "ref": "Romans 8:32", "from": "12, 16", "note": "He who did not spare his own Son but gave him up for us all; the wording echoes 'you have not withheld your son.'" },
+        { "ref": "John 1:29", "from": "8", "note": "Behold, the Lamb of God, who takes away the sin of the world." },
+        { "ref": "2 Chronicles 3:1", "from": "2, 14", "note": "Solomon builds the temple on Mount Moriah." },
+        { "ref": "John 3:16", "from": "2", "note": "God gave his only Son, the one Abraham's offering foreshadowed." }
+      ],
+      "tier3": [
+        { "ref": "John 19:17", "from": "6", "note": "Jesus carries his own cross, as Isaac carried the wood up the mountain." },
+        { "ref": "Micah 6:7", "from": "2", "note": "The prophet rejects child sacrifice as a way to please God." },
+        { "ref": "John 8:56", "from": "14", "note": "Abraham rejoiced to see Christ's day; he saw it and was glad." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Søren Kierkegaard",
+        "work": "Fear and Trembling",
+        "view": "Kierkegaard meditates on the agony and paradox of Abraham's faith, arguing that Abraham's obedience to God's direct command placed him above ordinary ethical rules. His reading is philosophical and existential; many evangelical interpreters prefer to stress Abraham's trust in God's promise and power to raise the dead."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Counterfeit Gods",
+        "view": "Keller argues that God was testing whether Isaac, the gift, had become an idol that replaced God, the giver. Abraham's willingness showed his love for God was supreme, and the story points to God giving his own Son, the true substitute."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees the greatest anguish of the test not in losing a son but in the apparent contradiction of God's promise, since the promise was tied to Isaac. Abraham's faith held both together by trusting God's power."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.",
+        "renderings": [
+          { "version": "ESV", "text": "God will provide for himself the lamb" },
+          { "version": "NIV", "text": "God himself will provide the lamb" },
+          { "version": "CSB", "text": "God himself will provide the lamb" }
+        ],
+        "note": "The Hebrew reads 'God will see for himself the lamb.' NIV and CSB emphasize God as the provider; ESV and KJV keep 'for himself.' Either way, the provision comes from God."
+      },
+      {
+        "verse": "14",
+        "kjv": "And Abraham called the name of that place Jehovahjireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+        "renderings": [
+          { "version": "ESV", "text": "On the mount of the LORD it shall be provided" },
+          { "version": "NIV", "text": "On the mountain of the LORD it will be provided" },
+          { "version": "CSB", "text": "It will be provided on the LORD's mountain" }
+        ],
+        "note": "The verb can mean 'seen' or 'provided' (or 'he will be seen'). The saying links the place with God's future provision, fulfilled on Zion and at Calvary."
+      }
+    ],
+    "gospel": "Genesis 22 is one of the clearest pictures of the gospel in the Old Testament. A father offers his only beloved son on a mountain; the son carries the wood up the hill; a substitute dies in his place. But where God stopped Abraham's hand and spared Isaac, he did not spare his own Son but gave him up for us all (Romans 8:32). Jesus is the Lamb God provided, offered near the same hills of Moriah. Hebrews says Abraham received Isaac back as from the dead, a figure of the resurrection. Because of Christ's sacrifice, the blessing sworn to Abraham reaches all nations.",
+    "application": [
+      "Hold God's gifts with open hands, loving the Giver more than any gift, even good ones.",
+      "Obey God's word when it is costly, trusting his character and promises.",
+      "Expect God to provide what we need, though often at the last moment and in his way.",
+      "Rest in Christ as our substitute, the Lamb who died in our place.",
+      "Draw assurance from God's oath: his promises are as sure as God himself."
+    ],
+    "misapplications": [
+      {
+        "claim": "God endorses child sacrifice or wants people to harm their children for him.",
+        "correction": "The story is framed as a test and ends with God stopping it and providing a substitute. The law forbids child sacrifice as an abomination (Leviticus 18:21; Deuteronomy 12:31)."
+      },
+      {
+        "claim": "Abraham earned the promise by his obedience.",
+        "correction": "The promise was given freely in chapters 12, 15 and 17. Abraham's obedience proved his faith (James 2:22) and God confirmed the promise with an oath, but the blessing rests on God's grace."
+      },
+      {
+        "claim": "God needed the test to find out what Abraham would do.",
+        "correction": "'Now I know' expresses that Abraham's faith was openly demonstrated. The test revealed and strengthened his faith for his sake and ours."
+      }
+    ],
+    "contrasts": [
+      { "a": "Isaac bound", "b": "Ram offered instead", "verses": "9, 13", "note": "Substitution is the heart of the chapter." },
+      { "a": "Not withheld", "b": "Spared", "verses": "12, 16", "note": "Abraham did not withhold his son; God spared him. God did not spare his own Son." },
+      { "a": "Test", "b": "Provision", "verses": "1, 14", "note": "The chapter begins with God testing and ends with God providing." }
+    ],
+    "features": [
+      { "label": "Go to the land I will show you", "note": "The command 'go' (lek-leka) and 'to the place I will show you' echo 12:1, framing Abraham's life of faith between two calls." },
+      { "label": "Both of them together", "note": "The phrase is repeated (v6, 8), marking the silent, shared journey of father and son." },
+      { "label": "Seeing", "note": "The chapter is built around 'seeing': Abraham sees the place, God will see to the lamb, Abraham sees the ram, the place is named 'the LORD will see.'" },
+      { "label": "Third day", "note": "Abraham sees the place on the third day, the day the son is in a sense given back, which later readers connect to the resurrection." }
+    ],
+    "summary": "Genesis 22 is the supreme test of Abraham's faith and one of the richest foreshadowings of Christ in Scripture. Abraham trusts that God will provide, God supplies a substitute, and he swears by himself to bless all nations through Abraham's offspring. The chapter teaches substitution, God's provision and the costly obedience of faith.",
+    "metaArc": {
+      "book": "This chapter is the climax of Abraham's story. The promise given in chapter 12 is sealed by oath, and Abraham's role is essentially complete; the story turns toward Isaac's marriage and the next generation.",
+      "redemptive": "Promise and Redemption foreshadowed. The beloved son offered, the substitute provided and the blessing to the nations all find their fulfillment at the cross."
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "ref": "GEN.18",
+  "book": "Genesis",
+  "chapter": 18,
+  "title": "Is Anything Too Hard for the LORD?",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The LORD visits Abraham at Mamre with two companions, eats his hospitality, and promises that Sarah will have a son within a year. Sarah laughs, and God asks whether anything is too hard for him. Then the LORD reveals his plan to judge Sodom, and Abraham intercedes boldly, appealing to the justice of the Judge of all the earth.",
+  "keyVerses": ["10", "14", "19", "25"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּלָא",
+        "translit": "palaʾ",
+        "strongs": "H6381",
+        "gloss": "to be wonderful, extraordinary, too hard",
+        "verses": "14",
+        "note": "The root used for God's wonders, things beyond human ability (Exodus 3:20; Isaiah 9:6, 'Wonderful Counselor'). God's question answers itself: nothing is beyond him. Jeremiah 32:17, 27 and Luke 1:37 echo it."
+      },
+      {
+        "word": "צְעָקָה",
+        "translit": "tseʿaqah",
+        "strongs": "H6818",
+        "gloss": "outcry, cry for help",
+        "verses": "20-21",
+        "note": "The word for the cry of the oppressed (Exodus 3:7, 9). The outcry against Sodom rises to God like Abel's blood, suggesting victims crying out for justice."
+      },
+      {
+        "word": "צְדָקָה וּמִשְׁפָּט",
+        "translit": "tsedaqah umishpat",
+        "gloss": "righteousness and justice",
+        "verses": "19",
+        "note": "A pair that sums up the godly life and the king's duty (Psalm 89:14; Isaiah 9:7). God chose Abraham so that his household would keep the way of the LORD by doing righteousness and justice."
+      },
+      {
+        "word": "שֹׁפֵט כָּל־הָאָרֶץ",
+        "translit": "shofet kol-haʾarets",
+        "gloss": "Judge of all the earth",
+        "verses": "25",
+        "note": "Abraham appeals to God's own character. His intercession is not an attempt to change God's nature but an appeal to it: the Judge will surely do what is just."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Nothing is impossible for God",
+        "refs": ["Jeremiah 32:17, 27", "Zechariah 8:6", "Luke 1:37", "Matthew 19:26"],
+        "note": "Gabriel echoes God's question when announcing to Mary that nothing will be impossible with God."
+      },
+      {
+        "theme": "Hospitality to strangers",
+        "refs": ["Hebrews 13:2", "Romans 12:13", "Matthew 25:35-40"],
+        "note": "Hebrews alludes to this scene: some have entertained angels unawares."
+      },
+      {
+        "theme": "Intercession",
+        "refs": ["Exodus 32:11-14", "Numbers 14:13-19", "Ezekiel 22:30", "Romans 8:34", "Hebrews 7:25"],
+        "note": "Abraham is the first great intercessor, followed by Moses and the prophets. Christ is the perfect intercessor who always lives to plead for his people."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). Soon after the covenant of chapter 17, God visits personally. The chapter links the promise of Isaac with the judgment of Sodom, which follows in chapter 19.",
+      "flow": [
+        { "verses": "1-8", "label": "Hospitality at Mamre", "note": "Three men appear; Abraham runs to welcome them, washes their feet, and serves a lavish meal under the tree." },
+        { "verses": "9-15", "label": "The promise to Sarah", "note": "The LORD says Sarah will have a son by this time next year. Sarah laughs inwardly, and God asks, 'Is anything too hard for the LORD?'" },
+        { "verses": "16-21", "label": "God reveals his plan", "note": "The LORD decides not to hide from Abraham what he will do, because Abraham is chosen to teach righteousness and justice. He will go down to see Sodom's sin." },
+        { "verses": "22-33", "label": "Abraham intercedes", "note": "Abraham asks whether God will destroy the righteous with the wicked and bargains from fifty down to ten. God agrees not to destroy the city for ten righteous." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 9:9", "from": "10, 14", "note": "Paul quotes 'about this time next year I will return, and Sarah shall have a son' as the word of promise that defines Abraham's true children." },
+        { "ref": "Hebrews 13:2", "from": "1-8", "note": "Do not neglect hospitality to strangers, for thereby some have entertained angels unawares." },
+        { "ref": "1 Peter 3:6", "from": "12", "note": "Peter notes that Sarah called Abraham 'lord,' as she does in this verse." },
+        { "ref": "Galatians 3:8", "from": "18", "note": "All the nations will be blessed in him, repeated here and quoted by Paul." }
+      ],
+      "tier2": [
+        { "ref": "Luke 1:37", "from": "14", "note": "Nothing will be impossible with God, said to Mary at the announcement of a far greater birth." },
+        { "ref": "Hebrews 11:11", "from": "11-14", "note": "By faith Sarah received power to conceive, since she considered him faithful who had promised." },
+        { "ref": "Amos 3:7", "from": "17", "note": "The Lord GOD does nothing without revealing his secret to his servants the prophets." },
+        { "ref": "James 2:23", "from": "17-19", "note": "Abraham was called the friend of God, to whom God reveals his plans." }
+      ],
+      "tier3": [
+        { "ref": "John 15:15", "from": "17", "note": "Jesus calls his disciples friends because he has made known to them what he heard from the Father." },
+        { "ref": "Jeremiah 5:1", "from": "32", "note": "God says he would pardon Jerusalem if one just person could be found." },
+        { "ref": "Exodus 3:7-8", "from": "20-21", "note": "God hears the outcry and comes down to act, the same pattern as with Sodom." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin admires Abraham's intercession as bold yet humble, grounded in God's own justice. He holds that one of the three visitors was the eternal Son appearing in human form, a view many early and Reformed interpreters shared."
+      },
+      {
+        "name": "Charles Spurgeon",
+        "work": "Sermons on Abraham's intercession",
+        "view": "Spurgeon used Abraham's pleading for Sodom to urge believers to persistent, humble prayer for the lost, noting that Abraham stopped asking before God stopped granting."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke stresses that God's justice involves protecting the righteous, not just punishing the wicked. Abraham's prayer reflects his calling in verse 19 to promote righteousness and justice."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "14",
+        "kjv": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.",
+        "renderings": [
+          { "version": "ESV", "text": "Is anything too hard for the LORD?" },
+          { "version": "NIV", "text": "Is anything too hard for the LORD?" },
+          { "version": "CSB", "text": "Is anything impossible for the LORD?" }
+        ],
+        "note": "'Too hard' and 'impossible' both capture palaʾ. The verse is a rhetorical question that becomes a key confession of faith across Scripture."
+      },
+      {
+        "verse": "25",
+        "kjv": "That be far from thee to do after this manner, to slay the righteous with the wicked: and that the righteous should be as the wicked, that be far from thee: Shall not the Judge of all the earth do right?",
+        "renderings": [
+          { "version": "ESV", "text": "Shall not the Judge of all the earth do what is just?" },
+          { "version": "NIV", "text": "Will not the Judge of all the earth do right?" },
+          { "version": "CSB", "text": "Won't the Judge of the whole earth do what is just?" }
+        ],
+        "note": "'Do right' translates mishpat, justice. Abraham appeals to God's own standard, which shapes every later biblical cry for justice."
+      }
+    ],
+    "gospel": "The God who promised a son to a barren, elderly woman later sent his Son through a virgin, and the angel quoted this very question: nothing is impossible with God. Abraham pleads for a whole city to be spared for the sake of a few righteous; at the cross God went further, sparing many for the sake of one righteous man. Jesus is the perfect intercessor, who does not bargain but secures pardon by his own sacrifice and always lives to intercede for his people (Hebrews 7:25).",
+    "application": [
+      "Practice generous hospitality to strangers, as Abraham ran to serve his visitors.",
+      "Bring impossible situations to God, remembering nothing is too hard for him.",
+      "Intercede boldly and humbly for cities, nations and people under judgment.",
+      "Trust that God's judgments are always just, even when we do not understand them.",
+      "Lead our households in the way of the LORD by doing righteousness and justice."
+    ],
+    "misapplications": [
+      {
+        "claim": "Abraham's bargaining shows we can talk God out of his plans by clever arguments.",
+        "correction": "Abraham appeals to God's own justice; God had already shown his plan so Abraham could pray. Prayer aligns with God's character rather than overriding it."
+      },
+      {
+        "claim": "Since God 'went down to see,' he did not already know about Sodom.",
+        "correction": "The language expresses God's careful, personal justice in human terms, like a judge investigating before verdict. Scripture elsewhere affirms his perfect knowledge (Psalm 139)."
+      },
+      {
+        "claim": "Sarah's laughter means she had no faith at all.",
+        "correction": "Hebrews 11:11 credits Sarah with faith that God was faithful. Faith can begin with doubt and grow as God speaks."
+      }
+    ],
+    "contrasts": [
+      { "a": "Sarah's laughter", "b": "God's question", "verses": "12-14", "note": "Doubt is answered with a reminder of God's power." },
+      { "a": "Righteous", "b": "Wicked", "verses": "23-25", "note": "Abraham pleads that God not treat them alike." },
+      { "a": "Hospitality at Mamre", "b": "Hostility in Sodom", "verses": "1-8; 19:1-9", "note": "The same visitors receive opposite welcomes in the two places." }
+    ],
+    "features": [
+      { "label": "Three men and the LORD", "note": "The narrative moves between 'three men' and 'the LORD,' leaving the identity of the visitors mysterious. Two later go to Sodom as angels (19:1)." },
+      { "label": "Hurry", "note": "Abraham 'ran,' 'hastened,' and told Sarah to 'quickly' make bread, showing eager hospitality in the heat of the day." },
+      { "label": "Six requests", "note": "Abraham's intercession moves from fifty to forty-five, forty, thirty, twenty and ten, each time with greater humility." },
+      { "label": "The friend of God", "note": "God's soliloquy, 'Shall I hide from Abraham?' (v17), shows Abraham as a confidant, which is why later Scripture calls him God's friend." }
+    ],
+    "summary": "Genesis 18 shows God as both the giver of life who keeps his impossible promises and the just Judge who hears the outcry of the oppressed. Abraham welcomes God with hospitality, receives the promise of Isaac, and becomes the first great intercessor, appealing to God's justice on behalf of a doomed city.",
+    "metaArc": {
+      "book": "This chapter pairs the promise of Isaac's birth with the coming judgment of Sodom, holding together grace and judgment. It shows Abraham beginning to act as a blessing to the nations through prayer.",
+      "redemptive": "Promise. The miraculous birth announced here anticipates the birth of Christ, and Abraham's intercession anticipates Christ's perfect intercession for sinners."
+    }
+  }
+}

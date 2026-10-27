@@ -1,0 +1,172 @@
+{
+  "ref": "GEN.30",
+  "book": "Genesis",
+  "chapter": 30,
+  "title": "God Remembered Rachel",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Rachel and Leah compete for Jacob and for children, using their servants, mandrakes and bargains. Eleven sons and a daughter are born. At last God remembers Rachel and she bears Joseph. Jacob then strikes a deal with Laban over the flocks, and despite Laban's tricks and Jacob's breeding schemes, God makes Jacob prosper.",
+  "keyVerses": ["1-2", "22-24", "27", "43"],
+  "steps": {
+    "language": [
+      {
+        "word": "קִנְאָה",
+        "translit": "qinʾah",
+        "strongs": "H7068",
+        "gloss": "jealousy, envy",
+        "verses": "1",
+        "note": "Rachel envies her sister. The word can describe zeal or godly jealousy elsewhere, but here it is rivalry that poisons the household and drives the competition for sons."
+      },
+      {
+        "word": "נַפְתּוּלִים",
+        "translit": "naftulim",
+        "gloss": "wrestlings",
+        "verses": "8",
+        "note": "Rachel names Bilhah's son Naphtali: 'with mighty wrestlings I have wrestled with my sister and prevailed.' Her language anticipates Jacob's wrestling with God in chapter 32."
+      },
+      {
+        "word": "דּוּדָאִים",
+        "translit": "dudaʾim",
+        "strongs": "H1736",
+        "gloss": "mandrakes",
+        "verses": "14-16",
+        "note": "A plant believed in the ancient world to aid fertility, its name related to dod (love). Rachel trades a night with Jacob for them, yet it is Leah who conceives, and Rachel conceives only when God remembers her."
+      },
+      {
+        "word": "יוֹסֵף",
+        "translit": "Yosef",
+        "strongs": "H3130",
+        "gloss": "may he add",
+        "verses": "24",
+        "note": "Rachel names her son Joseph, 'May the LORD add to me another son.' The name also sounds like 'God has taken away (ʾasaf) my reproach' (v23), a double wordplay."
+      },
+      {
+        "word": "נִחַשׁ",
+        "translit": "niḥash",
+        "strongs": "H5172",
+        "gloss": "to practice divination, learn by omens",
+        "verses": "27",
+        "note": "Laban says he has learned 'by divination' that the LORD blessed him because of Jacob. Even a pagan practice confirms God's promise that those who bless Abraham's family will be blessed."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Only God gives life",
+        "refs": ["1 Samuel 1:5-6, 19-20", "Psalm 127:3", "Psalm 113:9"],
+        "note": "Jacob tells Rachel he is not in God's place. Children are a heritage from the LORD, not the product of human schemes."
+      },
+      {
+        "theme": "Blessing through Abraham's seed",
+        "refs": ["Genesis 12:2-3", "Genesis 39:5", "Genesis 26:12-14"],
+        "note": "Laban is blessed because of Jacob, as Potiphar will be blessed because of Joseph, fulfilling the promise that Abraham's family would bring blessing."
+      },
+      {
+        "theme": "The twelve tribes",
+        "refs": ["Genesis 35:23-26", "Genesis 49:1-28", "Revelation 7:4-8", "Revelation 21:12"],
+        "note": "The sons born in this chapter become the tribes of Israel, whose names are written on the gates of the New Jerusalem."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29), Jacob's years in Haran. Continuing from 29:31-35, the chapter completes the births of eleven of Jacob's twelve sons and shows how Jacob gained his wealth before returning to Canaan.",
+      "flow": [
+        { "verses": "1-8", "label": "Rachel's servant", "note": "Rachel demands children and blames Jacob, who angrily replies he is not God. She gives Bilhah, who bears Dan and Naphtali." },
+        { "verses": "9-13", "label": "Leah's servant", "note": "Leah gives Zilpah, who bears Gad and Asher." },
+        { "verses": "14-21", "label": "The mandrakes", "note": "Reuben finds mandrakes. Rachel trades a night with Jacob for them. Leah bears Issachar, Zebulun and a daughter, Dinah." },
+        { "verses": "22-24", "label": "God remembers Rachel", "note": "God listens to Rachel and opens her womb. She bears Joseph and prays for another son." },
+        { "verses": "25-43", "label": "Jacob's flocks", "note": "Jacob asks to leave; Laban, blessed because of him, asks him to stay. They agree Jacob's wages will be the speckled and spotted animals. Laban removes them, but Jacob's flocks multiply, and he becomes very rich." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 31:9-12", "from": "37-43", "note": "Jacob later explains that God took Laban's livestock and gave them to him, revealing it in a dream." },
+        { "ref": "Genesis 35:23-26", "from": "1-24", "note": "The list of Jacob's twelve sons by their mothers." },
+        { "ref": "Genesis 49:1-27", "from": "6-24", "note": "Jacob's final blessings on these same sons." }
+      ],
+      "tier2": [
+        { "ref": "1 Samuel 1:2-20", "from": "1-2, 22", "note": "Hannah, like Rachel, suffers taunting from a rival and receives a son when God remembers her." },
+        { "ref": "Psalm 127:3", "from": "2", "note": "Children are a heritage from the LORD, the fruit of the womb a reward." },
+        { "ref": "Genesis 39:5", "from": "27, 30", "note": "God blesses Potiphar's house because of Joseph." },
+        { "ref": "James 4:1-2", "from": "1, 15", "note": "Quarrels come from desires that battle within; you covet and cannot obtain." }
+      ],
+      "tier3": [
+        { "ref": "Song of Songs 7:13", "from": "14", "note": "Mandrakes give off fragrance in the Song, linked with love." },
+        { "ref": "Jeremiah 31:15", "from": "22-24", "note": "Rachel weeping for her children, quoted in Matthew 2:18." },
+        { "ref": "Philippians 4:11-12", "from": "1", "note": "Learning contentment contrasts with Rachel's desperate demand." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner calls the birth narrative a sorry tale of rivalry, yet notes that God builds the twelve tribes out of it. On the peeled rods, he holds that Jacob's methods reflected folk belief and that chapter 31 makes clear the real cause of his prosperity was God."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton points out that the mandrakes fail Rachel: Leah, who gave them up, conceives, while Rachel conceives only when God remembers her. The chapter undermines reliance on magic or technique."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin is critical of the wives' contention and of the practice of giving servants as concubines. He sees God's mercy in overruling their sinful rivalry to build Israel."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?",
+        "renderings": [
+          { "version": "ESV", "text": "Am I in the place of God" },
+          { "version": "NIV", "text": "Am I in the place of God" },
+          { "version": "CSB", "text": "Am I in God's place" }
+        ],
+        "note": "Joseph uses the same words to his brothers in 50:19. Jacob's statement is true, but said in anger rather than compassion."
+      },
+      {
+        "verse": "27",
+        "kjv": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
+        "renderings": [
+          { "version": "ESV", "text": "I have learned by divination" },
+          { "version": "NIV", "text": "I have learned by divination" },
+          { "version": "CSB", "text": "I have learned by divination" }
+        ],
+        "note": "The Hebrew niḥash means divination, not mere experience. Laban, a man who used omens and household gods (31:19), still recognizes the LORD's blessing."
+      }
+    ],
+    "gospel": "The twelve sons born in rivalry become the twelve tribes of God's people, showing that God builds his family through grace, not human merit. Rachel's barrenness ends only when God remembers her, a reminder that life comes from God alone. Through Judah and Joseph, both born in this troubled household, God will preserve his people and bring the Messiah. Jesus chose twelve apostles as a renewed Israel, and in the New Jerusalem the names of the twelve tribes are on its gates, all who belong to Christ gathered into one family.",
+    "application": [
+      "Resist envy and rivalry, which destroyed peace in Jacob's household.",
+      "Bring our longings to God, the giver of life, rather than demanding them from others or relying on techniques.",
+      "Trust God's providence when we are treated unfairly, as Jacob was by Laban.",
+      "Recognize that God can bring good out of deeply flawed families.",
+      "Be a channel of blessing to those we work for, as Laban was blessed because of Jacob."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jacob's breeding method with striped rods is a scientific technique God endorses.",
+        "correction": "Chapter 31:9-12 attributes the result to God, who showed Jacob in a dream what would happen. The rods reflect Jacob's beliefs; the outcome was God's doing."
+      },
+      {
+        "claim": "Mandrakes or other remedies are the key to overcoming barrenness.",
+        "correction": "The mandrakes fail Rachel; she conceives only when God remembers her. The chapter points away from technique to God."
+      }
+    ],
+    "contrasts": [
+      { "a": "Human schemes", "b": "God remembers", "verses": "3, 14-16, 22", "note": "Servants and mandrakes do not open Rachel's womb; God does." },
+      { "a": "Laban's tricks", "b": "God's blessing", "verses": "35-43", "note": "Laban removes the spotted animals, but God multiplies Jacob's flocks." },
+      { "a": "Rivalry", "b": "Remembering", "verses": "1, 22", "note": "The chapter moves from envy to grace." }
+    ],
+    "features": [
+      { "label": "Naming speeches", "note": "Each son's name comes with a short explanation that reveals his mother's feelings, often wordplays." },
+      { "label": "Dinah", "note": "The only daughter's birth is noted without a naming speech, preparing for her story in chapter 34." },
+      { "label": "Laban and white", "note": "Jacob peels white streaks (laban) in the rods, a pun on Laban's name; he beats Laban at his own game." },
+      { "label": "Turning point", "note": "Joseph's birth in verse 25 prompts Jacob to ask to return home, as if the coming of Rachel's son signals the time to go." }
+    ],
+    "summary": "Genesis 30 records the birth of Jacob's children amid painful rivalry and the growth of his wealth amid Laban's trickery. Throughout, God is the true actor: he opens wombs, remembers Rachel, and multiplies Jacob's flocks. God builds the tribes of Israel through a flawed family by his grace.",
+    "metaArc": {
+      "book": "This chapter completes eleven of the twelve sons who will become Israel and introduces Joseph, whose story dominates chapters 37-50. Jacob's prosperity prepares for his departure from Laban in chapter 31.",
+      "redemptive": "Promise. God multiplies Abraham's offspring, forming the tribes of Israel through which the Redeemer will come."
+    }
+  }
+}

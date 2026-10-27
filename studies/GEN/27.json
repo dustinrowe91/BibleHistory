@@ -1,0 +1,169 @@
+{
+  "ref": "GEN.27",
+  "book": "Genesis",
+  "chapter": 27,
+  "title": "The Stolen Blessing",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Old and blind, Isaac plans to bless Esau privately. Rebekah overhears and helps Jacob disguise himself as his brother, and Jacob deceives his father and receives the blessing. Esau weeps bitterly and vows to kill Jacob. God's announced purpose is fulfilled, but through a family torn apart by favoritism and deceit.",
+  "keyVerses": ["19", "28-29", "33", "41"],
+  "steps": {
+    "language": [
+      {
+        "word": "בְּרָכָה",
+        "translit": "berakah",
+        "strongs": "H1293",
+        "gloss": "blessing",
+        "verses": "4, 12, 35, 36, 38, 41",
+        "note": "A patriarchal blessing was not just a wish but a binding, prophetic word that transferred God's covenant promises. Once spoken it could not be revoked, which is why Isaac trembles and Esau weeps."
+      },
+      {
+        "word": "מִרְמָה",
+        "translit": "mirmah",
+        "strongs": "H4820",
+        "gloss": "deceit, treachery",
+        "verses": "35",
+        "note": "Isaac tells Esau that Jacob came 'with deceit.' The same root returns when Laban deceives Jacob with Leah (29:25, rimmitani), and Jacob's sons deceive Shechem (34:13). Deceit comes home to roost."
+      },
+      {
+        "word": "עָקַב",
+        "translit": "ʿaqav",
+        "strongs": "H6117",
+        "gloss": "to supplant, overreach, grab by the heel",
+        "verses": "36",
+        "note": "Esau says Jacob is rightly named, for he has 'Jacobed' him twice. He plays on bekorah (birthright) and berakah (blessing): Jacob took both."
+      },
+      {
+        "word": "חָרַד",
+        "translit": "ḥarad",
+        "strongs": "H2729",
+        "gloss": "to tremble",
+        "verses": "33",
+        "note": "Isaac 'trembled with a very great trembling.' Many interpreters think Isaac realized he had been resisting God's word given in 25:23, and that God had overruled him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Isaac blessed by faith",
+        "refs": ["Hebrews 11:20", "Genesis 28:3-4"],
+        "note": "Despite the deception, Hebrews says Isaac blessed Jacob and Esau by faith regarding things to come, and Isaac later confirms the blessing knowingly."
+      },
+      {
+        "theme": "Esau's bitter tears",
+        "refs": ["Hebrews 12:16-17"],
+        "note": "Esau found no chance to repent, though he sought the blessing with tears. He wanted the blessing but had despised the birthright."
+      },
+      {
+        "theme": "Deception repaid",
+        "refs": ["Genesis 29:21-26", "Genesis 37:31-33", "Galatians 6:7"],
+        "note": "Jacob, who deceived his father with goatskins and a brother's identity, is deceived by Laban with a sister's identity, and later by his sons with a goat's blood."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). Isaac is old, perhaps over 100, and thinks death is near, though he lives many more years (35:28). God had already announced that the older would serve the younger (25:23), and Esau had sold his birthright, but Isaac still intends to bless his favorite.",
+      "flow": [
+        { "verses": "1-4", "label": "Isaac's plan", "note": "Isaac asks Esau to hunt game and prepare his favorite meal so he can bless him before he dies." },
+        { "verses": "5-17", "label": "Rebekah's plot", "note": "Rebekah overhears, tells Jacob to bring goats, cooks the meal, and dresses Jacob in Esau's clothes with goatskins on his hands and neck." },
+        { "verses": "18-29", "label": "The deception", "note": "Jacob lies repeatedly, even claiming God helped him find game quickly. Isaac, uncertain, smells Esau's clothes and blesses Jacob with abundance and rule over his brothers." },
+        { "verses": "30-40", "label": "Esau's anguish", "note": "Esau arrives. Isaac trembles violently, and Esau cries out bitterly for a blessing. Isaac gives him a lesser word: he will live by the sword, serve his brother, and one day break the yoke." },
+        { "verses": "41-46", "label": "Hatred and flight", "note": "Esau plans to kill Jacob after Isaac dies. Rebekah sends Jacob to Laban 'for a few days' and persuades Isaac by complaining about Hittite wives." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:20", "from": "27-29, 39-40", "note": "By faith Isaac invoked future blessings on Jacob and Esau." },
+        { "ref": "Hebrews 12:16-17", "from": "34-38", "note": "Esau desired to inherit the blessing but was rejected, finding no chance to repent though he sought it with tears." },
+        { "ref": "Genesis 25:23", "from": "29", "note": "Isaac's blessing that nations will serve Jacob and his mother's sons will bow fulfills the oracle given before birth." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 29:25-26", "from": "19, 35", "note": "Laban deceives Jacob and justifies it by the custom that the younger is not given before the firstborn." },
+        { "ref": "2 Kings 8:20-22", "from": "40", "note": "Edom revolts and throws off Judah's rule, fulfilling Isaac's word to Esau." },
+        { "ref": "Proverbs 12:22", "from": "19-24", "note": "Lying lips are an abomination to the LORD." },
+        { "ref": "Romans 9:11-13", "from": "29", "note": "God's purpose of election stands, not because of works but because of him who calls." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 37:31-33", "from": "9-16", "note": "Jacob's sons deceive him with a goat and a garment, just as he deceived his father." },
+        { "ref": "Obadiah 10", "from": "41", "note": "Edom's violence against his brother Jacob is condemned." },
+        { "ref": "Psalm 133:1", "from": "41", "note": "How good and pleasant when brothers dwell in unity, the opposite of this family." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner observes that every member of the family is at fault: Isaac follows his appetite and resists God's word, Rebekah and Jacob scheme, Esau wants the blessing he despised. God's purpose is achieved, but each one reaps the cost."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin holds that Rebekah's faith in God's oracle was real but that her method was sinful. God overruled their wrongdoing so that his decree stood, without approving the deceit."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Jacob (Redeemer Presbyterian Church)",
+        "view": "Keller has preached Jacob's story as the account of a man who spent his life grasping for blessing he could only receive by grace. God pursues and transforms the deceiver, which shows that his grace works through even the most broken families."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "33",
+        "kjv": "And Isaac trembled very exceedingly, and said, Who? where is he that hath taken venison, and brought it me, and I have eaten of all before thou camest, and have blessed him? yea, and he shall be blessed.",
+        "renderings": [
+          { "version": "ESV", "text": "Isaac trembled very violently" },
+          { "version": "NIV", "text": "Isaac trembled violently" },
+          { "version": "CSB", "text": "Isaac began to tremble uncontrollably" }
+        ],
+        "note": "The Hebrew doubles the idea: he trembled a great trembling. Isaac's last words, 'and he shall be blessed,' show he accepts that the blessing cannot be undone."
+      },
+      {
+        "verse": "36",
+        "kjv": "And he said, Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?",
+        "renderings": [
+          { "version": "ESV", "text": "he has cheated me these two times" },
+          { "version": "NIV", "text": "he has deceived me these two times" },
+          { "version": "CSB", "text": "he has cheated me twice now" }
+        ],
+        "note": "'Supplanted' keeps the pun on Jacob's name. Esau calls the birthright a theft, though he himself sold it (25:33)."
+      }
+    ],
+    "gospel": "Jacob receives the blessing by wearing his elder brother's clothes and coming to the father in his brother's name. The gospel turns this around: believers receive the Father's blessing not by deceit but by being clothed in Christ, our elder brother, and coming in his name (Galatians 3:27). Christ took the place of the one who was rejected, so that undeserving 'Jacobs' could be blessed. And God's sovereign purpose prevails through human sin, as it did supremely at the cross, where wicked hands carried out God's plan for salvation (Acts 2:23).",
+    "application": [
+      "Avoid favoritism in families; it bred rivalry and deceit in Isaac's home.",
+      "Trust God to fulfill his promises without resorting to manipulation or lies.",
+      "Recognize that sin has consequences even when God's purpose is accomplished.",
+      "Do not despise spiritual blessings and then expect to receive them later on our own terms.",
+      "Take comfort that God's plan is not derailed by human failure, including our own."
+    ],
+    "misapplications": [
+      {
+        "claim": "Since God's purpose was fulfilled, Rebekah and Jacob's deception was justified.",
+        "correction": "God's sovereignty does not make sin good. Jacob is exiled for twenty years, Rebekah never sees him again as far as the text records, and Jacob is himself deceived."
+      },
+      {
+        "claim": "Esau was an innocent victim.",
+        "correction": "Esau had sold the birthright and married outside the covenant family. Hebrews calls him unholy. He sought the benefits without valuing the promise."
+      },
+      {
+        "claim": "A spoken blessing works like magic regardless of God.",
+        "correction": "The blessing was binding because it expressed God's covenant purpose (25:23), and Isaac confirms it deliberately in 28:3-4. Its power lay in God's word, not the ritual."
+      }
+    ],
+    "contrasts": [
+      { "a": "Blessing", "b": "Lesser word", "verses": "28-29, 39-40", "note": "Jacob receives the covenant blessing; Esau a word of hardship with eventual freedom." },
+      { "a": "Smell of the field", "b": "Hands of a goat", "verses": "16, 27", "note": "Isaac trusts his senses and is fooled by them." },
+      { "a": "A few days", "b": "Twenty years", "verses": "44; 31:41", "note": "Rebekah's estimate of Jacob's absence is tragically wrong." }
+    ],
+    "features": [
+      { "label": "The senses", "note": "The scene is built around Isaac's senses: he cannot see, so he tastes, feels, hears ('the voice is Jacob's voice') and smells, and is deceived through them all." },
+      { "label": "Paired scenes", "note": "Isaac with Esau, Rebekah with Jacob, Jacob with Isaac, Esau with Isaac, Rebekah with Jacob, Rebekah with Isaac: the family never meets all together." },
+      { "label": "Birthright and blessing", "note": "Esau's pun on bekorah and berakah ties chapter 27 to chapter 25." },
+      { "label": "Using God's name", "note": "Jacob claims 'the LORD your God' granted him success (v20), invoking God to support a lie." }
+    ],
+    "summary": "Genesis 27 shows a family ruined by favoritism, appetite and deception, yet God's purpose that the elder serve the younger is fulfilled. The blessing passes to Jacob, but every participant pays a price. The chapter teaches both God's sovereignty over human sin and the real consequences of that sin.",
+    "metaArc": {
+      "book": "This chapter launches Jacob's exile and sets up the long arc of his story: flight, being deceived by Laban, wrestling with God, and reconciliation with Esau in chapter 33.",
+      "redemptive": "Promise. The blessing of Abraham passes to Jacob, through whom Israel and ultimately Christ will come, by God's choice rather than human merit."
+    }
+  }
+}

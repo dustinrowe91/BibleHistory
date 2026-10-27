@@ -1,0 +1,161 @@
+{
+  "ref": "GEN.41",
+  "book": "Genesis",
+  "chapter": 41,
+  "title": "From Prison to Palace",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Pharaoh dreams of seven fat cows eaten by seven thin cows and seven full ears swallowed by seven thin ears. No one can interpret, until the cupbearer remembers Joseph. Giving God the glory, Joseph explains seven years of plenty followed by seven of famine and advises storing grain. Pharaoh makes him ruler over Egypt, and Joseph saves the land as the famine spreads to all the earth.",
+  "keyVerses": ["16", "38", "40", "57"],
+  "steps": {
+    "language": [
+      {
+        "word": "בִּלְעָדַי",
+        "translit": "bilʿaday",
+        "gloss": "not I; apart from me",
+        "verses": "16",
+        "note": "Joseph's first word to Pharaoh is 'not me.' After thirteen years of suffering, standing before the most powerful man on earth, he refuses credit and points to God, who will give Pharaoh an answer of peace."
+      },
+      {
+        "word": "רוּחַ אֱלֹהִים",
+        "translit": "ruaḥ ʾelohim",
+        "gloss": "the Spirit of God",
+        "verses": "38",
+        "note": "Pharaoh recognizes that God's Spirit is in Joseph. The first time a person is described as having God's Spirit, the source of wisdom later given to Bezalel, the judges and the Messiah (Exodus 31:3; Isaiah 11:2)."
+      },
+      {
+        "word": "נָכוֹן",
+        "translit": "nakon",
+        "strongs": "H3559",
+        "gloss": "fixed, established",
+        "verses": "32",
+        "note": "The dream was doubled because the thing is fixed by God and he will shortly bring it about. Repetition in revelation signals certainty."
+      },
+      {
+        "word": "מְנַשֶּׁה / אֶפְרַיִם",
+        "translit": "Menashsheh / ʾEfrayim",
+        "gloss": "making to forget / doubly fruitful",
+        "verses": "51-52",
+        "note": "Joseph names his sons for God's grace: God has made me forget my hardship, and God has made me fruitful in the land of my affliction. His sons' names are testimonies."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God exalts the humble",
+        "refs": ["1 Samuel 2:7-8", "Psalm 113:7-8", "Luke 1:52", "1 Peter 5:6"],
+        "note": "God raises the poor from the dust to sit with princes. Joseph's rise from prison to palace is a vivid example."
+      },
+      {
+        "theme": "Wisdom given by God's Spirit",
+        "refs": ["Exodus 31:3", "Daniel 5:11-14", "Isaiah 11:2", "James 1:5"],
+        "note": "Pagan kings recognize God's Spirit in Joseph and Daniel. Isaiah promises the Spirit of wisdom will rest on the Messiah."
+      },
+      {
+        "theme": "Joseph's exaltation remembered",
+        "refs": ["Acts 7:10", "Psalm 105:20-22"],
+        "note": "The king sent and released him and made him lord of his house and ruler over his possessions, to instruct his princes."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Two full years after the cupbearer forgot him, Joseph is thirty (v46), thirteen years after being sold at seventeen. The famine will bring his brothers to Egypt.",
+      "flow": [
+        { "verses": "1-8", "label": "Pharaoh's dreams", "note": "Pharaoh dreams of cows and grain, and none of Egypt's magicians or wise men can interpret." },
+        { "verses": "9-24", "label": "Joseph summoned", "note": "The cupbearer remembers Joseph. Joseph is shaved, changed and brought before Pharaoh, and says God, not he, will give the answer." },
+        { "verses": "25-36", "label": "The interpretation", "note": "Both dreams mean seven years of plenty and seven of severe famine, doubled because God has decided it. Joseph advises appointing a wise man to store a fifth of the harvest." },
+        { "verses": "37-46", "label": "Joseph exalted", "note": "Pharaoh sees God's Spirit in Joseph, sets him over all Egypt, gives him his signet ring, fine linen, a gold chain, a chariot, an Egyptian name and a wife." },
+        { "verses": "47-57", "label": "Plenty and famine", "note": "Joseph stores grain like the sand of the sea. His sons Manasseh and Ephraim are born. The famine comes, and all the earth comes to Joseph to buy grain." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:10-11", "from": "38-46, 54", "note": "God gave Joseph favor and wisdom before Pharaoh, who made him ruler; then famine came over Egypt and Canaan." },
+        { "ref": "Psalm 105:20-22", "from": "14, 40-44", "note": "The king released him and made him lord of his house." }
+      ],
+      "tier2": [
+        { "ref": "Daniel 2:27-28, 46-48", "from": "16, 38-43", "note": "Daniel credits God with revealing the king's dream and is promoted over Babylon." },
+        { "ref": "Philippians 2:9-11", "from": "40-43", "note": "God highly exalted Christ and gave him the name above every name, that every knee should bow." },
+        { "ref": "Proverbs 22:29", "from": "46", "note": "A man skillful in his work will stand before kings." },
+        { "ref": "John 6:35", "from": "55-57", "note": "Jesus is the bread of life; whoever comes to him will not hunger." }
+      ],
+      "tier3": [
+        { "ref": "Esther 6:7-11", "from": "42-43", "note": "Mordecai is clothed in royal robes and led through the city with honor." },
+        { "ref": "Isaiah 11:2", "from": "38", "note": "The Spirit of wisdom and understanding will rest on the Messiah." },
+        { "ref": "Matthew 25:1-13", "from": "34-36", "note": "Wise preparation for what is coming, as Joseph prepared for the famine." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner admires Joseph's humility before Pharaoh and his practical wisdom: he not only interprets but proposes a plan. Spiritual insight and administrative skill work together in God's service."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke notes that Joseph's sons' names show he has not lost his faith in Egypt. He interprets his whole history, both hardship and fruitfulness, in light of God's work."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Joseph (Redeemer Presbyterian Church)",
+        "view": "Keller has preached that God used Joseph's years of suffering to humble and shape him, so that when exaltation came he could use power to serve and save rather than to dominate."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "And Joseph answered Pharaoh, saying, It is not in me: God shall give Pharaoh an answer of peace.",
+        "renderings": [
+          { "version": "ESV", "text": "God will give Pharaoh a favorable answer" },
+          { "version": "NIV", "text": "God will give Pharaoh the answer he desires" },
+          { "version": "CSB", "text": "God will give Pharaoh a favorable answer" }
+        ],
+        "note": "'Answer of peace' keeps the word shalom: an answer that brings well-being. Joseph's humility is the key: 'not in me.'"
+      },
+      {
+        "verse": "38",
+        "kjv": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?",
+        "renderings": [
+          { "version": "ESV", "text": "a man in whom is the Spirit of God" },
+          { "version": "NIV", "text": "one in whom is the spirit of God" },
+          { "version": "CSB", "text": "a man who has God's spirit in him" }
+        ],
+        "note": "Capitalization differs because Pharaoh, a polytheist, may have meant 'a divine spirit.' The narrative, however, presents Joseph's wisdom as truly from God."
+      }
+    ],
+    "gospel": "Joseph moves from the pit to the throne, from humiliation to exaltation at Pharaoh's right hand, and all the world comes to him for bread. Christ likewise descended into death and was exalted to the right hand of God, and every knee will bow to him (Philippians 2:9-11). Joseph saved the world from famine; Jesus, the bread of life, saves from spiritual death all who come to him. As Pharaoh told the nations 'Go to Joseph,' the gospel invites everyone to go to Jesus.",
+    "application": [
+      "Give God the credit for any ability or success: 'It is not in me.'",
+      "Wait for God's timing; the forgotten years were not wasted.",
+      "Plan wisely and prepare for hard times, as stewardship of what God gives.",
+      "Use any position of influence to serve and save others.",
+      "Name God's grace in our circumstances, as Joseph did in naming his sons."
+    ],
+    "misapplications": [
+      {
+        "claim": "Joseph's story teaches that faithful people will always end up rich and powerful.",
+        "correction": "Joseph's exaltation served God's plan to save many lives. Many faithful believers suffer without earthly reward; our hope is in God's final vindication."
+      },
+      {
+        "claim": "Joseph assimilated completely into Egypt and lost his faith.",
+        "correction": "He received an Egyptian name and wife, but his sons' names and his later words (45:5-8; 50:20) show his faith in God remained central."
+      }
+    ],
+    "contrasts": [
+      { "a": "Egypt's wise men", "b": "God's revelation", "verses": "8, 16, 25", "note": "Human wisdom fails; God reveals." },
+      { "a": "Prison clothes", "b": "Royal linen", "verses": "14, 42", "note": "Joseph's garments mark his transformation." },
+      { "a": "Plenty", "b": "Famine", "verses": "29-31, 53-54", "note": "God's sovereignty over both seasons." }
+    ],
+    "features": [
+      { "label": "Doubling", "note": "Pharaoh's two dreams, like Joseph's two dreams in chapter 37, are paired to show God's purpose is certain." },
+      { "label": "Garments again", "note": "Joseph's robe from his father and garment left with Potiphar's wife give way to royal linen, the climax of the garment motif." },
+      { "label": "Bow the knee", "note": "People cry 'Abrek' before Joseph's chariot (v43), likely a call to kneel, fulfilling the dreams of others bowing to him." },
+      { "label": "All the earth", "note": "The chapter ends with all the earth coming to Joseph, a picture of Abraham's offspring being a blessing to the nations." }
+    ],
+    "summary": "Genesis 41 records Joseph's sudden rise from prisoner to ruler of Egypt. Giving God the glory, he interprets Pharaoh's dreams, plans wisely for the famine, and is exalted at Pharaoh's side. Through him God provides for Egypt and the surrounding world, preparing to preserve Jacob's family.",
+    "metaArc": {
+      "book": "This chapter is the turning point of the Joseph story. Joseph's exaltation and the worldwide famine set the stage for his brothers' coming to Egypt in chapter 42.",
+      "redemptive": "Promise. Through Abraham's offspring the nations are fed, a picture of blessing to all peoples fulfilled in Christ, exalted to save the world."
+    }
+  }
+}

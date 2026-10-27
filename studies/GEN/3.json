@@ -1,0 +1,174 @@
+{
+  "ref": "GEN.3",
+  "book": "Genesis",
+  "chapter": 3,
+  "title": "The Fall and the First Promise",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The serpent questions God's word, the man and woman eat, and shame, blame and death enter the world. God judges, yet in the middle of the curse he promises that the woman's offspring will crush the serpent, clothes the guilty pair, and sends them out of the garden.",
+  "keyVerses": ["1", "6", "15", "21"],
+  "steps": {
+    "language": [
+      {
+        "word": "עָרוּם",
+        "translit": "ʿarum",
+        "strongs": "H6175",
+        "gloss": "crafty, shrewd",
+        "verses": "1",
+        "note": "The serpent is 'crafty' (ʿarum), a play on the couple being 'naked' (ʿarummim) in 2:25. In Proverbs the word can be a virtue (prudent), but here it is cleverness turned against God."
+      },
+      {
+        "word": "זֶרַע",
+        "translit": "zeraʿ",
+        "strongs": "H2233",
+        "gloss": "seed, offspring",
+        "verses": "15",
+        "note": "A collective word that can mean many descendants or one. Verse 15 sets two lines of seed against each other and then narrows to a single 'he' who will strike the serpent's head. The word becomes a thread through Genesis and is applied to Christ in Galatians 3:16."
+      },
+      {
+        "word": "שׁוּף",
+        "translit": "shuf",
+        "strongs": "H7779",
+        "gloss": "to strike, crush, bruise",
+        "verses": "15",
+        "note": "The same verb is used for both blows: the seed strikes the serpent's head and the serpent strikes his heel. The difference is where the blow lands. A wound to the heel is real but survivable; a blow to the head is fatal."
+      },
+      {
+        "word": "אָרוּר",
+        "translit": "ʾarur",
+        "strongs": "H779",
+        "gloss": "cursed",
+        "verses": "14, 17",
+        "note": "God curses the serpent and the ground, but never pronounces the words 'cursed are you' over the man or woman. Their judgment is pain, frustration and death, but the door to blessing is left open."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The serpent and his defeat",
+        "refs": ["Romans 16:20", "Revelation 12:9", "Revelation 20:2", "John 8:44", "2 Corinthians 11:3"],
+        "note": "The New Testament identifies the serpent as the devil, a liar from the beginning, and promises that God will soon crush Satan under his people's feet."
+      },
+      {
+        "theme": "In Adam all die",
+        "refs": ["Romans 5:12-21", "1 Corinthians 15:21-22", "Romans 8:20-22"],
+        "note": "Paul traces sin and death to Adam's disobedience and life to Christ's obedience. Creation itself was subjected to futility and groans for redemption."
+      },
+      {
+        "theme": "Clothed by God",
+        "refs": ["Isaiah 61:10", "Zechariah 3:3-5", "Galatians 3:27", "Revelation 3:18"],
+        "note": "God replaces fig leaves with garments of skin. Scripture later speaks of being clothed with salvation and with Christ."
+      }
+    ],
+    "context": {
+      "setting": "The fall follows directly on the picture of innocence in 2:25 and is still part of the first toledot section (2:4-4:26). Everything in the rest of the Bible, from the curse to the flood to the cross, answers this chapter.",
+      "flow": [
+        { "verses": "1-5", "label": "The serpent's question", "note": "The serpent doubts God's word ('Did God actually say?'), contradicts it ('You will not surely die') and slanders God's motives." },
+        { "verses": "6-7", "label": "The eating", "note": "The woman sees, desires and takes; the man, who was with her, eats too. Their eyes open to their nakedness and they sew fig leaves." },
+        { "verses": "8-13", "label": "God seeks them", "note": "The LORD walks in the garden and calls, 'Where are you?' The man blames the woman and God; the woman blames the serpent." },
+        { "verses": "14-19", "label": "Judgment and promise", "note": "The serpent is cursed and told his head will be crushed; the woman will have pain in childbirth and conflict in marriage; the ground is cursed and the man will return to dust." },
+        { "verses": "20-24", "label": "Clothed and sent out", "note": "Adam names his wife Eve, 'mother of all living.' God clothes them with skins and drives them from the garden, with cherubim guarding the way to the tree of life." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 5:12-19", "from": "6", "note": "Through one man sin entered the world and death through sin; through one man's obedience many are made righteous." },
+        { "ref": "1 Corinthians 15:21-22", "from": "19", "note": "As in Adam all die, so in Christ all will be made alive." },
+        { "ref": "Romans 16:20", "from": "15", "note": "The God of peace will soon crush Satan under your feet, a clear echo of the promise." },
+        { "ref": "2 Corinthians 11:3", "from": "1-6", "note": "Paul fears the church may be led astray as the serpent deceived Eve by his cunning." },
+        { "ref": "Revelation 12:9", "from": "1", "note": "The great dragon is named as that ancient serpent, called the devil and Satan." },
+        { "ref": "1 Timothy 2:14", "from": "13", "note": "Paul notes that Eve was deceived, while Adam was not deceived but sinned." }
+      ],
+      "tier2": [
+        { "ref": "Galatians 4:4", "from": "15", "note": "God sent his Son, born of a woman, the promised offspring of the woman." },
+        { "ref": "Hebrews 2:14", "from": "15", "note": "Through death Christ destroyed the one who has the power of death, the devil." },
+        { "ref": "Romans 8:20-22", "from": "17-18", "note": "Creation was subjected to futility and groans as it waits for freedom." },
+        { "ref": "Revelation 22:3", "from": "17", "note": "In the new creation there will no longer be any curse." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 4:1-11", "from": "1-6", "note": "Where Adam fell in a garden, Jesus resists Satan in a wilderness, answering every temptation with God's word." },
+        { "ref": "1 John 2:16", "from": "6", "note": "The desires of the flesh, the desires of the eyes and the pride of life mirror the threefold attraction of the fruit." },
+        { "ref": "Luke 19:10", "from": "9", "note": "The Son of Man came to seek and save the lost, as God came seeking Adam." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin locates the root of the fall in unbelief: Eve and Adam stopped trusting God's word and listened to the serpent, and pride and ingratitude followed. He reads verse 15 as a promise of victory over Satan that finds its fulfillment in Christ, the head of the redeemed."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes how the temptation works by small steps: a question, a contradiction, then an attractive picture of being like God. He stresses that God's first words after the fall are a question that invites confession."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Genesis and 'Tree of Life' videos",
+        "view": "BibleProject frames the fall as humans choosing to define good and evil for themselves rather than trusting God's definition. The story of the Bible then follows the search for the promised seed who will reverse it."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+        "renderings": [
+          { "version": "ESV", "text": "he shall bruise your head" },
+          { "version": "NIV", "text": "he will crush your head" },
+          { "version": "CSB", "text": "He will strike your head" },
+          { "version": "NASB", "text": "he shall bruise you on the head" }
+        ],
+        "note": "The Hebrew pronoun is masculine singular. The KJV's 'it' follows the collective noun 'seed'; modern versions use 'he,' which highlights the single deliverer the New Testament sees in Christ."
+      },
+      {
+        "verse": "16",
+        "kjv": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+        "renderings": [
+          { "version": "ESV", "text": "Your desire shall be contrary to your husband" },
+          { "version": "NIV", "text": "Your desire will be for your husband" },
+          { "version": "CSB", "text": "Your desire will be for your husband" }
+        ],
+        "note": "The same rare phrasing appears in 4:7, where sin's desire is 'for' Cain to master him. The ESV's 2016 revision reads 3:16 in that light as a desire to control; other versions leave the phrase open."
+      }
+    ],
+    "gospel": "Verse 15 is often called the first gospel. In the moment of judgment God promises a son of the woman who will crush the serpent and be wounded in the process. Jesus, born of a woman (Galatians 4:4), destroyed the devil's power through his death (Hebrews 2:14), suffering the bruise to his heel on the cross while dealing the fatal blow. God's clothing of Adam and Eve with skins, which required a death, pictures the covering he provides for sinners, and the way back to the tree of life, closed here, is reopened in Christ (Revelation 2:7; 22:14).",
+    "application": [
+      "Hold on to what God has actually said, because temptation usually starts by twisting or doubting his word.",
+      "Respond to sin by coming out of hiding and confessing it, instead of covering it or blaming others.",
+      "Expect life in a fallen world to include pain in family and frustration in work, and do not mistake those for God's original design.",
+      "Take courage that the serpent's defeat is promised and has been won in Christ.",
+      "Accept God's covering for sin rather than relying on fig leaves of our own making."
+    ],
+    "misapplications": [
+      {
+        "claim": "The fall was mainly about sex, or the fruit was a symbol of sexual awakening.",
+        "correction": "The sin is disobeying God's one command and seeking to be like God on one's own terms. Marriage and the body were already called good in chapters 1-2."
+      },
+      {
+        "claim": "Since Eve ate first, the fall was mainly the woman's fault.",
+        "correction": "Adam was with her (v6), God addresses him first (v9), and the New Testament traces sin and death through Adam (Romans 5:12)."
+      },
+      {
+        "claim": "The judgments of verses 16-19 are commands about how marriage and work should be.",
+        "correction": "They describe the effects of sin in a fallen world. Strife and domination in marriage are a distortion that the gospel works to heal (Ephesians 5:21-33)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Naked and unashamed", "b": "Naked and afraid", "verses": "2:25; 3:7-10", "note": "Sin turns openness into shame and fellowship into hiding." },
+      { "a": "God's word", "b": "The serpent's word", "verses": "1-5", "note": "The chapter turns on which voice the couple trusts." },
+      { "a": "Fig leaves", "b": "Garments of skin", "verses": "7, 21", "note": "Human self-covering fails; God provides a covering that lasts." },
+      { "a": "Cursed", "b": "Promise", "verses": "14-15", "note": "Judgment and hope are spoken in the same breath." }
+    ],
+    "features": [
+      { "label": "Naked and crafty", "note": "ʿArummim (naked, 2:25) and ʿarum (crafty, 3:1) sit side by side, foreshadowing that the serpent's cunning will expose them." },
+      { "label": "Mirror structure", "note": "The scene moves serpent, woman, man, God; then God questions man, woman, serpent; then judges serpent, woman, man, in reverse order." },
+      { "label": "Saw, good, desirable, took", "note": "Verse 6 echoes God's 'saw that it was good' in chapter 1, but now humans judge for themselves what is good." },
+      { "label": "Eve, mother of all living", "note": "Right after hearing he will die, Adam names his wife Eve (ḥawwah, related to 'living'), an act of faith in the promise." }
+    ],
+    "summary": "Genesis 3 explains why the very good world of chapters 1-2 is now marked by shame, conflict, pain and death. Sin began with doubting God's word and wanting to be like God on our own terms. Yet God comes seeking, promises a deliverer from the woman's line, and clothes the guilty, so grace is present from the moment sin appears.",
+    "metaArc": {
+      "book": "This chapter launches the problem Genesis and the whole Bible work out: the spread of sin and the search for the promised seed. The family lines that follow trace that seed through Seth, Noah, Abraham, Isaac, Jacob and Judah.",
+      "redemptive": "Fall, with the first Promise. Verse 15 opens the line of promise that runs to Christ, and the curse and the closed way to the tree of life are undone in the New Creation."
+    }
+  }
+}

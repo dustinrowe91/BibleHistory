@@ -1,0 +1,169 @@
+{
+  "ref": "GEN.4",
+  "book": "Genesis",
+  "chapter": 4,
+  "title": "Am I My Brother's Keeper?",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Outside Eden sin spreads fast: Cain murders Abel, refuses responsibility and is sent wandering, and his line builds cities and culture while growing in violence. Yet God marks Cain for protection, gives Eve another son in Seth, and people begin to call on the name of the LORD.",
+  "keyVerses": ["4-5", "7", "9-10", "26"],
+  "steps": {
+    "language": [
+      {
+        "word": "מִנְחָה",
+        "translit": "minḥah",
+        "strongs": "H4503",
+        "gloss": "offering, gift, tribute",
+        "verses": "3-5",
+        "note": "A general word for a gift brought to a superior, later used for the grain offering. Both brothers bring a minḥah; the difference God sees is not the type of gift but the worshipper, since he looks on 'Abel and his offering' first."
+      },
+      {
+        "word": "רֹבֵץ",
+        "translit": "rovets",
+        "gloss": "crouching, lying in wait",
+        "verses": "7",
+        "note": "Sin is pictured as an animal crouching at the door, ready to pounce. God warns Cain that sin's desire is for him, using the same phrase as 3:16, and calls him to master it."
+      },
+      {
+        "word": "דְּמֵי",
+        "translit": "deme",
+        "strongs": "H1818",
+        "gloss": "bloods",
+        "verses": "10-11",
+        "note": "The Hebrew is plural, literally 'the voice of your brother's bloods cries out.' Jewish interpreters noted it could include the descendants Abel would never have. Blood that cries for justice becomes a theme through Scripture."
+      },
+      {
+        "word": "נָע וָנָד",
+        "translit": "naʿ wanad",
+        "gloss": "a restless wanderer",
+        "verses": "12, 14",
+        "note": "A rhyming pair like 'formless and void' in 1:2. Cain settles in the land of Nod (wandering), east of Eden, yet builds a city, as if trying to undo his sentence by his own effort."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The way of Cain",
+        "refs": ["1 John 3:11-12", "Jude 11", "Hebrews 11:4"],
+        "note": "The New Testament treats Cain as the pattern of hatred and Abel as the pattern of faith. John says Cain murdered because his own deeds were evil and his brother's righteous."
+      },
+      {
+        "theme": "Blood that cries out",
+        "refs": ["Genesis 9:5-6", "Matthew 23:35", "Revelation 6:9-10", "Hebrews 12:24"],
+        "note": "Abel's blood is the first of the innocent blood God avenges. Hebrews says the blood of Jesus speaks a better word than Abel's."
+      },
+      {
+        "theme": "Calling on the name of the LORD",
+        "refs": ["Genesis 12:8", "Psalm 116:17", "Joel 2:32", "Romans 10:13"],
+        "note": "Public worship of the LORD begins with Seth's line. Joel and Paul promise that everyone who calls on the name of the Lord will be saved."
+      }
+    ],
+    "context": {
+      "setting": "The last part of the first toledot section (2:4-4:26). Chapter 3 told of sin's entrance; chapter 4 shows its fruit in the next generation, within one family, and then across a growing civilization.",
+      "flow": [
+        { "verses": "1-2", "label": "Two sons", "note": "Eve bears Cain, saying she has gotten a man with the LORD's help, and then Abel. One keeps sheep, the other works the ground." },
+        { "verses": "3-7", "label": "Two offerings", "note": "God regards Abel and his offering but not Cain and his. Cain is angry, and God warns him that sin is crouching at the door." },
+        { "verses": "8-16", "label": "Murder and judgment", "note": "Cain kills Abel in the field, denies responsibility, and is sentenced to wander. God marks him so no one will kill him." },
+        { "verses": "17-24", "label": "Cain's line", "note": "Cain builds a city. His descendants found herding, music and metalwork, and Lamech boasts of seventy-sevenfold vengeance." },
+        { "verses": "25-26", "label": "Seth's line", "note": "Eve bears Seth, 'appointed' in place of Abel. In the days of his son Enosh people begin to call on the name of the LORD." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:4", "from": "4", "note": "By faith Abel offered a more acceptable sacrifice than Cain and was commended as righteous." },
+        { "ref": "1 John 3:12", "from": "8", "note": "Do not be like Cain, who was of the evil one and murdered his brother because his deeds were evil." },
+        { "ref": "Jude 11", "from": "5-8", "note": "False teachers have walked in the way of Cain." },
+        { "ref": "Matthew 23:35", "from": "8", "note": "Jesus speaks of all the righteous blood shed from Abel to Zechariah." },
+        { "ref": "Hebrews 12:24", "from": "10", "note": "Jesus' sprinkled blood speaks a better word than the blood of Abel." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 18:21-22", "from": "24", "note": "Lamech's seventy-sevenfold vengeance is answered by Jesus' call to forgive seventy-seven times." },
+        { "ref": "Genesis 9:6", "from": "10-11", "note": "After the flood God establishes that the shedding of human blood will be required, because humans bear his image." },
+        { "ref": "Proverbs 15:8", "from": "5", "note": "The sacrifice of the wicked is an abomination, but the prayer of the upright pleases God." },
+        { "ref": "Romans 6:12-14", "from": "7", "note": "Sin must not reign; believers are called to master it through grace." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 11:4", "from": "17", "note": "City-building east of Eden returns at Babel, where humans try to make a name for themselves." },
+        { "ref": "Matthew 5:21-22", "from": "5-8", "note": "Jesus traces murder back to anger in the heart, exactly the path Cain took." },
+        { "ref": "Luke 11:50-51", "from": "10", "note": "The blood of all the prophets since the foundation of the world, starting with Abel, will be required." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin, following Hebrews 11:4, holds that Abel's offering pleased God because Abel offered in faith, while Cain brought an outward gift from a heart not right with God. God first looks on the person and then on the offering."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke contrasts Abel's offering of firstborn and fat portions with Cain's unspecified 'some of the fruit,' seeing in the description a difference in the heart's devotion. He reads the two lines that follow as the seed of the serpent and the seed of the woman taking shape."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that Cain's line produces real cultural achievements, cities, music and tools, alongside moral decline. Culture is a gift that fallen people can develop, but it cannot cure sin."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "7",
+        "kjv": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "renderings": [
+          { "version": "ESV", "text": "sin is crouching at the door" },
+          { "version": "NIV", "text": "it desires to have you" },
+          { "version": "CSB", "text": "Its desire is for you" }
+        ],
+        "note": "'Crouching' captures the picture of a predator better than 'lieth.' The KJV's 'his desire' refers to sin, which the modern versions make clear."
+      },
+      {
+        "verse": "26",
+        "kjv": "And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.",
+        "renderings": [
+          { "version": "ESV", "text": "people began to call upon the name" },
+          { "version": "NIV", "text": "people began to call on the name" },
+          { "version": "CSB", "text": "people began to call on the name" }
+        ],
+        "note": "All the versions agree. The phrase describes public worship and prayer to God by his covenant name."
+      }
+    ],
+    "gospel": "Abel, a righteous shepherd killed by his brother, foreshadows Jesus, the good shepherd put to death by his own people. But where Abel's blood cried out for justice, Jesus' blood speaks a better word: forgiveness and peace with God (Hebrews 12:24). Lamech's boast of endless vengeance is overturned by Jesus' command of endless forgiveness, and the line of Seth, through which people call on the LORD's name, leads to the one in whose name everyone who calls will be saved.",
+    "application": [
+      "Worship God with a heart of faith, not just an outward offering.",
+      "Take God's warning about sin seriously and deal with anger before it masters you.",
+      "Accept responsibility for others: we are our brother's keeper.",
+      "Enjoy and develop culture, art and technology while remembering they cannot fix the human heart.",
+      "Call on the name of the LORD, privately and together, as the mark of God's people."
+    ],
+    "misapplications": [
+      {
+        "claim": "God rejected Cain simply because he preferred animal sacrifices to grain.",
+        "correction": "Grain offerings were later commanded and accepted (Leviticus 2). Hebrews 11:4 points to faith, and verse 7 points to Cain's need to 'do well.'"
+      },
+      {
+        "claim": "The mark of Cain was a curse on a particular race.",
+        "correction": "The mark was a sign of God's protection on Cain personally, so no one would kill him. Using it to justify racism twists the text."
+      },
+      {
+        "claim": "Cain's question shows we have no obligation to others.",
+        "correction": "The question is Cain's evasion, and God's answer, 'What have you done?', exposes it. Scripture teaches love of neighbor."
+      }
+    ],
+    "contrasts": [
+      { "a": "Abel's faith", "b": "Cain's anger", "verses": "4-8", "note": "Two brothers, two hearts, two responses to God." },
+      { "a": "Lamech's vengeance", "b": "Calling on the LORD", "verses": "23-26", "note": "One line boasts in violence; the other turns to God in worship." },
+      { "a": "God's protection", "b": "Human vengeance", "verses": "15, 24", "note": "God limits revenge on Cain; Lamech multiplies it on his own authority." }
+    ],
+    "features": [
+      { "label": "Brother", "note": "The word 'brother' appears seven times in verses 2-11, pressing home the horror of the first murder." },
+      { "label": "Echoes of chapter 3", "note": "'Where is Abel?' echoes 'Where are you?', the field echoes the garden, and the ground is cursed again, now for Cain." },
+      { "label": "Seven and seventy-seven", "note": "God promises sevenfold vengeance on anyone who kills Cain; Lamech claims seventy-sevenfold, showing violence escalating." },
+      { "label": "Name meanings", "note": "Abel (hevel) means breath or vapor, the word Ecclesiastes uses for 'vanity,' fitting his brief life. Seth sounds like 'appointed.'" }
+    ],
+    "summary": "Genesis 4 shows sin's rapid spread from a family quarrel to murder to a culture that boasts in violence. God still speaks warning and mercy to the sinner and preserves a line that calls on his name. The chapter introduces the conflict between the seed of the woman and the seed of the serpent that runs through Genesis.",
+    "metaArc": {
+      "book": "This chapter closes the first toledot section by showing two family lines: Cain's, marked by achievement and violence, and Seth's, marked by worship. Chapter 5 follows Seth's line toward Noah.",
+      "redemptive": "Fall, with Promise preserved. The godly line through Seth carries the hope of 3:15 forward, and Abel's blood points ahead to the better blood of Christ."
+    }
+  }
+}

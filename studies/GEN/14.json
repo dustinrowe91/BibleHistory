@@ -1,0 +1,170 @@
+{
+  "ref": "GEN.14",
+  "book": "Genesis",
+  "chapter": 14,
+  "title": "Priest of God Most High",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Four eastern kings defeat the kings of the plain and carry Lot away. Abram pursues with his trained men and rescues him. Returning, Abram is blessed by Melchizedek, king of Salem and priest of God Most High, gives him a tenth, and refuses any reward from the king of Sodom.",
+  "keyVerses": ["14", "18-20", "22-23"],
+  "steps": {
+    "language": [
+      {
+        "word": "מַלְכִּי־צֶדֶק",
+        "translit": "Malki-tsedeq",
+        "strongs": "H4442",
+        "gloss": "king of righteousness",
+        "verses": "18",
+        "note": "A name meaning 'my king is righteousness.' He is king of Salem, related to shalom (peace), likely early Jerusalem (Psalm 76:2). Hebrews 7:2 draws out both meanings: king of righteousness and king of peace."
+      },
+      {
+        "word": "אֵל עֶלְיוֹן",
+        "translit": "ʾEl ʿElyon",
+        "gloss": "God Most High",
+        "verses": "18-20, 22",
+        "note": "A title stressing God's supremacy over all. Abram identifies this God with the LORD (YHWH) in verse 22, showing that Melchizedek's God is the true God and not a local deity."
+      },
+      {
+        "word": "קֹנֵה",
+        "translit": "qoneh",
+        "strongs": "H7069",
+        "gloss": "possessor, maker, creator",
+        "verses": "19, 22",
+        "note": "The verb can mean to acquire, possess or create. Either way, God owns heaven and earth, which is why Abram need not take riches from Sodom."
+      },
+      {
+        "word": "מַעֲשֵׂר",
+        "translit": "maʿaser",
+        "strongs": "H4643",
+        "gloss": "tenth, tithe",
+        "verses": "20",
+        "note": "The first tithe in Scripture, given freely by Abram as an acknowledgment of Melchizedek's priesthood and of God's lordship over the victory."
+      },
+      {
+        "word": "עִבְרִי",
+        "translit": "ʿIvri",
+        "strongs": "H5680",
+        "gloss": "Hebrew",
+        "verses": "13",
+        "note": "The first time anyone is called a Hebrew. The word may relate to Eber (10:21) or to 'crossing over,' and marks Abram as an outsider among the local peoples."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "A priest after the order of Melchizedek",
+        "refs": ["Psalm 110:4", "Hebrews 5:6, 10", "Hebrews 6:20", "Hebrews 7:1-28"],
+        "note": "Psalm 110 speaks of a king who is also a priest forever after the order of Melchizedek. Hebrews applies it to Jesus, whose priesthood is greater than Aaron's."
+      },
+      {
+        "theme": "Bread and wine",
+        "refs": ["Matthew 26:26-29", "1 Corinthians 11:23-26"],
+        "note": "Many Christians have seen Melchizedek's bread and wine as a foreshadowing of the Lord's Supper, though the New Testament does not draw this link explicitly."
+      },
+      {
+        "theme": "Victory given by God",
+        "refs": ["Judges 7:7", "1 Samuel 14:6", "Psalm 44:3-7"],
+        "note": "Small forces win great victories because the LORD fights for his people, a pattern that begins with Abram's 318 men."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). This chapter reads like an ancient war report and shows Abram on the world stage. It follows Lot's choice of Sodom in chapter 13 and comes before God's covenant in chapter 15.",
+      "flow": [
+        { "verses": "1-12", "label": "The war of the kings", "note": "Four kings led by Chedorlaomer crush a rebellion by five kings of the plain, plunder Sodom and Gomorrah, and capture Lot." },
+        { "verses": "13-16", "label": "Abram's rescue", "note": "Abram the Hebrew gathers 318 trained men, pursues to Dan and beyond, defeats the kings by night and recovers Lot, the people and the goods." },
+        { "verses": "17-20", "label": "Melchizedek", "note": "The king of Salem brings bread and wine, blesses Abram by God Most High, and Abram gives him a tenth of everything." },
+        { "verses": "21-24", "label": "Refusing Sodom's reward", "note": "The king of Sodom offers Abram the goods, but Abram swears by the LORD not to take a thread or sandal strap, so no one can say Sodom made him rich." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 7:1-10", "from": "18-20", "note": "Hebrews retells the meeting, interprets Melchizedek's name, and argues that he is greater than Abraham because he blessed him and received tithes." },
+        { "ref": "Psalm 110:4", "from": "18", "note": "The LORD has sworn: you are a priest forever after the order of Melchizedek." },
+        { "ref": "Hebrews 5:6", "from": "18", "note": "Christ was appointed a priest forever after the order of Melchizedek." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 7:15-17", "from": "18", "note": "Christ's priesthood rests on the power of an indestructible life, not on descent from Levi." },
+        { "ref": "Psalm 76:2", "from": "18", "note": "God's abode is in Salem, his dwelling place in Zion, linking Salem to Jerusalem." },
+        { "ref": "Proverbs 3:9", "from": "20", "note": "Honor the LORD with your wealth and with the firstfruits of all your produce." },
+        { "ref": "Galatians 6:10", "from": "14-16", "note": "Do good to everyone, especially to the household of faith, as Abram rescued his kinsman." }
+      ],
+      "tier3": [
+        { "ref": "Judges 18:29", "from": "14", "note": "The city of Dan received that name later; the reference shows the text being updated for later readers." },
+        { "ref": "1 Samuel 30:21-25", "from": "24", "note": "David insists the spoils be shared fairly, as Abram ensures his allies receive their share." },
+        { "ref": "Daniel 2:20-21", "from": "1-12", "note": "God removes kings and sets up kings, the context in which Abram's victory should be read." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "F. F. Bruce",
+        "work": "The Epistle to the Hebrews (New International Commentary)",
+        "view": "Bruce explains that Hebrews argues from the silence of Genesis about Melchizedek's ancestry and death. He appears in the text without beginning or end and so becomes a fitting picture of the eternal Son, not that Melchizedek himself was divine."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees Melchizedek as a true priest of the true God among the Canaanites, a type of Christ who unites kingship and priesthood. He rejects using the bread and wine to support the Mass, noting that Melchizedek gave refreshment to Abram's men, not an offering to God."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner contrasts the two kings who meet Abram: Melchizedek offers blessing and receives a tithe; the king of Sodom offers riches and is refused. Abram's choice shows whose favor he values."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "19",
+        "kjv": "And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and earth:",
+        "renderings": [
+          { "version": "ESV", "text": "Possessor of heaven and earth" },
+          { "version": "NIV", "text": "Creator of heaven and earth" },
+          { "version": "CSB", "text": "Creator of heaven and earth" }
+        ],
+        "note": "Qoneh can mean possessor or maker. 'Creator' emphasizes God's work in making all things; 'possessor' emphasizes his ownership. Both explain why Abram can refuse Sodom's riches."
+      },
+      {
+        "verse": "20",
+        "kjv": "And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all.",
+        "renderings": [
+          { "version": "ESV", "text": "And Abram gave him a tenth of everything" },
+          { "version": "NIV", "text": "Then Abram gave him a tenth of everything" },
+          { "version": "CSB", "text": "And Abram gave him a tenth of everything" }
+        ],
+        "note": "The Hebrew says only 'he gave him a tenth.' Modern versions add 'Abram' for clarity, which Hebrews 7:4 confirms."
+      }
+    ],
+    "gospel": "Melchizedek, both king and priest, appears and disappears from the story with no recorded genealogy, and Psalm 110 and Hebrews 7 see him as a picture of Christ. Jesus is the true King of righteousness and King of peace, a priest forever not by descent from Levi but by the power of an indestructible life. As Melchizedek blessed Abram after battle, Christ, our great High Priest, blesses his people and lives forever to intercede for them. Abram's rescue of captive Lot also pictures the Deliverer who sets captives free.",
+    "application": [
+      "Act courageously to rescue and help those in need, including family members whose poor choices brought them trouble.",
+      "Credit God with every victory and give back to him from what he provides.",
+      "Refuse gain that would compromise our witness or tie us to ungodly benefactors.",
+      "Rejoice in Christ as our eternal priest-king who blesses and intercedes for us."
+    ],
+    "misapplications": [
+      {
+        "claim": "Melchizedek was literally an appearance of the pre-incarnate Christ.",
+        "correction": "Hebrews says he 'resembles' the Son of God (7:3), describing him as a type. Most interpreters take him as a real human king and priest whose story is told so as to foreshadow Christ."
+      },
+      {
+        "claim": "Abram's tithe establishes a binding legal rule that every Christian must give exactly ten percent.",
+        "correction": "Abram's tithe was voluntary and one-time. Christians differ on tithing today, but the New Testament emphasizes generous, cheerful, proportionate giving (2 Corinthians 9:6-7)."
+      }
+    ],
+    "contrasts": [
+      { "a": "King of Salem", "b": "King of Sodom", "verses": "17-24", "note": "One brings blessing; the other offers riches. Abram receives the first and refuses the second." },
+      { "a": "Lot captured", "b": "Abram the rescuer", "verses": "12, 14-16", "note": "The one who chose by sight needs rescue from the one who walks by faith." },
+      { "a": "Great empires", "b": "318 men", "verses": "1-9, 14-15", "note": "God gives victory against the odds." }
+    ],
+    "features": [
+      { "label": "A world-scale war", "note": "The account of four kings against five reads like an ancient annal, placing Abram among the powers of his day." },
+      { "label": "Two blessings", "note": "Melchizedek blesses Abram by God and blesses God for Abram, a pattern of mutual blessing." },
+      { "label": "Silence as typology", "note": "Melchizedek has no recorded parents, birth or death; Hebrews uses that silence to portray an eternal priesthood." },
+      { "label": "First 'Hebrew'", "note": "The title appears here for the first time, as Abram steps onto the international stage." }
+    ],
+    "summary": "Genesis 14 shows Abram as a faithful deliverer who rescues his kinsman and honors God Most High. The mysterious Melchizedek blesses him and receives his tithe, becoming a key Old Testament picture of Christ's eternal priesthood. Abram's refusal of Sodom's wealth shows that he trusts God, the possessor of heaven and earth, for his reward.",
+    "metaArc": {
+      "book": "This chapter shows the promise of 12:3 in action: those who bless Abram are blessed, and his enemies are defeated. It prepares for chapter 15, where God tells Abram, 'I am your shield; your reward shall be very great.'",
+      "redemptive": "Promise. Melchizedek introduces a priest-king figure who reaches his fulfillment in Christ, the priest forever after his order."
+    }
+  }
+}

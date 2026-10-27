@@ -1,0 +1,162 @@
+{
+  "ref": "GEN.10",
+  "book": "Genesis",
+  "chapter": 10,
+  "title": "The Table of Nations",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The descendants of Shem, Ham and Japheth spread out into seventy nations across the earth, each with its own land, language and clans. The chapter shows the creation blessing to fill the earth being fulfilled and places every nation within God's story.",
+  "keyVerses": ["1", "8-10", "25", "32"],
+  "steps": {
+    "language": [
+      {
+        "word": "גּוֹיִם",
+        "translit": "goyim",
+        "strongs": "H1471",
+        "gloss": "nations",
+        "verses": "5, 20, 31, 32",
+        "note": "The word later used for Gentiles, peoples other than Israel. Here it is neutral and descriptive: all the nations are descended from Noah and belong to God's world. Abraham's call in 12:3 promises blessing to these same families."
+      },
+      {
+        "word": "פָּרַד",
+        "translit": "parad",
+        "strongs": "H6504",
+        "gloss": "to spread, divide, separate",
+        "verses": "5, 32",
+        "note": "The nations 'spread out' or 'were divided' across the earth. Verse 32 sums up the chapter with this verb, and chapter 11 explains how it happened at Babel."
+      },
+      {
+        "word": "גִּבֹּר",
+        "translit": "gibbor",
+        "strongs": "H1368",
+        "gloss": "mighty man, warrior",
+        "verses": "8, 9",
+        "note": "Nimrod is the first 'mighty one' on earth, a mighty hunter. The word recalls the 'mighty men' of 6:4. Nimrod founds Babel and Nineveh, cities that will become enemies of God's people."
+      },
+      {
+        "word": "פֶּלֶג",
+        "translit": "Peleg",
+        "strongs": "H6389",
+        "gloss": "division",
+        "verses": "25",
+        "note": "Peleg is named because 'in his days the earth was divided' (niflegah). Most interpreters connect this with the scattering at Babel in chapter 11."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "All nations in God's plan",
+        "refs": ["Genesis 12:3", "Deuteronomy 32:8", "Psalm 22:27", "Acts 17:26"],
+        "note": "God fixed the boundaries of the peoples and promised that all the families of the earth would be blessed through Abraham. Paul tells the Athenians that God made every nation from one man."
+      },
+      {
+        "theme": "Babylon and Nineveh",
+        "refs": ["Isaiah 13", "Jonah 1:2", "Nahum 1:1", "Revelation 18"],
+        "note": "The cities founded by Nimrod become symbols of proud empire opposed to God, ending with Babylon's fall in Revelation."
+      },
+      {
+        "theme": "The nations gathered",
+        "refs": ["Isaiah 66:18-20", "Acts 2:5-11", "Revelation 7:9"],
+        "note": "The scattered nations are gathered in worship. Several of the peoples listed here reappear in Isaiah 66 and in the crowd at Pentecost."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Shem, Ham and Japheth (10:1-11:9). Placed after the flood and before Babel, it describes the result (nations spread across the earth) before chapter 11 tells the cause.",
+      "flow": [
+        { "verses": "1-5", "label": "Japheth", "note": "The coastland peoples to the north and west, including Javan (Greece), Tarshish and the islands." },
+        { "verses": "6-20", "label": "Ham", "note": "Cush, Egypt, Put and Canaan, with Nimrod founding Babel and Nineveh, and the boundaries of the Canaanites described." },
+        { "verses": "21-31", "label": "Shem", "note": "The line of Shem, father of all the children of Eber, including Peleg and Joktan, set last because it leads to Abraham." },
+        { "verses": "32", "label": "Summary", "note": "These are the clans of Noah's sons, from whom the nations spread over the earth after the flood." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Chronicles 1:5-23", "from": "1-31", "note": "Chronicles reproduces the table of nations as the opening of Israel's history." },
+        { "ref": "Luke 3:35-36", "from": "21-25", "note": "Luke's genealogy of Jesus runs through Eber, Shelah, Arphaxad and Shem." },
+        { "ref": "Acts 17:26", "from": "32", "note": "God made from one man every nation of mankind to live on all the face of the earth." }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 32:8", "from": "32", "note": "When the Most High divided the nations, he fixed their borders." },
+        { "ref": "Genesis 12:3", "from": "32", "note": "In Abraham all the families of the earth will be blessed, the families listed here." },
+        { "ref": "Revelation 7:9", "from": "5, 20, 31", "note": "A multitude from every nation, tribe, people and language stands before the throne, using the same fourfold categories." },
+        { "ref": "Isaiah 66:19", "from": "2-4", "note": "God sends messengers to Tarshish, Put, Lud, Tubal and Javan to declare his glory." }
+      ],
+      "tier3": [
+        { "ref": "Micah 5:6", "from": "8-11", "note": "Assyria is called the land of Nimrod." },
+        { "ref": "Genesis 15:18-21", "from": "15-19", "note": "God promises Abraham the land of peoples descended from Canaan." },
+        { "ref": "Acts 2:9-11", "from": "1-31", "note": "Peoples from across the known world hear the gospel in their own languages at Pentecost." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Christopher J. H. Wright",
+        "work": "The Mission of God",
+        "view": "Wright argues that the table of nations shows God's concern for all peoples from the start. Israel's later election is not a rejection of the nations but God's way of bringing blessing back to them."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Genesis and 'The Divine Council' videos",
+        "view": "BibleProject draws attention to the seventy nations of the list and connects them to Deuteronomy 32:8 and to Jesus sending out seventy (or seventy-two) in Luke 10, a sign that his mission reaches all nations."
+      },
+      {
+        "name": "Kenneth Mathews",
+        "work": "Genesis 1-11:26 (New American Commentary)",
+        "view": "Mathews notes that the list is organized by kinship, geography and language rather than by strict biology. It is a theological map that places Israel's neighbors and the wider world within God's purposes."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "9",
+        "kjv": "He was a mighty hunter before the LORD: wherefore it is said, Even as Nimrod the mighty hunter before the LORD.",
+        "renderings": [
+          { "version": "ESV", "text": "a mighty hunter before the LORD" },
+          { "version": "NIV", "text": "a mighty hunter before the LORD" },
+          { "version": "CSB", "text": "a powerful hunter in the sight of the LORD" }
+        ],
+        "note": "'Before the LORD' may mean simply 'under God's eye,' or may hint at defiance in his face. Interpreters differ, but Nimrod's cities and the following chapter suggest a proud empire-builder."
+      },
+      {
+        "verse": "32",
+        "kjv": "These are the families of the sons of Noah, after their generations, in their nations: and by these were the nations divided in the earth after the flood.",
+        "renderings": [
+          { "version": "ESV", "text": "the nations spread abroad on the earth" },
+          { "version": "NIV", "text": "the nations spread out over the earth" },
+          { "version": "CSB", "text": "the nations spread out over the earth" }
+        ],
+        "note": "'Divided' and 'spread out' both render parad. Modern versions emphasize the filling of the earth commanded in 9:1; the KJV leans toward the division explained in chapter 11."
+      }
+    ],
+    "gospel": "Before God chooses Abraham, he lays out the whole map of humanity, so that when he promises 'in you all the families of the earth shall be blessed' we know exactly whom he means. Jesus sends his disciples to make disciples of all nations, the Spirit at Pentecost reaches peoples from this list, and Revelation shows a redeemed multitude from every nation, tribe, people and language. Through Christ, the scattered peoples of Genesis 10 are gathered into one family.",
+    "application": [
+      "See every ethnic group as part of one human family descended from one ancestor, made in God's image.",
+      "Embrace God's heart for all nations by praying for and supporting the spread of the gospel.",
+      "Reject ethnic pride; the chapter gives no nation a claim to superiority.",
+      "Trust that God governs the history and boundaries of nations, including today's."
+    ],
+    "misapplications": [
+      {
+        "claim": "The table of nations assigns some races to permanent inferiority.",
+        "correction": "The chapter traces peoples by family, land and language, not race, and treats all as Noah's descendants under God. Chapter 12 promises blessing to all of them."
+      },
+      {
+        "claim": "The list is a complete scientific genealogy of every people on earth.",
+        "correction": "It names seventy representative peoples known in the ancient Near East. Its purpose is theological and historical, not exhaustive."
+      }
+    ],
+    "contrasts": [
+      { "a": "Shem's line", "b": "Nimrod's cities", "verses": "8-12, 21-31", "note": "One leads to Abraham; the other to Babel and Nineveh." },
+      { "a": "Spread over the earth", "b": "Gathered at Babel", "verses": "32; 11:4", "note": "God wanted the earth filled; people wanted to stay together and make a name." }
+    ],
+    "features": [
+      { "label": "Seventy nations", "note": "The list names about seventy peoples, a number that recurs in the seventy descendants of Jacob who go down to Egypt (46:27) and the seventy elders of Israel." },
+      { "label": "Out of chronological order", "note": "Chapter 10 describes the spread of nations before chapter 11 explains the cause at Babel. Genesis often summarizes and then tells the story behind it." },
+      { "label": "Shem last", "note": "Though eldest, Shem's line is placed last so the story can move straight on to his descendant Abraham." },
+      { "label": "Canaan's borders", "note": "Verses 15-19 give detailed boundaries of Canaanite territory, preparing for the land promised to Abraham." }
+    ],
+    "summary": "Genesis 10 records the spread of Noah's descendants into the nations of the world, fulfilling God's command to fill the earth. It places all peoples within one family and under one God, introduces the empires that will oppose his people, and narrows to the line of Shem and Eber. It sets the stage for God's promise to bless all nations through Abraham.",
+    "metaArc": {
+      "book": "This chapter maps the world into which Abraham will be called. It bridges the flood and Babel and introduces peoples who appear throughout Israel's history.",
+      "redemptive": "Promise in preparation. The nations listed here are the ones God promises to bless through Abraham's seed, a promise fulfilled when people from every nation are gathered in Christ."
+    }
+  }
+}

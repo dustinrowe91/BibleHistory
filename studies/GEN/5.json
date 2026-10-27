@@ -1,0 +1,167 @@
+{
+  "ref": "GEN.5",
+  "book": "Genesis",
+  "chapter": 5,
+  "title": "And He Died",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The family line from Adam to Noah shows the image of God passed on and the sentence of death carried out, generation after generation. Enoch, who walked with God and was taken, and Noah, named for comfort, break the pattern with hope.",
+  "keyVerses": ["1-3", "5", "24", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "תּוֹלְדֹת",
+        "translit": "toledot",
+        "strongs": "H8435",
+        "gloss": "generations, family history",
+        "verses": "1",
+        "note": "Literally 'begettings.' The phrase 'this is the book of the generations' marks the second major section of Genesis. Each toledot heading introduces what came from a person, and Matthew opens his Gospel with the same phrase for Jesus (Matthew 1:1)."
+      },
+      {
+        "word": "דְּמוּת",
+        "translit": "demut",
+        "strongs": "H1823",
+        "gloss": "likeness",
+        "verses": "1, 3",
+        "note": "Verse 1 repeats that God made man in his likeness; verse 3 says Adam fathered a son in his own likeness and image. The image of God is passed on to Seth, but now through a fallen father."
+      },
+      {
+        "word": "הָלַךְ אֶת־הָאֱלֹהִים",
+        "translit": "halak ʾet-haʾelohim",
+        "gloss": "walked with God",
+        "verses": "22, 24",
+        "note": "The verb is in a form that suggests walking about habitually. It describes a close, ongoing relationship, used elsewhere only of Noah (6:9). Enoch's walk is noted twice."
+      },
+      {
+        "word": "נָחַם",
+        "translit": "naḥam",
+        "strongs": "H5162",
+        "gloss": "to comfort, relieve",
+        "verses": "29",
+        "note": "Lamech names his son Noah (rest) and says he will bring comfort from the toil of the cursed ground. The same verb appears in 6:6-7, where God 'regrets' or is grieved that he made man, a deliberate echo."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The reign of death",
+        "refs": ["Genesis 2:17", "Romans 5:14", "Hebrews 9:27", "1 Corinthians 15:26"],
+        "note": "The refrain 'and he died' shows God's word in 2:17 coming true. Paul says death reigned from Adam to Moses; Christ will destroy it as the last enemy."
+      },
+      {
+        "theme": "Walking with God",
+        "refs": ["Genesis 6:9", "Genesis 17:1", "Micah 6:8", "Hebrews 11:5-6"],
+        "note": "Walking with God sums up a life of faith and obedience. Hebrews explains that Enoch pleased God, and without faith it is impossible to please him."
+      },
+      {
+        "theme": "Genealogy as promise",
+        "refs": ["1 Chronicles 1:1-4", "Luke 3:36-38", "Matthew 1:1"],
+        "note": "The line from Adam to Noah is repeated in Chronicles and in Luke's genealogy, which runs back through these names to 'Adam, the son of God.'"
+      }
+    ],
+    "context": {
+      "setting": "The second toledot section of Genesis (5:1-6:8), tracing Seth's line in contrast to Cain's line in chapter 4. It bridges the fall and the flood with ten generations, from Adam to Noah.",
+      "flow": [
+        { "verses": "1-2", "label": "Back to creation", "note": "A summary of Genesis 1:26-28: God created humanity in his likeness, male and female, and blessed them." },
+        { "verses": "3-20", "label": "Adam to Jared", "note": "Each entry gives a father's age at his son's birth, the years he lived afterward, and the refrain 'and he died.'" },
+        { "verses": "21-24", "label": "Enoch", "note": "Enoch walks with God for three hundred years, and then he is not, for God took him." },
+        { "verses": "25-32", "label": "Methuselah to Noah", "note": "Methuselah lives longest of all. Lamech names Noah in hope of relief from the curse, and Noah fathers Shem, Ham and Japheth." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:5", "from": "24", "note": "By faith Enoch was taken up so that he did not see death, because he pleased God." },
+        { "ref": "Jude 14-15", "from": "21-24", "note": "Jude cites a prophecy attributed to Enoch, the seventh from Adam, about the Lord coming in judgment." },
+        { "ref": "Luke 3:36-38", "from": "3-32", "note": "Luke's genealogy of Jesus runs back through Noah, Lamech, Methuselah, Enoch and Seth to Adam." },
+        { "ref": "1 Chronicles 1:1-4", "from": "3-32", "note": "Chronicles opens Israel's history with this same list of names." }
+      ],
+      "tier2": [
+        { "ref": "Romans 5:12-14", "from": "5", "note": "Death reigned from Adam onward, even over those who did not sin as Adam did." },
+        { "ref": "2 Kings 2:11", "from": "24", "note": "Elijah, like Enoch, is taken by God without dying." },
+        { "ref": "1 Corinthians 15:51-52", "from": "24", "note": "Not all will sleep; believers alive at Christ's return will be changed, as Enoch was taken." },
+        { "ref": "Psalm 90:10-12", "from": "5-31", "note": "Moses' psalm reflects on the brevity of human life and asks God to teach us to number our days." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 4:17-24", "from": "18-24", "note": "Cain's line also has an Enoch and a Lamech; the two lists invite comparison, with Seth's Enoch walking with God and Cain's Lamech boasting of violence." },
+        { "ref": "Matthew 11:28-29", "from": "29", "note": "Jesus offers the rest from toil that Lamech hoped Noah would bring." },
+        { "ref": "Romans 8:20-21", "from": "29", "note": "Creation awaits release from the curse that made work painful." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees the genealogy as evidence that God preserved his church in an unbroken line through a corrupt age. He takes Enoch's translation as a public token that there is life beyond this world for those who walk with God."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 1-15 (Word Biblical Commentary)",
+        "view": "Wenham highlights the monotonous refrain 'and he died' as the point of the list: the penalty of 2:17 is relentlessly carried out. The exceptions, Enoch and Noah, stand out all the more against that background."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that the long lifespans are presented as historical, though their exact purpose is debated. He draws attention to how a single sentence about Enoch outweighs centuries of mere existence."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "24",
+        "kjv": "And Enoch walked with God: and he was not; for God took him.",
+        "renderings": [
+          { "version": "ESV", "text": "and he was not, for God took him" },
+          { "version": "NIV", "text": "then he was no more" },
+          { "version": "CSB", "text": "then he was not there" }
+        ],
+        "note": "The Hebrew is very brief. The NIV's 'no more' could be read as ordinary death, but the absence of 'and he died' and Hebrews 11:5 show he was taken without dying."
+      },
+      {
+        "verse": "29",
+        "kjv": "And he called his name Noah, saying, This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.",
+        "renderings": [
+          { "version": "ESV", "text": "this one shall bring us relief" },
+          { "version": "NIV", "text": "He will comfort us" },
+          { "version": "CSB", "text": "This one will bring us relief" }
+        ],
+        "note": "'Comfort' and 'relief' both render naḥam. The verse links back to the curse on the ground in 3:17 and expresses hope that God will begin to undo it."
+      }
+    ],
+    "gospel": "The repeated 'and he died' is the sound of a world under Adam's sin. Into that pattern God shows two lights: Enoch, who did not see death, and Noah, through whom God would bring rest. Both point to Jesus. Luke traces Jesus' genealogy back through these very names to Adam, presenting him as the new head of humanity. He entered the line of death, died himself, and rose to break death's reign, so that those who walk with him will be raised or changed at his coming.",
+    "application": [
+      "Face the reality of death honestly; every life in this chapter ends with it except one.",
+      "Walk with God day by day in faith, which matters more than the length of a life.",
+      "Value your own place in the generations, passing on faith to children and grandchildren.",
+      "Long for the rest from toil that God promises, and find its beginning in Christ."
+    ],
+    "misapplications": [
+      {
+        "claim": "Genealogies are dull lists with nothing to teach.",
+        "correction": "This list proves God's word true (death came), preserves the line of promise, and highlights Enoch's faith. The New Testament draws on it directly."
+      },
+      {
+        "claim": "Enoch was taken because he earned it by being morally perfect.",
+        "correction": "Hebrews 11:5-6 says he pleased God by faith. Walking with God is a relationship of trust, not a perfect record."
+      },
+      {
+        "claim": "The ages can be added up to give a certain date for creation.",
+        "correction": "Christians differ on whether biblical genealogies are complete or selective, since some elsewhere skip generations. The chapter's emphasis is the line of promise and the reign of death."
+      }
+    ],
+    "contrasts": [
+      { "a": "And he died", "b": "God took him", "verses": "5, 24", "note": "Eight times the refrain sounds; Enoch alone breaks it." },
+      { "a": "Cursed ground", "b": "Comfort", "verses": "29", "note": "Noah's naming expresses hope that God will relieve the curse." },
+      { "a": "Image of God", "b": "Image of Adam", "verses": "1, 3", "note": "The image is passed on, but now from a fallen father." }
+    ],
+    "features": [
+      { "label": "Ten generations", "note": "Adam to Noah is ten generations, matched by ten from Shem to Abraham in chapter 11, a structure that frames the flood." },
+      { "label": "The seventh from Adam", "note": "Enoch is the seventh generation, the number of completion, and he is the one who walks with God (Jude 14)." },
+      { "label": "Two Lamechs", "note": "Cain's Lamech boasts of killing; Seth's Lamech names his son in hope of comfort. The contrast is deliberate." },
+      { "label": "Methuselah", "note": "The longest-lived man in Scripture. By the chronology of the chapter he dies in the year of the flood." }
+    ],
+    "summary": "Genesis 5 shows death reigning as God said it would, yet God preserving a godly line from Adam to Noah. Enoch's walk with God and his translation show that death need not have the last word, and Noah's name carries hope of relief from the curse. The chapter teaches that faith and God's promise outlast the generations.",
+    "metaArc": {
+      "book": "This chapter opens the second toledot section and moves the story from Adam to Noah, setting up the flood. It parallels the genealogy of chapter 11 that leads to Abraham.",
+      "redemptive": "Fall and Promise. The line of the woman's seed continues through Seth's descendants, and Enoch offers an early glimpse of life beyond death."
+    }
+  }
+}

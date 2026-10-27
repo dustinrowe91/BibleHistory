@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.26",
+  "book": "Genesis",
+  "chapter": 26,
+  "title": "The LORD Has Made Room",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "In a famine God tells Isaac to stay in the land and renews to him the promise made to Abraham. Isaac repeats his father's lie about his wife, yet God blesses him richly. He reopens Abraham's wells, yields in disputes rather than fighting, and God makes room for him. Abimelech seeks peace, and Isaac builds an altar at Beersheba.",
+  "keyVerses": ["3-5", "22", "24", "28"],
+  "steps": {
+    "language": [
+      {
+        "word": "גּוּר",
+        "translit": "gur",
+        "strongs": "H1481",
+        "gloss": "to sojourn, live as a foreigner",
+        "verses": "3",
+        "note": "God tells Isaac to 'sojourn' in the land rather than go down to Egypt. The promised land is still a land of sojourning for the patriarchs, held by promise rather than by possession."
+      },
+      {
+        "word": "עֵקֶב אֲשֶׁר",
+        "translit": "ʿeqev ʾasher",
+        "gloss": "because, as a result of",
+        "verses": "5",
+        "note": "God blesses Isaac 'because Abraham obeyed my voice.' The word ʿeqev is related to 'heel' and means 'in the footsteps of.' Abraham's faithful obedience brings blessing to his son, though the covenant itself rests on God's grace."
+      },
+      {
+        "word": "רְחֹבוֹת",
+        "translit": "Reḥovot",
+        "strongs": "H7344",
+        "gloss": "broad places, room",
+        "verses": "22",
+        "note": "After disputes over two wells named Esek (contention) and Sitnah (hostility), Isaac digs a third that no one contests and names it Rehoboth: the LORD has made room for us."
+      },
+      {
+        "word": "שָׁלוֹם",
+        "translit": "shalom",
+        "strongs": "H7965",
+        "gloss": "peace, wholeness, well-being",
+        "verses": "29, 31",
+        "note": "Abimelech asks for a covenant of peace, and Isaac sends his visitors away in shalom. The man who yielded gains peace with his neighbors."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The promise passed to Isaac",
+        "refs": ["Genesis 22:16-18", "Genesis 28:13-15", "Exodus 3:6, 15", "Acts 3:13"],
+        "note": "God confirms the oath sworn to Abraham, and becomes known as the God of Abraham, Isaac and Jacob."
+      },
+      {
+        "theme": "I am with you",
+        "refs": ["Genesis 28:15", "Exodus 3:12", "Joshua 1:5", "Isaiah 41:10", "Matthew 28:20"],
+        "note": "The first time God says 'I will be with you' to a patriarch. The promise of his presence runs through Scripture to Jesus' words in the Great Commission."
+      },
+      {
+        "theme": "The meek and the peacemakers",
+        "refs": ["Psalm 37:11", "Proverbs 16:7", "Matthew 5:5, 9", "Romans 12:18"],
+        "note": "Isaac's refusal to fight over wells illustrates that when a man's ways please the LORD, he makes even his enemies to be at peace with him."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). This is the only chapter devoted mainly to Isaac himself. It falls between Esau's sale of his birthright and Jacob's theft of the blessing, and shows Isaac as heir of Abraham's promise and his flaws.",
+      "flow": [
+        { "verses": "1-6", "label": "Stay in the land", "note": "In a famine God tells Isaac not to go to Egypt but to sojourn in Canaan, and confirms the oath to Abraham: land, offspring and blessing to all nations." },
+        { "verses": "7-11", "label": "The same lie", "note": "In Gerar Isaac says Rebekah is his sister. Abimelech sees them together, rebukes Isaac, and orders that no one touch them." },
+        { "verses": "12-22", "label": "Blessing and wells", "note": "Isaac reaps a hundredfold. Envious Philistines stop up Abraham's wells; Isaac reopens them and digs new ones, moving on from Esek and Sitnah until he reaches Rehoboth." },
+        { "verses": "23-25", "label": "God at Beersheba", "note": "The LORD appears at night: fear not, I am with you. Isaac builds an altar, calls on the LORD's name, and digs a well." },
+        { "verses": "26-35", "label": "Peace and sorrow", "note": "Abimelech comes to make a covenant, recognizing that the LORD is with Isaac. They feast and part in peace. Esau marries two Hittite women, a grief to Isaac and Rebekah." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 22:16-18", "from": "3-5", "note": "God explicitly confirms the oath he swore to Abraham after the binding of Isaac." },
+        { "ref": "Genesis 12:10-20; 20:1-18", "from": "7-11", "note": "Isaac repeats the deception his father used twice." },
+        { "ref": "Hebrews 11:9", "from": "3", "note": "Abraham lived in tents with Isaac and Jacob, heirs with him of the same promise." }
+      ],
+      "tier2": [
+        { "ref": "Proverbs 16:7", "from": "26-31", "note": "When a man's ways please the LORD, he makes even his enemies to be at peace with him." },
+        { "ref": "Matthew 5:5", "from": "17-22", "note": "Blessed are the meek, for they shall inherit the earth." },
+        { "ref": "Psalm 18:19", "from": "22", "note": "He brought me out into a broad place (raḥav); he rescued me because he delighted in me." },
+        { "ref": "Matthew 28:20", "from": "24", "note": "I am with you always, the fullest form of God's promise to Isaac." }
+      ],
+      "tier3": [
+        { "ref": "Mark 4:8", "from": "12", "note": "Seed that falls on good soil yields thirty, sixty and a hundredfold." },
+        { "ref": "John 4:12", "from": "18-19", "note": "The Samaritan woman mentions the well Jacob gave; wells mark the patriarchs' presence in the land." },
+        { "ref": "Genesis 27:46", "from": "34-35", "note": "Rebekah's grief over Esau's Hittite wives becomes her reason for sending Jacob away." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton notes how much of Isaac's life repeats Abraham's: famine, a wife-sister deception, the same king's name, the same wells and Beersheba. Isaac is a link in the chain who largely walks in his father's footsteps, for good and ill."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke highlights Isaac's meekness in the well disputes. He does not grasp or fight, and God gives him room. Abimelech's acknowledgment that the LORD is with Isaac shows the promise of blessing being seen by the nations."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees the famine and the command to stay as a test of Isaac's faith. He notes that God's renewed promise to Isaac was necessary so that Isaac's faith would rest on God's own word to him, not merely on his father's experience."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "Because that Abraham obeyed my voice, and kept my charge, my commandments, my statutes, and my laws.",
+        "renderings": [
+          { "version": "ESV", "text": "kept my charge, my commandments, my statutes" },
+          { "version": "NIV", "text": "did everything I required of him" },
+          { "version": "CSB", "text": "kept my mandate, my commands, my statutes" }
+        ],
+        "note": "The list uses words later associated with the law of Moses, describing Abraham's wholehearted obedience before the law was given. The NIV summarizes; ESV and CSB keep the fourfold list."
+      },
+      {
+        "verse": "22",
+        "kjv": "And he removed from thence, and digged another well; and for that they strove not: and he called the name of it Rehoboth; and he said, For now the LORD hath made room for us, and we shall be fruitful in the land.",
+        "renderings": [
+          { "version": "ESV", "text": "the LORD has made room for us" },
+          { "version": "NIV", "text": "the LORD has given us room" },
+          { "version": "CSB", "text": "the LORD has made room for us" }
+        ],
+        "note": "The versions agree. Isaac attributes his peace and space to God, not to his own strength."
+      }
+    ],
+    "gospel": "God confirms his promise to Isaac 'for Abraham's sake,' blessing a son because of a father's faithful obedience. Believers are blessed far more fully for the sake of Christ, whose perfect obedience earns the blessing we receive. Isaac's meekness in yielding his wells anticipates Jesus, who did not retaliate but entrusted himself to God, and who makes room for us in his Father's house (John 14:2). The promise 'I am with you' becomes flesh in Immanuel, God with us.",
+    "application": [
+      "Stay where God has placed you in hard times rather than running to apparent security.",
+      "Remember that our faithfulness affects our children and grandchildren.",
+      "Yield in personal disputes rather than fighting for every right, trusting God to make room.",
+      "Rest in God's presence: 'Fear not, for I am with you.'",
+      "Let others see God's blessing in your life in a way that draws them toward peace with God."
+    ],
+    "misapplications": [
+      {
+        "claim": "Isaac's prosperity shows that faith always brings wealth.",
+        "correction": "God's blessing on Isaac fulfilled a specific covenant promise. Scripture also shows faithful people in poverty (Hebrews 11:36-38); the core promise is God's presence."
+      },
+      {
+        "claim": "God's blessing 'because Abraham obeyed' means the covenant was earned by works.",
+        "correction": "The covenant was given freely and confirmed by God's oath. Abraham's obedience was the fruit of faith (James 2:22), and God honors it within his gracious covenant."
+      }
+    ],
+    "contrasts": [
+      { "a": "Contention and hostility", "b": "Room and peace", "verses": "20-22", "note": "Esek and Sitnah give way to Rehoboth." },
+      { "a": "Isaac's fear", "b": "God's 'fear not'", "verses": "7, 24", "note": "Isaac lies from fear; God answers fear with his presence." },
+      { "a": "Envy", "b": "Blessing recognized", "verses": "14, 28", "note": "The Philistines move from envy to seeking a covenant." }
+    ],
+    "features": [
+      { "label": "Like father, like son", "note": "Famine, Gerar, Abimelech, a wife-sister lie, wells, Beersheba and a covenant all repeat Abraham's story." },
+      { "label": "Well names", "note": "Esek (contention), Sitnah (hostility, related to 'Satan'), Rehoboth (room) and Shibah (oath) tell the story in names." },
+      { "label": "Laughing", "note": "Abimelech sees Isaac 'laughing' with Rebekah (metsaḥeq), a playful caress and a pun on Isaac's name." },
+      { "label": "A dark ending", "note": "The chapter closes with Esau's marriages to Hittite women, preparing for the family crisis of chapter 27." }
+    ],
+    "summary": "Genesis 26 shows God renewing his covenant with Isaac and keeping his promise of presence and blessing, despite Isaac's repeat of his father's sin. Isaac's meekness in disputes leads to peace, and even outsiders see that the LORD is with him. The promise is passing faithfully from one generation to the next.",
+    "metaArc": {
+      "book": "This chapter is the main window into Isaac's own life, confirming him as heir of the Abrahamic promise. It sits between the birthright and blessing episodes, contrasting God's faithfulness with family dysfunction.",
+      "redemptive": "Promise. God's oath to Abraham is confirmed to Isaac, carrying the line of blessing for all nations toward Christ."
+    }
+  }
+}

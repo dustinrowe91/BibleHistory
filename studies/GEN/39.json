@@ -1,0 +1,169 @@
+{
+  "ref": "GEN.39",
+  "book": "Genesis",
+  "chapter": 39,
+  "title": "The LORD Was with Joseph",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Sold to Potiphar, Joseph prospers because the LORD is with him, and Potiphar entrusts him with everything. Potiphar's wife repeatedly tries to seduce him, but Joseph refuses to sin against God and flees, leaving his garment. Falsely accused, he is thrown into prison, yet even there the LORD is with him and shows him steadfast love.",
+  "keyVerses": ["2", "9", "12", "21"],
+  "steps": {
+    "language": [
+      {
+        "word": "וַיְהִי יְהוָה אֶת־יוֹסֵף",
+        "translit": "wayhi YHWH ʾet-Yosef",
+        "gloss": "and the LORD was with Joseph",
+        "verses": "2, 3, 21, 23",
+        "note": "The phrase frames the chapter, appearing at the start (in Potiphar's house) and the end (in prison). God's covenant name, YHWH, rarely used in the Joseph story, appears here repeatedly. His presence does not depend on circumstances."
+      },
+      {
+        "word": "צָלַח",
+        "translit": "tsalaḥ",
+        "strongs": "H6743",
+        "gloss": "to prosper, succeed",
+        "verses": "2, 3, 23",
+        "note": "Joseph is a 'successful man.' The LORD makes everything he does succeed, as Psalm 1:3 says of the one who delights in God's law. Success is God's gift, not mere skill."
+      },
+      {
+        "word": "חָטָא לֵאלֹהִים",
+        "translit": "ḥataʾ leʾlohim",
+        "gloss": "to sin against God",
+        "verses": "9",
+        "note": "Joseph sees adultery first as sin against God, then as betrayal of his master. David later confesses, 'Against you, you only, have I sinned' (Psalm 51:4)."
+      },
+      {
+        "word": "בֶּגֶד",
+        "translit": "beged",
+        "strongs": "H899",
+        "gloss": "garment",
+        "verses": "12-18",
+        "note": "Mentioned six times. Joseph loses a garment for the second time, first to his brothers, now to Potiphar's wife, and both times it is used as false evidence against him."
+      },
+      {
+        "word": "חֶסֶד",
+        "translit": "ḥesed",
+        "strongs": "H2617",
+        "gloss": "steadfast love",
+        "verses": "21",
+        "note": "In prison the LORD shows Joseph steadfast love and gives him favor with the keeper. God's covenant loyalty follows Joseph into the darkest place."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's presence in hardship",
+        "refs": ["Acts 7:9-10", "Psalm 23:4", "Isaiah 43:2", "Hebrews 13:5"],
+        "note": "Stephen says God was with Joseph and rescued him from all his afflictions. God's presence goes with his people through fire and water."
+      },
+      {
+        "theme": "Fleeing sexual temptation",
+        "refs": ["Proverbs 5:3-8", "Proverbs 7:6-27", "1 Corinthians 6:18", "2 Timothy 2:22"],
+        "note": "Joseph obeys before Proverbs and Paul write it: flee sexual immorality, keep far from the seductress."
+      },
+      {
+        "theme": "Suffering for doing right",
+        "refs": ["1 Peter 2:19-23", "1 Peter 3:14-17", "Matthew 5:10-12"],
+        "note": "Joseph suffers unjustly for his integrity. Peter says this is gracious in God's sight and follows Christ's example."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). After the Judah interlude, the story returns to Joseph, now a slave in Egypt in the house of Potiphar, captain of Pharaoh's guard. His purity contrasts sharply with Judah's conduct in chapter 38.",
+      "flow": [
+        { "verses": "1-6", "label": "Blessing in Potiphar's house", "note": "The LORD is with Joseph, and Potiphar sees it and puts him over everything. God blesses Potiphar's house for Joseph's sake." },
+        { "verses": "7-12", "label": "Temptation refused", "note": "Potiphar's wife demands Joseph lie with her, day after day. He refuses, calling it great wickedness and sin against God. When she grabs him, he flees, leaving his garment." },
+        { "verses": "13-18", "label": "False accusation", "note": "She uses the garment to accuse Joseph of assault, first to the household and then to her husband, blaming 'the Hebrew slave' whom Potiphar brought." },
+        { "verses": "19-23", "label": "In prison, yet with God", "note": "Potiphar puts Joseph in the king's prison. The LORD is with him and gives him favor; the keeper entrusts him with everything, and the LORD makes it succeed." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Acts 7:9-10", "from": "2, 21", "note": "God was with Joseph and rescued him, giving him favor and wisdom before Pharaoh." },
+        { "ref": "Psalm 105:17-19", "from": "20", "note": "His feet were hurt with fetters; his neck was put in a collar of iron until what he said came to pass." }
+      ],
+      "tier2": [
+        { "ref": "1 Corinthians 6:18", "from": "12", "note": "Flee from sexual immorality." },
+        { "ref": "Psalm 51:4", "from": "9", "note": "Against you, you only, have I sinned." },
+        { "ref": "1 Peter 2:20-23", "from": "19-20", "note": "If you endure suffering when you do good, this is a gracious thing in God's sight; Christ suffered unjustly too." },
+        { "ref": "Genesis 30:27", "from": "5", "note": "Laban was blessed for Jacob's sake, as Potiphar is for Joseph's." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 7:13-23", "from": "7-12", "note": "The seductress grabs the young man; he follows like an ox to slaughter, unlike Joseph." },
+        { "ref": "Daniel 6:4", "from": "4-6", "note": "Daniel, another faithful exile, is found blameless in his service." },
+        { "ref": "Mark 14:51-52", "from": "12", "note": "A young man flees, leaving his garment, at Jesus' arrest." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry praises Joseph's resolve as grounded in the fear of God, and notes that he kept out of the way of temptation and fled when pressed. He observes that Joseph rightly judged his garment far less valuable than a clear conscience."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the realism of daily temptation and Joseph's steady refusal. He highlights the paradox that the LORD was with Joseph, yet Joseph ended up in prison: God's presence is not a guarantee of ease."
+      },
+      {
+        "name": "Charles Spurgeon",
+        "work": "Sermons on Joseph",
+        "view": "Spurgeon used Joseph as a model of a young man who honored God in secret, when no one was watching, and of patience under false accusation, trusting God to vindicate him."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And the LORD was with Joseph, and he was a prosperous man; and he was in the house of his master the Egyptian.",
+        "renderings": [
+          { "version": "ESV", "text": "he became a successful man" },
+          { "version": "NIV", "text": "he prospered" },
+          { "version": "CSB", "text": "he became a successful man" }
+        ],
+        "note": "'Prosperous' in older English meant successful in what he did, not necessarily wealthy. Joseph was still a slave."
+      },
+      {
+        "verse": "9",
+        "kjv": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+        "renderings": [
+          { "version": "ESV", "text": "How then can I do this great wickedness" },
+          { "version": "NIV", "text": "How then could I do such a wicked thing" },
+          { "version": "CSB", "text": "So how could I do this immense evil" }
+        ],
+        "note": "The versions agree in substance. Joseph's reasons are loyalty to his master and, above all, faithfulness to God."
+      }
+    ],
+    "gospel": "Joseph, falsely accused and condemned though innocent, suffers for righteousness and goes down into prison, yet the LORD is with him. He foreshadows Jesus, the truly sinless one, who resisted every temptation, was falsely accused, and was condemned without cause. Peter holds up Christ's unjust suffering as our example and our salvation (1 Peter 2:21-24). Because Christ was faithful where we fail, God's presence goes with believers into every prison and trial, and his steadfast love never leaves us.",
+    "application": [
+      "Work faithfully and with integrity wherever God places us, even in humble or unjust positions.",
+      "Flee sexual temptation decisively rather than lingering or negotiating with it.",
+      "See every sin as first a sin against God.",
+      "Trust that God is with us even when doing right leads to suffering.",
+      "Leave vindication to God when falsely accused."
+    ],
+    "misapplications": [
+      {
+        "claim": "If God is with you, you will always be successful and avoid suffering.",
+        "correction": "The LORD was with Joseph in Potiphar's house and in prison. His presence sustains and blesses but does not prevent unjust suffering."
+      },
+      {
+        "claim": "Joseph's refusal was mainly about protecting his career.",
+        "correction": "Joseph's chief reason is that it would be sin against God (v9), and his faithfulness cost him his position."
+      }
+    ],
+    "contrasts": [
+      { "a": "Judah's compromise", "b": "Joseph's purity", "verses": "38:16; 39:9", "note": "Placed side by side, the two brothers face sexual temptation differently." },
+      { "a": "Truth", "b": "False accusation", "verses": "12, 14-18", "note": "The garment that shows Joseph fled is twisted into evidence of guilt." },
+      { "a": "Prison walls", "b": "God's presence", "verses": "20-21", "note": "Joseph's circumstances worsen, but God's steadfast love remains." }
+    ],
+    "features": [
+      { "label": "Framed by God's presence", "note": "'The LORD was with Joseph' opens and closes the chapter, setting Joseph's suffering inside God's care." },
+      { "label": "Covenant name", "note": "YHWH appears eight times here but is rare elsewhere in the Joseph story, emphasizing God's covenant faithfulness." },
+      { "label": "Day after day", "note": "Verse 10 stresses the persistence of the temptation and of Joseph's refusal." },
+      { "label": "Garments again", "note": "As in chapter 37, a garment taken from Joseph becomes a lie told about him." }
+    ],
+    "summary": "Genesis 39 shows Joseph's integrity in service and in temptation, and God's faithful presence in both success and suffering. Joseph flees sin out of reverence for God and is punished for it, yet the LORD shows him steadfast love in prison. The chapter teaches that faithfulness may lead through suffering, but God's presence never fails.",
+    "metaArc": {
+      "book": "This chapter moves Joseph from Potiphar's house to the king's prison, where he will meet Pharaoh's officials (chapter 40), opening the path to his rise.",
+      "redemptive": "Promise. God's presence with Joseph in suffering prepares the deliverance of Jacob's family and foreshadows the innocent sufferer, Christ, through whom God saves."
+    }
+  }
+}

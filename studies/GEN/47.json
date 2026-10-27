@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.47",
+  "book": "Genesis",
+  "chapter": 47,
+  "title": "Jacob Blesses Pharaoh",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Pharaoh grants Jacob's family the land of Goshen. Jacob, a 130-year-old sojourner, blesses the most powerful king on earth. As the famine deepens, Joseph sells grain to the Egyptians for their money, livestock, land and finally their service, saving their lives. Israel flourishes in Goshen, and the dying Jacob makes Joseph swear to bury him in Canaan.",
+  "keyVerses": ["7", "9", "25", "29-30"],
+  "steps": {
+    "language": [
+      {
+        "word": "בָּרַךְ",
+        "translit": "barak",
+        "strongs": "H1288",
+        "gloss": "to bless",
+        "verses": "7, 10",
+        "note": "Jacob blesses Pharaoh twice, at arrival and departure. Hebrews 7:7 says the lesser is blessed by the greater. The aged shepherd, heir of God's promise, blesses the king, fulfilling God's purpose that Abraham's family would bring blessing to the nations."
+      },
+      {
+        "word": "מְגוּרִים",
+        "translit": "megurim",
+        "strongs": "H4033",
+        "gloss": "sojournings, pilgrimage",
+        "verses": "9",
+        "note": "Jacob describes his life as 'the years of my sojourning,' as his fathers did. The patriarchs saw themselves as temporary residents on earth, looking for a lasting home (Hebrews 11:13)."
+      },
+      {
+        "word": "רָעִים",
+        "translit": "raʿim",
+        "strongs": "H7451",
+        "gloss": "evil, hard, troubled",
+        "verses": "9",
+        "note": "Jacob calls his days 'few and evil.' He looks back on exile, deception, Rachel's death and Joseph's loss. It is an honest assessment of a hard life, though God's faithfulness ran through it."
+      },
+      {
+        "word": "הֶחֱיִתָנוּ",
+        "translit": "heḥeyitanu",
+        "gloss": "you have saved our lives",
+        "verses": "25",
+        "note": "The Egyptians tell Joseph, 'You have saved our lives,' using the same root as 'preserve life' in 45:5 and 50:20. Joseph's administration fulfills God's purpose to keep many alive."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Pilgrims and sojourners",
+        "refs": ["Hebrews 11:13-16", "1 Chronicles 29:15", "Psalm 39:12", "1 Peter 2:11"],
+        "note": "Like Abraham and Isaac, Jacob calls life a sojourn. Believers are strangers and exiles longing for a better, heavenly country."
+      },
+      {
+        "theme": "Blessing to the nations",
+        "refs": ["Genesis 12:3", "Hebrews 7:7", "Galatians 3:8"],
+        "note": "Jacob blessing Pharaoh shows the patriarchal family as a channel of blessing to the nations."
+      },
+      {
+        "theme": "Burial in the promised land",
+        "refs": ["Genesis 49:29-32", "Genesis 50:12-14, 25", "Hebrews 11:21-22"],
+        "note": "Jacob and Joseph insist on burial in Canaan, an act of faith in God's promise to give the land."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Jacob's family settles in Egypt. The famine still has years to run. The chapter shows both the family's flourishing in Goshen and Joseph's economic policy, which made Pharaoh owner of nearly all Egypt's land.",
+      "flow": [
+        { "verses": "1-6", "label": "Before Pharaoh", "note": "Five brothers present themselves as shepherds, and Pharaoh grants them the best of the land, Goshen, and even puts some in charge of his livestock." },
+        { "verses": "7-12", "label": "Jacob blesses Pharaoh", "note": "Jacob blesses Pharaoh, describes his 130 years of sojourning as few and evil, blesses him again, and Joseph settles and provides for the family." },
+        { "verses": "13-26", "label": "Joseph's famine policy", "note": "The Egyptians spend their money, then their livestock, then their land and themselves for grain. Joseph gives seed and sets a tax of one fifth. They thank him for saving their lives." },
+        { "verses": "27-31", "label": "Israel flourishes; Jacob's request", "note": "Israel gains possessions and multiplies greatly in Goshen. After seventeen years, Jacob makes Joseph swear to bury him with his fathers, and bows in worship." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:21", "from": "31", "note": "By faith Jacob, when dying, blessed Joseph's sons, bowing in worship over the head of his staff." },
+        { "ref": "Genesis 49:29-32", "from": "29-30", "note": "Jacob repeats his request to be buried in the cave of Machpelah." },
+        { "ref": "Exodus 1:7", "from": "27", "note": "The people of Israel were fruitful and multiplied greatly, filling the land." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 7:7", "from": "7, 10", "note": "It is beyond dispute that the inferior is blessed by the superior." },
+        { "ref": "Hebrews 11:13", "from": "9", "note": "The patriarchs acknowledged they were strangers and exiles on the earth." },
+        { "ref": "Genesis 45:5", "from": "25", "note": "God sent Joseph to preserve life; the Egyptians confirm that he saved their lives." },
+        { "ref": "Psalm 90:10", "from": "9", "note": "The years of our life are soon gone, filled with toil and trouble." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 41:34", "from": "24, 26", "note": "The one-fifth tax echoes Joseph's plan to collect a fifth during the years of plenty." },
+        { "ref": "1 Kings 1:47", "from": "31", "note": "David bows in worship on his bed near death." },
+        { "ref": "Exodus 1:8-11", "from": "21", "note": "Later a Pharaoh enslaves Israel, a tragic reversal of this chapter's favor." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner sees great dignity in the scene of Jacob blessing Pharaoh: the man of God, though poor and old, is spiritually greater than the king. He also notes that Joseph's famine policy saved lives, though it concentrated power in Pharaoh's hands."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke acknowledges modern unease with Joseph's policy, but argues the text presents it positively: the Egyptians themselves say he saved their lives, and a one-fifth tax was moderate by ancient standards."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton highlights the irony that Joseph's policy brings the Egyptians into servitude to Pharaoh, foreshadowing the later Pharaoh who will enslave Israel. The chapter sets up the tension of Exodus."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "9",
+        "kjv": "And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage.",
+        "renderings": [
+          { "version": "ESV", "text": "Few and evil have been the days" },
+          { "version": "NIV", "text": "My years have been few and difficult" },
+          { "version": "CSB", "text": "My years have been few and hard" }
+        ],
+        "note": "Raʿim usually means 'evil' but here describes hardship more than moral wickedness. 'Pilgrimage' or 'sojourning' marks life as temporary."
+      },
+      {
+        "verse": "31",
+        "kjv": "And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.",
+        "renderings": [
+          { "version": "ESV", "text": "Israel bowed himself upon the head of his bed" },
+          { "version": "NIV", "text": "Israel worshiped as he leaned on the top of his staff" },
+          { "version": "CSB", "text": "Israel bowed down at the head of the bed" }
+        ],
+        "note": "The same Hebrew consonants can be read 'bed' (mittah) or 'staff' (matteh). The Greek Old Testament, followed by Hebrews 11:21 and the NIV, reads 'staff.'"
+      }
+    ],
+    "gospel": "Joseph, exalted ruler, holds the bread that saves Egypt, and the people say, 'You have saved our lives.' Christ, exalted at God's right hand, is the bread of life who saves all who come to him, and those he saves gladly become his servants. Jacob, a weak and weary pilgrim, blesses the mighty Pharaoh, showing that the true blessing of the world comes through God's covenant people and ultimately through Christ. Jacob's insistence on burial in Canaan expresses faith in God's promise, a faith fulfilled in the resurrection hope.",
+    "application": [
+      "See ourselves as pilgrims, holding this life loosely and looking for our lasting home.",
+      "Be honest about life's hardships while trusting God's faithfulness through them.",
+      "Remember that God's people can be a blessing to the powerful and influential.",
+      "Use authority and resources to preserve life and serve others.",
+      "Make choices that express faith in God's future promises."
+    ],
+    "misapplications": [
+      {
+        "claim": "Joseph's policy shows that concentrating wealth and power in the state is God's ideal.",
+        "correction": "The text reports a crisis measure that saved lives. It does not prescribe a permanent economic model, and Exodus shows the danger of an all-powerful Pharaoh."
+      },
+      {
+        "claim": "Jacob's complaint that his days were few and evil shows a lack of faith.",
+        "correction": "Honest lament is part of faith (Psalm 90). Jacob still blesses Pharaoh, worships, and trusts God's promise about burial in Canaan."
+      }
+    ],
+    "contrasts": [
+      { "a": "Mighty Pharaoh", "b": "Aged pilgrim who blesses him", "verses": "7-10", "note": "Spiritual greatness outranks political power." },
+      { "a": "Egyptians lose land", "b": "Israel gains possessions", "verses": "20, 27", "note": "The covenant family flourishes as Egypt becomes Pharaoh's property." },
+      { "a": "Sojourning in Egypt", "b": "Burial in Canaan", "verses": "9, 29-30", "note": "Jacob lives in Egypt but belongs to the promised land." }
+    ],
+    "features": [
+      { "label": "Two blessings", "note": "Jacob blesses Pharaoh when he enters and when he leaves (v7, 10), framing the meeting with blessing." },
+      { "label": "Seventeen years", "note": "Jacob lives seventeen years in Egypt (v28), the same span as Joseph lived with Jacob before being sold (37:2)." },
+      { "label": "Hand under the thigh", "note": "Jacob has Joseph swear with his hand under his thigh, the solemn oath Abraham's servant took (24:2)." },
+      { "label": "Fruitful and multiplied", "note": "Verse 27 uses the creation language of Genesis 1:28, showing the blessing on Israel in Egypt." }
+    ],
+    "summary": "Genesis 47 shows Jacob's family settled and flourishing in Goshen, Jacob blessing Pharaoh, and Joseph saving Egypt through the famine. Jacob, a weary pilgrim, honestly reflects on his hard life yet trusts God's promise, making Joseph swear to bury him in Canaan.",
+    "metaArc": {
+      "book": "This chapter settles Israel in Egypt and begins Jacob's final days, leading to his blessings in chapters 48-49 and his burial in chapter 50.",
+      "redemptive": "Promise. Israel is fruitful and multiplies as God promised, and Jacob's faith in burial in the land points toward the inheritance and resurrection hope."
+    }
+  }
+}

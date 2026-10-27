@@ -1,0 +1,177 @@
+{
+  "ref": "GEN.25",
+  "book": "Genesis",
+  "chapter": 25,
+  "title": "The Elder Shall Serve the Younger",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Abraham dies full of years and is buried by Isaac and Ishmael, and Ishmael's twelve sons are listed. Rebekah, barren, conceives twins after Isaac prays, and God tells her the older will serve the younger. Jacob and Esau grow up in rivalry, and Esau sells his birthright for a bowl of stew, despising it.",
+  "keyVerses": ["8", "21", "23", "34"],
+  "steps": {
+    "language": [
+      {
+        "word": "נֶאֱסַף אֶל־עַמָּיו",
+        "translit": "neʾesaf ʾel-ʿammav",
+        "gloss": "gathered to his people",
+        "verses": "8, 17",
+        "note": "A phrase used of the patriarchs at death, distinct from burial (which comes later). Many see it as a hint of continued existence and reunion beyond death, which Jesus' words about the God of Abraham support (Matthew 22:32)."
+      },
+      {
+        "word": "עָתַר",
+        "translit": "ʿatar",
+        "strongs": "H6279",
+        "gloss": "to pray, entreat earnestly",
+        "verses": "21",
+        "note": "Isaac pleads with the LORD for his barren wife, and the LORD is entreated. Isaac waited twenty years (v20, 26), and the son of promise himself had to pray for the next generation."
+      },
+      {
+        "word": "בְּכֹרָה",
+        "translit": "bekorah",
+        "strongs": "H1062",
+        "gloss": "birthright, rights of the firstborn",
+        "verses": "31-34",
+        "note": "The firstborn's right to a double share of inheritance and family leadership. Here it also carried the line of the covenant promise. The word plays on berakah (blessing), which Jacob takes in chapter 27."
+      },
+      {
+        "word": "בָּזָה",
+        "translit": "bazah",
+        "strongs": "H959",
+        "gloss": "to despise, treat with contempt",
+        "verses": "34",
+        "note": "The narrator's verdict: Esau despised his birthright. Hebrews 12:16-17 calls him 'unholy' for selling it for a single meal."
+      },
+      {
+        "word": "עָקֵב",
+        "translit": "ʿaqev",
+        "strongs": "H6119",
+        "gloss": "heel",
+        "verses": "26",
+        "note": "Jacob is born grasping Esau's heel, and his name Yaʿaqov sounds like 'heel-grabber,' which came to mean 'supplanter' or 'deceiver' (27:36). It also recalls the 'heel' of 3:15."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Election by grace",
+        "refs": ["Malachi 1:2-3", "Romans 9:10-13"],
+        "note": "Paul uses God's word to Rebekah to show that God's choice rests on his purpose, not on works, since it was given before the twins were born."
+      },
+      {
+        "theme": "Despising holy things",
+        "refs": ["Hebrews 12:16-17", "Philippians 3:19"],
+        "note": "Esau trades a lasting inheritance for immediate appetite, a warning against valuing temporary pleasure over God's promises."
+      },
+      {
+        "theme": "Barrenness overcome by prayer",
+        "refs": ["Genesis 11:30", "Genesis 30:22", "1 Samuel 1:10-20", "Luke 1:13"],
+        "note": "Each matriarch faces barrenness, and God answers prayer, showing the promise depends on him."
+      }
+    ],
+    "context": {
+      "setting": "The chapter closes the toledot of Terah (Abraham's story) at verse 11, gives the toledot of Ishmael (12-18), and opens the toledot of Isaac (25:19-35:29), which is really the story of Jacob.",
+      "flow": [
+        { "verses": "1-6", "label": "Abraham's other sons", "note": "Abraham has sons by Keturah, gives them gifts and sends them east, but gives everything to Isaac." },
+        { "verses": "7-11", "label": "Abraham's death", "note": "Abraham dies at 175, full of years, and Isaac and Ishmael bury him at Machpelah. God blesses Isaac." },
+        { "verses": "12-18", "label": "Ishmael's line", "note": "Ishmael's twelve princes are listed, fulfilling God's promise, and he dies at 137." },
+        { "verses": "19-26", "label": "Twins in conflict", "note": "Rebekah is barren until Isaac prays. The twins struggle in her womb, and God says two nations are in her and the elder will serve the younger. Esau is born red and hairy; Jacob holding his heel." },
+        { "verses": "27-34", "label": "The birthright sold", "note": "Esau the hunter, loved by Isaac, comes in famished; Jacob the quiet man, loved by Rebekah, offers stew for his birthright. Esau swears, eats and goes; he despised his birthright." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 9:10-13", "from": "21-23", "note": "Before the twins were born or had done anything good or bad, God said the older will serve the younger, so that his purpose of election might stand." },
+        { "ref": "Malachi 1:2-3", "from": "23", "note": "I have loved Jacob but Esau I have hated, God's covenant choice of Israel over Edom." },
+        { "ref": "Hebrews 12:16-17", "from": "29-34", "note": "Esau sold his birthright for a single meal and later could not inherit the blessing." },
+        { "ref": "Hebrews 11:20", "from": "23", "note": "By faith Isaac invoked future blessings on Jacob and Esau." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 22:32", "from": "8", "note": "God is the God of Abraham, Isaac and Jacob, not of the dead but of the living." },
+        { "ref": "Obadiah 1-21", "from": "23", "note": "The conflict between Israel and Edom continues for centuries." },
+        { "ref": "James 5:16", "from": "21", "note": "The prayer of a righteous person has great power." },
+        { "ref": "Philippians 3:19", "from": "32-34", "note": "Their god is their belly; they set their minds on earthly things." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 4:3-8", "from": "22-23", "note": "Another pair of brothers in conflict, with God favoring the younger." },
+        { "ref": "Genesis 48:14-19", "from": "23", "note": "Jacob crosses his hands to bless the younger Ephraim over Manasseh." },
+        { "ref": "1 Samuel 16:6-13", "from": "23", "note": "God chooses David, the youngest, looking on the heart." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin reads the oracle in verse 23 as a clear statement of God's free election, which Paul expounds in Romans 9. He also faults Jacob for exploiting his brother's hunger, showing that God's choice does not excuse human sin."
+      },
+      {
+        "name": "Thomas Schreiner",
+        "work": "Romans (Baker Exegetical Commentary)",
+        "view": "Schreiner argues that Paul uses Genesis 25:23 to teach God's unconditional election to salvation, not merely the roles of nations. Others read Romans 9 corporately; Schreiner holds that individual and corporate aspects both apply."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner sees in the stew scene both men's characters: Esau careless of spiritual things, ruled by appetite; Jacob shrewd and grasping, valuing the right thing but seeking it the wrong way."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "23",
+        "kjv": "And the LORD said unto her, Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger.",
+        "renderings": [
+          { "version": "ESV", "text": "the older shall serve the younger" },
+          { "version": "NIV", "text": "the older will serve the younger" },
+          { "version": "CSB", "text": "the older will serve the younger" }
+        ],
+        "note": "All versions agree. Paul quotes this line from the Greek translation in Romans 9:12 to show that God's purpose rests on his call, not human works."
+      },
+      {
+        "verse": "8",
+        "kjv": "Then Abraham gave up the ghost, and died in a good old age, an old man, and full of years; and was gathered to his people.",
+        "renderings": [
+          { "version": "ESV", "text": "an old man and full of years" },
+          { "version": "NIV", "text": "an old man and full of years" },
+          { "version": "CSB", "text": "old and contented" }
+        ],
+        "note": "'Full' translates a word meaning satisfied. Abraham dies satisfied with life, the fulfillment of God's promise in 15:15 that he would go to his fathers in peace."
+      }
+    ],
+    "gospel": "God's choice of Jacob before he was born shows that salvation rests on grace, not on merit, birth order or effort (Romans 9:11-12). Jacob is no more deserving than Esau; God's mercy alone makes the difference. Esau's careless trade warns us not to despise the spiritual birthright offered in Christ for passing appetites. Through the line of the younger son God would bring Christ, who calls us to be 'the church of the firstborn' (Hebrews 12:23), heirs not by our right but by grace.",
+    "application": [
+      "Pray persistently for what God has promised, as Isaac prayed for twenty years.",
+      "Value spiritual inheritance above immediate desires; do not trade the eternal for the momentary.",
+      "Humbly accept that God's grace is free and undeserved, giving no room for pride.",
+      "Avoid favoritism in families, which fueled conflict between Jacob and Esau.",
+      "Face death as Abraham did, satisfied in God and gathered to his people."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's choice of Jacob shows he approved of Jacob's scheming.",
+        "correction": "God's election is gracious, but Jacob's grasping methods bring him years of conflict and exile. Scripture does not excuse his deceit."
+      },
+      {
+        "claim": "Esau was simply a victim of God's choice and Jacob's trick.",
+        "correction": "The text says Esau despised his birthright, and Hebrews calls him unholy. His own choice revealed his heart."
+      },
+      {
+        "claim": "God's 'hatred' of Esau in Malachi means personal malice.",
+        "correction": "The language of love and hate is covenant language for choosing and not choosing. God still blesses Esau with land and descendants (Genesis 36; Deuteronomy 2:5)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Elder", "b": "Younger", "verses": "23", "note": "God reverses the expected order, a recurring theme in Genesis." },
+      { "a": "Esau the hunter", "b": "Jacob the quiet man", "verses": "27", "note": "Two personalities and two directions of life." },
+      { "a": "Birthright", "b": "Bowl of stew", "verses": "31-34", "note": "A lasting inheritance traded for a moment's hunger." }
+    ],
+    "features": [
+      { "label": "Red and hairy", "note": "Esau is born 'red' (ʾadmoni) and hairy (seʿar), and craves the 'red stuff' (ʾadom), wordplays on Edom and Seir, his descendants' land." },
+      { "label": "Four quick verbs", "note": "Verse 34 describes Esau with four rapid actions: he ate, drank, rose and went. Then comes the verdict: he despised his birthright." },
+      { "label": "Two toledot", "note": "The chapter closes Abraham's story, lists Ishmael's line briefly, and opens Isaac's toledot, following the pattern of dealing with the non-chosen line first." },
+      { "label": "Twelve princes", "note": "Ishmael's twelve sons parallel Jacob's twelve sons, showing God kept his promise to both." }
+    ],
+    "summary": "Genesis 25 marks the passing of Abraham and the beginning of Jacob's story. God answers prayer, opens a barren womb, and announces his choice of the younger son before birth, showing that his purposes rest on grace. Esau's sale of his birthright exposes a heart that despised God's promises, while Jacob's grasping hints at the long work God will do in him.",
+    "metaArc": {
+      "book": "This chapter is a hinge: it ends Abraham's account and begins the Isaac and Jacob cycle. The oracle of verse 23 frames the rest of Jacob's story and Israel's relationship with Edom.",
+      "redemptive": "Promise. God's sovereign choice of the line of promise continues toward Christ, and Paul uses it to teach salvation by grace alone."
+    }
+  }
+}

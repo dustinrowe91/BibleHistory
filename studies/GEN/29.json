@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.29",
+  "book": "Genesis",
+  "chapter": 29,
+  "title": "The Deceiver Deceived",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Jacob arrives in Haran, meets Rachel at a well, and agrees to serve Laban seven years for her. On the wedding night Laban substitutes Leah, and the deceiver is deceived. Jacob serves seven more years for Rachel. The LORD sees that Leah is unloved and opens her womb, and she moves from longing for Jacob's love to praising the LORD.",
+  "keyVerses": ["20", "25", "31", "35"],
+  "steps": {
+    "language": [
+      {
+        "word": "רִמָּה",
+        "translit": "rimmah",
+        "strongs": "H7411",
+        "gloss": "to deceive, betray",
+        "verses": "25",
+        "note": "Jacob asks Laban, 'Why have you deceived me?' The root matches mirmah, the 'deceit' with which Jacob took Esau's blessing (27:35). Jacob tastes his own medicine."
+      },
+      {
+        "word": "בְּכִירָה / צְעִירָה",
+        "translit": "bekirah / tseʿirah",
+        "gloss": "firstborn / younger",
+        "verses": "26",
+        "note": "Laban explains that in their place the younger is not given before the firstborn. The words cut Jacob deeply, since he had put himself, the younger, before his firstborn brother."
+      },
+      {
+        "word": "שְׂנוּאָה",
+        "translit": "senuʾah",
+        "strongs": "H8130",
+        "gloss": "hated, unloved, less loved",
+        "verses": "31, 33",
+        "note": "Literally 'hated,' but in family contexts it means loved less (Deuteronomy 21:15). Verse 30 says Jacob loved Rachel more than Leah. God sees the one who is overlooked."
+      },
+      {
+        "word": "יָדָה",
+        "translit": "yadah",
+        "strongs": "H3034",
+        "gloss": "to praise, give thanks",
+        "verses": "35",
+        "note": "Leah names her fourth son Judah: 'This time I will praise the LORD.' From this son will come David's line and the Messiah, the Lion of the tribe of Judah."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God sees the unloved",
+        "refs": ["Genesis 16:13", "Psalm 68:5-6", "Psalm 113:7-9", "Luke 1:48"],
+        "note": "As God saw Hagar, he sees Leah. Mary sings that God has looked on the humble estate of his servant."
+      },
+      {
+        "theme": "Reaping what we sow",
+        "refs": ["Galatians 6:7", "Proverbs 26:27", "Obadiah 15"],
+        "note": "Jacob, who exploited a father's blindness and the firstborn's rights, is deceived in the dark about the firstborn."
+      },
+      {
+        "theme": "Judah and the Messiah",
+        "refs": ["Genesis 49:8-10", "Matthew 1:2-3", "Hebrews 7:14", "Revelation 5:5"],
+        "note": "The son of the unloved wife becomes the royal tribe from whom Christ comes."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29), Jacob's twenty years in Haran (chapters 29-31). God promised at Bethel to be with Jacob, and the well meeting is the first sign of guidance, but Jacob must also face Laban, a man as crafty as himself.",
+      "flow": [
+        { "verses": "1-14", "label": "Rachel at the well", "note": "Jacob finds shepherds from Haran at a well, sees Rachel, rolls away the stone, waters her flock, kisses her and weeps. Laban welcomes him as his own flesh." },
+        { "verses": "15-20", "label": "Seven years", "note": "Jacob offers to serve seven years for Rachel, whom he loves; the years seem like a few days." },
+        { "verses": "21-30", "label": "The switch", "note": "Laban gives Leah instead. Jacob protests the deceit; Laban cites custom and offers Rachel after the wedding week for seven more years. Jacob loves Rachel more." },
+        { "verses": "31-35", "label": "Leah's sons", "note": "The LORD sees that Leah is unloved and opens her womb. She names Reuben, Simeon and Levi with longing for Jacob's love, then Judah with praise to the LORD." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Ruth 4:11", "from": "31-35", "note": "The elders bless Ruth to be like Rachel and Leah, who together built up the house of Israel." },
+        { "ref": "Hosea 12:12", "from": "18-20", "note": "Hosea recalls that Jacob fled to Aram and served for a wife, guarding sheep." },
+        { "ref": "Genesis 49:8-10", "from": "35", "note": "Jacob's blessing gives Judah the scepter until the one comes to whom it belongs." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 27:19, 35", "from": "25", "note": "The deception of Jacob mirrors his deception of Isaac." },
+        { "ref": "Galatians 6:7", "from": "25-26", "note": "Whatever one sows, that will he also reap." },
+        { "ref": "1 Corinthians 13:4, 7", "from": "20", "note": "Love is patient and endures all things, as Jacob's seven years seemed but days." },
+        { "ref": "Matthew 1:2-3", "from": "35", "note": "Judah appears in the genealogy of Jesus." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 2:15-21", "from": "1-14", "note": "Moses meets his wife at a well after helping her flock, a parallel scene." },
+        { "ref": "Deuteronomy 21:15-17", "from": "30-31", "note": "The law protects the son of the less-loved wife from losing his birthright." },
+        { "ref": "Leviticus 18:18", "from": "28", "note": "The law later forbids marrying a wife's sister as a rival, a reflection on the pain of this household." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Tim Keller",
+        "work": "Counterfeit Gods",
+        "view": "Keller uses Jacob's obsession with Rachel to show how a person can make romantic love an idol, expecting it to fill a void only God can fill. He traces Leah's journey from seeking Jacob's love through her sons to finding her joy in God with Judah, and notes that the Messiah came through the unloved woman."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke highlights the poetic justice of Laban deceiving Jacob in the dark about the firstborn. God disciplines Jacob through Laban, shaping him over twenty years."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes how sympathetically the narrator treats Leah and how her sons' names chart her inner story. God's grace works through a deeply unhappy household to build the twelve tribes."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "And Jacob served seven years for Rachel; and they seemed unto him but a few days, for the love he had to her.",
+        "renderings": [
+          { "version": "ESV", "text": "they seemed to him but a few days" },
+          { "version": "NIV", "text": "they seemed like only a few days" },
+          { "version": "CSB", "text": "they seemed like only a few days" }
+        ],
+        "note": "The versions agree. The phrase 'a few days' echoes Rebekah's hope in 27:44 that Jacob would be gone only a few days, a quiet irony."
+      },
+      {
+        "verse": "31",
+        "kjv": "And when the LORD saw that Leah was hated, he opened her womb: but Rachel was barren.",
+        "renderings": [
+          { "version": "ESV", "text": "Leah was hated" },
+          { "version": "NIV", "text": "Leah was not loved" },
+          { "version": "CSB", "text": "Leah was unloved" }
+        ],
+        "note": "'Hated' is literal but can sound too strong; verse 30 shows it means loved less. The point is God's compassion for the one overlooked."
+      }
+    ],
+    "gospel": "The LORD sees the unloved Leah, and from her comes Judah, the royal line through which Jesus is born. God chooses the despised and overlooked to shame the proud (1 Corinthians 1:27-29). Leah's search for love, finally resting in praise to God, points to the only love that never disappoints: the love of God in Christ, who loves the unlovely and makes them his bride. Jacob loves Rachel for her beauty; Christ loves his people while they are still unattractive sinners (Romans 5:8).",
+    "application": [
+      "Expect God's discipline to sometimes come through experiencing what we have done to others.",
+      "Do not make any human love an idol that bears the weight only God can carry.",
+      "Take comfort that God sees those who feel unloved or second best.",
+      "Move from seeking approval in people to praising the LORD, as Leah did with Judah.",
+      "Practice patient, faithful love that makes years of service feel short."
+    ],
+    "misapplications": [
+      {
+        "claim": "The chapter endorses polygamy since God blesses this marriage with children.",
+        "correction": "Genesis shows the misery of a divided household: jealousy, rivalry and favoritism. God's blessing is grace in spite of the arrangement, not approval of it."
+      },
+      {
+        "claim": "Laban's deception was justified by custom.",
+        "correction": "Laban had agreed to give Rachel and concealed the switch. His appeal to custom covers deceit, as Jacob's own deception had."
+      }
+    ],
+    "contrasts": [
+      { "a": "Rachel loved", "b": "Leah unloved", "verses": "30-31", "note": "Jacob's favoritism and God's attention point in opposite directions." },
+      { "a": "Rachel beautiful but barren", "b": "Leah unloved but fruitful", "verses": "17, 31", "note": "God reverses human values." },
+      { "a": "Seeking a husband's love", "b": "Praising the LORD", "verses": "32-35", "note": "Leah's sons' names trace her heart's journey." }
+    ],
+    "features": [
+      { "label": "Stone rolled away", "note": "Jacob single-handedly rolls the stone from the well when he sees Rachel, a show of strength driven by love." },
+      { "label": "Leah's eyes", "note": "Leah's eyes are 'weak' or 'tender' (rakkot), contrasted with Rachel's beauty; the exact sense is debated." },
+      { "label": "Names as prayers", "note": "Reuben (see, a son; the LORD has seen), Simeon (heard), Levi (attached), Judah (praise) record Leah's hopes." },
+      { "label": "Firstborn irony", "note": "Laban's line about the firstborn turns Jacob's past against him without a word of rebuke from the narrator." }
+    ],
+    "summary": "Genesis 29 shows God fulfilling his promise to guide Jacob while also disciplining him: the deceiver is deceived. The chapter displays God's compassion for unloved Leah, whose son Judah becomes the line of kings and of Christ. God's grace works through a broken family to build his people.",
+    "metaArc": {
+      "book": "This chapter begins Jacob's years in Haran and the birth of the twelve tribes, continued in chapter 30. The rivalry between Leah and Rachel shapes Israel's history, especially the later tension between Judah and Joseph.",
+      "redemptive": "Promise. The birth of Judah begins the royal line that leads to David and to Christ, the Lion of the tribe of Judah."
+    }
+  }
+}

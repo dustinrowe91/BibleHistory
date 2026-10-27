@@ -1,0 +1,178 @@
+{
+  "ref": "GEN.6",
+  "book": "Genesis",
+  "chapter": 6,
+  "title": "Noah Found Grace",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Human evil fills the earth until God is grieved and resolves to judge it with a flood. Noah alone finds grace, and God tells him to build an ark and promises to establish his covenant with him.",
+  "keyVerses": ["5-6", "8", "18", "22"],
+  "steps": {
+    "language": [
+      {
+        "word": "יֵצֶר",
+        "translit": "yetser",
+        "strongs": "H3336",
+        "gloss": "intention, inclination, form",
+        "verses": "5",
+        "note": "From the verb 'to form' used of God forming Adam in 2:7. What humans now 'form' in their hearts is only evil continually. Later Jewish teaching built its idea of the evil inclination on this word."
+      },
+      {
+        "word": "חֵן",
+        "translit": "ḥen",
+        "strongs": "H2580",
+        "gloss": "grace, favor",
+        "verses": "8",
+        "note": "The first use of 'grace' in the Bible. Noah's name (noaḥ) spelled backwards in Hebrew consonants is ḥen, a wordplay that ties the man to the grace he received."
+      },
+      {
+        "word": "שָׁחַת",
+        "translit": "shaḥat",
+        "strongs": "H7843",
+        "gloss": "to corrupt, ruin, destroy",
+        "verses": "11-13, 17",
+        "note": "Used four times in verses 11-13: the earth was corrupt, all flesh had corrupted its way, and God will 'destroy' them. The punishment matches the sin; God brings to ruin what humans had already ruined."
+      },
+      {
+        "word": "תֵּבָה",
+        "translit": "tevah",
+        "strongs": "H8392",
+        "gloss": "ark, box, chest",
+        "verses": "14-16",
+        "note": "Used only for Noah's ark and the basket that carried the baby Moses (Exodus 2:3), also sealed with pitch. Both are vessels of rescue through water that preserve God's purposes."
+      },
+      {
+        "word": "בְּרִית",
+        "translit": "berit",
+        "strongs": "H1285",
+        "gloss": "covenant",
+        "verses": "18",
+        "note": "The first occurrence of 'covenant' in Scripture. God promises to 'establish' it with Noah, a binding commitment that he spells out after the flood in chapter 9."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The days of Noah",
+        "refs": ["Matthew 24:37-39", "Luke 17:26-27", "2 Peter 3:5-7"],
+        "note": "Jesus compares his return to the days of Noah: ordinary life continued until judgment came suddenly. Peter says the world that perished by water is reserved for judgment by fire."
+      },
+      {
+        "theme": "Noah's faith and obedience",
+        "refs": ["Hebrews 11:7", "Ezekiel 14:14", "2 Peter 2:5"],
+        "note": "Noah is remembered as a man of faith and righteousness, a herald of righteousness who built the ark in reverent fear."
+      },
+      {
+        "theme": "Sons of God",
+        "refs": ["Job 1:6", "Job 38:7", "1 Peter 3:19-20", "Jude 6"],
+        "note": "Elsewhere in the Old Testament 'sons of God' usually means heavenly beings, which shapes one of the main readings of verses 1-4."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-8 close the toledot of Adam begun in chapter 5, and verse 9 opens the toledot of Noah, which runs through 9:29. The scene shows violence and corruption reaching their peak ten generations after Adam.",
+      "flow": [
+        { "verses": "1-4", "label": "Sons of God and daughters of man", "note": "A brief and difficult episode of boundaries crossed, followed by God limiting human life and a note about the Nephilim." },
+        { "verses": "5-8", "label": "God's grief and resolve", "note": "The LORD sees that human hearts are only evil, grieves that he made man, and resolves to blot them out. But Noah finds grace." },
+        { "verses": "9-12", "label": "Noah and his world", "note": "Noah is righteous and blameless and walks with God, while the earth is corrupt and filled with violence." },
+        { "verses": "13-21", "label": "The command to build", "note": "God announces the flood, gives the ark's dimensions, promises his covenant, and tells Noah to bring his family, pairs of animals and food." },
+        { "verses": "22", "label": "Obedience", "note": "Noah does everything just as God commanded him." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Matthew 24:37-39", "from": "5-13", "note": "As in the days of Noah, so will be the coming of the Son of Man." },
+        { "ref": "Hebrews 11:7", "from": "13-22", "note": "By faith Noah, warned about things not yet seen, built an ark to save his household and condemned the world." },
+        { "ref": "1 Peter 3:20", "from": "14-18", "note": "God waited patiently in the days of Noah while the ark was being built, and eight persons were brought safely through water." },
+        { "ref": "2 Peter 2:5", "from": "9", "note": "God did not spare the ancient world but preserved Noah, a herald of righteousness." }
+      ],
+      "tier2": [
+        { "ref": "Jeremiah 17:9", "from": "5", "note": "The heart is deceitful above all things, a later diagnosis that matches verse 5." },
+        { "ref": "Romans 3:10-18", "from": "11-12", "note": "Paul's catalogue of universal sin echoes the corruption that filled the earth." },
+        { "ref": "Exodus 2:3", "from": "14", "note": "Moses is placed in a tevah coated with pitch, a small ark of rescue." },
+        { "ref": "Ephesians 2:8", "from": "8", "note": "By grace you have been saved through faith, the same grace Noah found." }
+      ],
+      "tier3": [
+        { "ref": "Jude 6-7", "from": "1-4", "note": "Angels who left their proper dwelling are kept for judgment, a passage some link to verses 1-4." },
+        { "ref": "Numbers 13:33", "from": "4", "note": "The spies report Nephilim in Canaan, the only other mention of the name." },
+        { "ref": "Ephesians 4:30", "from": "6", "note": "The Spirit can be grieved, which fits the picture of God grieved at heart." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Kenneth Mathews",
+        "work": "Genesis 1-11:26 (New American Commentary)",
+        "view": "Mathews surveys the three main views of the 'sons of God': angels, the godly line of Seth, and powerful rulers. He stresses that whichever view is taken, the point is human rebellion crossing God's boundaries and provoking judgment."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin takes the 'sons of God' as the descendants of Seth who married ungodly women out of lust, corrupting the godly line. He explains God's 'repenting' as language accommodated to our understanding, expressing God's real displeasure without implying he changes his mind as humans do."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the moving picture of God grieved to his heart. Judgment here is not cold or arbitrary but the response of a holy God to a world that has ruined itself."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+        "renderings": [
+          { "version": "ESV", "text": "My Spirit shall not abide in man forever" },
+          { "version": "NIV", "text": "My Spirit will not contend with humans forever" },
+          { "version": "CSB", "text": "My Spirit will not remain with mankind forever" }
+        ],
+        "note": "The Hebrew verb is rare and uncertain. 'Strive' or 'contend' suggests God's patience with sinners running out; 'abide' or 'remain' suggests the life-giving breath being limited. The 120 years may be a lifespan limit or the time until the flood."
+      },
+      {
+        "verse": "6",
+        "kjv": "And it repented the LORD that he had made man on the earth, and it grieved him at his heart.",
+        "renderings": [
+          { "version": "ESV", "text": "the LORD regretted that he had made man" },
+          { "version": "NIV", "text": "The LORD regretted" },
+          { "version": "CSB", "text": "the LORD regretted" }
+        ],
+        "note": "'Repented' in older English meant to feel sorrow, not to turn from sin. Scripture also teaches that God does not change his mind like a man (Numbers 23:19), so the language expresses real grief within his unchanging purpose."
+      }
+    ],
+    "gospel": "God's judgment on sin is real, total and deserved, yet in the middle of it 'Noah found grace.' Salvation came only inside the ark God designed, with one door. Peter sees the waters of the flood as a picture of baptism, which saves through the resurrection of Jesus Christ (1 Peter 3:20-21). Christ is the true ark: those in him are carried safely through the judgment that falls on a corrupt world, and Jesus warns that his return will come as suddenly as the flood.",
+    "application": [
+      "Take seriously God's verdict on the human heart, including our own, and do not excuse sin as minor.",
+      "Rest on grace, not on our own goodness; Noah's righteousness flowed from the favor he found with God.",
+      "Obey God's word fully, even when it seems strange to others, as Noah did 'all that God commanded.'",
+      "Live ready for Christ's return, not lulled by ordinary routines into forgetting judgment.",
+      "Find comfort that God's patience delays judgment so that people may repent (1 Peter 3:20; 2 Peter 3:9)."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's grief shows he made a mistake or did not know how things would turn out.",
+        "correction": "The text expresses real sorrow in human terms, but Scripture affirms that God knows the end from the beginning (Isaiah 46:10). Grief at sin is not ignorance of it."
+      },
+      {
+        "claim": "Noah was saved because he was a good man who earned it.",
+        "correction": "Verse 8, 'Noah found grace,' comes before his righteousness is described in verse 9. Hebrews 11:7 says he became an heir of the righteousness that comes by faith."
+      },
+      {
+        "claim": "The identity of the Nephilim and the sons of God is the key to the chapter.",
+        "correction": "Faithful interpreters differ on verses 1-4. The chapter's emphasis is clear regardless: universal corruption, God's just judgment and his saving grace."
+      }
+    ],
+    "contrasts": [
+      { "a": "Every intention only evil", "b": "Noah found grace", "verses": "5, 8", "note": "One sentence describes the world; the next introduces the exception God makes." },
+      { "a": "The earth corrupt", "b": "Noah blameless", "verses": "9, 11", "note": "Noah walked with God in a generation that walked away from him." },
+      { "a": "Destroy", "b": "Covenant", "verses": "17-18", "note": "God's resolve to judge is matched by his resolve to save." }
+    ],
+    "features": [
+      { "label": "Noah and grace", "note": "Noah (nḥ) and grace (ḥn) use the same two consonants reversed, a wordplay that marks him as the man of grace." },
+      { "label": "God saw", "note": "In chapter 1 God saw that all was very good; in 6:5 and 6:12 he sees that the earth is evil and corrupt, a deliberate reversal." },
+      { "label": "Ruin for ruin", "note": "The repeated root shaḥat shows judgment fitting the crime: God destroys what was already self-destroying." },
+      { "label": "Built as commanded", "note": "The ark, like the tabernacle later, is built to exact divine specifications, and Noah's obedience is summarized in words close to those of Moses (Exodus 40:16)." }
+    ],
+    "summary": "Genesis 6 shows God's holiness and grief over sin, his just resolve to judge a violent world, and his grace in choosing to save Noah and his family. Salvation comes through a means God provides and through faith that obeys his word. The first mention of covenant points to God's commitment to preserve his world and his people.",
+    "metaArc": {
+      "book": "This chapter transitions from Adam's line to Noah's toledot and launches the flood narrative, the central judgment of Genesis 1-11. Noah becomes a new Adam through whom humanity will start again.",
+      "redemptive": "Fall and Promise. Judgment falls, but God's grace preserves the line of the promised seed through Noah, and the ark foreshadows salvation in Christ."
+    }
+  }
+}

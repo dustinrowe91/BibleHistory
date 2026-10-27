@@ -1,0 +1,162 @@
+{
+  "ref": "GEN.36",
+  "book": "Genesis",
+  "chapter": 36,
+  "title": "Esau Is Edom",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The genealogy of Esau records his wives, sons and chiefs, his move to the hill country of Seir, the native Horites, and the kings who ruled Edom before Israel had a king. God's promise to make Esau a nation is fulfilled, even as the story turns from him to Jacob's family.",
+  "keyVerses": ["1", "6-8", "31", "43"],
+  "steps": {
+    "language": [
+      {
+        "word": "אֱדוֹם",
+        "translit": "ʾEdom",
+        "strongs": "H123",
+        "gloss": "red",
+        "verses": "1, 8, 19, 43",
+        "note": "Esau's other name, recalling his red appearance and the red stew (25:25, 30). The refrain 'Esau, that is, Edom' links the man to the nation that becomes Israel's neighbor and rival."
+      },
+      {
+        "word": "אַלּוּף",
+        "translit": "ʾalluf",
+        "strongs": "H441",
+        "gloss": "chief, clan leader",
+        "verses": "15-19, 29-30, 40-43",
+        "note": "A title for tribal leaders, used repeatedly in the chapter. Exodus 15:15 mentions the 'chiefs of Edom' trembling at Israel's crossing of the sea."
+      },
+      {
+        "word": "שֵׂעִיר",
+        "translit": "Seʿir",
+        "strongs": "H8165",
+        "gloss": "Seir, 'hairy'",
+        "verses": "8-9, 20-21",
+        "note": "The mountainous region southeast of the Dead Sea. Its name sounds like Esau's hairy appearance (seʿar, 25:25). Seir was earlier home to the Horites, whom Esau's descendants displaced (Deuteronomy 2:12, 22)."
+      },
+      {
+        "word": "מֶלֶךְ",
+        "translit": "melek",
+        "strongs": "H4428",
+        "gloss": "king",
+        "verses": "31-39",
+        "note": "Edom had kings 'before any king reigned over the Israelites.' The note reflects a later vantage point and highlights that the promise of kings to Jacob (35:11) took longer to be fulfilled than the blessing on Esau."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's care for Esau",
+        "refs": ["Deuteronomy 2:4-5", "Deuteronomy 23:7", "Genesis 27:39-40"],
+        "note": "God gave Seir to Esau and told Israel not to provoke Edom or take its land. Israel was not to abhor an Edomite, for he is a brother."
+      },
+      {
+        "theme": "Edom's later hostility",
+        "refs": ["Numbers 20:14-21", "Psalm 137:7", "Obadiah 1-21", "Malachi 1:2-4"],
+        "note": "Edom refuses Israel passage and later rejoices at Jerusalem's fall. Obadiah announces judgment on Edom's pride and violence against his brother."
+      },
+      {
+        "theme": "Amalek",
+        "refs": ["Exodus 17:8-16", "Deuteronomy 25:17-19", "1 Samuel 15"],
+        "note": "Amalek, a grandson of Esau (v12), becomes the ancestor of Israel's bitter enemy in the wilderness and in Saul's day."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Esau (36:1-37:1), placed between Jacob's story and Joseph's. Genesis follows its pattern of dealing briefly with the non-chosen line (Cain, Japheth and Ham, Ishmael, Esau) before turning to the line of promise.",
+      "flow": [
+        { "verses": "1-8", "label": "Esau's family and move", "note": "Esau's Canaanite and Ishmaelite wives and sons are listed. Because their possessions were too great to live together, Esau moves to Seir." },
+        { "verses": "9-19", "label": "Esau's descendants and chiefs", "note": "Esau's sons and grandsons, including Amalek, are named as chiefs of Edom." },
+        { "verses": "20-30", "label": "The Horites of Seir", "note": "The earlier inhabitants of Seir and their chiefs are listed." },
+        { "verses": "31-39", "label": "Kings of Edom", "note": "Eight kings reign in Edom before Israel has a king, each from a different city, not a dynasty." },
+        { "verses": "40-43", "label": "Clans of Esau", "note": "A final list of Edomite chiefs by their territories. Esau is the father of Edom." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Chronicles 1:35-54", "from": "1-43", "note": "Chronicles repeats much of Esau's genealogy and the list of Edomite kings." },
+        { "ref": "Deuteronomy 2:5, 12, 22", "from": "8, 20", "note": "God gave Mount Seir to Esau as a possession, and the descendants of Esau dispossessed the Horites." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 25:23", "from": "31", "note": "Two nations were in Rebekah's womb; this chapter shows Esau's nation forming." },
+        { "ref": "Genesis 13:6", "from": "7", "note": "Abraham and Lot also separated because the land could not support both." },
+        { "ref": "Obadiah 10-12", "from": "43", "note": "Edom is judged for violence against his brother Jacob." },
+        { "ref": "Exodus 15:15", "from": "15-19", "note": "The chiefs of Edom are dismayed at Israel's deliverance." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 17:8-16", "from": "12, 16", "note": "Amalek attacks Israel in the wilderness." },
+        { "ref": "Amos 9:11-12", "from": "43", "note": "God promises that David's restored tent will possess the remnant of Edom; James applies it to the Gentiles in Acts 15:17." },
+        { "ref": "Isaiah 63:1-6", "from": "43", "note": "The divine warrior comes from Edom in garments stained red." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner observes that Esau's line establishes chiefs and kings quickly, while Jacob's waits centuries. Worldly success may come faster than God's promises, but it is the promised line that leads to redemption."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton notes that the chapter is a sign of God's faithfulness to his promise that Esau, too, would become a nation, and that Genesis respects the non-elect lines by recording them."
+      },
+      {
+        "name": "Kenneth Mathews",
+        "work": "Genesis 11:27-50:26 (New American Commentary)",
+        "view": "Mathews explains the chapter's place in Genesis's structure and its usefulness for later Israel, explaining their relationship with Edom as kin, though often hostile."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "24",
+        "kjv": "And these are the children of Zibeon; both Ajah, and Anah: this was that Anah that found the mules in the wilderness, as he fed the asses of Zibeon his father.",
+        "renderings": [
+          { "version": "ESV", "text": "found the hot springs in the wilderness" },
+          { "version": "NIV", "text": "discovered the hot springs in the desert" },
+          { "version": "CSB", "text": "found the hot springs in the wilderness" }
+        ],
+        "note": "The Hebrew word yemim appears only here and its meaning is uncertain. Older tradition guessed 'mules'; modern versions follow a later Jewish and Latin understanding of 'hot springs.'"
+      },
+      {
+        "verse": "31",
+        "kjv": "And these are the kings that reigned in the land of Edom, before there reigned any king over the children of Israel.",
+        "renderings": [
+          { "version": "ESV", "text": "before any king reigned over the Israelites" },
+          { "version": "NIV", "text": "before any Israelite king reigned" },
+          { "version": "CSB", "text": "before any king ruled over the Israelites" }
+        ],
+        "note": "The versions agree. The note implies a writer or editor aware of Israel's monarchy, one of several updating notes in Genesis."
+      }
+    ],
+    "gospel": "God keeps his word to Esau, giving him land, descendants and kings. Yet Esau's line, for all its early success, is not the line of promise. The redemptive story narrows to Jacob, through whom the true King would come. The prophets foretell that the rule of David's son would reach even Edom, and in Acts 15 James sees this fulfilled as Gentiles, represented by Edom, are brought into God's people through Christ. The estranged brother's descendants are invited into the blessing.",
+    "application": [
+      "Trust that God is faithful to all his promises, even those to people outside the chosen line.",
+      "Do not measure God's favor by how quickly worldly success comes.",
+      "Remember that genealogies remind us God knows peoples and individuals by name.",
+      "Pray for reconciliation between peoples with long histories of conflict."
+    ],
+    "misapplications": [
+      {
+        "claim": "Genealogy chapters can be skipped because they add nothing.",
+        "correction": "This chapter shows God's faithfulness to Esau, explains Israel's relations with Edom and Amalek, and contrasts quick worldly kingdoms with God's patient promises."
+      },
+      {
+        "claim": "God's choice of Jacob meant he abandoned Esau entirely.",
+        "correction": "God gave Esau his land and commanded Israel to respect it (Deuteronomy 2:5). Election to covenant role does not mean God has no care for others."
+      }
+    ],
+    "contrasts": [
+      { "a": "Kings in Edom", "b": "No king yet in Israel", "verses": "31", "note": "The non-chosen line gains kings first; the promised line waits." },
+      { "a": "Esau in Seir", "b": "Jacob in Canaan", "verses": "8; 37:1", "note": "The brothers' separate lands mark their separate destinies." }
+    ],
+    "features": [
+      { "label": "Double toledot", "note": "The chapter contains two 'these are the generations of Esau' headings (v1, v9), one for Esau in Canaan and one for Esau as father of Edom in Seir." },
+      { "label": "Non-dynastic kings", "note": "Each Edomite king comes from a different city, suggesting elected or chosen rulers rather than a hereditary line." },
+      { "label": "Separation like Abraham and Lot", "note": "Esau leaves because the land could not support both brothers' flocks, mirroring 13:6." },
+      { "label": "Pattern of Genesis", "note": "The secondary line is dealt with briefly before the main story continues, as with Ishmael in 25:12-18." }
+    ],
+    "summary": "Genesis 36 records the growth of Esau into the nation of Edom, with chiefs and kings, fulfilling God's promise to him. It explains the origins of Israel's neighbors, including Amalek, and contrasts Edom's early kings with Israel's long wait for a king. The chapter clears the stage for the story of Jacob's sons.",
+    "metaArc": {
+      "book": "The toledot of Esau closes the account of Isaac's sons and transitions to the toledot of Jacob, the story of Joseph, in chapter 37.",
+      "redemptive": "Promise. God's faithfulness to Esau shows his wider care, while the line of promise continues through Jacob toward the King who will one day gather even Edom into his kingdom."
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "ref": "GEN.20",
+  "book": "Genesis",
+  "chapter": 20,
+  "title": "Abraham and Abimelech",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "In Gerar Abraham again passes Sarah off as his sister, and King Abimelech takes her. God warns Abimelech in a dream, keeps him from touching her, and protects the promise just before Isaac's birth. Abimelech, the pagan, acts with more integrity than Abraham, yet God calls Abraham a prophet and answers his prayer.",
+  "keyVerses": ["3", "6", "7", "11"],
+  "steps": {
+    "language": [
+      {
+        "word": "נָבִיא",
+        "translit": "naviʾ",
+        "strongs": "H5030",
+        "gloss": "prophet",
+        "verses": "7",
+        "note": "The first use of 'prophet' in the Bible. Abraham is called a prophet not because he has behaved well but because he stands in a special relationship with God and intercedes. His prayer brings healing (v17)."
+      },
+      {
+        "word": "תָּם לֵבָב",
+        "translit": "tam levav",
+        "gloss": "integrity of heart",
+        "verses": "5, 6",
+        "note": "Abimelech claims he acted with integrity of heart and innocent hands, and God agrees. The word tam is related to tamim, 'blameless,' which God required of Abraham in 17:1; ironically, the pagan king shows it here."
+      },
+      {
+        "word": "יִרְאַת אֱלֹהִים",
+        "translit": "yirʾat ʾelohim",
+        "gloss": "the fear of God",
+        "verses": "11",
+        "note": "Abraham assumed there was no fear of God in Gerar. In fact Abimelech and his servants fear God greatly (v8). Abraham's own lack of trust was the real problem."
+      },
+      {
+        "word": "חָשַׂךְ",
+        "translit": "ḥasak",
+        "strongs": "H2820",
+        "gloss": "to hold back, withhold, restrain",
+        "verses": "6",
+        "note": "God says he held Abimelech back from sinning. God's restraining providence protects both the king and the promise, keeping the line of Isaac pure."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God protects the promise",
+        "refs": ["Genesis 12:17", "Genesis 26:10-11", "Psalm 105:12-15"],
+        "note": "Psalm 105 recalls this period: God allowed no one to oppress the patriarchs and rebuked kings for their sake, saying 'touch not my anointed ones, do my prophets no harm.'"
+      },
+      {
+        "theme": "God restrains sin",
+        "refs": ["1 Samuel 25:26, 34", "Psalm 19:13", "2 Thessalonians 2:6-7"],
+        "note": "God's providence often keeps people from sins they would otherwise commit, as with Abimelech and with David at Nabal's house."
+      },
+      {
+        "theme": "The prayer of the righteous",
+        "refs": ["Job 42:8-10", "James 5:16", "Numbers 21:7"],
+        "note": "God appoints his servants to pray for others and answers their intercession, as with Job for his friends."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). After Sodom's destruction, Abraham moves to the Negev and Gerar. The episode comes just before Isaac's birth in chapter 21, making the threat to Sarah especially serious: the promised son's paternity is at stake.",
+      "flow": [
+        { "verses": "1-2", "label": "The same lie", "note": "Abraham says of Sarah, 'She is my sister,' and Abimelech king of Gerar takes her." },
+        { "verses": "3-7", "label": "God warns Abimelech", "note": "In a dream God tells Abimelech he is a dead man. Abimelech pleads innocence; God says he knows and that he kept him from sinning. He must return Sarah and Abraham will pray for him." },
+        { "verses": "8-13", "label": "Abimelech rebukes Abraham", "note": "Abimelech asks what Abraham has done. Abraham explains his fear that there was no fear of God there, and that Sarah is in fact his half-sister." },
+        { "verses": "14-18", "label": "Restoration and healing", "note": "Abimelech returns Sarah with gifts, offers land, and vindicates Sarah publicly. Abraham prays, and God heals Abimelech's household, whose wombs had been closed." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 105:14-15", "from": "3-7", "note": "God rebuked kings for the patriarchs' sake: touch not my anointed ones, do my prophets no harm." },
+        { "ref": "Genesis 12:10-20", "from": "1-2", "note": "Abraham told the same lie in Egypt years earlier." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 26:6-11", "from": "1-2", "note": "Isaac repeats the deception with a later Abimelech of Gerar." },
+        { "ref": "James 5:16", "from": "7, 17", "note": "The prayer of a righteous person has great power." },
+        { "ref": "Job 42:8", "from": "7", "note": "God tells Job's friends that Job will pray for them and he will accept his prayer." },
+        { "ref": "Romans 2:14-15", "from": "5-6", "note": "Gentiles who do not have the law show its work written on their hearts, as Abimelech does." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 29:25", "from": "11", "note": "The fear of man lays a snare, but whoever trusts in the LORD is safe." },
+        { "ref": "Numbers 22:9-12", "from": "3", "note": "God speaks by night to another foreign figure, Balaam, to protect his people." },
+        { "ref": "Matthew 1:20", "from": "3", "note": "God speaks in a dream to protect the mother of the promised child." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the embarrassment of the father of the faithful being lectured by a pagan king, and the reminder that old sins can resurface in mature believers. Yet God's faithfulness to Abraham does not depend on Abraham's consistency."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin is sharply critical of Abraham, seeing his repeated deception as a fault that endangered Sarah and the promise. He highlights God's restraining grace as the only reason the promise was preserved."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton points to the irony that Abraham is called a prophet and intercessor at the very moment he has failed. God's choice and his calling of Abraham stand, and Abraham's prayer still brings healing."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "And God said unto him in a dream, Yea, I know that thou didst this in the integrity of thy heart; for I also withheld thee from sinning against me: therefore suffered I thee not to touch her.",
+        "renderings": [
+          { "version": "ESV", "text": "in the integrity of your heart" },
+          { "version": "NIV", "text": "with a clear conscience" },
+          { "version": "CSB", "text": "with a clear conscience" }
+        ],
+        "note": "'Integrity of heart' keeps the Hebrew wording; 'clear conscience' expresses the meaning. God affirms Abimelech's innocence and credits his own restraining hand."
+      },
+      {
+        "verse": "11",
+        "kjv": "And Abraham said, Because I thought, Surely the fear of God is not in this place; and they will slay me for my wife's sake.",
+        "renderings": [
+          { "version": "ESV", "text": "There is no fear of God at all in this place" },
+          { "version": "NIV", "text": "There is surely no fear of God in this place" },
+          { "version": "CSB", "text": "There is absolutely no fear of God in this place" }
+        ],
+        "note": "Abraham's assumption proves false: Abimelech and his servants were 'very much afraid' (v8). The real failure of faith was Abraham's."
+      }
+    ],
+    "gospel": "The promised son is about to be born, and God guards Sarah and the line of promise even when Abraham puts it at risk. God's faithfulness, not Abraham's, secures the coming of Isaac and ultimately of Christ. Abraham, flawed as he is, is called a prophet and his intercession brings healing, a dim picture of the true Prophet and Intercessor, Jesus, who never failed and whose prayers for his people are always heard.",
+    "application": [
+      "Recognize that old patterns of sin can return even after years of faith; stay watchful.",
+      "Do not assume others have no fear of God; God is at work beyond our circles.",
+      "Take comfort that God restrains evil and protects his purposes, often in ways we never see.",
+      "Accept rebuke humbly, even from unexpected sources.",
+      "Keep praying for others even after failure; God's calling is not withdrawn."
+    ],
+    "misapplications": [
+      {
+        "claim": "Since Sarah really was his half-sister, Abraham did nothing wrong.",
+        "correction": "A half-truth meant to deceive is still a lie. The text shows it endangered Sarah and brought judgment on an innocent household."
+      },
+      {
+        "claim": "God calling Abraham a prophet means God approved his behavior.",
+        "correction": "God's calling rests on his grace and covenant, not on Abraham's conduct in this episode. Abimelech's rebuke stands."
+      },
+      {
+        "claim": "Outsiders to God's people cannot have any moral integrity.",
+        "correction": "God himself affirms Abimelech's integrity in this matter. God's common grace and conscience are at work in all people."
+      }
+    ],
+    "contrasts": [
+      { "a": "Abraham's fear", "b": "Abimelech's fear of God", "verses": "8, 11", "note": "The prophet fears man; the pagan king fears God." },
+      { "a": "Integrity of heart", "b": "Deception", "verses": "5-6, 2", "note": "The outsider shows the integrity Abraham lacked." },
+      { "a": "Closed wombs", "b": "Healing", "verses": "17-18", "note": "Abraham's prayer for Abimelech's household comes just before Sarah's own womb is opened." }
+    ],
+    "features": [
+      { "label": "Repeated story", "note": "This is the second of three 'wife-sister' episodes (12:10-20; 20; 26:6-11), each showing God protecting the promise from human failure." },
+      { "label": "God speaks to a pagan", "note": "God talks directly with Abimelech in a dream, showing his rule over all nations." },
+      { "label": "Healing of wombs", "note": "The chapter ends with God healing barrenness in Gerar, setting up the opening of Sarah's womb in the next verse (21:1)." },
+      { "label": "Ironic placement", "note": "Abraham fails right after interceding for Sodom and right before Isaac's birth, showing that the promise depends entirely on God." }
+    ],
+    "summary": "Genesis 20 shows Abraham repeating an old sin and God protecting the promise anyway. A pagan king acts with more integrity than the father of the faithful, yet God preserves Sarah, restrains sin, and uses Abraham's prayer to heal. The chapter magnifies God's faithfulness just before the promised son is born.",
+    "metaArc": {
+      "book": "This chapter immediately precedes Isaac's birth, and its threat to Sarah heightens the suspense: the promise is preserved only by God's intervention. It also introduces Abimelech, who reappears in chapter 21.",
+      "redemptive": "Promise preserved. God guards the line of the promised seed against human failure, as he will throughout history until Christ is born."
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.32",
+  "book": "Genesis",
+  "chapter": 32,
+  "title": "Wrestling at Peniel",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Returning home, Jacob learns Esau is coming with four hundred men. Afraid, he divides his camp, prays a humble prayer resting on God's promise, and sends lavish gifts ahead. That night a man wrestles with him until dawn. Wounded but clinging, Jacob demands a blessing, receives the name Israel, and limps away having seen God face to face.",
+  "keyVerses": ["9-12", "24-26", "28", "30"],
+  "steps": {
+    "language": [
+      {
+        "word": "יִשְׂרָאֵל",
+        "translit": "Yisraʾel",
+        "strongs": "H3478",
+        "gloss": "God strives / he strives with God",
+        "verses": "28",
+        "note": "The name is explained as 'you have striven (sarah) with God and with men and prevailed.' It can also be read 'God strives' or 'God rules.' The heel-grabber receives a new name marking a new identity, and the name becomes the name of the whole nation."
+      },
+      {
+        "word": "אָבַק",
+        "translit": "ʾavaq",
+        "strongs": "H79",
+        "gloss": "to wrestle",
+        "verses": "24-25",
+        "note": "Used only here. It sounds like the Jabbok river (v22) and like Jacob's own name, a three-way wordplay at the place where Jacob's life turns."
+      },
+      {
+        "word": "פְּנִיאֵל",
+        "translit": "Peniʾel",
+        "strongs": "H6439",
+        "gloss": "face of God",
+        "verses": "30",
+        "note": "Jacob names the place 'for I have seen God face to face, and yet my life has been delivered.' The word 'face' (panim) runs through chapters 32-33: Jacob hopes to appease Esau's face, sees God's face, then says seeing Esau's face is like seeing God's."
+      },
+      {
+        "word": "חֶסֶד וֶאֱמֶת",
+        "translit": "ḥesed weʾemet",
+        "gloss": "steadfast love and faithfulness",
+        "verses": "10",
+        "note": "Jacob confesses he is unworthy of all God's steadfast love and faithfulness. The self-reliant schemer now prays from humility, grounding his request in God's own promise."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Jacob's wrestling remembered",
+        "refs": ["Hosea 12:3-4"],
+        "note": "Hosea says Jacob strove with God in his manhood, strove with the angel and prevailed, wept and sought his favor. Prevailing came through weeping and pleading."
+      },
+      {
+        "theme": "Strength in weakness",
+        "refs": ["2 Corinthians 12:7-10", "Isaiah 40:29-31"],
+        "note": "Jacob prevails only after he is crippled and can do nothing but cling. Paul learns that God's power is made perfect in weakness."
+      },
+      {
+        "theme": "Seeing God and living",
+        "refs": ["Exodus 33:20", "Judges 6:22-23", "Judges 13:22", "John 1:18"],
+        "note": "No one can see God and live, yet God reveals himself in mediated ways. John says the only Son has made the Father known."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). Leaving Laban, Jacob must now face the brother he cheated twenty years earlier. Angels meet him at Mahanaim, echoing the angels of Bethel as he left. The night at the Jabbok is the turning point of his life.",
+      "flow": [
+        { "verses": "1-2", "label": "Angels of God", "note": "Angels meet Jacob, and he names the place Mahanaim, 'two camps.'" },
+        { "verses": "3-8", "label": "Fear of Esau", "note": "Jacob's messengers report Esau is coming with 400 men. Greatly afraid, he divides his people into two camps." },
+        { "verses": "9-12", "label": "Jacob's prayer", "note": "Jacob prays to the God of his fathers, confesses his unworthiness, asks deliverance from Esau, and pleads God's promise." },
+        { "verses": "13-21", "label": "Gifts ahead", "note": "He sends waves of livestock to Esau as gifts, hoping to appease his face." },
+        { "verses": "22-32", "label": "The wrestling", "note": "Alone at night, a man wrestles with Jacob until dawn and dislocates his hip. Jacob will not let go without a blessing, is renamed Israel, names the place Peniel, and limps away as the sun rises." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hosea 12:3-4", "from": "24-28", "note": "Jacob strove with God, wrestled with the angel and prevailed; he wept and sought his favor." },
+        { "ref": "Genesis 35:10", "from": "28", "note": "God confirms the name Israel at Bethel." },
+        { "ref": "Genesis 28:13-15", "from": "9, 12", "note": "Jacob prays the promise God gave him at Bethel back to God." }
+      ],
+      "tier2": [
+        { "ref": "2 Corinthians 12:9", "from": "25, 31", "note": "My power is made perfect in weakness." },
+        { "ref": "Luke 18:1-8", "from": "26", "note": "Jesus teaches persistent prayer through the widow who would not give up." },
+        { "ref": "Matthew 26:39", "from": "9-12", "note": "Jesus prays in agony through the night in Gethsemane." },
+        { "ref": "John 1:18", "from": "30", "note": "No one has ever seen God; the only Son has made him known." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 4:24-26", "from": "24", "note": "God meets Moses on the road in a mysterious, threatening encounter before a great mission." },
+        { "ref": "Psalm 46:7", "from": "1-2", "note": "The LORD of hosts is with us; the God of Jacob is our fortress." },
+        { "ref": "Philippians 4:6", "from": "9-11", "note": "In everything by prayer let your requests be made known to God." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees the wrestling as a picture of the believer's trials: God fights against us with one hand and strengthens us with the other, so that we prevail by his own power. He identifies the wrestler as Christ in a preliminary appearance."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Jacob (Redeemer Presbyterian Church)",
+        "view": "Keller has preached Peniel as the moment the grasping Jacob finally stops trying to get blessing by strength or trickery and receives it by clinging to God in weakness. The limp is the mark of grace on a life."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that Jacob's real opponent all his life had been God, not Esau or Laban. The crisis of the night is the climax of a lifelong struggle, ending in surrender that is also victory."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "10",
+        "kjv": "I am not worthy of the least of all the mercies, and of all the truth, which thou hast shewed unto thy servant; for with my staff I passed over this Jordan; and now I am become two bands.",
+        "renderings": [
+          { "version": "ESV", "text": "the least of all the deeds of steadfast love" },
+          { "version": "NIV", "text": "all the kindness and faithfulness" },
+          { "version": "CSB", "text": "all the kindness and faithfulness" }
+        ],
+        "note": "'Mercies and truth' render ḥesed and ʾemet, God's covenant love and faithfulness. Jacob's humility here is new in his story."
+      },
+      {
+        "verse": "28",
+        "kjv": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed.",
+        "renderings": [
+          { "version": "ESV", "text": "you have striven with God and with men" },
+          { "version": "NIV", "text": "you have struggled with God and with humans" },
+          { "version": "CSB", "text": "you have struggled with God and with men" }
+        ],
+        "note": "The KJV's 'as a prince' follows an older derivation linking sarah to sar (prince). Modern versions take it as 'strive,' matching the wrestling."
+      }
+    ],
+    "gospel": "Jacob prevails not by strength but by clinging in weakness to the one who wounded him, and he receives a new name and a blessing. The gospel works the same way: we receive God's blessing not by our scheming but by holding to Christ in our need. Many have seen the mysterious wrestler as a pre-incarnate appearance of the Son. In Christ, God came close enough to wrestle with humanity, was himself wounded, and through his wounds gives sinners a new name and identity (Revelation 2:17; 1 Peter 2:24).",
+    "application": [
+      "Bring our fears to God in prayer, pleading his promises and confessing our unworthiness.",
+      "Expect that God may wound our self-reliance to bless us more deeply.",
+      "Cling to God persistently in prayer, refusing to let go without his blessing.",
+      "Receive our identity from God's name for us rather than our past patterns.",
+      "See our 'limps' as marks of grace that keep us dependent."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jacob overpowered God, showing that we can force God to do what we want.",
+        "correction": "The wrestler disabled Jacob with a touch (v25). Jacob prevailed by clinging and pleading (Hosea 12:4), not by overpowering. God chose to bless him."
+      },
+      {
+        "claim": "Jacob's gifts to Esau show that we should manipulate others to get our way.",
+        "correction": "The gifts were part of seeking reconciliation, but the turning point is the prayer and the night with God. Jacob's true security came from God."
+      }
+    ],
+    "contrasts": [
+      { "a": "Jacob", "b": "Israel", "verses": "27-28", "note": "From heel-grabber to one who strives with God and prevails." },
+      { "a": "Strength", "b": "Weakness", "verses": "25-26", "note": "Jacob wins when he can no longer fight, only hold on." },
+      { "a": "Night", "b": "Sunrise", "verses": "22, 31", "note": "The sun rises on Israel limping, a new day for a new man." }
+    ],
+    "features": [
+      { "label": "Jabbok, Jacob, wrestled", "note": "Yabboq, Yaʿaqov and yeʾaveq sound alike, binding the place, the man and the event together." },
+      { "label": "What is your name?", "note": "When Jacob last was asked his name, by his father, he lied (27:18-19). Now he confesses 'Jacob,' and receives a new name." },
+      { "label": "Two camps", "note": "Mahanaim (two camps) refers to the angels' camp and Jacob's, and Jacob then splits his family into two camps out of fear." },
+      { "label": "Food custom", "note": "Verse 32 explains why Israelites did not eat the thigh muscle, a lasting memorial of the night." }
+    ],
+    "summary": "Genesis 32 is the turning point of Jacob's life. Facing his brother, Jacob prays in humility, then wrestles through the night with a mysterious man who is God himself. Broken in his strength, he clings for a blessing and receives the name Israel. He learns that blessing comes not from grasping but from holding on to God in weakness.",
+    "metaArc": {
+      "book": "This chapter climaxes Jacob's story, transforming him into Israel before he meets Esau in chapter 33. The new name becomes the name of the nation descended from him.",
+      "redemptive": "Promise. Israel, the people of God, receive their name here, and the pattern of blessing through weakness points to Christ, through whose wounds we are healed."
+    }
+  }
+}

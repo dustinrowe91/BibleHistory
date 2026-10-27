@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.48",
+  "book": "Genesis",
+  "chapter": 48,
+  "title": "Crossed Hands",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "As Jacob nears death, Joseph brings his sons Manasseh and Ephraim. Jacob recalls God's promise at Bethel and adopts the boys as his own, giving Joseph a double portion. Crossing his hands, he places his right hand on the younger, Ephraim, and blesses them in the name of the God who shepherded him and the Angel who redeemed him.",
+  "keyVerses": ["5", "14", "15-16", "21"],
+  "steps": {
+    "language": [
+      {
+        "word": "הָרֹעֶה",
+        "translit": "haroʿeh",
+        "strongs": "H7462",
+        "gloss": "the shepherd",
+        "verses": "15",
+        "note": "Jacob, a shepherd all his life, calls God 'the God who has shepherded me all my life to this day.' The first time in Scripture God is described as a shepherd, a picture later developed in Psalm 23 and fulfilled in Jesus the Good Shepherd."
+      },
+      {
+        "word": "הַמַּלְאָךְ הַגֹּאֵל",
+        "translit": "hammalʾak haggoʾel",
+        "gloss": "the Angel who redeemed",
+        "verses": "16",
+        "note": "Jacob speaks of 'the angel who has redeemed me from all evil' in parallel with God, recalling Bethel and Peniel. Goʾel is the kinsman-redeemer who rescues family members, the first use of 'redeem' in the Bible."
+      },
+      {
+        "word": "שִׂכֵּל",
+        "translit": "sikkel",
+        "strongs": "H7919",
+        "gloss": "to cross (the hands), act wisely",
+        "verses": "14",
+        "note": "Jacob 'crossed' or 'guided wittingly' his hands. The root often means acting with insight. Though nearly blind, Jacob knows exactly what he is doing."
+      },
+      {
+        "word": "יָמִין",
+        "translit": "yamin",
+        "strongs": "H3225",
+        "gloss": "right hand",
+        "verses": "13, 14, 17, 18",
+        "note": "The right hand signified the greater blessing. Placing it on the younger son reverses expectation, as with Jacob and Esau and with Perez and Zerah."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God the shepherd",
+        "refs": ["Genesis 49:24", "Psalm 23:1", "Psalm 80:1", "Ezekiel 34:11-16", "John 10:11"],
+        "note": "Jacob's confession of God as his lifelong shepherd begins a major biblical image that reaches its fullness in Jesus, the Good Shepherd."
+      },
+      {
+        "theme": "The younger over the elder",
+        "refs": ["Genesis 25:23", "Genesis 38:29-30", "1 Samuel 16:11-13", "Romans 9:12"],
+        "note": "Repeatedly God sets aside the expected firstborn order, showing his free grace."
+      },
+      {
+        "theme": "Ephraim and Manasseh in Israel",
+        "refs": ["Numbers 1:32-35", "Joshua 16-17", "1 Chronicles 5:1-2", "Hosea 11:1-8"],
+        "note": "The two sons become tribes, with Ephraim becoming dominant. The northern kingdom is often called Ephraim by the prophets."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Jacob has lived seventeen years in Egypt and is close to death. This blessing transfers the birthright's double portion to Joseph through his two sons, as 1 Chronicles 5:1-2 explains.",
+      "flow": [
+        { "verses": "1-7", "label": "Jacob recalls Bethel", "note": "Told of his illness, Joseph comes with his sons. Jacob strengthens himself, recalls God Almighty's promise at Luz, adopts Ephraim and Manasseh as his own, and remembers Rachel's death." },
+        { "verses": "8-12", "label": "The boys brought near", "note": "Jacob, nearly blind, asks who they are, kisses and embraces them, and rejoices that God let him see Joseph's children. Joseph bows." },
+        { "verses": "13-16", "label": "Crossed hands and blessing", "note": "Joseph positions Manasseh at Jacob's right hand, but Jacob crosses his hands. He blesses them by the God of his fathers, his shepherd, and the redeeming Angel." },
+        { "verses": "17-20", "label": "The younger first", "note": "Joseph protests, but Jacob insists: Manasseh will be great, but Ephraim greater. Israel will bless by saying, 'God make you as Ephraim and Manasseh.'" },
+        { "verses": "21-22", "label": "God will bring you back", "note": "Jacob tells Joseph that God will be with them and bring them back to the land of their fathers, and gives Joseph an extra portion." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:21", "from": "14-20", "note": "By faith Jacob, when dying, blessed each of the sons of Joseph." },
+        { "ref": "1 Chronicles 5:1-2", "from": "5, 22", "note": "Reuben's birthright was given to the sons of Joseph, though Judah became strong among his brothers." },
+        { "ref": "Genesis 35:9-12", "from": "3-4", "note": "Jacob recounts God's appearance at Luz (Bethel) and the promise of fruitfulness and the land." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 23:1", "from": "15", "note": "The LORD is my shepherd; I shall not want." },
+        { "ref": "John 10:11", "from": "15", "note": "Jesus is the good shepherd who lays down his life for the sheep." },
+        { "ref": "Genesis 25:23", "from": "19", "note": "The elder will serve the younger." },
+        { "ref": "Ruth 4:4-6", "from": "16", "note": "The kinsman-redeemer (goʾel) acts to rescue and restore family." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 50:24", "from": "21", "note": "Joseph repeats the promise that God will bring Israel back to the land." },
+        { "ref": "John 4:5", "from": "22", "note": "The plot near Shechem that Jacob gave to Joseph." },
+        { "ref": "Mark 10:16", "from": "14", "note": "Jesus lays his hands on children and blesses them." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that Jacob, who once deceived his blind father to gain the younger son's blessing, now as a blind father knowingly gives the younger the blessing. His whole life has taught him that God's choice, not human order, decides."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke highlights Jacob's threefold description of God in verses 15-16 as the theological summit of his life: the God of his fathers, his shepherd, and his redeemer. The old schemer now speaks with clear faith."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin takes 'the Angel who redeemed me' as the Son of God, since Jacob attributes divine redemption to him and invokes him alongside God for blessing."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "And he blessed Joseph, and said, God, before whom my fathers Abraham and Isaac did walk, the God which fed me all my life long unto this day,",
+        "renderings": [
+          { "version": "ESV", "text": "the God who has been my shepherd all my life" },
+          { "version": "NIV", "text": "the God who has been my shepherd all my life" },
+          { "version": "CSB", "text": "the God who has been my shepherd all my life" }
+        ],
+        "note": "'Fed' captures the shepherd's care of feeding, but modern versions make the shepherd image explicit, linking to Psalm 23."
+      },
+      {
+        "verse": "16",
+        "kjv": "The Angel which redeemed me from all evil, bless the lads; and let my name be named on them, and the name of my fathers Abraham and Isaac; and let them grow into a multitude in the midst of the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "the angel who has redeemed me from all evil" },
+          { "version": "NIV", "text": "the Angel who has delivered me from all harm" },
+          { "version": "CSB", "text": "the angel who has redeemed me from all evil" }
+        ],
+        "note": "Capitalization reflects interpretation: the NIV and KJV suggest a divine figure, consistent with Jacob's parallel to God. The verb for 'bless' is singular, treating God and the Angel as one source."
+      }
+    ],
+    "gospel": "At the end of his life Jacob confesses God as his shepherd and the Angel who redeemed him from all evil. These titles find their fulfillment in Jesus, the Good Shepherd who lays down his life for the sheep (John 10:11) and the Redeemer who delivers us from all evil. Jacob's crossed hands show again that God's blessing comes by grace, not birth order. And Joseph's sons, born to an Egyptian mother, are adopted into Israel, a foretaste of the Gentiles adopted into God's family through Christ (Ephesians 1:5).",
+    "application": [
+      "Look back over life and confess God's faithful shepherding and redemption.",
+      "Pass on blessing and faith to the next generation, especially grandchildren.",
+      "Accept that God's choices may overturn our expectations.",
+      "Find comfort in being adopted into God's family by grace.",
+      "Trust God's promise to bring his people home."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jacob was confused because of his poor eyesight.",
+        "correction": "Jacob crosses his hands deliberately (v14) and refuses Joseph's correction (v19): 'I know, my son, I know.'"
+      },
+      {
+        "claim": "Laying on of hands transfers blessing mechanically, apart from God.",
+        "correction": "Jacob blesses in God's name and by God's promise. The gesture expresses a prayer and prophecy that God fulfills."
+      }
+    ],
+    "contrasts": [
+      { "a": "Joseph's arrangement", "b": "Jacob's crossed hands", "verses": "13-14", "note": "Human order versus God's choice." },
+      { "a": "Blind Isaac deceived", "b": "Blind Jacob discerning", "verses": "10, 19", "note": "The deceiver of a blind father becomes a discerning blind father." },
+      { "a": "Egyptian-born sons", "b": "Adopted into Israel", "verses": "5", "note": "Joseph's sons become full tribes." }
+    ],
+    "features": [
+      { "label": "Echo of chapter 27", "note": "A dim-eyed father, a blessing, the younger favored, and a question of identity all recall Jacob's theft of the blessing, now reversed in integrity." },
+      { "label": "Threefold title for God", "note": "God of my fathers, my shepherd, the redeeming Angel: Jacob's fullest confession of faith." },
+      { "label": "A blessing formula", "note": "'God make you as Ephraim and Manasseh' (v20) became a traditional blessing in Israel." },
+      { "label": "Shechem", "note": "The 'one portion' (shekem) given to Joseph (v22) is a pun on Shechem, where Joseph would later be buried." }
+    ],
+    "summary": "Genesis 48 records Jacob's adoption and blessing of Joseph's sons, giving Joseph the double portion and placing the younger Ephraim ahead of Manasseh. Jacob confesses God as his lifelong shepherd and redeemer, and passes on the promise of return to the land. God's grace, not human order, shapes the future of Israel.",
+    "metaArc": {
+      "book": "This chapter prepares for Jacob's blessings of all his sons in chapter 49, settling Joseph's double portion through his sons.",
+      "redemptive": "Promise. Jacob's confession of God as shepherd and redeemer points to Christ, and the adoption of Joseph's sons foreshadows the adoption of all believers into God's family."
+    }
+  }
+}

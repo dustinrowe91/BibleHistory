@@ -1,0 +1,173 @@
+{
+  "ref": "GEN.16",
+  "book": "Genesis",
+  "chapter": 16,
+  "title": "The God Who Sees",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Tired of waiting, Sarai gives her Egyptian servant Hagar to Abram to build a family. Hagar conceives, conflict erupts, and Hagar flees into the wilderness. There the angel of the LORD finds her, promises her many descendants through Ishmael, and she names God 'the God who sees me.'",
+  "keyVerses": ["2", "7", "11", "13"],
+  "steps": {
+    "language": [
+      {
+        "word": "בָּנָה",
+        "translit": "banah",
+        "strongs": "H1129",
+        "gloss": "to build",
+        "verses": "2",
+        "note": "Sarai says, 'perhaps I shall be built up (ʾibbaneh) through her,' a play on ben (son). She hopes to build a family by her own plan, a custom of the time, rather than waiting for God."
+      },
+      {
+        "word": "מַלְאַךְ יְהוָה",
+        "translit": "malʾak YHWH",
+        "gloss": "the angel (messenger) of the LORD",
+        "verses": "7, 9, 10, 11",
+        "note": "The first appearance of this figure. He speaks as God himself ('I will surely multiply your offspring') and Hagar names him as God (v13). Many interpreters see him as a manifestation of God, some as the pre-incarnate Son."
+      },
+      {
+        "word": "אֵל רֳאִי",
+        "translit": "ʾEl roʾi",
+        "gloss": "God of seeing; God who sees me",
+        "verses": "13",
+        "note": "Hagar, a slave woman and an Egyptian, is the only person in the Old Testament to give God a name. She marvels that she has seen the one who sees her. The well is named Beer-lahai-roi, 'well of the Living One who sees me.'"
+      },
+      {
+        "word": "יִשְׁמָעֵאל",
+        "translit": "Yishmaʿel",
+        "strongs": "H3458",
+        "gloss": "God hears",
+        "verses": "11",
+        "note": "The LORD tells Hagar to name her son Ishmael, 'because the LORD has listened to your affliction.' God both sees (v13) and hears (v11) the oppressed."
+      },
+      {
+        "word": "עָנָה",
+        "translit": "ʿanah",
+        "strongs": "H6031",
+        "gloss": "to afflict, oppress, mistreat",
+        "verses": "6, 9, 11",
+        "note": "Sarai 'dealt harshly' with Hagar, the same verb used for Egypt's oppression of Israel (Exodus 1:11-12; Genesis 15:13). The roles are reversed: here an Egyptian slave is oppressed by Abram's family."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God sees and hears the afflicted",
+        "refs": ["Exodus 2:24-25", "Exodus 3:7", "Psalm 10:14", "Psalm 34:6"],
+        "note": "God's seeing and hearing Hagar anticipates his seeing and hearing Israel in Egypt."
+      },
+      {
+        "theme": "Hagar and Sarah as two covenants",
+        "refs": ["Galatians 4:21-31"],
+        "note": "Paul uses Hagar and Sarah as an allegory of slavery under the law and freedom in the promise, the son of the flesh and the son of promise."
+      },
+      {
+        "theme": "The angel of the LORD",
+        "refs": ["Genesis 22:11-18", "Exodus 3:2-6", "Judges 6:11-24", "Judges 13:3-22"],
+        "note": "The angel of the LORD speaks and acts as God, appearing at key moments of rescue and calling."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). Ten years after arriving in Canaan (v3), right after God's covenant oath in chapter 15, Abram and Sarai still have no child, and they try to secure the promise through a surrogate, a practice attested in ancient Near Eastern documents.",
+      "flow": [
+        { "verses": "1-4", "label": "Sarai's plan", "note": "Sarai, barren, gives Hagar to Abram as a wife, and Abram listens to her. Hagar conceives." },
+        { "verses": "4-6", "label": "Contempt and harshness", "note": "Hagar looks on Sarai with contempt; Sarai blames Abram, who hands Hagar back to her; Sarai mistreats her and Hagar flees." },
+        { "verses": "7-12", "label": "Found in the wilderness", "note": "The angel of the LORD finds Hagar by a spring, tells her to return and submit, promises countless offspring, and announces Ishmael's birth and future." },
+        { "verses": "13-16", "label": "The God who sees", "note": "Hagar names the LORD El-roi. Hagar bears Ishmael to Abram when he is 86." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Galatians 4:22-25", "from": "1-4, 15", "note": "Abraham had two sons, one by a slave woman and one by a free woman; the son of the slave was born according to the flesh." },
+        { "ref": "Genesis 25:12-18", "from": "10-12", "note": "Ishmael's twelve sons and their territories fulfill the promise of many descendants." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 3:6, 17", "from": "2-3", "note": "'Abram listened to the voice of Sarai' echoes Adam listening to his wife; the woman 'took and gave' as Eve did." },
+        { "ref": "Exodus 3:7", "from": "11, 13", "note": "God sees the affliction of his people in Egypt and hears their cry." },
+        { "ref": "Psalm 139:1-12", "from": "13", "note": "There is nowhere to flee from God's presence; he sees and knows." },
+        { "ref": "Genesis 21:14-21", "from": "7-12", "note": "God again meets Hagar in the wilderness and provides water for Ishmael." }
+      ],
+      "tier3": [
+        { "ref": "John 4:7-26", "from": "7-13", "note": "Jesus meets an outsider woman at a well and reveals himself, as God met Hagar by a spring." },
+        { "ref": "Luke 1:31", "from": "11", "note": "Like Hagar, Mary is told she will conceive and bear a son and is told his name." },
+        { "ref": "Isaiah 28:16", "from": "1-3", "note": "Whoever believes will not be in haste, the opposite of Sarai's impatient scheme." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Tim Keller",
+        "work": "Sermons on Genesis 16 (Redeemer Presbyterian Church)",
+        "view": "Keller has preached on Hagar as one of the most marginalized people in Genesis: a woman, a slave and a foreigner. Yet God pursues her and she becomes the first person to name God. He shows that God's grace reaches outsiders whom the covenant family mistreats."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke sees the chapter as unbelief trying to fulfill God's promise by human means, with painful results for everyone. He also notes God's care for Hagar and Ishmael, showing that God's grace extends beyond the chosen line."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner observes that every character acts badly: Sarai schemes and abuses, Abram abdicates, Hagar despises. God's intervention is the only bright light, and it comes to the one with least power."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "12",
+        "kjv": "And he will be a wild man; his hand will be against every man, and every man's hand against him; and he shall dwell in the presence of all his brethren.",
+        "renderings": [
+          { "version": "ESV", "text": "a wild donkey of a man" },
+          { "version": "NIV", "text": "a wild donkey of a man" },
+          { "version": "CSB", "text": "a wild donkey of a man" }
+        ],
+        "note": "The Hebrew is literally 'a wild donkey of a man,' picturing a free, untamed life in the desert. The image is not simply an insult; it describes independence and strength."
+      },
+      {
+        "verse": "13",
+        "kjv": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?",
+        "renderings": [
+          { "version": "ESV", "text": "You are a God of seeing" },
+          { "version": "NIV", "text": "You are the God who sees me" },
+          { "version": "CSB", "text": "You are El-roi" }
+        ],
+        "note": "The second half of the verse is difficult in Hebrew. All versions agree that Hagar is amazed both that God sees her and that she has seen him and lived."
+      }
+    ],
+    "gospel": "Sarai and Abram tried to bring about God's promise by their own plan, and it produced conflict and pain. Paul uses Hagar's son as a picture of trying to gain God's blessing by the flesh, while the son of promise comes by God's power (Galatians 4). Yet God also seeks out the mistreated outsider, sees her, hears her and promises her a future. In Christ, God sees and seeks the lost, especially the overlooked, and draws near to those who think no one notices them.",
+    "application": [
+      "Wait for God's timing rather than forcing his promises with schemes of our own.",
+      "Refuse to pass responsibility or blame as Abram and Sarai did; own our part in conflict.",
+      "Treat the vulnerable, foreigners and those under our authority with justice and kindness.",
+      "Take comfort that God sees and hears us, even in the wilderness when we feel forgotten.",
+      "Sometimes obedience means returning to a hard place with God's promise in hand, as Hagar did."
+    ],
+    "misapplications": [
+      {
+        "claim": "The chapter endorses surrogacy or polygamy because Abram did it.",
+        "correction": "Genesis reports the custom without approving it. The story shows its painful results: contempt, harshness and division."
+      },
+      {
+        "claim": "God sent Hagar back to approve her mistreatment.",
+        "correction": "God sent her back with a promise of protection and a future, and later provided for her directly (21:17-21). He hears affliction and does not endorse it."
+      },
+      {
+        "claim": "Ishmael and his descendants are outside God's care.",
+        "correction": "God blesses Ishmael with many offspring and promises to make him a nation (17:20). The covenant line runs through Isaac, but God's care reaches Ishmael too."
+      }
+    ],
+    "contrasts": [
+      { "a": "Human scheme", "b": "Divine promise", "verses": "2; 15:4", "note": "Sarai's plan contrasts with God's promise of a son from Abram's own body." },
+      { "a": "Sarai sees with contempt", "b": "God sees with care", "verses": "4-5, 13", "note": "The chapter plays on 'seeing': human eyes despise; God's eyes protect." },
+      { "a": "Affliction", "b": "God hears", "verses": "6, 11", "note": "Hagar is oppressed, and God names her son for his hearing." }
+    ],
+    "features": [
+      { "label": "Echoes of the fall", "note": "Sarai 'took' and 'gave' Hagar to her husband, and he 'listened to her voice,' deliberate echoes of Genesis 3." },
+      { "label": "Reversal of Egypt", "note": "An Egyptian slave is afflicted by Abram's family and flees into the wilderness, where God meets her, a mirror of Israel's exodus story." },
+      { "label": "Seeing and hearing", "note": "The chapter turns on wordplay: Ishmael (God hears), El-roi (God who sees), and Beer-lahai-roi (well of the Living One who sees me)." },
+      { "label": "Abram's silence", "note": "Abram speaks only once, to hand Hagar back to Sarai. His passivity contrasts with his active rescue of Lot in chapter 14." }
+    ],
+    "summary": "Genesis 16 shows the painful consequences of trying to fulfill God's promises by human means. Abram and Sarai's impatience creates conflict and harms a vulnerable servant. But God sees and hears Hagar, promises her a future, and reveals himself to her as the God who sees, showing that his care reaches the overlooked.",
+    "metaArc": {
+      "book": "This chapter is the low point of Abram's waiting and sets up the covenant of circumcision and the renaming in chapter 17, where God declares that the promised son will come through Sarah.",
+      "redemptive": "Promise tested. The son of the flesh is not the son of promise, preparing for the miraculous birth of Isaac, which itself foreshadows the birth of Christ by God's power."
+    }
+  }
+}

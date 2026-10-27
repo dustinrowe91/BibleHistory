@@ -1,0 +1,162 @@
+{
+  "ref": "GEN.13",
+  "book": "Genesis",
+  "chapter": 13,
+  "title": "Lift Up Your Eyes",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Back from Egypt, Abram returns to worship at his altar. When the land cannot hold both his and Lot's flocks, he lets Lot choose first, and Lot chooses the well-watered plain near Sodom. God then renews his promise to Abram: all the land he sees will belong to his countless offspring.",
+  "keyVerses": ["8-9", "10-13", "14-15", "18"],
+  "steps": {
+    "language": [
+      {
+        "word": "רִיב",
+        "translit": "riv",
+        "strongs": "H7379",
+        "gloss": "strife, quarrel",
+        "verses": "7-8",
+        "note": "A word often used for legal disputes. The quarrel between herdsmen threatens the family, and Abram, the senior, chooses to give up his rights for peace."
+      },
+      {
+        "word": "אַחִים",
+        "translit": "ʾaḥim",
+        "strongs": "H251",
+        "gloss": "brothers, kinsmen",
+        "verses": "8",
+        "note": "Abram reminds Lot that they are 'brothers,' meaning close relatives. The appeal echoes Cain's question about being his brother's keeper and anticipates Psalm 133's 'how good it is when brothers dwell in unity.'"
+      },
+      {
+        "word": "נָשָׂא עֵינַיִם",
+        "translit": "nasaʾ ʿenayim",
+        "gloss": "to lift up the eyes",
+        "verses": "10, 14",
+        "note": "Lot lifts his eyes and chooses by sight (v10); then God tells Abram to lift his eyes and see what God will give (v14). The same phrase frames the chapter's lesson about walking by sight or by faith."
+      },
+      {
+        "word": "עָפָר",
+        "translit": "ʿafar",
+        "strongs": "H6083",
+        "gloss": "dust",
+        "verses": "16",
+        "note": "Abram's offspring will be as numerous as the dust of the earth. The dust that marked human mortality in 3:19 becomes an image of God's abundant blessing."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Countless offspring",
+        "refs": ["Genesis 15:5", "Genesis 22:17", "Genesis 28:14", "Hebrews 11:12"],
+        "note": "Dust, stars and sand: the images of Abraham's offspring grow throughout Genesis and are recalled in Hebrews."
+      },
+      {
+        "theme": "Peace among brothers",
+        "refs": ["Psalm 133:1", "Romans 12:18", "1 Corinthians 6:7", "Philippians 2:3-4"],
+        "note": "Abram's willingness to yield for peace models the humility the New Testament calls for among believers."
+      },
+      {
+        "theme": "The wickedness of Sodom",
+        "refs": ["Genesis 18:20", "Ezekiel 16:49-50", "Jude 7"],
+        "note": "Sodom becomes the Bible's byword for wickedness ripe for judgment, through pride, cruelty, neglect of the poor and sexual immorality."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). After the failure in Egypt, Abram retraces his steps to Bethel. Lot's choice prepares for his capture in chapter 14 and the destruction of Sodom in chapter 19.",
+      "flow": [
+        { "verses": "1-4", "label": "Return to the altar", "note": "Abram, now very rich, returns from Egypt to Bethel and calls on the LORD's name at the altar he had built." },
+        { "verses": "5-9", "label": "Strife and generosity", "note": "Their herds are too large for the land, quarrels break out, and Abram offers Lot first choice of territory." },
+        { "verses": "10-13", "label": "Lot's choice", "note": "Lot sees the Jordan plain, well watered like the garden of the LORD and like Egypt, and moves his tent toward Sodom, whose men were very wicked." },
+        { "verses": "14-18", "label": "The promise renewed", "note": "God tells Abram to look in every direction and walk the land, which he will give to his offspring forever. Abram settles at Hebron and builds an altar." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:9", "from": "18", "note": "By faith Abraham lived in the land of promise as in a foreign land, living in tents." },
+        { "ref": "2 Peter 2:7-8", "from": "12-13", "note": "Lot, a righteous man, was greatly distressed by the lawless deeds he saw living among the people of Sodom." },
+        { "ref": "Acts 7:5", "from": "15", "note": "God gave Abraham no inheritance in the land, not even a foot's length, but promised it to his offspring." }
+      ],
+      "tier2": [
+        { "ref": "Romans 4:13", "from": "15", "note": "The promise that Abraham would be heir of the world came through faith." },
+        { "ref": "Philippians 2:3-4", "from": "8-9", "note": "Count others more significant than yourselves, as Abram did with Lot." },
+        { "ref": "2 Corinthians 5:7", "from": "10, 14", "note": "We walk by faith, not by sight." },
+        { "ref": "1 John 2:15-17", "from": "10", "note": "The desire of the eyes passes away, but whoever does God's will abides forever." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 5:5", "from": "15", "note": "The meek will inherit the earth, as the yielding Abram receives the whole land." },
+        { "ref": "Joshua 1:3", "from": "17", "note": "Every place the sole of your foot treads I have given you." },
+        { "ref": "Genesis 3:6", "from": "10", "note": "Eve saw that the tree was desirable; Lot saw that the plain was well watered. Both chose by sight." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke contrasts the two men's choices: Lot chooses by what he sees and drifts toward Sodom; Abram trusts God's promise and receives the whole land. Lot is the first of several figures in Genesis who choose the world's appeal over the promise."
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry praises Abram's peacemaking as the act of a man secure in God's promise, who could afford to yield. He warns that Lot's choice of a rich location without regard to the moral climate brought ruin on his family."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees God's timing as significant: the promise is renewed right after Abram gives up his claim, as if God says that he has lost nothing by his generosity."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren.",
+        "renderings": [
+          { "version": "ESV", "text": "for we are kinsmen" },
+          { "version": "NIV", "text": "for we are close relatives" },
+          { "version": "CSB", "text": "since we are relatives" }
+        ],
+        "note": "Lot was Abram's nephew. 'Brethren' keeps the Hebrew word 'brothers,' which carries the warmth and obligation of family."
+      },
+      {
+        "verse": "12",
+        "kjv": "Abram dwelled in the land of Canaan, and Lot dwelled in the cities of the plain, and pitched his tent toward Sodom.",
+        "renderings": [
+          { "version": "ESV", "text": "moved his tent as far as Sodom" },
+          { "version": "NIV", "text": "pitched his tents near Sodom" },
+          { "version": "CSB", "text": "set up his tent near Sodom" }
+        ],
+        "note": "The KJV's 'toward Sodom' captures a direction of drift; by chapter 14 Lot lives in Sodom and by chapter 19 he sits in its gate."
+      }
+    ],
+    "gospel": "Abram gave up his rights for the sake of peace and lost nothing, because the whole land was his by promise. Christ, who owned all things, emptied himself and took the lowest place for our sake, and God exalted him above all (Philippians 2:5-11). In him believers become heirs of the world (Romans 4:13) and the meek inherit the earth. The chapter calls us to walk by faith in God's promises rather than by the attraction of what looks like Eden but lies near Sodom.",
+    "application": [
+      "Seek peace in family and church, even at personal cost, trusting God to provide.",
+      "Make decisions by God's promises and values, not only by what looks prosperous.",
+      "Consider the spiritual climate of where we live, work and raise children, not just the economic advantages.",
+      "Return to worship after failure, as Abram returned to the altar at Bethel."
+    ],
+    "misapplications": [
+      {
+        "claim": "Lot's choice was simply smart business.",
+        "correction": "The text deliberately follows his choice with 'the men of Sodom were wicked' (v13). Prosperity that ignores God leads Lot to disaster."
+      },
+      {
+        "claim": "Abram's generosity proves that giving always pays off financially.",
+        "correction": "Abram trusted God's promise. The reward was the promise renewed, not an instant transaction, and he never owned the land in his lifetime except a burial plot."
+      }
+    ],
+    "contrasts": [
+      { "a": "Lot lifts his eyes and chooses", "b": "God tells Abram to lift his eyes and receive", "verses": "10, 14", "note": "Sight and self-interest versus faith and promise." },
+      { "a": "Like the garden of the LORD", "b": "Wicked and sinners", "verses": "10, 13", "note": "Sodom looked like paradise but was ripe for judgment." },
+      { "a": "Strife", "b": "Peace", "verses": "7-9", "note": "Abram's humility ends the quarrel." }
+    ],
+    "features": [
+      { "label": "Framed by altars", "note": "The chapter begins and ends with Abram at an altar (v4, v18), showing worship as the center of his life." },
+      { "label": "Like Egypt", "note": "The plain is compared to Egypt (v10), the place where Abram's faith had just failed, a quiet warning." },
+      { "label": "Before the LORD destroyed", "note": "The narrator's aside in verse 10 tells the reader what Lot does not know: the paradise he chooses will be destroyed." },
+      { "label": "Walk the land", "note": "God's command to walk the length and breadth of the land was a way of claiming possession." }
+    ],
+    "summary": "Genesis 13 contrasts two ways of living: Lot chooses by sight and drifts toward Sodom, while Abram yields for peace and trusts God's promise. God responds to Abram's faith by reaffirming that the land and countless descendants are his. True security lies in God's word, not in grasping what looks good.",
+    "metaArc": {
+      "book": "This chapter restores Abram after Egypt and separates him from Lot, the last relative who might have been his heir. It sets up Lot's rescue in chapter 14 and Sodom's judgment in chapter 19.",
+      "redemptive": "Promise. The land promise is expanded and sworn 'forever,' pointing beyond Canaan to the inheritance of the whole renewed earth in Christ."
+    }
+  }
+}

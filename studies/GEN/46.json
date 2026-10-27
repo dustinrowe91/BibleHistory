@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.46",
+  "book": "Genesis",
+  "chapter": 46,
+  "title": "Do Not Be Afraid to Go Down to Egypt",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "At Beersheba God speaks to Jacob in the night: do not fear going down to Egypt, for I will make you a great nation there, go down with you, and bring you up again. The seventy members of Jacob's family are listed. Joseph meets his father in Goshen, and they weep on each other's necks. Joseph prepares his family to settle in Goshen as shepherds.",
+  "keyVerses": ["3-4", "27", "29", "30"],
+  "steps": {
+    "language": [
+      {
+        "word": "אַל־תִּירָא",
+        "translit": "ʾal-tiraʾ",
+        "gloss": "do not fear",
+        "verses": "3",
+        "note": "God's 'fear not' to Jacob echoes his words to Abraham (15:1) and Isaac (26:24). Going down to Egypt might seem like abandoning the promised land, especially since Isaac was forbidden to go (26:2)."
+      },
+      {
+        "word": "גּוֹי גָּדוֹל",
+        "translit": "goy gadol",
+        "gloss": "a great nation",
+        "verses": "3",
+        "note": "God will make Jacob a great nation in Egypt, fulfilling the promise of 12:2. Exodus 1:7 records the growth: the people of Israel were fruitful and multiplied greatly."
+      },
+      {
+        "word": "אָנֹכִי אֵרֵד עִמְּךָ",
+        "translit": "ʾanoki ʾered ʿimmeka",
+        "gloss": "I myself will go down with you",
+        "verses": "4",
+        "note": "God's personal presence goes with his people into exile. The emphatic 'I' stresses that God is not limited to the land of Canaan."
+      },
+      {
+        "word": "שִׁבְעִים",
+        "translit": "shivʿim",
+        "strongs": "H7657",
+        "gloss": "seventy",
+        "verses": "27",
+        "note": "The family numbers seventy, echoing the seventy nations of Genesis 10. Israel is a small model of humanity, through whom God will bless the nations (Deuteronomy 10:22)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God goes with his people",
+        "refs": ["Exodus 3:7-8", "Exodus 33:14", "Psalm 139:7-10", "Isaiah 43:2"],
+        "note": "God promises to go down with Jacob and bring him up, which he does at the Exodus: 'I have come down to deliver them.'"
+      },
+      {
+        "theme": "Seventy who went down",
+        "refs": ["Exodus 1:5", "Deuteronomy 10:22", "Acts 7:14"],
+        "note": "Moses recalls that Israel went down to Egypt seventy persons and became as numerous as the stars. Stephen, following the Greek Old Testament, gives seventy-five."
+      },
+      {
+        "theme": "Now let me die in peace",
+        "refs": ["Luke 2:29-30"],
+        "note": "Simeon, having seen the infant Jesus, says he can depart in peace, as Jacob says after seeing Joseph."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Jacob (37:2-50:26). Jacob, about 130 years old (47:9), leaves Canaan. God foretold this sojourn in 15:13-16. The move will last about 430 years, until the Exodus.",
+      "flow": [
+        { "verses": "1-4", "label": "God at Beersheba", "note": "Jacob offers sacrifices to the God of Isaac. God speaks in visions of the night, promising a great nation in Egypt, his presence, and a return." },
+        { "verses": "5-7", "label": "The journey", "note": "Jacob's sons carry him, their families and their possessions to Egypt in Pharaoh's wagons." },
+        { "verses": "8-27", "label": "The seventy", "note": "Jacob's descendants are listed by their mothers: Leah's, Zilpah's, Rachel's and Bilhah's, totaling seventy with Joseph's family." },
+        { "verses": "28-30", "label": "The reunion", "note": "Judah goes ahead to Goshen. Joseph meets his father, falls on his neck and weeps a long time. Jacob says he can now die, having seen Joseph's face." },
+        { "verses": "31-34", "label": "Preparing for Pharaoh", "note": "Joseph coaches his brothers to tell Pharaoh they are shepherds, so they can settle in Goshen, since shepherds were detestable to Egyptians." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 15:13-14", "from": "3-4", "note": "God foretold that Abraham's offspring would sojourn in a foreign land and be brought out." },
+        { "ref": "Exodus 1:1-7", "from": "8-27", "note": "Exodus begins by naming the sons of Israel who came to Egypt, seventy in all, and their great increase." },
+        { "ref": "Acts 7:14-15", "from": "26-27", "note": "Stephen recounts that Jacob and his family went down to Egypt, seventy-five persons." },
+        { "ref": "Deuteronomy 10:22", "from": "27", "note": "Your fathers went down to Egypt seventy persons, and now the LORD has made you as numerous as the stars." }
+      ],
+      "tier2": [
+        { "ref": "Exodus 3:8", "from": "4", "note": "God comes down to deliver his people and bring them up to a good land." },
+        { "ref": "Genesis 50:24-25", "from": "4", "note": "Joseph, dying, promises God will bring Israel up from Egypt." },
+        { "ref": "Luke 2:29-30", "from": "30", "note": "Simeon is ready to depart in peace having seen God's salvation." },
+        { "ref": "Matthew 2:13-15", "from": "3-4", "note": "Jesus also goes down to Egypt and is called out, fulfilling 'Out of Egypt I called my son.'" }
+      ],
+      "tier3": [
+        { "ref": "Genesis 10:1-32", "from": "27", "note": "Seventy nations in the table of nations, mirrored by Israel's seventy." },
+        { "ref": "Exodus 8:26", "from": "34", "note": "Israel's sacrifices would be detestable to the Egyptians, another cultural barrier." },
+        { "ref": "Psalm 23:4", "from": "4", "note": "Even through the valley of the shadow of death, you are with me." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner observes that Jacob seeks God at Beersheba before leaving the land, and God's reassurance turns a family migration into a step in the covenant plan. The list of names turns a family into the nucleus of a nation."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham explains that the number seventy is symbolic of completeness and connects Israel with the seventy nations, though the precise counting of the list involves some adjustments."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke stresses that Goshen kept Israel separate from Egyptian culture, preserving their identity. God used even the Egyptians' contempt for shepherds to protect his people's distinctiveness."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "And he said, I am God, the God of thy father: fear not to go down into Egypt; for I will there make of thee a great nation:",
+        "renderings": [
+          { "version": "ESV", "text": "Do not be afraid to go down to Egypt" },
+          { "version": "NIV", "text": "Do not be afraid to go down to Egypt" },
+          { "version": "CSB", "text": "Do not be afraid to go down to Egypt" }
+        ],
+        "note": "The versions agree. God introduces himself as 'the God of your father,' connecting the promise to Isaac and Abraham."
+      },
+      {
+        "verse": "30",
+        "kjv": "And Israel said unto Joseph, Now let me die, since I have seen thy face, because thou art yet alive.",
+        "renderings": [
+          { "version": "ESV", "text": "Now let me die, since I have seen your face" },
+          { "version": "NIV", "text": "Now I am ready to die" },
+          { "version": "CSB", "text": "I'm ready to die now" }
+        ],
+        "note": "Jacob's words express contentment, not a death wish. In fact he lives seventeen more years (47:28)."
+      }
+    ],
+    "gospel": "God promised to go down with Jacob into Egypt and bring him up again, and he did. In the fullness of time God himself came down in Christ, entering our exile, and Jesus too went down to Egypt and was called out (Matthew 2:15). He went down into death and rose again, so that he will bring his people up to the promised inheritance. Jacob says he can die in peace having seen Joseph's face; Simeon says the same having seen the face of Jesus, God's salvation.",
+    "application": [
+      "Seek God before major decisions, as Jacob offered sacrifices at Beersheba.",
+      "Trust that God goes with us into unfamiliar or frightening places.",
+      "Remember that God's promises may unfold in unexpected places and over long periods.",
+      "Treasure family reconciliation and reunion as gifts from God.",
+      "Keep a distinct identity as God's people even while living among others."
+    ],
+    "misapplications": [
+      {
+        "claim": "Going to Egypt meant Jacob was abandoning God's promise of the land.",
+        "correction": "God told him to go and promised to bring him back (v4). The sojourn in Egypt was part of God's foretold plan (15:13-16)."
+      },
+      {
+        "claim": "The difference between seventy (Genesis) and seventy-five (Acts) proves Scripture contradicts itself.",
+        "correction": "Stephen follows the Greek Old Testament, which counted additional descendants of Joseph. The two totals reflect different ways of counting the same family."
+      }
+    ],
+    "contrasts": [
+      { "a": "Going down", "b": "Bringing up", "verses": "4", "note": "Descent to Egypt is paired with the promise of ascent at the Exodus." },
+      { "a": "Fear", "b": "God's presence", "verses": "3-4", "note": "God answers fear by promising to go with Jacob." },
+      { "a": "Egyptian contempt for shepherds", "b": "God's protection of Israel's identity", "verses": "34", "note": "Separation in Goshen preserved the family." }
+    ],
+    "features": [
+      { "label": "Jacob, Jacob", "note": "God calls 'Jacob, Jacob' (v2), the double call used for Abraham (22:11) and later Moses and Samuel, at key turning points." },
+      { "label": "Last divine speech in Genesis", "note": "This is God's final direct speech in Genesis; from here on he works through providence." },
+      { "label": "Judah sent ahead", "note": "Judah leads the way to Goshen (v28), confirming his role as leader among the brothers." },
+      { "label": "Joseph's hand on your eyes", "note": "God promises Joseph will close Jacob's eyes at death (v4), a tender assurance that Jacob will die with his beloved son." }
+    ],
+    "summary": "Genesis 46 records Jacob's move to Egypt under God's explicit promise: a great nation, his presence, and a return. The seventy names mark the beginning of the nation of Israel. Joseph and Jacob's tearful reunion fulfills Jacob's longing, and the family settles separately in Goshen, preserved by God's providence.",
+    "metaArc": {
+      "book": "This chapter transfers the covenant family from Canaan to Egypt, setting up the Exodus. It is God's last direct speech in Genesis.",
+      "redemptive": "Promise. God's pledge to go down with his people and bring them up anticipates the Exodus and, ultimately, Christ's descent and ascent to bring his people home."
+    }
+  }
+}

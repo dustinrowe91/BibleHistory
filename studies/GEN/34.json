@@ -1,0 +1,175 @@
+{
+  "ref": "GEN.34",
+  "book": "Genesis",
+  "chapter": 34,
+  "title": "Dinah and the Violence at Shechem",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Shechem, a local prince, violates Jacob's daughter Dinah and then seeks to marry her. Jacob stays silent, but Dinah's brothers answer deceitfully, demanding circumcision of every male, and then Simeon and Levi slaughter the city while the others plunder it. The chapter exposes sin outside and inside the covenant family, and God is never mentioned.",
+  "keyVerses": ["2", "7", "13", "30-31"],
+  "steps": {
+    "language": [
+      {
+        "word": "עִנָּה",
+        "translit": "ʿinnah",
+        "strongs": "H6031",
+        "gloss": "to humble, humiliate, violate",
+        "verses": "2",
+        "note": "Used in sexual contexts for forcing a woman (2 Samuel 13:12-14). The verb sequence in verse 2, saw, took, lay with, humiliated, makes clear that Dinah was violated, not courted."
+      },
+      {
+        "word": "נְבָלָה",
+        "translit": "nevalah",
+        "strongs": "H5039",
+        "gloss": "outrage, disgraceful folly",
+        "verses": "7",
+        "note": "A strong word for a shocking moral crime that breaks the community's fabric, used of sexual violence (Judges 19:23-24; 2 Samuel 13:12). 'Such a thing ought not to be done.'"
+      },
+      {
+        "word": "טָמֵא",
+        "translit": "ṭameʾ",
+        "strongs": "H2930",
+        "gloss": "to defile, make unclean",
+        "verses": "5, 13, 27",
+        "note": "Repeated three times. The brothers frame the crime as defilement. Yet their own response defiles them through deceit and mass violence."
+      },
+      {
+        "word": "מִרְמָה",
+        "translit": "mirmah",
+        "strongs": "H4820",
+        "gloss": "deceit",
+        "verses": "13",
+        "note": "The sons answered 'deceitfully,' the same word used of Jacob's theft of the blessing (27:35). The father's sin reappears in his sons, now with deadly results."
+      },
+      {
+        "word": "עָכַר",
+        "translit": "ʿakar",
+        "strongs": "H5916",
+        "gloss": "to trouble, bring disaster on",
+        "verses": "30",
+        "note": "Jacob says his sons have 'brought trouble' on him, making him stink to the inhabitants. The word later names the Valley of Achor, where Achan brought trouble on Israel (Joshua 7:25-26)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Simeon and Levi's anger",
+        "refs": ["Genesis 49:5-7", "Exodus 32:26-29", "Numbers 25:7-13"],
+        "note": "Jacob's final words curse the fierce anger of Simeon and Levi and scatter them in Israel. Levi's zeal is later redirected into faithful service to God."
+      },
+      {
+        "theme": "Sexual violence in Scripture",
+        "refs": ["Deuteronomy 22:25-29", "2 Samuel 13:1-22", "Judges 19:22-30"],
+        "note": "Scripture names sexual violence as an outrage and condemns it. The law protects victims, and stories like Tamar's show the devastation and the failure of fathers to act."
+      },
+      {
+        "theme": "Intermarriage and covenant identity",
+        "refs": ["Genesis 24:3", "Genesis 28:1", "Deuteronomy 7:3-4"],
+        "note": "Hamor proposes merging the two peoples, which would dissolve the covenant family's distinctiveness."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). Jacob has settled near Shechem (33:18-20) instead of returning to Bethel as he vowed. Dinah, Leah's daughter, is perhaps in her teens. The chapter shows the dangers of settling among the Canaanites and the moral state of Jacob's sons.",
+      "flow": [
+        { "verses": "1-4", "label": "Dinah violated", "note": "Dinah goes out to see the women of the land. Shechem sees her, seizes and violates her, then is attached to her and asks his father to get her as his wife." },
+        { "verses": "5-12", "label": "Hamor's proposal", "note": "Jacob hears and keeps silent until his sons return. They are grieved and furious. Hamor proposes intermarriage and shared land; Shechem offers any bride price." },
+        { "verses": "13-24", "label": "The deceitful answer", "note": "The brothers answer deceitfully: every male must be circumcised. Hamor and Shechem persuade the city, appealing to the wealth they will gain." },
+        { "verses": "25-29", "label": "Massacre and plunder", "note": "On the third day, while the men are in pain, Simeon and Levi kill all the males and take Dinah. The other sons plunder the city, taking flocks, wealth, women and children." },
+        { "verses": "30-31", "label": "Jacob and his sons", "note": "Jacob complains they have made him odious and endangered the family. The brothers reply, 'Should he treat our sister like a prostitute?'" }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 49:5-7", "from": "25-30", "note": "Jacob condemns Simeon and Levi: weapons of violence are their swords; cursed be their anger." }
+      ],
+      "tier2": [
+        { "ref": "2 Samuel 13:12-22", "from": "2, 7", "note": "Tamar's violation is also called an outrage, and her father David, like Jacob, is angry but does nothing." },
+        { "ref": "Deuteronomy 22:28-29", "from": "2-12", "note": "The law addresses a man who violates an unbetrothed woman, requiring payment and marriage without the right of divorce, which placed obligations on the offender." },
+        { "ref": "Romans 12:19", "from": "25-26", "note": "Never avenge yourselves; leave it to the wrath of God." },
+        { "ref": "Exodus 32:26-29", "from": "25", "note": "The Levites' violent zeal is turned to God's service against idolatry." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 35:1-5", "from": "30", "note": "God protects Jacob with a terror on the surrounding cities after this crisis." },
+        { "ref": "Proverbs 6:16-19", "from": "13", "note": "God hates a lying tongue and hands that shed innocent blood." },
+        { "ref": "Psalm 10:17-18", "from": "2", "note": "The LORD hears the afflicted and does justice for the oppressed." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham notes that the narrator lets the characters' actions speak and assigns guilt widely: Shechem's crime is an outrage, Jacob's passivity is a failure, and the brothers' deceit and massacre far exceed justice. Jacob's deathbed words in 49:5-7 give the final verdict on Simeon and Levi."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner points out that Dinah's voice is never heard and that Jacob's concern is mainly for his own safety. The chapter is a sober portrait of the covenant family behaving no better than the Canaanites."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke observes that God is not mentioned in the chapter, highlighting human action apart from seeking God. He sees the danger of Jacob's delay in returning to Bethel and the abuse of the covenant sign of circumcision as a weapon."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And when Shechem the son of Hamor the Hivite, prince of the country, saw her, he took her, and lay with her, and defiled her.",
+        "renderings": [
+          { "version": "ESV", "text": "he seized her and lay with her and humiliated her" },
+          { "version": "NIV", "text": "he took her and raped her" },
+          { "version": "CSB", "text": "he took her and raped her" }
+        ],
+        "note": "The verbs together indicate force. NIV and CSB state the meaning plainly; ESV and KJV keep the Hebrew sequence. All make clear Dinah was wronged."
+      },
+      {
+        "verse": "7",
+        "kjv": "And the sons of Jacob came out of the field when they heard it: and the men were grieved, and they were very wroth, because he had wrought folly in Israel in lying with Jacob's daughter; which thing ought not to be done.",
+        "renderings": [
+          { "version": "ESV", "text": "he had done an outrageous thing in Israel" },
+          { "version": "NIV", "text": "he had done an outrageous thing in Israel" },
+          { "version": "CSB", "text": "he had committed an outrage in Israel" }
+        ],
+        "note": "'Folly' in the KJV means moral outrage, not mere foolishness. The phrase 'in Israel' is striking, as if the family were already the nation."
+      }
+    ],
+    "gospel": "This chapter shows what humans do when left to themselves: violation, passivity, deceit and vengeance, even within the covenant family. It offers no hero. The brothers rightly see the wrong done to Dinah but answer evil with greater evil, abusing even the sign of God's covenant. The gospel answers both the victim and the violent. God sees the afflicted and promises true justice, and in Christ he bears the wrath sin deserves, so that vengeance belongs to God rather than to us. Remarkably, Levi's line is later redeemed into the priesthood, a sign that God's grace can transform even the most violent heritage.",
+    "application": [
+      "Name sexual violence as the outrage it is and stand with victims, giving them a voice.",
+      "Fathers and leaders must act to protect and seek justice for the vulnerable, not stay passive.",
+      "Refuse to answer evil with deceit and disproportionate vengeance; leave vengeance to God.",
+      "Never use sacred things, like God's covenant signs, as tools of manipulation.",
+      "Watch for the danger of delayed obedience; Jacob settled at Shechem instead of returning to Bethel."
+    ],
+    "misapplications": [
+      {
+        "claim": "Dinah was at fault for going out to see the women of the land.",
+        "correction": "The text places the guilt on Shechem, who seized and violated her (v2, 7). Blaming the victim distorts the narrative."
+      },
+      {
+        "claim": "The brothers' massacre was righteous justice because their sister was wronged.",
+        "correction": "Jacob rebukes them, and his final words curse their anger and violence (49:5-7). Killing a whole city by deceit went far beyond justice."
+      },
+      {
+        "claim": "Shechem's later love and offer to marry made things right.",
+        "correction": "The narrator calls the act an outrage and defilement. Later affection did not erase the wrong or Dinah's lack of choice."
+      }
+    ],
+    "contrasts": [
+      { "a": "Jacob's silence", "b": "The brothers' fury", "verses": "5, 7", "note": "Neither passive inaction nor violent revenge is the right response." },
+      { "a": "Circumcision as covenant sign", "b": "Circumcision as weapon", "verses": "15, 25", "note": "The sacred is twisted into a tool of deceit." },
+      { "a": "Defilement charged", "b": "Defilement committed", "verses": "13, 27", "note": "The avengers become guilty of great evil." }
+    ],
+    "features": [
+      { "label": "God absent from the text", "note": "God is not named once, a literary silence that underlines the human sin on display." },
+      { "label": "Dinah's silence", "note": "Dinah never speaks; others speak about her. The narrative's silence invites readers to feel her powerlessness." },
+      { "label": "Two motives in Shechem", "note": "Hamor's speech to his people stresses gaining Jacob's wealth (v23), showing mixed motives on that side too." },
+      { "label": "Unresolved ending", "note": "The chapter ends with the brothers' question unanswered, leaving the reader to wrestle with the moral tangle." }
+    ],
+    "summary": "Genesis 34 is a dark chapter that exposes sin both outside and within the covenant family. Dinah is violated, her father is passive, and her brothers respond with deceit and massacre. God is silent in the narrative, yet later Scripture judges the violence, and God's grace will even redeem Levi's line. The chapter warns against compromise, passivity and vengeance.",
+    "metaArc": {
+      "book": "This chapter shows the danger of Jacob's settling near Shechem and prepares for God's call to return to Bethel and purify his household in chapter 35. It also explains why Simeon and Levi lose standing in 49:5-7.",
+      "redemptive": "Fall. The chosen family proves as sinful as the world around it, showing the need for a redeemer who brings true justice and transforms the heart."
+    }
+  }
+}

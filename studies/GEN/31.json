@@ -1,0 +1,164 @@
+{
+  "ref": "GEN.31",
+  "book": "Genesis",
+  "chapter": 31,
+  "title": "Return to the Land of Your Fathers",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God tells Jacob to return to Canaan and promises to be with him. Jacob leaves secretly with his family and flocks, and Rachel steals her father's household gods. Laban pursues, but God warns him in a dream not to harm Jacob. After a tense confrontation, they make a covenant at a heap of stones and part, with God as witness between them.",
+  "keyVerses": ["3", "13", "42", "49"],
+  "steps": {
+    "language": [
+      {
+        "word": "תְּרָפִים",
+        "translit": "terafim",
+        "strongs": "H8655",
+        "gloss": "household gods, idols",
+        "verses": "19, 34, 35",
+        "note": "Small figurines used in family religion and possibly connected to inheritance or divination. Rachel steals them and hides them by sitting on them, a scene that mocks idols as helpless objects that cannot protect themselves."
+      },
+      {
+        "word": "פַּחַד יִצְחָק",
+        "translit": "Paḥad Yitsḥaq",
+        "gloss": "the Fear of Isaac",
+        "verses": "42, 53",
+        "note": "A unique title for God, meaning the one Isaac feared and revered, or possibly the one who caused fear to protect Isaac. Jacob swears by the God his father worshipped."
+      },
+      {
+        "word": "גַּלְעֵד",
+        "translit": "Galʿed",
+        "strongs": "H1567",
+        "gloss": "heap of witness",
+        "verses": "47-48",
+        "note": "Laban names the heap in Aramaic (Jegar-sahadutha) and Jacob in Hebrew (Galeed), both meaning heap of witness. It sounds like Gilead, the region where they stand."
+      },
+      {
+        "word": "מִצְפָּה",
+        "translit": "Mitspah",
+        "strongs": "H4709",
+        "gloss": "watchtower, lookout",
+        "verses": "49",
+        "note": "Laban calls on the LORD to watch between them when they are apart. Often used today as a blessing, it was originally a warning: God will see if either breaks the treaty."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God protects his people from harm",
+        "refs": ["Psalm 105:14-15", "Genesis 20:3", "Proverbs 16:7"],
+        "note": "As God warned Abimelech, he warns Laban in a dream, protecting the covenant family."
+      },
+      {
+        "theme": "The futility of idols",
+        "refs": ["Genesis 35:2-4", "Isaiah 46:1-2", "Psalm 115:4-8", "Judges 18:24"],
+        "note": "Rachel's stolen gods are hidden under a camel saddle; Jacob later buries all foreign gods. Idols cannot save themselves, let alone their owners."
+      },
+      {
+        "theme": "God sees affliction and labor",
+        "refs": ["Genesis 29:32", "Exodus 3:7", "Hebrews 6:10"],
+        "note": "Jacob says God saw his affliction and the labor of his hands. God does not forget the work and suffering of his people."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). After twenty years in Haran, Jacob leaves. The departure echoes the Exodus: a hard master, wealth taken out, flight, pursuit, and God's protection.",
+      "flow": [
+        { "verses": "1-16", "label": "God's command", "note": "Laban's sons resent Jacob and Laban's attitude changes. The LORD tells Jacob to return. Jacob explains to Rachel and Leah how God blessed him despite Laban's cheating; the wives agree to go." },
+        { "verses": "17-21", "label": "Secret departure", "note": "Jacob leaves with his family and livestock while Laban is shearing sheep. Rachel steals the household gods." },
+        { "verses": "22-35", "label": "Laban's pursuit", "note": "Laban overtakes them in Gilead, but God warns him in a dream. Laban accuses Jacob of stealing his gods; Jacob, unaware, vows death to the thief. Rachel hides them under her saddle." },
+        { "verses": "36-42", "label": "Jacob's complaint", "note": "Jacob angrily recounts twenty years of faithful service, changed wages and hardship, and says the God of his fathers saw it and rebuked Laban." },
+        { "verses": "43-55", "label": "Covenant at Galeed", "note": "They set up a pillar and heap of stones as a witness and boundary, swear by God, eat together, and Laban departs after kissing his daughters and grandchildren." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 28:15", "from": "3, 13", "note": "God fulfills his Bethel promise: 'I will bring you back to this land.'" },
+        { "ref": "Genesis 28:18-22", "from": "13", "note": "God identifies himself as the God of Bethel where Jacob anointed a pillar and made a vow." },
+        { "ref": "Hosea 12:12", "from": "38-41", "note": "Jacob served for a wife and guarded sheep." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 35:2-4", "from": "19, 32", "note": "Jacob tells his household to put away foreign gods and buries them at Shechem." },
+        { "ref": "Exodus 12:35-36", "from": "9, 16", "note": "Israel leaves Egypt with the wealth of their oppressors, as Jacob leaves with what God took from Laban." },
+        { "ref": "Psalm 115:4-8", "from": "34-35", "note": "Idols have eyes but cannot see; those who trust them become like them." },
+        { "ref": "Colossians 3:22-24", "from": "38-41", "note": "Serve masters faithfully as for the Lord, knowing the Lord rewards." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 46:1-2", "from": "34", "note": "Babylon's gods are loaded on beasts of burden, unable to save, as Rachel's gods sat in a camel saddle." },
+        { "ref": "Joshua 24:26-27", "from": "45-48", "note": "Joshua sets up a stone as a witness to a covenant." },
+        { "ref": "1 Samuel 19:13", "from": "19", "note": "Michal uses a household idol to deceive Saul's messengers." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke notes that Jacob, for the first time, credits his prosperity explicitly to God rather than to his own cleverness. Twenty years under Laban have begun to transform the deceiver into a man who sees God's hand."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham observes parallels between Jacob's flight and the later Exodus, including oppression, divine command, flight with wealth, pursuit and divine protection. The patriarch's story foreshadows the nation's."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner highlights the comedy of Rachel's hiding the gods, which shows how powerless they were. He also notes that Mizpah was a boundary treaty between two suspicious men, not a sentimental blessing."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "42",
+        "kjv": "Except the God of my father, the God of Abraham, and the fear of Isaac, had been with me, surely thou hadst sent me away now empty. God hath seen mine affliction and the labour of my hands, and rebuked thee yesternight.",
+        "renderings": [
+          { "version": "ESV", "text": "the Fear of Isaac" },
+          { "version": "NIV", "text": "the Fear of Isaac" },
+          { "version": "CSB", "text": "the Fear of Isaac" }
+        ],
+        "note": "Modern versions capitalize 'Fear' to show it is a title for God. Jacob credits God's presence for everything he has."
+      },
+      {
+        "verse": "49",
+        "kjv": "And Mizpah; for he said, The LORD watch between me and thee, when we are absent one from another.",
+        "renderings": [
+          { "version": "ESV", "text": "The LORD watch between you and me" },
+          { "version": "NIV", "text": "May the LORD keep watch between you and me" },
+          { "version": "CSB", "text": "May the LORD watch between you and me" }
+        ],
+        "note": "The context (v50-52) shows this is a call for God to watch as witness and judge against any breach of the treaty."
+      }
+    ],
+    "gospel": "God keeps his promise to bring Jacob home, protecting him from harm and turning his years of hardship into provision. Jacob's departure foreshadows the Exodus and ultimately the greater deliverance in Christ, who leads his people out of bondage. The comic helplessness of Laban's idols points to the only living God, who sees affliction and acts. Where Jacob and Laban could only build a wall of stones to keep peace between them, Christ breaks down the dividing wall and makes peace (Ephesians 2:14).",
+    "application": [
+      "Obey God's call to move on when he directs, trusting his presence.",
+      "Serve faithfully even under unfair treatment, knowing God sees our labor.",
+      "Put away the 'household gods' we cling to for security.",
+      "Seek peace with difficult relatives and set wise boundaries where necessary.",
+      "Credit God, not our own cleverness, for what we have."
+    ],
+    "misapplications": [
+      {
+        "claim": "Mizpah is a warm blessing of friendship for people who are apart.",
+        "correction": "In context it is a boundary treaty between two men who did not trust each other, calling God to watch and judge if either breaks it."
+      },
+      {
+        "claim": "Rachel's theft is approved because it was against unfair Laban.",
+        "correction": "The text presents the theft neutrally but later Jacob orders all foreign gods buried (35:2-4). Stealing idols showed attachment to them, not faith."
+      }
+    ],
+    "contrasts": [
+      { "a": "Laban's changing wages", "b": "God's faithful provision", "verses": "7-9", "note": "Laban cheated ten times, but God did not allow him to harm Jacob." },
+      { "a": "Stolen idols", "b": "The living God who speaks", "verses": "19, 24, 29", "note": "Laban's gods are hidden under a saddle; Jacob's God warns Laban in a dream." },
+      { "a": "Secret flight", "b": "Open covenant", "verses": "20, 44-54", "note": "The chapter moves from deception to a public agreement." }
+    ],
+    "features": [
+      { "label": "Exodus pattern", "note": "Oppression, a divine call to leave, flight with wealth, pursuit and God's intervention mirror Israel's later departure from Egypt." },
+      { "label": "Two languages", "note": "Laban names the heap in Aramaic and Jacob in Hebrew, marking the border between two peoples." },
+      { "label": "Stolen heart", "note": "Jacob 'stole Laban's heart' (v20, deceived him) while Rachel 'stole' the gods, a wordplay showing the family's tendency toward deceit." },
+      { "label": "Jacob's vow", "note": "Jacob unknowingly pronounces death on whoever has the gods, creating suspense; Rachel later dies on the road (35:16-19)." }
+    ],
+    "summary": "Genesis 31 shows God fulfilling his promise to bring Jacob home and protecting him from Laban. Jacob begins to recognize God's hand in his prosperity, while Laban's idols are exposed as powerless. The chapter ends with a treaty that separates the covenant family from Haran and sets Jacob on the road to face Esau.",
+    "metaArc": {
+      "book": "This chapter closes Jacob's twenty years in Haran and begins his return to Canaan, setting up his encounters with God at Peniel and with Esau in chapters 32-33.",
+      "redemptive": "Promise. God's faithfulness to bring Jacob back to the land foreshadows the Exodus and the greater redemption in Christ."
+    }
+  }
+}
