@@ -9,7 +9,7 @@
 //   studygen review JHN 3              Mark a study as reviewed (or --undo)
 //   studygen dryrun JHN 4              Write the request for one chapter to request-JHN-4.json without calling the API
 //
-// Options: --model <id> (default claude-sonnet-5-5), --force (regenerate chapters that already have a study).
+// Options: --model <id> (default claude-opus-5-5), --force (regenerate chapters that already have a study).
 // Needs ANTHROPIC_API_KEY in the environment for one, submit, status and collect.
 
 using System.Net.Http.Headers;
@@ -68,7 +68,7 @@ sealed class Options
 {
     public string Command = "";
     public List<string> Positional = [];
-    public string Model = "claude-sonnet-5-5";
+    public string Model = "claude-opus-5-5";
     public bool Force, All, Undo;
     public int? Limit;
     public HashSet<string> Books = [];

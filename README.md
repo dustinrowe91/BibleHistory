@@ -47,7 +47,7 @@ dotnet run -- collect                # write finished studies and rebuild the in
 dotnet run -- review ROM 8           # mark a study reviewed (--undo to revert)
 ```
 
-Chapters that already have a study are skipped unless you pass `--force`; `--model` picks the model (default `claude-sonnet-5-5`) and `--limit N` caps a batch. `dryrun ROM 8` saves the request without calling the API. The prompt is in `tools/StudyGenerator/prompt.md`, with John 3 included as the worked example. Run a few chapters with `one` and read them before submitting a large batch.
+Chapters that already have a study are skipped unless you pass `--force`; `--model` picks the model (default `claude-opus-5-5`) and `--limit N` caps a batch. `dryrun ROM 8` saves the request without calling the API. The prompt is in `tools/StudyGenerator/prompt.md`, with John 3 included as the worked example. Run a few chapters with `one` and read them before submitting a large batch.
 
 All are static pages: open `index.html` in a browser (the Study page needs a web server to load its data, for example `python3 -m http.server`), or turn on GitHub Pages for this repo (Settings → Pages → deploy from `main`).
 
