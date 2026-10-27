@@ -1,0 +1,180 @@
+{
+  "ref": "LUK.18",
+  "book": "Luke",
+  "chapter": 18,
+  "title": "God Be Merciful to Me a Sinner",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus urges persistent prayer through a widow who wears down an unjust judge, and shows through a Pharisee and a tax collector that the one who humbly asks for mercy goes home justified. He welcomes infants, tells a rich ruler to sell all and follow him, and again foretells his death and resurrection. Near Jericho a blind beggar cries out for mercy to the Son of David and receives his sight.",
+  "keyVerses": ["1", "13-14", "16-17", "27"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἐκκακέω",
+        "translit": "ekkakeō",
+        "strongs": "G1573",
+        "gloss": "to lose heart, grow weary, give up",
+        "verses": "1",
+        "note": "The KJV's 'faint' meant to give up. The parable's purpose is stated at the start: always pray and do not give up, even when God seems slow to act."
+      },
+      {
+        "word": "ἐκδικέω",
+        "translit": "ekdikeō",
+        "strongs": "G1556",
+        "gloss": "to give justice, vindicate",
+        "verses": "3, 5, 7-8",
+        "note": "The widow asks to be given justice against her adversary. If an unjust judge will finally do it, how much more will God give justice to his elect who cry to him day and night."
+      },
+      {
+        "word": "ἱλάσκομαι",
+        "translit": "hilaskomai",
+        "strongs": "G2433",
+        "gloss": "to be propitiated, be merciful",
+        "verses": "13",
+        "note": "Not the usual word for mercy (eleeō), but a sacrificial word, related to the 'mercy seat' where atoning blood was sprinkled (Hebrews 9:5) and to Christ as 'propitiation' (Hebrews 2:17). The tax collector, perhaps at the hour of sacrifice, asks God to be reconciled to him through atonement."
+      },
+      {
+        "word": "δικαιόω",
+        "translit": "dikaioō",
+        "strongs": "G1344",
+        "gloss": "to justify, declare righteous",
+        "verses": "14",
+        "note": "The tax collector went home 'justified,' declared right with God, rather than the Pharisee. Paul uses the same verb for justification by faith (Romans 3:24-28). Here it is received by humble trust in God's mercy, not by a record of good works."
+      },
+      {
+        "word": "ἐλεέω",
+        "translit": "eleeō",
+        "strongs": "G1653",
+        "gloss": "to have mercy",
+        "verses": "38-39",
+        "note": "The blind man cries 'Jesus, thou son of David, have mercy on me,' and when told to be quiet, cries all the louder. Like the tax collector, he has nothing to offer but his need."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God defends the widow",
+        "refs": ["Exodus 22:22-24", "Deuteronomy 10:18", "Psalm 68:5"],
+        "note": "God is the 'judge of the widows' and executes justice for them."
+      },
+      {
+        "theme": "The humble exalted",
+        "refs": ["Psalm 51:17", "Proverbs 3:34", "Isaiah 57:15; 66:2", "James 4:6"],
+        "note": "God dwells with the contrite and humble; a broken heart he will not despise."
+      },
+      {
+        "theme": "Entering like a child",
+        "refs": ["Psalm 131:2", "Matthew 18:3-4", "Mark 10:13-16"],
+        "note": "The kingdom is received as a gift, with the dependence of an infant."
+      },
+      {
+        "theme": "Son of David who opens blind eyes",
+        "refs": ["Isaiah 35:5", "Isaiah 61:1", "Psalm 146:8"],
+        "note": "The Messiah would open the eyes of the blind, a sign Jesus pointed to in 7:22."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 18 nears the end of the travel narrative; Luke's unique material ends at verse 14, and from verse 15 he rejoins the order of Mark. The two parables on prayer (v1-14) follow directly from the warning about the Son of Man's coming (17:22-37). The chapter's characters, a widow, a tax collector, infants and a blind beggar, are all people of low status, contrasted with a self-righteous Pharisee and a wealthy ruler. Jericho, the setting of the last scene, was about fifteen miles from Jerusalem.",
+      "flow": [
+        { "verses": "1-8", "label": "The widow and the unjust judge", "note": "A widow's persistence moves an unjust judge; how much more will God give justice to his elect; but will the Son of Man find faith on earth?" },
+        { "verses": "9-14", "label": "The Pharisee and the tax collector", "note": "A Pharisee thanks God he is not like other men; a tax collector beats his breast and asks for mercy; the tax collector goes home justified." },
+        { "verses": "15-17", "label": "Receiving the kingdom like a child", "note": "Jesus welcomes infants: whoever does not receive the kingdom like a little child will not enter it." },
+        { "verses": "18-30", "label": "The rich ruler", "note": "A ruler who kept the commandments is told to sell all, give to the poor and follow Jesus; he leaves sad; it is hard for the rich to enter the kingdom, but what is impossible with men is possible with God." },
+        { "verses": "31-34", "label": "The third passion prediction", "note": "Jesus says everything the prophets wrote about the Son of Man will be fulfilled in Jerusalem: mockery, scourging, death and resurrection; the disciples understand none of it." },
+        { "verses": "35-43", "label": "The blind beggar", "note": "Near Jericho a blind man cries out to the Son of David; Jesus restores his sight, and he follows, glorifying God." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 20:12-16", "from": "20", "note": "Jesus cites the commandments on adultery, murder, theft, false witness and honoring parents." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 51:1, 17", "from": "13", "note": "'Have mercy upon me, O God... a broken and a contrite heart, O God, thou wilt not despise.'" },
+        { "ref": "Romans 3:23-28; 4:4-5", "from": "14", "note": "Justified freely by grace through faith, apart from works, God justifying the ungodly." },
+        { "ref": "Isaiah 53:3-7", "from": "31-33", "note": "The Servant despised, wounded and led to slaughter, the prophets' words Jesus says will be fulfilled." },
+        { "ref": "Mark 10:13-52", "from": "15-43", "note": "Mark's parallel accounts of the children, the rich man, the passion prediction and the blind man." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 18:14", "from": "27", "note": "'Is any thing too hard for the LORD?'" },
+        { "ref": "Exodus 22:22-23", "from": "3-7", "note": "God hears the cry of the widow and fatherless." },
+        { "ref": "Philippians 3:4-9", "from": "11-12", "note": "Paul counted his religious credentials as loss in order to gain Christ and a righteousness from God by faith." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Leon Morris",
+        "work": "Luke (Tyndale New Testament Commentaries)",
+        "view": "Morris notes that the tax collector's prayer uses a word connected with propitiation, asking God to be merciful on the basis of atonement. He sees the parable as one of the clearest pictures in the Gospels of justification as God's gift to those who trust his mercy rather than their own righteousness."
+      },
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Through Peasant Eyes",
+        "view": "Bailey connected the parable with the temple's twice-daily atonement sacrifice. The tax collector, standing far off as the lamb was offered and incense rose, longs that the atonement being made might apply to him, using the very word for it."
+      },
+      {
+        "name": "Martin Luther",
+        "work": "Sermon on the Gospel for the Eleventh Sunday after Trinity",
+        "view": "Luther preached this parable as a picture of the gospel against works-righteousness: the Pharisee's good deeds could not justify him because he trusted them, while the tax collector, confessing that he had nothing, received righteousness as a gift by faith."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner.",
+        "renderings": [
+          { "version": "ESV", "text": "God, be merciful to me, a sinner!" },
+          { "version": "NIV", "text": "God, have mercy on me, a sinner." }
+        ],
+        "note": "The Greek reads 'the sinner,' as if he sees himself as the sinner, in contrast to the Pharisee who compared himself favorably with 'other men' (v11). The verb hilasthēti asks God to be propitiated, reconciled through atonement."
+      },
+      {
+        "verse": "1",
+        "kjv": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint;",
+        "renderings": [
+          { "version": "ESV", "text": "they ought always to pray and not lose heart" },
+          { "version": "NIV", "text": "they should always pray and not give up" }
+        ],
+        "note": "'Faint' meant to lose heart or give up. Luke states the parable's point before it begins, which is unusual."
+      }
+    ],
+    "gospel": "The heart of the gospel is in verses 13-14: a man with no righteousness of his own asks God to be propitiated toward him, to show mercy on the basis of atonement, and goes home justified. The Pharisee, trusting his own righteousness, does not. The kingdom is received like a child receives (v17). Salvation is impossible for human effort, even for a law-keeping ruler, 'but the things which are impossible with men are possible with God' (v27), because the Son of Man will go to Jerusalem to be killed and rise on the third day (v31-33). The atonement the tax collector longed for, Jesus will accomplish.",
+    "application": [
+      "Keep praying when answers are slow. God is not an unjust judge but a Father who will vindicate his people.",
+      "Come to God with empty hands, asking for mercy, not listing your achievements.",
+      "Beware of comparing yourself favorably with others.",
+      "Receive God's kingdom with the dependence of a little child.",
+      "Let go of whatever wealth or security keeps you from following Jesus fully."
+    ],
+    "misapplications": [
+      {
+        "claim": "The widow parable teaches that God must be pestered into answering prayer.",
+        "correction": "It is a 'how much more' parable: if even an unjust judge relents, how much more will the just God answer his chosen ones (v6-8). The point is to keep trusting, not to wear God down."
+      },
+      {
+        "claim": "Jesus requires every Christian to sell all their possessions.",
+        "correction": "Jesus addressed the specific idol that held this ruler (v22). Zacchaeus gave half (19:8) and is declared saved. Every disciple must be willing to give up whatever stands between them and Christ."
+      },
+      {
+        "claim": "The tax collector was justified because he was more humble, so humility earns salvation.",
+        "correction": "Humility is not a work that earns justification; it is the posture of someone who trusts God's mercy rather than his own merit. God justifies, as a gift (v14; Romans 3:24)."
+      }
+    ],
+    "contrasts": [
+      { "a": "An unjust judge", "b": "A just God", "verses": "6-7", "note": "If the worst judge gives justice, how much more will God." },
+      { "a": "The Pharisee's self-praise", "b": "The tax collector's plea", "verses": "11-13", "note": "One trusts himself; the other trusts God's mercy." },
+      { "a": "A rich ruler who goes away sad", "b": "A blind beggar who follows rejoicing", "verses": "23, 43", "note": "The one who had everything leaves; the one who had nothing follows." },
+      { "a": "Impossible with men", "b": "Possible with God", "verses": "27", "note": "Salvation is God's work." }
+    ],
+    "features": [
+      { "label": "Purpose stated first", "note": "Both parables have their meaning given before they are told (v1, 9), unusual in the Gospels." },
+      { "label": "Prayer in two parables", "note": "The first teaches persistence in prayer, the second the right posture in prayer." },
+      { "label": "Low-status heroes", "note": "A widow, a tax collector, infants and a blind beggar are commended; a Pharisee and a ruler are not." },
+      { "label": "Seeing and not seeing", "note": "The disciples cannot 'see' the meaning of Jesus' prediction (v34), while the blind man receives sight and follows (v43)." }
+    ],
+    "summary": "Luke 18 teaches persistent, humble prayer and shows that God justifies the sinner who asks for mercy, not the self-righteous. The kingdom is received as a gift, like a child receives, and wealth can keep even a moral person from following Jesus, though God can do the impossible. As Jesus again foretells his death and resurrection, a blind beggar's cry for mercy and his following of Jesus show what true faith looks like.",
+    "metaArc": {
+      "book": "Chapter 18 brings the journey to Jericho, the last stop before Jerusalem, and the third passion prediction prepares for the events of chapters 19-24.",
+      "redemptive": "The chapter shows the heart of Redemption: sinners justified by God's mercy through atonement, which Jesus is about to accomplish in Jerusalem."
+    }
+  }
+}

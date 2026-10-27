@@ -1,0 +1,183 @@
+{
+  "ref": "LUK.22",
+  "book": "Luke",
+  "chapter": 22,
+  "title": "This Cup Is the New Testament in My Blood",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "As Satan enters Judas and the leaders plot, Jesus eats the Passover with his apostles and gives them the bread and cup of the new covenant in his body and blood. He teaches that the greatest must serve, prays for Peter's faith before foretelling his denial, and prays in agony on the Mount of Olives, 'not my will, but thine, be done.' Arrested by night, he is denied three times by Peter and condemned by the council for claiming to be the Son of God.",
+  "keyVerses": ["19-20", "27", "31-32", "42"],
+  "steps": {
+    "language": [
+      {
+        "word": "πάσχα",
+        "translit": "pascha",
+        "strongs": "G3957",
+        "gloss": "Passover, the Passover lamb",
+        "verses": "1, 7-8, 11, 13, 15",
+        "note": "The feast celebrating Israel's deliverance from Egypt, when the blood of a lamb protected each household. Jesus 'earnestly desired' to eat this Passover before he suffered (v15), and he reinterprets it around his own death (1 Corinthians 5:7)."
+      },
+      {
+        "word": "διαθήκη",
+        "translit": "diathēkē",
+        "strongs": "G1242",
+        "gloss": "covenant, testament",
+        "verses": "20",
+        "note": "'This cup is the new covenant in my blood.' Moses sprinkled 'the blood of the covenant' at Sinai (Exodus 24:8), and Jeremiah promised a new covenant with forgiveness of sins (Jeremiah 31:31-34). Jesus' death establishes it."
+      },
+      {
+        "word": "διακονέω",
+        "translit": "diakoneō",
+        "strongs": "G1247",
+        "gloss": "to serve, wait on tables",
+        "verses": "26-27",
+        "note": "When the disciples argue about greatness at the very table where Jesus has given himself for them, he says, 'I am among you as he that serveth.' The word gives us 'deacon.' Greatness in his kingdom is measured by service."
+      },
+      {
+        "word": "σινιάζω",
+        "translit": "siniazō",
+        "strongs": "G4617",
+        "gloss": "to sift like grain",
+        "verses": "31",
+        "note": "Satan has asked to sift the disciples (the 'you' is plural) like wheat. Jesus has prayed for Peter (singular) that his faith will not fail, and that when he turns back he will strengthen his brothers."
+      },
+      {
+        "word": "ἀγωνία",
+        "translit": "agōnia",
+        "strongs": "G74",
+        "gloss": "agony, anguish, struggle",
+        "verses": "44",
+        "note": "Used only here in the New Testament. It describes intense struggle, like an athlete's before a contest. Jesus' anguish over 'this cup' (v42), the cup of God's wrath in the prophets, shows the weight of what he was about to bear."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Passover lamb",
+        "refs": ["Exodus 12:1-14", "1 Corinthians 5:7", "1 Peter 1:18-19", "John 1:29"],
+        "note": "The lamb's blood marked those whom judgment passed over. Christ is our Passover, sacrificed for us."
+      },
+      {
+        "theme": "The new covenant",
+        "refs": ["Exodus 24:8", "Jeremiah 31:31-34", "Hebrews 8:6-13; 9:15"],
+        "note": "God promised a new covenant written on hearts, with sins remembered no more. Hebrews says Christ is its mediator."
+      },
+      {
+        "theme": "The cup of wrath",
+        "refs": ["Psalm 75:8", "Isaiah 51:17, 22", "Jeremiah 25:15"],
+        "note": "The prophets used a cup for God's judgment that the wicked must drink. Jesus shrinks from drinking it, yet accepts it for others."
+      },
+      {
+        "theme": "Numbered with the transgressors",
+        "refs": ["Isaiah 53:12", "Mark 15:27-28", "Luke 23:32-33"],
+        "note": "Jesus quotes Isaiah 53 of himself (v37): the Servant would be counted among criminals."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 22 begins Luke's passion narrative during the Feast of Unleavened Bread and Passover. Luke's account of the Last Supper includes a first cup before the bread (v17) and a cup after supper (v20), reflecting the several cups of a Passover meal. A few early manuscripts lack verses 19b-20, but nearly all others include them, and most scholars accept them. Verses 43-44, the angel and the sweat like blood, are absent from several early and important manuscripts, and scholars are divided on whether Luke wrote them. Only Luke places the dispute about greatness and Jesus' teaching on service at the supper itself.",
+      "flow": [
+        { "verses": "1-6", "label": "The plot and Judas", "note": "The leaders seek a way to kill Jesus; Satan enters Judas, who agrees to betray him for money." },
+        { "verses": "7-23", "label": "The Last Supper", "note": "Jesus eats the Passover with the apostles, gives the bread as his body given for them and the cup as the new covenant in his blood, and announces that his betrayer is at the table." },
+        { "verses": "24-30", "label": "Greatness as service", "note": "The disciples argue who is greatest; Jesus says the greatest must be like the youngest and the leader like one who serves, and he appoints them a kingdom." },
+        { "verses": "31-38", "label": "Peter warned and the two swords", "note": "Jesus prays for Peter's faith but foretells his threefold denial; he tells them to take purse and sword, for he will be numbered with transgressors; 'It is enough.'" },
+        { "verses": "39-46", "label": "Prayer on the Mount of Olives", "note": "Jesus prays 'not my will, but thine, be done,' in agony, while the disciples sleep for sorrow; 'pray, lest ye enter into temptation.'" },
+        { "verses": "47-53", "label": "The arrest", "note": "Judas betrays him with a kiss; a disciple cuts off a servant's ear and Jesus heals it; 'this is your hour, and the power of darkness.'" },
+        { "verses": "54-62", "label": "Peter's denial", "note": "In the high priest's courtyard Peter denies Jesus three times; the rooster crows, the Lord turns and looks at Peter, and Peter weeps bitterly." },
+        { "verses": "63-71", "label": "Mocked and condemned", "note": "Jesus is blindfolded and beaten, then before the council says the Son of Man will sit at God's right hand; asked if he is the Son of God, he replies 'Ye say that I am,' and they condemn him." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 53:12", "from": "37", "note": "'He was numbered with the transgressors.' Jesus says this Scripture must be fulfilled in him." },
+        { "ref": "Psalm 110:1; Daniel 7:13", "from": "69", "note": "'The Son of man... sit on the right hand of the power of God,' combining the two texts at his trial." }
+      ],
+      "tier2": [
+        { "ref": "Jeremiah 31:31-34", "from": "20", "note": "The promised new covenant, with forgiveness of sins." },
+        { "ref": "Exodus 24:8", "from": "20", "note": "'Behold the blood of the covenant,' Moses said at Sinai." },
+        { "ref": "1 Corinthians 11:23-26", "from": "19-20", "note": "Paul's account of the Lord's Supper, which closely matches Luke's wording, including 'in remembrance of me.'" },
+        { "ref": "John 13:1-17", "from": "24-27", "note": "Jesus washes the disciples' feet at the supper as an example of service." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 41:9", "from": "21", "note": "'Mine own familiar friend... which did eat of my bread, hath lifted up his heel against me.'" },
+        { "ref": "Zechariah 13:7", "from": "31", "note": "'Smite the shepherd, and the sheep shall be scattered.'" },
+        { "ref": "John 21:15-19", "from": "32, 61-62", "note": "After the resurrection, Jesus restores Peter three times and commissions him to feed his sheep." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Joachim Jeremias",
+        "work": "The Eucharistic Words of Jesus",
+        "view": "Jeremias argued that the Last Supper was a Passover meal and that Jesus interpreted its elements in light of his coming death. He saw the words over the bread and cup as presenting Jesus' death as the sacrifice that inaugurates the new covenant, in the line of Isaiah 53's Servant who dies 'for many.'"
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock reads the 'two swords' passage (v35-38) not as a call to armed resistance but as a vivid way of saying that the time of hostility has come. When the disciples take him literally and produce swords, Jesus ends the conversation with 'It is enough,' and later rebukes the use of a sword (v51)."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Harmony of the Evangelists",
+        "view": "Calvin argued that Jesus' agony in the garden shows the reality of his human nature and the horror of bearing God's judgment against sin. Christ did not fear mere physical death; he shrank from the curse he was to bear for us, yet submitted his will to the Father's."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "44",
+        "kjv": "And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.",
+        "renderings": [
+          { "version": "ESV", "text": "his sweat became like great drops of blood" },
+          { "version": "NIV", "text": "his sweat was like drops of blood" }
+        ],
+        "note": "Luke says the sweat was 'like' drops of blood, comparing its heaviness, though some think it describes a rare condition in which blood mixes with sweat. Verses 43-44 are missing from several early manuscripts; ESV and NIV include them with a note."
+      },
+      {
+        "verse": "32",
+        "kjv": "But I have prayed for thee, that thy faith fail not: and when thou art converted, strengthen thy brethren.",
+        "renderings": [
+          { "version": "ESV", "text": "when you have turned again, strengthen your brothers" },
+          { "version": "NIV", "text": "when you have turned back, strengthen your brothers" }
+        ],
+        "note": "'Converted' (epistrepsas) means turned back, not converted from unbelief. Jesus foresees Peter's fall and his restoration, and gives him a ministry before he fails."
+      }
+    ],
+    "gospel": "At the Passover table Jesus explains his death before it happens: 'This is my body which is given for you... This cup is the new testament in my blood, which is shed for you' (v19-20). He is the true Passover lamb, and his blood establishes the new covenant with full forgiveness. He came 'as he that serveth' (v27). He prays for Peter before Peter falls (v32), and in Gethsemane he chooses the Father's will and the cup of wrath for our sake (v42). Even while being arrested he heals the ear of one of his captors (v51). When Peter denies him, 'the Lord turned, and looked upon Peter' (v61), a look that leads to tears and later restoration.",
+    "application": [
+      "Remember Christ's death at the Lord's Supper, receiving it as his body and blood given 'for you.'",
+      "Measure greatness by service, especially in the church.",
+      "Take comfort that Jesus prays for you before you fail, and that failure need not be final.",
+      "Pray when you are tempted, and submit your will to the Father's even when it is costly.",
+      "Be honest about your weakness. Peter's confidence ('I am ready to go with thee') came before his fall."
+    ],
+    "misapplications": [
+      {
+        "claim": "The 'two swords' passage authorizes Christians to use force to defend the faith.",
+        "correction": "When a disciple uses a sword, Jesus says 'Suffer ye thus far' and heals the wounded man (v50-51). The saying about swords prepares the disciples for a hostile world and fulfills Isaiah 53:12, not a call to armed struggle."
+      },
+      {
+        "claim": "Jesus' prayer 'remove this cup' shows he lacked faith or was unwilling to die.",
+        "correction": "He prays honestly in full humanity and then submits: 'nevertheless not my will, but thine, be done' (v42). His obedience is greater because the cost was real."
+      },
+      {
+        "claim": "Peter's denial disqualified him forever.",
+        "correction": "Jesus had already prayed for him and given him a task for after his return (v32). Peter becomes the leading witness in Acts."
+      }
+    ],
+    "contrasts": [
+      { "a": "Judas' betrayal", "b": "Jesus' self-giving", "verses": "4-6, 19-20", "note": "Jesus is handed over by a friend and gives himself for his friends." },
+      { "a": "Kings of the Gentiles lord it over others", "b": "'I am among you as he that serveth'", "verses": "25-27", "note": "Two kinds of leadership." },
+      { "a": "'I am ready to go with thee'", "b": "'I know him not'", "verses": "33, 57", "note": "Peter's boast and his fall." },
+      { "a": "'Not my will'", "b": "'But thine'", "verses": "42", "note": "Jesus' submission reverses Adam's choice of his own will over God's." }
+    ],
+    "features": [
+      { "label": "Two cups", "note": "Luke mentions a cup before the bread (v17) and another after supper (v20), reflecting the structure of a Passover meal." },
+      { "label": "The Lord's look", "note": "Only Luke records that 'the Lord turned, and looked upon Peter' (v61) after the rooster crowed." },
+      { "label": "Healing at the arrest", "note": "Only Luke says Jesus healed the servant's ear (v51), mercy to an enemy at the moment of his arrest." },
+      { "label": "Darkness and light", "note": "'This is your hour, and the power of darkness' (v53). The arrest happens at night, and the passion is framed as a struggle with Satan (v3, 31)." }
+    ],
+    "summary": "Luke 22 begins the passion narrative. At the Passover Jesus gives his disciples the bread and cup as signs of his body and blood given for them in the new covenant, and calls them to a kingdom of service. In Gethsemane he submits to the Father's will in agony, and as he is betrayed, arrested and denied, he shows mercy and faithfulness, finally confessing before the council that he is the Son of God who will sit at God's right hand.",
+    "metaArc": {
+      "book": "Chapter 22 opens the passion and resurrection narrative (22-24), the climax toward which Luke's Gospel has moved since Jesus set his face to Jerusalem (9:51).",
+      "redemptive": "The chapter shows Redemption about to be accomplished: the new Passover and new covenant in Christ's blood, and the Son's obedient acceptance of the cup of judgment for his people."
+    }
+  }
+}

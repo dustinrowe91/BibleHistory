@@ -1,0 +1,159 @@
+{
+  "ref": "LUK.7",
+  "book": "Luke",
+  "chapter": 7,
+  "title": "Her Sins, Which Are Many, Are Forgiven",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "A Gentile centurion's faith amazes Jesus, and Jesus' compassion raises a widow's only son at Nain. When the imprisoned John asks whether Jesus is the one to come, Jesus points to the signs Isaiah promised. At a Pharisee's dinner a sinful woman weeps at his feet, and Jesus teaches that the one forgiven much loves much.",
+  "keyVerses": ["9", "13-15", "22", "47-50"],
+  "steps": {
+    "language": [
+      {
+        "word": "πίστις",
+        "translit": "pistis",
+        "strongs": "G4102",
+        "gloss": "faith, trust",
+        "verses": "9, 50",
+        "note": "The chapter opens and closes with faith: a Roman officer whose faith Jesus has not found even in Israel, and a sinful woman told, 'Thy faith hath saved thee.' Faith in Luke is trusting Jesus' word and person, and it is found in unexpected people."
+      },
+      {
+        "word": "σπλαγχνίζομαι",
+        "translit": "splanchnizomai",
+        "strongs": "G4697",
+        "gloss": "to be moved with compassion",
+        "verses": "13",
+        "note": "From splanchna, the inner organs, the seat of deep feeling. Jesus feels this for the widow before she asks anything. Luke uses the same verb for the Samaritan (10:33) and the father of the prodigal (15:20)."
+      },
+      {
+        "word": "σκανδαλίζω",
+        "translit": "skandalizō",
+        "strongs": "G4624",
+        "gloss": "to cause to stumble, take offense",
+        "verses": "23",
+        "note": "'Blessed is he, whosoever shall not be offended in me.' John may have expected a Messiah of fiery judgment (3:16-17); Jesus gently warns against stumbling over the kind of Messiah he is."
+      },
+      {
+        "word": "χαρίζομαι",
+        "translit": "charizomai",
+        "strongs": "G5483",
+        "gloss": "to forgive freely, cancel a debt as a favor",
+        "verses": "42-43",
+        "note": "From charis, grace. The creditor 'frankly forgave' both debtors, a gift neither could repay. Jesus uses the parable to show Simon why the woman's love is so great."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Raising a widow's son",
+        "refs": ["1 Kings 17:17-24", "2 Kings 4:18-37"],
+        "note": "Elijah raised the son of the widow of Zarephath and gave him to his mother. Luke uses the same words at Nain (v15), and the crowd cries, 'A great prophet is risen up among us.'"
+      },
+      {
+        "theme": "Signs of the messianic age",
+        "refs": ["Isaiah 35:5-6", "Isaiah 26:19", "Isaiah 61:1"],
+        "note": "Isaiah foretold the blind seeing, the lame walking, the deaf hearing, the dead rising and good news for the poor. Jesus answers John's question by pointing to these signs."
+      },
+      {
+        "theme": "The forerunner",
+        "refs": ["Malachi 3:1", "Luke 1:76", "Luke 3:4-6"],
+        "note": "Jesus confirms John as the messenger Malachi promised, the greatest of the prophets."
+      },
+      {
+        "theme": "Gentile faith",
+        "refs": ["Luke 4:25-27", "Acts 10:1-48", "Romans 15:9-12"],
+        "note": "The centurion anticipates Cornelius in Acts, another God-fearing Roman officer, and the gospel's reach to the nations."
+      }
+    ],
+    "context": {
+      "setting": "Following the Sermon on the Plain, chapter 7 shows Jesus' words put into action and raises the question of his identity: 'a great prophet,' 'he that should come,' 'a friend of publicans and sinners.' The centurion in Capernaum was a Gentile who had built the local synagogue. Nain was a village southeast of Nazareth. The anointing at Simon's house differs in setting and details from the anointing at Bethany before the passion (Mark 14:3-9; John 12:1-8), and most scholars see them as separate events.",
+      "flow": [
+        { "verses": "1-10", "label": "The centurion's faith", "note": "A centurion sends Jewish elders and then friends to ask Jesus to heal his servant, saying he is not worthy for Jesus to enter his house; Jesus marvels at his faith, and the servant is healed." },
+        { "verses": "11-17", "label": "The widow's son raised", "note": "At Nain Jesus has compassion on a widow burying her only son, touches the bier, and raises him; fear seizes all, and they say God has visited his people." },
+        { "verses": "18-23", "label": "John's question", "note": "John sends to ask, 'Art thou he that should come?' Jesus heals many and replies by pointing to the blind seeing, the dead raised and the poor hearing good news." },
+        { "verses": "24-35", "label": "Jesus on John", "note": "John is more than a prophet, yet the least in the kingdom is greater; this generation rejects both the ascetic John and the feasting Son of Man, but wisdom is justified by her children." },
+        { "verses": "36-50", "label": "The sinful woman", "note": "At Simon the Pharisee's house a woman of the city anoints Jesus' feet; Jesus tells of two debtors, says her many sins are forgiven, and sends her away in peace." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Malachi 3:1", "from": "27", "note": "'Behold, I send my messenger, and he shall prepare the way before me.' Jesus quotes it of John." },
+        { "ref": "1 Kings 17:23", "from": "15", "note": "'Elijah... delivered him unto his mother.' Luke repeats the phrase: 'he delivered him to his mother.'" },
+        { "ref": "Isaiah 35:5-6; 61:1", "from": "22", "note": "The blind see, the lame walk, the deaf hear, and the poor have good news preached to them." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 8:5-13", "from": "1-10", "note": "Matthew's account of the centurion, which also foresees many from east and west sitting down with Abraham in the kingdom." },
+        { "ref": "Matthew 11:2-19", "from": "18-35", "note": "The parallel account of John's question and Jesus' words about him." },
+        { "ref": "Acts 10:1-2, 22", "from": "4-5", "note": "Cornelius, a centurion who feared God and was well spoken of by the Jews, like the centurion of Capernaum." },
+        { "ref": "Psalm 32:1-5", "from": "47-48", "note": "Blessed is the one whose transgression is forgiven; David's joy after confession." }
+      ],
+      "tier3": [
+        { "ref": "2 Kings 4:32-37", "from": "11-15", "note": "Elisha raised the Shunammite's son, a few miles from Nain at Shunem." },
+        { "ref": "Proverbs 8:32-36; 9:1-6", "from": "35", "note": "Wisdom calls out, and those who listen to her are blessed." },
+        { "ref": "Romans 5:20", "from": "47", "note": "Where sin abounded, grace abounded much more." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "I. Howard Marshall",
+        "work": "The Gospel of Luke (New International Greek Testament Commentary)",
+        "view": "Marshall argued that the parable of the two debtors shows the woman's love is the result of her forgiveness, not its cause. The best reading of verse 47 is that her great love demonstrates that her many sins have been forgiven, and verse 50 grounds her salvation in her faith."
+      },
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Jesus Through Middle Eastern Eyes",
+        "view": "Bailey stresses the cultural shock of the scene: Simon omits the basic courtesies of water, a kiss and oil, a deliberate insult, while the woman lavishly supplies all three. Letting down her hair in public was scandalous, yet Jesus receives her devotion and exposes his host's lack of love."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "47",
+        "kjv": "Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+        "renderings": [
+          { "version": "ESV", "text": "her sins, which are many, are forgiven—for she loved much" },
+          { "version": "NIV", "text": "her many sins have been forgiven—as her great love has shown" }
+        ],
+        "note": "'For she loved much' could sound as if her love earned forgiveness. The parable (v41-43) and the second half of the verse show the opposite: love follows forgiveness. NIV brings this out; the perfect tense 'have been forgiven' points to forgiveness already received."
+      }
+    ],
+    "gospel": "In this chapter grace overturns expectations. A Gentile is commended for faith; a grieving widow receives back her son without even asking; John is assured that the Messiah's works of mercy are the signs of God's kingdom; and a notorious sinner is forgiven and sent away in peace. Jesus is 'a friend of publicans and sinners' (v34), the charge meant as an insult but true as good news. The parable of the two debtors is the gospel in miniature: neither could pay, and the creditor 'frankly forgave them both' (v42). Saving faith receives this free forgiveness, and love pours out in response.",
+    "application": [
+      "Come to Jesus with the centurion's humility: 'I am not worthy... but say in a word.'",
+      "Trust Jesus' compassion in grief. He sees and is moved before you ask.",
+      "When Jesus does not act as you expect, do not stumble over him. Look at what he is actually doing.",
+      "Measure your love for Christ by how much you know you have been forgiven.",
+      "Welcome those whom respectable people despise, as Jesus did."
+    ],
+    "misapplications": [
+      {
+        "claim": "The woman earned forgiveness through her acts of love.",
+        "correction": "The parable shows love as the response to forgiveness, and Jesus says, 'Thy faith hath saved thee' (v50). Her tears and ointment were gratitude, not payment."
+      },
+      {
+        "claim": "John's question shows he lost his faith entirely.",
+        "correction": "John sent his question to Jesus, which shows he still looked to him. Jesus answers with Scripture and calls John more than a prophet (v26-28)."
+      },
+      {
+        "claim": "Those who have sinned less are better off than those who have sinned much.",
+        "correction": "Simon's problem was not fewer sins but less awareness of his debt. Both debtors could not pay; the one who knows the size of the gift loves more."
+      }
+    ],
+    "contrasts": [
+      { "a": "'I am not worthy'", "b": "'He was worthy'", "verses": "4, 6", "note": "The elders praise the centurion's worthiness; he denies it. True faith is humble." },
+      { "a": "A funeral procession", "b": "A son restored", "verses": "12-15", "note": "Jesus stops death in its tracks." },
+      { "a": "John the ascetic", "b": "The Son of Man feasting", "verses": "33-34", "note": "The critics reject both, showing that the problem is their hearts." },
+      { "a": "Simon's cold welcome", "b": "The woman's lavish love", "verses": "44-46", "note": "Water, kiss and oil withheld by the host are given by the outcast." }
+    ],
+    "features": [
+      { "label": "Healing at a distance", "note": "Jesus never meets the centurion or his servant; he heals by word alone, showing the authority the centurion recognized (v8)." },
+      { "label": "'God hath visited his people'", "note": "The crowd at Nain echoes Zechariah's song (1:68), a sign that the promised visitation is happening." },
+      { "label": "The children's game", "note": "Jesus compares his generation to children who refuse to play either wedding or funeral games (v31-32), complaining no matter what." },
+      { "label": "A pointed parable", "note": "Jesus leads Simon to judge rightly about the debtors (v43) before turning the judgment on him, as Nathan did with David (2 Samuel 12:1-7)." }
+    ],
+    "summary": "Luke 7 shows Jesus' authority and compassion reaching across religious and social boundaries: he heals a Gentile's servant, raises a widow's son and forgives a notorious sinner. His works fulfill Isaiah's signs of the messianic age, answering John's question about his identity. The chapter teaches that faith receives Jesus' grace and that those who know they are forgiven much love him much.",
+    "metaArc": {
+      "book": "Chapter 7 continues the Galilean ministry and focuses on the question of who Jesus is, building toward Peter's confession in 9:20. It illustrates the Nazareth mission (4:18) and the mercy taught in the Sermon on the Plain.",
+      "redemptive": "The chapter shows Redemption breaking into a fallen world: death reversed, the outsider welcomed, and sinners freely forgiven as the kingdom arrives."
+    }
+  }
+}

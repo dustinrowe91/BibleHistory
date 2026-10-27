@@ -1,0 +1,165 @@
+{
+  "ref": "LUK.5",
+  "book": "Luke",
+  "chapter": 5,
+  "title": "I Came to Call Sinners",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "After a miraculous catch of fish, Peter falls at Jesus' feet confessing he is a sinful man, and Jesus calls him to catch people. Jesus touches and cleanses a leper, forgives and heals a paralyzed man, and calls the tax collector Levi, eating with sinners because he came to call them to repentance. The new thing he brings cannot be stitched onto old religious forms.",
+  "keyVerses": ["8, 10", "20, 24", "31-32", "36-38"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἐπιστάτης",
+        "translit": "epistatēs",
+        "strongs": "G1988",
+        "gloss": "master, commander",
+        "verses": "5",
+        "note": "A word only Luke uses in the New Testament, always from disciples or those seeking help. Peter calls Jesus 'Master' before the catch, then 'Lord' (kyrios) after it (v8). The miracle changes how he sees Jesus."
+      },
+      {
+        "word": "ζωγρέω",
+        "translit": "zōgreō",
+        "strongs": "G2221",
+        "gloss": "to catch alive",
+        "verses": "10",
+        "note": "Literally 'to take alive.' Fish are caught to die; Peter will now catch people for life. Paul uses the same word for those 'taken captive' by the devil (2 Timothy 2:26), so the mission is a rescue from one captor to another master."
+      },
+      {
+        "word": "ἀφίημι",
+        "translit": "aphiēmi",
+        "strongs": "G863",
+        "gloss": "to forgive, release, leave",
+        "verses": "11, 20-24, 28",
+        "note": "The disciples 'left' everything (v11) and Levi 'left all' (v28), the same verb Jesus uses when he says 'thy sins are forgiven thee' (v20). Those released from sin are free to release their grip on everything else."
+      },
+      {
+        "word": "ἐξουσία",
+        "translit": "exousia",
+        "strongs": "G1849",
+        "gloss": "authority, right, power",
+        "verses": "24",
+        "note": "The scribes are right that only God can forgive sins (v21). Jesus heals the paralyzed man so they may know that 'the Son of man hath power upon earth to forgive sins.' His visible healing authority proves an invisible, divine authority."
+      },
+      {
+        "word": "ἁμαρτωλός",
+        "translit": "hamartōlos",
+        "strongs": "G268",
+        "gloss": "sinner",
+        "verses": "8, 30, 32",
+        "note": "Peter calls himself a sinner (v8), the Pharisees use the word for tax collectors and outcasts (v30), and Jesus says he came to call sinners (v32). In Luke, the one who admits being a sinner is the one Jesus can call."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Overwhelmed by holiness",
+        "refs": ["Isaiah 6:5-8", "Judges 13:22", "Revelation 1:17"],
+        "note": "Encountering God's holiness exposes sin and leads to fear, but God responds with cleansing and a commission, as with Isaiah."
+      },
+      {
+        "theme": "Leprosy and uncleanness",
+        "refs": ["Leviticus 13:45-46", "Leviticus 14:1-32", "2 Kings 5:14"],
+        "note": "Lepers lived outside the camp, crying 'Unclean.' Touching one made a person unclean, but Jesus' touch makes the leper clean and he sends him to the priest as the law required."
+      },
+      {
+        "theme": "God alone forgives sins",
+        "refs": ["Exodus 34:6-7", "Psalm 103:3", "Isaiah 43:25", "Mark 2:7"],
+        "note": "Israel's Scriptures reserve forgiveness to God. When Jesus forgives directly, he claims divine prerogative."
+      },
+      {
+        "theme": "The bridegroom",
+        "refs": ["Isaiah 62:5", "Hosea 2:19-20", "John 3:29"],
+        "note": "God called himself Israel's husband. Jesus calls himself the bridegroom, a claim to God's own role."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 5 continues Jesus' Galilean ministry around the Sea of Galilee, which Luke calls the lake of Gennesaret. Luke's account of Peter's call is fuller than Mark's, and only Luke includes the miraculous catch at this point. The chapter's healings and conversations begin a series of conflicts with the Pharisees and scribes over forgiveness, table fellowship, fasting and, in chapter 6, the Sabbath. Each conflict reveals more of who Jesus claims to be.",
+      "flow": [
+        { "verses": "1-11", "label": "The great catch and Peter's call", "note": "After teaching from Simon's boat, Jesus tells him to let down the nets; the huge catch leads Peter to confess his sin, and Jesus says, 'from henceforth thou shalt catch men.' They leave everything and follow him." },
+        { "verses": "12-16", "label": "The leper cleansed", "note": "Jesus touches a man full of leprosy and says 'be thou clean,' then sends him to the priest; crowds grow, and Jesus withdraws to pray." },
+        { "verses": "17-26", "label": "The paralytic forgiven and healed", "note": "Friends lower a paralyzed man through the roof; Jesus forgives his sins, and when the scribes object, heals him to show the Son of Man's authority to forgive." },
+        { "verses": "27-32", "label": "Levi's call and feast", "note": "Levi the tax collector leaves everything to follow Jesus and holds a great feast; the Pharisees complain, and Jesus says he came to call sinners to repentance." },
+        { "verses": "33-39", "label": "New wine, new wineskins", "note": "Questioned about fasting, Jesus says the guests do not fast while the bridegroom is with them, and that the new cannot be patched onto the old." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Leviticus 14:2-32", "from": "14", "note": "The law for the cleansing of a leper, which Jesus tells the man to obey 'for a testimony unto them.'" }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 6:5-8", "from": "8-10", "note": "'Woe is me! for I am undone; because I am a man of unclean lips.' Isaiah's vision of God's holiness leads to confession, cleansing and commission, as with Peter." },
+        { "ref": "Mark 1:16-20, 40-45; 2:1-22", "from": "1-39", "note": "Mark's parallel accounts. Luke adds the miraculous catch and Peter's confession, and notes that Jesus withdrew to pray (v16)." },
+        { "ref": "John 21:1-14", "from": "4-7", "note": "After the resurrection, another miraculous catch at Jesus' word restores Peter to his calling." },
+        { "ref": "Jeremiah 16:16", "from": "10", "note": "'I will send for many fishers... and they shall fish them,' a prophecy of gathering people, though there for judgment." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 43:25", "from": "21", "note": "'I, even I, am he that blotteth out thy transgressions.' God alone forgives." },
+        { "ref": "Psalm 103:3", "from": "20-24", "note": "God 'forgiveth all thine iniquities; who healeth all thy diseases.' Jesus does both for the paralyzed man." },
+        { "ref": "Jeremiah 31:31-34", "from": "36-39", "note": "God promised a new covenant, not like the old. Jesus' new wine points to it (22:20)." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock argues that the healing of the paralytic is a key Christological moment: Jesus claims the divine authority to forgive sins and supports the claim with a visible miracle. He sees the chapter's controversies as showing that Jesus' authority, not the Pharisees' traditions, defines God's way."
+      },
+      {
+        "name": "Leon Morris",
+        "work": "Luke (Tyndale New Testament Commentaries)",
+        "view": "Morris highlights the progression in Peter's words from 'Master' to 'Lord' and his confession of sin as the right response to a revelation of Jesus' power. He notes that Jesus does not leave Peter in his fear but gives him a new calling."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "39",
+        "kjv": "No man also having drunk old wine straightway desireth new: for he saith, The old is better.",
+        "renderings": [
+          { "version": "ESV", "text": "for he says, 'The old is good.'" },
+          { "version": "NIV", "text": "for they say, 'The old is better.'" }
+        ],
+        "note": "Older manuscripts lack 'straightway' and read 'the old is good' (chrēstos) rather than 'better.' Only Luke includes this saying. It is gently ironic: people comfortable with the old ways resist the new thing Jesus brings."
+      }
+    ],
+    "gospel": "Chapter 5 shows the heart of the gospel in action. Jesus does not send Peter away when he says 'I am a sinful man'; he calls him (v8-10). He touches the untouchable leper and makes him clean (v13). He forgives a paralyzed man's sins and proves his authority by healing him (v20-24). He eats with tax collectors and sinners, saying that the sick, not the healthy, need a physician (v31-32). The grace he brings is new wine that needs new wineskins, the new covenant in his blood.",
+    "application": [
+      "Obey Jesus' word even when it goes against your experience. 'Nevertheless at thy word I will let down the net.'",
+      "Admit your sin honestly before Jesus, and receive his call rather than his rejection.",
+      "Bring others to Jesus, as the friends did, even when it takes creativity and persistence.",
+      "Welcome those the religious world treats as outsiders. Jesus came for them.",
+      "Make room for the new life Jesus brings rather than trying to fit him into old habits."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jesus' eating with sinners means he approved of their sin.",
+        "correction": "Jesus came to call sinners 'to repentance' (v32). He welcomed sinners in order to heal them, as a doctor goes to the sick."
+      },
+      {
+        "claim": "The paralyzed man was ill because of a particular sin.",
+        "correction": "Jesus forgives his sins first because forgiveness is the deepest need, but the text does not say his paralysis was caused by a specific sin. Jesus rejects that assumption elsewhere (13:1-5; John 9:2-3)."
+      },
+      {
+        "claim": "New wine means Christians should throw out everything old in favor of whatever is new.",
+        "correction": "The new wine is the gospel of the kingdom and the new covenant, not novelty for its own sake. Jesus fulfills the Scriptures rather than discarding them (24:44)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Master", "b": "Lord", "verses": "5, 8", "note": "Peter's view of Jesus grows in a moment." },
+      { "a": "Catching fish", "b": "Catching people alive", "verses": "10", "note": "Ordinary work becomes a picture of the mission." },
+      { "a": "The healthy", "b": "The sick", "verses": "31", "note": "Only those who know their need come to the physician." },
+      { "a": "Old wineskins", "b": "New wine", "verses": "36-38", "note": "The kingdom Jesus brings cannot be contained in old religious forms." }
+    ],
+    "features": [
+      { "label": "Leaving everything", "note": "Luke alone says the fishermen left 'all' and Levi 'left all' (v11, 28), emphasizing the cost and totality of discipleship." },
+      { "label": "Jesus withdraws to pray", "note": "As crowds grow, Jesus slips away to deserted places to pray (v16), a pattern Luke records often." },
+      { "label": "Proof of the unseen", "note": "Jesus asks which is easier to say, 'Thy sins be forgiven' or 'Rise up and walk' (v23), and does the visible to prove the invisible." },
+      { "label": "The first 'Son of Man'", "note": "Verse 24 is Luke's first use of Jesus' favorite self-title, drawn from Daniel 7:13-14, linked here to authority on earth." }
+    ],
+    "summary": "Luke 5 shows Jesus calling sinners into his mission and new life. Peter, confronted with Jesus' power and holiness, confesses his sin and is called to catch people; a leper is cleansed by Jesus' touch; a paralyzed man is forgiven and healed; and Levi the tax collector leaves everything to follow him. Jesus' authority to forgive and his welcome of sinners provoke religious opposition and show that his kingdom is new wine that requires new wineskins.",
+    "metaArc": {
+      "book": "Chapter 5 begins the gathering of Jesus' disciples and a series of controversies with the Pharisees (5:17-6:11) that reveal his identity and authority and prepare for the choosing of the Twelve in chapter 6.",
+      "redemptive": "The chapter shows Redemption reaching individuals: cleansing the unclean, forgiving sinners and calling them into a new people under a new covenant."
+    }
+  }
+}

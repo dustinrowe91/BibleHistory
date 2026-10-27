@@ -1,0 +1,182 @@
+{
+  "ref": "LUK.23",
+  "book": "Luke",
+  "chapter": 23,
+  "title": "Father, Forgive Them",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Pilate and Herod both find Jesus innocent, yet Pilate hands him over to be crucified and releases the murderer Barabbas instead. On the cross Jesus prays for his executioners' forgiveness, promises paradise to a repentant criminal, and dies entrusting his spirit to the Father as darkness falls and the temple veil is torn. A centurion declares him righteous, and Joseph of Arimathea lays him in a new tomb as the women watch.",
+  "keyVerses": ["34", "42-43", "46", "47"],
+  "steps": {
+    "language": [
+      {
+        "word": "αἴτιον",
+        "translit": "aition",
+        "strongs": "G158",
+        "gloss": "fault, cause for charge",
+        "verses": "4, 14, 22",
+        "note": "Three times Pilate declares he finds no fault in Jesus, and Herod agrees (v15). Luke stresses Jesus' innocence repeatedly, so that his death is plainly that of the righteous for the guilty."
+      },
+      {
+        "word": "ἀφίημι",
+        "translit": "aphiēmi",
+        "strongs": "G863",
+        "gloss": "to forgive, release",
+        "verses": "34",
+        "note": "'Father, forgive them.' The word also means 'release,' and stands in contrast to the 'release' of Barabbas (v18, 25). Jesus asks for forgiveness for those killing him, practicing his own teaching to love enemies (6:27-28)."
+      },
+      {
+        "word": "παράδεισος",
+        "translit": "paradeisos",
+        "strongs": "G3857",
+        "gloss": "paradise, garden",
+        "verses": "43",
+        "note": "A Persian word for a walled garden, used in the Greek Old Testament for Eden (Genesis 2:8). Jewish writings used it for the place of the righteous dead. Jesus promises the dying criminal a place with him in God's garden 'today.'"
+      },
+      {
+        "word": "παρατίθημι",
+        "translit": "paratithēmi",
+        "strongs": "G3908",
+        "gloss": "to entrust, commit, deposit",
+        "verses": "46",
+        "note": "'Father, into thy hands I commend my spirit,' quoting Psalm 31:5, a prayer of trust used by faithful Jews at evening. Jesus dies not in despair but in confident surrender to his Father. Stephen echoes him at his death (Acts 7:59)."
+      },
+      {
+        "word": "δίκαιος",
+        "translit": "dikaios",
+        "strongs": "G1342",
+        "gloss": "righteous, innocent, just",
+        "verses": "47, 50",
+        "note": "The centurion says, 'Certainly this was a righteous man,' and Joseph is called 'a just man.' In Luke the centurion's confession sums up the trial: Jesus is innocent, and righteous before God. Peter later calls him 'the Holy One and the Just' (Acts 3:14)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The innocent sufferer",
+        "refs": ["Isaiah 53:7-9, 12", "Psalm 22:7-8, 18", "1 Peter 2:21-24; 3:18"],
+        "note": "The Servant was silent before his accusers, had done no violence, and made intercession for the transgressors."
+      },
+      {
+        "theme": "Garments divided",
+        "refs": ["Psalm 22:18", "John 19:23-24"],
+        "note": "'They part my garments among them, and cast lots upon my vesture.'"
+      },
+      {
+        "theme": "Darkness at midday",
+        "refs": ["Amos 8:9", "Exodus 10:21-23", "Joel 2:31"],
+        "note": "God threatened to darken the earth at noon on a day of mourning and judgment."
+      },
+      {
+        "theme": "The veil torn",
+        "refs": ["Exodus 26:31-33", "Leviticus 16:2", "Hebrews 10:19-22"],
+        "note": "The curtain separated the holy place from the most holy. Its tearing signals that the way into God's presence has been opened through Christ's death."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 23 covers Jesus' trial before Roman authority, crucifixion and burial on the Friday of Passover week. Only Luke records the hearing before Herod Antipas, ruler of Galilee, who was in Jerusalem for the feast. Luke emphasizes Jesus' innocence, declared by Pilate, Herod, a criminal and the centurion. Three of Jesus' seven sayings from the cross are found only in Luke (v34, 43, 46). Crucifixion was Rome's most shameful form of execution, reserved for slaves, rebels and the worst criminals.",
+      "flow": [
+        { "verses": "1-12", "label": "Before Pilate and Herod", "note": "Accused of forbidding tribute and claiming to be king, Jesus is found faultless by Pilate; sent to Herod, he answers nothing and is mocked and sent back; Herod and Pilate become friends that day." },
+        { "verses": "13-25", "label": "Barabbas released", "note": "Pilate three times declares Jesus innocent, but the crowd demands his crucifixion and the release of Barabbas, a rebel and murderer; Pilate gives Jesus up to their will." },
+        { "verses": "26-31", "label": "The road to the cross", "note": "Simon of Cyrene carries the cross; Jesus tells the weeping daughters of Jerusalem to weep for themselves and their children." },
+        { "verses": "32-43", "label": "Crucified between criminals", "note": "Jesus prays 'Father, forgive them'; rulers, soldiers and one criminal mock him; the other criminal rebukes him, asks Jesus to remember him, and is promised paradise today." },
+        { "verses": "44-49", "label": "The death of Jesus", "note": "Darkness covers the land from noon to three, the temple veil is torn, and Jesus cries, 'Father, into thy hands I commend my spirit,' and dies; the centurion glorifies God, and the crowds return beating their breasts." },
+        { "verses": "50-56", "label": "The burial", "note": "Joseph of Arimathea, a council member who had not agreed with the decision, lays the body in a new tomb; the women see where it is laid and prepare spices, resting on the Sabbath." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 31:5", "from": "46", "note": "'Into thine hand I commit my spirit: thou hast redeemed me, O LORD God of truth.'" },
+        { "ref": "Psalm 22:18", "from": "34", "note": "The soldiers cast lots for his garments." },
+        { "ref": "Hosea 10:8", "from": "30", "note": "'They shall say to the mountains, Cover us; and to the hills, Fall on us.'" }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 53:7, 9, 12", "from": "9, 32-34", "note": "Silent before accusers, assigned a grave with the wicked and the rich, numbered with transgressors, interceding for them." },
+        { "ref": "Psalm 22:7-8", "from": "35-37", "note": "'All they that see me laugh me to scorn... He trusted on the LORD that he would deliver him.'" },
+        { "ref": "Amos 8:9", "from": "44", "note": "'I will cause the sun to go down at noon, and I will darken the earth in the clear day.'" },
+        { "ref": "Hebrews 10:19-20", "from": "45", "note": "Believers enter the holiest by the blood of Jesus, through the veil, that is, his flesh." }
+      ],
+      "tier3": [
+        { "ref": "Psalm 69:21", "from": "36", "note": "'In my thirst they gave me vinegar to drink.'" },
+        { "ref": "Psalm 38:11", "from": "49", "note": "'My lovers and my friends stand aloof from my sore.'" },
+        { "ref": "Acts 7:59-60", "from": "34, 46", "note": "Stephen commits his spirit to the Lord Jesus and prays for his killers' forgiveness, following his Lord." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Stott",
+        "work": "The Cross of Christ",
+        "view": "Stott argued that the cross is the place where God's love and justice meet: God himself in Christ bears the penalty of sin in our place, so that he can forgive without overlooking sin. Christ's substitution is the heart of the atonement."
+      },
+      {
+        "name": "Joel B. Green",
+        "work": "The Gospel of Luke (New International Commentary on the New Testament)",
+        "view": "Green highlights Luke's portrait of Jesus as the righteous sufferer of the Psalms who trusts God to the end. He notes that the repentant criminal's request, 'remember me,' and Jesus' answer 'today' show salvation reaching even a dying criminal at the last moment."
+      },
+      {
+        "name": "Charles Spurgeon",
+        "work": "'The Believing Thief' (Metropolitan Tabernacle Pulpit)",
+        "view": "Spurgeon preached the dying thief as a picture of salvation by grace alone. The man had no time for good works, baptism or a long life of service, yet he was saved by looking to Christ in faith, which Spurgeon held up as hope for the worst sinner."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "34",
+        "kjv": "Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment, and cast lots.",
+        "renderings": [
+          { "version": "ESV", "text": "Father, forgive them, for they know not what they do." },
+          { "version": "NIV", "text": "Father, forgive them, for they do not know what they are doing." }
+        ],
+        "note": "The prayer is missing from some early manuscripts, but it is found in many others and matches Luke's emphasis on forgiveness and Stephen's echo of it (Acts 7:60). Most translations include it, some with a note."
+      },
+      {
+        "verse": "43",
+        "kjv": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.",
+        "renderings": [
+          { "version": "ESV", "text": "today you will be with me in paradise" },
+          { "version": "NIV", "text": "today you will be with me in paradise" }
+        ],
+        "note": "Greek manuscripts had no punctuation. A few groups place the comma after 'today' ('I say to you today, you will be...'), but nearly all translations read 'today you will be with me,' which matches Luke's repeated use of 'today' for the arrival of salvation (2:11; 4:21; 19:9)."
+      }
+    ],
+    "gospel": "Luke's crucifixion is the gospel in action. The innocent Jesus takes the place of the guilty Barabbas, released while Jesus is condemned (v25). He prays for the forgiveness of those crucifying him (v34). A criminal with nothing to offer asks only to be remembered, and Jesus promises him paradise that very day (v42-43). Darkness covers the land and the veil of the temple is torn (v45): through his death the way into God's presence is opened. Jesus dies with a prayer of trust (v46), and even the Roman officer in charge confesses that he was righteous.",
+    "application": [
+      "See yourself in Barabbas: the guilty one set free while the innocent dies.",
+      "Forgive those who wrong you, following Jesus' prayer from the cross.",
+      "Never think it too late to turn to Christ. The dying criminal was welcomed.",
+      "Entrust your life and death into the Father's hands, as Jesus did.",
+      "Like Joseph and the women, be faithful to Jesus when it is costly and unpopular."
+    ],
+    "misapplications": [
+      {
+        "claim": "The Jewish people as a whole are guilty of killing Jesus.",
+        "correction": "Luke shows a coalition of Jewish leaders, a crowd, Herod and Roman authority responsible (v1-25; Acts 4:27). Many Jews mourned (v27, 48), and Joseph of Arimathea dissented. Above all, Scripture says Christ died for the sins of all, according to God's plan (Acts 2:23)."
+      },
+      {
+        "claim": "The thief's salvation shows that baptism, church and obedience don't matter.",
+        "correction": "His case shows that salvation is by grace through faith, not by works. It does not cancel Jesus' commands for those who have time to obey them (24:47; Acts 2:38)."
+      },
+      {
+        "claim": "Jesus was simply a martyr who died for a cause.",
+        "correction": "Luke shows Jesus dying as the innocent substitute who takes the place of the guilty (v25), whose death opens the way to God (v45) and fulfills Scripture (22:37). His death accomplishes salvation, as his promise to the criminal shows."
+      }
+    ],
+    "contrasts": [
+      { "a": "Barabbas the guilty released", "b": "Jesus the innocent condemned", "verses": "18-25", "note": "The great exchange at the heart of the gospel." },
+      { "a": "'Save thyself'", "b": "'Father, forgive them'", "verses": "34-39", "note": "The mockers demand self-rescue; Jesus prays for others." },
+      { "a": "The mocking criminal", "b": "The penitent criminal", "verses": "39-43", "note": "Two men equally close to Jesus, two opposite responses." },
+      { "a": "Darkness", "b": "The veil opened", "verses": "44-45", "note": "Judgment falls, and the way to God opens." }
+    ],
+    "features": [
+      { "label": "Three declarations of innocence", "note": "Pilate says three times he finds no fault in Jesus (v4, 14, 22), and Herod, a criminal (v41) and the centurion (v47) agree." },
+      { "label": "Three sayings unique to Luke", "note": "'Father, forgive them' (v34), 'To day shalt thou be with me in paradise' (v43) and 'Father, into thy hands I commend my spirit' (v46)." },
+      { "label": "Enemies made friends", "note": "Herod and Pilate, former enemies, become friends that day (v12), united in rejecting Jesus." },
+      { "label": "The women as witnesses", "note": "The women from Galilee watch the death (v49) and the burial (v55), so they can testify to the empty tomb (24:1-10)." }
+    ],
+    "summary": "Luke 23 shows Jesus, repeatedly declared innocent, condemned in place of a guilty man and crucified among criminals. From the cross he prays for his killers, promises paradise to a repentant criminal, and dies in trust, committing his spirit to the Father. Darkness, the torn veil and the centurion's confession mark his death as the righteous one dying for the unrighteous, opening the way to God.",
+    "metaArc": {
+      "book": "Chapter 23 is the climax of the passion narrative and the goal of the journey Jesus began in 9:51. Its themes of innocence, forgiveness and 'today' salvation gather up the whole Gospel.",
+      "redemptive": "The chapter is the center of Redemption: the righteous Son dies in the place of sinners, the curtain separating humanity from God is torn, and paradise is opened to the repentant."
+    }
+  }
+}

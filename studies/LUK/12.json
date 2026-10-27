@@ -1,0 +1,172 @@
+{
+  "ref": "LUK.12",
+  "book": "Luke",
+  "chapter": 12,
+  "title": "Fear Not, Little Flock",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus warns against hypocrisy and the fear of people, and calls disciples to fear God, who cares even for sparrows. Through the parable of the rich fool he warns that life does not consist in possessions, and tells his little flock not to be anxious but to seek God's kingdom, which the Father delights to give. Disciples must be ready like servants awaiting their master, for the Son of Man will come at an unexpected hour.",
+  "keyVerses": ["15", "20-21", "31-32", "40"],
+  "steps": {
+    "language": [
+      {
+        "word": "ὑπόκρισις",
+        "translit": "hypokrisis",
+        "strongs": "G5272",
+        "gloss": "hypocrisy, play-acting",
+        "verses": "1",
+        "note": "From the word for a stage actor who spoke behind a mask. Jesus calls the Pharisees' hypocrisy 'leaven': small, hidden, but spreading through the whole lump. What is hidden will be revealed (v2-3)."
+      },
+      {
+        "word": "πλεονεξία",
+        "translit": "pleonexia",
+        "strongs": "G4124",
+        "gloss": "greed, covetousness, desire for more",
+        "verses": "15",
+        "note": "Literally 'having more,' the endless appetite for more possessions. Paul calls it idolatry (Colossians 3:5). Jesus warns against 'all' forms of it, because a person's life is not measured by what they own."
+      },
+      {
+        "word": "μεριμνάω",
+        "translit": "merimnaō",
+        "strongs": "G3309",
+        "gloss": "to be anxious, worry",
+        "verses": "11, 22, 25-26",
+        "note": "Anxious care that divides the mind. Martha was anxious about many things (10:41); the thorns in the parable of the sower are 'cares' of this life (8:14). Jesus answers worry with the Father's knowledge and care (v30)."
+      },
+      {
+        "word": "ποίμνιον",
+        "translit": "poimnion",
+        "strongs": "G4168",
+        "gloss": "little flock",
+        "verses": "32",
+        "note": "A diminutive, tenderly addressing a small, vulnerable group. Though few and weak, they are the Father's flock, and he is pleased to give them the kingdom. The Old Testament often pictures God's people as his flock (Isaiah 40:11)."
+      },
+      {
+        "word": "οἰκονόμος",
+        "translit": "oikonomos",
+        "strongs": "G3623",
+        "gloss": "steward, household manager",
+        "verses": "42",
+        "note": "A servant entrusted with managing his master's household. Jesus asks who will be found a faithful and wise steward when the master returns; greater responsibility brings greater accountability (v48)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Fear God, not man",
+        "refs": ["Proverbs 29:25", "Isaiah 8:12-13", "Isaiah 51:7-8", "1 Peter 3:14-15"],
+        "note": "The fear of man is a snare; the right fear is reverence for the Lord, which frees from intimidation."
+      },
+      {
+        "theme": "Riches cannot save",
+        "refs": ["Psalm 39:6", "Psalm 49:16-20", "Ecclesiastes 2:18-21", "1 Timothy 6:17-19"],
+        "note": "People heap up riches and do not know who will gather them. The rich fool is the wisdom literature's warning brought to life."
+      },
+      {
+        "theme": "God feeds and clothes his creatures",
+        "refs": ["Psalm 104:27-28", "Psalm 147:9", "Job 38:41"],
+        "note": "God gives food to the young ravens and clothes the lilies. Jesus argues that his children are worth more."
+      },
+      {
+        "theme": "Watchful servants and the master's return",
+        "refs": ["Exodus 12:11", "Matthew 24:42-51", "1 Thessalonians 5:2-6"],
+        "note": "Israel ate the Passover dressed and ready to leave. Disciples are to be dressed for service, lamps burning, ready for their Lord."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 12 continues the journey to Jerusalem with a long block of teaching given to disciples while thousands crowd around (v1). It moves from warnings about hypocrisy and fear (v1-12) to wealth and worry (v13-34), readiness for the master's return (v35-48), and the division Jesus brings (v49-59). Much of it parallels material in Matthew, but the parable of the rich fool is found only in Luke.",
+      "flow": [
+        { "verses": "1-12", "label": "Hypocrisy and fear", "note": "Beware the leaven of the Pharisees; fear not those who kill the body but God; you are worth more than sparrows; confess Christ before others; the Spirit will teach you what to say." },
+        { "verses": "13-21", "label": "The rich fool", "note": "Asked to settle an inheritance, Jesus warns against greed and tells of a rich man who builds bigger barns, but God says, 'Thou fool, this night thy soul shall be required of thee.'" },
+        { "verses": "22-34", "label": "Do not be anxious", "note": "Consider the ravens and lilies; seek God's kingdom and these things will be added; fear not, little flock; sell, give alms, and store treasure in heaven." },
+        { "verses": "35-48", "label": "Ready for the master", "note": "Be like servants awaiting their master's return; he will serve those he finds watching; the faithful steward is rewarded, the unfaithful punished; to whom much is given, much is required." },
+        { "verses": "49-59", "label": "Fire, division and the times", "note": "Jesus came to cast fire on the earth and has a baptism to undergo; he brings division even within families; the crowds read the weather but not the present time; settle with your accuser before it is too late." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Matthew 6:19-34", "from": "22-34", "note": "The parallel teaching on treasure, ravens (birds), lilies and seeking the kingdom first." },
+        { "ref": "Matthew 10:26-33", "from": "2-9", "note": "Hidden things revealed, fear God not those who kill the body, sparrows and the hairs of your head, confessing Christ." },
+        { "ref": "Psalm 49:16-20", "from": "16-21", "note": "When the rich man dies he carries nothing away; his glory does not descend after him." },
+        { "ref": "Micah 7:6", "from": "53", "note": "'The son dishonoureth the father, the daughter riseth up against her mother.' Jesus echoes Micah's picture of a divided household." }
+      ],
+      "tier3": [
+        { "ref": "Ecclesiastes 2:18-21", "from": "20", "note": "The Preacher hated his toil because he must leave it to someone who did not work for it." },
+        { "ref": "Isaiah 40:11", "from": "32", "note": "The LORD will feed his flock like a shepherd and gather the lambs in his arms." },
+        { "ref": "Mark 10:38", "from": "50", "note": "Jesus calls his coming suffering a baptism he must undergo." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Randy Alcorn",
+        "work": "The Treasure Principle",
+        "view": "Alcorn builds on Jesus' teaching about storing up treasure in heaven (v33-34) to argue that believers cannot take wealth with them but can send it ahead by giving generously for God's kingdom. Where people put their treasure, their hearts follow."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock notes that the rich fool's sin is not wealth itself but self-centered planning that leaves God out; his speech is full of 'I' and 'my.' Being 'rich toward God' (v21) means using possessions generously in light of God's priorities."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "And he said unto them, Take heed, and beware of covetousness: for a man's life consisteth not in the abundance of the things which he possesseth.",
+        "renderings": [
+          { "version": "ESV", "text": "be on your guard against all covetousness" },
+          { "version": "NIV", "text": "Be on your guard against all kinds of greed" }
+        ],
+        "note": "The older manuscripts read 'all covetousness,' warning against every form of it. 'Life' (zōē) here means true life, which cannot be measured in possessions."
+      },
+      {
+        "verse": "20",
+        "kjv": "But God said unto him, Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?",
+        "renderings": [
+          { "version": "ESV", "text": "This night your soul is required of you" },
+          { "version": "NIV", "text": "This very night your life will be demanded from you" }
+        ],
+        "note": "The verb was used for calling in a loan. The rich man spoke to his 'soul' about years of ease (v19); now his soul, his very life, is called back by its owner. The same word 'soul' frames his folly."
+      }
+    ],
+    "gospel": "The Father knows his children's needs, values them more than sparrows, and is pleased to give them the kingdom (v7, 30, 32). That is grace, not wages. Jesus' parable of the watchful servants includes an astonishing reversal: the master returns and 'shall gird himself, and make them to sit down to meat, and will come forth and serve them' (v37), a picture of the Lord who came to serve. Jesus also speaks of the 'baptism' he must undergo (v50), his coming death, the fire of judgment he will bear before the kingdom comes in fullness.",
+    "application": [
+      "Live without hypocrisy, knowing that nothing is hidden from God.",
+      "Fear God rather than people, and confess Christ openly.",
+      "Examine your heart for greed, and be rich toward God through generosity.",
+      "Replace worry with trust in your Father, and seek his kingdom first.",
+      "Be ready for Christ's return by faithfully using what he has entrusted to you."
+    ],
+    "misapplications": [
+      {
+        "claim": "Planning and saving for the future are always sinful.",
+        "correction": "Scripture commends wise preparation (Proverbs 6:6-8). The rich fool's error is planning only for himself and leaving God out, thinking his soul could live on stored goods (v19-21)."
+      },
+      {
+        "claim": "Jesus brings division, so Christians should be divisive.",
+        "correction": "Jesus describes the effect of his coming: loyalty to him divides people who choose differently (v51-53). Disciples are still called to love and peace (6:27-36; Romans 12:18)."
+      },
+      {
+        "claim": "'Seek the kingdom and these things will be added' guarantees material prosperity.",
+        "correction": "The promise is that the Father will provide what his children need (v30-31), in a passage that also tells them to sell possessions and give alms (v33)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Those who kill the body", "b": "The one who has power to cast into hell", "verses": "4-5", "note": "Proper fear of God frees from fear of people." },
+      { "a": "Rich in barns", "b": "Rich toward God", "verses": "18, 21", "note": "Two ways to be rich, only one of which lasts." },
+      { "a": "Treasure on earth", "b": "Treasure in heaven", "verses": "33-34", "note": "Your heart follows your treasure." },
+      { "a": "Faithful steward", "b": "Abusive servant", "verses": "42-46", "note": "The master's delay reveals what kind of servant each really is." }
+    ],
+    "features": [
+      { "label": "A soliloquy", "note": "The rich fool talks only to himself, using 'I' and 'my' repeatedly (v17-19). God's voice interrupts his conversation with his own soul." },
+      { "label": "The master who serves", "note": "In a stunning reversal of custom, the returning master serves his watchful servants at table (v37)." },
+      { "label": "Graded accountability", "note": "Verses 47-48 teach that responsibility, and judgment, are proportionate to knowledge and privilege." },
+      { "label": "Reading the signs", "note": "People can forecast rain from western clouds and heat from the south wind, but cannot interpret the time of God's visitation (v54-56)." }
+    ],
+    "summary": "Luke 12 calls disciples to live before God rather than people: without hypocrisy, without fear of human opposition, and without anxious greed. Life is not found in possessions but in being rich toward God and trusting the Father who gladly gives his little flock the kingdom. Because the Son of Man will return at an unexpected hour, his servants must be found faithful and watchful.",
+    "metaArc": {
+      "book": "Chapter 12 continues the journey's discipleship teaching, focusing on fear, possessions and readiness. Its warnings about wealth anticipate the parables of chapter 16 and the rich ruler of chapter 18.",
+      "redemptive": "The chapter calls God's people to live in the light of the coming New Creation, holding earthly goods loosely and watching for the Lord who will return and serve his own."
+    }
+  }
+}

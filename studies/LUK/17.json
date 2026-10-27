@@ -1,0 +1,175 @@
+{
+  "ref": "LUK.17",
+  "book": "Luke",
+  "chapter": 17,
+  "title": "Where Are the Nine?",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus warns against causing others to stumble, calls disciples to forgive again and again, and teaches that faith the size of a mustard seed is enough, while servants should do their duty without seeking credit. Of ten lepers healed, only a Samaritan returns to give thanks. Asked when the kingdom will come, Jesus says it is already in their midst, and that the Son of Man's day will come suddenly, like the flood and the fire on Sodom.",
+  "keyVerses": ["3-4", "15-19", "21", "33"],
+  "steps": {
+    "language": [
+      {
+        "word": "σκάνδαλον",
+        "translit": "skandalon",
+        "strongs": "G4625",
+        "gloss": "stumbling block, cause of sin",
+        "verses": "1-2",
+        "note": "Originally the trigger of a trap. Jesus says it would be better to be thrown into the sea with a millstone than to cause one of these little ones to stumble. Disciples are responsible for their influence on others."
+      },
+      {
+        "word": "ἀχρεῖος",
+        "translit": "achreios",
+        "strongs": "G888",
+        "gloss": "unworthy, deserving no special credit",
+        "verses": "10",
+        "note": "Not 'useless' but 'owed nothing.' A servant who does what he is told has only done his duty and has no claim on special reward. Disciples serve God out of obligation and gratitude, not to put him in their debt."
+      },
+      {
+        "word": "εὐχαριστέω",
+        "translit": "eucharisteō",
+        "strongs": "G2168",
+        "gloss": "to give thanks",
+        "verses": "16",
+        "note": "The Samaritan falls at Jesus' feet 'giving him thanks.' The word gives us 'Eucharist.' Gratitude is the mark of one who knows he has received grace, and it is found in the outsider."
+      },
+      {
+        "word": "σῴζω",
+        "translit": "sōzō",
+        "strongs": "G4982",
+        "gloss": "to save, make whole",
+        "verses": "19",
+        "note": "All ten were cleansed, but to the one who returned Jesus says, 'thy faith hath made thee whole,' or 'saved you.' The healing of the body was shared by all; the fuller salvation came to the one who turned back to Jesus."
+      },
+      {
+        "word": "ἐντός",
+        "translit": "entos",
+        "strongs": "G1787",
+        "gloss": "within, inside; in the midst of",
+        "verses": "21",
+        "note": "Jesus says the kingdom of God is 'entos hymōn.' It can mean 'within you' or 'among you, within your reach.' Since he is speaking to Pharisees, many think he means the kingdom is present among them in his own person and works."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Rebuke and forgive",
+        "refs": ["Leviticus 19:17", "Matthew 18:15, 21-22", "Ephesians 4:32", "Colossians 3:13"],
+        "note": "God's people are to rebuke a brother rather than hate him in their hearts, and to forgive as they have been forgiven."
+      },
+      {
+        "theme": "Lepers cleansed",
+        "refs": ["Leviticus 13:45-46; 14:2-4", "2 Kings 5:14-15", "Luke 4:27"],
+        "note": "Naaman, a foreigner, returned to Elisha to confess Israel's God after being cleansed. The Samaritan leper does the same with Jesus."
+      },
+      {
+        "theme": "Days of Noah and Lot",
+        "refs": ["Genesis 6:5-7:23", "Genesis 19:15-26", "2 Peter 2:5-9"],
+        "note": "Life went on as normal until sudden judgment came. Lot's wife looked back and perished."
+      },
+      {
+        "theme": "Saving life by losing it",
+        "refs": ["Luke 9:24", "John 12:25", "Matthew 10:39"],
+        "note": "It is one of the sayings of Jesus most often repeated in the Gospels."
+      }
+    ],
+    "context": {
+      "setting": "Verse 11 reminds the reader that Jesus is still on the way to Jerusalem, passing along the border between Samaria and Galilee. The chapter collects teaching for disciples (v1-10), the healing of ten lepers (v11-19), and teaching about the kingdom and the coming of the Son of Man (v20-37). Lepers were required to live apart and call out from a distance, which is why the ten stood far off.",
+      "flow": [
+        { "verses": "1-4", "label": "Stumbling and forgiving", "note": "Woe to anyone who causes little ones to stumble; rebuke a brother who sins and forgive him, even seven times in a day." },
+        { "verses": "5-6", "label": "Mustard-seed faith", "note": "The apostles ask for more faith; Jesus says faith like a grain of mustard seed could uproot a sycamine tree." },
+        { "verses": "7-10", "label": "Unworthy servants", "note": "A servant does not expect thanks for doing what he was told; say, 'We are unprofitable servants: we have done our duty.'" },
+        { "verses": "11-19", "label": "Ten lepers", "note": "Ten lepers cry for mercy and are cleansed as they go to the priests; only one, a Samaritan, returns to glorify God and thank Jesus." },
+        { "verses": "20-21", "label": "The kingdom in your midst", "note": "Asked by Pharisees when the kingdom will come, Jesus says it does not come with signs to be observed; it is in the midst of you." },
+        { "verses": "22-37", "label": "The day of the Son of Man", "note": "His coming will be like lightning, but first he must suffer; it will be like Noah's and Lot's days; remember Lot's wife; one will be taken and another left." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Genesis 19:26", "from": "32", "note": "'His wife looked back from behind him, and she became a pillar of salt.' Jesus says, 'Remember Lot's wife.'" }
+      ],
+      "tier2": [
+        { "ref": "Matthew 18:6-7, 21-22", "from": "1-4", "note": "Warnings about causing little ones to stumble and Peter's question about forgiving seven times." },
+        { "ref": "2 Kings 5:14-15", "from": "15-18", "note": "Naaman returned to the man of God and confessed there was no God but Israel's." },
+        { "ref": "Genesis 6:11-13; 7:7", "from": "26-27", "note": "The days of Noah, when people went on with life until the flood came." },
+        { "ref": "Matthew 24:23-41", "from": "22-37", "note": "The parallel teaching on the coming of the Son of Man, with lightning, Noah, and one taken and one left." }
+      ],
+      "tier3": [
+        { "ref": "Leviticus 13:45-46", "from": "12", "note": "Lepers lived apart and cried 'Unclean.'" },
+        { "ref": "Psalm 107:1, 19-22", "from": "15-16", "note": "Those God rescues should give thanks and declare his works." },
+        { "ref": "Job 39:30", "from": "37", "note": "'Where the slain are, there is she,' said of the eagle or vulture." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "I. Howard Marshall",
+        "work": "The Gospel of Luke (New International Greek Testament Commentary)",
+        "view": "Marshall favored reading verse 21 as 'in your midst': the kingdom was present among Jesus' hearers in his ministry, rather than an inward spiritual state, since the Pharisees addressed did not have the kingdom within them."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock sees the chapter holding together the 'already' and 'not yet' of the kingdom: it is present in Jesus (v21), yet its consummation will come suddenly with the Son of Man's return (v24-30), after he first suffers (v25)."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "21",
+        "kjv": "Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God is within you.",
+        "renderings": [
+          { "version": "ESV", "text": "the kingdom of God is in the midst of you" },
+          { "version": "NIV", "text": "the kingdom of God is in your midst" },
+          { "version": "NKJV", "text": "the kingdom of God is within you" }
+        ],
+        "note": "Both readings are possible from the Greek. 'In your midst' fits the context: Jesus is answering Pharisees, and the kingdom is present in his person and works. Elsewhere in Luke the kingdom is something people enter, not merely an inner feeling."
+      },
+      {
+        "verse": "10",
+        "kjv": "So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do.",
+        "renderings": [
+          { "version": "ESV", "text": "We are unworthy servants; we have only done" },
+          { "version": "NIV", "text": "We are unworthy servants; we have only done our duty" }
+        ],
+        "note": "'Unprofitable' does not mean useless. The servants have done their work well; the point is that they have earned no special claim on their master."
+      }
+    ],
+    "gospel": "Ten lepers cry 'Jesus, Master, have mercy on us' (v13), and all are cleansed by his word. One comes back, a Samaritan, and Jesus says, 'thy faith hath made thee whole' (v19). The gospel creates gratitude, and saving faith turns back to Jesus himself, not only to his gifts. The parable of the servants reminds us that we can never put God in our debt; salvation is grace. And the kingdom is present in Jesus, though the Son of Man 'must first suffer many things, and be rejected' (v25) before his glorious day.",
+    "application": [
+      "Watch how your choices affect weaker believers.",
+      "Forgive repeatedly, as you have been forgiven, and ask God for the faith to do it.",
+      "Serve God without seeking credit. Your obedience is a debt of love, not a claim on reward.",
+      "Return to Jesus with thanks. Do not take his gifts and walk away.",
+      "Live ready for Christ's return, holding loosely to the things of this life."
+    ],
+    "misapplications": [
+      {
+        "claim": "'The kingdom of God is within you' means everyone has divinity inside them.",
+        "correction": "Jesus is speaking to Pharisees who opposed him. The kingdom is God's reign present in Jesus (11:20), entered by repentance and faith, not a natural divine spark in all people."
+      },
+      {
+        "claim": "Mustard-seed faith means we can do anything we want if we believe hard enough.",
+        "correction": "The disciples asked for more faith to forgive repeatedly (v4-5). Jesus says the size of faith matters less than its object. Even small faith in God accomplishes what God wills."
+      },
+      {
+        "claim": "'One shall be taken' clearly teaches a secret rapture.",
+        "correction": "Interpreters differ: some see the one taken as removed in judgment (as in the flood, v27), others as gathered to the Lord. The passage's main point is the suddenness of the Son of Man's coming and the need to be ready."
+      }
+    ],
+    "contrasts": [
+      { "a": "Ten cleansed", "b": "One returns", "verses": "17-18", "note": "Gratitude is rare, and it comes from the outsider." },
+      { "a": "Signs to be observed", "b": "The kingdom in your midst", "verses": "20-21", "note": "The kingdom is not something to be spotted in the sky but present in Jesus." },
+      { "a": "Seeking to save one's life", "b": "Losing it", "verses": "33", "note": "Clinging to this life means losing it." }
+    ],
+    "features": [
+      { "label": "A foreigner's gratitude", "note": "Jesus calls the Samaritan 'this stranger' (v18), using a word for a foreigner. Luke again shows an outsider responding better than insiders." },
+      { "label": "Healed on the way", "note": "The lepers were cleansed 'as they went' (v14), obeying Jesus' word before they saw any change." },
+      { "label": "Ordinary life interrupted", "note": "Eating, drinking, marrying, buying, selling, planting, building (v27-28): the lists show judgment coming in the middle of normal routines." },
+      { "label": "Suffering before glory", "note": "Even in teaching about his glorious day, Jesus inserts that he must first suffer and be rejected (v25)." }
+    ],
+    "summary": "Luke 17 calls disciples to guard others from stumbling, to forgive without limit, to trust God with even small faith and to serve without seeking credit. Of ten lepers healed, only a Samaritan returns in gratitude and receives Jesus' word of salvation. The kingdom is already present in Jesus, yet his glorious return will come suddenly, so his people must be ready and not cling to this life.",
+    "metaArc": {
+      "book": "Chapter 17 brings the travel narrative closer to Jerusalem and introduces teaching on the Son of Man's coming that is developed further in chapter 21.",
+      "redemptive": "The chapter holds together present Redemption, the kingdom already among us, and the coming New Creation, when the Son of Man is revealed after his suffering."
+    }
+  }
+}

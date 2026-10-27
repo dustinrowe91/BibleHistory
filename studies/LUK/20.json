@@ -1,0 +1,178 @@
+{
+  "ref": "LUK.20",
+  "book": "Luke",
+  "chapter": 20,
+  "title": "The Stone Which the Builders Rejected",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "In the temple, Jerusalem's leaders challenge Jesus' authority and try to trap him with questions about taxes to Caesar and the resurrection. He answers each with wisdom, tells a parable of tenants who kill the owner's beloved son, and declares himself the rejected stone that becomes the cornerstone. He then asks how the Messiah can be both David's son and David's Lord, and warns against scribes who seek honor and devour widows' houses.",
+  "keyVerses": ["17", "25", "37-38", "41-44"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἐξουσία",
+        "translit": "exousia",
+        "strongs": "G1849",
+        "gloss": "authority, right",
+        "verses": "2, 8, 20",
+        "note": "The leaders demand to know by what authority Jesus acts. He answers with a question about John's baptism, exposing that they were unwilling to acknowledge God's authority in John, and so would not acknowledge it in him."
+      },
+      {
+        "word": "ἀγαπητός",
+        "translit": "agapētos",
+        "strongs": "G27",
+        "gloss": "beloved",
+        "verses": "13",
+        "note": "The owner says, 'I will send my beloved son,' the same word the Father used at Jesus' baptism and transfiguration (3:22; 9:35 in some manuscripts). The parable is a thinly veiled account of what the leaders are about to do."
+      },
+      {
+        "word": "κεφαλὴ γωνίας",
+        "translit": "kephalē gōnias",
+        "strongs": "G2776",
+        "gloss": "head of the corner, cornerstone",
+        "verses": "17",
+        "note": "The key stone that sets the line of a building. Quoting Psalm 118:22, Jesus says the stone the builders rejected has become the cornerstone. Peter applies the verse to Jesus before the same council (Acts 4:11)."
+      },
+      {
+        "word": "εἰκών",
+        "translit": "eikōn",
+        "strongs": "G1504",
+        "gloss": "image",
+        "verses": "24",
+        "note": "The denarius bore Caesar's image and inscription, so it may be given back to him. Humans bear God's image (Genesis 1:27), so they must give themselves to God. Jesus' answer honors the state's limited claim while placing all of life under God."
+      },
+      {
+        "word": "ἀνάστασις",
+        "translit": "anastasis",
+        "strongs": "G386",
+        "gloss": "resurrection",
+        "verses": "27, 33, 35-36",
+        "note": "The Sadducees denied the resurrection. Jesus says those raised are 'sons of the resurrection' and no longer marry or die, and he proves the resurrection from the Torah the Sadducees accepted, God's words at the burning bush."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God's vineyard",
+        "refs": ["Isaiah 5:1-7", "Psalm 80:8-16", "Jeremiah 2:21"],
+        "note": "Israel was God's vineyard, expected to bear fruit. The parable recalls Isaiah's song, now focused on the tenants, Israel's leaders."
+      },
+      {
+        "theme": "The rejected stone",
+        "refs": ["Psalm 118:22", "Isaiah 8:14-15", "Isaiah 28:16", "Daniel 2:34-35, 44-45", "1 Peter 2:4-8"],
+        "note": "God's chosen stone is a sure foundation for those who trust it and a stone of stumbling and crushing for those who reject it."
+      },
+      {
+        "theme": "Levirate marriage",
+        "refs": ["Deuteronomy 25:5-6", "Genesis 38:8", "Ruth 4:5-10"],
+        "note": "A man was to marry his brother's widow to raise up descendants. The Sadducees use it to mock resurrection."
+      },
+      {
+        "theme": "David's Lord",
+        "refs": ["Psalm 110:1", "Acts 2:34-36", "Hebrews 1:13"],
+        "note": "'The LORD said unto my Lord.' If David calls the Messiah 'Lord,' the Messiah is more than David's descendant."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 20 takes place in the temple during the last week of Jesus' life, as he teaches daily (19:47; 21:37). Representatives of the chief priests, scribes and elders, then spies, then Sadducees come with questions designed to discredit or entrap him. The tax question was dangerous: saying 'no' would invite Roman arrest, while saying 'yes' would alienate people who resented Roman rule. The Sadducees were the priestly aristocracy who accepted only the five books of Moses as binding and denied the resurrection and angels (Acts 23:8).",
+      "flow": [
+        { "verses": "1-8", "label": "By what authority?", "note": "Jesus answers the leaders' challenge with a question about John's baptism; when they refuse to answer, he refuses too." },
+        { "verses": "9-19", "label": "The wicked tenants", "note": "Tenants beat the owner's servants and kill his beloved son; the owner will destroy them and give the vineyard to others; the rejected stone becomes the cornerstone. The leaders know he spoke against them." },
+        { "verses": "20-26", "label": "Taxes to Caesar", "note": "Spies ask whether it is lawful to pay tribute; Jesus asks whose image is on the coin and says, 'Render unto Caesar... and unto God the things which be God's.'" },
+        { "verses": "27-40", "label": "The resurrection", "note": "Sadducees pose a puzzle about a woman married to seven brothers; Jesus says the resurrected neither marry nor die, and God is the God of Abraham, Isaac and Jacob, for all live to him." },
+        { "verses": "41-44", "label": "David's son and Lord", "note": "Jesus asks how the Christ can be David's son when David calls him Lord in Psalm 110." },
+        { "verses": "45-47", "label": "Beware the scribes", "note": "Beware those who love honor and long robes, devour widows' houses and make long prayers for show; they will receive greater condemnation." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 118:22", "from": "17", "note": "'The stone which the builders refused is become the head stone of the corner.'" },
+        { "ref": "Exodus 3:6", "from": "37", "note": "'I am... the God of Abraham, the God of Isaac, and the God of Jacob,' spoken to Moses at the bush long after the patriarchs died." },
+        { "ref": "Psalm 110:1", "from": "42-43", "note": "'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.'" },
+        { "ref": "Deuteronomy 25:5", "from": "28", "note": "The levirate law the Sadducees quote." }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 5:1-7", "from": "9", "note": "The song of the vineyard, God's lament over a people who yielded wild grapes." },
+        { "ref": "Daniel 2:34-35, 44-45", "from": "18", "note": "A stone cut without hands strikes and crushes the kingdoms of the world." },
+        { "ref": "Isaiah 8:14-15", "from": "18", "note": "A stone of stumbling on which many will fall and be broken." },
+        { "ref": "Romans 13:1-7", "from": "25", "note": "Paul's teaching to pay taxes and honor governing authorities as God's servants." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 1:26-27", "from": "24-25", "note": "Humanity made in God's image, which belongs to God." },
+        { "ref": "2 Chronicles 36:15-16", "from": "10-12", "note": "God sent his messengers repeatedly, but they mocked them and despised his words." },
+        { "ref": "Daniel 12:2-3", "from": "35-36", "note": "Many who sleep in the dust shall awake and shine like the stars." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "N. T. Wright",
+        "work": "Jesus and the Victory of God",
+        "view": "Wright reads the parable of the tenants as Jesus' own interpretation of his mission: he stands in the line of the prophets sent to Israel, but is the son, the final messenger, whose rejection will bring judgment on the temple's leadership and the transfer of the vineyard."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock emphasizes that Jesus' question about Psalm 110 points beyond a merely human, political Messiah. David's son is also David's Lord, one who will sit at God's right hand, which Jesus claims for himself at his trial (22:69)."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "25",
+        "kjv": "And he said unto them, Render therefore unto Cæsar the things which be Cæsar's, and unto God the things which be God's.",
+        "renderings": [
+          { "version": "ESV", "text": "render to Caesar the things that are Caesar's" },
+          { "version": "NIV", "text": "give back to Caesar what is Caesar's" }
+        ],
+        "note": "The verb apodote means to give back what is owed. The coin already belonged to Caesar's system; the deeper claim is God's, whose image is stamped on every person."
+      },
+      {
+        "verse": "38",
+        "kjv": "For he is not a God of the dead, but of the living: for all live unto him.",
+        "renderings": [
+          { "version": "ESV", "text": "for all live to him" },
+          { "version": "NIV", "text": "for to him all are alive" }
+        ],
+        "note": "Only Luke includes 'for all live unto him.' The patriarchs, though dead to us, are alive to God, and God's covenant with them guarantees their resurrection."
+      }
+    ],
+    "gospel": "The parable of the tenants tells the gospel story from the vineyard owner's side: servant after servant rejected, and finally 'my beloved son,' whom they cast out and kill (v13-15). Jesus knows what is about to happen to him. Yet the rejected stone becomes the cornerstone (v17); his death is not defeat but the foundation of God's new temple. Those who fall on this stone in humility are broken and rebuilt, but those on whom it falls are crushed. God is the God of the living, and the resurrection Jesus defends is the one he himself will soon lead.",
+    "application": [
+      "Respond honestly to God's authority rather than calculating what is safe to say.",
+      "Bear fruit for God in the vineyard he has entrusted to you.",
+      "Give governments what they are due, while giving God your whole self, which bears his image.",
+      "Take comfort in the resurrection. God's covenant love reaches beyond death.",
+      "Beware of religion that seeks status while neglecting the vulnerable."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Render unto Caesar' means faith and public life are completely separate spheres.",
+        "correction": "Caesar's claim is limited; God's is total, since all people bear his image. Christians pay taxes and honor rulers, but their final allegiance is to God (Acts 5:29)."
+      },
+      {
+        "claim": "Since there is no marriage in the resurrection, earthly marriage does not matter.",
+        "correction": "Jesus is answering a question about levirate marriage and descendants, which are unnecessary where no one dies (v36). Marriage is God's good gift for this age and points to the union of Christ and his church."
+      },
+      {
+        "claim": "The parable of the tenants teaches that God has rejected the Jewish people.",
+        "correction": "The leaders knew the parable was 'against them' (v19), the corrupt tenants. The vineyard is given to others, a new leadership, beginning with Jesus' Jewish apostles, and Acts shows thousands of Jews believing."
+      }
+    ],
+    "contrasts": [
+      { "a": "Rejected by builders", "b": "Made the cornerstone", "verses": "17", "note": "Human rejection, divine vindication." },
+      { "a": "Caesar's coin", "b": "God's image", "verses": "24-25", "note": "Limited earthly claims under God's total claim." },
+      { "a": "This age", "b": "That age", "verses": "34-35", "note": "Life after the resurrection is different, not merely continued." },
+      { "a": "David's son", "b": "David's Lord", "verses": "41-44", "note": "The Messiah is human descendant and divine Lord." }
+    ],
+    "features": [
+      { "label": "Questions and counter-questions", "note": "Jesus answers each challenge with a question or a demand to look at something (John's baptism, a coin, Scripture), turning the trap back on the questioners." },
+      { "label": "The parable aimed at its hearers", "note": "The leaders 'perceived that he had spoken this parable against them' (v19), a rare moment when the targets understand immediately." },
+      { "label": "Proof from Moses", "note": "Jesus proves the resurrection from Exodus, which the Sadducees accepted, rather than from Daniel or the Psalms." },
+      { "label": "Silence", "note": "After the resurrection debate, 'they durst not ask him any question at all' (v40). Jesus then asks his own question, which no one answers." }
+    ],
+    "summary": "Luke 20 shows Jesus in the temple facing a series of challenges from Jerusalem's leaders and silencing them with wisdom. His parable of the tenants foretells his own death as the beloved Son and his vindication as the rejected stone made cornerstone. He affirms the resurrection, distinguishes the claims of Caesar and God, and reveals that the Messiah is not only David's son but David's Lord.",
+    "metaArc": {
+      "book": "Chapter 20 is part of Jesus' final teaching in the temple (19:45-21:38). The leaders' failure to trap him leads to the plot of chapter 22.",
+      "redemptive": "The chapter foretells the climax of Redemption: the Son's rejection and death, his exaltation as cornerstone, and the resurrection life of the age to come."
+    }
+  }
+}

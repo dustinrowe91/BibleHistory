@@ -1,0 +1,177 @@
+{
+  "ref": "LUK.15",
+  "book": "Luke",
+  "chapter": 15,
+  "title": "Lost and Found",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "When the Pharisees and scribes grumble that Jesus welcomes sinners and eats with them, he tells three parables of something lost and found: a sheep, a coin and a son. Each ends in celebration, showing heaven's joy over one sinner who repents. The last parable also shows an elder brother who refuses to join the feast, leaving the grumblers to decide whether they will come in.",
+  "keyVerses": ["2", "7, 10", "20", "31-32"],
+  "steps": {
+    "language": [
+      {
+        "word": "διαγογγύζω",
+        "translit": "diagongyzō",
+        "strongs": "G1234",
+        "gloss": "to grumble, murmur among themselves",
+        "verses": "2",
+        "note": "The Greek Old Testament uses this word for Israel's murmuring in the wilderness (Exodus 16:2). The Pharisees' complaint, 'This man receiveth sinners, and eateth with them,' is the setting for all three parables."
+      },
+      {
+        "word": "ἀπόλλυμι",
+        "translit": "apollymi",
+        "strongs": "G622",
+        "gloss": "to lose; to be lost, perish",
+        "verses": "4, 6, 8-9, 24, 32",
+        "note": "The chapter's key word. A sheep, a coin and a son are 'lost,' and the son 'perishes' with hunger (v17). Jesus came 'to seek and to save that which was lost' (19:10)."
+      },
+      {
+        "word": "χαρά",
+        "translit": "chara",
+        "strongs": "G5479",
+        "gloss": "joy",
+        "verses": "5-7, 9-10",
+        "note": "Each recovery leads to rejoicing with friends, and Jesus says there is joy in heaven, before the angels of God, over one sinner who repents. The God of these parables is not reluctant to forgive but delighted to recover his own."
+      },
+      {
+        "word": "ἀσώτως",
+        "translit": "asōtōs",
+        "strongs": "G811",
+        "gloss": "recklessly, wastefully, in dissolute living",
+        "verses": "13",
+        "note": "Related to a word for a wasteful, dissolute person. The younger son scatters his inheritance in reckless living. His elder brother later accuses him of spending it on prostitutes (v30)."
+      },
+      {
+        "word": "σπλαγχνίζομαι",
+        "translit": "splanchnizomai",
+        "strongs": "G4697",
+        "gloss": "to be moved with compassion",
+        "verses": "20",
+        "note": "The father sees his son 'a great way off,' is moved with compassion, and runs. The same verb described the Samaritan (10:33) and Jesus at Nain (7:13)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "God the shepherd who seeks",
+        "refs": ["Psalm 23:1-3", "Isaiah 40:11", "Ezekiel 34:11-16", "John 10:11-16"],
+        "note": "God promised to search for his scattered sheep and bring back the lost. Ezekiel condemned shepherds who did not seek them. Jesus does what Israel's leaders failed to do."
+      },
+      {
+        "theme": "God's joy in restoring his people",
+        "refs": ["Isaiah 62:5", "Zephaniah 3:17", "Jeremiah 31:20"],
+        "note": "God rejoices over his people with singing and yearns over Ephraim, his wayward son."
+      },
+      {
+        "theme": "The returning son",
+        "refs": ["Deuteronomy 21:18-21", "Hosea 11:1-9", "Jeremiah 3:12-14, 22"],
+        "note": "The law allowed severe punishment of a rebellious son, but the prophets portray God as a father who cannot give up his children and calls them to return."
+      },
+      {
+        "theme": "Robe, ring and feast",
+        "refs": ["Genesis 41:42", "Zechariah 3:3-5", "Isaiah 61:10"],
+        "note": "Pharaoh honored Joseph with a ring and robe; God clothes the high priest and his people in new garments. The father's gifts restore full sonship."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 15 is one of the best-known chapters in the Bible, at the center of the travel narrative. The three parables form a single answer to the Pharisees' complaint in verse 2. The first two (a man and a woman) are paired, as Luke often does; the third is longer and has a second half about the elder brother that has no resolution. For a son to ask for his inheritance while his father lived was deeply shameful, and for a dignified older man to run was undignified; both details heighten the father's grace.",
+      "flow": [
+        { "verses": "1-2", "label": "The complaint", "note": "Tax collectors and sinners draw near to hear Jesus; the Pharisees and scribes grumble that he receives sinners and eats with them." },
+        { "verses": "3-7", "label": "The lost sheep", "note": "A shepherd leaves the ninety-nine to find one lost sheep, carries it home on his shoulders and calls friends to rejoice; there is more joy in heaven over one repenting sinner." },
+        { "verses": "8-10", "label": "The lost coin", "note": "A woman lights a lamp and sweeps until she finds a lost silver coin, and rejoices with her neighbors; there is joy before the angels over one sinner who repents." },
+        { "verses": "11-24", "label": "The lost son", "note": "A younger son takes his inheritance, wastes it, hits bottom feeding pigs, comes to himself and returns; his father runs to him, embraces him, restores him with robe, ring and shoes, and throws a feast." },
+        { "verses": "25-32", "label": "The elder brother", "note": "The elder son refuses to come in, complaining of years of service; the father goes out to him, assures him all he has is his, and pleads that it was right to celebrate: 'this thy brother was dead, and is alive again.'" }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Ezekiel 34:11-16", "from": "4-6", "note": "'I will seek that which was lost, and bring again that which was driven away.'" },
+        { "ref": "Matthew 18:12-14", "from": "4-7", "note": "Matthew's version of the lost sheep, applied to care for 'little ones' in the church." },
+        { "ref": "Hosea 11:8", "from": "20", "note": "'How shall I give thee up, Ephraim?... my repentings are kindled together.' God's compassion for his wayward son." },
+        { "ref": "Psalm 103:13", "from": "20", "note": "'Like as a father pitieth his children, so the LORD pitieth them that fear him.'" }
+      ],
+      "tier3": [
+        { "ref": "Genesis 33:4", "from": "20", "note": "Esau ran to meet Jacob, embraced him, fell on his neck and kissed him, nearly the same words used of the father." },
+        { "ref": "Leviticus 11:7", "from": "15-16", "note": "Pigs were unclean. Feeding them, and longing to eat their food, shows how far the son had fallen." },
+        { "ref": "Romans 5:8", "from": "20-24", "note": "God shows his love in that while we were still sinners, Christ died for us." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Tim Keller",
+        "work": "The Prodigal God",
+        "view": "Keller argues that the parable is about two lost sons: the younger lost through rebellion and the elder lost through self-righteous moralism. Both want the father's things rather than the father himself. 'Prodigal' means recklessly extravagant, and the most prodigal figure is the father, whose grace is lavish."
+      },
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "The Cross and the Prodigal",
+        "view": "Bailey argued that a Middle Eastern father who ran in public would humiliate himself, and that the father takes on that shame to reach his son before the village could reject him. He saw the father's costly, self-humbling love as pointing to the cross."
+      },
+      {
+        "name": "Henri Nouwen",
+        "work": "The Return of the Prodigal Son",
+        "view": "Reflecting on Rembrandt's painting, Nouwen wrote of seeing himself first in the younger son, then in the resentful elder son, and finally being called to become like the compassionate father, welcoming others home."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
+        "renderings": [
+          { "version": "ESV", "text": "felt compassion, and ran and embraced him and kissed him" },
+          { "version": "NIV", "text": "ran to his son, threw his arms around him and kissed him" }
+        ],
+        "note": "'Fell on his neck' is a literal Hebrew-style expression for an embrace. The verb for 'kissed' is an intensive form: he kissed him warmly and fervently. The son does not even finish his prepared speech before the father calls for the robe (v21-22)."
+      },
+      {
+        "verse": "7",
+        "kjv": "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.",
+        "renderings": [
+          { "version": "ESV", "text": "ninety-nine righteous persons who need no repentance" },
+          { "version": "NIV", "text": "ninety-nine righteous persons who do not need to repent" }
+        ],
+        "note": "The phrase is gently ironic. No one truly needs no repentance; Jesus is addressing those who consider themselves righteous (compare 5:31-32; 18:9)."
+      }
+    ],
+    "gospel": "This chapter answers the charge 'This man receiveth sinners' by saying, in effect, yes, because that is what God is like. The shepherd seeks the sheep until he finds it and carries it home; the woman searches the house until the coin is found; the father runs to the son while he is still far off, before he can finish his confession (v20-22). The lost do not save themselves; they are found. Restoration is free and complete, with robe, ring, shoes and a feast. And the father goes out to plead with the elder brother as well, inviting the self-righteous to join the celebration of grace.",
+    "application": [
+      "If you are far from God, come home. The Father is watching and will run to meet you.",
+      "Rejoice when sinners repent, rather than resenting God's generosity.",
+      "Examine whether you relate to God like the elder son, serving out of duty while resenting his grace.",
+      "Seek the lost with the persistence of the shepherd and the woman.",
+      "Welcome repentant people back fully, as the father restored his son."
+    ],
+    "misapplications": [
+      {
+        "claim": "The parable of the prodigal son shows God accepts people without any need for repentance.",
+        "correction": "Each parable ends with joy over a sinner who 'repenteth' (v7, 10), and the son 'came to himself' and returned (v17-20). The father's grace is free, but the son comes home."
+      },
+      {
+        "claim": "The elder brother represents faithful Christians, so his complaint is justified.",
+        "correction": "The elder brother pictures the grumbling Pharisees of verse 2. His service was joyless ('these many years do I serve thee'), and he stands outside the feast. The story ends with him needing to come in."
+      },
+      {
+        "claim": "Since the father didn't punish the son, sin has no consequences.",
+        "correction": "The son wasted his inheritance and suffered famine and degradation (v13-16). Grace restores relationship; it does not pretend sin did no harm."
+      }
+    ],
+    "contrasts": [
+      { "a": "One lost", "b": "Ninety-nine safe", "verses": "4-7", "note": "God's love is personal; one matters." },
+      { "a": "Dead", "b": "Alive again", "verses": "24, 32", "note": "Repentance and restoration are a kind of resurrection." },
+      { "a": "The younger son's rebellion", "b": "The elder son's resentment", "verses": "12-13, 28-30", "note": "Two ways of being far from the father's heart." },
+      { "a": "The father runs out", "b": "The father goes out", "verses": "20, 28", "note": "He seeks both sons, the wayward and the self-righteous." }
+    ],
+    "features": [
+      { "label": "A parable trilogy", "note": "The three parables escalate: one of a hundred, one of ten, one of two. The proportion lost grows, and so does the story's emotional weight." },
+      { "label": "An open ending", "note": "The story ends without telling whether the elder brother went in. The Pharisees, the elder brothers in Jesus' audience, must supply the ending." },
+      { "label": "Robe, ring, shoes, calf", "note": "The best robe signals honor, the ring authority, shoes the status of a son (servants went barefoot), and the fatted calf a feast for the whole village." },
+      { "label": "Came to himself", "note": "The turning point of the younger son's story is an inner change (v17) before he gets up and goes (v18, 20): repentance in thought and action." }
+    ],
+    "summary": "Luke 15 answers the charge that Jesus welcomes sinners with three parables showing God's seeking, rejoicing love for the lost. A shepherd, a woman and a father go to great lengths to recover what was lost and celebrate when it is found. The story of the two sons also exposes the self-righteousness that resents grace, inviting every hearer to come into the Father's feast.",
+    "metaArc": {
+      "book": "Chapter 15 sits at the heart of the journey to Jerusalem and of Luke's message, expressing his central theme that Jesus came to seek and to save the lost (19:10).",
+      "redemptive": "The chapter pictures the whole sweep of Redemption: humanity gone far from the Father, the Father's costly, seeking love, and the joyful feast of restoration."
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "ref": "LUK.11",
+  "book": "Luke",
+  "chapter": 11,
+  "title": "Lord, Teach Us to Pray",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus teaches his disciples to pray to God as Father, to ask boldly, and to expect the Father to give the Holy Spirit. When accused of casting out demons by Beelzebul, he shows that he drives them out 'with the finger of God' as the stronger man who overpowers Satan. He warns a sign-seeking generation, and exposes the religious leaders who clean the outside while neglecting justice and the love of God.",
+  "keyVerses": ["2-4", "9-10", "13", "20"],
+  "steps": {
+    "language": [
+      {
+        "word": "πατήρ",
+        "translit": "patēr",
+        "strongs": "G3962",
+        "gloss": "father",
+        "verses": "2, 11, 13",
+        "note": "In the oldest manuscripts Luke's prayer begins simply 'Father,' likely reflecting the Aramaic 'Abba' Jesus used (Mark 14:36). Jesus invites his disciples to share his own way of addressing God, and Paul says the Spirit enables believers to cry 'Abba, Father' (Romans 8:15)."
+      },
+      {
+        "word": "ἀναίδεια",
+        "translit": "anaideia",
+        "strongs": "G335",
+        "gloss": "shamelessness, boldness",
+        "verses": "8",
+        "note": "Used only here in the New Testament. The KJV's 'importunity' suggests persistence, but the word means lack of shame. Whether it describes the asker's bold request or the sleeping friend's desire to avoid shame is debated; either way, the point is that God is far more willing than a reluctant neighbor."
+      },
+      {
+        "word": "δάκτυλος",
+        "translit": "daktylos",
+        "strongs": "G1147",
+        "gloss": "finger",
+        "verses": "20",
+        "note": "'If I with the finger of God cast out devils, no doubt the kingdom of God is come upon you.' Pharaoh's magicians confessed 'This is the finger of God' (Exodus 8:19). The parallel in Matthew 12:28 says 'by the Spirit of God.'"
+      },
+      {
+        "word": "ἰσχυρός",
+        "translit": "ischyros",
+        "strongs": "G2478",
+        "gloss": "strong, mighty",
+        "verses": "21-22",
+        "note": "Satan is the strong man guarding his house; Jesus is 'a stronger than he' who overpowers him and divides his spoil. John called the coming one 'mightier than I' using the same word (3:16)."
+      },
+      {
+        "word": "οὐαί",
+        "translit": "ouai",
+        "strongs": "G3759",
+        "gloss": "woe",
+        "verses": "42-52",
+        "note": "Six woes, three to the Pharisees and three to the lawyers (experts in the law). They expose religion that is careful about small things and neglects justice, love, humility and helping others bear their burdens."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Hallowing God's name",
+        "refs": ["Exodus 20:7", "Ezekiel 36:22-27", "Isaiah 29:23"],
+        "note": "God promised to sanctify his great name by cleansing his people and giving them his Spirit. The prayer asks God to do it."
+      },
+      {
+        "theme": "Daily bread",
+        "refs": ["Exodus 16:4, 16-21", "Proverbs 30:8-9"],
+        "note": "Manna was given day by day. Asking for daily bread expresses daily dependence on God."
+      },
+      {
+        "theme": "The sign of Jonah",
+        "refs": ["Jonah 3:4-10", "Matthew 12:39-41", "1 Kings 10:1-10"],
+        "note": "Nineveh repented at Jonah's preaching, and the queen of Sheba came to hear Solomon. Jesus is greater than both, yet his generation does not repent."
+      },
+      {
+        "theme": "The blood of the prophets",
+        "refs": ["Genesis 4:8-10", "2 Chronicles 24:20-22", "Acts 7:52"],
+        "note": "From Abel to Zechariah, the first and last murders in the Hebrew Bible's order, God's messengers were killed."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 11 continues the journey to Jerusalem. Luke's version of the Lord's Prayer is shorter than Matthew's, and is prompted by a disciple's request after seeing Jesus pray. The rest of the chapter builds in conflict: the Beelzebul accusation, the demand for a sign, and a meal at a Pharisee's house where Jesus' failure to wash before eating leads to sharp rebukes. By the end the scribes and Pharisees begin to lie in wait to catch him.",
+      "flow": [
+        { "verses": "1-4", "label": "The Lord's Prayer", "note": "Jesus teaches: Father, hallowed be your name, your kingdom come; give us daily bread; forgive us as we forgive; lead us not into temptation." },
+        { "verses": "5-13", "label": "Ask, seek, knock", "note": "A friend at midnight gets bread because of his boldness; ask and it will be given; if evil fathers give good gifts, how much more will the heavenly Father give the Holy Spirit." },
+        { "verses": "14-26", "label": "The finger of God", "note": "Accused of casting out demons by Beelzebul, Jesus says a divided kingdom falls; he casts them out by God's finger as the stronger man; whoever is not with him is against him." },
+        { "verses": "27-28", "label": "Truly blessed", "note": "A woman blesses Jesus' mother; he says, rather, blessed are those who hear the word of God and keep it." },
+        { "verses": "29-36", "label": "The sign of Jonah and the lamp", "note": "This generation will receive only the sign of Jonah; something greater than Solomon and Jonah is here; let your whole body be full of light." },
+        { "verses": "37-54", "label": "Woes on Pharisees and lawyers", "note": "At a Pharisee's table Jesus condemns outward cleanness without inner justice and love, and burdens laid on others; the leaders begin to press him hard." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 8:19", "from": "20", "note": "'This is the finger of God,' said Pharaoh's magicians when they could not copy Moses' sign." },
+        { "ref": "Jonah 3:5", "from": "30, 32", "note": "The people of Nineveh believed God and repented at Jonah's preaching." },
+        { "ref": "1 Kings 10:1", "from": "31", "note": "The queen of Sheba came to test Solomon's wisdom." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 6:9-13", "from": "2-4", "note": "Matthew's longer form of the Lord's Prayer within the Sermon on the Mount." },
+        { "ref": "Matthew 7:7-11", "from": "9-13", "note": "Matthew's parallel ends 'good things'; Luke says the Father will give 'the Holy Spirit,' anticipating Pentecost." },
+        { "ref": "Isaiah 49:24-26", "from": "21-22", "note": "'Shall the prey be taken from the mighty?' God promises to rescue captives from the strong." },
+        { "ref": "Micah 6:8", "from": "42", "note": "'Do justly, and to love mercy, and to walk humbly with thy God,' the weightier matters the Pharisees neglected." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 4:8-10", "from": "51", "note": "Abel's blood cried out from the ground." },
+        { "ref": "2 Chronicles 24:20-22", "from": "51", "note": "Zechariah son of Jehoiada was stoned in the temple court, saying 'The LORD look upon it, and require it.'" },
+        { "ref": "Proverbs 20:27", "from": "34-36", "note": "'The spirit of man is the candle of the LORD.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Poet and Peasant",
+        "view": "Bailey argued that anaideia in verse 8 refers to the sleeping neighbor's desire to avoid shame. In village culture, refusing hospitality would bring disgrace on the whole community, so the neighbor gets up to protect his honor. The parable then teaches that God, whose honor is at stake in his promises, can be trusted to answer."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Harmony of the Evangelists",
+        "view": "Calvin taught that Jesus gave the Lord's Prayer as a pattern for all prayer rather than a fixed formula to be recited mechanically. He stressed that addressing God as Father gives believers confidence, since they come to him as children adopted in Christ."
+      },
+      {
+        "name": "Leon Morris",
+        "work": "Luke (Tyndale New Testament Commentaries)",
+        "view": "Morris notes that the woes are aimed at religion that substitutes careful rule-keeping for love toward God and people. He observes that Jesus does not reject tithing but says the weightier matters must not be left undone (v42)."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And he said unto them, When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth.",
+        "renderings": [
+          { "version": "ESV", "text": "Father, hallowed be your name. Your kingdom come." },
+          { "version": "NIV", "text": "Father, hallowed be your name, your kingdom come." }
+        ],
+        "note": "The oldest manuscripts give a shorter prayer: 'Father' rather than 'Our Father which art in heaven,' and without 'thy will be done.' Later scribes filled it out to match Matthew 6:9-10. Jesus may well have taught the prayer more than once in different forms."
+      },
+      {
+        "verse": "8",
+        "kjv": "I say unto you, Though he will not rise and give him, because he is his friend, yet because of his importunity he will rise and give him as many as he needeth.",
+        "renderings": [
+          { "version": "ESV", "text": "yet because of his impudence he will rise" },
+          { "version": "NIV", "text": "yet because of your shameless audacity he will surely get up" }
+        ],
+        "note": "'Importunity' means persistent asking, but anaideia means shamelessness. ESV and NIV keep that sense. The parable is less about wearing God down than about the bold confidence a friend can have."
+      }
+    ],
+    "gospel": "Jesus invites his disciples to call God 'Father' as he does, and to ask for forgiveness of sins, daily provision and protection. The Father's best gift is the Holy Spirit (v13). In casting out demons Jesus shows that he is the stronger man who invades Satan's house and frees his captives (v21-22); the kingdom of God has come. The only sign given to this generation is Jonah, the prophet whose preaching brought Nineveh to repentance, and whom Matthew connects with Jesus' three days in the grave (Matthew 12:40). Someone greater than Solomon and Jonah is here.",
+    "application": [
+      "Pray to God as your Father, with the confidence of a child.",
+      "Let the Lord's Prayer shape your priorities: God's name and kingdom first, then daily needs, forgiveness and protection.",
+      "Ask boldly. God is not a reluctant neighbor but a generous Father.",
+      "Do not stay neutral about Jesus. 'He that is not with me is against me' (v23).",
+      "Attend to the heart, justice and the love of God, not only outward religious practice."
+    ],
+    "misapplications": [
+      {
+        "claim": "Persistent prayer means nagging God until he gives in.",
+        "correction": "The parable contrasts God with a reluctant friend. God is a Father who gives good gifts (v11-13); boldness in prayer rests on his goodness, not on wearing him down."
+      },
+      {
+        "claim": "Ask, seek, knock means God will give whatever we request.",
+        "correction": "Jesus focuses the promise on the Father giving good gifts, above all the Holy Spirit (v13). God answers as a wise Father, not a vending machine."
+      },
+      {
+        "claim": "Jesus' woes show that outward religious practices like tithing do not matter.",
+        "correction": "'These ought ye to have done, and not to leave the other undone' (v42). Jesus condemns neglecting justice and love, not obedience in small things."
+      }
+    ],
+    "contrasts": [
+      { "a": "Evil fathers", "b": "The heavenly Father", "verses": "13", "note": "If flawed human parents give good gifts, how much more will God." },
+      { "a": "The strong man", "b": "The stronger one", "verses": "21-22", "note": "Jesus overpowers Satan and plunders his house." },
+      { "a": "Outside of the cup", "b": "Inside full of greed", "verses": "39", "note": "Outward cleanness cannot hide inward corruption." },
+      { "a": "The key of knowledge", "b": "Hindering those who would enter", "verses": "52", "note": "The lawyers locked the door to understanding Scripture's true meaning." }
+    ],
+    "features": [
+      { "label": "Prompted by Jesus' prayer", "note": "The disciples ask to be taught after watching Jesus pray (v1), a sign of how his own prayer life shaped them." },
+      { "label": "How much more", "note": "Jesus argues from the lesser to the greater (v13), a common Jewish style of reasoning." },
+      { "label": "The empty house", "note": "A demon returns with seven worse to a house swept but empty (v24-26). Moral reform without being filled with God leaves a person worse off." },
+      { "label": "Six woes", "note": "Three to Pharisees (v42-44) and three to lawyers (v46-52), balanced like the blessings and woes of chapter 6." }
+    ],
+    "summary": "Luke 11 teaches disciples to pray to God as Father with bold confidence, trusting him to give the Holy Spirit. Jesus' power over demons shows the kingdom has come in him, the stronger one who defeats Satan, and he calls his generation to repent at a greater message than Jonah's. The chapter ends by exposing hypocritical religion that cleans the outside and neglects justice and the love of God.",
+    "metaArc": {
+      "book": "Chapter 11 continues the discipleship teaching of the journey, turning from neighbor-love and devotion (chapter 10) to prayer, and marks a sharp rise in opposition from the religious leaders that grows through the following chapters.",
+      "redemptive": "The chapter shows Redemption as God's kingdom invading Satan's domain, freeing captives and bringing people into the Father's family."
+    }
+  }
+}

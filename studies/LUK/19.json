@@ -1,0 +1,176 @@
+{
+  "ref": "LUK.19",
+  "book": "Luke",
+  "chapter": 19,
+  "title": "To Seek and to Save That Which Was Lost",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "In Jericho Jesus calls the despised chief tax collector Zacchaeus, whose changed life shows that salvation has come to his house. Through the parable of the minas Jesus warns that the kingdom will not appear at once and that the king's servants must be faithful while he is away. He enters Jerusalem as the humble King on a colt, weeps over the city that did not recognize the time of its visitation, and cleanses the temple.",
+  "keyVerses": ["9-10", "38", "41-42", "44"],
+  "steps": {
+    "language": [
+      {
+        "word": "ζητέω",
+        "translit": "zēteō",
+        "strongs": "G2212",
+        "gloss": "to seek, look for",
+        "verses": "3, 10",
+        "note": "Zacchaeus 'sought to see Jesus' (v3), but the climax is that 'the Son of man is come to seek' the lost (v10). Behind Zacchaeus' seeking is the greater seeking of Jesus, who stops and calls him by name."
+      },
+      {
+        "word": "σωτηρία",
+        "translit": "sōtēria",
+        "strongs": "G4991",
+        "gloss": "salvation",
+        "verses": "9",
+        "note": "'This day is salvation come to this house.' It comes when Jesus does, and it shows itself in Zacchaeus' generosity and restitution. Luke is the only Synoptic Gospel to use this noun, which he introduced in Zechariah's song (1:69, 71, 77)."
+      },
+      {
+        "word": "μνᾶ",
+        "translit": "mna",
+        "strongs": "G3414",
+        "gloss": "mina, a sum of money",
+        "verses": "13-25",
+        "note": "A mina was about a hundred days' wages. Each servant receives the same amount, unlike the talents in Matthew 25. The parable stresses faithfulness with what has been entrusted while the king is away."
+      },
+      {
+        "word": "κλαίω",
+        "translit": "klaiō",
+        "strongs": "G2799",
+        "gloss": "to weep, wail aloud",
+        "verses": "41",
+        "note": "A word for loud weeping, not quiet tears. As the crowd rejoices, Jesus weeps over Jerusalem, foreseeing its destruction. The King comes in judgment's shadow with a broken heart."
+      },
+      {
+        "word": "ἐπισκοπή",
+        "translit": "episkopē",
+        "strongs": "G1984",
+        "gloss": "visitation, gracious coming",
+        "verses": "44",
+        "note": "Jerusalem did not know 'the time of thy visitation.' Zechariah had sung that God 'hath visited' his people (1:68). God came in Jesus, and the city missed him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Restitution",
+        "refs": ["Exodus 22:1", "Leviticus 6:1-5", "Numbers 5:6-7"],
+        "note": "The law required repayment plus a fifth for fraud, and fourfold or fivefold for stolen livestock. Zacchaeus volunteers the highest penalty."
+      },
+      {
+        "theme": "Shepherd seeking the lost",
+        "refs": ["Ezekiel 34:16", "Luke 15:4-7", "1 Timothy 1:15"],
+        "note": "'I will seek that which was lost.' Jesus' mission statement in verse 10 echoes Ezekiel's promise that God himself would shepherd his people."
+      },
+      {
+        "theme": "The humble King on a colt",
+        "refs": ["Zechariah 9:9", "Genesis 49:10-11", "1 Kings 1:33-40"],
+        "note": "Zechariah foresaw Zion's king coming 'lowly, and riding upon an ass.' Solomon rode David's mule to his coronation."
+      },
+      {
+        "theme": "A house of prayer",
+        "refs": ["Isaiah 56:7", "Jeremiah 7:11", "Malachi 3:1-3"],
+        "note": "The temple was meant to be a house of prayer for all peoples, but had become a den of robbers. The Lord suddenly comes to his temple."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 19 concludes the journey to Jerusalem (9:51-19:44). Jericho was a wealthy city on the trade route, and as a chief tax collector Zacchaeus would have profited from collecting taxes for Rome through those under him. The parable of the minas may allude to Archelaus, son of Herod, who traveled to Rome to receive his kingdom while a delegation of his subjects protested against him. Jesus' approach from the Mount of Olives fulfills prophetic expectations of the Lord's coming to Jerusalem.",
+      "flow": [
+        { "verses": "1-10", "label": "Zacchaeus", "note": "A short chief tax collector climbs a sycamore to see Jesus; Jesus invites himself to his house; Zacchaeus gives half his goods to the poor and repays fourfold; 'This day is salvation come to this house.'" },
+        { "verses": "11-27", "label": "The parable of the minas", "note": "Because people thought the kingdom would appear immediately, Jesus tells of a nobleman who goes to receive a kingdom, entrusting minas to servants; the faithful are rewarded with cities, the fearful servant loses his mina, and the rebellious citizens are judged." },
+        { "verses": "28-40", "label": "The King enters Jerusalem", "note": "Jesus rides a colt down the Mount of Olives as disciples spread garments and praise God: 'Blessed be the King that cometh in the name of the Lord'; if they were silent, the stones would cry out." },
+        { "verses": "41-44", "label": "Jesus weeps over the city", "note": "Jesus weeps that Jerusalem did not know the things that make for peace, and foretells its siege and destruction because it did not recognize the time of its visitation." },
+        { "verses": "45-48", "label": "The temple cleansed", "note": "Jesus drives out the sellers, saying his house is a house of prayer, made a den of thieves; he teaches daily as the leaders seek to destroy him." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 118:26", "from": "38", "note": "'Blessed be he that cometh in the name of the LORD.' The crowd sings the pilgrim psalm and Luke adds 'the King.'" },
+        { "ref": "Isaiah 56:7", "from": "46", "note": "'Mine house shall be called an house of prayer.'" },
+        { "ref": "Jeremiah 7:11", "from": "46", "note": "'Is this house... become a den of robbers in your eyes?'" }
+      ],
+      "tier2": [
+        { "ref": "Zechariah 9:9", "from": "30-35", "note": "The king comes to Zion lowly, riding on a donkey's colt. Luke does not quote it, but Matthew 21:5 and John 12:15 do." },
+        { "ref": "Ezekiel 34:16", "from": "10", "note": "God promised to seek the lost and bring back the strayed." },
+        { "ref": "Habakkuk 2:11", "from": "40", "note": "'The stone shall cry out of the wall.'" },
+        { "ref": "Matthew 25:14-30", "from": "11-27", "note": "The parable of the talents, a similar story with different amounts and details." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 22:1", "from": "8", "note": "Fourfold restitution for a stolen sheep." },
+        { "ref": "Zechariah 14:4", "from": "29, 37", "note": "The Lord's feet will stand on the Mount of Olives on the day of his coming." },
+        { "ref": "2 Kings 9:13", "from": "36", "note": "Garments were spread under Jehu when he was proclaimed king." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock treats verse 10 as the summary of Jesus' ministry in Luke. He sees the parable of the minas as correcting expectations of an immediate kingdom: Jesus will go away, his servants are accountable for their faithfulness in the meantime, and those who reject his rule face judgment."
+      },
+      {
+        "name": "Joel B. Green",
+        "work": "The Gospel of Luke (New International Commentary on the New Testament)",
+        "view": "Green notes that some read Zacchaeus' words in verse 8 as a description of his existing practice rather than a new resolve, defending himself against the crowd's grumbling. In either reading Jesus vindicates him publicly as a 'son of Abraham' and restores him to the community."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "38",
+        "kjv": "Saying, Blessed be the King that cometh in the name of the Lord: peace in heaven, and glory in the highest.",
+        "renderings": [
+          { "version": "ESV", "text": "Blessed is the King who comes in the name of the Lord!" },
+          { "version": "NIV", "text": "Peace in heaven and glory in the highest!" }
+        ],
+        "note": "Luke alone adds 'the King' to the psalm and has the crowd sing 'peace in heaven,' echoing the angels' song at Jesus' birth (2:14). The versions agree; the point is the echo."
+      },
+      {
+        "verse": "42",
+        "kjv": "Saying, If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.",
+        "renderings": [
+          { "version": "ESV", "text": "the things that make for peace!" },
+          { "version": "NIV", "text": "what would bring you peace" }
+        ],
+        "note": "Jerusalem's name was associated with peace (shalom). The sentence breaks off unfinished in Greek, as if Jesus' grief interrupts him."
+      }
+    ],
+    "gospel": "Verse 10 sums up the whole Gospel: 'the Son of man is come to seek and to save that which was lost.' Jesus seeks out Zacchaeus, a collaborator despised by all, and salvation comes to his house the same day. Grace produces generosity: half his goods to the poor and fourfold restitution. Then the King enters his city, not on a warhorse but on a colt, to bring peace through his death. He weeps over those who will reject him (v41). The parable of the minas reminds his servants that the King will go away and return, and they must be faithful until he comes.",
+    "application": [
+      "Do not let anything keep you from seeking Jesus, but know that he is seeking you first.",
+      "Let grace change how you use money, including making things right with those you have wronged.",
+      "Be faithful with what Christ has entrusted to you while you wait for his return.",
+      "Praise Jesus as King, and do not let embarrassment silence you.",
+      "Share Jesus' grief for people who are missing God's visitation."
+    ],
+    "misapplications": [
+      {
+        "claim": "Zacchaeus earned salvation by giving to the poor.",
+        "correction": "Jesus called him before he gave anything (v5). His generosity is the fruit of welcoming Jesus, and Jesus explains it by his own mission to seek and save (v10)."
+      },
+      {
+        "claim": "The parable of the minas is mainly about financial investment.",
+        "correction": "The money stands for whatever the king entrusts to his servants. The parable is about faithful service while the king is away and the judgment of those who reject his reign (v14, 27)."
+      },
+      {
+        "claim": "Jesus' cleansing of the temple shows he rejected worship in the temple.",
+        "correction": "He cleanses it so it can be a house of prayer (v46), and he teaches there daily (v47). He opposes its corruption, not its purpose."
+      }
+    ],
+    "contrasts": [
+      { "a": "The crowd grumbles", "b": "Jesus calls him a son of Abraham", "verses": "7, 9", "note": "Public rejection becomes public restoration." },
+      { "a": "Faithful servants", "b": "Fearful servant", "verses": "16-21", "note": "Fear of the master led to inaction; trust led to fruitfulness." },
+      { "a": "The crowd rejoices", "b": "Jesus weeps", "verses": "37, 41", "note": "Jesus sees what the crowd cannot: the city's coming ruin." },
+      { "a": "House of prayer", "b": "Den of thieves", "verses": "46", "note": "God's purpose for his house, and what it had become." }
+    ],
+    "features": [
+      { "label": "Today", "note": "Jesus says 'to day I must abide at thy house' and 'this day is salvation come' (v5, 9). The 'must' expresses divine necessity, as in 2:49 and 9:22." },
+      { "label": "A political parable", "note": "A nobleman going to a far country to receive a kingdom, and citizens sending a protest, would remind hearers of Archelaus' trip to Rome." },
+      { "label": "Stones that would cry out", "note": "If the disciples were silent, creation itself would proclaim the King (v40)." },
+      { "label": "End of the journey", "note": "The long travel narrative that began in 9:51 ends as Jesus weeps over the city and enters its temple." }
+    ],
+    "summary": "Luke 19 completes Jesus' journey to Jerusalem. He seeks and saves Zacchaeus, warns that the kingdom will come only after the King departs and returns, and enters Jerusalem as the humble King hailed by his disciples. Weeping over the city that does not recognize God's visitation, he cleanses the temple, setting the stage for his final days.",
+    "metaArc": {
+      "book": "Chapter 19 ends the travel narrative and begins the Jerusalem section (19:28-24:53). Verse 10 summarizes the purpose of Jesus' entire ministry in Luke.",
+      "redemptive": "The chapter shows Redemption personally (salvation to one house) and nationally (the King's arrival and Jerusalem's rejection), leading to the cross."
+    }
+  }
+}

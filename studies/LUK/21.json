@@ -1,0 +1,180 @@
+{
+  "ref": "LUK.21",
+  "book": "Luke",
+  "chapter": 21,
+  "title": "Your Redemption Draweth Nigh",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus praises a poor widow who gives all she has, then foretells the destruction of the temple. He warns of deceivers, wars and persecution, promises his disciples words and wisdom in their trials, and describes Jerusalem surrounded by armies and trampled by the Gentiles. Then the Son of Man will come in a cloud with power and great glory, so his followers must lift up their heads, stay awake and pray.",
+  "keyVerses": ["3-4", "19", "27-28", "36"],
+  "steps": {
+    "language": [
+      {
+        "word": "λεπτόν",
+        "translit": "lepton",
+        "strongs": "G3016",
+        "gloss": "a small copper coin, mite",
+        "verses": "2",
+        "note": "The smallest coin in circulation, worth a tiny fraction of a day's wage. The widow gives two, 'all the living that she had' (v4). God measures a gift by what it costs the giver, not by its size."
+      },
+      {
+        "word": "ἐρήμωσις",
+        "translit": "erēmōsis",
+        "strongs": "G2050",
+        "gloss": "desolation, devastation",
+        "verses": "20",
+        "note": "'When ye shall see Jerusalem compassed with armies, then know that the desolation thereof is nigh.' Matthew and Mark speak of the 'abomination of desolation' from Daniel; Luke explains it plainly as Jerusalem besieged, as happened when Rome destroyed the city in AD 70."
+      },
+      {
+        "word": "ὑπομονή",
+        "translit": "hypomonē",
+        "strongs": "G5281",
+        "gloss": "patient endurance",
+        "verses": "19",
+        "note": "'In your patience possess ye your souls.' Endurance under persecution is the path by which disciples gain true life, trusting that 'there shall not an hair of your head perish' (v18) in the ultimate sense."
+      },
+      {
+        "word": "ἀπολύτρωσις",
+        "translit": "apolytrōsis",
+        "strongs": "G629",
+        "gloss": "redemption, release",
+        "verses": "28",
+        "note": "The only use of this word in the Gospels. When the cosmic signs begin, believers are to look up, because their final deliverance is near. Paul uses it for the 'redemption of our body' at the resurrection (Romans 8:23)."
+      },
+      {
+        "word": "γενεά",
+        "translit": "genea",
+        "strongs": "G1074",
+        "gloss": "generation, age, kind",
+        "verses": "32",
+        "note": "'This generation shall not pass away, till all be fulfilled.' Interpreters debate whether it means Jesus' contemporaries (who saw Jerusalem's fall), the generation alive at the end, or the human race or Israel as a 'kind' of people."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The fall of Jerusalem",
+        "refs": ["Jeremiah 7:12-14", "Micah 3:12", "Daniel 9:26"],
+        "note": "The prophets warned that God's house could be destroyed when his people rejected him. Jeremiah's warnings came true in 586 BC; Jesus foretells it again."
+      },
+      {
+        "theme": "Cosmic signs",
+        "refs": ["Isaiah 13:10", "Joel 2:30-31", "Haggai 2:6"],
+        "note": "Prophetic language of sun, moon, stars and roaring seas describes God's great acts of judgment and the end of the age."
+      },
+      {
+        "theme": "The Son of Man coming on the clouds",
+        "refs": ["Daniel 7:13-14", "Acts 1:11", "Revelation 1:7"],
+        "note": "Daniel's vision of the Son of Man receiving an everlasting kingdom. The angels at the ascension promise Jesus will return in the same way."
+      },
+      {
+        "theme": "Watch and pray",
+        "refs": ["Luke 12:35-40", "1 Thessalonians 5:1-8", "1 Peter 4:7"],
+        "note": "Because the timing is unknown, believers are to live alert and sober."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 21 concludes Jesus' teaching in the temple. Prompted by people admiring the temple's beautiful stones, he gives his 'Olivet discourse' (parallel to Matthew 24 and Mark 13). Luke's version distinguishes more clearly between the destruction of Jerusalem (v20-24), which happened in AD 70, and the coming of the Son of Man (v25-28), separated by 'the times of the Gentiles.' Christians have read the discourse in preterist, futurist and mixed ways; most see it as addressing both the near event of AD 70 and the final coming, the first foreshadowing the second.",
+      "flow": [
+        { "verses": "1-4", "label": "The widow's offering", "note": "Jesus says a poor widow who gave two small coins gave more than all the rich, for she gave all she had." },
+        { "verses": "5-9", "label": "The temple's end foretold", "note": "Not one stone will be left on another; do not be deceived by false messiahs or terrified by wars, for the end is not immediate." },
+        { "verses": "10-19", "label": "Persecution and witness", "note": "Nations will rise, earthquakes and famines come, but before all this you will be persecuted; it will be an opportunity to testify; I will give you words and wisdom; by your endurance you will gain your lives." },
+        { "verses": "20-24", "label": "Jerusalem surrounded", "note": "When you see armies around Jerusalem, flee; these are days of vengeance; Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled." },
+        { "verses": "25-28", "label": "The Son of Man comes", "note": "Signs in sun, moon and stars and the roaring sea; then they will see the Son of Man coming in a cloud with power and great glory; lift up your heads." },
+        { "verses": "29-38", "label": "The fig tree and watchfulness", "note": "As leaves show summer is near, these signs show the kingdom is near; heaven and earth will pass away but my words will not; watch and pray always." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Daniel 7:13", "from": "27", "note": "'One like the Son of man came with the clouds of heaven.' Jesus applies the vision to his coming." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 24:1-51; Mark 13:1-37", "from": "5-36", "note": "The parallel versions of the discourse on the Mount of Olives." },
+        { "ref": "Isaiah 13:10; 34:4", "from": "25-26", "note": "The stars and constellations darkened and the heavens shaken in the day of the LORD." },
+        { "ref": "Daniel 9:26", "from": "20, 24", "note": "The people of a coming prince will destroy the city and the sanctuary." },
+        { "ref": "Acts 4:8-14; 6:10", "from": "14-15", "note": "Peter, John and Stephen spoke with Spirit-given wisdom their opponents could not resist, fulfilling Jesus' promise." }
+      ],
+      "tier3": [
+        { "ref": "Mark 12:41-44", "from": "1-4", "note": "Mark's account of the widow's offering." },
+        { "ref": "Isaiah 40:8", "from": "33", "note": "'The grass withereth... but the word of our God shall stand for ever.'" },
+        { "ref": "Romans 11:25", "from": "24", "note": "Partial hardening has come on Israel 'until the fulness of the Gentiles be come in.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Josephus",
+        "work": "The Jewish War, Books 5-6",
+        "view": "The first-century Jewish historian Josephus, though not a Christian commentator, gives an eyewitness account of the Roman siege and destruction of Jerusalem in AD 70: the city surrounded, famine within, the temple burned and much of the population killed or enslaved. His account shows how closely Jesus' warnings in verses 20-24 matched what happened."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock argues that Luke's version separates the fall of Jerusalem from the end of the age more clearly than Matthew or Mark. The destruction of AD 70 serves as a preview and pattern of the final judgment, and the 'times of the Gentiles' mark the interval between them."
+      },
+      {
+        "name": "N. T. Wright",
+        "work": "Jesus and the Victory of God",
+        "view": "Wright reads much of the discourse, including the Son of Man 'coming,' as Jesus' vindication against the temple system, fulfilled in the events of AD 70, using Daniel's language of exaltation rather than describing a descent to earth. Others agree on AD 70 for verses 20-24 but hold that verses 25-28 describe the second coming."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "19",
+        "kjv": "In your patience possess ye your souls.",
+        "renderings": [
+          { "version": "ESV", "text": "By your endurance you will gain your lives." },
+          { "version": "NIV", "text": "Stand firm, and you will win life." }
+        ],
+        "note": "'Patience' means endurance, and 'souls' means lives. Some manuscripts read the command 'gain' and others the promise 'you will gain'; modern versions follow the promise."
+      },
+      {
+        "verse": "32",
+        "kjv": "Verily I say unto you, This generation shall not pass away, till all be fulfilled.",
+        "renderings": [
+          { "version": "ESV", "text": "this generation will not pass away until all has taken place" },
+          { "version": "NIV", "text": "will certainly not pass away until all these things" }
+        ],
+        "note": "The translations agree; the debate is about meaning. Many see 'all' as the events around Jerusalem's fall, which that generation saw, with the final coming foreshadowed in them. Others take 'generation' as the people alive when the end signs begin."
+      }
+    ],
+    "gospel": "Even as Jesus foretells judgment on Jerusalem, he gives his disciples promises: he will give them words and wisdom in trial (v15), not a hair of their head will perish (v18), and by endurance they will gain their lives (v19). The climax is not the city's fall but the Son of Man's coming 'with power and great glory' (v27), the vindication of the one about to be rejected and crucified. For his people that day is redemption (v28). His words will outlast heaven and earth (v33).",
+    "application": [
+      "Give generously, measuring your gifts by what they cost, not by how they look.",
+      "Do not be deceived by those who claim to know the timing of the end, or terrified by world events.",
+      "See persecution as an opportunity to testify, trusting Christ to give you words.",
+      "Lift up your head in hope. For believers, the Lord's coming means redemption.",
+      "Guard your heart against distraction, excess and worry, and pray for strength to stand before the Son of Man."
+    ],
+    "misapplications": [
+      {
+        "claim": "Wars and earthquakes show that the end will come immediately.",
+        "correction": "Jesus says these things 'must first come to pass; but the end is not by and by' (v9). They are features of the age, not a countdown."
+      },
+      {
+        "claim": "The widow should have kept her money; Jesus is only criticizing the system.",
+        "correction": "Jesus has just condemned scribes who devour widows' houses (20:47), but here he commends her gift as greater than all (v3-4). Both the critique of exploitation and the praise of sacrificial giving stand."
+      },
+      {
+        "claim": "Since the timing is uncertain, there is no need to think about Christ's return.",
+        "correction": "The uncertainty is the reason to watch and pray always (v34-36). The day will come 'as a snare' on those who are not ready."
+      }
+    ],
+    "contrasts": [
+      { "a": "The rich who gave of their abundance", "b": "The widow who gave of her poverty", "verses": "4", "note": "God sees the heart and the cost." },
+      { "a": "Beautiful stones", "b": "Not one left on another", "verses": "5-6", "note": "Even the temple is temporary." },
+      { "a": "Men's hearts failing for fear", "b": "Lift up your heads", "verses": "26, 28", "note": "The same events bring terror to some and hope to others." },
+      { "a": "Heaven and earth pass away", "b": "My words shall not pass away", "verses": "33", "note": "Jesus' words outlast creation." }
+    ],
+    "features": [
+      { "label": "Two events distinguished", "note": "Luke's version separates the siege of Jerusalem (v20-24) from the cosmic signs and the Son of Man's coming (v25-28), with 'the times of the Gentiles' between." },
+      { "label": "Persecution first", "note": "'Before all these' (v12) Jesus warns of persecution, which Acts describes in detail." },
+      { "label": "A widow frames the discourse", "note": "The chapter begins with a widow's faithful offering, set against the scribes who exploit widows (20:47), before turning to the temple's end." },
+      { "label": "Daily rhythm", "note": "Jesus taught in the temple by day and lodged on the Mount of Olives by night, and the people came early to hear him (v37-38)." }
+    ],
+    "summary": "Luke 21 moves from a widow's wholehearted gift to Jesus' prophecy of the temple's destruction and his return. He warns disciples against deception, prepares them for persecution with promises of his help, and foretells Jerusalem's fall, fulfilled in AD 70. Beyond it lies the coming of the Son of Man in glory, which for believers means redemption, so they must endure, watch and pray.",
+    "metaArc": {
+      "book": "Chapter 21 ends Jesus' public teaching in the temple and looks beyond the cross to the church's mission, persecution and the end. The passion narrative begins in chapter 22.",
+      "redemptive": "The chapter looks ahead to the consummation of Redemption: judgment on the old order, the Son of Man's coming in glory, and the final redemption of his people."
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "ref": "LUK.16",
+  "book": "Luke",
+  "chapter": 16,
+  "title": "Ye Cannot Serve God and Mammon",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus tells of a dishonest manager who uses his master's money shrewdly to secure his future, and urges his followers to use worldly wealth with eternity in view, because no one can serve both God and money. When the money-loving Pharisees scoff, he warns them that God knows their hearts, and tells of a rich man who ignored the beggar Lazarus at his gate and found himself in torment, beyond a great chasm.",
+  "keyVerses": ["9", "10", "13", "31"],
+  "steps": {
+    "language": [
+      {
+        "word": "φρονίμως",
+        "translit": "phronimōs",
+        "strongs": "G5430",
+        "gloss": "shrewdly, prudently",
+        "verses": "8",
+        "note": "The master praises not the manager's dishonesty but his shrewd foresight: facing a crisis, he acted decisively to secure his future. Jesus wishes 'the children of light' were as wise about eternal things as worldly people are about earthly ones."
+      },
+      {
+        "word": "μαμωνᾶς",
+        "translit": "mamōnas",
+        "strongs": "G3126",
+        "gloss": "mammon, wealth, money",
+        "verses": "9, 11, 13",
+        "note": "An Aramaic word for wealth or property. Jesus personifies it as a rival master: 'Ye cannot serve God and mammon.' Money is called 'unrighteous' because it so easily becomes the tool and object of sin, yet it can be used for God's purposes."
+      },
+      {
+        "word": "πιστός",
+        "translit": "pistos",
+        "strongs": "G4103",
+        "gloss": "faithful, trustworthy",
+        "verses": "10-12",
+        "note": "'He that is faithful in that which is least is faithful also in much.' How someone handles money, the 'least' thing, reveals whether they can be trusted with 'true riches.'"
+      },
+      {
+        "word": "ᾅδης",
+        "translit": "hadēs",
+        "strongs": "G86",
+        "gloss": "Hades, the realm of the dead",
+        "verses": "23",
+        "note": "The Greek equivalent of the Hebrew Sheol, the place of the dead. In the parable it is a place of conscious torment for the rich man, separated from Lazarus, who is comforted at Abraham's side."
+      },
+      {
+        "word": "χάσμα",
+        "translit": "chasma",
+        "strongs": "G5490",
+        "gloss": "chasm, gulf",
+        "verses": "26",
+        "note": "A 'great gulf fixed' that no one can cross. The gap the rich man refused to cross in life, between his table and the gate, has become uncrossable in death."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Care for the poor at the gate",
+        "refs": ["Deuteronomy 15:7-11", "Proverbs 21:13", "Isaiah 58:6-10", "Amos 6:4-7"],
+        "note": "The law and prophets commanded open-handed care for the poor and condemned those who feasted while ignoring them."
+      },
+      {
+        "theme": "Two masters",
+        "refs": ["Joshua 24:15", "1 Kings 18:21", "Matthew 6:24", "1 Timothy 6:9-10"],
+        "note": "God's people must choose whom they will serve. The love of money is a root of all kinds of evil."
+      },
+      {
+        "theme": "Abraham's side",
+        "refs": ["Genesis 15:15", "Matthew 8:11", "John 8:56"],
+        "note": "To be gathered to Abraham was to share in God's promised blessing. Lazarus, the poor outcast, is welcomed there."
+      },
+      {
+        "theme": "Moses and the prophets",
+        "refs": ["Luke 24:27, 44", "John 5:46-47", "2 Timothy 3:15-16"],
+        "note": "Scripture is sufficient to bring people to repentance and faith; those who reject it will not be persuaded even by a resurrection."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 16 follows the parables of the lost in chapter 15 and turns to money. Verse 14 notes that the Pharisees 'were covetous' and derided Jesus. The chapter's two parables both begin 'There was a certain rich man' (v1, 19). The parable of the dishonest manager is among the most puzzling in the Gospels, and interpreters disagree on whether the manager cancelled his own commission or simply cheated his master further. The account of the rich man and Lazarus is the only parable in which a character is named.",
+      "flow": [
+        { "verses": "1-8", "label": "The shrewd manager", "note": "About to be fired, a manager reduces his master's debtors' bills so they will welcome him; the master commends his shrewdness." },
+        { "verses": "9-13", "label": "Using wealth faithfully", "note": "Make friends with unrighteous wealth so you are welcomed into eternal dwellings; be faithful in little; you cannot serve God and money." },
+        { "verses": "14-18", "label": "The Pharisees rebuked", "note": "The money-loving Pharisees scoff; God knows their hearts and what people esteem is abomination to him; the law and prophets were until John, and the law still stands, including on divorce." },
+        { "verses": "19-31", "label": "The rich man and Lazarus", "note": "A rich man feasts daily while Lazarus lies at his gate; both die, Lazarus is carried to Abraham's side and the rich man is in torment; Abraham says no one can cross the chasm, and if his brothers will not hear Moses and the prophets, they will not be convinced even by someone rising from the dead." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Matthew 6:24", "from": "13", "note": "'No man can serve two masters... Ye cannot serve God and mammon.'" },
+        { "ref": "Amos 6:4-7", "from": "19", "note": "Woe to those who lie on beds of ivory and feast but are not grieved for the ruin of Joseph." },
+        { "ref": "1 Samuel 16:7", "from": "15", "note": "Man looks on the outward appearance, but the LORD looks on the heart." },
+        { "ref": "John 11:43-53; 12:10-11", "from": "31", "note": "When Jesus raised a man named Lazarus, some leaders responded not with faith but by plotting to kill both Jesus and Lazarus." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 14:31", "from": "20-21", "note": "Whoever oppresses the poor insults his Maker." },
+        { "ref": "Matthew 5:31-32; 19:3-9", "from": "18", "note": "Jesus' fuller teaching on divorce and remarriage." },
+        { "ref": "1 Timothy 6:17-19", "from": "9", "note": "The rich are to be generous and so lay up a good foundation for the future." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock reads the parable of the manager as commending decisive, future-oriented use of resources, not dishonesty. He sees the rich man and Lazarus as a sober warning that how one treats the poor reveals one's response to God's word, with eternal consequences."
+      },
+      {
+        "name": "Craig L. Blomberg",
+        "work": "Neither Poverty nor Riches: A Biblical Theology of Possessions",
+        "view": "Blomberg argues that Luke's teaching on wealth calls believers neither to idealize poverty nor pursue riches, but to hold possessions as stewards and give generously, especially to the poor. Money becomes dangerous when it competes with God for loyalty."
+      },
+      {
+        "name": "John Wesley",
+        "work": "'The Use of Money' (sermon on Luke 16:9)",
+        "view": "Wesley preached from verse 9 his famous threefold rule: gain all you can, save all you can, and give all you can. He argued that Christians should work honestly and live simply in order to give generously."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light.",
+        "renderings": [
+          { "version": "ESV", "text": "The master commended the dishonest manager for his shrewdness" },
+          { "version": "NIV", "text": "because he had acted shrewdly" }
+        ],
+        "note": "'The lord' is the manager's master in the story, not Jesus. 'Wisely' means shrewdly. The master admires the cleverness even while the manager remains 'unjust.'"
+      },
+      {
+        "verse": "9",
+        "kjv": "And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations.",
+        "renderings": [
+          { "version": "ESV", "text": "make friends for yourselves by means of unrighteous wealth" },
+          { "version": "NIV", "text": "use worldly wealth to gain friends for yourselves" },
+          { "version": "NKJV", "text": "make friends for yourselves by unrighteous mammon" }
+        ],
+        "note": "'When ye fail' follows manuscripts reading 'when you fail'; older ones read 'when it fails,' that is, when money runs out at death. Money cannot follow you, but its generous use can."
+      }
+    ],
+    "gospel": "Money is a test of whom we serve. The gospel calls people from serving mammon to serving God, who offers 'true riches' (v11). In the parable of the rich man and Lazarus, a poor, sick, nameless-to-the-world beggar has a name (Lazarus means 'God helps') and is carried by angels to Abraham's side, while the rich man in life had his comforts and is now beyond help. The parable's last line points to Jesus himself: if people will not hear Moses and the prophets, they will not be persuaded 'though one rose from the dead' (v31). The Scriptures point to the risen Christ, who alone can bridge the gulf.",
+    "application": [
+      "Use money with eternity in view. Invest in people and God's kingdom.",
+      "Be faithful with small amounts. It reveals your heart and shapes your character.",
+      "Decide whom you serve. Money makes a good servant and a terrible master.",
+      "Notice the 'Lazarus' at your gate, and act before it is too late.",
+      "Listen to Scripture now. It is sufficient to lead you to repentance and faith."
+    ],
+    "misapplications": [
+      {
+        "claim": "The parable of the manager endorses cheating for a good cause.",
+        "correction": "The manager is called 'unjust' (v8). Jesus commends his foresight, not his ethics, and immediately calls for faithfulness in money (v10-12)."
+      },
+      {
+        "claim": "The rich man went to torment simply for being rich, and Lazarus to comfort simply for being poor.",
+        "correction": "The rich man's problem was ignoring the poor man at his gate and the Scriptures that commanded mercy (v29-31). Abraham himself was rich. The parable warns against a heart that loves money and ignores God's word."
+      },
+      {
+        "claim": "The parable is a detailed map of the afterlife.",
+        "correction": "It is a parable with vivid imagery, so details like conversation across the chasm should not be pressed. Its main points are clear: death fixes destiny, judgment is real, and Scripture is sufficient."
+      }
+    ],
+    "contrasts": [
+      { "a": "Children of this world", "b": "Children of light", "verses": "8", "note": "Worldly people often plan more shrewdly for earthly things than believers do for eternal things." },
+      { "a": "God", "b": "Mammon", "verses": "13", "note": "Two masters who cannot both be served." },
+      { "a": "Highly esteemed among men", "b": "Abomination before God", "verses": "15", "note": "God's verdict reverses human values." },
+      { "a": "Purple and fine linen, sumptuous feasts", "b": "Sores, hunger and dogs", "verses": "19-21", "note": "A life-and-death reversal follows (v25)." }
+    ],
+    "features": [
+      { "label": "Two rich men", "note": "Both parables begin 'There was a certain rich man' (v1, 19), framing the chapter around the right and wrong uses of wealth." },
+      { "label": "The only named character", "note": "Lazarus is the only person named in any of Jesus' parables. The rich man, honored in life, is nameless." },
+      { "label": "A reversal", "note": "The parable fulfills Mary's song and the blessings and woes: the rich sent empty away, the hungry filled (1:53; 6:20-25)." },
+      { "label": "A pointed ending", "note": "'Though one rose from the dead' (v31) looks ahead to Jesus' resurrection and the unbelief that would meet it." }
+    ],
+    "summary": "Luke 16 teaches that money is a rival master that cannot be served alongside God, and that believers should use worldly wealth shrewdly and faithfully for eternal purposes. The parable of the rich man and Lazarus warns that indifference to the poor and to God's word leads to an irreversible judgment. Scripture is enough to call people to repentance, and those who will not hear it will not be persuaded even by a resurrection.",
+    "metaArc": {
+      "book": "Chapter 16 continues the travel narrative's focus on wealth (12:13-34; 18:18-30; 19:1-10), addressing the Pharisees who grumbled in chapter 15 and loved money.",
+      "redemptive": "The chapter calls God's people to live now in light of the final judgment and the New Creation, where God's reversals of rich and poor will be complete."
+    }
+  }
+}

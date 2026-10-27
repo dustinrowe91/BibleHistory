@@ -1,0 +1,181 @@
+{
+  "ref": "LUK.1",
+  "book": "Luke",
+  "chapter": 1,
+  "title": "Nothing Will Be Impossible with God",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "After centuries of prophetic silence, God breaks in with two announced births: John to the aged, childless Zechariah and Elizabeth, and Jesus, Son of the Most High, to the virgin Mary. Mary's and Zechariah's songs celebrate that God has remembered his covenant, visited his people and begun to fulfill every promise to Abraham and David.",
+  "keyVerses": ["4", "32-33", "37-38", "68-69"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἀσφάλεια",
+        "translit": "asphaleia",
+        "strongs": "G803",
+        "gloss": "certainty, firm security",
+        "verses": "4",
+        "note": "Luke's stated purpose: that Theophilus may know 'the certainty' of what he was taught. Luke writes as a careful historian who investigated eyewitness accounts (v1-3), so that faith rests on solid ground. The word sits emphatically at the end of the Greek sentence."
+      },
+      {
+        "word": "χαριτόω",
+        "translit": "charitoō",
+        "strongs": "G5487",
+        "gloss": "to bestow grace, favor highly",
+        "verses": "28",
+        "note": "Gabriel greets Mary as 'favored one,' literally 'one who has been graced.' The perfect tense points to a grace God has already given her. Paul uses the same verb of all believers being 'graced' in Christ (Ephesians 1:6)."
+      },
+      {
+        "word": "ἐπισκιάζω",
+        "translit": "episkiazō",
+        "strongs": "G1982",
+        "gloss": "to overshadow",
+        "verses": "35",
+        "note": "The power of the Most High will 'overshadow' Mary. The same word is used of the cloud at the transfiguration (9:34), and the Greek Old Testament uses a related picture for the cloud of glory that covered the tabernacle (Exodus 40:35). God's own presence will bring about this conception."
+      },
+      {
+        "word": "ῥῆμα",
+        "translit": "rhēma",
+        "strongs": "G4487",
+        "gloss": "word, thing spoken, matter",
+        "verses": "37-38",
+        "note": "Verse 37 says literally 'no word from God will be impossible.' Mary answers, 'let it be to me according to your word.' The word that cannot fail meets the faith that receives it."
+      },
+      {
+        "word": "ἐπισκέπτομαι",
+        "translit": "episkeptomai",
+        "strongs": "G1980",
+        "gloss": "to visit, look upon with care",
+        "verses": "68, 78",
+        "note": "Zechariah praises God who 'has visited and redeemed his people.' In the Old Testament God 'visited' Israel in Egypt to deliver them (Exodus 4:31). Luke returns to the word when Jesus raises a widow's son (7:16) and weeps over Jerusalem, which did not recognize 'the time of thy visitation' (19:44)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Barren women given children",
+        "refs": ["Genesis 18:11-14; 21:1-2", "Judges 13:2-5", "1 Samuel 1:1-20"],
+        "note": "Sarah, Manoah's wife and Hannah all received children God promised when it seemed impossible. Elizabeth's story follows the same pattern, and Gabriel echoes God's question to Abraham, 'Is any thing too hard for the LORD?'"
+      },
+      {
+        "theme": "The throne of David forever",
+        "refs": ["2 Samuel 7:12-16", "Isaiah 9:6-7", "Psalm 89:3-4, 28-29"],
+        "note": "God promised David a son whose kingdom would have no end. Gabriel says Jesus will receive 'the throne of his father David' and reign forever (v32-33)."
+      },
+      {
+        "theme": "Elijah's return",
+        "refs": ["Malachi 3:1; 4:5-6", "Matthew 11:14; 17:10-13"],
+        "note": "The Old Testament closes promising a messenger in the spirit of Elijah to prepare the way and turn the hearts of fathers to the children. Gabriel applies the promise to John (v17)."
+      },
+      {
+        "theme": "God lifts the humble and humbles the proud",
+        "refs": ["1 Samuel 2:1-10", "Psalm 113:7-9", "Luke 14:11; 18:14"],
+        "note": "Mary's song closely follows Hannah's. The reversal of high and low is a theme Luke returns to throughout his Gospel."
+      }
+    ],
+    "context": {
+      "setting": "Luke is the first of a two-volume work, completed by Acts (Acts 1:1), and together they make up more than a quarter of the New Testament. Early tradition names the author as Luke, the physician and traveling companion of Paul (Colossians 4:14; 2 Timothy 4:11). He writes for Theophilus, perhaps a patron or new believer, in polished Greek, opening with a formal preface like those of ancient historians. The story begins in the temple in Jerusalem in the days of Herod the Great, who died in 4 BC, and the Gospel will also end in the temple (24:53). Chapters 1-2 deliberately place the births of John and Jesus side by side, with Jesus shown to be the greater.",
+      "flow": [
+        { "verses": "1-4", "label": "Preface", "note": "Luke has carefully investigated the eyewitness accounts and writes an orderly account so Theophilus may know the certainty of what he was taught." },
+        { "verses": "5-25", "label": "John's birth announced", "note": "Gabriel appears to the priest Zechariah in the temple and announces that Elizabeth will bear a son, John, who will go before the Lord in the spirit of Elijah; Zechariah doubts and is struck mute." },
+        { "verses": "26-38", "label": "Jesus' birth announced", "note": "Gabriel tells the virgin Mary she will conceive by the Holy Spirit a son, Jesus, Son of the Most High, heir of David's throne; Mary responds, 'Behold the handmaid of the Lord.'" },
+        { "verses": "39-56", "label": "Mary visits Elizabeth", "note": "John leaps in Elizabeth's womb; filled with the Spirit, Elizabeth blesses Mary, and Mary sings the Magnificat, praising God who lifts the humble and remembers his mercy to Abraham." },
+        { "verses": "57-66", "label": "John is born and named", "note": "Neighbors expect him to be named Zechariah, but his parents name him John, and Zechariah's tongue is loosed." },
+        { "verses": "67-80", "label": "Zechariah's song", "note": "Filled with the Spirit, Zechariah blesses God for raising up a horn of salvation in David's house and calls John the prophet of the Most High who will prepare the way." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Malachi 4:5-6", "from": "17", "note": "'He shall turn the heart of the fathers to the children.' Gabriel quotes Malachi's closing promise and applies it to John." },
+        { "ref": "2 Samuel 7:12-16", "from": "32-33", "note": "God's covenant with David: a son whose throne will be established forever. Gabriel announces that Jesus is that son." },
+        { "ref": "Genesis 18:14", "from": "37", "note": "'Is any thing too hard for the LORD?' Gabriel's words to Mary echo God's to Abraham about Sarah." }
+      ],
+      "tier2": [
+        { "ref": "Isaiah 7:14", "from": "27, 31", "note": "'A virgin shall conceive, and bear a son.' Luke does not quote it, but Matthew applies it to the same event (Matthew 1:23)." },
+        { "ref": "1 Samuel 2:1-10", "from": "46-55", "note": "Hannah's song after Samuel's birth, which Mary's song follows in theme and structure." },
+        { "ref": "Genesis 12:3; 22:16-18", "from": "55, 72-73", "note": "The oath God swore to Abraham, which both songs say God is now keeping." },
+        { "ref": "Isaiah 9:2; 60:1-3", "from": "78-79", "note": "Light dawning on those who sit in darkness and the shadow of death." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 40:34-35", "from": "35", "note": "The cloud overshadowed the tabernacle and the glory of the LORD filled it." },
+        { "ref": "Numbers 6:2-3", "from": "15", "note": "The Nazirite vow included abstaining from wine; John will drink neither wine nor strong drink." },
+        { "ref": "Daniel 8:16; 9:21-27", "from": "19, 26", "note": "Gabriel appeared to Daniel at the time of the evening offering with a message about the coming of an anointed one." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock emphasizes that Luke writes to reassure Theophilus that God's plan is on course, especially that Gentile believers truly belong to the promises made to Israel. The infancy narratives establish that everything that follows fulfills God's covenant promises to Abraham and David."
+      },
+      {
+        "name": "I. Howard Marshall",
+        "work": "The Gospel of Luke (New International Greek Testament Commentary)",
+        "view": "Marshall regarded Luke as both historian and theologian, and argued that his preface shows a serious concern for accurate tradition based on eyewitnesses. He saw salvation as the central theme of Luke's work, announced from the first chapter in the songs of Mary and Zechariah."
+      },
+      {
+        "name": "J. Gresham Machen",
+        "work": "The Virgin Birth of Christ",
+        "view": "Machen defended the historical reliability of the virgin birth accounts in Luke and Matthew. He argued that Luke 1-2 is thoroughly Jewish in character, not borrowed from pagan myths, and that the virgin birth is closely tied to the church's belief in Jesus' deity."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "28",
+        "kjv": "And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women.",
+        "renderings": [
+          { "version": "ESV", "text": "Greetings, O favored one, the Lord is with you!" },
+          { "version": "NIV", "text": "Greetings, you who are highly favored!" }
+        ],
+        "note": "The Latin Vulgate's 'full of grace' shaped the traditional Hail Mary; the Greek kecharitōmenē means 'one who has been graced' by God. Older Greek manuscripts lack 'blessed art thou among women' here, though Elizabeth says it in verse 42."
+      },
+      {
+        "verse": "35",
+        "kjv": "And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+        "renderings": [
+          { "version": "ESV", "text": "the child to be born will be called holy—the Son of God" },
+          { "version": "NIV", "text": "the holy one to be born will be called" }
+        ],
+        "note": "The Greek can be read either way: 'the holy one to be born will be called Son of God' or 'the one to be born will be called holy, Son of God.' Older manuscripts lack 'of thee.' Either way, the child's holiness and divine sonship come from the Spirit's work."
+      }
+    ],
+    "gospel": "Luke 1 announces the gospel as God keeping his promises. God remembers his covenant with Abraham and his oath to David and comes himself to 'visit and redeem his people' (v68). The Son conceived by the Holy Spirit is both truly human, born of Mary, and the holy Son of God (v35), heir of a kingdom without end. Mary calls God 'my Saviour' (v47), and Zechariah sees the dawn from on high giving light to those in darkness and guiding their feet into peace (v78-79). Salvation comes by grace, received with Mary's faith: 'be it unto me according to thy word.'",
+    "application": [
+      "Ground your faith in history. Luke investigated carefully so that believers could know the certainty of what they were taught.",
+      "Bring your impossibilities to God. No word from him will fail.",
+      "Answer God's word as Mary did, with humble trust and willing surrender.",
+      "Do not mistake long delay for God's forgetfulness. Zechariah and Elizabeth waited for decades, and Israel for centuries.",
+      "Let your worship be shaped by Scripture. Mary's and Zechariah's songs are woven from the Psalms and Prophets."
+    ],
+    "misapplications": [
+      {
+        "claim": "Zechariah's doubt and Mary's question show the same lack of faith.",
+        "correction": "Zechariah asked for proof ('Whereby shall I know this?') and was disciplined; Mary asked how it would happen and then submitted (v18, 34, 38). Faith can ask questions while trusting God's word."
+      },
+      {
+        "claim": "The virgin birth is a pious legend that doesn't matter to the faith.",
+        "correction": "Luke presents it as part of his carefully investigated account (v1-4), and it is tied to Jesus' identity as the holy Son of God (v35). The church has confessed it from the earliest creeds."
+      },
+      {
+        "claim": "Mary's song shows God simply favors the poor and opposes the rich as social classes.",
+        "correction": "The song contrasts those who fear God (v50) with the proud in heart (v51). Luke does stress God's care for the poor and warns the rich, but the deeper divide is between humble dependence on God and proud self-reliance."
+      }
+    ],
+    "contrasts": [
+      { "a": "Zechariah's doubt", "b": "Mary's faith", "verses": "18-20, 38", "note": "An experienced priest in the temple doubts; a young woman in an obscure village believes." },
+      { "a": "The proud and mighty", "b": "The humble and hungry", "verses": "51-53", "note": "God reverses human rankings." },
+      { "a": "Darkness and shadow of death", "b": "The dayspring from on high", "verses": "78-79", "note": "The coming of Christ is like sunrise." }
+    ],
+    "features": [
+      { "label": "A historian's preface", "note": "Verses 1-4 are one long, carefully balanced Greek sentence, in the style of classical historians, before Luke shifts into a style full of Old Testament echoes for the birth narratives." },
+      { "label": "Parallel births", "note": "The announcements and births of John and Jesus are told side by side: angel, troubled response, 'fear not,' name, destiny, sign. Each time Jesus is shown to be greater." },
+      { "label": "Songs", "note": "Luke's first two chapters contain four songs known by their Latin names: the Magnificat (Mary), the Benedictus (Zechariah), the Gloria (the angels) and the Nunc Dimittis (Simeon)." },
+      { "label": "The Holy Spirit", "note": "The Spirit fills John from the womb, overshadows Mary, and fills Elizabeth and Zechariah to speak (v15, 35, 41, 67). Luke-Acts gives the Spirit more attention than any other New Testament work." }
+    ],
+    "summary": "Luke 1 opens the Gospel with God's dramatic return to act for his people after long silence. Through the births of John, the forerunner, and Jesus, the Spirit-conceived Son of God and heir of David, God begins to fulfill his promises to Abraham and David. The songs of Mary and Zechariah interpret the events: the merciful God has visited and redeemed his people, lifting the humble and bringing light to those in darkness.",
+    "metaArc": {
+      "book": "Chapter 1 sets up Luke's major themes: God's plan and promises fulfilled, the work of the Holy Spirit, the reversal of the proud and the humble, joy and praise, and salvation for all who believe. The temple, where the story begins, is also where it ends (24:53).",
+      "redemptive": "The chapter stands at the turning point from Promise to Redemption: the covenants with Abraham and David reach their fulfillment as the eternal Son takes on human nature to save his people."
+    }
+  }
+}
