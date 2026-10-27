@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.28",
+  "book": "Genesis",
+  "chapter": 28,
+  "title": "The Gate of Heaven",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Isaac knowingly blesses Jacob and sends him to find a wife among his mother's family. Alone and in flight, Jacob sleeps at Bethel and dreams of a stairway between heaven and earth with the LORD above it, who renews the promise of Abraham and pledges to be with him and bring him back. Jacob wakes in awe and vows that the LORD will be his God.",
+  "keyVerses": ["12-13", "15", "16-17", "20-21"],
+  "steps": {
+    "language": [
+      {
+        "word": "סֻלָּם",
+        "translit": "sullam",
+        "strongs": "H5551",
+        "gloss": "ladder, stairway, ramp",
+        "verses": "12",
+        "note": "Found only here in the Old Testament. It may mean a stepped ramp like those on ancient temple towers. Unlike Babel's tower, built from below to reach heaven, this stairway comes from God and connects heaven to earth by his initiative."
+      },
+      {
+        "word": "בֵּית־אֵל",
+        "translit": "Bet-ʾel",
+        "strongs": "H1008",
+        "gloss": "house of God",
+        "verses": "17, 19",
+        "note": "Jacob renames Luz as Bethel. He calls the place the house of God and the gate of heaven, ideas later fulfilled in the tabernacle, the temple and ultimately in Christ."
+      },
+      {
+        "word": "מַצֵּבָה",
+        "translit": "matsevah",
+        "strongs": "H4676",
+        "gloss": "standing stone, pillar",
+        "verses": "18, 22",
+        "note": "Jacob sets up his stone pillow as a memorial and pours oil on it. Pillars as memorials were acceptable for the patriarchs, though later the law forbade sacred pillars used in pagan worship (Deuteronomy 16:22)."
+      },
+      {
+        "word": "נִצָּב",
+        "translit": "nitsav",
+        "gloss": "standing, stationed",
+        "verses": "12, 13",
+        "note": "The stairway is 'set up' on earth, and the LORD 'stood' above it or beside Jacob, the same root. God stands over the connection he has made."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Christ the true stairway",
+        "refs": ["John 1:51", "John 14:6", "1 Timothy 2:5", "Hebrews 10:19-20"],
+        "note": "Jesus tells Nathanael he will see heaven opened and angels ascending and descending on the Son of Man. Jesus himself is the link between heaven and earth."
+      },
+      {
+        "theme": "God's presence with his people",
+        "refs": ["Genesis 26:24", "Genesis 31:3", "Deuteronomy 31:6", "Hebrews 13:5"],
+        "note": "'I am with you and will keep you wherever you go' is a promise God repeats to his people. Hebrews quotes 'I will never leave you nor forsake you.'"
+      },
+      {
+        "theme": "Bethel in Israel's history",
+        "refs": ["Genesis 35:1-15", "Judges 20:18", "1 Kings 12:28-33", "Hosea 12:4-5", "Amos 4:4"],
+        "note": "Bethel becomes a major worship site, but later a center of Jeroboam's golden calf, and the prophets condemn what it became."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). Jacob flees Esau's anger after stealing the blessing. He is alone, leaving the promised land, with nothing but his staff (32:10). At this low point God meets him for the first time.",
+      "flow": [
+        { "verses": "1-5", "label": "Isaac's blessing", "note": "Isaac knowingly blesses Jacob with the blessing of Abraham and sends him to Paddan-aram for a wife from Laban's daughters." },
+        { "verses": "6-9", "label": "Esau's response", "note": "Esau, seeing his Canaanite wives displease his father, marries a daughter of Ishmael as well." },
+        { "verses": "10-15", "label": "The dream", "note": "At sunset Jacob sleeps with a stone for a pillow and dreams of a stairway with angels. The LORD renews the land, offspring and blessing promises and pledges to be with him and bring him back." },
+        { "verses": "16-22", "label": "Jacob's response", "note": "Jacob wakes afraid: the LORD is in this place, and I did not know it. He sets up a pillar, names the place Bethel, and vows that if God keeps him, the LORD will be his God and he will give a tenth." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "John 1:51", "from": "12", "note": "Jesus says the disciples will see heaven opened and the angels of God ascending and descending on the Son of Man." },
+        { "ref": "Hosea 12:4", "from": "11-19", "note": "Hosea recalls that Jacob found God at Bethel and God spoke with him there." },
+        { "ref": "Genesis 35:1-7", "from": "19-22", "note": "God sends Jacob back to Bethel to fulfill his vow and build an altar." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 13:5", "from": "15", "note": "I will never leave you nor forsake you." },
+        { "ref": "Psalm 139:7-12", "from": "16", "note": "There is nowhere to flee from God's presence." },
+        { "ref": "Galatians 3:14", "from": "4", "note": "The blessing of Abraham comes to the Gentiles in Christ Jesus." },
+        { "ref": "John 14:6", "from": "12, 17", "note": "Jesus is the way to the Father, the true gate of heaven." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 11:4", "from": "12", "note": "Babel's tower reached up from human pride; Bethel's stairway reaches down from God's grace." },
+        { "ref": "Exodus 3:5-6", "from": "16-17", "note": "Moses, like Jacob, discovers God's presence in an unexpected place and responds with fear." },
+        { "ref": "Revelation 21:3", "from": "17", "note": "The dwelling place of God is with man, the final house of God." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "D. A. Carson",
+        "work": "The Gospel According to John (Pillar New Testament Commentary)",
+        "view": "Carson argues that in John 1:51 Jesus presents himself as the true Bethel, the place where heaven and earth meet. Where Jacob saw a stairway, the disciples will see the Son of Man as the link between God and humanity."
+      },
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "'Heaven and Earth' and 'Temple' videos",
+        "view": "BibleProject places Bethel in the Bible's theme of sacred spaces where heaven and earth overlap, from Eden to the tabernacle and temple, culminating in Jesus and in the new creation."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes the grace of God meeting Jacob not at a high point of faith but as a fugitive who had just lied to his father. Jacob's vow is still conditional and immature, but it is the beginning of his walk with God."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "12",
+        "kjv": "And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it.",
+        "renderings": [
+          { "version": "ESV", "text": "a ladder set up on the earth" },
+          { "version": "NIV", "text": "a stairway resting on the earth" },
+          { "version": "CSB", "text": "a stairway was set on the ground" }
+        ],
+        "note": "Sullam is unique. 'Stairway' better suits the picture of angels moving up and down in large numbers and the ramps of ancient temples; 'ladder' is the familiar traditional rendering."
+      },
+      {
+        "verse": "16",
+        "kjv": "And Jacob awaked out of his sleep, and he said, Surely the LORD is in this place; and I knew it not.",
+        "renderings": [
+          { "version": "ESV", "text": "Surely the LORD is in this place" },
+          { "version": "NIV", "text": "Surely the LORD is in this place" },
+          { "version": "CSB", "text": "Surely the LORD is in this place" }
+        ],
+        "note": "The versions agree. Jacob's surprise is the point: God was present in a place and at a time he never expected."
+      }
+    ],
+    "gospel": "Jacob, the guilty fugitive, receives a vision of a stairway from heaven he did not build, with the LORD above it promising grace. Jesus told Nathanael that he himself is that stairway: the Son of Man on whom heaven is opened (John 1:51). In Christ, God comes down to sinners who have nothing to offer, opens the way to heaven, and promises, 'I am with you and will keep you.' Bethel, the house of God, finds its fulfillment in Jesus, in whom the fullness of God dwells, and in his people, who become God's temple.",
+    "application": [
+      "Expect that God may meet us in our lowest and loneliest moments, not just our best.",
+      "Rest in God's promise to be with us and keep us wherever we go.",
+      "Respond to God's grace with worship and commitment, as Jacob set up a memorial and made a vow.",
+      "Remember that access to God comes through Christ alone, not through our own efforts to climb up to him.",
+      "Practice awareness of God's presence in ordinary places."
+    ],
+    "misapplications": [
+      {
+        "claim": "The ladder is a picture of climbing to God by spiritual progress or good works.",
+        "correction": "The stairway is God's provision from above, and Jesus identifies himself with it. God reaches down to Jacob, not the other way around."
+      },
+      {
+        "claim": "Jacob's conditional vow ('if God will be with me') is a model of bargaining with God.",
+        "correction": "God's promise came first and unconditionally (v15). Jacob's vow is an immature response that God graciously accepts and later matures."
+      }
+    ],
+    "contrasts": [
+      { "a": "Babel's tower", "b": "Bethel's stairway", "verses": "12; 11:4", "note": "Human ascent in pride versus divine descent in grace." },
+      { "a": "I knew it not", "b": "Surely the LORD is here", "verses": "16", "note": "God is present before we recognize him." },
+      { "a": "Alone with a stone", "b": "The house of God", "verses": "11, 17", "note": "A barren campsite becomes holy ground." }
+    ],
+    "features": [
+      { "label": "Behold, behold, behold", "note": "The dream is narrated with three 'beholds' (hinneh), drawing the reader into Jacob's wonder." },
+      { "label": "Sunset and sunrise", "note": "The sun sets as Jacob leaves the land (v11) and rises as he returns (32:31), framing his years away." },
+      { "label": "Stone pillow to pillar", "note": "The stone he slept on becomes a monument, anointed with oil, marking a meeting with God." },
+      { "label": "First words of God to Jacob", "note": "God's first words to Jacob are pure promise, with no rebuke for his deceit, displaying grace." }
+    ],
+    "summary": "Genesis 28 records God's first appearance to Jacob as he flees into exile. God reveals himself above a stairway joining heaven and earth, renews the promises of Abraham, and pledges his presence and protection. Jacob's awe and vow mark the beginning of his relationship with God, and the scene points forward to Christ, the true meeting place of God and humanity.",
+    "metaArc": {
+      "book": "This chapter launches Jacob's exile in Haran, framed by encounters with God at Bethel (here and 35:1-15). God's promise to bring him back structures the rest of Jacob's story.",
+      "redemptive": "Promise. The Abrahamic promise passes to Jacob, and Bethel points to Christ, through whom heaven and earth are joined, a union completed in the New Creation."
+    }
+  }
+}

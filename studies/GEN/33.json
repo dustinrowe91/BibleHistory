@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.33",
+  "book": "Genesis",
+  "chapter": 33,
+  "title": "Like Seeing the Face of God",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Jacob limps toward Esau, bowing seven times, but Esau runs to embrace him, and the brothers weep. Jacob presses his gift on Esau, saying that seeing his brother's welcoming face is like seeing the face of God. They part peacefully, and Jacob settles near Shechem, buying land and building an altar to God, the God of Israel.",
+  "keyVerses": ["3-4", "10", "11", "20"],
+  "steps": {
+    "language": [
+      {
+        "word": "רָצָה",
+        "translit": "ratsah",
+        "strongs": "H7521",
+        "gloss": "to accept, be pleased with, receive favorably",
+        "verses": "10",
+        "note": "Jacob says Esau has 'accepted' him. The same verb is used of God accepting sacrifices (Leviticus 1:4). Esau's welcome reminds Jacob of God's acceptance of him at Peniel."
+      },
+      {
+        "word": "בְּרָכָה",
+        "translit": "berakah",
+        "strongs": "H1293",
+        "gloss": "blessing, gift",
+        "verses": "11",
+        "note": "Jacob urges Esau to take 'my blessing,' using the very word for what he stole twenty years earlier (27:35-36). Symbolically, he gives back the blessing, and the gift becomes an act of restitution."
+      },
+      {
+        "word": "חָנַן",
+        "translit": "ḥanan",
+        "strongs": "H2603",
+        "gloss": "to be gracious, show favor",
+        "verses": "5, 11",
+        "note": "Jacob describes his children as those 'God has graciously given' and says 'God has dealt graciously with me, and I have enough.' The grasping man now speaks of everything as grace."
+      },
+      {
+        "word": "אֵל אֱלֹהֵי יִשְׂרָאֵל",
+        "translit": "ʾEl ʾElohe Yisraʾel",
+        "gloss": "God, the God of Israel",
+        "verses": "20",
+        "note": "Jacob names his altar using his new name. Having been renamed Israel, he now publicly claims God as his own God, fulfilling his Bethel vow that the LORD would be his God (28:21)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Reconciliation between brothers",
+        "refs": ["Matthew 5:23-24", "Luke 15:20", "Romans 12:18", "2 Corinthians 5:18-20"],
+        "note": "Esau running to embrace and kiss Jacob is echoed in the father running to the prodigal son. Believers are called to be reconciled and to carry the ministry of reconciliation."
+      },
+      {
+        "theme": "Restitution",
+        "refs": ["Leviticus 6:4-5", "Luke 19:8"],
+        "note": "Jacob's 'blessing' to Esau functions as repayment. True repentance seeks to make right what was wronged, as Zacchaeus did."
+      },
+      {
+        "theme": "Shechem",
+        "refs": ["Genesis 12:6-7", "Joshua 24:1, 32", "John 4:5-6"],
+        "note": "Abraham first built an altar at Shechem; Joseph's bones are buried in Jacob's plot there; Jesus later meets the Samaritan woman at Jacob's well nearby."
+      }
+    ],
+    "context": {
+      "setting": "The toledot of Isaac (25:19-35:29). The morning after Peniel, Jacob, now Israel, meets Esau. The reconciliation resolves the conflict begun in chapters 25 and 27, though the brothers' paths separate.",
+      "flow": [
+        { "verses": "1-3", "label": "Jacob approaches", "note": "Seeing Esau with 400 men, Jacob arranges his family and goes ahead himself, bowing to the ground seven times." },
+        { "verses": "4-11", "label": "The embrace", "note": "Esau runs, embraces, kisses him, and they weep. Jacob introduces his family and urges Esau to accept his gift, likening Esau's face to the face of God." },
+        { "verses": "12-17", "label": "Parting", "note": "Esau offers to travel together; Jacob politely declines, citing the slow pace of his children and flocks, and goes to Succoth instead of Seir." },
+        { "verses": "18-20", "label": "Settling in Canaan", "note": "Jacob arrives safely at Shechem, buys a field from Hamor's sons, and builds an altar to El-Elohe-Israel." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Joshua 24:32", "from": "19", "note": "Joseph's bones are buried at Shechem in the plot Jacob bought for a hundred pieces of money." },
+        { "ref": "John 4:5", "from": "18-19", "note": "Jesus comes to Sychar near the field Jacob gave to Joseph." },
+        { "ref": "Acts 7:16", "from": "19", "note": "Stephen mentions the tomb at Shechem bought from the sons of Hamor." }
+      ],
+      "tier2": [
+        { "ref": "Luke 15:20", "from": "4", "note": "The father runs, embraces and kisses his returning son, the same series of actions as Esau." },
+        { "ref": "Genesis 28:20-22", "from": "18-20", "note": "Jacob had vowed that if God brought him back in peace, the LORD would be his God. He returns safely (shalem) and builds an altar." },
+        { "ref": "Proverbs 16:7", "from": "4", "note": "When a man's ways please the LORD, he makes even his enemies at peace with him." },
+        { "ref": "Matthew 5:24", "from": "10-11", "note": "First be reconciled to your brother, then come and offer your gift." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 45:14-15", "from": "4", "note": "Joseph and his brothers weep and embrace at their reconciliation." },
+        { "ref": "Genesis 36:6-8", "from": "16", "note": "Esau settles in Seir, separate from Jacob, because their possessions are too great." },
+        { "ref": "Philippians 4:11", "from": "11", "note": "Jacob's 'I have enough' echoes the contentment Paul learned." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke sees the reconciliation as the fruit of Jacob's encounter with God at Peniel. Having been accepted by God, Jacob can humble himself before Esau and give back the blessing, and Esau's grace reflects God's."
+      },
+      {
+        "name": "Gordon Wenham",
+        "work": "Genesis 16-50 (Word Biblical Commentary)",
+        "view": "Wenham notes the careful wording: Jacob calls Esau 'my lord' and himself 'your servant,' reversing the blessing's terms in which Esau would serve Jacob. Jacob is making amends, though he remains cautious and declines to travel with Esau."
+      },
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner admires Esau's generosity and wonders whether Jacob's polite refusal to go to Seir was entirely honest. He also notes the danger of Jacob settling near Shechem rather than going on to Bethel, preparing for chapter 34."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "10",
+        "kjv": "And Jacob said, Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand: for therefore I have seen thy face, as though I had seen the face of God, and thou wast pleased with me.",
+        "renderings": [
+          { "version": "ESV", "text": "your face, which is like seeing the face of God" },
+          { "version": "NIV", "text": "to see your face is like seeing the face of God" },
+          { "version": "CSB", "text": "seeing your face is like seeing God's face" }
+        ],
+        "note": "The phrase deliberately recalls Peniel, 'I have seen God face to face' (32:30). Jacob sees God's grace reflected in his brother's forgiveness."
+      },
+      {
+        "verse": "11",
+        "kjv": "Take, I pray thee, my blessing that is brought to thee; because God hath dealt graciously with me, and because I have enough. And he urged him, and he took it.",
+        "renderings": [
+          { "version": "ESV", "text": "Please accept my blessing" },
+          { "version": "NIV", "text": "Please accept the present" },
+          { "version": "CSB", "text": "Please take my present" }
+        ],
+        "note": "The Hebrew word is berakah, 'blessing.' ESV and KJV keep it, preserving the echo of the stolen blessing of chapter 27; NIV and CSB render the sense 'gift.'"
+      }
+    ],
+    "gospel": "Jacob, who feared his brother's vengeance, is met with an embrace and kisses, and he sees in Esau's welcome a reflection of God's own acceptance. Jesus told a story of a father who ran to embrace his guilty son in the same way (Luke 15:20). Reconciled to God through Christ, we are freed to seek reconciliation with others and to make restitution, and the grace we receive should overflow into grace toward those we have wronged and those who have wronged us.",
+    "application": [
+      "Seek reconciliation with those we have wronged, approaching humbly and making amends.",
+      "Be ready to forgive and welcome those who have hurt us, as Esau did.",
+      "Learn to say 'God has dealt graciously with me, and I have enough.'",
+      "Mark God's faithfulness with worship when he brings us through.",
+      "Be wise about boundaries even after reconciliation; peace does not always mean living side by side."
+    ],
+    "misapplications": [
+      {
+        "claim": "Reconciliation means the relationship must return to exactly how it was, or be extremely close.",
+        "correction": "Jacob and Esau are genuinely reconciled but live in different places. Peace can coexist with separate paths."
+      },
+      {
+        "claim": "Esau, the non-chosen brother, is portrayed as wicked throughout.",
+        "correction": "Here Esau shows generous forgiveness. Scripture's portrait is complex; God's choice of Jacob was not because Jacob was better."
+      }
+    ],
+    "contrasts": [
+      { "a": "Fear of four hundred men", "b": "Embrace and tears", "verses": "1, 4", "note": "The dreaded meeting becomes a reunion." },
+      { "a": "Stolen blessing", "b": "Blessing given", "verses": "11; 27:35", "note": "Jacob gives back what he once took." },
+      { "a": "My lord, your servant", "b": "The elder will serve the younger", "verses": "5, 8, 13; 25:23", "note": "Jacob humbles himself instead of claiming his place." }
+    ],
+    "features": [
+      { "label": "Seven bows", "note": "Jacob bows seven times, a gesture of complete submission known from ancient court letters." },
+      { "label": "Face", "note": "The word panim (face) links Peniel and this meeting: Jacob saw God's face and now sees grace in Esau's face." },
+      { "label": "Shalem", "note": "Jacob arrives 'safely' (shalem) at Shechem (v18), fulfilling his Bethel request to return 'in peace' (28:21)." },
+      { "label": "First land purchase", "note": "Jacob buys land at Shechem, like Abraham at Machpelah, a small pledge of the promised inheritance." }
+    ],
+    "summary": "Genesis 33 shows the fruit of Jacob's encounter with God: humility, restitution and reconciliation with Esau. Esau's gracious welcome mirrors God's acceptance of Jacob. Jacob settles in the land, buys property, and builds an altar to the God of Israel, publicly claiming God as his own.",
+    "metaArc": {
+      "book": "This chapter resolves the Jacob-Esau conflict that began in the womb. Jacob's settlement at Shechem sets the stage for the tragedy of chapter 34 and God's call back to Bethel in chapter 35.",
+      "redemptive": "Promise. Jacob's safe return and his altar to the God of Israel show God keeping his Bethel promise, and the reconciliation reflects the gospel's power to reconcile."
+    }
+  }
+}
