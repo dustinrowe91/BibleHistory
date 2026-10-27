@@ -184,6 +184,14 @@
     "metaArc": {
       "book": "John's Gospel is written so that readers may believe Jesus is the Christ, the Son of God, and have life in his name (20:31). Chapter 3 states that purpose most directly: the first long conversation in the book explains what that life is, how it comes, and what is at stake.",
       "redemptive": "Redemption. Ezekiel's promise of cleansing water and a new Spirit, and the wilderness serpent that saved dying Israel, are fulfilled in the Son's cross and the Spirit's new birth. The 'kingdom of God' points ahead to the new creation, which begins now in those born from above."
-    }
+    },
+    "questions": [
+      {"kind": "observe", "question": "How does Nicodemus misunderstand Jesus, and how does Jesus answer each misunderstanding?", "verses": "1-10"},
+      {"kind": "observe", "question": "Trace the word 'believe' through the chapter. What is promised to those who believe, and what is said about those who don't?", "verses": "12-18, 36"},
+      {"kind": "interpret", "question": "What does the bronze serpent in Numbers 21 teach about how salvation is received?", "verses": "14-15"},
+      {"kind": "interpret", "question": "According to verses 19-21, why do people stay away from the light?", "verses": "19-21"},
+      {"kind": "apply", "question": "Nicodemus was religious, learned and respected. What might you be tempted to rely on instead of being born from above?", "verses": "3-7"},
+      {"kind": "apply", "question": "Where do you need to say with John the Baptist, 'He must increase, but I must decrease'?", "verses": "30"}
+    ]
   }
 }

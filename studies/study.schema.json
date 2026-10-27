@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "study.schema.json",
   "title": "Chapter study",
-  "description": "One chapter of the Bible worked through the 12-step study method, plus the meta-arc. Verse references inside a chapter use 'v' notation ('3', '3-8'); references elsewhere use full book names ('Numbers 21:8-9').",
+  "description": "One chapter of the Bible worked through the 12-step study method, plus the meta-arc and questions to consider. Verse references inside a chapter use 'v' notation ('3', '3-8'); references elsewhere use full book names ('Numbers 21:8-9').",
   "type": "object",
   "additionalProperties": false,
   "required": ["ref", "book", "chapter", "title", "status", "source", "updated", "theme", "steps"],
@@ -19,7 +19,7 @@
     "steps": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["language", "usage", "context", "crossRefs", "voices", "translations", "gospel", "application", "misapplications", "contrasts", "features", "summary", "metaArc"],
+      "required": ["language", "usage", "context", "crossRefs", "voices", "translations", "gospel", "application", "misapplications", "contrasts", "features", "summary", "metaArc", "questions"],
       "properties": {
         "language": {
           "description": "Step 1. The 3-5 Hebrew, Aramaic or Greek words that carry the chapter.",
@@ -149,6 +149,19 @@
           "properties": {
             "book": { "type": "string", "description": "The chapter's role in its book" },
             "redemptive": { "type": "string", "description": "Its place in Creation, Fall, Promise, Redemption, New Creation" }
+          }
+        },
+        "questions": {
+          "description": "Questions to consider, for personal study or a small group: observe what the text says, interpret what it means, apply it to life.",
+          "type": "array", "minItems": 4, "maxItems": 9,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["kind", "question"],
+            "properties": {
+              "kind": { "enum": ["observe", "interpret", "apply"] },
+              "question": { "type": "string" },
+              "verses": { "type": "string", "description": "Verses in this chapter the question points to" }
+            }
           }
         }
       }

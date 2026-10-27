@@ -308,6 +308,14 @@
     "metaArc": {
       "book": "Book 1 of the Psalms is mostly David's prayers in trouble. Psalm 23 is its most settled expression of trust, and with Psalms 22 and 24 it forms a sequence from suffering to confident trust to the King's victorious entry.",
       "redemptive": "Promise moving toward redemption. The God who shepherded Israel through the wilderness promises through Ezekiel to shepherd his people himself; Jesus claims that role, and Revelation shows the Lamb shepherding the redeemed in the new creation."
-    }
+    },
+    "questions": [
+      {"kind": "observe", "question": "Make two lists: what the shepherd does (verses 1-4) and what the host does (verse 5).", "verses": "1-5"},
+      {"kind": "observe", "question": "Where does David stop speaking about the LORD and start speaking to him?", "verses": "3-4"},
+      {"kind": "interpret", "question": "Why might the closest, most personal words, 'you are with me,' come in the darkest valley?", "verses": "4"},
+      {"kind": "interpret", "question": "How does Jesus' claim to be the good shepherd who lays down his life (John 10:11) change how you read this psalm?", "verses": "1"},
+      {"kind": "apply", "question": "What dark valley are you walking through now, and what would it look like to fear no evil in it?", "verses": "4"},
+      {"kind": "apply", "question": "Where can you see God's goodness and steadfast love pursuing you, even after you have failed?", "verses": "6"}
+    ]
   }
 }

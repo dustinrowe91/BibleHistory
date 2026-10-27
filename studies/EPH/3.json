@@ -168,6 +168,14 @@
     "metaArc": {
       "book": "Chapter 3 explains the significance of chapters 1-2 and of Paul's own imprisonment, then closes the doctrinal half of the letter with prayer and praise. Its doxology leads directly into the call of chapter 4 to live worthy of this calling.",
       "redemptive": "Promise fulfilled in redemption. The promise to Abraham that all nations would be blessed is now realized in a church of Jew and Gentile, a foretaste of the new creation, where people from every nation worship the Lamb together (Revelation 7:9-10)."
-    }
+    },
+    "questions": [
+      {"kind": "observe", "question": "What three 'fellow' words describe the Gentiles in verse 6?", "verses": "6"},
+      {"kind": "observe", "question": "Follow Paul's prayer step by step. What does each request lead to?", "verses": "14-19"},
+      {"kind": "interpret", "question": "Why would God choose to display his wisdom to heavenly powers through the church?", "verses": "10"},
+      {"kind": "interpret", "question": "What does it mean to know a love 'that surpasses knowledge'?", "verses": "18-19"},
+      {"kind": "apply", "question": "Paul called himself 'less than the least of all the saints.' How does that shape the way you see your own gifts and calling?", "verses": "7-8"},
+      {"kind": "apply", "question": "What would you pray for differently if you believed God is able to do far more than you ask or think?", "verses": "20-21"}
+    ]
   }
 }

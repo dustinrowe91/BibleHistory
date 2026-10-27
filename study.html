@@ -167,6 +167,13 @@ details[open]>summary .chev{transform:rotate(90deg)}
 .vs{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;font-family:var(--ui);font-size:14.5px;font-weight:700}
 .vs span:nth-child(2){font-size:12px;color:var(--muted);font-weight:500}
 .vs span:last-child{text-align:right}
+.qgroup h4 span{font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}
+.qs{margin:0 0 6px;padding-left:1.6rem}
+.qs li{padding:4px 0}
+.qs li::marker{font-family:var(--ui);font-weight:700;color:var(--ochre)}
+.study.rev .qs li::marker{color:var(--lapis)}
+.qs .vv{font-family:var(--ui);font-size:12.5px;font-weight:500;color:var(--ochre);text-decoration:none;white-space:nowrap}
+details.qstep{border-bottom:1px solid var(--line)}
 .sumbox{background:var(--ochre-soft);border-radius:8px;padding:12px 14px}
 .study.rev .sumbox{background:var(--lapis-soft)}
 .toggle-all{font-family:var(--ui);font-size:13px;font-weight:700;color:var(--lapis);background:none;border:0;padding:0;cursor:pointer;margin-left:auto}
@@ -211,6 +218,7 @@ details[open]>summary .chev{transform:rotate(90deg)}
   <h2>About these studies</h2>
   <p>Each study follows the same twelve steps:</p>
   <ol><li>Original language</li><li>Usage elsewhere</li><li>Immediate context</li><li>Cross-references by tier</li><li>Theological voices</li><li>Translation comparison</li><li>Gospel connection</li><li>Practical application</li><li>Common misapplications</li><li>Key contrasts</li><li>Unique features</li><li>Summary</li></ol>
+  <p>After the twelve steps, the meta-arc places the chapter in its book and in the whole story of Scripture, and each study ends with questions to consider, for personal study or a small group.</p>
   <p>Cross-references are ranked in three tiers: Tier 1 where Scripture directly quotes, fulfills or explains the passage, Tier 2 for strong thematic development, and Tier 3 for echoes that illuminate but do not settle anything. Teachers' views are summarized in our own words, not quoted. Translation comparisons give the King James text in full and a few words from other versions.</p>
   <p>Studies marked <b>draft</b> were prepared with AI assistance and have not yet been checked line by line. Verify anything you plan to teach, and use the "report a problem" link on any study to flag an error.</p>
 </section>
@@ -237,7 +245,8 @@ const STEPS=[
   ["contrasts","Key contrasts","Theological opposites in the text"],
   ["features","Unique features","Wordplay, structure, irony"],
   ["summary","Summary","Its theological significance"],
-  ["metaArc","Meta-arc","In the book and in the whole story"]
+  ["metaArc","Meta-arc","In the book and in the whole story"],
+  ["questions","Questions to consider","For personal study or a small group"]
 ];
 
 // "John 3" + "3-8, 14" → "John 3:3-8, 14"
@@ -263,6 +272,12 @@ function body(key,s){
     case "contrasts": return '<ul class="items">'+d.map(x=>'<li><div class="vs"><span>'+esc(x.a)+'</span><span>vs</span><span>'+esc(x.b)+'</span></div><div class="ih" style="margin-top:2px">'+vv(x.verses)+'</div><p>'+esc(x.note)+'</p></li>').join("")+'</ul>';
     case "features": return '<ul class="items">'+d.map(x=>'<li><div class="ih">'+esc(x.label)+'</div><p>'+esc(x.note)+'</p></li>').join("")+'</ul>';
     case "summary": return '<div class="sumbox"><p style="margin:0">'+esc(d)+'</p></div>';
+    case "questions": {
+      const G=[["observe","Observe","What does the text say?"],["interpret","Interpret","What does it mean?"],["apply","Apply","How should it change us?"]];
+      let n=0;
+      return G.filter(g=>d.some(q=>q.kind===g[0])).map(g=>'<div class="qgroup"><h4>'+g[1]+' <span>'+g[2]+'</span></h4><ol class="qs">'+
+        d.filter(q=>q.kind===g[0]).map(q=>'<li value="'+(++n)+'"><span>'+esc(q.question)+'</span>'+(q.verses?' '+vv(q.verses):'')+'</li>').join("")+'</ol></div>').join("");
+    }
     case "metaArc": return '<h4>Within the book</h4><p>'+esc(d.book)+'</p><h4>Within the redemptive story</h4><p>'+esc(d.redemptive)+'</p>';
   }
   return "";
@@ -287,7 +302,7 @@ function renderStudy(s){
     (s.keyVerses&&s.keyVerses.length?'<span class="kv">Key verses: '+s.keyVerses.map(v=>'<a href="'+gw(inCh(v))+'" target="_blank" rel="noopener">'+esc(v)+'</a>').join(", ")+'</span>':'')+'</div>'+
     (rev?'':'<p class="draftnote">This study is an AI-assisted draft that has not been reviewed yet. Check it against Scripture before teaching from it. <a href="'+issue+'" target="_blank" rel="noopener">Report a problem</a></p>')+
     '<div class="steps-head"><span class="lbl">The twelve steps</span><button type="button" class="toggle-all" id="toggleAll">'+(openAll?'Collapse all':'Expand all')+'</button></div>'+
-    STEPS.map((st,i)=>'<details class="step"'+(openAll?' open':'')+'><summary><span class="sn">'+(i<12?i+1:'+')+'</span><span class="st">'+esc(st[1])+'<small>'+esc(st[2])+'</small></span><span class="chev" aria-hidden="true">▶</span></summary><div class="sb">'+body(st[0],s)+'</div></details>').join("")+
+    STEPS.filter(st=>s.steps[st[0]]!=null).map((st,i)=>'<details class="step'+(st[0]==="questions"?' qstep':'')+'"'+(openAll?' open':'')+'><summary><span class="sn">'+(i<12?i+1:st[0]==="questions"?'?':'+')+'</span><span class="st">'+esc(st[1])+'<small>'+esc(st[2])+'</small></span><span class="chev" aria-hidden="true">▶</span></summary><div class="sb">'+body(st[0],s)+'</div></details>').join("")+
     (rev?'<p class="draftnote" style="margin-top:12px"><a href="'+issue+'" target="_blank" rel="noopener">Report a problem</a> with this study.</p>':'')+
     '</article>';
 }
