@@ -1,0 +1,168 @@
+{
+  "ref": "GEN.12",
+  "book": "Genesis",
+  "chapter": 12,
+  "title": "The Call of Abram",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "God calls Abram to leave his homeland and promises to make him a great nation, give his offspring the land, and bless all the families of the earth through him. Abram goes in faith and builds altars, but in Egypt he lies about Sarai out of fear, and God protects the promise in spite of him.",
+  "keyVerses": ["1-3", "4", "7", "10-13"],
+  "steps": {
+    "language": [
+      {
+        "word": "לֶךְ־לְךָ",
+        "translit": "lek-leka",
+        "gloss": "go! (literally 'go for yourself')",
+        "verses": "1",
+        "note": "An emphatic command. Abram is told to leave three things in widening circles of security: land, clan and father's house. The same rare phrase returns in 22:2, when God tells Abraham to go to Moriah, framing his life of faith."
+      },
+      {
+        "word": "בָּרַךְ / בְּרָכָה",
+        "translit": "barak / berakah",
+        "strongs": "H1288",
+        "gloss": "to bless / blessing",
+        "verses": "2-3",
+        "note": "The root appears five times in verses 2-3, answering the five uses of 'curse' in Genesis 1-11 (3:14, 17; 4:11; 5:29; 9:25). God's plan to reverse the curse begins here."
+      },
+      {
+        "word": "מִשְׁפְּחֹת הָאֲדָמָה",
+        "translit": "mishpeḥot haʾadamah",
+        "gloss": "families of the ground/earth",
+        "verses": "3",
+        "note": "The families of chapter 10 are in view. Adamah is the cursed ground of 3:17; the blessing reaches the very families living on that ground."
+      },
+      {
+        "word": "זֶרַע",
+        "translit": "zeraʿ",
+        "strongs": "H2233",
+        "gloss": "offspring, seed",
+        "verses": "7",
+        "note": "God promises the land to Abram's seed, the same word as 3:15. The seed promise now narrows to Abram's line, and Paul notes the singular in Galatians 3:16."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Blessing to the nations",
+        "refs": ["Genesis 18:18", "Genesis 22:18", "Galatians 3:8", "Acts 3:25-26"],
+        "note": "The promise is repeated to Abraham, Isaac and Jacob. Paul calls it the gospel preached in advance, and Peter applies it to the blessing that comes through Jesus."
+      },
+      {
+        "theme": "Faith that obeys",
+        "refs": ["Hebrews 11:8-10", "Acts 7:2-4", "Romans 4:16-18"],
+        "note": "Abraham went out not knowing where he was going, looking for a city with foundations. He is the father of all who believe."
+      },
+      {
+        "theme": "Calling on the LORD's name at altars",
+        "refs": ["Genesis 4:26", "Genesis 13:4, 18", "Genesis 26:25", "Genesis 33:20"],
+        "note": "The patriarchs mark the promised land with altars, claiming it for the LORD through worship."
+      }
+    ],
+    "context": {
+      "setting": "Part of the toledot of Terah (11:27-25:11), the story of Abraham. After the scattering at Babel, God takes the initiative with one man from Ur, whose family worshipped other gods (Joshua 24:2). The patriarchal period is usually dated to around 2000 BC.",
+      "flow": [
+        { "verses": "1-3", "label": "The call and promise", "note": "God commands Abram to go and promises a great nation, a great name, blessing, protection and blessing for all families of the earth." },
+        { "verses": "4-9", "label": "Abram goes", "note": "At 75 Abram leaves Haran with Sarai and Lot, enters Canaan, receives the promise of the land at Shechem, and builds altars." },
+        { "verses": "10-16", "label": "Famine and fear", "note": "Famine drives Abram to Egypt, where he tells Sarai to say she is his sister, and Pharaoh takes her into his house." },
+        { "verses": "17-20", "label": "God intervenes", "note": "The LORD strikes Pharaoh's house with plagues; Pharaoh rebukes Abram and sends him away." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Galatians 3:8", "from": "3", "note": "Scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham: in you shall all the nations be blessed." },
+        { "ref": "Acts 3:25", "from": "3", "note": "Peter tells his hearers they are heirs of the covenant God made with Abraham, fulfilled in Jesus." },
+        { "ref": "Hebrews 11:8", "from": "1, 4", "note": "By faith Abraham obeyed when called, going out not knowing where he was going." },
+        { "ref": "Acts 7:2-5", "from": "1, 7", "note": "Stephen recounts God's call and the promise of land to Abraham's offspring." },
+        { "ref": "Galatians 3:16", "from": "7", "note": "The promises were made to Abraham and his offspring, which Paul identifies as Christ." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 15:1-6", "from": "2", "note": "God confirms the promise of offspring and Abram believes." },
+        { "ref": "Romans 4:13", "from": "7", "note": "The promise that Abraham would be heir of the world came through the righteousness of faith." },
+        { "ref": "Exodus 11:1", "from": "17", "note": "God strikes Pharaoh with plagues to free his people, an echo of this episode." },
+        { "ref": "Matthew 28:19", "from": "3", "note": "The Great Commission sends the blessing of Abraham to all nations." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 20:1-18", "from": "10-20", "note": "Abraham repeats the same deception with Abimelech." },
+        { "ref": "Genesis 26:6-11", "from": "10-20", "note": "Isaac repeats his father's lie about Rebekah." },
+        { "ref": "Isaiah 51:2", "from": "1-2", "note": "Look to Abraham your father: he was one when I called him, and I blessed him and made him many." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "BibleProject (Tim Mackie)",
+        "work": "Genesis and 'Covenants' videos",
+        "view": "BibleProject presents the call of Abram as God's answer to Babel. Where the builders tried to make a name for themselves, God promises to make Abram's name great, and his family is chosen to bring blessing back to all the nations."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin emphasizes that God's call came freely to an idolater; Abram had nothing to commend him. He also refuses to excuse Abram's lie in Egypt, seeing it as weakness of faith that God graciously overruled."
+      },
+      {
+        "name": "Christopher J. H. Wright",
+        "work": "The Mission of God",
+        "view": "Wright calls verses 1-3 the launch of God's mission. Abram is blessed in order to be a blessing, and Israel's election serves God's purpose of blessing all nations."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "2",
+        "kjv": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:",
+        "renderings": [
+          { "version": "ESV", "text": "so that you will be a blessing" },
+          { "version": "NIV", "text": "and you will be a blessing" },
+          { "version": "CSB", "text": "and you will be a blessing" }
+        ],
+        "note": "The Hebrew uses an imperative, 'be a blessing,' which can express purpose. The ESV brings out that Abram is blessed so that he can bless others."
+      },
+      {
+        "verse": "3",
+        "kjv": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
+        "renderings": [
+          { "version": "ESV", "text": "in you all the families of the earth" },
+          { "version": "NIV", "text": "all peoples on earth will be blessed through you" },
+          { "version": "CSB", "text": "all the peoples on earth will be blessed through you" }
+        ],
+        "note": "The plural 'them that bless' contrasts with the singular 'him that curseth,' suggesting many blessed and few cursed. Paul quotes this verse as the gospel in advance (Galatians 3:8)."
+      }
+    ],
+    "gospel": "God's promise to Abram is the seed of the gospel: through one man's offspring, blessing will reach every family on earth. Paul calls this verse the gospel preached beforehand and identifies the offspring as Christ (Galatians 3:8, 16). Those who believe in Christ, Jew or Gentile, are counted Abraham's children and heirs of the promise. Even Abram's failure in Egypt shows that the promise rests on God's faithfulness, not on the faithfulness of the one who receives it.",
+    "application": [
+      "Respond to God's word with obedient faith, even when we cannot see where it leads.",
+      "Remember that God blesses us so that we will be a blessing to others, including other nations.",
+      "Mark our lives with worship, as Abram built altars wherever he went.",
+      "Watch for fear that tempts us to protect ourselves by deceit; trust God's promises instead.",
+      "Take comfort that God keeps his promises even when we falter."
+    ],
+    "misapplications": [
+      {
+        "claim": "God chose Abram because he was more righteous than others.",
+        "correction": "Abram came from a family that served other gods (Joshua 24:2), and the chapter shows his failures. God's call is grace."
+      },
+      {
+        "claim": "The promise of blessing means God guarantees material prosperity to believers today.",
+        "correction": "The heart of the blessing is God's presence and the coming Redeemer. Hebrews 11 says Abraham lived as a stranger looking for a heavenly city."
+      },
+      {
+        "claim": "Abram's half-truth about Sarai was clever and justified.",
+        "correction": "The text shows it endangered Sarai and the promise, brought plagues on Pharaoh, and earned a rebuke from a pagan king."
+      }
+    ],
+    "contrasts": [
+      { "a": "Faith in God's word", "b": "Fear in the famine", "verses": "4, 10-13", "note": "The same man who obeys the call trusts his own schemes when danger comes." },
+      { "a": "Blessing", "b": "Curse", "verses": "3", "note": "God's plan to bless the nations begins to undo the curses of chapters 3-11." },
+      { "a": "Babel's name", "b": "Abram's name", "verses": "2; 11:4", "note": "God gives what the builders tried to seize." }
+    ],
+    "features": [
+      { "label": "Five blessings", "note": "The fivefold 'bless' in verses 2-3 answers the fivefold 'curse' of Genesis 1-11." },
+      { "label": "A preview of the Exodus", "note": "Famine drives Abram to Egypt, Pharaoh takes what belongs to him, God sends plagues, and Abram leaves enriched, a pattern repeated with Israel." },
+      { "label": "The Canaanite was in the land", "note": "Verse 6 notes the land was already occupied, highlighting that the promise of verse 7 requires faith." },
+      { "label": "Age 75", "note": "Abram is already old and childless when called, raising the question of how a great nation can come from him." }
+    ],
+    "summary": "Genesis 12 begins God's answer to the world's sin and scattering. He chooses Abram and binds himself by promise to give him offspring, land and blessing, so that all the families of the earth will be blessed. Abram's faith and failure in the same chapter show that the promise depends on God, who will protect it until it is fulfilled in Christ.",
+    "metaArc": {
+      "book": "This chapter opens the patriarchal history (chapters 12-50). The threefold promise of seed, land and blessing drives the rest of Genesis, each episode testing whether and how God will keep it.",
+      "redemptive": "Promise. The Abrahamic promise is the backbone of redemption history, fulfilled in Christ, the true seed, and extended to all nations."
+    }
+  }
+}

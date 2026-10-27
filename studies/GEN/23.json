@@ -1,0 +1,160 @@
+{
+  "ref": "GEN.23",
+  "book": "Genesis",
+  "chapter": 23,
+  "title": "A Burial Place in the Promised Land",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Sarah dies at Hebron, and Abraham mourns her. As a stranger and sojourner, he negotiates publicly with the Hittites and pays full price for the cave of Machpelah. His first owned piece of the promised land is a grave, a statement of faith that God's promise will outlast death.",
+  "keyVerses": ["2", "4", "16", "19-20"],
+  "steps": {
+    "language": [
+      {
+        "word": "גֵּר וְתוֹשָׁב",
+        "translit": "ger wetoshav",
+        "gloss": "stranger and sojourner (resident alien)",
+        "verses": "4",
+        "note": "A resident foreigner without land rights. Abraham, heir of the whole land by promise, describes himself as an outsider. The phrase is picked up in Psalm 39:12, 1 Chronicles 29:15 and 1 Peter 2:11 to describe believers in this world."
+      },
+      {
+        "word": "אֲחֻזַּת־קָבֶר",
+        "translit": "ʾaḥuzzat-qaver",
+        "gloss": "possession of a burial place",
+        "verses": "4, 9, 20",
+        "note": "ʾAḥuzzah means legal property held permanently. God had promised the land as an 'everlasting possession' (17:8, same word). Abraham's first legal possession is a tomb, a down payment on the promise."
+      },
+      {
+        "word": "סָפַד / בָּכָה",
+        "translit": "safad / bakah",
+        "gloss": "to mourn, lament / to weep",
+        "verses": "2",
+        "note": "Abraham comes to mourn and weep for Sarah. Faith does not suppress grief; the father of the faithful weeps openly."
+      },
+      {
+        "word": "נְשִׂיא אֱלֹהִים",
+        "translit": "nesiʾ ʾelohim",
+        "gloss": "prince of God, mighty prince",
+        "verses": "6",
+        "note": "The Hittites call Abraham 'a prince of God among us.' Though he calls himself a stranger, others recognize God's blessing on him, fulfilling 12:2."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Strangers and exiles on earth",
+        "refs": ["1 Chronicles 29:15", "Psalm 39:12", "Hebrews 11:13-16", "1 Peter 2:11"],
+        "note": "The patriarchs confessed they were strangers and exiles, seeking a better, heavenly country. Peter calls believers sojourners and exiles."
+      },
+      {
+        "theme": "Machpelah, the family grave",
+        "refs": ["Genesis 25:9", "Genesis 35:27-29", "Genesis 49:29-32", "Genesis 50:13"],
+        "note": "Abraham, Isaac, Rebekah, Leah and Jacob are all buried here. Jacob insists on being carried back from Egypt to lie in the land of promise."
+      },
+      {
+        "theme": "Faith facing death",
+        "refs": ["Hebrews 11:13", "1 Thessalonians 4:13-14", "John 11:25-26"],
+        "note": "The patriarchs died in faith, not having received the things promised. Believers grieve, but not as those without hope."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). After the climax of chapter 22, the story turns to the transition of generations: Sarah's death here, Isaac's marriage in chapter 24, and Abraham's death in chapter 25. Sarah is the only woman in the Bible whose age at death is recorded.",
+      "flow": [
+        { "verses": "1-2", "label": "Sarah's death", "note": "Sarah dies at 127 in Kiriath-arba (Hebron), and Abraham mourns and weeps for her." },
+        { "verses": "3-9", "label": "Abraham's request", "note": "Abraham rises and asks the Hittites, as a stranger, for a burial site, specifically Ephron's cave of Machpelah, to buy at full price." },
+        { "verses": "10-16", "label": "The negotiation", "note": "Ephron publicly offers it as a gift, then names a high price of 400 shekels. Abraham pays it in the hearing of all at the city gate." },
+        { "verses": "17-20", "label": "The deed and the burial", "note": "The field, cave and trees are legally deeded to Abraham. He buries Sarah, and the field becomes his possession for a burial place." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hebrews 11:13-16", "from": "4", "note": "These all died in faith, acknowledging they were strangers and exiles on the earth, seeking a homeland." },
+        { "ref": "Acts 7:16", "from": "16-19", "note": "Stephen mentions the tomb that Abraham bought, in his retelling of the patriarchs' burials." },
+        { "ref": "Genesis 49:29-32", "from": "17-20", "note": "Jacob recounts that Abraham bought the field from Ephron the Hittite as a burial place." }
+      ],
+      "tier2": [
+        { "ref": "1 Peter 2:11", "from": "4", "note": "Beloved, I urge you as sojourners and exiles to abstain from passions of the flesh." },
+        { "ref": "Jeremiah 32:6-15", "from": "16-18", "note": "Jeremiah buys a field with witnesses as a sign that God will restore the land, a similar act of faith." },
+        { "ref": "1 Thessalonians 4:13", "from": "2", "note": "Believers grieve, but not as those who have no hope." },
+        { "ref": "Genesis 17:8", "from": "4, 20", "note": "God promised the land as an everlasting possession, the same word used of the burial site." }
+      ],
+      "tier3": [
+        { "ref": "John 11:35", "from": "2", "note": "Jesus wept at the tomb of his friend." },
+        { "ref": "Matthew 27:7", "from": "9", "note": "A field is bought as a burial place for strangers with Judas's silver, a dark contrast." },
+        { "ref": "Ephesians 1:14", "from": "20", "note": "The Spirit is the guarantee or down payment of our inheritance, as the cave was a small first piece of the land." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner notes that the patient, detailed negotiation is recorded because this small plot was the first fruit of the promised land. Abraham insisted on full legal purchase so that his title could never be disputed."
+      },
+      {
+        "name": "Matthew Henry",
+        "work": "Commentary on the Whole Bible",
+        "view": "Henry dwells on Abraham's grief as fitting and godly, and on the courtesy and integrity of the bargaining. He sees in the purchase Abraham's faith that the land would one day belong to his descendants."
+      },
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton explains the polite offers and counteroffers as typical of ancient Near Eastern bargaining, where an offer of a gift could be an opening move. Abraham wisely refuses a gift that could later be contested."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "4",
+        "kjv": "I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight.",
+        "renderings": [
+          { "version": "ESV", "text": "I am a sojourner and foreigner among you" },
+          { "version": "NIV", "text": "I am a foreigner and stranger among you" },
+          { "version": "CSB", "text": "I am an alien residing among you" }
+        ],
+        "note": "Each version tries to capture the status of a resident alien with no land rights, which made Abraham's purchase both necessary and significant."
+      },
+      {
+        "verse": "6",
+        "kjv": "Hear us, my lord: thou art a mighty prince among us: in the choice of our sepulchres bury thy dead; none of us shall withhold from thee his sepulchre, but that thou mayest bury thy dead.",
+        "renderings": [
+          { "version": "ESV", "text": "You are a prince of God among us" },
+          { "version": "NIV", "text": "You are a mighty prince among us" },
+          { "version": "CSB", "text": "You are a prince of God among us" }
+        ],
+        "note": "The Hebrew 'prince of God' can be an idiom for 'mighty prince.' ESV and CSB keep the literal phrasing, which highlights that the Hittites recognized God's favor on Abraham."
+      }
+    ],
+    "gospel": "Abraham died owning only a grave in the land God promised, yet he died in faith, looking for a better country and a city God would build (Hebrews 11:10, 16). The tomb at Machpelah was a pledge that God's promises reach beyond death. In Christ, a borrowed tomb in that same land became the place where death was defeated. Because Jesus rose, believers can grieve with hope, confident that the graves of God's people are not the end but seeds of resurrection.",
+    "application": [
+      "Grieve honestly when loved ones die; faith and tears belong together.",
+      "Live as strangers and sojourners, holding this world loosely while longing for our true home.",
+      "Conduct business with integrity and transparency, especially before outsiders.",
+      "Make choices, even about death and burial, that express hope in God's promises.",
+      "Remember that God's promises often span more than one lifetime."
+    ],
+    "misapplications": [
+      {
+        "claim": "Strong faith means not grieving or showing sorrow.",
+        "correction": "Abraham mourned and wept. Scripture honors grief and offers hope within it (1 Thessalonians 4:13)."
+      },
+      {
+        "claim": "The chapter is merely a historical real estate record with no spiritual meaning.",
+        "correction": "The detail underscores that this is the first piece of promised land Abraham owned. Hebrews draws out the spiritual meaning of the patriarchs as strangers who died in faith."
+      }
+    ],
+    "contrasts": [
+      { "a": "Stranger and sojourner", "b": "Heir of the land", "verses": "4; 17:8", "note": "Abraham owns by promise what he does not yet possess in fact." },
+      { "a": "A gift offered", "b": "Full price paid", "verses": "11, 16", "note": "Abraham insists on a purchase no one could dispute." },
+      { "a": "Death", "b": "Possession", "verses": "2, 20", "note": "The first possession in the land is gained through death, a picture of hope beyond the grave." }
+    ],
+    "features": [
+      { "label": "Before the people of the land", "note": "The phrase recurs to stress that the transaction was public and legally witnessed at the city gate." },
+      { "label": "Ancient bargaining", "note": "The exchange of courtesies, offers and price follows patterns known from ancient Near Eastern sale customs." },
+      { "label": "Detailed deed", "note": "Verse 17 lists the field, the cave and all the trees within its borders, like a legal contract." },
+      { "label": "Sarah's age", "note": "Sarah is the only woman in Scripture whose age at death is recorded, marking her importance as mother of the promised line." }
+    ],
+    "summary": "Genesis 23 records Sarah's death, Abraham's grief and his careful purchase of a burial site in Canaan. This modest plot is the first part of the promised land legally owned by Abraham's family, an act of faith that God's promises extend beyond death. The patriarchs lived and died as strangers, looking forward to a better homeland.",
+    "metaArc": {
+      "book": "This chapter begins the transition from Abraham's generation to Isaac's. The cave of Machpelah becomes the family tomb and a recurring sign of the land promise through the end of Genesis.",
+      "redemptive": "Promise. The burial plot is a pledge of the inheritance, pointing to the resurrection hope and the heavenly country fulfilled in the New Creation."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "ref": "GEN.21",
+  "book": "Genesis",
+  "chapter": 21,
+  "title": "God Has Made Me Laugh",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The LORD visits Sarah as he promised, and Isaac is born when Abraham is 100. Sarah's laughter turns to joy. Hagar and Ishmael are sent away, but God hears the boy in the wilderness and provides. Abraham makes a treaty with Abimelech at Beersheba and calls on the Everlasting God.",
+  "keyVerses": ["1-2", "6", "12", "17", "33"],
+  "steps": {
+    "language": [
+      {
+        "word": "פָּקַד",
+        "translit": "paqad",
+        "strongs": "H6485",
+        "gloss": "to visit, attend to, take note of",
+        "verses": "1",
+        "note": "When God 'visits' someone in Scripture, he comes to act on his word, in blessing or judgment. Joseph uses it of the exodus (50:24-25), and Zechariah praises God for visiting and redeeming his people (Luke 1:68)."
+      },
+      {
+        "word": "צְחֹק",
+        "translit": "tseḥoq",
+        "strongs": "H6712",
+        "gloss": "laughter",
+        "verses": "6",
+        "note": "Sarah says God has made laughter for her, and everyone who hears will laugh with her. The laughter of doubt in 18:12 becomes the laughter of joy, and Isaac's name keeps it alive."
+      },
+      {
+        "word": "מְצַחֵק",
+        "translit": "metsaḥeq",
+        "gloss": "laughing, playing, mocking",
+        "verses": "9",
+        "note": "Sarah sees Ishmael 'laughing,' the same root as Isaac's name. The sense may be playing or mocking; Paul calls it persecution (Galatians 4:29). The wordplay suggests Ishmael 'Isaac-ing,' acting as if he were the heir."
+      },
+      {
+        "word": "אֵל עוֹלָם",
+        "translit": "ʾEl ʿOlam",
+        "gloss": "the Everlasting God",
+        "verses": "33",
+        "note": "Abraham plants a tamarisk tree and calls on the LORD as the Everlasting God. The God whose promises span generations proved faithful in Isaac's birth and will remain so (Isaiah 40:28)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The son of promise",
+        "refs": ["Romans 9:6-9", "Galatians 4:21-31", "Hebrews 11:11-12, 18"],
+        "note": "Paul uses 'through Isaac shall your offspring be named' to show that God's children are children of promise, not merely of physical descent."
+      },
+      {
+        "theme": "God hears the outcast",
+        "refs": ["Genesis 16:11", "Psalm 34:6", "Psalm 68:5-6"],
+        "note": "For the second time God meets Hagar in the wilderness. He hears the voice of the boy, whose name means 'God hears.'"
+      },
+      {
+        "theme": "God keeps his word on time",
+        "refs": ["Genesis 18:10, 14", "Joshua 21:45", "Galatians 4:4"],
+        "note": "Isaac is born 'at the set time of which God had spoken,' the pattern of God fulfilling his promises precisely, ultimately in the fullness of time when Christ came."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). After twenty-five years of waiting since 12:4 and right after God protected Sarah in chapter 20, the promise is fulfilled. Ishmael is now about fourteen to sixteen.",
+      "flow": [
+        { "verses": "1-7", "label": "Isaac born", "note": "The LORD visits Sarah, she bears Isaac at the appointed time, Abraham circumcises him on the eighth day, and Sarah rejoices that God has made her laugh." },
+        { "verses": "8-14", "label": "The heir defined", "note": "At Isaac's weaning feast Sarah sees Ishmael laughing and demands Hagar and her son be cast out. God tells a distressed Abraham to listen, for Isaac is the heir, but Ishmael too will become a nation." },
+        { "verses": "15-21", "label": "God hears the boy", "note": "In the wilderness of Beersheba the water runs out. God hears the boy, opens Hagar's eyes to a well, and is with Ishmael as he grows." },
+        { "verses": "22-34", "label": "Covenant at Beersheba", "note": "Abimelech recognizes that God is with Abraham. They make a covenant over a disputed well, and Abraham calls on the name of the Everlasting God." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 9:7", "from": "12", "note": "Not all Abraham's children are his offspring; through Isaac shall your offspring be named." },
+        { "ref": "Hebrews 11:18", "from": "12", "note": "Abraham was told that through Isaac his offspring would be named." },
+        { "ref": "Galatians 4:29-30", "from": "9-10", "note": "As the son born according to the flesh persecuted the son born according to the Spirit, so it is now. Cast out the slave woman and her son." },
+        { "ref": "Acts 7:8", "from": "4", "note": "Abraham circumcised Isaac on the eighth day." }
+      ],
+      "tier2": [
+        { "ref": "Hebrews 11:11-12", "from": "1-2", "note": "By faith Sarah received power to conceive past the age, and from one man as good as dead came descendants like the stars." },
+        { "ref": "Luke 1:57-58", "from": "6", "note": "When Elizabeth bears John in her old age, neighbors rejoice with her, echoing Sarah's words." },
+        { "ref": "Isaiah 40:28", "from": "33", "note": "The LORD is the everlasting God; he does not faint or grow weary." },
+        { "ref": "Psalm 113:9", "from": "6-7", "note": "God gives the barren woman a home, making her the joyous mother of children." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 26:26-33", "from": "22-34", "note": "Isaac renews the treaty with Abimelech and reopens the wells, and the name Beersheba is reaffirmed." },
+        { "ref": "John 4:10-14", "from": "19", "note": "God opens Hagar's eyes to a well of water; Jesus offers living water." },
+        { "ref": "Genesis 17:20", "from": "18", "note": "God's promise to make Ishmael a great nation is restated." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Victor Hamilton",
+        "work": "The Book of Genesis (New International Commentary on the Old Testament)",
+        "view": "Hamilton draws out the wordplay on laughter that runs through the Isaac story, from Abraham's and Sarah's doubt to Sarah's joy and Ishmael's ambiguous laughing. The name Isaac sums up God turning doubt into delight."
+      },
+      {
+        "name": "Charles Spurgeon",
+        "work": "Sermons on Genesis 21",
+        "view": "Spurgeon used Sarah's joy to show how God's fulfilled promises fill believers with holy laughter. He also applied Paul's allegory, urging hearers not to trust in the flesh but in the promise."
+      },
+      {
+        "name": "Bruce Waltke",
+        "work": "Genesis: A Commentary",
+        "view": "Waltke observes that God's care for Hagar and Ishmael is real and tender, even though the covenant line goes through Isaac. Election to covenant role is not the same as exclusion from God's compassion."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "And the LORD visited Sarah as he had said, and the LORD did unto Sarah as he had spoken.",
+        "renderings": [
+          { "version": "ESV", "text": "The LORD visited Sarah" },
+          { "version": "NIV", "text": "the LORD was gracious to Sarah" },
+          { "version": "CSB", "text": "The LORD came to Sarah" }
+        ],
+        "note": "Paqad has no exact English match. 'Visited' keeps the biblical idiom; 'was gracious to' explains it. The verse stresses twice that God did exactly what he said."
+      },
+      {
+        "verse": "12",
+        "kjv": "And God said unto Abraham, Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that Sarah hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called.",
+        "renderings": [
+          { "version": "ESV", "text": "through Isaac shall your offspring be named" },
+          { "version": "NIV", "text": "through Isaac that your offspring will be reckoned" },
+          { "version": "CSB", "text": "your offspring will be traced through Isaac" }
+        ],
+        "note": "Paul and Hebrews both quote this clause. It defines the covenant line by promise, not merely by being Abraham's biological son."
+      }
+    ],
+    "gospel": "Isaac is the long-awaited son of promise, born by God's power when it was humanly impossible, at the time God set. His birth foreshadows the birth of Jesus, the true Son of promise, born in the fullness of time. Paul teaches that all who believe in Christ are children of promise like Isaac, born of the Spirit, not of human effort (Galatians 4:28). And God's care for Hagar shows his compassion reaching beyond Israel, a hint of the gospel going to all.",
+    "application": [
+      "Trust that God keeps his promises at the right time, even after long waiting.",
+      "Let God turn our doubts into joy, and share that joy with others.",
+      "Understand that we become God's children by promise and new birth, not by heritage or effort.",
+      "Remember that God hears the outcast and provides in the wilderness.",
+      "Worship the Everlasting God, whose faithfulness spans generations."
+    ],
+    "misapplications": [
+      {
+        "claim": "Sending Hagar and Ishmael away shows God does not care for them.",
+        "correction": "God promises Ishmael will be a nation, hears his cry, provides water and is with him (v13, 17-20). The covenant role is Isaac's, but God's compassion is wide."
+      },
+      {
+        "claim": "Paul's allegory in Galatians 4 means Arabs or Ishmael's physical descendants are under a curse.",
+        "correction": "Paul uses Hagar and Sarah to contrast two ways of relating to God, law and flesh versus promise and Spirit. It is not a statement about any ethnic group."
+      }
+    ],
+    "contrasts": [
+      { "a": "Son of the flesh", "b": "Son of promise", "verses": "9-12", "note": "The heir is defined by God's promise, not by birth order." },
+      { "a": "Doubting laughter", "b": "Joyful laughter", "verses": "6; 18:12", "note": "God fulfills his word and turns skepticism to delight." },
+      { "a": "Water gone", "b": "A well revealed", "verses": "15-19", "note": "God opens Hagar's eyes to his provision." }
+    ],
+    "features": [
+      { "label": "As he had said", "note": "Verses 1-2 stress three times that God acted as he had said, spoken, and at the appointed time." },
+      { "label": "Laughter wordplay", "note": "Isaac, Sarah's 'laughter,' and Ishmael 'laughing' all play on the root tsḥq." },
+      { "label": "Beersheba", "note": "The name means 'well of seven' or 'well of the oath,' explained by the seven lambs and the sworn covenant." },
+      { "label": "Two sons, two wildernesses", "note": "Ishmael's near-death in the wilderness precedes Isaac's near-sacrifice on Moriah in chapter 22; in both God intervenes at the last moment." }
+    ],
+    "summary": "Genesis 21 records the fulfillment of God's long-delayed promise in the birth of Isaac and the joy it brings. It defines the covenant heir as the son of promise while showing God's tender care for Hagar and Ishmael. Abraham's worship of the Everlasting God celebrates the faithfulness that has carried him through decades of waiting.",
+    "metaArc": {
+      "book": "This chapter is the long-awaited climax of the seed promise in the Abraham story. It sets up the ultimate test in chapter 22, where God asks Abraham to offer this very son.",
+      "redemptive": "Promise fulfilled in part. Isaac's miraculous birth points forward to the birth of Christ, the ultimate son of promise through whom all who believe become Abraham's offspring."
+    }
+  }
+}

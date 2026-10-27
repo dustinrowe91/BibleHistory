@@ -1,0 +1,169 @@
+{
+  "ref": "GEN.19",
+  "book": "Genesis",
+  "chapter": 19,
+  "title": "Remember Lot's Wife",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "The two angels find Sodom as wicked as its outcry: the men of the city try to assault Lot's guests. The angels drag the hesitating Lot and his family out, and the LORD rains fire on Sodom and Gomorrah. Lot's wife looks back and dies, and Lot's daughters' incest produces Moab and Ammon. God remembered Abraham and spared Lot.",
+  "keyVerses": ["16", "24", "26", "29"],
+  "steps": {
+    "language": [
+      {
+        "word": "מָהַהּ",
+        "translit": "mahah",
+        "strongs": "H4102",
+        "gloss": "to linger, delay, hesitate",
+        "verses": "16",
+        "note": "Even after warning, Lot lingers. The angels have to seize his hand and the hands of his family, 'the LORD being merciful to him.' Lot is saved by grace, not by his eagerness."
+      },
+      {
+        "word": "הָפַךְ",
+        "translit": "hafak",
+        "strongs": "H2015",
+        "gloss": "to overthrow, overturn",
+        "verses": "21, 25, 29",
+        "note": "The cities are 'overthrown.' The noun form (mahpekah) becomes a fixed phrase in the prophets: the overthrow of Sodom and Gomorrah as the model of total judgment (Deuteronomy 29:23; Amos 4:11)."
+      },
+      {
+        "word": "גָּפְרִית וָאֵשׁ",
+        "translit": "gofrit waʾesh",
+        "gloss": "sulfur (brimstone) and fire",
+        "verses": "24",
+        "note": "Fire and sulfur from the LORD out of heaven. The pair becomes the language of final judgment (Psalm 11:6; Revelation 14:10; 21:8)."
+      },
+      {
+        "word": "זָכַר",
+        "translit": "zakar",
+        "strongs": "H2142",
+        "gloss": "to remember",
+        "verses": "29",
+        "note": "'God remembered Abraham and sent Lot out.' As in 8:1 with Noah, remembering means acting on commitment. Lot is rescued because of Abraham's intercession and God's covenant with him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Sodom as the model of judgment",
+        "refs": ["Deuteronomy 29:23", "Isaiah 1:9-10", "Matthew 10:15", "2 Peter 2:6", "Jude 7"],
+        "note": "Sodom and Gomorrah become Scripture's standing example of God's judgment on wickedness and a warning to later generations."
+      },
+      {
+        "theme": "The sins of Sodom",
+        "refs": ["Ezekiel 16:49-50", "Jude 7", "Isaiah 3:9"],
+        "note": "Ezekiel names Sodom's pride, excess food, careless ease and neglect of the poor; Jude names sexual immorality and pursuit of unnatural desire. The chapter shows violence and sexual predation against strangers."
+      },
+      {
+        "theme": "Remember Lot's wife",
+        "refs": ["Luke 17:28-33", "Hebrews 10:38-39", "Philippians 3:13-14"],
+        "note": "Jesus warns his followers to remember Lot's wife: whoever seeks to preserve his life will lose it. Do not turn back toward what God is judging."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). Directly following Abraham's intercession in chapter 18, the two angels arrive in Sodom, where Lot now sits in the city gate, having moved from 'toward Sodom' (13:12) to living in it (14:12).",
+      "flow": [
+        { "verses": "1-3", "label": "Lot's hospitality", "note": "Lot meets the two angels at the gate and insists they stay in his house rather than in the square." },
+        { "verses": "4-11", "label": "The men of Sodom", "note": "All the men of the city surround the house demanding the guests. Lot offers his daughters instead; the angels pull him in and strike the men blind." },
+        { "verses": "12-22", "label": "Dragged out by mercy", "note": "Lot's sons-in-law think he is joking. At dawn Lot lingers, and the angels seize the family and bring them out. Lot pleads to flee to Zoar." },
+        { "verses": "23-29", "label": "Fire from heaven", "note": "The LORD rains sulfur and fire on the cities. Lot's wife looks back and becomes a pillar of salt. Abraham sees the smoke rising; God remembered Abraham." },
+        { "verses": "30-38", "label": "In the cave", "note": "Afraid, Lot lives in a cave. His daughters get him drunk and conceive by him, giving birth to Moab and Ben-ammi, ancestors of the Moabites and Ammonites." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Luke 17:28-32", "from": "24-26", "note": "As it was in the days of Lot, so it will be on the day the Son of Man is revealed. Remember Lot's wife." },
+        { "ref": "2 Peter 2:6-9", "from": "16, 24", "note": "God condemned Sodom and Gomorrah as an example and rescued righteous Lot, showing he knows how to rescue the godly." },
+        { "ref": "Jude 7", "from": "4-5, 24", "note": "Sodom and Gomorrah serve as an example by undergoing the punishment of eternal fire." },
+        { "ref": "Matthew 10:15", "from": "24", "note": "It will be more bearable for Sodom on judgment day than for a town that rejects the gospel." }
+      ],
+      "tier2": [
+        { "ref": "Judges 19:22-30", "from": "4-9", "note": "A nearly identical scene in Gibeah shows Israel itself becoming like Sodom." },
+        { "ref": "Ezekiel 16:49-50", "from": "4-9", "note": "Sodom's guilt included pride, excess and failing to help the poor and needy." },
+        { "ref": "Revelation 14:10-11", "from": "24, 28", "note": "Fire and sulfur and rising smoke describe final judgment." },
+        { "ref": "Deuteronomy 23:3-4", "from": "36-38", "note": "Moabites and Ammonites are barred from the assembly for their later hostility to Israel." }
+      ],
+      "tier3": [
+        { "ref": "Ruth 1:4; 4:13-17", "from": "37", "note": "Ruth the Moabite becomes the great-grandmother of David and an ancestor of Jesus, grace overcoming a shameful origin." },
+        { "ref": "Isaiah 1:9", "from": "29", "note": "Unless the LORD had left a remnant, we would have been like Sodom." },
+        { "ref": "Hebrews 13:2", "from": "1-3", "note": "Lot, like Abraham, showed hospitality to angels unawares." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Derek Kidner",
+        "work": "Genesis (Tyndale Old Testament Commentaries)",
+        "view": "Kidner traces Lot's slide from choosing the plain to living in Sodom to losing his wife, his influence and his dignity. Lot is a believer whose compromise cost him almost everything, saved 'as through fire.'"
+      },
+      {
+        "name": "Kevin DeYoung",
+        "work": "What Does the Bible Really Teach about Homosexuality?",
+        "view": "DeYoung acknowledges that Sodom's sins included violence, pride and inhospitality, but argues from Jude 7 and the wider canon that sexual immorality, including homosexual acts, is part of what Scripture condemns there. He cautions against making Sodom the main text for the issue."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin sees Lot's offer of his daughters as a grievous sin born of panic, not a model of hospitality. He reads Lot's deliverance as wholly the work of God's mercy and Abraham's prayers."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "16",
+        "kjv": "And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city.",
+        "renderings": [
+          { "version": "ESV", "text": "the LORD being merciful to him" },
+          { "version": "NIV", "text": "for the LORD was merciful to them" },
+          { "version": "CSB", "text": "because of the LORD's compassion for him" }
+        ],
+        "note": "The Hebrew noun ḥemlah means compassion that spares. Lot's rescue is entirely God's mercy, given even as Lot hesitates."
+      },
+      {
+        "verse": "26",
+        "kjv": "But his wife looked back from behind him, and she became a pillar of salt.",
+        "renderings": [
+          { "version": "ESV", "text": "looked back, and she became a pillar of salt" },
+          { "version": "NIV", "text": "looked back, and she became a pillar of salt" },
+          { "version": "CSB", "text": "looked back and became a pillar of salt" }
+        ],
+        "note": "The versions agree. The verb suggests a longing, lingering look, not a glance, which is why Jesus uses her as a warning against clinging to this life."
+      }
+    ],
+    "gospel": "Sodom's destruction is a solemn preview of the final judgment, and Jesus and the apostles use it that way. Yet the chapter also shows rescue: Lot is dragged out by grace and spared because of Abraham's intercession. Believers are saved not by their own eagerness but because God remembers his covenant and because Christ, the greater intercessor, pleads for them. Remarkably, from Moab, born out of this chapter's shame, came Ruth, an ancestor of Jesus, showing that God's grace can redeem the darkest beginnings.",
+    "application": [
+      "Take seriously that God judges wickedness, including violence, pride and sexual sin.",
+      "Do not linger in or look back longingly at what God has called us to leave.",
+      "Watch for slow compromise; Lot's slide began with a choice that looked advantageous.",
+      "Pray for others, trusting God to remember those for whom we intercede.",
+      "Rest in God's mercy, which rescues even hesitant believers."
+    ],
+    "misapplications": [
+      {
+        "claim": "Lot is a hero whose actions are all approved because 2 Peter calls him righteous.",
+        "correction": "Peter calls him righteous and distressed by Sodom's sin, but Genesis shows his serious failures, including offering his daughters. He is righteous by faith, not a model to imitate in everything."
+      },
+      {
+        "claim": "Sodom's sin was only inhospitality.",
+        "correction": "The text describes an attempted mob sexual assault, Ezekiel names pride and neglect of the poor, and Jude names sexual immorality. Scripture presents a cluster of serious sins."
+      },
+      {
+        "claim": "The chapter teaches that offering one's daughters was acceptable in ancient culture and so morally fine.",
+        "correction": "Genesis records it without approval, and the outcome of Lot's family shows the damage of his choices. God's law protects the vulnerable."
+      }
+    ],
+    "contrasts": [
+      { "a": "Lingering", "b": "Seized by mercy", "verses": "16", "note": "Lot's hesitation meets God's compassionate force." },
+      { "a": "Looking back", "b": "Fleeing forward", "verses": "17, 26", "note": "Lot's wife's longing gaze costs her life." },
+      { "a": "Abraham standing before the LORD", "b": "Lot in the cave", "verses": "27-30", "note": "The one who walked by faith watches; the one who chose by sight ends in shame." }
+    ],
+    "features": [
+      { "label": "Contrast with chapter 18", "note": "Abraham's tent and Lot's house, the meal at Mamre and the mob at Sodom, the morning and evening scenes, are set side by side." },
+      { "label": "Laughter again", "note": "Lot's sons-in-law think he is 'joking' (metsaḥeq), the same root as Isaac and Sarah's laughter in chapters 17-18." },
+      { "label": "Sitting in the gate", "note": "Lot sits in the gate, the place of elders and judges, showing he had become a leading citizen of Sodom." },
+      { "label": "Echoes of Noah", "note": "Judgment from heaven, a righteous man rescued with his family, God 'remembered,' and drunkenness and shame afterward all echo the flood story." }
+    ],
+    "summary": "Genesis 19 shows the reality of God's judgment on a violent and corrupt society and the mercy that rescues Lot in spite of his hesitation and compromise. Lot is saved because God remembered Abraham, yet his choices cost him his wife and his family's integrity. Sodom becomes Scripture's lasting warning of judgment, and Lot's wife a warning against looking back.",
+    "metaArc": {
+      "book": "This chapter concludes the Lot storyline begun in chapter 13 and answers Abraham's intercession in chapter 18. It explains the origins of Moab and Ammon, Israel's later neighbors.",
+      "redemptive": "Fall and judgment, with mercy. Sodom foreshadows the final judgment, while the line of Moab will later bring Ruth into the family of Christ."
+    }
+  }
+}

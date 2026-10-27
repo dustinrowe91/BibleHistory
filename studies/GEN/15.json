@@ -1,0 +1,178 @@
+{
+  "ref": "GEN.15",
+  "book": "Genesis",
+  "chapter": 15,
+  "title": "Counted as Righteousness",
+  "status": "draft",
+  "source": "claude-opus-5-5",
+  "updated": "2026-10-26",
+  "theme": "Childless Abram brings his doubts to God, who promises a son from his own body and offspring as countless as the stars. Abram believes the LORD, and God counts it to him as righteousness. Then God binds himself by a covenant ceremony, passing alone between the pieces to guarantee the land to Abram's offspring.",
+  "keyVerses": ["1", "5-6", "13-14", "17-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "אָמַן",
+        "translit": "ʾaman",
+        "strongs": "H539",
+        "gloss": "to believe, trust, be firm",
+        "verses": "6",
+        "note": "The root behind 'amen.' In this form it means to consider someone reliable and lean on them. Abram's faith is not a feeling but resting his weight on the LORD's promise."
+      },
+      {
+        "word": "חָשַׁב",
+        "translit": "ḥashav",
+        "strongs": "H2803",
+        "gloss": "to count, reckon, credit",
+        "verses": "6",
+        "note": "An accounting term: to put something to someone's account. God credits righteousness to Abram on the basis of faith. Paul builds his teaching on justification on this verb (Romans 4:3-5)."
+      },
+      {
+        "word": "צְדָקָה",
+        "translit": "tsedaqah",
+        "strongs": "H6666",
+        "gloss": "righteousness",
+        "verses": "6",
+        "note": "Being in the right before God, meeting the standard of the relationship. Abram is counted righteous not because he has earned it but because he trusts God's word."
+      },
+      {
+        "word": "כָּרַת בְּרִית",
+        "translit": "karat berit",
+        "gloss": "to cut a covenant",
+        "verses": "18",
+        "note": "Covenants were 'cut' because they were sealed by cutting animals. Jeremiah 34:18-20 describes the practice: those who walked between the pieces called down that fate on themselves if they broke their word."
+      },
+      {
+        "word": "מָגֵן",
+        "translit": "magen",
+        "strongs": "H4043",
+        "gloss": "shield",
+        "verses": "1",
+        "note": "After his battle in chapter 14, Abram might fear reprisal. God says he himself is Abram's shield, a word that sounds like 'delivered' (miggen) in 14:20."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Justified by faith",
+        "refs": ["Romans 4:1-25", "Galatians 3:6-9", "James 2:23", "Psalm 106:31"],
+        "note": "Verse 6 is quoted four times in the New Testament. Paul uses it to show that righteousness comes by faith apart from works; James shows that such faith proves itself in obedience."
+      },
+      {
+        "theme": "Stars of heaven",
+        "refs": ["Genesis 22:17", "Genesis 26:4", "Exodus 32:13", "Deuteronomy 1:10", "Hebrews 11:12"],
+        "note": "The promise of starlike offspring is repeated to Isaac and Jacob, recalled by Moses, and counted as fulfilled in part by Israel's growth."
+      },
+      {
+        "theme": "Fear not",
+        "refs": ["Genesis 26:24", "Isaiah 41:10", "Luke 1:30", "Luke 12:32"],
+        "note": "The first 'fear not' in Scripture. God's presence and promise answer his people's fears throughout the Bible."
+      }
+    ],
+    "context": {
+      "setting": "The story of Abraham (11:27-25:11). Coming right after Abram refuses Sodom's reward, this chapter is the formal covenant ceremony confirming the promises of chapter 12, and comes before the attempt to fulfill them through Hagar in chapter 16.",
+      "flow": [
+        { "verses": "1-3", "label": "Fear not", "note": "God promises to be Abram's shield and reward. Abram replies that he remains childless and his servant Eliezer will be his heir." },
+        { "verses": "4-6", "label": "Look at the stars", "note": "God promises a son from Abram's own body and offspring like the stars. Abram believes, and God counts it as righteousness." },
+        { "verses": "7-11", "label": "The covenant preparation", "note": "God promises the land; Abram asks how he can know. God tells him to prepare animals, cut in two, and Abram drives away birds of prey." },
+        { "verses": "12-16", "label": "Dark prophecy", "note": "In a deep sleep and dreadful darkness, Abram learns his offspring will be enslaved 400 years, then brought out with great possessions when the Amorites' sin is complete." },
+        { "verses": "17-21", "label": "God passes through", "note": "A smoking fire pot and flaming torch pass between the pieces. God makes a covenant giving the land from Egypt's river to the Euphrates." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Romans 4:3", "from": "6", "note": "Abraham believed God, and it was counted to him as righteousness; Paul builds his case for justification by faith on it." },
+        { "ref": "Galatians 3:6", "from": "6", "note": "Those who have faith are the sons of Abraham." },
+        { "ref": "James 2:23", "from": "6", "note": "The Scripture was fulfilled when Abraham offered Isaac, showing his faith was living." },
+        { "ref": "Acts 7:6-7", "from": "13-14", "note": "Stephen quotes the prophecy of 400 years of slavery and deliverance." },
+        { "ref": "Romans 4:18", "from": "5", "note": "In hope he believed against hope that he would become the father of many nations, as he had been told, so shall your offspring be." }
+      ],
+      "tier2": [
+        { "ref": "Exodus 12:40-41", "from": "13-14", "note": "Israel leaves Egypt after 430 years, fulfilling the prophecy." },
+        { "ref": "Jeremiah 34:18-20", "from": "10, 17", "note": "Those who walked between the pieces and broke the covenant would be cut apart like the calf." },
+        { "ref": "Hebrews 6:13-18", "from": "17-18", "note": "God, having no one greater to swear by, swore by himself so that we might have strong encouragement." },
+        { "ref": "Exodus 13:21", "from": "17", "note": "God leads Israel by a pillar of cloud and fire, matching the smoke and fire that pass between the pieces." }
+      ],
+      "tier3": [
+        { "ref": "1 Kings 4:21", "from": "18", "note": "Solomon rules from the Euphrates to the border of Egypt." },
+        { "ref": "2 Peter 3:9", "from": "16", "note": "God waits for the Amorites' iniquity to be complete, showing his patience before judgment." },
+        { "ref": "Psalm 3:3", "from": "1", "note": "You, O LORD, are a shield about me." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Thomas Schreiner",
+        "work": "Faith Alone: The Doctrine of Justification",
+        "view": "Schreiner argues that Genesis 15:6, as Paul reads it, shows righteousness credited to Abraham as a gift received by faith, not as a reward for faithfulness. He holds that James and Paul agree: true faith justifies and also proves itself in works."
+      },
+      {
+        "name": "O. Palmer Robertson",
+        "work": "The Christ of the Covenants",
+        "view": "Robertson explains the covenant ceremony as a self-maledictory oath: God alone passes through the pieces, calling death upon himself should he fail to keep his word. The covenant rests entirely on God's commitment."
+      },
+      {
+        "name": "John Calvin",
+        "work": "Commentary on Genesis",
+        "view": "Calvin insists Abram was not justified at this moment for the first time but that the verse states the principle of how he had been accepted by God all along: through faith resting on God's promise."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.",
+        "renderings": [
+          { "version": "ESV", "text": "your reward shall be very great" },
+          { "version": "NIV", "text": "your very great reward" },
+          { "version": "CSB", "text": "Your reward will be very great" }
+        ],
+        "note": "The Hebrew can mean God himself is the reward (KJV, NIV) or that God will give a great reward (ESV, CSB). Both are grammatically possible, and both are true."
+      },
+      {
+        "verse": "6",
+        "kjv": "And he believed in the LORD; and he counted it to him for righteousness.",
+        "renderings": [
+          { "version": "ESV", "text": "he counted it to him as righteousness" },
+          { "version": "NIV", "text": "he credited it to him as righteousness" },
+          { "version": "CSB", "text": "he credited it to him as righteousness" }
+        ],
+        "note": "'Credited' brings out the accounting sense of ḥashav that Paul develops in Romans 4: righteousness put to Abram's account."
+      }
+    ],
+    "gospel": "This chapter is central to the gospel. Abram is declared righteous not by works but by believing God's promise, and Paul says this was written for us too: righteousness is counted to everyone who believes in him who raised Jesus from the dead (Romans 4:23-25). In the covenant ceremony God alone walks between the pieces, taking on himself the curse for broken promises. At the cross, God in Christ bore that curse, so that the covenant's blessing comes to all who believe (Galatians 3:13-14).",
+    "application": [
+      "Bring honest doubts and questions to God in prayer, as Abram did.",
+      "Rest your standing before God on trusting his promise in Christ, not on your performance.",
+      "Find assurance in God's oath: the covenant depends on his faithfulness.",
+      "Trust God's timing and justice, even when his plans involve long waiting or suffering.",
+      "Answer fear with God's word: he is our shield and our reward."
+    ],
+    "misapplications": [
+      {
+        "claim": "Abram's faith was a meritorious work that earned righteousness.",
+        "correction": "Paul says the reward is credited not as wages but as a gift to the one who does not work but trusts God (Romans 4:4-5). Faith receives; it does not earn."
+      },
+      {
+        "claim": "Justification by faith means obedience does not matter.",
+        "correction": "James 2:21-24 shows that Abraham's faith was proven by his obedience in Genesis 22. Saving faith is a living faith."
+      },
+      {
+        "claim": "Asking 'How can I know?' shows unbelief God condemns.",
+        "correction": "God answers Abram's question with a covenant sign rather than a rebuke. Believing faith can still ask for assurance."
+      }
+    ],
+    "contrasts": [
+      { "a": "Faith", "b": "Works", "verses": "6", "note": "Righteousness is credited through believing God's word." },
+      { "a": "Darkness and dread", "b": "Fire and light", "verses": "12, 17", "note": "Suffering is foretold, but God's presence seals the promise." },
+      { "a": "Abram asleep", "b": "God acts alone", "verses": "12, 17", "note": "The covenant is unilateral; God takes the obligation on himself." }
+    ],
+    "features": [
+      { "label": "Shield and delivered", "note": "God's 'shield' (magen) in 15:1 echoes Melchizedek's 'delivered' (miggen) in 14:20, linking the two chapters." },
+      { "label": "Stars", "note": "God takes Abram outside at night, turning his doubts into a visual lesson he could see every evening." },
+      { "label": "Birds of prey", "note": "Abram's driving away the birds may picture threats to the promise that must be resisted, though the meaning is debated." },
+      { "label": "Smoke and fire", "note": "The theophany anticipates God's presence at Sinai and in the pillar of cloud and fire." }
+    ],
+    "summary": "Genesis 15 teaches that Abram was counted righteous by faith and that God guaranteed his promises by covenant oath, binding himself alone. It also foretells Israel's slavery and exodus, showing that God's plan includes suffering but ends in deliverance. The chapter is the Old Testament foundation for justification by faith.",
+    "metaArc": {
+      "book": "This chapter formalizes the covenant with Abram, confirming the seed and land promises. It is followed by Sarai's attempt to produce an heir through Hagar, testing whether Abram will wait for God.",
+      "redemptive": "Promise. The covenant oath and justification by faith are foundational to redemption, fulfilled when Christ bears the covenant curse and all who believe are counted righteous."
+    }
+  }
+}
