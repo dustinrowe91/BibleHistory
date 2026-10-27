@@ -1,0 +1,176 @@
+{
+  "ref": "LUK.9",
+  "book": "Luke",
+  "chapter": 9,
+  "title": "He Set His Face to Go to Jerusalem",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus sends out the Twelve, feeds five thousand, and draws from Peter the confession that he is 'the Christ of God.' He then reveals that the Son of Man must suffer, die and be raised, and calls disciples to take up their cross daily. On the mountain he is transfigured in glory, speaking with Moses and Elijah about his coming 'exodus' at Jerusalem, and then he resolutely sets his face toward that city.",
+  "keyVerses": ["20", "22-23", "35", "51"],
+  "steps": {
+    "language": [
+      {
+        "word": "χριστός",
+        "translit": "christos",
+        "strongs": "G5547",
+        "gloss": "Christ, Anointed One, Messiah",
+        "verses": "20",
+        "note": "Peter confesses Jesus as 'the Christ of God,' God's own Anointed. This is the hinge of the chapter: once his identity is confessed, Jesus immediately explains what kind of Christ he is, one who must suffer (v22)."
+      },
+      {
+        "word": "ἀρνέομαι",
+        "translit": "arneomai",
+        "strongs": "G720",
+        "gloss": "to deny, disown, refuse",
+        "verses": "23",
+        "note": "To 'deny himself' is to say no to self as the ruler of one's life. The same verb describes Peter denying Jesus (22:57). The disciple must choose whom to deny: self or Christ."
+      },
+      {
+        "word": "σταυρός",
+        "translit": "stauros",
+        "strongs": "G4716",
+        "gloss": "cross",
+        "verses": "23",
+        "note": "In the Roman world a condemned man carried his cross to execution. Only Luke adds 'daily': following Jesus means a continual dying to self, not a single heroic act."
+      },
+      {
+        "word": "ἔξοδος",
+        "translit": "exodos",
+        "strongs": "G1841",
+        "gloss": "departure, exodus, death",
+        "verses": "31",
+        "note": "Moses and Elijah speak with Jesus about his 'exodus' to be accomplished at Jerusalem. The word can mean death or departure, and it recalls Israel's exodus from Egypt. Jesus' death, resurrection and ascension will be the new exodus that frees God's people."
+      },
+      {
+        "word": "ἀνάλημψις",
+        "translit": "analēmpsis",
+        "strongs": "G354",
+        "gloss": "taking up, ascension",
+        "verses": "51",
+        "note": "'When the time was come that he should be received up.' Used only here in the New Testament, it looks ahead to the ascension (Acts 1:2, 11 use the related verb). From this point Jesus' whole journey moves toward the cross and glory."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Bread in the wilderness",
+        "refs": ["Exodus 16:4-15", "2 Kings 4:42-44", "Psalm 78:24-25", "John 6:31-35"],
+        "note": "God fed Israel with manna, and Elisha fed a hundred men with twenty loaves. Jesus feeds thousands in a deserted place, showing himself as God's provision."
+      },
+      {
+        "theme": "The suffering Messiah",
+        "refs": ["Isaiah 52:13-53:12", "Psalm 118:22", "Luke 24:25-27, 44-46"],
+        "note": "The Servant would suffer and be rejected before being exalted. Jesus' disciples could not yet grasp this (v45)."
+      },
+      {
+        "theme": "Mountain glory",
+        "refs": ["Exodus 24:15-18", "Exodus 34:29-35", "1 Kings 19:8-13"],
+        "note": "Moses and Elijah both met God on a mountain. Now they appear with Jesus, whose face shines, and a cloud overshadows them as at Sinai."
+      },
+      {
+        "theme": "Hear him",
+        "refs": ["Deuteronomy 18:15", "Acts 3:22-23", "Hebrews 1:1-2"],
+        "note": "Moses promised a prophet like himself: 'unto him ye shall hearken.' The Father's voice says of Jesus, 'hear him.'"
+      }
+    ],
+    "context": {
+      "setting": "Chapter 9 is the climax and close of the Galilean ministry. Luke leaves out a long stretch of material found in Mark 6:45-8:26, moving directly from the feeding of the five thousand to Peter's confession, which tightens the focus on Jesus' identity. Verse 51 begins Luke's long travel narrative (9:51-19:44), in which Jesus journeys toward Jerusalem while teaching his disciples. Much of that material is found only in Luke.",
+      "flow": [
+        { "verses": "1-9", "label": "The Twelve sent; Herod perplexed", "note": "Jesus gives the Twelve power and sends them to preach and heal; Herod wonders who Jesus is." },
+        { "verses": "10-17", "label": "Five thousand fed", "note": "With five loaves and two fish Jesus feeds the crowd, and twelve baskets of leftovers remain." },
+        { "verses": "18-27", "label": "Confession and the cost", "note": "After praying, Jesus asks who the disciples say he is; Peter answers, 'The Christ of God.' Jesus foretells his suffering and calls disciples to deny themselves and take up their cross daily." },
+        { "verses": "28-36", "label": "The transfiguration", "note": "On the mountain Jesus' face and clothes shine; Moses and Elijah speak of his exodus; a voice from the cloud says, 'This is my beloved Son: hear him.'" },
+        { "verses": "37-50", "label": "Failure and greatness", "note": "Jesus heals a boy the disciples could not; he again foretells his betrayal; the disciples argue over who is greatest, and he places a child beside him." },
+        { "verses": "51-62", "label": "The journey begins", "note": "Jesus sets his face toward Jerusalem; he rebukes James and John for wanting fire on a Samaritan village; he warns would-be followers of the cost." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 18:15", "from": "35", "note": "'Unto him ye shall hearken.' The Father's 'hear him' identifies Jesus as the prophet like Moses." },
+        { "ref": "Psalm 2:7; Isaiah 42:1", "from": "35", "note": "'This is my beloved Son' (the oldest manuscripts read 'my Son, my Chosen One'), echoing the baptism and Isaiah's Servant, 'mine elect.'" }
+      ],
+      "tier2": [
+        { "ref": "Exodus 24:15-18; 34:29-30", "from": "29, 34", "note": "Moses on the mountain in the cloud, his face shining after speaking with God." },
+        { "ref": "2 Kings 1:9-12", "from": "54", "note": "Elijah called down fire on soldiers sent by the king of Samaria. Jesus rebukes the disciples who want to do the same." },
+        { "ref": "1 Kings 19:19-21", "from": "61-62", "note": "Elisha asked to say goodbye to his parents before following Elijah, and left his plow. Jesus' call is even more urgent." },
+        { "ref": "2 Peter 1:16-18", "from": "28-35", "note": "Peter later recalls being an eyewitness of Christ's majesty on the holy mountain and hearing the Father's voice." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 50:7", "from": "51", "note": "'Therefore have I set my face like a flint.' The Servant's resolve to face suffering." },
+        { "ref": "Exodus 16:35", "from": "12-17", "note": "God fed Israel in the wilderness forty years." },
+        { "ref": "Mark 9:2-13", "from": "28-36", "note": "Mark's account of the transfiguration; Luke alone mentions prayer and the content of the conversation." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock treats 9:51 as a major turning point that begins the 'Jerusalem journey,' a section focused on discipleship and on preparing the disciples for Jesus' departure. The journey is less a travel diary than a theological framework showing Jesus moving deliberately toward his appointed suffering."
+      },
+      {
+        "name": "Dietrich Bonhoeffer",
+        "work": "The Cost of Discipleship (Discipleship)",
+        "view": "Bonhoeffer argued that the call to follow Christ is a call to come and die to self. He contrasted 'cheap grace,' grace without discipleship and the cross, with 'costly grace,' which calls us to follow Jesus because it cost God the life of his Son."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "31",
+        "kjv": "Who appeared in glory, and spake of his decease which he should accomplish at Jerusalem.",
+        "renderings": [
+          { "version": "ESV", "text": "his departure, which he was about to accomplish" },
+          { "version": "NIV", "text": "his departure, which he was about to bring to fulfillment" }
+        ],
+        "note": "The Greek word is exodos. 'Decease' and 'departure' both lose the echo of Israel's exodus. Jesus' death is something he 'accomplishes' or fulfills, not merely something done to him."
+      },
+      {
+        "verse": "55",
+        "kjv": "But he turned, and rebuked them, and said, Ye know not what manner of spirit ye are of.",
+        "renderings": [
+          { "version": "ESV", "text": "But he turned and rebuked them." },
+          { "version": "NIV", "text": "But Jesus turned and rebuked them." }
+        ],
+        "note": "The words of the rebuke, and the line that follows in the KJV ('For the Son of man is not come to destroy men's lives, but to save them'), are missing from the oldest manuscripts. They fit Jesus' teaching, but were probably added by scribes."
+      }
+    ],
+    "gospel": "This chapter defines the gospel's shape. Jesus is 'the Christ of God' (v20), and the Christ 'must suffer many things, and be rejected... and be slain, and be raised the third day' (v22). On the mountain the Father confirms his Son's glory and the coming exodus he will accomplish at Jerusalem, the death and resurrection that set captives free (v31). Then Jesus sets his face to go there (v51), willingly walking toward the cross. Those who follow him lose their lives for his sake and so save them (v24).",
+    "application": [
+      "Answer Jesus' question personally: 'Whom say ye that I am?'",
+      "Take up your cross daily. Discipleship is a daily surrender, not a one-time decision.",
+      "Listen to Jesus above every other voice. The Father's command is 'hear him.'",
+      "Measure greatness by service, by receiving the least in Jesus' name.",
+      "Reject the urge to call down fire on those who reject you. Jesus came to save."
+    ],
+    "misapplications": [
+      {
+        "claim": "Taking up your cross means putting up with any ordinary hardship or annoyance.",
+        "correction": "In context the cross is the cost of following Jesus, denying self and being willing to lose one's life for his sake (v23-24). It is about loyalty to Christ, not every inconvenience."
+      },
+      {
+        "claim": "Jesus' warning to the man who wanted to bury his father shows he despises family duties.",
+        "correction": "Jesus uses shocking language to show that the kingdom's claim comes first, above even the most sacred obligations (v59-60). He commands honoring parents elsewhere (18:20)."
+      },
+      {
+        "claim": "Moses and Elijah appearing with Jesus puts them on the same level as him.",
+        "correction": "Peter wants three tents, as if equal, but the cloud and voice single out Jesus alone: 'This is my beloved Son: hear him.' When the voice ends, 'Jesus was found alone' (v33-36)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Save your life", "b": "Lose it for my sake", "verses": "24", "note": "The paradox of discipleship." },
+      { "a": "Glory on the mountain", "b": "Failure in the valley", "verses": "28-43", "note": "The disciples move from a vision of glory to helplessness." },
+      { "a": "Who is greatest?", "b": "The least among you", "verses": "46-48", "note": "Jesus overturns their ambition with a child." },
+      { "a": "Fire from heaven", "b": "Jesus' rebuke", "verses": "54-55", "note": "Zeal for judgment is out of step with the Savior's mission." }
+    ],
+    "features": [
+      { "label": "Prayer at turning points", "note": "Luke alone notes Jesus praying before Peter's confession (v18) and at the transfiguration (v28-29)." },
+      { "label": "The 'great omission'", "note": "Luke skips the material of Mark 6:45-8:26, moving straight from feeding the crowd to Peter's confession, sharpening the focus on Jesus' identity." },
+      { "label": "Three would-be disciples", "note": "The chapter ends with three short exchanges about following Jesus (v57-62), each showing a different obstacle: comfort, family duty, divided loyalty." },
+      { "label": "A turning verse", "note": "Verse 51 echoes Isaiah 50:7 and opens the ten-chapter journey to Jerusalem, the structural center of Luke." }
+    ],
+    "summary": "Luke 9 brings Jesus' Galilean ministry to its peak and turns it toward Jerusalem. Peter confesses him as the Christ of God, Jesus reveals that he must suffer and rise, and the transfiguration displays his glory and his coming exodus. Disciples are called to deny themselves, take up their cross daily and follow the Son whom the Father commands them to hear.",
+    "metaArc": {
+      "book": "Chapter 9 closes the Galilean ministry and, at verse 51, begins the journey to Jerusalem (9:51-19:44), the central section of Luke, which is shaped by Jesus' resolve to go to the cross.",
+      "redemptive": "The chapter reveals Redemption's path: the Messiah's glory comes through suffering, and his death and resurrection will be the new exodus for God's people."
+    }
+  }
+}

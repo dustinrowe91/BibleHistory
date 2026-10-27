@@ -1,0 +1,172 @@
+{
+  "ref": "REV.19",
+  "book": "Revelation",
+  "chapter": 19,
+  "title": "King of Kings and Lord of Lords",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Heaven thunders 'Hallelujah' because God has judged the great harlot and because the marriage of the Lamb has come, his bride clothed in fine linen. Then heaven opens and Christ rides out on a white horse, Faithful and True, the Word of God, King of kings and Lord of lords. The beast and false prophet are captured and thrown into the lake of fire, and their armies fall by the sword from his mouth.",
+  "keyVerses": ["6-7", "9", "11-13", "16"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἁλληλουϊά",
+        "translit": "hallēlouia",
+        "strongs": "G239",
+        "gloss": "Hallelujah, 'Praise the LORD'",
+        "verses": "1, 3-4, 6",
+        "note": "A Hebrew phrase, 'praise Yah,' common in the Psalms (Psalms 104-106, 111-113, 146-150). These are its only four uses in the New Testament, all in this scene. Heaven's greatest burst of praise follows the fall of evil and the coming of the wedding."
+      },
+      {
+        "word": "γάμος",
+        "translit": "gamos",
+        "strongs": "G1062",
+        "gloss": "wedding, wedding feast",
+        "verses": "7, 9",
+        "note": "Scripture often pictures God and his people as husband and wife (Isaiah 54:5; Hosea 2:19-20; Ephesians 5:25-32). Jesus spoke of the kingdom as a wedding feast (Matthew 22:1-14). Here the long betrothal ends in the marriage of the Lamb."
+      },
+      {
+        "word": "βύσσινος",
+        "translit": "byssinos",
+        "strongs": "G1039",
+        "gloss": "made of fine linen",
+        "verses": "8, 14",
+        "note": "The harlot wore purple, scarlet and gold (17:4); the bride wears pure, bright linen 'granted' to her. The linen is explained as 'the righteous deeds of the saints,' the fruit of grace in their lives."
+      },
+      {
+        "word": "πιστὸς καὶ ἀληθινός",
+        "translit": "pistos kai alēthinos",
+        "strongs": "G4103",
+        "gloss": "Faithful and True",
+        "verses": "11",
+        "note": "The rider's first name recalls his title to Laodicea, 'the faithful and true witness' (3:14). He is utterly reliable in what he says and does, unlike the deceiving beast."
+      },
+      {
+        "word": "ῥομφαία",
+        "translit": "rhomphaia",
+        "strongs": "G4501",
+        "gloss": "sword, large broadsword",
+        "verses": "15, 21",
+        "note": "The sword comes from his mouth, as in 1:16 and 2:16. His weapon is his word: by it he judges and defeats his enemies, as God created the world by speaking."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The bride of the LORD",
+        "refs": ["Isaiah 61:10; 62:5", "Hosea 2:19-20", "Matthew 25:1-13", "2 Corinthians 11:2", "Ephesians 5:25-27"],
+        "note": "God promised to betroth his people forever. Paul presents the church to Christ as a pure bride."
+      },
+      {
+        "theme": "The divine warrior",
+        "refs": ["Exodus 15:3", "Isaiah 59:16-17", "Isaiah 63:1-6", "Habakkuk 3:8-13"],
+        "note": "The LORD is a man of war who comes to rescue his people and judge his enemies, dressed in righteousness and stained from treading the winepress."
+      },
+      {
+        "theme": "The Word of God",
+        "refs": ["John 1:1-3, 14", "Hebrews 4:12", "Revelation 1:16"],
+        "note": "John's Gospel opens with Christ as the Word; here he rides as the Word of God, whose speech is a sword."
+      },
+      {
+        "theme": "The great supper of God",
+        "refs": ["Ezekiel 39:17-20", "Matthew 24:28"],
+        "note": "Ezekiel foresaw birds summoned to feast on the fallen armies of Gog. Two suppers stand side by side: the wedding supper of the Lamb and the grim supper for the birds."
+      }
+    ],
+    "context": {
+      "setting": "Verses 1-10 conclude the Babylon section with heaven's celebration of her judgment and the announcement of the Lamb's wedding. Verses 11-21 begin the final visions of the book, describing Christ's return and victory over the beast and false prophet. Most interpreters see verses 11-21 as the second coming of Christ. The battle is the one anticipated at Armageddon (16:14-16), yet no fighting is described: the enemies gather, and the outcome is decided by the rider's word.",
+      "flow": [
+        { "verses": "1-5", "label": "Hallelujah for justice", "note": "A great multitude praises God because his judgments are true and just and he has avenged his servants' blood on the great harlot; the elders and creatures say 'Amen, Hallelujah.'" },
+        { "verses": "6-10", "label": "The marriage of the Lamb", "note": "Hallelujah, for the Lord God Almighty reigns; the marriage of the Lamb has come and his bride has made herself ready; blessed are those invited to the marriage supper. John falls to worship the angel and is told, 'Worship God.'" },
+        { "verses": "11-16", "label": "The rider on the white horse", "note": "Faithful and True judges and makes war in righteousness, with eyes like fire, many crowns, a robe dipped in blood, named the Word of God; the armies of heaven follow; a sharp sword comes from his mouth; he is King of kings and Lord of lords." },
+        { "verses": "17-21", "label": "The defeat of the beast", "note": "An angel summons the birds to the great supper of God; the beast and kings gather for war, the beast and false prophet are thrown alive into the lake of fire, and the rest are killed by the sword from the rider's mouth." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 2:9", "from": "15", "note": "'He shall rule them with a rod of iron.' The Messiah's promised rule is exercised as he returns." },
+        { "ref": "Isaiah 63:2-3", "from": "13, 15", "note": "'Wherefore art thou red in thine apparel... I have trodden the winepress alone.' The rider's robe and the winepress of God's wrath come from Isaiah." },
+        { "ref": "Ezekiel 39:17-20", "from": "17-18", "note": "Birds and beasts are called to a great sacrifice to eat the flesh of the mighty and the blood of princes. John repeats the summons." },
+        { "ref": "Isaiah 11:4", "from": "11, 15", "note": "'With righteousness shall he judge... and he shall smite the earth with the rod of his mouth.' The Branch of Jesse judges by his word." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 22:1-14", "from": "7-9", "note": "Jesus' parable of the king's wedding feast for his son, with invited guests and the need for a wedding garment." },
+        { "ref": "Matthew 24:30; 2 Thessalonians 1:7-8; 2:8", "from": "11-21", "note": "The Son of Man comes with power and great glory; the Lord Jesus is revealed from heaven in flaming fire; the lawless one is destroyed by the breath of his mouth." },
+        { "ref": "Psalm 45:3-7", "from": "11-16", "note": "The royal wedding psalm pictures the king riding out victoriously for truth and righteousness, and his throne lasting forever." },
+        { "ref": "Daniel 7:11", "from": "20", "note": "The beast was slain and its body given to the burning flame." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 15:3", "from": "11", "note": "'The LORD is a man of war: the LORD is his name.'" },
+        { "ref": "Acts 10:25-26", "from": "10", "note": "Peter refused Cornelius's worship: 'Stand up; I myself also am a man.'" },
+        { "ref": "Psalm 106:48; 150:6", "from": "1-6", "note": "The Psalter ends in a chorus of 'Praise ye the LORD,' as heaven's praise here builds through repeated hallelujahs." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. B. Caird",
+        "work": "A Commentary on the Revelation of St. John the Divine",
+        "view": "Caird argued that the blood on the rider's robe (v13) is his own, and that of his martyrs, rather than his enemies', since it is on him before the battle begins. In his reading the Lamb conquers as he always has in Revelation, by his sacrificial death and by the word of his mouth."
+      },
+      {
+        "name": "Robert H. Mounce",
+        "work": "The Book of Revelation (New International Commentary on the New Testament)",
+        "view": "Mounce reads verses 11-21 as Christ's visible return in glory to defeat the forces of evil. He emphasizes that no battle is actually fought: the enemy is gathered and then simply overcome by the word of Christ, the sword that proceeds from his mouth."
+      },
+      {
+        "name": "Richard Bauckham",
+        "work": "The Theology of the Book of Revelation",
+        "view": "Bauckham notes that John refuses angelic worship (v10) to guard the line between creature and Creator, which makes the worship given to the Lamb throughout the book all the more striking: Jesus is on the divine side of that line."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And to her was granted that she should be arrayed in fine linen, clean and white: for the fine linen is the righteousness of saints.",
+        "renderings": [
+          { "version": "ESV", "text": "the fine linen is the righteous deeds of the saints" },
+          { "version": "NIV", "text": "Fine linen stands for the righteous acts of God's holy people" }
+        ],
+        "note": "The Greek dikaiōmata is plural, 'righteous acts.' The bride's dress is 'granted' to her by God (v8), yet consists of the saints' faithful deeds. Grace provides the garment, and the saints' faithful lives are what it is made of."
+      }
+    ],
+    "gospel": "Heaven's hallelujahs celebrate salvation: 'Salvation, and glory, and honour, and power, unto the Lord our God' (v1). The goal of redemption is a wedding: the Lamb who gave himself for his bride now receives her, dressed in linen given to her by grace (v7-8). Blessed are those invited to his supper (v9). Then the same Lamb rides out as Faithful and True, the Word of God, King of kings and Lord of lords, and with a word ends the reign of the beast. The one whose robe is dipped in blood is the Savior who shed it.",
+    "application": [
+      "Join heaven's hallelujahs. Praise God for his justice as well as his mercy.",
+      "Prepare as a bride prepares. Pursue holiness, the righteous deeds that clothe the church, out of love for Christ.",
+      "Worship God alone. Even the most glorious messenger is a fellow servant (v10).",
+      "Take courage that Christ will return in visible glory and put an end to every power of evil.",
+      "Trust the power of Christ's word. His victory is won not by human force but by what he says."
+    ],
+    "misapplications": [
+      {
+        "claim": "The rider's sword and armies mean Christians should advance Christ's kingdom by force.",
+        "correction": "The sword is in his mouth, his word (v15, 21), and the heavenly armies do no fighting. Believers conquer through witness and faithfulness (12:11), and Christ alone executes final judgment."
+      },
+      {
+        "claim": "Since the bride's linen is 'the righteous deeds of the saints,' we earn our place at the wedding by good works.",
+        "correction": "The linen was 'granted' to her (v8). The saints' deeds are themselves the fruit of grace, and their robes were washed white in the Lamb's blood (7:14)."
+      },
+      {
+        "claim": "Angels or spiritual messengers may be venerated.",
+        "correction": "When John falls before the angel, he is sharply told, 'See thou do it not... worship God' (v10). Worship belongs to God alone."
+      }
+    ],
+    "contrasts": [
+      { "a": "The harlot's finery", "b": "The bride's fine linen", "verses": "2, 8", "note": "Two women, two cities, two destinies." },
+      { "a": "The marriage supper of the Lamb", "b": "The great supper of God", "verses": "9, 17-18", "note": "Every person ends up at one of the two suppers, as guest or as judged." },
+      { "a": "The beast's armies gathered", "b": "The rider's word", "verses": "19-21", "note": "A vast coalition is defeated without a battle." },
+      { "a": "Many crowns", "b": "A name no one knows", "verses": "12", "note": "Christ's authority is complete, and his being is beyond full human understanding." }
+    ],
+    "features": [
+      { "label": "Four hallelujahs", "note": "The only uses of 'Hallelujah' in the New Testament come here (v1, 3, 4, 6), a climactic chorus answering the dirges of chapter 18." },
+      { "label": "Four names", "note": "The rider is Faithful and True (v11), has a name no one knows (v12), is called the Word of God (v13), and bears the name King of kings and Lord of lords (v16)." },
+      { "label": "Echoes of chapter 1", "note": "Eyes like a flame of fire, the sharp sword from his mouth and his role as faithful witness tie the rider to the risen Christ of 1:14-16." },
+      { "label": "The fourth beatitude", "note": "'Blessed are they which are called unto the marriage supper of the Lamb' (v9), with the angel's assurance that these are the true sayings of God." }
+    ],
+    "summary": "Revelation 19 celebrates God's just judgment of Babylon and announces the marriage of the Lamb to his bride, clothed in grace and holiness. Christ then appears from heaven as the faithful and true King of kings and Lord of lords, the Word of God, and defeats the beast, the false prophet and their armies by the word of his mouth. The chapter shows the end of evil's reign and the beginning of the consummation of Christ's kingdom.",
+    "metaArc": {
+      "book": "Chapter 19 closes the Babylon section with heaven's response (v1-10) and opens the final section of the book (19:11-22:5), which narrates the defeat of every enemy and the arrival of the new creation.",
+      "redemptive": "The chapter brings the story to its climax: Christ's return in glory, the final defeat of the beast, and the wedding of the Lamb and his people, the goal toward which all redemption has moved."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "ref": "REV.10",
+  "book": "Revelation",
+  "chapter": 10,
+  "title": "Sweet as Honey, Bitter in the Stomach",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "A mighty angel straddling land and sea swears that there will be no more delay: at the seventh trumpet the mystery of God announced to the prophets will be fulfilled. John is told to eat a little open scroll, sweet in his mouth but bitter in his stomach, and is recommissioned to prophesy about many peoples, nations, languages and kings.",
+  "keyVerses": ["6-7", "9-10", "11"],
+  "steps": {
+    "language": [
+      {
+        "word": "βιβλαρίδιον",
+        "translit": "biblaridion",
+        "strongs": "G974",
+        "gloss": "little scroll",
+        "verses": "2, 9-10",
+        "note": "A diminutive of biblion, the scroll of chapter 5. Some think it is a different, smaller scroll; others, such as Richard Bauckham, argue it is the same scroll, now opened by the Lamb, whose content is revealed from this point on. Either way, it is open and is to be eaten."
+      },
+      {
+        "word": "χρόνος",
+        "translit": "chronos",
+        "strongs": "G5550",
+        "gloss": "time, delay",
+        "verses": "6",
+        "note": "Here it means 'delay.' The angel is not announcing the end of time as such, but that the waiting is over: the martyrs who were told to rest 'a little season' (6:11) will now see God act."
+      },
+      {
+        "word": "μυστήριον",
+        "translit": "mystērion",
+        "strongs": "G3466",
+        "gloss": "mystery, God's revealed plan",
+        "verses": "7",
+        "note": "God's purpose, hidden in part but announced to his servants the prophets, now reaching completion. In Paul the mystery centers on Christ and the inclusion of the nations (Ephesians 3:3-6); here it is the full arrival of God's kingdom (11:15)."
+      },
+      {
+        "word": "προφητεύω",
+        "translit": "prophēteuō",
+        "strongs": "G4395",
+        "gloss": "to prophesy, speak God's message",
+        "verses": "11",
+        "note": "Prophecy in Scripture is mainly speaking God's word to people, calling them to repentance and faithfulness, though it can include prediction. John's renewed commission is to speak 'about' (or 'against') many peoples and kings."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Eating God's word",
+        "refs": ["Ezekiel 2:8-3:3", "Jeremiah 15:16", "Psalm 119:103"],
+        "note": "Ezekiel and Jeremiah ate God's words, which were sweet as honey. To eat the word is to take it fully into oneself before speaking it to others."
+      },
+      {
+        "theme": "An oath with uplifted hand",
+        "refs": ["Genesis 14:22", "Deuteronomy 32:40", "Daniel 12:7"],
+        "note": "Raising a hand to heaven was the gesture of a solemn oath. In Daniel a figure swears by him who lives forever that the end will come after 'a time, times and half a time.'"
+      },
+      {
+        "theme": "Sealed and unsealed",
+        "refs": ["Daniel 12:4, 9", "Revelation 22:10"],
+        "note": "Daniel was told to seal up his vision until the end. John is told to seal up the seven thunders (v4), but at the end of the book he is told not to seal up the prophecy, for the time is near."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 10 begins the interlude between the sixth and seventh trumpets, which runs through 11:13, just as chapter 7 interrupted the seals. The trumpets have shown that judgment alone does not lead to repentance (9:20-21). The interlude turns to the role of God's people: John is recommissioned as a prophet, and chapter 11 pictures the church's witness through the two witnesses.",
+      "flow": [
+        { "verses": "1-4", "label": "The mighty angel and the seven thunders", "note": "Clothed in a cloud with a rainbow, face like the sun and legs like fire, the angel sets one foot on sea and one on land and cries out; seven thunders speak, but John is told to seal up what they said." },
+        { "verses": "5-7", "label": "No more delay", "note": "Raising his hand, the angel swears by the eternal Creator that there will be no more delay; at the seventh trumpet the mystery of God will be fulfilled." },
+        { "verses": "8-11", "label": "Eating the little scroll", "note": "John takes and eats the scroll; it is sweet as honey in his mouth but bitter in his stomach, and he is told he must prophesy again about many peoples, nations, languages and kings." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Ezekiel 3:1-3", "from": "9-10", "note": "'Son of man, eat this roll... Then did I eat it; and it was in my mouth as honey for sweetness.' John repeats Ezekiel's commissioning." },
+        { "ref": "Daniel 12:7", "from": "5-6", "note": "A man clothed in linen raised both hands to heaven and swore by him who lives forever. John's angel takes the same oath, now announcing that the wait is over." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 2:9-10", "from": "2, 10", "note": "Ezekiel's scroll was written with lamentations, mourning and woe, which explains the bitterness that follows the sweetness." },
+        { "ref": "Amos 3:7", "from": "7", "note": "'Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets.'" },
+        { "ref": "Jeremiah 1:9-10", "from": "11", "note": "Jeremiah was appointed 'over the nations and over the kingdoms,' as John is sent to prophesy about many peoples and kings." },
+        { "ref": "Psalm 29:3-9", "from": "3-4", "note": "The voice of the LORD thunders over the waters: thunder as God's speaking." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 9:13-16", "from": "1", "note": "The rainbow over the angel's head recalls God's covenant mercy, as around the throne in 4:3." },
+        { "ref": "Exodus 13:21", "from": "1", "note": "The pillar of cloud and fire led Israel. The angel is clothed in cloud with legs like pillars of fire." },
+        { "ref": "2 Corinthians 2:15-16", "from": "10", "note": "The gospel is a fragrance of life to some and of death to others, sweet and bitter at once." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham argues that the little scroll is the scroll the Lamb opened in chapter 5, now handed to John. Its content is the revelation that follows, beginning with chapter 11: God will bring the nations to repentance through the faithful, suffering witness of his people, not through judgment alone."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale sees the mighty angel as closely associated with Christ, bearing features of the Son of Man in chapter 1. He reads the sweetness of the scroll as the joy of God's word and the bitterness as the suffering and judgment it announces, both for the world and for the witnesses who proclaim it."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "And sware by him that liveth for ever and ever, who created heaven, and the things that therein are, and the earth, and the things that therein are, and the sea, and the things which are therein, that there should be time no longer:",
+        "renderings": [
+          { "version": "ESV", "text": "that there would be no more delay" },
+          { "version": "NIV", "text": "There will be no more delay!" },
+          { "version": "NKJV", "text": "that there should be delay no longer" }
+        ],
+        "note": "The KJV's 'time no longer' has often been read as the end of time itself. The Greek chronos here means delay, as the next verse shows: the seventh trumpet is about to sound and God's plan will be completed."
+      }
+    ],
+    "gospel": "The mystery of God announced to the prophets reaches its fulfillment in the kingdom of Christ (10:7; 11:15). The angel swears by the Creator of heaven, earth and sea, the same God who will make all things new. John's eating of the scroll pictures the gospel itself: sweet, because it is God's word of salvation, and bitter, because it brings suffering for those who carry it and judgment for those who reject it. The church's witness, in the pattern of the Lamb's, is how God calls the nations to himself.",
+    "application": [
+      "Take God's word in fully before trying to pass it on. Prophets eat the scroll before they speak.",
+      "Expect both sweetness and bitterness in faithful ministry. The gospel brings joy and also opposition and grief.",
+      "Be content not to know everything. John heard the seven thunders but was told to seal them up; God has not revealed every detail of the future.",
+      "Take courage from God's oath. His purposes will not be delayed forever.",
+      "Remember that your witness reaches 'many peoples and nations and languages and kings.'"
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 6 teaches that time itself will cease to exist in eternity.",
+        "correction": "The word means delay. The angel is saying that God's plan will now be completed without further postponement, not making a statement about the nature of eternity."
+      },
+      {
+        "claim": "We can figure out what the seven thunders said.",
+        "correction": "John was explicitly told to seal it up and not write it (v4). The book itself teaches that some things are known only to God (Deuteronomy 29:29)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Sweet in the mouth", "b": "Bitter in the stomach", "verses": "9-10", "note": "God's word is delightful to receive and costly to carry." },
+      { "a": "Sealed (thunders)", "b": "Open (scroll)", "verses": "2, 4", "note": "God hides some things and reveals others." },
+      { "a": "Sea", "b": "Land", "verses": "2, 5", "note": "The angel's stance claims all creation for God, the realms from which the beasts will rise (13:1, 11)." }
+    ],
+    "features": [
+      { "label": "A prophet's call renewed", "note": "Like Isaiah, Jeremiah and Ezekiel, John receives a commission scene midway through, marking a new stage in the revelation." },
+      { "label": "The angel's features", "note": "Cloud, rainbow, face like the sun and legs like pillars of fire echo the vision of Christ (1:15-16) and the throne (4:3), signaling that he comes with divine authority." },
+      { "label": "An oath by the Creator", "note": "The angel swears by the one who created heaven, earth and sea with all that is in them (v6), language from the fourth commandment (Exodus 20:11) and Psalm 146:6." }
+    ],
+    "summary": "Revelation 10 pauses before the final trumpet to announce, on oath, that God's long-promised plan will be fulfilled without further delay. John is recommissioned as a prophet by eating a scroll that is sweet and bitter, picturing the joy and the cost of bearing God's word. The chapter turns attention to the witness of God's people, which chapter 11 develops.",
+    "metaArc": {
+      "book": "Chapter 10 opens the interlude between the sixth and seventh trumpets (10:1-11:14). It prepares for the seventh trumpet (11:15), where the mystery is fulfilled, and many see the second half of the book as the content of the opened scroll.",
+      "redemptive": "The chapter looks toward the completion of God's purpose announced through the prophets, the arrival of his kingdom, and shows that the gospel goes to all nations through suffering witness before the end."
+    }
+  }
+}

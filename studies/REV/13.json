@@ -1,0 +1,181 @@
+{
+  "ref": "REV.13",
+  "book": "Revelation",
+  "chapter": 13,
+  "title": "The Beast and Its Mark",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The dragon calls up a beast from the sea, a blasphemous political power with a mortal wound healed, which receives the world's worship and makes war on the saints. A second beast from the land, a false prophet, deceives people with signs, sets up an image to be worshiped, and requires a mark for anyone to buy or sell. The saints are called to endurance and faith, for the beast's number is the number of a man.",
+  "keyVerses": ["3-4", "8", "10", "16-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "θηρίον",
+        "translit": "thērion",
+        "strongs": "G2342",
+        "gloss": "wild beast, monster",
+        "verses": "1-18",
+        "note": "A predatory animal, in contrast to the Lamb. Daniel used beasts from the sea for world empires (Daniel 7). The sea beast combines the leopard, bear and lion of Daniel's four beasts into one, gathering all oppressive empire into a single figure."
+      },
+      {
+        "word": "προσκυνέω",
+        "translit": "proskyneō",
+        "strongs": "G4352",
+        "gloss": "to worship, bow down before",
+        "verses": "4, 8, 12, 15",
+        "note": "The key issue of the chapter is worship. The whole earth worships the dragon and the beast, asking 'Who is like the beast?' In Revelation worship belongs only to God and the Lamb, and refusing false worship is the believers' test."
+      },
+      {
+        "word": "χάραγμα",
+        "translit": "charagma",
+        "strongs": "G5480",
+        "gloss": "mark, stamp, brand",
+        "verses": "16-17",
+        "note": "A word used for stamped impressions, including on coins, documents and slaves. It is the beast's counterfeit of the seal God puts on his servants' foreheads (7:3; 14:1). The mark identifies whose people you are, and those without it are excluded from the economy."
+      },
+      {
+        "word": "εἰκών",
+        "translit": "eikōn",
+        "strongs": "G1504",
+        "gloss": "image",
+        "verses": "14-15",
+        "note": "The land beast commands an image of the sea beast to be made and gives it breath. In John's world, images of the emperor were honored in temples across Asia, and refusing to honor them could mark a person as disloyal. The scene also recalls Nebuchadnezzar's golden image (Daniel 3)."
+      },
+      {
+        "word": "ἀριθμός",
+        "translit": "arithmos",
+        "strongs": "G706",
+        "gloss": "number",
+        "verses": "17-18",
+        "note": "In Hebrew and Greek, letters doubled as numerals, so names could be turned into numbers (gematria). The number is 666, and some early manuscripts read 616. Many find the number falling short of seven at every point, a parody of completeness."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Beasts from the sea",
+        "refs": ["Daniel 7:2-8, 21, 25", "Daniel 8:23-25"],
+        "note": "Daniel's beasts are kingdoms; the last one speaks great words against the Most High and wars against the saints for three and a half times."
+      },
+      {
+        "theme": "Who is like God?",
+        "refs": ["Exodus 15:11", "Isaiah 46:5, 9", "Micah 7:18"],
+        "note": "'Who is like unto thee, O LORD?' is Israel's song of praise. The world's cry 'Who is like the beast?' (v4) is a parody of it, and Michael's name means 'Who is like God?'"
+      },
+      {
+        "theme": "False prophets and signs",
+        "refs": ["Deuteronomy 13:1-3", "Matthew 24:24", "2 Thessalonians 2:9-12"],
+        "note": "Scripture warns that miracles alone do not prove a message true; false prophets can perform signs to lead people away from God."
+      },
+      {
+        "theme": "Forced worship of an image",
+        "refs": ["Daniel 3:1-6", "Daniel 6:7-9"],
+        "note": "Nebuchadnezzar threatened death to anyone who would not bow to his image; Daniel's friends refused and were delivered."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 13 introduces the dragon's two agents, completing an unholy trinity that imitates God: the dragon (counterfeit Father), the sea beast with its healed wound (counterfeit Son), and the land beast who points worship to the first beast (counterfeit Spirit, called 'the false prophet' in 16:13). For John's first readers the beast would naturally evoke imperial Rome and the emperor cult promoted by local elites in Asia. Futurists see a final world ruler, often called the Antichrist, and a literal mark; preterists see Nero and first-century Rome; idealists see every state and system that demands the worship due to God. Many hold that the first-century Roman form foreshadows a final, fuller one.",
+      "flow": [
+        { "verses": "1-4", "label": "The beast from the sea", "note": "Ten horns, seven heads, blasphemous names, like a leopard, bear and lion; the dragon gives it his power; one head's mortal wound is healed and the whole earth marvels and worships." },
+        { "verses": "5-8", "label": "Blasphemy and war on the saints", "note": "For forty-two months it blasphemes God and is allowed to conquer the saints; all earth-dwellers whose names are not in the Lamb's book of life worship it." },
+        { "verses": "9-10", "label": "A call to endurance", "note": "If anyone is to be captive or killed, so it will be; here is the endurance and faith of the saints." },
+        { "verses": "11-15", "label": "The beast from the land", "note": "With horns like a lamb but speaking like a dragon, it makes the earth worship the first beast, performs signs, and gives breath to the image, which kills those who will not worship it." },
+        { "verses": "16-18", "label": "The mark and the number", "note": "All are made to receive a mark on the right hand or forehead, without which no one can buy or sell; its number is 666, the number of a man." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Daniel 7:3-8", "from": "1-2", "note": "Four beasts rise from the sea, like a lion, a bear and a leopard, the fourth with ten horns. John's beast fuses them into one." },
+        { "ref": "Daniel 7:8, 20-21, 25", "from": "5-7", "note": "A horn with a mouth speaking great things, making war with the saints and prevailing for a time, times and half a time. John follows Daniel closely." },
+        { "ref": "Jeremiah 15:2", "from": "10", "note": "'Such as are for death, to death; and such as are for the sword, to the sword... and such as are for the captivity, to the captivity.' John adapts Jeremiah's words to call the saints to endure." }
+      ],
+      "tier2": [
+        { "ref": "2 Thessalonians 2:3-12", "from": "4-8, 13-14", "note": "The man of lawlessness exalts himself against God, comes with false signs and wonders, and deceives those who refused the love of the truth." },
+        { "ref": "Matthew 24:24", "from": "13-14", "note": "False christs and false prophets will show great signs to deceive, if possible, even the elect." },
+        { "ref": "Daniel 3:1-15", "from": "14-15", "note": "The golden image, the command to worship it, and death for those who refuse." },
+        { "ref": "1 John 2:18, 22; 4:3", "from": "1-8", "note": "John's letters speak of the antichrist who is coming and of many antichrists already present, the spirit of denying the Father and the Son." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 13:9, 16; Deuteronomy 6:8", "from": "16", "note": "God's law was to be as a sign on the hand and between the eyes, marking Israel as his. The beast's mark imitates this." },
+        { "ref": "Matthew 7:15", "from": "11", "note": "False prophets come in sheep's clothing but inwardly are ravening wolves, like a beast with lamb's horns that speaks like a dragon." },
+        { "ref": "Exodus 7:11-12, 22", "from": "13", "note": "Pharaoh's magicians imitated Moses' signs, deceiving Pharaoh into hardening his heart." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Irenaeus",
+        "work": "Against Heresies, Book 5",
+        "view": "Irenaeus, writing in the second century, rejected the variant reading 616 in favor of 666 and discussed possible names such as 'Lateinos' and 'Teitan.' He urged caution, arguing that if the name were meant to be known in his day, John would have stated it, and that believers should wait rather than speculate."
+      },
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham argues that 666 is the sum of the Hebrew letters of 'Nero Caesar,' while the variant 616 matches a Latin-based spelling, which supports the identification. He also notes that the Greek word for 'beast,' written in Hebrew letters, adds up to 666 as well, and that John uses it to expose the imperial power as a beastly parody of God."
+      },
+      {
+        "name": "John MacArthur",
+        "work": "Revelation 12-22 (MacArthur New Testament Commentary)",
+        "view": "MacArthur takes the first beast as a future world ruler, the Antichrist, and the second as his religious partner, during the future tribulation. He expects the mark to be a literal mark of loyalty without which no one can buy or sell."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And all that dwell upon the earth shall worship him, whose names are not written in the book of life of the Lamb slain from the foundation of the world.",
+        "renderings": [
+          { "version": "ESV", "text": "not been written before the foundation of the world" },
+          { "version": "NIV", "text": "the Lamb who was slain from the creation of the world" }
+        ],
+        "note": "The Greek word order allows 'from the foundation of the world' to go with 'written' (ESV, compare 17:8) or with 'slain' (KJV, NIV). The first stresses that God's people were known before creation; the second that the Lamb's sacrifice was planned from eternity (1 Peter 1:19-20). Both ideas are biblical."
+      },
+      {
+        "verse": "18",
+        "kjv": "Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six.",
+        "renderings": [
+          { "version": "ESV", "text": "it is the number of a man, and his number is 666" },
+          { "version": "NIV", "text": "it is the number of a man. That number is 666" }
+        ],
+        "note": "'Threescore' is sixty. The phrase 'number of a man' can mean the number of a particular person or a human number. Some early manuscripts read 616, which Irenaeus knew and rejected."
+      }
+    ],
+    "gospel": "The chapter shows evil imitating the gospel: a beast with a mortal wound that was healed, worshiped by the whole earth. The world chooses between two slain-and-living figures: the beast and the Lamb who was slain (v8). The difference is in the book of life, which belongs to the Lamb. Those whose names are written there are kept from the beast's deception, though not always from his violence. The call in verse 10 is to the endurance and faith of the saints, who trust that the Lamb, not the beast, has the final word.",
+    "application": [
+      "Watch for powers, political, economic or religious, that demand the loyalty and worship that belong to God.",
+      "Do not be swayed by impressive signs or popularity. 'All the world wondered after the beast' (v3), and they were deceived.",
+      "Count the cost of faithfulness. Refusing to compromise may affect your livelihood, as it did for believers excluded from trade guilds.",
+      "Rest in the security of the Lamb's book of life. God's people are known and kept.",
+      "Practice endurance and faith (v10) rather than fear."
+    ],
+    "misapplications": [
+      {
+        "claim": "The mark of the beast can be received accidentally through a vaccine, a barcode, a chip or a bank card.",
+        "correction": "In Revelation the mark goes with worshiping the beast and its image (v15-16; 14:9-11). It is a sign of allegiance, the counterfeit of God's seal, not something one stumbles into without knowing whom one worships."
+      },
+      {
+        "claim": "Calculating 666 to identify a contemporary figure is the main point of the chapter.",
+        "correction": "Endless proposed identifications have failed. The chapter's purpose is to call the saints to endurance and faithful worship (v10). Irenaeus already urged caution in the second century."
+      },
+      {
+        "claim": "Christians should resist the beast with violence.",
+        "correction": "Verse 10 says that whoever kills with the sword must be killed with the sword. The saints conquer by endurance and faith, following the Lamb (12:11)."
+      }
+    ],
+    "contrasts": [
+      { "a": "The Lamb slain and living", "b": "The beast wounded and healed", "verses": "3, 8", "note": "The beast parodies Christ's death and resurrection." },
+      { "a": "God's seal", "b": "The beast's mark", "verses": "16", "note": "Every person bears the mark of one master or the other." },
+      { "a": "Horns like a lamb", "b": "Speaking like a dragon", "verses": "11", "note": "False religion looks harmless but serves the dragon." },
+      { "a": "'Who is like the beast?'", "b": "'Who is like God?'", "verses": "4", "note": "The world's question parodies Israel's song and Michael's name." }
+    ],
+    "features": [
+      { "label": "The unholy trinity", "note": "Dragon, sea beast and land beast imitate Father, Son and Spirit: authority given, a death and resurrection, worship directed to another, signs, and breath given to an image." },
+      { "label": "Sea and land", "note": "One beast rises from the sea, traditional source of chaos, and the other from the land. Together they cover the realms the mighty angel of chapter 10 claimed for God." },
+      { "label": "'It was given'", "note": "Repeatedly the beast 'was given' its mouth, authority and power to make war (v5, 7). Even at its worst, it works only within limits God allows." },
+      { "label": "A call for wisdom", "note": "'Here is wisdom' (v18) and 'here is the patience and faith of the saints' (v10) invite discernment and steadfastness, not speculation." }
+    ],
+    "summary": "Revelation 13 unmasks the powers that oppose God: political might that claims divine honor and false religion that promotes it with deception and economic pressure. Under the dragon's authority, they demand worship and persecute the saints for a limited time. Believers are called to discernment, endurance and faith, knowing that their names are written in the book of life of the Lamb who was slain.",
+    "metaArc": {
+      "book": "Chapter 13 introduces the dragon's agents, whose rise and fall dominate the rest of the book: they are confronted in chapter 14, gathered for battle in chapter 16, exposed in chapter 17, and thrown into the lake of fire in chapter 19.",
+      "redemptive": "The chapter shows the fallen world's ultimate counterfeit of redemption, worship of human power, and calls God's people to faithfulness until Christ destroys the beast at his coming."
+    }
+  }
+}

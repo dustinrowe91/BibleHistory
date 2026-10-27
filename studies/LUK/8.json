@@ -1,0 +1,176 @@
+{
+  "ref": "LUK.8",
+  "book": "Luke",
+  "chapter": 8,
+  "title": "Take Heed How Ye Hear",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus teaches through the parable of the sower that the word of God bears fruit only in hearts that hear, hold it fast and endure. Those who hear and do God's word are his true family. Then he shows his authority over the storm, a legion of demons, chronic disease and death itself, asking only for faith.",
+  "keyVerses": ["15", "18", "21", "48-50"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἀκούω",
+        "translit": "akouō",
+        "strongs": "G191",
+        "gloss": "to hear, listen, heed",
+        "verses": "8, 10, 15, 18, 21",
+        "note": "The chapter's key word. 'He that hath ears to hear, let him hear' (v8), 'take heed how ye hear' (v18), and 'my mother and my brethren are these which hear the word of God, and do it' (v21). In Scripture, real hearing includes obeying."
+      },
+      {
+        "word": "μυστήριον",
+        "translit": "mystērion",
+        "strongs": "G3466",
+        "gloss": "mystery, secret now revealed",
+        "verses": "10",
+        "note": "The 'mysteries of the kingdom' are given to disciples. Parables reveal truth to those willing to receive it and conceal it from those who refuse, as Isaiah 6:9 described."
+      },
+      {
+        "word": "ὑπομονή",
+        "translit": "hypomonē",
+        "strongs": "G5281",
+        "gloss": "patient endurance",
+        "verses": "15",
+        "note": "The good soil bears fruit 'with patience.' Only Luke adds this. Fruitfulness takes time and perseverance through the testing that withered the rocky ground (v13)."
+      },
+      {
+        "word": "λεγιών",
+        "translit": "legiōn",
+        "strongs": "G3003",
+        "gloss": "legion",
+        "verses": "30",
+        "note": "A Roman legion had several thousand soldiers. The demon's name expresses overwhelming numbers and oppressive power, yet they must beg Jesus for permission even to enter pigs."
+      },
+      {
+        "word": "σῴζω",
+        "translit": "sōzō",
+        "strongs": "G4982",
+        "gloss": "to save, heal, make whole",
+        "verses": "12, 36, 48, 50",
+        "note": "The same verb means 'saved' (v12), 'healed' of demons (v36), 'made whole' (v48) and 'made whole' from death (v50). Jesus' rescue reaches every part of a person."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Seeing but not seeing",
+        "refs": ["Isaiah 6:9-10", "Mark 4:11-12", "Acts 28:25-28"],
+        "note": "Isaiah was told his message would harden many. Jesus applies it to the parables, and Luke ends Acts with Paul quoting the same passage."
+      },
+      {
+        "theme": "God's word as seed",
+        "refs": ["Isaiah 55:10-11", "1 Peter 1:23-25", "James 1:18, 21"],
+        "note": "God's word goes out like rain and seed and does not return empty."
+      },
+      {
+        "theme": "Lord of wind and sea",
+        "refs": ["Psalm 65:7", "Psalm 89:9", "Psalm 107:23-30", "Jonah 1:4-16"],
+        "note": "Only God stills the roaring seas. When Jesus rebukes the storm, the disciples ask, 'What manner of man is this?'"
+      },
+      {
+        "theme": "Uncleanness overcome",
+        "refs": ["Leviticus 15:25-27", "Numbers 19:11", "Leviticus 11:7"],
+        "note": "A woman with a flow of blood, a corpse, tombs and pigs all meant ritual uncleanness. Jesus enters each situation and brings cleansing and life."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 8 opens by naming women who traveled with Jesus and supported his ministry from their own means, a detail unique to Luke. The parables (v4-18) teach how to respond to Jesus' word, and the four miracles that follow (v22-56) show his power over nature, demons, disease and death. Luke places the visit of Jesus' family between the two sections. The Gerasene region lay on the southeastern, largely Gentile shore of the Sea of Galilee.",
+      "flow": [
+        { "verses": "1-3", "label": "The women who followed", "note": "The Twelve and several women, including Mary Magdalene, Joanna and Susanna, travel with Jesus and provide for them." },
+        { "verses": "4-15", "label": "The sower", "note": "Seed falls on the path, rock, thorns and good soil; Jesus explains that the seed is the word of God and the soils are different hearers." },
+        { "verses": "16-18", "label": "A lamp on a stand", "note": "Light is meant to be seen and hidden things will be revealed; take heed how you hear." },
+        { "verses": "19-21", "label": "Jesus' true family", "note": "His mother and brothers are those who hear the word of God and do it." },
+        { "verses": "22-25", "label": "The storm stilled", "note": "Jesus rebukes wind and waves and asks, 'Where is your faith?'" },
+        { "verses": "26-39", "label": "Legion cast out", "note": "Jesus frees a man possessed by many demons, which enter pigs that drown; the townspeople ask Jesus to leave, and the healed man is sent home to tell what God has done." },
+        { "verses": "40-56", "label": "Jairus' daughter and the bleeding woman", "note": "On the way to Jairus' dying daughter, a woman ill for twelve years touches Jesus' garment and is healed; then Jesus raises the girl, saying, 'Fear not: believe only.'" }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 6:9", "from": "10", "note": "'Hear ye indeed, but understand not; and see ye indeed, but perceive not.' Jesus alludes to Isaiah's commission." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 107:28-30", "from": "24-25", "note": "The LORD 'maketh the storm a calm, so that the waves thereof are still.'" },
+        { "ref": "Mark 4:1-41; 5:1-43", "from": "4-56", "note": "Mark's parallel accounts, which Luke follows closely in order." },
+        { "ref": "Isaiah 55:10-11", "from": "11", "note": "God's word, like seed and rain, accomplishes what he purposes." },
+        { "ref": "Luke 11:27-28", "from": "21", "note": "'Blessed are they that hear the word of God, and keep it.' Jesus repeats the point when a woman blesses his mother." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 65:3-4", "from": "27, 32", "note": "Isaiah describes a rebellious people who sit among the graves and eat swine's flesh, the unclean setting of the Gerasene demoniac." },
+        { "ref": "Leviticus 15:25-27", "from": "43-44", "note": "A woman with a long-term discharge was unclean, and so was anyone who touched her." },
+        { "ref": "1 Timothy 6:9-10, 17", "from": "14", "note": "The cares and riches of this life choke the word, as the thorns do." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "R. C. Sproul",
+        "work": "The Holiness of God",
+        "view": "Sproul drew attention to the disciples' response after Jesus stilled the storm (recorded also in Mark 4): they were more afraid of Jesus' power than they had been of the storm. He saw this as the right instinct in the presence of the holy, the recognition that someone far greater than a man was in the boat."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock sees the four miracles as a deliberate sequence revealing the scope of Jesus' authority: over nature, the spiritual world, disease and death. Together they answer the disciples' question 'What manner of man is this?' and build toward Peter's confession."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "26",
+        "kjv": "And they arrived at the country of the Gadarenes, which is over against Galilee.",
+        "renderings": [
+          { "version": "ESV", "text": "the country of the Gerasenes" },
+          { "version": "NIV", "text": "the region of the Gerasenes" }
+        ],
+        "note": "Manuscripts read Gadarenes, Gerasenes or Gergesenes. Gadara and Gerasa were towns of the Decapolis some distance from the lake, and the name may refer to the broader region. Either way it was predominantly Gentile territory, which explains the herd of pigs."
+      },
+      {
+        "verse": "48",
+        "kjv": "And he said unto her, Daughter, be of good comfort: thy faith hath made thee whole; go in peace.",
+        "renderings": [
+          { "version": "ESV", "text": "your faith has made you well; go in peace" },
+          { "version": "NIV", "text": "your faith has healed you. Go in peace" }
+        ],
+        "note": "The verb is sōzō, usually 'save.' The KJV's 'made thee whole' captures its fullness: she is healed in body and restored to the community. Older manuscripts lack 'be of good comfort.' Jesus calls her 'Daughter,' the only person he is recorded addressing this way."
+      }
+    ],
+    "gospel": "The word of God is the seed of salvation; the devil takes it away 'lest they should believe and be saved' (v12). Jesus then shows what his saving power can do. He rules the storm as only God can, frees a man from a legion of demons, heals and calls 'Daughter' a woman made unclean for twelve years, and raises a dead girl by taking her hand. In each case people meet him in fear or desperation and he speaks peace. The healed man is sent home to tell 'how great things God hath done unto thee,' and he tells what Jesus has done (v39): Jesus does what God does.",
+    "application": [
+      "Take heed how you hear. Ask what kind of soil your heart is when you hear God's word.",
+      "Persevere. Fruit comes 'with patience,' through testing.",
+      "Watch for the thorns of worry, wealth and pleasure that slowly choke spiritual life.",
+      "Bring your fears to Jesus. He rules the storm, and he asks for trust even when he seems asleep.",
+      "Tell people at home what God has done for you, as the healed man did."
+    ],
+    "misapplications": [
+      {
+        "claim": "The parable means some people are simply born as bad soil and cannot change.",
+        "correction": "Jesus' call to 'take heed how ye hear' (v18) and 'he that hath ears to hear, let him hear' (v8) is an invitation to respond. The parable explains different outcomes so that hearers will receive the word well."
+      },
+      {
+        "claim": "The woman was healed by magic in Jesus' clothing.",
+        "correction": "Jesus stops and calls her forward so that her healing is understood as the result of faith in him: 'thy faith hath made thee whole' (v48). The power went out from him, not from fabric."
+      },
+      {
+        "claim": "Jesus' family relationships did not matter to him.",
+        "correction": "Jesus cared for his mother even from the cross (John 19:26-27). His point is that obeying God's word creates a family bond deeper than blood."
+      }
+    ],
+    "contrasts": [
+      { "a": "Four soils", "b": "One seed", "verses": "5-15", "note": "The seed is the same; the difference is in the hearing." },
+      { "a": "A great storm", "b": "A great calm", "verses": "23-24", "note": "One word from Jesus changes everything." },
+      { "a": "The townspeople's fear", "b": "The healed man's longing", "verses": "37-38", "note": "One group asks Jesus to leave; the man asks to stay with him." },
+      { "a": "'Thy daughter is dead'", "b": "'She is not dead, but sleepeth'", "verses": "49, 52", "note": "Death is no more final for Jesus than sleep." }
+    ],
+    "features": [
+      { "label": "A story inside a story", "note": "The woman's healing interrupts the journey to Jairus' daughter. The woman had been ill twelve years, and the girl was twelve years old (v42-43)." },
+      { "label": "Women disciples", "note": "Only Luke names the women who followed and funded Jesus' ministry (v1-3). Some of them reappear at the cross and the empty tomb (23:49, 55; 24:10)." },
+      { "label": "Four kinds of authority", "note": "Nature, demons, disease and death all yield to Jesus in sequence (v22-56)." },
+      { "label": "Fear and faith", "note": "Each miracle features fear: the disciples, the townspeople, the woman, Jairus. Jesus answers fear with a call to faith (v25, 48, 50)." }
+    ],
+    "summary": "Luke 8 calls listeners to hear God's word with honest and good hearts, holding it fast and bearing fruit with patience, and it defines Jesus' family as those who hear and do that word. It then displays his sovereign power over the storm, demons, disease and death. Whoever meets Jesus in faith finds that his word brings peace, wholeness and life.",
+    "metaArc": {
+      "book": "Chapter 8 deepens the question of Jesus' identity in the Galilean ministry and prepares for the sending of the Twelve and Peter's confession in chapter 9.",
+      "redemptive": "The chapter shows Redemption reversing the effects of the fall on every front: chaos in nature, bondage to evil, sickness and death."
+    }
+  }
+}

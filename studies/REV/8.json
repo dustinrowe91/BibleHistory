@@ -1,0 +1,161 @@
+{
+  "ref": "REV.8",
+  "book": "Revelation",
+  "chapter": 8,
+  "title": "Silence in Heaven",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "When the seventh seal is opened, heaven falls silent while the prayers of the saints rise before God with incense, and fire from the altar is hurled to earth. Seven angels receive trumpets, and the first four strike a third of the land, sea, rivers and heavens, warnings like the plagues of Egypt, with three woes still to come.",
+  "keyVerses": ["1", "3-5", "13"],
+  "steps": {
+    "language": [
+      {
+        "word": "σιγή",
+        "translit": "sigē",
+        "strongs": "G4602",
+        "gloss": "silence",
+        "verses": "1",
+        "note": "After the ceaseless praise of chapters 4-5, heaven goes quiet for about half an hour. The prophets call for silence before the LORD as he comes to judge (Habakkuk 2:20; Zephaniah 1:7). It may also be a hush so that the prayers of the saints can be heard."
+      },
+      {
+        "word": "σάλπιγξ",
+        "translit": "salpinx",
+        "strongs": "G4536",
+        "gloss": "trumpet",
+        "verses": "2, 6-13",
+        "note": "Trumpets in Israel summoned the people, announced feasts, sounded alarm for war and accompanied God's appearing at Sinai. At Jericho seven priests blew seven trumpets before the walls fell (Joshua 6). Here they announce God's warning judgments."
+      },
+      {
+        "word": "λιβανωτός",
+        "translit": "libanōtos",
+        "strongs": "G3031",
+        "gloss": "censer",
+        "verses": "3, 5",
+        "note": "The same censer that carries the saints' prayers up to God is filled with fire from the altar and thrown to the earth. The prayers of God's people, including the martyrs' cry of 6:10, are part of how God brings justice."
+      },
+      {
+        "word": "ἄψινθος",
+        "translit": "apsinthos",
+        "strongs": "G894",
+        "gloss": "wormwood",
+        "verses": "11",
+        "note": "A bitter plant. In the Old Testament wormwood pictures the bitterness of idolatry and of God's judgment on it (Deuteronomy 29:18; Jeremiah 9:15). Those who turned to bitter idols receive bitter water."
+      },
+      {
+        "word": "οὐαί",
+        "translit": "ouai",
+        "strongs": "G3759",
+        "gloss": "woe, alas",
+        "verses": "13",
+        "note": "A cry of grief and warning. Its threefold repetition announces that the last three trumpets will be even worse, and they are numbered as the three woes (9:12; 11:14)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Prayer as incense",
+        "refs": ["Psalm 141:2", "Exodus 30:7-8", "Luke 1:9-10", "Revelation 5:8"],
+        "note": "Incense offered morning and evening in the tabernacle became a picture of prayer rising to God."
+      },
+      {
+        "theme": "The plagues of Egypt",
+        "refs": ["Exodus 7:20-21", "Exodus 9:23-25", "Exodus 10:21-23"],
+        "note": "Hail and fire, water turned to blood, darkness. The trumpets echo God's judgments on Egypt, which aimed to break Pharaoh's hold and free God's people."
+      },
+      {
+        "theme": "A burning mountain and falling star",
+        "refs": ["Jeremiah 51:25", "Isaiah 14:12-15"],
+        "note": "Babylon is called a destroying mountain that God makes 'a burnt mountain,' and the king of Babylon a star fallen from heaven."
+      }
+    ],
+    "context": {
+      "setting": "The seventh seal (v1) opens not onto a new event but onto silence and then the seven trumpets, so the trumpets unfold from the seventh seal. Interpreters debate whether the trumpets follow the seals in time or cover similar ground with growing intensity (recapitulation). Both seals and trumpets reach the brink of the end at their sixth and seventh items. The trumpet judgments affect 'a third,' a partial judgment that calls the world to repentance (9:20-21), unlike the bowls, which are complete.",
+      "flow": [
+        { "verses": "1-2", "label": "The seventh seal", "note": "Silence in heaven for about half an hour; seven angels are given seven trumpets." },
+        { "verses": "3-5", "label": "The prayers of the saints", "note": "An angel offers incense with the prayers of all the saints; then fills the censer with fire and throws it to earth, bringing thunder, lightning and earthquake." },
+        { "verses": "6-12", "label": "The first four trumpets", "note": "Hail and fire burn a third of the earth; a burning mountain turns a third of the sea to blood; the star Wormwood makes a third of the waters bitter; a third of sun, moon and stars are darkened." },
+        { "verses": "13", "label": "Three woes announced", "note": "An eagle flying in midheaven cries woe to the earth-dwellers because of the three trumpets still to sound." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 9:23-25", "from": "7", "note": "Hail mixed with fire struck Egypt and broke every tree. The first trumpet repeats the seventh plague." },
+        { "ref": "Exodus 7:20-21", "from": "8-9", "note": "The Nile turned to blood and the fish died. The second trumpet echoes the first plague." },
+        { "ref": "Exodus 10:21-23", "from": "12", "note": "Darkness over Egypt for three days, the ninth plague, behind the fourth trumpet." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 10:2", "from": "5", "note": "Coals of fire from between the cherubim are scattered over Jerusalem in judgment." },
+        { "ref": "Jeremiah 9:15", "from": "11", "note": "'I will feed them, even this people, with wormwood, and give them water of gall to drink,' because they followed the Baals." },
+        { "ref": "Joshua 6:4-5, 16", "from": "2, 6", "note": "Seven priests with seven trumpets before Jericho; at the seventh time around the city, the walls fell." },
+        { "ref": "Zephaniah 1:7, 14-16", "from": "1", "note": "'Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand,' a day of trumpet and alarm." }
+      ],
+      "tier3": [
+        { "ref": "Habakkuk 2:20", "from": "1", "note": "'The LORD is in his holy temple: let all the earth keep silence before him.'" },
+        { "ref": "Amos 7:4", "from": "7-8", "note": "Amos saw fire devour the great deep and part of the land, a vision of judgment." },
+        { "ref": "Luke 18:7-8", "from": "3-5", "note": "Jesus promised that God will give justice to his elect who cry to him day and night." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham notes that the thunder, lightning and earthquake of verse 5 recur and grow at the end of each series (8:5; 11:19; 16:18-21), linking the seals, trumpets and bowls. He sees the silence and the offering of prayers as showing that God's judgments are his answer to his people's cries."
+      },
+      {
+        "name": "William Hendriksen",
+        "work": "More Than Conquerors",
+        "view": "Hendriksen argued that Revelation is built on seven parallel sections, each covering the whole period from Christ's first coming to his second. In his reading, the trumpets are not later than the seals but show the same age from another angle: God's warning judgments on a world that persecutes the church."
+      },
+      {
+        "name": "Grant R. Osborne",
+        "work": "Revelation (Baker Exegetical Commentary on the New Testament)",
+        "view": "Osborne emphasizes the Exodus background of the trumpets. As the plagues exposed Egypt's gods and called Pharaoh to let God's people go, the trumpets expose the powerlessness of the world's idols and call the earth-dwellers to repentance, which they refuse (9:20-21)."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "And I beheld, and heard an angel flying through the midst of heaven, saying with a loud voice, Woe, woe, woe, to the inhabiters of the earth by reason of the other voices of the trumpet of the three angels, which are yet to sound!",
+        "renderings": [
+          { "version": "ESV", "text": "I heard an eagle crying with a loud voice" },
+          { "version": "NIV", "text": "I heard an eagle that was flying in midair" },
+          { "version": "NKJV", "text": "I heard an angel flying through the midst of heaven" }
+        ],
+        "note": "The older Greek manuscripts read 'eagle'; later ones 'angel.' An eagle soaring overhead may recall a bird of prey circling over coming death (Matthew 24:28), or simply a herald seen by all the earth."
+      }
+    ],
+    "gospel": "The saints' prayers rise to God mixed with incense, and the fire that answers comes from the altar (v3-5). The prayers of God's people are heard because there is an altar and a mediator. The trumpets echo the plagues God sent to free his people from Egypt; the Lamb, our Passover, is now leading a new exodus out of a world in bondage to idols. Judgment here is partial, a third, because God is still calling people to repent while there is time.",
+    "application": [
+      "Pray, especially for justice and for God's kingdom to come. Revelation shows those prayers reaching God's throne and shaping history.",
+      "Be still before God. Heaven's silence teaches reverence before his acts of judgment.",
+      "See disasters as warnings that call people to turn from idols to the living God, rather than as random events.",
+      "Notice where modern idols leave a bitter taste. Whatever is worshiped in place of God eventually poisons life.",
+      "Hear God's patience in the partial judgments. He warns before he finishes."
+    ],
+    "misapplications": [
+      {
+        "claim": "The star named Wormwood is a coded prediction of a specific modern disaster.",
+        "correction": "Wormwood draws on Old Testament imagery for the bitterness of idolatry and judgment (Jeremiah 9:15). Matching it to a particular event misses its meaning and its call to repentance."
+      },
+      {
+        "claim": "Our prayers do not really matter in God's plan.",
+        "correction": "The judgments of the trumpets are launched from the same censer that carried 'the prayers of all saints' (v3-5). God has chosen to work through his people's prayers."
+      }
+    ],
+    "contrasts": [
+      { "a": "Ceaseless praise", "b": "Silence", "verses": "1", "note": "Heaven's worship pauses before the solemn work of judgment begins." },
+      { "a": "Prayers rising", "b": "Fire falling", "verses": "3-5", "note": "Prayer goes up; God's answer comes down." },
+      { "a": "A third", "b": "The whole", "verses": "7-12", "note": "The trumpets are partial; the bowls of chapter 16 will be complete." }
+    ],
+    "features": [
+      { "label": "Four and three", "note": "Like the seals, the trumpets divide into a group of four, briefly told and affecting nature, and a group of three, longer and affecting people directly, marked as the three woes." },
+      { "label": "The created order undone", "note": "The four trumpets strike land, sea, fresh water and the heavens, the realms of creation in Genesis 1, picturing creation being shaken by judgment." },
+      { "label": "Storm theophany", "note": "Thunder, rumblings, lightning and earthquake (v5) recur at the close of each series, growing each time, like a refrain of God's coming." }
+    ],
+    "summary": "Revelation 8 opens the seventh seal with a solemn silence, then shows the prayers of God's people rising before him and his answer of fire to the earth. The first four trumpets strike a third of creation in judgments modeled on the plagues of Egypt, warning a rebellious world and calling it to repentance. Three greater woes are still to come.",
+    "metaArc": {
+      "book": "Chapter 8 links the seals and trumpets: the seventh seal opens onto the seven trumpets. It begins the second series of judgments, which continues through 11:19.",
+      "redemptive": "The chapter echoes the exodus, God's great act of judgment and deliverance, and shows a fallen creation shaken in preparation for its renewal."
+    }
+  }
+}

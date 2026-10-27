@@ -1,0 +1,162 @@
+{
+  "ref": "REV.4",
+  "book": "Revelation",
+  "chapter": 4,
+  "title": "Holy, Holy, Holy",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Through an open door John is taken into heaven and sees God enthroned in unapproachable glory, surrounded by elders, living creatures and the sea of glass. All heaven worships him without ceasing as the holy, eternal Creator, worthy of glory because all things exist by his will.",
+  "keyVerses": ["1-2", "8", "11"],
+  "steps": {
+    "language": [
+      {
+        "word": "θρόνος",
+        "translit": "thronos",
+        "strongs": "G2362",
+        "gloss": "throne",
+        "verses": "2-6, 9-10",
+        "note": "The word occurs more than forty times in Revelation, more than a dozen of them in this chapter alone. Everything in the vision is arranged around the throne. For churches living under Caesar, the first thing heaven shows them is who really sits on the throne of the universe."
+      },
+      {
+        "word": "ζῷον",
+        "translit": "zōon",
+        "strongs": "G2226",
+        "gloss": "living creature, living being",
+        "verses": "6-9",
+        "note": "Not 'beast' in the sense of a wild animal (that is thērion, used for the beasts of chapter 13), but a living being. The four creatures combine features of Ezekiel's cherubim and Isaiah's seraphim and seem to represent all animate creation praising its Maker."
+      },
+      {
+        "word": "πρεσβύτερος",
+        "translit": "presbyteros",
+        "strongs": "G4245",
+        "gloss": "elder",
+        "verses": "4, 10",
+        "note": "Twenty-four elders on thrones, in white with golden crowns. Their identity is debated: angelic beings, or representatives of God's people, perhaps the twelve tribes and twelve apostles (compare 21:12-14). Either way they lead creation in worship and lay their crowns before God."
+      },
+      {
+        "word": "ἄξιος",
+        "translit": "axios",
+        "strongs": "G514",
+        "gloss": "worthy, deserving",
+        "verses": "11",
+        "note": "Roman emperors were greeted with acclamations of worth. Here the acclamation goes to God as Creator, and in chapter 5 the same word is sung to the Lamb as Redeemer."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Visions of God's throne",
+        "refs": ["1 Kings 22:19", "Isaiah 6:1-4", "Ezekiel 1:4-28", "Daniel 7:9-10"],
+        "note": "The prophets were given glimpses of the heavenly throne room before being sent with their message. John's vision stands in that line and gathers features from each."
+      },
+      {
+        "theme": "Holy, holy, holy",
+        "refs": ["Isaiah 6:3", "Leviticus 11:44-45", "1 Peter 1:15-16"],
+        "note": "The threefold 'holy' is the strongest form of emphasis in Hebrew. God's holiness is his utter otherness and moral purity, the reason creation falls before him."
+      },
+      {
+        "theme": "God as Creator and the right to worship",
+        "refs": ["Genesis 1:1", "Nehemiah 9:6", "Psalm 95:3-6", "Acts 17:24-25"],
+        "note": "Scripture repeatedly grounds worship in creation: because God made all things, all things owe him praise."
+      }
+    ],
+    "context": {
+      "setting": "After the letters to the churches, the scene shifts from earth to heaven, and the main visionary section of the book begins. 'After this' and 'what must take place after this' (v1) echo 1:19. Chapters 4 and 5 form one vision: chapter 4 shows God as Creator on the throne, and chapter 5 introduces the Lamb who alone can open the sealed scroll. Everything that happens in the rest of the book flows out from this throne.",
+      "flow": [
+        { "verses": "1", "label": "An open door", "note": "A voice like a trumpet calls John to come up and see what must take place after this." },
+        { "verses": "2-3", "label": "The one on the throne", "note": "God is described only by precious stones and a rainbow like emerald, glory beyond human description." },
+        { "verses": "4-6a", "label": "The throne's surroundings", "note": "Twenty-four elders on thrones, lightning and thunder, seven torches, and a sea of glass like crystal." },
+        { "verses": "6b-8", "label": "The four living creatures", "note": "Like a lion, an ox, a man and an eagle, full of eyes, with six wings, they never stop saying 'Holy, holy, holy.'" },
+        { "verses": "9-11", "label": "The elders' worship", "note": "The elders fall down, cast their crowns before the throne and declare God worthy, for he created all things." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 6:1-3", "from": "8", "note": "Seraphim with six wings crying 'Holy, holy, holy, is the LORD of hosts.' The living creatures sing Isaiah's song." },
+        { "ref": "Ezekiel 1:5-28", "from": "3, 5-7", "note": "Four living creatures with faces of a man, lion, ox and eagle, lightning from the fire, a crystal expanse, a throne like sapphire and a rainbow of brightness. John's vision draws heavily on Ezekiel's." }
+      ],
+      "tier2": [
+        { "ref": "Daniel 7:9-10", "from": "2-5", "note": "Thrones set in place, the Ancient of Days seated, fire issuing from before him: the courtroom from which history is judged." },
+        { "ref": "Exodus 19:16-19", "from": "5", "note": "Lightning, thunder and a trumpet at Sinai. The signs of God's presence at the giving of the covenant appear around his throne." },
+        { "ref": "Ezekiel 10:12", "from": "8", "note": "The cherubim were full of eyes all around, picturing God's all-seeing knowledge." },
+        { "ref": "Psalm 29:1-3, 10", "from": "11", "note": "'Give unto the LORD glory and strength... The LORD sitteth King for ever.' Heavenly beings ascribe glory to the enthroned King." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 9:12-17", "from": "3", "note": "The rainbow was God's sign of covenant mercy after the flood. Around the throne it may signal that his judgments are tempered by covenant faithfulness." },
+        { "ref": "1 Kings 7:23-26", "from": "6", "note": "The bronze 'sea' stood in Solomon's temple. Heaven has a sea of glass, perfectly calm before God." },
+        { "ref": "Exodus 24:9-10", "from": "6", "note": "Israel's elders saw God, and under his feet was something like a pavement of sapphire, clear as the sky." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Theology of the Book of Revelation",
+        "view": "Bauckham sees the throne vision as the theological center of Revelation. Seeing God as he truly is, the holy Creator, frees the reader from the illusion that Rome's power is ultimate, and true worship of God is the root of the book's resistance to idolatry."
+      },
+      {
+        "name": "John MacArthur",
+        "work": "Revelation 1-11 (MacArthur New Testament Commentary)",
+        "view": "MacArthur sees the shift from the churches on earth to heaven as significant: the church is not mentioned on earth again in chapters 4-19, which he takes as consistent with its having been taken to heaven before the tribulation. He identifies the twenty-four elders as representatives of the redeemed church."
+      },
+      {
+        "name": "William Hendriksen",
+        "work": "More Than Conquerors",
+        "view": "Hendriksen called the throne the central symbol of the book. In his reading, Revelation's message to persecuted believers in every age is that the universe is ruled from this throne, so all that follows, however terrible, unfolds under God's control."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "And the four beasts had each of them six wings about him; and they were full of eyes within: and they rest not day and night, saying, Holy, holy, holy, Lord God Almighty, which was, and is, and is to come.",
+        "renderings": [
+          { "version": "ESV", "text": "the four living creatures, each of them with six wings" },
+          { "version": "NIV", "text": "Each of the four living creatures had six wings" }
+        ],
+        "note": "'Beasts' in the KJV translates zōa, 'living beings,' a different word from the 'beast' (thērion) of chapter 13. Modern versions avoid confusing the two."
+      },
+      {
+        "verse": "11",
+        "kjv": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.",
+        "renderings": [
+          { "version": "ESV", "text": "by your will they existed and were created" },
+          { "version": "NIV", "text": "by your will they were created and have their being" }
+        ],
+        "note": "The Greek word thelēma means 'will' or 'desire.' The KJV's 'for thy pleasure' can suggest creation exists for God's enjoyment; modern versions stress that it exists because God willed it. Both ideas are true, though 'will' is closer here."
+      }
+    ],
+    "gospel": "Before the Lamb appears in chapter 5, this chapter establishes the God he reveals and reconciles us to: holy, eternal, Creator of all, worthy of worship. The rainbow around the throne recalls God's covenant mercy, and the open door into heaven (v1) is an invitation to see what was hidden. Because Christ has made his people a kingdom of priests (1:6), they may draw near to this throne, which for them is a throne of grace (Hebrews 4:16).",
+    "application": [
+      "Begin with God. When the world seems out of control, look first at the throne.",
+      "Let God's holiness humble you and fill your worship, as it does the creatures who never stop praising.",
+      "Cast your crowns before him. Every achievement and honor is a gift to be given back to God.",
+      "Ground your sense of worth and purpose in the fact that you exist by God's will.",
+      "Join heaven's worship in your church's worship. Earthly praise is a share in a song that never stops."
+    ],
+    "misapplications": [
+      {
+        "claim": "The detailed description is a literal picture of what heaven looks like.",
+        "correction": "John describes God only through comparisons, 'like jasper,' 'like an emerald.' The images communicate glory, holiness and power beyond description rather than giving a floor plan."
+      },
+      {
+        "claim": "Worship is mainly about what we get out of it.",
+        "correction": "In heaven worship is entirely directed to God, who is worthy because of who he is and what he has made (v11). The worshipers give crowns away rather than receiving them."
+      }
+    ],
+    "contrasts": [
+      { "a": "Earth", "b": "Heaven", "verses": "1", "note": "The churches' troubles on earth are seen in a new light from heaven's point of view." },
+      { "a": "Creatures", "b": "Creator", "verses": "11", "note": "The fundamental distinction in the universe, and the reason only God may be worshiped." },
+      { "a": "Turmoil around the throne", "b": "A sea of glass before it", "verses": "5-6", "note": "Lightning and thunder show God's power; the calm sea shows that nothing threatens his rule." }
+    ],
+    "features": [
+      { "label": "God is not described", "note": "John never describes the form of the one on the throne, only the light of gemstones around him, preserving the mystery of God's invisible glory." },
+      { "label": "The center outward", "note": "The description moves in rings from the throne: the one seated, the rainbow, the elders, the torches and sea, the living creatures, building a picture of all heaven centered on God." },
+      { "label": "Worship in two parts", "note": "The creatures praise God's holiness and eternity (v8); the elders respond by praising him as Creator (v11). Chapter 5 adds a song to the Lamb as Redeemer." },
+      { "label": "Representative creation", "note": "Lion, ox, man and eagle have often been seen as the noblest of wild animals, domestic animals, humanity and birds, so that all creation is pictured as praising God." }
+    ],
+    "summary": "Revelation 4 lifts John and the churches into heaven to see God enthroned in holiness and glory. Every creature in heaven worships him without ceasing as the eternal, all-powerful Creator. The vision establishes the foundation for the rest of the book: whatever happens on earth, God reigns, and he alone is worthy of worship.",
+    "metaArc": {
+      "book": "Chapter 4 opens the main body of Revelation. The throne introduced here is the center from which the seals, trumpets and bowls proceed, and the book ends with the same throne in the new Jerusalem (22:1-3).",
+      "redemptive": "The chapter roots everything in creation: God made all things and is worthy of their worship. The rest of the book shows the Creator reclaiming his creation from rebellion and bringing it to new creation."
+    }
+  }
+}

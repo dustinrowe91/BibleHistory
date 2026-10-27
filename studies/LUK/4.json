@@ -1,0 +1,169 @@
+{
+  "ref": "LUK.4",
+  "book": "Luke",
+  "chapter": 4,
+  "title": "The Spirit of the Lord Is upon Me",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Full of the Spirit, Jesus overcomes the devil's temptations in the wilderness by the word of God. In the synagogue at Nazareth he announces that Isaiah's promise of good news to the poor and release to the captives is fulfilled today, but his hometown rejects him. In Capernaum he teaches with authority, drives out demons and heals the sick, insisting he must preach the kingdom to other towns too.",
+  "keyVerses": ["4", "18-19", "21", "43"],
+  "steps": {
+    "language": [
+      {
+        "word": "πειράζω",
+        "translit": "peirazō",
+        "strongs": "G3985",
+        "gloss": "to test, tempt",
+        "verses": "2, 12",
+        "note": "The same word can mean a test that proves faithfulness or a temptation to sin. The devil tempts Jesus to sin; Jesus refuses to 'tempt' (put to the test) the Lord his God (v12). His forty days echo Israel's forty years of testing in the wilderness."
+      },
+      {
+        "word": "γέγραπται",
+        "translit": "gegraptai",
+        "strongs": "G1125",
+        "gloss": "it is written",
+        "verses": "4, 8, 10",
+        "note": "A perfect tense: it has been written and stands written. Jesus answers each temptation with Deuteronomy. The devil also quotes Scripture (v10-11, from Psalm 91), but twists it; Jesus answers Scripture with Scripture rightly understood."
+      },
+      {
+        "word": "χρίω",
+        "translit": "chriō",
+        "strongs": "G5548",
+        "gloss": "to anoint",
+        "verses": "18",
+        "note": "The root of 'Christ' (Christos, anointed one). Jesus applies Isaiah 61:1 to himself: the Spirit anointed him at his baptism (3:22) for his mission. He is the Messiah by the Spirit's anointing."
+      },
+      {
+        "word": "ἄφεσις",
+        "translit": "aphesis",
+        "strongs": "G859",
+        "gloss": "release, liberty, forgiveness",
+        "verses": "18",
+        "note": "Used twice in verse 18: 'deliverance' to the captives and 'liberty' for the oppressed. It is the same word as 'forgiveness' (3:3; 24:47). The release Jesus brings is spiritual, physical and social, rooted above all in forgiveness of sins."
+      },
+      {
+        "word": "σήμερον",
+        "translit": "sēmeron",
+        "strongs": "G4594",
+        "gloss": "today",
+        "verses": "21",
+        "note": "A key word in Luke: 'today' a Savior is born (2:11), 'today' this Scripture is fulfilled, 'today' salvation comes to Zacchaeus' house (19:9), 'today' you will be with me in paradise (23:43). The time of fulfillment has arrived."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Testing in the wilderness",
+        "refs": ["Deuteronomy 8:2-3", "Deuteronomy 6:13, 16", "Psalm 95:8-11"],
+        "note": "Israel was tested forty years and often failed; Jesus, tested forty days, quotes Moses' lessons from those years and remains faithful."
+      },
+      {
+        "theme": "The year of jubilee",
+        "refs": ["Leviticus 25:8-13", "Isaiah 61:1-2"],
+        "note": "Every fiftieth year debts were released, slaves freed and land returned. Isaiah used jubilee language for God's coming salvation, and Jesus announces its arrival."
+      },
+      {
+        "theme": "Prophets rejected at home",
+        "refs": ["Jeremiah 11:21", "Matthew 13:57", "John 1:11", "Acts 7:51-52"],
+        "note": "God's messengers have often been rejected by their own people, a pattern Jesus experiences and later laments (13:33-34)."
+      },
+      {
+        "theme": "Elijah and Elisha among Gentiles",
+        "refs": ["1 Kings 17:8-24", "2 Kings 5:1-14"],
+        "note": "Elijah was sent to a widow of Sidon and Elisha healed Naaman the Syrian, showing God's grace to outsiders."
+      }
+    ],
+    "context": {
+      "setting": "Led by the Spirit from his baptism, Jesus is tested for forty days. Luke's order of temptations differs from Matthew's, ending at the temple in Jerusalem, the city where Luke's Gospel climaxes. The Nazareth sermon (v16-30) is placed at the start of the Galilean ministry as a programmatic statement of Jesus' mission, much as Peter's Pentecost sermon opens Acts. The events in Capernaum show what the mission looks like: authoritative teaching, deliverance from demons and healing.",
+      "flow": [
+        { "verses": "1-13", "label": "The temptation", "note": "Full of the Spirit, Jesus is tempted for forty days: to turn stone to bread, to worship the devil for the kingdoms of the world, and to throw himself from the temple. He answers each from Deuteronomy, and the devil departs until an opportune time." },
+        { "verses": "14-15", "label": "Return to Galilee", "note": "In the power of the Spirit Jesus teaches in the synagogues and is glorified by all." },
+        { "verses": "16-21", "label": "The Nazareth sermon", "note": "Jesus reads Isaiah 61:1-2 and says, 'This day is this scripture fulfilled in your ears.'" },
+        { "verses": "22-30", "label": "Rejected at Nazareth", "note": "The townspeople marvel, then take offense when he recalls God's grace to the widow of Zarephath and Naaman; they try to throw him off a cliff, but he passes through their midst." },
+        { "verses": "31-37", "label": "Authority over demons", "note": "In Capernaum Jesus teaches with authority and commands an unclean spirit to come out of a man." },
+        { "verses": "38-44", "label": "Healing and preaching", "note": "He heals Simon's mother-in-law and many others, silences demons that call him the Son of God, and says he must preach the kingdom in other towns, for that is why he was sent." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 8:3", "from": "4", "note": "'Man doth not live by bread only.' Jesus quotes Moses' words about the manna in the wilderness." },
+        { "ref": "Deuteronomy 6:13, 16", "from": "8, 12", "note": "'Thou shalt fear the LORD thy God, and serve him' and 'Ye shall not tempt the LORD your God.'" },
+        { "ref": "Psalm 91:11-12", "from": "10-11", "note": "The devil quotes God's promise of angelic protection, but omits its setting of trust and humility." },
+        { "ref": "Isaiah 61:1-2; 58:6", "from": "18-19", "note": "Jesus reads Isaiah 61, adding a line from Isaiah 58:6 ('to set at liberty them that are bruised') and stopping before 'the day of vengeance of our God.'" }
+      ],
+      "tier2": [
+        { "ref": "1 Kings 17:8-16", "from": "25-26", "note": "Elijah sent to a widow in Zarephath of Sidon during the famine." },
+        { "ref": "2 Kings 5:1-14", "from": "27", "note": "Naaman the Syrian cleansed of leprosy by Elisha." },
+        { "ref": "Hebrews 2:18; 4:15", "from": "1-13", "note": "Jesus was tempted in every way as we are, yet without sin, and can help those who are tempted." },
+        { "ref": "Genesis 3:1-6", "from": "1-13", "note": "The first Adam fell to the tempter in a garden; the second Adam, whose genealogy has just been traced to Adam, resists him in a wilderness." }
+      ],
+      "tier3": [
+        { "ref": "Leviticus 25:10", "from": "19", "note": "'Proclaim liberty throughout all the land.' The acceptable year of the Lord recalls jubilee." },
+        { "ref": "Exodus 34:28", "from": "2", "note": "Moses fasted forty days and nights on Sinai." },
+        { "ref": "1 John 2:16", "from": "3-12", "note": "The lust of the flesh, the lust of the eyes and the pride of life, a pattern many see in the three temptations." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock treats the Nazareth sermon as a summary of Jesus' mission in Luke. He argues that the 'poor' and 'captives' include the materially and socially afflicted but especially those spiritually dependent on God, and that Jesus' stopping before 'the day of vengeance' marks the present as a time of grace."
+      },
+      {
+        "name": "Joel B. Green",
+        "work": "The Gospel of Luke (New International Commentary on the New Testament)",
+        "view": "Green stresses the social dimension of the 'release' Jesus announces: those on the margins of society, the poor, sick and outcast, are brought back into the community of God's people. He sees the rejection at Nazareth as a warning that those who presume on their privileged status may miss God's visitation."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "18",
+        "kjv": "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised,",
+        "renderings": [
+          { "version": "ESV", "text": "He has sent me to proclaim liberty to the captives" },
+          { "version": "NIV", "text": "He has sent me to proclaim freedom for the prisoners" },
+          { "version": "NKJV", "text": "He has sent Me to heal the brokenhearted" }
+        ],
+        "note": "The older manuscripts lack 'to heal the brokenhearted,' which appears in Isaiah 61:1 and was probably added by scribes to match it. 'Bruised' translates a word meaning crushed or oppressed."
+      }
+    ],
+    "gospel": "Where Adam and Israel failed in testing, Jesus, the true Son, stands firm, trusting and obeying his Father's word (v1-13). He then announces his mission in Isaiah's words: good news for the poor, release for captives, sight for the blind, freedom for the oppressed (v18). 'Today' it is fulfilled, because the Anointed One has come. He stops before 'the day of vengeance,' declaring a season of God's favor. His own people reject him, foreshadowing the cross, but God's grace reaches beyond Israel to outsiders like the widow of Sidon and Naaman the Syrian.",
+    "application": [
+      "Fight temptation with Scripture, knowing it well enough to use it rightly, as Jesus did.",
+      "Be alert when the devil twists God's word. Context and the whole of Scripture guard against misuse.",
+      "Receive Jesus' mission as good news for you. He came for the poor in spirit, the captive and the blind.",
+      "Do not let familiarity with Jesus breed contempt, as it did in Nazareth.",
+      "Rejoice that God's grace reaches outsiders, and share it beyond your own circle."
+    ],
+    "misapplications": [
+      {
+        "claim": "Quoting Scripture is always a sign of being on God's side.",
+        "correction": "The devil quoted Psalm 91 (v10-11). Scripture must be read in context and in harmony with the rest of God's word."
+      },
+      {
+        "claim": "Jesus' mission was only about political or economic liberation.",
+        "correction": "The release Jesus brings includes care for the poor and oppressed, but its heart is forgiveness of sins (the same word in 24:47) and deliverance from Satan's power (v33-36)."
+      },
+      {
+        "claim": "Being raised in a religious community guarantees recognizing God's work.",
+        "correction": "Nazareth knew Jesus best as 'Joseph's son' and rejected him most violently (v22-29)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Adam tempted in a garden", "b": "Jesus tempted in a wilderness", "verses": "1-13", "note": "The new Adam succeeds where the first failed." },
+      { "a": "'All this power will I give thee'", "b": "'Him only shalt thou serve'", "verses": "6, 8", "note": "Jesus refuses a shortcut to the kingdom that bypasses the cross." },
+      { "a": "Gracious words", "b": "Murderous rage", "verses": "22, 28-29", "note": "The same audience moves from wonder to violence within minutes." }
+    ],
+    "features": [
+      { "label": "Temptations ending at the temple", "note": "Luke places the temple temptation last, pointing ahead to Jerusalem, where the Gospel's climax occurs." },
+      { "label": "Stopping mid-verse", "note": "Jesus closes the scroll after 'the acceptable year of the Lord,' leaving off 'the day of vengeance of our God' (Isaiah 61:2). The present is a season of grace." },
+      { "label": "A dramatic reading", "note": "Luke slows the scene: he stood, received the scroll, opened it, read, closed it, gave it back, sat down, and all eyes were fixed on him." },
+      { "label": "'Until an opportune time'", "note": "The devil leaves 'for a season' (v13), and returns at the passion, when Satan enters Judas (22:3)." }
+    ],
+    "summary": "Luke 4 shows Jesus, full of the Spirit, defeating the devil's temptations by obedient trust in God's word, and then announcing his mission as the anointed bringer of Isaiah's promised release and good news. His hometown rejects him when he speaks of God's grace to Gentiles, foreshadowing his rejection by Israel. In Capernaum his authority over demons and disease demonstrates that the kingdom of God has arrived.",
+    "metaArc": {
+      "book": "Chapter 4 opens Jesus' Galilean ministry (4:14-9:50). The Nazareth sermon sets out the themes of Luke-Acts: the Spirit, good news to the poor, fulfillment of Scripture, rejection by many in Israel, and grace extended to Gentiles.",
+      "redemptive": "The chapter shows the new Adam reversing the fall's defeat and announcing the jubilee of Redemption, a season of release from sin, Satan and suffering."
+    }
+  }
+}

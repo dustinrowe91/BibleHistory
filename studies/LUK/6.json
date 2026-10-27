@@ -1,0 +1,180 @@
+{
+  "ref": "LUK.6",
+  "book": "Luke",
+  "chapter": 6,
+  "title": "Love Your Enemies",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus declares himself Lord of the Sabbath and heals on it, enraging the Pharisees. After a night of prayer he chooses twelve apostles, then delivers the Sermon on the Plain: blessings on the poor, hungry and persecuted, woes on the rich and comfortable, and a call to love enemies and be merciful as the Father is merciful. A tree is known by its fruit, and a life built on hearing and doing his words will stand.",
+  "keyVerses": ["5", "20-21", "27-28", "35-36"],
+  "steps": {
+    "language": [
+      {
+        "word": "σάββατον",
+        "translit": "sabbaton",
+        "strongs": "G4521",
+        "gloss": "Sabbath, rest",
+        "verses": "1-9",
+        "note": "God's gift of rest, rooted in creation (Genesis 2:2-3) and the exodus (Deuteronomy 5:15). By Jesus' day detailed rules defined what counted as work. Jesus asks whether it is lawful on the Sabbath 'to do good, or to do evil? to save life, or to destroy it?' (v9), returning the day to its purpose."
+      },
+      {
+        "word": "ἀπόστολος",
+        "translit": "apostolos",
+        "strongs": "G652",
+        "gloss": "one sent, apostle, messenger",
+        "verses": "13",
+        "note": "From the verb 'to send.' Luke uses the title more than the other Gospels, preparing for Acts, where the apostles are Jesus' authorized witnesses. Twelve matches the twelve tribes, signaling the renewal of Israel."
+      },
+      {
+        "word": "μακάριος",
+        "translit": "makarios",
+        "strongs": "G3107",
+        "gloss": "blessed, fortunate, favored by God",
+        "verses": "20-22",
+        "note": "Not simply 'happy' but declared favored by God, whatever one's circumstances. Luke's four blessings are addressed directly ('ye'), and are matched by four woes, as in the blessings and curses of Deuteronomy."
+      },
+      {
+        "word": "οὐαί",
+        "translit": "ouai",
+        "strongs": "G3759",
+        "gloss": "woe, alas",
+        "verses": "24-26",
+        "note": "A cry of grief and warning. Jesus warns the rich, the full, those who laugh now and those everyone speaks well of: they have received their comfort already."
+      },
+      {
+        "word": "οἰκτίρμων",
+        "translit": "oiktirmōn",
+        "strongs": "G3629",
+        "gloss": "merciful, compassionate",
+        "verses": "36",
+        "note": "'Be ye therefore merciful, as your Father also is merciful.' The Greek Old Testament uses the word for the LORD, 'merciful and gracious' (Exodus 34:6). Disciples are to reflect the character of their Father."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "David and the bread of the presence",
+        "refs": ["1 Samuel 21:1-6", "Leviticus 24:5-9"],
+        "note": "David and his men ate the holy bread when hungry. Jesus uses the story to show that human need and God's anointed king stand above ritual regulation."
+      },
+      {
+        "theme": "Blessing and woe",
+        "refs": ["Deuteronomy 28", "Psalm 1", "Isaiah 5:8-23", "Jeremiah 17:5-8"],
+        "note": "Scripture often sets two ways side by side: the blessed who trust God and the cursed who trust in themselves or their wealth."
+      },
+      {
+        "theme": "Love for enemies",
+        "refs": ["Exodus 23:4-5", "Proverbs 25:21-22", "Romans 12:14-21"],
+        "note": "Even the law required helping an enemy's straying animal, and Proverbs commands feeding a hungry enemy. Jesus and Paul call for active love and blessing."
+      },
+      {
+        "theme": "Known by fruit",
+        "refs": ["Psalm 1:3", "Jeremiah 17:8", "Matthew 7:16-20", "Galatians 5:22-23"],
+        "note": "A life rooted in God bears good fruit; the fruit reveals what the heart is."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 6 completes the series of controversies begun in 5:17 with two Sabbath disputes, then turns to Jesus' disciples. Luke notes that Jesus spent the whole night in prayer before choosing the Twelve. The Sermon on the Plain (v20-49), given on 'a level place,' is shorter than Matthew's Sermon on the Mount and shares much of its material, including the blessings, love for enemies, the golden rule and the two builders. Whether they are two versions of one sermon or two occasions of similar teaching is debated.",
+      "flow": [
+        { "verses": "1-5", "label": "Lord of the Sabbath", "note": "When the disciples pick grain on the Sabbath, Jesus appeals to David and declares that the Son of Man is Lord of the Sabbath." },
+        { "verses": "6-11", "label": "Healing a withered hand", "note": "Jesus heals a man's hand on the Sabbath, asking whether it is lawful to do good or evil; the scribes and Pharisees are filled with fury." },
+        { "verses": "12-16", "label": "The Twelve chosen", "note": "After praying all night, Jesus chooses twelve disciples and names them apostles." },
+        { "verses": "17-26", "label": "Blessings and woes", "note": "On a level place with great crowds, Jesus blesses the poor, hungry, weeping and persecuted, and pronounces woes on the rich, full, laughing and well spoken of." },
+        { "verses": "27-38", "label": "Love and mercy", "note": "Love your enemies, bless those who curse you, give without expecting return, do to others as you would have them do to you, judge not, forgive, and give generously." },
+        { "verses": "39-49", "label": "Trees and foundations", "note": "Remove the beam from your own eye; a good tree bears good fruit; why call me 'Lord, Lord' and not do what I say? The one who hears and does is like a house built on rock." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "1 Samuel 21:1-6", "from": "3-4", "note": "Jesus retells David eating the consecrated bread with his men." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 5-7", "from": "20-49", "note": "The Sermon on the Mount, which shares the blessings, love for enemies, the golden rule, judging, the tree and its fruit, and the two builders." },
+        { "ref": "Isaiah 61:1-3", "from": "20-21", "note": "Good news to the poor and comfort to those who mourn, the mission Jesus announced at Nazareth (4:18)." },
+        { "ref": "Exodus 34:6", "from": "36", "note": "The LORD, merciful and gracious. Disciples are to imitate the Father's mercy." },
+        { "ref": "James 2:5; 5:1-6", "from": "20, 24", "note": "God has chosen the poor to be rich in faith; woe to the rich who oppress." }
+      ],
+      "tier3": [
+        { "ref": "Leviticus 19:18", "from": "31", "note": "'Thou shalt love thy neighbour as thyself.' The golden rule restates it positively." },
+        { "ref": "Proverbs 19:17", "from": "35, 38", "note": "Whoever is kind to the poor lends to the LORD, who will repay." },
+        { "ref": "Ezekiel 13:10-14", "from": "48-49", "note": "A wall built without a true foundation falls when the storm comes." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Joel B. Green",
+        "work": "The Gospel of Luke (New International Commentary on the New Testament)",
+        "view": "Green reads the blessings and woes as a reversal of the world's measures of honor and status. In his view the 'poor' include both the economically poor and those of low status in society, whom God welcomes, while the rich who rely on their wealth have already received their comfort."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock argues that the poor blessed here are the materially poor who turn to God in their need, the 'pious poor' of the Old Testament. Poverty is not itself a virtue; the blessing is for those who, lacking worldly security, depend on God and follow Jesus."
+      },
+      {
+        "name": "Tim Keller",
+        "work": "Generous Justice",
+        "view": "Keller draws on passages like this to argue that those who have truly received God's grace will be marked by generosity and concern for the poor. Mercy toward others flows from having received mercy, not as a way of earning it."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "And he lifted up his eyes on his disciples, and said, Blessed be ye poor: for yours is the kingdom of God.",
+        "renderings": [
+          { "version": "ESV", "text": "Blessed are you who are poor" },
+          { "version": "NIV", "text": "Blessed are you who are poor" }
+        ],
+        "note": "Luke's version is direct and concrete, 'you poor,' where Matthew has 'poor in spirit' (Matthew 5:3). The two complement each other: Luke stresses the actual condition, Matthew the inner dependence on God that the Old Testament linked with the poor."
+      },
+      {
+        "verse": "35",
+        "kjv": "But love ye your enemies, and do good, and lend, hoping for nothing again; and your reward shall be great, and ye shall be the children of the Highest: for he is kind unto the unthankful and to the evil.",
+        "renderings": [
+          { "version": "ESV", "text": "lend, expecting nothing in return" },
+          { "version": "NIV", "text": "lend to them without expecting to get anything back" }
+        ],
+        "note": "'Hoping for nothing again' means expecting no repayment. Love modeled on God's kindness to the ungrateful gives without calculating a return."
+      }
+    ],
+    "gospel": "The Lord of the Sabbath restores what is broken (v5, 10). His blessings are announced to the poor, hungry, grieving and rejected, those with nothing to offer but their need, because the kingdom is a gift. The call to love enemies reflects the Father, who is 'kind unto the unthankful and to the evil' (v35), the very kindness he showed us in Christ, who prayed for his executioners (23:34). Hearing his word is not enough; the house that stands is built on the rock of obeying him, and he is the foundation.",
+    "application": [
+      "Use days of rest to do good and restore life, as Jesus did.",
+      "Pray before major decisions. Jesus prayed all night before choosing the Twelve.",
+      "Measure your life by God's blessings, not the world's. Wealth and popularity can be dangers.",
+      "Love and pray for people who mistreat you, and give without expecting anything back.",
+      "Do what Jesus says, not just call him Lord. Build your life on obeying his words."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Judge not' means Christians should never evaluate behavior or teaching as right or wrong.",
+        "correction": "In the same passage Jesus says a tree is known by its fruit (v43-44) and tells disciples to remove the speck from a brother's eye after removing their own beam (v42). He forbids hypocritical, condemning judgment, not moral discernment."
+      },
+      {
+        "claim": "Poverty itself makes a person righteous, and wealth itself is sinful.",
+        "correction": "Jesus blesses the poor who receive the kingdom and warns the rich who find their comfort in wealth (v24). Luke shows rich followers of Jesus too (8:3; 19:8-9). The issue is where a person's trust and treasure lie."
+      },
+      {
+        "claim": "'Give, and it shall be given unto you' (v38) guarantees financial return on giving.",
+        "correction": "The context is mercy, forgiveness and generosity. God's measure is generous, but the promise is not a formula for wealth; elsewhere Jesus calls disciples to give expecting nothing back (v35)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Blessed", "b": "Woe", "verses": "20-26", "note": "Four blessings and four woes set two ways of life against each other." },
+      { "a": "Love for those who love you", "b": "Love for enemies", "verses": "32-35", "note": "Ordinary love returns favors; kingdom love imitates God." },
+      { "a": "Speck", "b": "Beam", "verses": "41-42", "note": "Deal with your own sin before others'." },
+      { "a": "Rock", "b": "Earth without foundation", "verses": "48-49", "note": "Hearing and doing versus hearing only." }
+    ],
+    "features": [
+      { "label": "Four and four", "note": "Luke's beatitudes are four, each matched by a corresponding woe: poor/rich, hungry/full, weeping/laughing, hated/praised." },
+      { "label": "Direct address", "note": "Luke's blessings use 'you' rather than 'they,' making them a personal word to Jesus' listeners." },
+      { "label": "A night of prayer", "note": "Only Luke says Jesus prayed all night before choosing the Twelve (v12)." },
+      { "label": "Two Sabbath stories", "note": "Two Sabbath controversies (v1-11) mark the climax of opposition in the early Galilean ministry, as the leaders begin discussing what to do with Jesus." }
+    ],
+    "summary": "Luke 6 shows Jesus as Lord of the Sabbath, the one who restores life, and as the founder of a renewed people with twelve apostles. In the Sermon on the Plain he overturns worldly values, blessing the poor and persecuted and warning the rich and admired, and calls disciples to love enemies and show mercy as their Father does. True discipleship is shown by fruit and built on hearing and obeying his words.",
+    "metaArc": {
+      "book": "Chapter 6 completes the early controversies and forms the core teaching of the Galilean ministry. The Twelve chosen here will be sent out in chapter 9 and become the witnesses of Acts.",
+      "redemptive": "The chapter shows Redemption forming a new people, the renewed Israel, whose life reflects the mercy of the Father and the values of the coming kingdom."
+    }
+  }
+}

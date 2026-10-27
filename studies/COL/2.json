@@ -1,0 +1,191 @@
+{
+  "ref": "COL.2",
+  "book": "Colossians",
+  "chapter": 2,
+  "title": "Complete in Him",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Since all the fullness of God dwells bodily in Christ and believers have been filled in him, they must not be taken captive by teaching that offers more through human tradition, spiritual powers or ascetic rules. At the cross God forgave every debt and disarmed every power, so going back to shadows means letting go of the substance.",
+  "keyVerses": ["6-7", "9-10", "13-15", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "φιλοσοφία",
+        "translit": "philosophia",
+        "strongs": "G5385",
+        "gloss": "philosophy, a system of teaching",
+        "verses": "8",
+        "note": "The only use of the word in the New Testament. In the first century it could describe any school of thought or religious way of life, including Jewish groups. Paul is not condemning careful thinking but a particular teaching that was 'empty deceit' and 'not according to Christ.'"
+      },
+      {
+        "word": "στοιχεῖον",
+        "translit": "stoicheion",
+        "strongs": "G4747",
+        "gloss": "element, basic principle; possibly elemental spirit",
+        "verses": "8, 20",
+        "note": "The word meant things in a row: letters of the alphabet, basic lessons, the physical elements, and sometimes the spirits believed to rule them. Scholars debate whether Paul means elementary religious rules or spiritual powers; the surrounding talk of rulers, angels and regulations suggests the two were tangled together (compare Galatians 4:3, 9)."
+      },
+      {
+        "word": "πληρόω",
+        "translit": "plēroō",
+        "strongs": "G4137",
+        "gloss": "to fill, make complete",
+        "verses": "10",
+        "note": "Paul plays on 'fullness' (plērōma) in verse 9: all God's fullness dwells in Christ, and you 'have been filled' in him. The perfect tense describes a settled state. Believers are not half-full, waiting for a teacher to top them up."
+      },
+      {
+        "word": "χειρόγραφον",
+        "translit": "cheirographon",
+        "strongs": "G5498",
+        "gloss": "handwritten record, certificate of debt",
+        "verses": "14",
+        "note": "A handwritten IOU signed by the debtor. Paul pictures the record of our debt to God, with its legal demands, as wiped out and nailed to the cross. The image is of a charge sheet settled in full."
+      },
+      {
+        "word": "θριαμβεύω",
+        "translit": "thriambeuō",
+        "strongs": "G2358",
+        "gloss": "to lead in a triumphal procession",
+        "verses": "15",
+        "note": "A Roman general returning from victory paraded his captured enemies through the streets. At the cross, which looked like Christ's defeat, God disarmed the rulers and authorities and put them on public display as conquered foes."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Circumcision of the heart",
+        "refs": ["Deuteronomy 10:16", "Deuteronomy 30:6", "Jeremiah 4:4", "Romans 2:28-29"],
+        "note": "The Old Testament already looked past the physical sign to a heart God would change. Verse 11 says that in Christ believers have received that true circumcision, the putting off of the old self."
+      },
+      {
+        "theme": "Shadow and substance",
+        "refs": ["Hebrews 8:5", "Hebrews 10:1", "Colossians 2:17"],
+        "note": "Food laws, festivals, new moons and Sabbaths were real gifts, but they were shadows cast by something coming. Now that Christ, the substance, has come, no one should judge believers by the shadow."
+      },
+      {
+        "theme": "Victory over the powers",
+        "refs": ["Genesis 3:15", "John 12:31", "Hebrews 2:14-15", "Ephesians 1:20-21"],
+        "note": "From the first promise that the serpent's head would be crushed, Scripture looks for a decisive defeat of evil. The New Testament locates it at the cross and resurrection."
+      },
+      {
+        "theme": "Human rules mistaken for godliness",
+        "refs": ["Isaiah 29:13", "Mark 7:6-8, 18-19", "1 Timothy 4:1-5"],
+        "note": "Jesus rebuked worship built on human commandments, and Paul warns again of rules about food and abstinence that look holy but cannot change the heart."
+      }
+    ],
+    "context": {
+      "setting": "Having shown in chapter 1 who Christ is, Paul now addresses the teaching that threatened the church. Its exact shape is debated, but the chapter gives clues: claims to special wisdom, attention to spiritual powers and angels, visions, Jewish practices such as circumcision, food laws and Sabbaths, and strict self-denial of the body. Whatever its source, its message was that Christ was a good start but not enough, and Paul's answer rests on the Christ of chapter 1.",
+      "flow": [
+        { "verses": "1-5", "label": "Paul's struggle for them", "note": "Paul labors for churches he has never seen, that they may be encouraged and united in love and reach full understanding of Christ, in whom all treasures of wisdom are hidden." },
+        { "verses": "6-7", "label": "Keep walking in him", "note": "As you received Christ Jesus the Lord, so walk in him, rooted, built up, established in the faith and overflowing with thanksgiving." },
+        { "verses": "8-10", "label": "Fullness in Christ", "note": "Do not be taken captive by empty philosophy; all the fullness of deity dwells in Christ bodily, and you have been filled in him." },
+        { "verses": "11-15", "label": "What God did in Christ", "note": "Circumcised in him, buried and raised with him, made alive, forgiven, the debt canceled and nailed to the cross, the powers disarmed and paraded." },
+        { "verses": "16-19", "label": "Do not be judged or disqualified", "note": "Let no one judge you over food or holy days, which were shadows, or disqualify you through visions and angel worship while not holding fast to the Head." },
+        { "verses": "20-23", "label": "Why go back to rules?", "note": "If you died with Christ to the elemental things, why submit to 'do not handle, do not taste'? Such rules look wise but have no power against the flesh." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 29:13", "from": "22", "note": "'According to the commandments and doctrines of men' follows the wording of this verse in its Greek translation, the same text Jesus quoted against human traditions in Mark 7:7." }
+      ],
+      "tier2": [
+        { "ref": "Romans 6:3-11", "from": "12-13", "note": "Buried with Christ in baptism, raised to new life, dead to sin and alive to God: the same pattern of union with his death and resurrection." },
+        { "ref": "Galatians 4:3-11", "from": "8, 16, 20", "note": "Paul warns the Galatians against going back to the elementary principles of the world and observing days, months and seasons." },
+        { "ref": "Ephesians 2:1-6, 14-15", "from": "13-14", "note": "Dead in trespasses, made alive together with Christ, and the law of commandments with its ordinances set aside through the cross." },
+        { "ref": "Mark 7:14-23", "from": "16, 21-22", "note": "Jesus declared all foods clean and taught that defilement comes from the heart, not from what enters the body." },
+        { "ref": "Hebrews 10:1", "from": "17", "note": "The law had only a shadow of the good things to come, not the true form of them." }
+      ],
+      "tier3": [
+        { "ref": "Deuteronomy 30:6", "from": "11", "note": "God promised to circumcise his people's hearts so they would love him. Verse 11 sees that promise kept in Christ." },
+        { "ref": "Proverbs 2:1-6", "from": "3", "note": "Wisdom and knowledge are treasures to be searched for, and the LORD gives them. Paul says they are all hidden in Christ." },
+        { "ref": "1 Timothy 4:1-5", "from": "21-23", "note": "Later teachers would forbid marriage and certain foods, yet everything God created is good when received with thanksgiving." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. B. Lightfoot",
+        "work": "Saint Paul's Epistles to the Colossians and to Philemon",
+        "view": "Lightfoot's influential reading saw the Colossian teaching as a blend of Jewish practice with speculative ideas about spirits and matter, akin to the Essenes and an early step toward later Gnosticism. He argued that Paul answers it by insisting that Christ alone fills the gap between God and the world."
+      },
+      {
+        "name": "Clinton E. Arnold",
+        "work": "The Colossian Syncretism",
+        "view": "Arnold argued the teaching grew from the folk religion of Phrygia, where people called on angels and spirits for protection, mixed with Jewish and Christian elements. In his view the 'worship of angels' meant invoking angels for help, which made Christ's victory over the powers in verse 15 the heart of Paul's reply."
+      },
+      {
+        "name": "F. F. Bruce",
+        "work": "The Epistles to the Colossians, to Philemon, and to the Ephesians (NICNT)",
+        "view": "Bruce saw strong Jewish elements in the false teaching, possibly connected to a mystical piety that sought heavenly visions through fasting and self-denial. He emphasized that Paul's answer is not a better technique but union with Christ, in whom believers have already died and risen."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "8",
+        "kjv": "Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ.",
+        "renderings": [
+          { "version": "ESV", "text": "the elemental spirits of the world" },
+          { "version": "NIV", "text": "the elemental spiritual forces of this world" },
+          { "version": "NASB", "text": "the elementary principles of the world" }
+        ],
+        "note": "'Spoil' in the KJV means plunder or carry off as booty. The bigger difference is stoicheia: NASB reads it as basic principles, ESV and NIV as spiritual beings. Both readings have support, and the chapter shows how rules and powers were linked in the Colossian teaching."
+      },
+      {
+        "verse": "14",
+        "kjv": "Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;",
+        "renderings": [
+          { "version": "ESV", "text": "canceling the record of debt that stood against us" },
+          { "version": "NIV", "text": "the charge of our legal indebtedness" }
+        ],
+        "note": "Modern versions bring out the commercial picture behind 'handwriting' (cheirographon): a signed record of debt. The debt is what we owe God under his law, and it is canceled, not by our paying, but by being nailed to Christ's cross."
+      },
+      {
+        "verse": "18",
+        "kjv": "Let no man beguile you of your reward in a voluntary humility and worshipping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,",
+        "renderings": [
+          { "version": "ESV", "text": "insisting on asceticism and worship of angels" },
+          { "version": "NIV", "text": "delights in false humility and the worship of angels" }
+        ],
+        "note": "'Humility' here likely means rigorous self-denial such as fasting, which ESV calls asceticism. 'Worship of angels' can mean worship offered to angels or the angels' own worship that the teachers claimed to join in visions; scholars are divided."
+      }
+    ],
+    "gospel": "This chapter states what Christ has done as plainly as any in Paul. Believers were dead in trespasses, and God made them alive together with Christ, forgiving all their trespasses (v13). The record of debt that condemned them was canceled and nailed to the cross (v14). The powers that held people in fear were disarmed and led in Christ's triumph (v15). Union with Christ means his death and resurrection have become ours, pictured in baptism (v12). Because all the fullness of God dwells in him bodily, the one who has Christ has everything.",
+    "application": [
+      "Keep walking in Christ the same way you began, by faith in him, and expect growth to come from being rooted in him rather than from moving on to something else (v6-7).",
+      "Be wary of any teaching that makes you feel second-class until you add a special experience, practice or secret knowledge.",
+      "When guilt accuses you of sins you have confessed, remember the canceled record nailed to the cross.",
+      "Do not live in fear of spiritual powers. They were disarmed and shamed at the cross.",
+      "Value spiritual disciplines, but do not mistake rules about what to touch or eat for real holiness. They cannot conquer the flesh; union with Christ can (v23; 3:1-5)."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 8 means Christians should avoid philosophy and rigorous thought.",
+        "correction": "Paul warns against philosophy that is 'empty deceit' and 'not according to Christ.' In the same chapter he prays for 'all the riches of full assurance of understanding' (v2). The test is whether thinking is captive to Christ, not whether it is careful."
+      },
+      {
+        "claim": "Verses 16-17 mean God's moral law no longer matters for Christians.",
+        "correction": "The examples are food, drink, festivals, new moons and Sabbaths, the ceremonial markers that foreshadowed Christ. Chapter 3 goes straight on to strong moral commands, so Paul is not setting holiness aside."
+      },
+      {
+        "claim": "Severe treatment of the body is the path to spiritual power.",
+        "correction": "Paul says such regulations have 'an appearance of wisdom' but are 'of no value in stopping the indulgence of the flesh' (v23). Real change comes from dying and rising with Christ."
+      }
+    ],
+    "contrasts": [
+      { "a": "Human tradition", "b": "Christ", "verses": "8", "note": "The question is not whether a teaching is impressive but whether it is 'according to Christ.'" },
+      { "a": "Dead in trespasses", "b": "Made alive with him", "verses": "13", "note": "God does for the dead what they cannot do for themselves." },
+      { "a": "Shadow", "b": "Substance", "verses": "17", "note": "The old ceremonies cast a shadow; Christ is the body that cast it." },
+      { "a": "Appearance of wisdom", "b": "No value against the flesh", "verses": "23", "note": "Rules can look deeply spiritual and still be powerless to change the heart." }
+    ],
+    "features": [
+      { "label": "Fullness wordplay", "note": "In verses 9-10 Paul sets 'all the fullness' that dwells in Christ beside 'you have been filled' in him. The teachers offered fullness; Paul says the Colossians already have it." },
+      { "label": "Ironic triumph", "note": "The cross, an instrument of public shame, becomes the scene of a public victory parade in which the powers, not Christ, are put to shame (v15)." },
+      { "label": "Quoting the slogans", "note": "'Do not handle, do not taste, do not touch' (v21) sounds like Paul quoting the teachers' own rules, set out so their emptiness is plain." },
+      { "label": "A string of 'with him'", "note": "Buried with him, raised with him, made alive together with him (v12-13), then died with Christ (v20). Union with Christ is Paul's whole answer to the false teaching." }
+    ],
+    "summary": "Colossians 2 warns believers not to be drawn away from Christ by teaching that offers fullness elsewhere. All the fullness of God lives bodily in Christ, and in him believers have been made complete: spiritually circumcised, buried and raised with him, forgiven, freed from the record of debt and from the powers he defeated at the cross. To go back to rules, shadows or spiritual techniques is to let go of the Head from whom the whole body grows.",
+    "metaArc": {
+      "book": "Chapter 2 is the letter's direct confrontation with the false teaching. It applies the portrait of Christ in chapter 1 to the church's danger and sets up the turn in chapter 3: if you have been raised with Christ, seek the things above.",
+      "redemptive": "The chapter looks back to the shadows of the old covenant and the promise of a circumcised heart, centers on redemption accomplished at the cross, and anticipates the full defeat of every hostile power in the new creation."
+    }
+  }
+}

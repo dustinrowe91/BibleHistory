@@ -1,0 +1,177 @@
+{
+  "ref": "COL.3",
+  "book": "Colossians",
+  "chapter": 3,
+  "title": "Set Your Minds on Things Above",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Because believers have been raised with Christ and their life is hidden with him in God, they must put to death what belongs to the old life and put on the new self, marked by love, peace, the word of Christ and thankfulness. That new life reaches into every home relationship, where all is done for the Lord.",
+  "keyVerses": ["1-4", "5", "12-14", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἄνω",
+        "translit": "anō",
+        "strongs": "G507",
+        "gloss": "above, upward",
+        "verses": "1-2",
+        "note": "The things 'above' are defined at once: where Christ is, seated at the right hand of God. Paul is not calling believers to escape the world but to take their bearings from the risen Christ, which is why this chapter quickly turns to sexuality, speech and family life."
+      },
+      {
+        "word": "νεκρόω",
+        "translit": "nekroō",
+        "strongs": "G3499",
+        "gloss": "to put to death",
+        "verses": "5",
+        "note": "A strong, deliberate word. Believers have already died with Christ (v3), and on that basis they must now actively kill the sins that remain. The KJV's 'mortify' comes from the Latin for 'make dead.'"
+      },
+      {
+        "word": "ἀνακαινόω",
+        "translit": "anakainoō",
+        "strongs": "G341",
+        "gloss": "to renew, make new again",
+        "verses": "10",
+        "note": "The new self is 'being renewed,' a present, ongoing process, 'in knowledge after the image of its creator.' The goal is the restoration of the image of God that sin defaced (compare 2 Corinthians 4:16)."
+      },
+      {
+        "word": "βραβεύω",
+        "translit": "brabeuō",
+        "strongs": "G1018",
+        "gloss": "to act as umpire, to rule",
+        "verses": "15",
+        "note": "Used of the official who decided contests in the games. The peace of Christ is to be the umpire in believers' hearts, settling disputes and calling the shots in a community of very different people."
+      },
+      {
+        "word": "ὑποτάσσω",
+        "translit": "hypotassō",
+        "strongs": "G5293",
+        "gloss": "to submit, arrange oneself under",
+        "verses": "18",
+        "note": "A voluntary ordering of oneself, used even of the Son toward the Father (1 Corinthians 15:28). Paul adds 'as is fitting in the Lord,' grounding it in the gospel rather than in the culture's assumptions, and pairs it with a command to husbands to love."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Seated at the right hand",
+        "refs": ["Psalm 110:1", "Acts 2:33-35", "Ephesians 1:20; 2:6", "Hebrews 1:3"],
+        "note": "The New Testament's favorite psalm explains where the risen Christ is now. Because believers are united to him, their true life is there with him."
+      },
+      {
+        "theme": "Putting off and putting on",
+        "refs": ["Romans 13:12-14", "Ephesians 4:22-24", "Galatians 3:27"],
+        "note": "Paul often uses the picture of changing clothes: take off the old self and its practices, put on Christ and the new self."
+      },
+      {
+        "theme": "Covetousness as idolatry",
+        "refs": ["Exodus 20:17", "Ephesians 5:5", "Matthew 6:24"],
+        "note": "The tenth commandment reaches behind actions to desire. Paul calls greed idolatry because whatever we crave most becomes our god."
+      },
+      {
+        "theme": "One new humanity",
+        "refs": ["Galatians 3:28", "Ephesians 2:14-16", "Revelation 7:9"],
+        "note": "In Christ the barriers of ethnicity, religion, culture and class lose their power to divide. 'Christ is all, and in all' (v11)."
+      }
+    ],
+    "context": {
+      "setting": "After answering the false teaching in chapter 2, Paul now shows what real spiritual life looks like. Chapter 2 ended by saying ascetic rules cannot restrain the flesh; chapter 3 gives the alternative, a life flowing from union with the risen Christ. The household instructions that begin in verse 18 run on to 4:1 and closely parallel Ephesians 5:22-6:9.",
+      "flow": [
+        { "verses": "1-4", "label": "Raised with Christ", "note": "You have been raised with Christ, so seek and think about the things above; your life is hidden with him and will appear with him in glory." },
+        { "verses": "5-11", "label": "Put off the old", "note": "Put to death sexual sin, impurity and greed; put away anger, slander and lies. You have put off the old self and put on the new, where Christ is all and in all." },
+        { "verses": "12-17", "label": "Put on the new", "note": "As God's chosen ones, clothe yourselves with compassion, kindness, humility, forgiveness and above all love; let Christ's peace rule and his word dwell in you richly; do everything in Jesus' name with thanks." },
+        { "verses": "18-21", "label": "Wives, husbands, children, fathers", "note": "Wives submit as fitting in the Lord, husbands love and do not be harsh, children obey, fathers do not provoke." },
+        { "verses": "22-25", "label": "Bondservants", "note": "Slaves are to work wholeheartedly as for the Lord, who will repay; the wrongdoer will be paid back, with no partiality." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 110:1", "from": "1", "note": "'Where Christ is, seated at the right hand of God' uses the language of the psalm, as the New Testament regularly does for the ascension." },
+        { "ref": "Genesis 1:26-27", "from": "10", "note": "The new self is renewed 'after the image of its creator,' echoing the creation of humanity in God's image. Redemption restores what creation intended." }
+      ],
+      "tier2": [
+        { "ref": "Ephesians 4:22-32", "from": "8-10, 12-13", "note": "The closest parallel: put off the old self, put on the new created after God's likeness, put away anger and lying, forgive as God in Christ forgave you." },
+        { "ref": "Ephesians 5:18-6:9", "from": "16-25", "note": "Singing psalms, hymns and spiritual songs with thanks, followed by instructions to wives, husbands, children, fathers, slaves and masters." },
+        { "ref": "Romans 6:4-13", "from": "1-5", "note": "Raised with Christ to walk in newness of life; consider yourselves dead to sin and do not let it reign in your mortal bodies." },
+        { "ref": "1 John 3:2", "from": "4", "note": "When he appears we shall be like him. Believers' hidden life will be revealed when Christ is revealed." },
+        { "ref": "Galatians 3:27-28", "from": "10-11", "note": "All who were baptized into Christ have put on Christ; there is neither Jew nor Greek, slave nor free." }
+      ],
+      "tier3": [
+        { "ref": "Matthew 6:19-21", "from": "1-2", "note": "Store up treasure in heaven, for where your treasure is, your heart will be. Setting the mind above is the heart's version of the same call." },
+        { "ref": "Isaiah 61:10", "from": "12", "note": "God clothes his people with garments of salvation. Paul's 'put on' imagery draws on a long biblical picture of God dressing his people." },
+        { "ref": "Ephesians 6:5-8", "from": "23-24", "note": "Serve wholeheartedly as to the Lord, knowing that whatever good anyone does, he will receive it back from the Lord." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "John Owen",
+        "work": "Of the Mortification of Sin in Believers",
+        "view": "Owen's classic work is built on Romans 8:13, a close parallel to verse 5, and he draws on this chapter as well. He taught that believers must make killing sin their daily work, but that it can be done only by the Spirit and by faith in Christ, never by rules and resolutions alone."
+      },
+      {
+        "name": "Douglas J. Moo",
+        "work": "The Letters to the Colossians and to Philemon (Pillar New Testament Commentary)",
+        "view": "Moo stresses the order of the chapter: the commands of verses 5-17 rest on what is already true in verses 1-4. Believers have died and been raised with Christ, and they are now to become in practice what God has made them in him."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
+        "renderings": [
+          { "version": "ESV", "text": "Put to death therefore what is earthly in you" },
+          { "version": "NIV", "text": "whatever belongs to your earthly nature" }
+        ],
+        "note": "The Greek says literally 'your members which are on the earth.' Paul does not mean physical body parts but the sinful habits that operate through them, as the list that follows makes clear. 'Inordinate affection' and 'evil concupiscence' are older English for uncontrolled passion and evil desire."
+      },
+      {
+        "verse": "15",
+        "kjv": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+        "renderings": [
+          { "version": "ESV", "text": "let the peace of Christ rule in your hearts" },
+          { "version": "NIV", "text": "Let the peace of Christ rule in your hearts" },
+          { "version": "NKJV", "text": "let the peace of God rule in your hearts" }
+        ],
+        "note": "The difference comes from the Greek manuscripts. KJV and NKJV follow later manuscripts that read 'God'; most modern versions follow older ones that read 'Christ,' which also fits verse 16, 'the word of Christ.' The meaning is not affected."
+      }
+    ],
+    "gospel": "The chapter's commands rest on the gospel's facts. Believers died with Christ, were raised with him, and their life is now hidden with him in God (v1-3). When Christ, who is their life, appears, they will appear with him in glory (v4). The new self is God's gift, being renewed into the image of its Creator, and its forgiveness of others flows from the Lord's forgiveness of them (v13). Even ordinary work is done for the Lord Christ, who gives the inheritance as reward (v24).",
+    "application": [
+      "Start the fight against sin from your identity in Christ, not from willpower alone. You died; your life is hidden with him.",
+      "Name specific sins and deal with them decisively, including the respectable ones on Paul's list, such as anger, slander and greed.",
+      "Forgive others as the Lord forgave you, and let Christ's peace settle disputes in the church.",
+      "Fill your gatherings and homes with the word of Christ, taught and sung, and with thankfulness.",
+      "Do ordinary duties at home and work 'as for the Lord,' whether or not anyone sees or rewards you (v17, 23)."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Set your minds on things above' means being so heavenly minded that earthly life doesn't matter.",
+        "correction": "The very next verses deal with sexual purity, honest speech, marriage, parenting and work. Thinking about Christ above changes how believers live below."
+      },
+      {
+        "claim": "Verse 18 gives husbands license to dominate their wives.",
+        "correction": "Husbands are commanded to love and forbidden to be harsh (v19), and Paul sets every relationship under the lordship of Christ, 'as is fitting in the Lord.' Submission is the wife's free response, not something a husband demands."
+      },
+      {
+        "claim": "Paul's instructions to slaves show that he approved of slavery.",
+        "correction": "Paul addresses believers within a social system they could not change, and he undermines it by declaring that in Christ there is neither slave nor free (v11), that masters answer to a Master in heaven (4:1), and by urging Philemon to receive Onesimus 'as a beloved brother.'"
+      }
+    ],
+    "contrasts": [
+      { "a": "Things above", "b": "Things on earth", "verses": "1-2", "note": "Not spirit versus matter, but life ordered by the risen Christ versus life ordered by the old age." },
+      { "a": "Hidden now", "b": "Revealed in glory", "verses": "3-4", "note": "Believers' true life is real but not yet visible; it will be seen when Christ appears." },
+      { "a": "The old self", "b": "The new self", "verses": "9-10", "note": "One has been taken off; the other has been put on and is being renewed." },
+      { "a": "Serving people", "b": "Serving the Lord", "verses": "22-24", "note": "Work done for an earthly master is ultimately done for Christ, who rewards." }
+    ],
+    "features": [
+      { "label": "Indicative before imperative", "note": "Every command rests on a fact: since you have been raised (v1), for you died (v3), seeing you have put off the old self (v9), as God's chosen ones (v12)." },
+      { "label": "Two vice lists of five", "note": "Verse 5 names five sins of desire and verse 8 five sins of speech and temper. Verse 12 answers them with five virtues to put on." },
+      { "label": "Love as the outer garment", "note": "After listing the virtues to put on, Paul says 'above all these put on love,' which binds everything together in perfect harmony (v14)." },
+      { "label": "Repeated thanks", "note": "'Be thankful' (v15), 'with thankfulness' (v16), 'giving thanks' (v17): three calls to gratitude in three verses." }
+    ],
+    "summary": "Colossians 3 shows that the Christian life grows out of union with Christ. Having died and been raised with him, believers seek the things above where he reigns, put to death the sins of the old self, and put on the new self being renewed in God's image, clothed in love and governed by Christ's peace and word. This new life is lived out in ordinary relationships at home and work, all done in the name of the Lord Jesus.",
+    "metaArc": {
+      "book": "Chapter 3 is the turning point from doctrine to life. It answers the false teaching's empty rules (2:20-23) with the true source of holiness, union with Christ, and begins the household instructions that conclude in 4:1.",
+      "redemptive": "The chapter traces the move from the fallen old self to a new humanity renewed in the image of the Creator, and looks ahead to the new creation, when Christ appears and his people appear with him in glory."
+    }
+  }
+}

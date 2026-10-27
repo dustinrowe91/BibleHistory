@@ -1,0 +1,180 @@
+{
+  "ref": "COL.1",
+  "book": "Colossians",
+  "chapter": 1,
+  "title": "He Is Before All Things",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "The Son, through whom and for whom all things were made, has rescued believers from darkness and made peace by the blood of his cross. Because all the fullness of God dwells in him, Christ is supreme over creation and the church, and nothing needs to be added to him.",
+  "keyVerses": ["13-14", "15-17", "19-20", "27"],
+  "steps": {
+    "language": [
+      {
+        "word": "εἰκών",
+        "translit": "eikōn",
+        "strongs": "G1504",
+        "gloss": "image, likeness",
+        "verses": "15",
+        "note": "Not a faint copy but a true representation that makes the original visible. Humanity was made in God's image (Genesis 1:26-27); the Son is the image of the invisible God in a unique and perfect way. To see him is to see the Father (John 14:9)."
+      },
+      {
+        "word": "πρωτότοκος",
+        "translit": "prōtotokos",
+        "strongs": "G4416",
+        "gloss": "firstborn",
+        "verses": "15, 18",
+        "note": "In Scripture 'firstborn' often names rank and inheritance rather than birth order, as when God calls David, the youngest son, his firstborn (Psalm 89:27). Verses 16-17 explain it: all things were created by him and he is before all things. Verse 18 adds that he is firstborn from the dead, first in the new creation as well."
+      },
+      {
+        "word": "πλήρωμα",
+        "translit": "plērōma",
+        "strongs": "G4138",
+        "gloss": "fullness",
+        "verses": "19",
+        "note": "The whole of something, nothing left out. All the fullness of God was pleased to dwell in Christ (stated again in 2:9 with 'bodily'). It sets up the letter's argument: if all of God is in Christ, there is nothing more to find anywhere else."
+      },
+      {
+        "word": "ἀποκαταλλάσσω",
+        "translit": "apokatallassō",
+        "strongs": "G604",
+        "gloss": "to reconcile fully, restore to friendship",
+        "verses": "20, 22",
+        "note": "A strengthened form of the usual word for reconciliation, found only here and in Ephesians 2:16. God reconciles 'all things' to himself through Christ's blood (v20), and the Colossians, once enemies in mind and deed, he has now reconciled in Christ's body of flesh by his death (v21-22)."
+      },
+      {
+        "word": "μυστήριον",
+        "translit": "mystērion",
+        "strongs": "G3466",
+        "gloss": "mystery, a secret now revealed",
+        "verses": "26-27",
+        "note": "In Paul a mystery is not a puzzle but something hidden for ages and now made known. Its content here is startling: 'Christ in you, the hope of glory' (v27), Christ living among and within Gentiles."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Son as agent of creation",
+        "refs": ["John 1:1-3", "Hebrews 1:2-3", "1 Corinthians 8:6", "Proverbs 8:22-31"],
+        "note": "The New Testament consistently says all things were made through the Son. Proverbs pictures Wisdom present with God at creation, and the New Testament writers see in Christ the full reality that picture pointed toward."
+      },
+      {
+        "theme": "From darkness to light",
+        "refs": ["Isaiah 9:2", "Acts 26:18", "1 Peter 2:9", "Ephesians 5:8"],
+        "note": "Paul's own commission was to turn people from darkness to light and from Satan's power to God (Acts 26:18). Verse 13 says that rescue has already happened for those in Christ."
+      },
+      {
+        "theme": "Peace through the blood of the cross",
+        "refs": ["Romans 5:1, 10", "2 Corinthians 5:18-21", "Ephesians 2:13-16"],
+        "note": "Reconciliation in Paul is God's work: he removes the hostility by Christ's death and brings enemies near."
+      },
+      {
+        "theme": "Bearing fruit and growing",
+        "refs": ["Genesis 1:28", "Mark 4:8, 20", "Colossians 1:10"],
+        "note": "The gospel is 'bearing fruit and increasing' in the whole world (v6), the same pair of words used of the believer's life in verse 10, and an echo of the creation charge to be fruitful and multiply."
+      }
+    ],
+    "context": {
+      "setting": "Colossae was a small town in the Lycus valley of western Asia Minor, near Laodicea and Hierapolis (4:13). Paul had not visited (2:1); the church was planted by Epaphras (1:7), probably during Paul's long stay in Ephesus (Acts 19:10). Paul writes from prison (4:3, 10, 18), most likely in Rome around AD 60-62, in the same period as Ephesians and Philemon. Epaphras has brought news of the church's faith but also of a teaching that threatened it (chapter 2), and chapter 1 answers that threat by showing who Christ is.",
+      "flow": [
+        { "verses": "1-2", "label": "Greeting", "note": "Paul and Timothy greet the holy and faithful brothers in Christ at Colossae." },
+        { "verses": "3-8", "label": "Thanksgiving for the gospel's fruit", "note": "Paul thanks God for their faith, love and hope, born when they heard the gospel from Epaphras, the same gospel bearing fruit in the whole world." },
+        { "verses": "9-14", "label": "Prayer for wise and fruitful lives", "note": "He prays they would be filled with the knowledge of God's will, walk worthy of the Lord, and give thanks to the Father who rescued them from darkness and brought them into the kingdom of his Son." },
+        { "verses": "15-20", "label": "The supremacy of Christ", "note": "The Son is the image of God and firstborn over creation, the one by whom and for whom all things exist, and head of the church, firstborn from the dead, through whom God reconciles all things." },
+        { "verses": "21-23", "label": "You, once enemies, now reconciled", "note": "The Colossians, once alienated, are reconciled through his death, to be presented holy, provided they continue in the faith and the hope of the gospel." },
+        { "verses": "24-29", "label": "Paul's labor for the mystery", "note": "Paul rejoices to suffer for the church and toils with Christ's energy to make known the mystery, Christ in you, and to present everyone mature in Christ." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Genesis 1:1, 26-27", "from": "15-16", "note": "'In the beginning,' heaven and earth, and humanity in God's image. Verses 15-16 use the same categories to say that the Son is the true image and the one through whom the beginning came about." },
+        { "ref": "Psalm 89:27", "from": "15, 18", "note": "God promises to make David's heir his 'firstborn, higher than the kings of the earth.' Firstborn here means rank and royal inheritance, which fits Christ's supremacy in verses 15-18." },
+        { "ref": "John 1:1-3, 14", "from": "15-17", "note": "The Word who was with God and was God made all things and became flesh. John and Paul describe the Son's role in creation in strikingly similar ways." },
+        { "ref": "Hebrews 1:2-3", "from": "15-17", "note": "The Son is heir of all things, the one through whom the world was made, the exact imprint of God's nature, and the one who upholds the universe." },
+        { "ref": "Ephesians 1:7, 20-23", "from": "14, 18", "note": "The companion letter: redemption and forgiveness in him, and Christ raised and made head over all things for the church, his body." }
+      ],
+      "tier3": [
+        { "ref": "Proverbs 8:22-31", "from": "15-17", "note": "Wisdom was with God before creation and at his side as he made the world. Many interpreters hear this background in verses 15-17, where Christ fills the role Wisdom played." },
+        { "ref": "Exodus 12:2-13; 14:30", "from": "13-14", "note": "Israel was rescued from Egypt and redeemed by blood. Verses 13-14 describe a new exodus: deliverance from the power of darkness and redemption in the Son." },
+        { "ref": "Isaiah 52:13-53:12", "from": "24", "note": "The Servant suffers for others. Paul, the servant of the gospel, rejoices to share in sufferings for the sake of Christ's body." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "J. B. Lightfoot",
+        "work": "Saint Paul's Epistles to the Colossians and to Philemon",
+        "view": "Lightfoot argued that 'firstborn of all creation' speaks of Christ's priority to and sovereignty over creation, not of his being the first thing created. He pointed out that verse 16 immediately gives the reason, all things were created in him, which rules out counting him among created things."
+      },
+      {
+        "name": "N. T. Wright",
+        "work": "Colossians and Philemon (Tyndale New Testament Commentaries)",
+        "view": "Wright reads verses 15-20 as a carefully balanced poem in two halves, the first about Christ and creation and the second about Christ and new creation. He sees Paul taking Jewish language about God's Wisdom and about Israel's God as creator and redeemer and applying it to Jesus."
+      },
+      {
+        "name": "Douglas J. Moo",
+        "work": "The Letters to the Colossians and to Philemon (Pillar New Testament Commentary)",
+        "view": "Moo sees the whole of chapter 1 as laying the groundwork for answering the false teaching of chapter 2. Because Christ is supreme over every power and all God's fullness dwells in him, believers who have him lack nothing and need no supplement."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "15",
+        "kjv": "Who is the image of the invisible God, the firstborn of every creature:",
+        "renderings": [
+          { "version": "ESV", "text": "the firstborn of all creation" },
+          { "version": "NIV", "text": "the firstborn over all creation" },
+          { "version": "NASB", "text": "the firstborn of all creation" }
+        ],
+        "note": "The Greek simply puts 'firstborn' next to 'all creation.' NIV's 'over' makes the sense of rank explicit, guarding against the old Arian reading that the Son was the first being God made. ESV and NASB keep 'of' and leave verses 16-17 to explain it."
+      },
+      {
+        "verse": "24",
+        "kjv": "Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church:",
+        "renderings": [
+          { "version": "ESV", "text": "filling up what is lacking in Christ's afflictions" },
+          { "version": "NIV", "text": "what is still lacking in regard to Christ's afflictions" }
+        ],
+        "note": "Paul does not mean Christ's atoning death was incomplete; verses 20-22 have just said peace is made by his blood. He most likely means the sufferings that Christ's people, his body, must still endure before the end, and that Paul gladly takes a share of them for the church."
+      }
+    ],
+    "gospel": "The gospel in this chapter is a rescue and a reconciliation. The Father has delivered us from the domain of darkness and transferred us into the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins (v13-14). The one who did this is no lesser spirit but the Son through whom everything was made, in whom all God's fullness dwells. He made peace by the blood of his cross and reconciled people who were enemies, so that he can present them holy and blameless (v20-22). The mystery now revealed is that this Christ lives in Gentile believers as their hope of glory.",
+    "application": [
+      "Measure every teaching, experience or spiritual practice by whether it makes much of Christ or quietly suggests he is not enough.",
+      "Give thanks to the Father regularly and specifically for rescue, transfer and forgiveness (v12-14). Thankfulness runs through the whole letter.",
+      "Pray for others what Paul prays here: knowledge of God's will that shows up in lives that please him, bear fruit and endure with patience and joy.",
+      "Continue in the faith (v23). Assurance rests on Christ's finished work, and it shows itself in perseverance, not drifting.",
+      "Work, as Paul does, toward presenting people mature in Christ, and do it with the energy he supplies rather than your own (v28-29)."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Firstborn of all creation' means the Son is the first and highest created being.",
+        "correction": "Verse 16 gives the reason he is firstborn: by him all things were created, visible and invisible. He is before all things and holds them together (v17), and all the fullness of God dwells in him (v19). He stands on the Creator's side of the line."
+      },
+      {
+        "claim": "God reconciling 'all things' means every person will finally be saved.",
+        "correction": "Verses 21-23 describe reconciliation received through faith and continued in, 'if indeed you continue in the faith.' 'All things' speaks of Christ restoring the whole created order under his rule; elsewhere hostile powers are subdued, not befriended (2:15)."
+      },
+      {
+        "claim": "Paul's sufferings add something to what Christ's death accomplished.",
+        "correction": "Peace has already been made through the blood of his cross (v20). Paul's sufferings are 'for his body's sake,' part of carrying the finished gospel to the church, not part of paying for sin."
+      }
+    ],
+    "contrasts": [
+      { "a": "The domain of darkness", "b": "The kingdom of the beloved Son", "verses": "13", "note": "Believers are not slowly improving inside the old realm; they have been moved to a new one." },
+      { "a": "Visible", "b": "Invisible", "verses": "15-16", "note": "The invisible God is seen in his image, the Son, and every visible and invisible power was made through him and for him." },
+      { "a": "Once alienated and hostile", "b": "Now reconciled and holy", "verses": "21-22", "note": "The before-and-after of the gospel, achieved not by our effort but by his death." },
+      { "a": "Hidden for ages", "b": "Now revealed to the saints", "verses": "26", "note": "God's long-concealed plan is now made known, and its center is Christ among the Gentiles." }
+    ],
+    "features": [
+      { "label": "A poem at the center", "note": "Verses 15-20 have a rhythmic, balanced structure that many scholars believe was a hymn or confession, whether Paul wrote it or quoted it. Its two halves mirror each other: 'firstborn of all creation' (v15) and 'firstborn from the dead' (v18)." },
+      { "label": "The word 'all'", "note": "'All' or 'every' recurs throughout the chapter, especially in verses 15-20. Christ is over all creation, all things were made through him, he is before all, all fullness dwells in him, and all things are reconciled." },
+      { "label": "Prepositions of creation", "note": "All things were created 'in him,' 'through him' and 'for him' (v16). He is their source, the means of their making and their goal." },
+      { "label": "Faith, love and hope", "note": "The familiar triad appears in verses 4-5, with hope as the root: their faith and love spring from the hope laid up in heaven." }
+    ],
+    "summary": "Colossians 1 presents Christ as supreme: the image of the invisible God, the one through whom and for whom all things were made and are held together, the head of the church and the firstborn from the dead. All God's fullness dwells in him, and through his blood God has reconciled believers who were once his enemies. Because of this, Christians already possess everything in Christ and are called to continue in the gospel they first heard.",
+    "metaArc": {
+      "book": "Chapter 1 builds the foundation for the whole letter. Its portrait of Christ's fullness answers the false teaching addressed in chapter 2, and his rule over all things grounds the new life and household relationships of chapters 3-4.",
+      "redemptive": "The chapter runs from creation, where all things were made through the Son, through the alienation of the fall, to redemption by the blood of the cross, and on to new creation, where Christ is firstborn from the dead and all things in heaven and earth are reconciled to God."
+    }
+  }
+}

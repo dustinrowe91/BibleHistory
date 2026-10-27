@@ -1,0 +1,167 @@
+{
+  "ref": "REV.1",
+  "book": "Revelation",
+  "chapter": 1,
+  "title": "One Like a Son of Man",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Jesus Christ, the faithful witness who loves us and freed us by his blood, reveals to his suffering servants what must soon take place. John, exiled on Patmos, sees the risen Christ in overwhelming glory, walking among his churches and holding the keys of death and Hades.",
+  "keyVerses": ["3", "5-6", "7-8", "17-18"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἀποκάλυψις",
+        "translit": "apokalypsis",
+        "strongs": "G602",
+        "gloss": "unveiling, revelation",
+        "verses": "1",
+        "note": "The book's first word, from which the English 'apocalypse' comes. It means pulling back a curtain so that what is hidden is seen, not a coded riddle. It is the revelation 'of Jesus Christ,' both from him and about him."
+      },
+      {
+        "word": "μάρτυς",
+        "translit": "martys",
+        "strongs": "G3144",
+        "gloss": "witness",
+        "verses": "2, 5, 9",
+        "note": "Jesus is 'the faithful witness' (v5), John bears witness to what he saw (v2), and he is on Patmos because of 'the testimony of Jesus' (v9). Because faithful witness often cost believers their lives, the word later came to mean 'martyr.' Witness is a thread through the whole book."
+      },
+      {
+        "word": "θλῖψις",
+        "translit": "thlipsis",
+        "strongs": "G2347",
+        "gloss": "tribulation, affliction, pressure",
+        "verses": "9",
+        "note": "John calls himself a partner with his readers 'in the tribulation and the kingdom and the patient endurance that are in Jesus.' Tribulation is not only a future period; it is already the experience of faithful believers."
+      },
+      {
+        "word": "παντοκράτωρ",
+        "translit": "pantokratōr",
+        "strongs": "G3841",
+        "gloss": "Almighty, ruler of all",
+        "verses": "8",
+        "note": "The Greek Old Testament's usual rendering of 'LORD of hosts.' Of its ten New Testament uses, nine are in Revelation. To believers facing the power of Rome, the book opens by naming who really holds all power."
+      },
+      {
+        "word": "λυχνία",
+        "translit": "lychnia",
+        "strongs": "G3087",
+        "gloss": "lampstand",
+        "verses": "12-13, 20",
+        "note": "The seven lampstands are the seven churches (v20), recalling the tabernacle lampstand (Exodus 25:31-40) and Zechariah's vision (Zechariah 4:2). The church's calling is to shine with God's light in the world, and Christ walks among them."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The Son of Man coming with the clouds",
+        "refs": ["Daniel 7:13-14", "Matthew 24:30", "Matthew 26:64", "Mark 13:26"],
+        "note": "Jesus' favorite title for himself comes from Daniel's vision of one like a son of man who receives an everlasting kingdom. Revelation 1 shows him in that glory."
+      },
+      {
+        "theme": "A kingdom of priests",
+        "refs": ["Exodus 19:6", "1 Peter 2:9", "Revelation 5:10", "Revelation 20:6"],
+        "note": "What God promised Israel at Sinai, Christ has now made of all who are freed by his blood: a kingdom and priests serving God."
+      },
+      {
+        "theme": "The first and the last",
+        "refs": ["Isaiah 44:6", "Isaiah 48:12", "Revelation 2:8", "Revelation 22:13"],
+        "note": "In Isaiah the LORD claims this title to show he alone is God. In Revelation both the Father (v8) and Jesus (v17) use it."
+      }
+    ],
+    "context": {
+      "setting": "John writes from Patmos, a small island off the coast of Asia Minor, where he had been sent 'on account of the word of God and the testimony of Jesus' (v9). Most scholars date the book to the reign of Domitian, around AD 95, following Irenaeus; some argue for a date before AD 70. It is addressed to seven real churches in the Roman province of Asia, facing persecution, false teaching and the pull of compromise. Revelation blends three kinds of writing: it is a letter (v4), a prophecy (v3) and an apocalypse (v1). Christians have read it in four main ways: as fulfilled mostly in the first century (preterist), as a map of church history (historicist), as mostly still future (futurist), or as a picture of the spiritual conflict of the whole church age (idealist). Many readers combine elements of these.",
+      "flow": [
+        { "verses": "1-3", "label": "Prologue", "note": "The revelation God gave to Jesus, sent by an angel to John, with a blessing on those who read, hear and keep it, for the time is near." },
+        { "verses": "4-8", "label": "Greeting and doxology", "note": "Grace from the eternal God, the seven spirits and Jesus Christ, who loves us, freed us by his blood and made us a kingdom; he is coming with the clouds." },
+        { "verses": "9-11", "label": "John on Patmos", "note": "On the Lord's day John hears a voice like a trumpet telling him to write to seven churches." },
+        { "verses": "12-16", "label": "The vision of Christ", "note": "Among the lampstands stands one like a son of man, with white hair, eyes like fire, feet like bronze, a voice like many waters and a sharp sword from his mouth." },
+        { "verses": "17-20", "label": "Fear not", "note": "John falls as dead; Jesus lays his hand on him, declares himself the living one who holds the keys of death and Hades, and explains the stars and lampstands." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Daniel 7:13", "from": "7, 13", "note": "'One like a son of man' coming 'with the clouds of heaven.' Verse 7 and verse 13 both draw directly on Daniel's words." },
+        { "ref": "Zechariah 12:10", "from": "7", "note": "'They shall look on him whom they have pierced, and mourn.' John combines this with Daniel 7:13, as Matthew 24:30 also does, and John 19:37 cites it at the crucifixion." },
+        { "ref": "Daniel 7:9; 10:5-6", "from": "13-15", "note": "The Ancient of Days with hair like pure wool, and the heavenly man with a gold belt, eyes like torches and arms and feet like bronze. Jesus bears features of both, including those belonging to God himself." }
+      ],
+      "tier2": [
+        { "ref": "Exodus 19:6", "from": "6", "note": "Israel was called to be a kingdom of priests. In Christ that calling is fulfilled in his redeemed people." },
+        { "ref": "Isaiah 44:6", "from": "8, 17", "note": "'I am the first, and I am the last; and beside me there is no God.' Jesus takes this divine title." },
+        { "ref": "Ezekiel 43:2", "from": "15", "note": "The glory of God came 'like the noise of many waters.' Christ's voice sounds the same way." },
+        { "ref": "Hebrews 2:14-15", "from": "18", "note": "Through death Jesus destroyed the one who had the power of death and freed those who lived in fear of it." }
+      ],
+      "tier3": [
+        { "ref": "Exodus 25:31-40", "from": "12", "note": "The golden lampstand in the tabernacle gave light before God. The churches now fill that role." },
+        { "ref": "Isaiah 49:2", "from": "16", "note": "The Servant says God made his mouth like a sharp sword. Christ's word is his weapon." },
+        { "ref": "Ezekiel 1:28", "from": "17", "note": "Ezekiel fell on his face at the vision of God's glory, as John falls at the feet of Christ." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Theology of the Book of Revelation",
+        "view": "Bauckham stresses that Revelation includes Jesus in the identity of the one God. Titles that belong only to God, such as 'the first and the last,' are given to Jesus, and he shares God's throne, which shows that worshiping Jesus is worshiping God."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale argues that the Old Testament, especially Daniel, shapes the whole book. He reads the language of 'what must soon take place' (v1) as echoing Daniel 2, and sees John saying that the latter-day kingdom Daniel foresaw has already begun in Christ's death and resurrection."
+      },
+      {
+        "name": "Robert H. Mounce",
+        "work": "The Book of Revelation (New International Commentary on the New Testament)",
+        "view": "Mounce emphasizes that the book was written to encourage real churches facing pressure from Rome, and that its central message is that God and the Lamb, not Caesar, are sovereign and will bring history to its goal."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "And from Jesus Christ, who is the faithful witness, and the first begotten of the dead, and the prince of the kings of the earth. Unto him that loved us, and washed us from our sins in his own blood,",
+        "renderings": [
+          { "version": "ESV", "text": "To him who loves us and has freed us from our sins" },
+          { "version": "NIV", "text": "To him who loves us and has freed us from our sins" },
+          { "version": "NKJV", "text": "To Him who loved us and washed us from our sins" }
+        ],
+        "note": "The Greek words for 'washed' (lousanti) and 'freed' (lusanti) differ by one letter, and manuscripts vary. The older manuscripts read 'freed.' Older manuscripts also have the present 'loves,' a love that continues now, rather than 'loved.'"
+      }
+    ],
+    "gospel": "Revelation begins with Jesus. He is the faithful witness who told the truth about God even to death, the firstborn of the dead, and ruler of the kings of the earth (v5). He loves us, has freed us from our sins by his blood, and has made us a kingdom of priests (v5-6). The one John sees in blazing glory once died, and now lives forever with the keys of death and Hades in his hand (v18). The first thing he does for his terrified servant is lay his right hand on him and say, 'Fear not.'",
+    "application": [
+      "Read Revelation expecting a blessing (v3). It is meant to be read aloud, heard and obeyed, not only decoded.",
+      "Let your picture of Jesus be shaped by this vision. The gentle Savior is also the glorious Lord whose eyes see everything.",
+      "Face death without terror. Jesus holds its keys.",
+      "Remember that Christ walks among his churches. He knows each congregation, and his presence is the church's comfort and its accountability.",
+      "Expect that faithful witness may bring hardship, as it did for John, and see that hardship as part of sharing in Jesus' kingdom and endurance (v9)."
+    ],
+    "misapplications": [
+      {
+        "claim": "Revelation is a code book for predicting dates and current events.",
+        "correction": "It was written to seven real first-century churches and promises blessing to those who 'keep' it (v3). Whatever it reveals about the future, its first purpose is to call God's people to faithful endurance now."
+      },
+      {
+        "claim": "Revelation shows a different, harsher Jesus than the Gospels.",
+        "correction": "The glorious Christ of verses 12-16 is the one who loves us and shed his blood for us (v5), and his first words to John are 'Fear not' (v17). His holiness and his love belong together."
+      },
+      {
+        "claim": "'The time is near' (v3) shows John was simply wrong.",
+        "correction": "The New Testament speaks of the last days as already begun with Christ's resurrection (Acts 2:17; Hebrews 1:2). The end is always near in the sense that nothing on God's calendar stands between now and it, and 2 Peter 3:8-9 explains the apparent delay as God's patience."
+      }
+    ],
+    "contrasts": [
+      { "a": "Was dead", "b": "Alive forevermore", "verses": "18", "note": "The resurrection is the hinge of the vision and the source of the churches' courage." },
+      { "a": "John in tribulation", "b": "John in the kingdom", "verses": "9", "note": "Believers share both at once: suffering now and reigning with Christ." },
+      { "a": "Exile on Patmos", "b": "In the Spirit on the Lord's day", "verses": "9-10", "note": "Rome could confine John to an island, but it could not keep him from seeing Christ." }
+    ],
+    "features": [
+      { "label": "Sevens", "note": "Seven churches, seven spirits, seven lampstands, seven stars. In Scripture seven is the number of completeness, and the seven churches likely stand for the whole church as well as being real congregations." },
+      { "label": "The divine name expanded", "note": "'Who is and who was and who is to come' (v4, 8) unfolds the name God gave Moses, 'I AM WHO I AM' (Exodus 3:14), across past, present and future." },
+      { "label": "A beatitude", "note": "Verse 3 is the first of seven blessings in the book (14:13; 16:15; 19:9; 20:6; 22:7; 22:14)." },
+      { "label": "Mixed images, not a portrait", "note": "The description of Christ is meant to be heard, not drawn. Each feature carries meaning: white hair for eternity, fiery eyes for searching judgment, a sword from his mouth for the power of his word." }
+    ],
+    "summary": "Revelation 1 introduces the book as the unveiling of Jesus Christ to his suffering churches. He is the faithful witness who loves us and freed us by his blood, the Son of Man of Daniel's vision who shares the glory and titles of God, and the living one who has conquered death. Everything that follows rests on this vision: the risen Christ walks among his churches and holds the future in his hand.",
+    "metaArc": {
+      "book": "Chapter 1 sets the scene for the whole book: the author, the readers, the three kinds of writing, and above all the vision of Christ, whose features reappear in the letters to the seven churches (chapters 2-3) and in the final victory (chapter 19).",
+      "redemptive": "The chapter stands at the center of the story: redemption accomplished by Christ's blood and resurrection, and the promise of his coming with the clouds to complete what he began, when every eye will see him."
+    }
+  }
+}

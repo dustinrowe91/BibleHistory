@@ -1,0 +1,155 @@
+{
+  "ref": "REV.15",
+  "book": "Revelation",
+  "chapter": 15,
+  "title": "The Song of Moses and the Lamb",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Before the last plagues are poured out, John sees those who conquered the beast standing beside a sea of glass mixed with fire, singing the song of Moses and the Lamb: God's works are great, his ways just, and all nations will come and worship him. Then seven angels come out of the heavenly temple with seven golden bowls full of God's wrath, and the temple fills with smoke from his glory.",
+  "keyVerses": ["1", "3-4", "8"],
+  "steps": {
+    "language": [
+      {
+        "word": "πληγή",
+        "translit": "plēgē",
+        "strongs": "G4127",
+        "gloss": "plague, blow, wound",
+        "verses": "1, 6, 8",
+        "note": "The word used in the Greek Old Testament for the plagues on Egypt. These are 'the last' plagues, because with them God's wrath is completed. The exodus background shapes the whole chapter."
+      },
+      {
+        "word": "ᾠδή",
+        "translit": "ōdē",
+        "strongs": "G5603",
+        "gloss": "song, ode",
+        "verses": "3",
+        "note": "One song with two names: the song of Moses, sung after the Red Sea crossing (Exodus 15), and the song of the Lamb, celebrating a greater exodus. Its words are drawn almost entirely from the Psalms and Prophets."
+      },
+      {
+        "word": "τελέω",
+        "translit": "teleō",
+        "strongs": "G5055",
+        "gloss": "to finish, complete",
+        "verses": "1, 8",
+        "note": "In the seven last plagues 'the wrath of God is finished.' It is the same verb Jesus used when he cried 'It is finished' (John 19:30). God's dealings with evil reach their completion."
+      },
+      {
+        "word": "σκηνή",
+        "translit": "skēnē",
+        "strongs": "G4633",
+        "gloss": "tent, tabernacle",
+        "verses": "5",
+        "note": "'The temple of the tabernacle of the testimony.' The tabernacle housed the ark with the tablets of God's law, the 'testimony.' The judgments come from the place where God's covenant law is kept, showing they are just."
+      },
+      {
+        "word": "φιάλη",
+        "translit": "phialē",
+        "strongs": "G5357",
+        "gloss": "bowl, shallow dish",
+        "verses": "7",
+        "note": "A wide, shallow bowl used in temple service for offerings. Earlier, golden bowls held the prayers of the saints (5:8); now golden bowls hold God's wrath, linking his judgments to his people's prayers."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The song by the sea",
+        "refs": ["Exodus 15:1-18", "Deuteronomy 32:3-4", "Isaiah 12:1-6"],
+        "note": "Israel sang of God's triumph after he delivered them through the sea. Moses' later song praised God's works as perfect and his ways as just."
+      },
+      {
+        "theme": "All nations will come and worship",
+        "refs": ["Psalm 86:9", "Isaiah 2:2-3", "Jeremiah 10:6-7", "Malachi 1:11"],
+        "note": "The prophets foresaw a day when the nations would worship the God of Israel. The song of the Lamb celebrates that hope."
+      },
+      {
+        "theme": "Glory filling the temple",
+        "refs": ["Exodus 40:34-35", "1 Kings 8:10-11", "Isaiah 6:4"],
+        "note": "At the dedication of the tabernacle and temple God's glory filled the sanctuary so that no one could enter. In heaven the same happens as judgment begins."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 15 introduces the third and final series of judgments, the seven bowls, poured out in chapter 16. It is short and serves as a heavenly prelude, like the throne vision before the seals (chapters 4-5) and the incense offering before the trumpets (8:2-5). The vision of the victors singing comes first, so that before the worst judgments the reader sees God's people already safe.",
+      "flow": [
+        { "verses": "1", "label": "Another sign", "note": "Seven angels with seven plagues, the last, for with them God's wrath is finished." },
+        { "verses": "2-4", "label": "The victors' song", "note": "Those who conquered the beast stand beside a sea of glass mixed with fire with harps, singing the song of Moses and the Lamb: great and marvelous are your works; all nations will come and worship you." },
+        { "verses": "5-8", "label": "The bowls given", "note": "The heavenly sanctuary opens; seven angels in pure linen receive seven golden bowls of wrath from a living creature; the temple fills with smoke from God's glory, and no one can enter until the plagues are finished." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 15:1-11", "from": "3", "note": "'I will sing unto the LORD, for he hath triumphed gloriously... Who is like unto thee, O LORD... doing wonders?' The victors sing a new song of Moses." },
+        { "ref": "Psalm 86:9-10", "from": "4", "note": "'All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest wondrous things.' The song quotes the psalm closely." },
+        { "ref": "Jeremiah 10:7", "from": "4", "note": "'Who would not fear thee, O King of nations?' The source of 'who shall not fear thee' and of the reading 'King of the nations.'" }
+      ],
+      "tier2": [
+        { "ref": "Deuteronomy 32:4", "from": "3", "note": "'His work is perfect: for all his ways are judgment: a God of truth... just and right is he.'" },
+        { "ref": "Psalm 111:2-3; 139:14", "from": "3", "note": "God's works are great and marvelous, a frequent confession of the Psalms." },
+        { "ref": "Exodus 40:34-35; 1 Kings 8:10-11", "from": "8", "note": "The glory cloud filled the tabernacle and temple so that Moses and the priests could not enter." },
+        { "ref": "Leviticus 26:21", "from": "1", "note": "God warned Israel he would bring 'seven times more plagues' on persistent rebellion." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 6:4", "from": "8", "note": "The temple filled with smoke as the seraphim cried 'Holy.'" },
+        { "ref": "Daniel 10:5", "from": "6", "note": "The heavenly messenger was clothed in linen with a belt of gold." },
+        { "ref": "Isaiah 43:2, 16", "from": "2", "note": "God makes a way through the sea and keeps his people through fire. The victors stand beside a sea mixed with fire." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham shows how the song is woven from Old Testament texts and notes that it does not mention Israel's deliverance at all, but the nations coming to worship God. He takes this as a key to the book's hope: God's judgments and his people's witness aim at the conversion of the nations."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale reads the chapter as a new exodus. The sea of glass corresponds to the Red Sea, the victors stand on its far shore having passed through, and the bowls that follow echo the plagues on Egypt, now on a worldwide scale."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "3",
+        "kjv": "And they sing the song of Moses the servant of God, and the song of the Lamb, saying, Great and marvellous are thy works, Lord God Almighty; just and true are thy ways, thou King of saints.",
+        "renderings": [
+          { "version": "ESV", "text": "O King of the nations!" },
+          { "version": "NIV", "text": "King of the nations" },
+          { "version": "NKJV", "text": "O King of the saints!" }
+        ],
+        "note": "Manuscripts vary between 'King of the ages' and 'King of the nations,' and the reading 'saints' has little early support. 'King of the nations' fits verse 4, where all nations come to worship, and echoes Jeremiah 10:7."
+      }
+    ],
+    "gospel": "Those standing beside the sea are those who conquered the beast, not by their own strength but as followers of the Lamb (12:11). They sing the song of Moses and the Lamb because Christ has accomplished a greater exodus, delivering his people from sin, death and the powers of evil. Their song is entirely about God: his works, his ways, his holiness, and the hope that all nations will worship him. Before the final judgments fall, the redeemed are already safe on the far shore.",
+    "application": [
+      "Learn to sing in the face of trouble. The victors' song comes before the last plagues, not after.",
+      "Fill your praise with Scripture, as their song is filled with the Psalms and Prophets.",
+      "Praise God for his justice as well as his mercy. 'Just and true are thy ways.'",
+      "Share the hope that all nations will worship God, and pray and work toward it.",
+      "Approach God with reverence. His glory is so great that even heaven's temple could not be entered."
+    ],
+    "misapplications": [
+      {
+        "claim": "God's wrath is out of keeping with the song of salvation.",
+        "correction": "The song praises God's ways as 'just and true' immediately before the bowls are poured. God's people celebrate his judgment because it ends evil and vindicates his holiness."
+      },
+      {
+        "claim": "The song of Moses and the song of the Lamb represent two different ways of salvation, one for Israel and one for the church.",
+        "correction": "It is one song (the text says 'saying' once), celebrating the God who delivered Israel and who has now delivered a people from every nation through the Lamb."
+      }
+    ],
+    "contrasts": [
+      { "a": "Victors safe beside the sea", "b": "Plagues about to fall", "verses": "2, 7", "note": "God's people are secure before the final judgments begin." },
+      { "a": "Bowls of prayer (5:8)", "b": "Bowls of wrath", "verses": "7", "note": "God's judgments answer his people's prayers for justice." },
+      { "a": "The open temple", "b": "No one able to enter", "verses": "5, 8", "note": "God's sanctuary is revealed but unapproachable while judgment proceeds." }
+    ],
+    "features": [
+      { "label": "A song made of Scripture", "note": "Nearly every phrase echoes the Old Testament: Exodus 15, Deuteronomy 32, Psalms 86, 98, 111, 145, and Jeremiah 10." },
+      { "label": "Sea mixed with fire", "note": "The calm crystal sea of 4:6 now glows with fire, perhaps reflecting the judgment about to fall or recalling the Red Sea through which God's people passed." },
+      { "label": "Priestly angels", "note": "The angels wear pure, bright linen and golden sashes, the dress of priests and of Christ himself (1:13). Judgment is carried out as holy service from the sanctuary." }
+    ],
+    "summary": "Revelation 15 prepares for the final series of judgments by first showing God's people safe beyond the sea, singing the song of Moses and the Lamb in praise of God's great works, just ways and coming worship by all nations. The seven bowls of wrath then come from the sanctuary of God's covenant law, filled with his glory. The chapter assures believers that God's final judgments are holy and just and that his redeemed are already victorious.",
+    "metaArc": {
+      "book": "Chapter 15 introduces the bowl judgments of chapter 16, the last of the three series. It parallels the heavenly scenes before the seals and trumpets and returns to the new exodus theme that runs through the book.",
+      "redemptive": "The chapter celebrates redemption as a new exodus accomplished by the Lamb and anticipates the consummation when God's wrath against evil is finished and all nations worship him."
+    }
+  }
+}

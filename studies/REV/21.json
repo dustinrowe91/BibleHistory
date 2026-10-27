@@ -1,0 +1,173 @@
+{
+  "ref": "REV.21",
+  "book": "Revelation",
+  "chapter": 21,
+  "title": "Behold, I Make All Things New",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "John sees a new heaven and a new earth and the holy city, new Jerusalem, coming down from God as a bride. God's dwelling is now with his people: no more tears, death, mourning or pain, for he makes all things new. The city shines with God's glory, built on the apostles and Israel's tribes, a perfect cube with no temple, because God and the Lamb are its temple, and nothing unclean will ever enter.",
+  "keyVerses": ["1-2", "3-4", "5", "22-23"],
+  "steps": {
+    "language": [
+      {
+        "word": "καινός",
+        "translit": "kainos",
+        "strongs": "G2537",
+        "gloss": "new (in quality), renewed",
+        "verses": "1-2, 5",
+        "note": "Greek had two words for new: neos (recent in time) and kainos (new in kind or quality). John uses kainos. 'I make all things new' (v5) does not say 'I make all new things'; many see the renewal and transformation of the old creation rather than its replacement with something unrelated."
+      },
+      {
+        "word": "σκηνή",
+        "translit": "skēnē",
+        "strongs": "G4633",
+        "gloss": "tabernacle, dwelling",
+        "verses": "3",
+        "note": "'The tabernacle of God is with men, and he will dwell with them.' The tabernacle and temple pointed to this; the Word 'tabernacled' among us in Jesus (John 1:14). Now God's presence fills the whole renewed creation."
+      },
+      {
+        "word": "νύμφη",
+        "translit": "nymphē",
+        "strongs": "G3565",
+        "gloss": "bride",
+        "verses": "2, 9",
+        "note": "The city is 'prepared as a bride adorned for her husband' and called 'the bride, the Lamb's wife.' The new Jerusalem is not mainly a place but a people, God's people in perfect union with Christ and dwelling with God."
+      },
+      {
+        "word": "ναός",
+        "translit": "naos",
+        "strongs": "G3485",
+        "gloss": "temple, sanctuary",
+        "verses": "22",
+        "note": "'I saw no temple therein.' In a city shaped like the Most Holy Place (a cube, v16), there is no separate temple, because God and the Lamb are its temple. What the temple symbolized is now complete reality."
+      },
+      {
+        "word": "δόξα",
+        "translit": "doxa",
+        "strongs": "G1391",
+        "gloss": "glory, splendor",
+        "verses": "11, 23-24, 26",
+        "note": "The city has the glory of God, so it needs no sun or moon; the Lamb is its lamp. The nations bring their glory and honor into it, so the best of human culture, purified, has a place in the new creation."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "New heavens and new earth",
+        "refs": ["Isaiah 65:17-19", "Isaiah 66:22", "Romans 8:19-23", "2 Peter 3:13"],
+        "note": "God promised to create new heavens and a new earth where weeping is heard no more. Paul says creation itself waits to be set free from decay."
+      },
+      {
+        "theme": "God dwelling with his people",
+        "refs": ["Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 2:10-11", "2 Corinthians 6:16"],
+        "note": "'I will dwell among them and be their God, and they shall be my people' is the heart of every covenant, now fulfilled."
+      },
+      {
+        "theme": "The new Jerusalem",
+        "refs": ["Isaiah 54:11-12", "Ezekiel 40-48", "Galatians 4:26", "Hebrews 11:10, 16; 12:22"],
+        "note": "Isaiah saw Jerusalem rebuilt with precious stones; Ezekiel saw a measured temple city. Abraham looked for 'a city which hath foundations, whose builder and maker is God.'"
+      },
+      {
+        "theme": "Light without sun",
+        "refs": ["Isaiah 60:1-3, 11, 19-20", "John 8:12"],
+        "note": "Isaiah foresaw Zion's light drawing the nations, its gates always open, and the LORD as its everlasting light."
+      }
+    ],
+    "context": {
+      "setting": "After the final judgment of chapter 20, the book's last vision unfolds in 21:1-22:5. Verses 1-8 announce the new creation and God's dwelling with his people; verses 9-27 describe the new Jerusalem in detail. The vision gathers up promises from across the Old Testament, especially Isaiah 60 and 65 and Ezekiel 40-48, and many of the rewards promised to the conquerors in chapters 2-3. The city is introduced in deliberate contrast to Babylon (17:1-3; 21:9-10).",
+      "flow": [
+        { "verses": "1-4", "label": "New heaven, new earth, new Jerusalem", "note": "The first heaven and earth have passed away and the sea is no more; the holy city comes down as a bride; God dwells with his people and wipes away every tear." },
+        { "verses": "5-8", "label": "I make all things new", "note": "The one on the throne says 'It is done'; he is the Alpha and Omega who gives the water of life freely; the conqueror will inherit, but the faithless and wicked have their part in the second death." },
+        { "verses": "9-14", "label": "The bride, the Lamb's wife", "note": "An angel shows John the holy city shining with God's glory, with twelve gates named for Israel's tribes and twelve foundations named for the Lamb's apostles." },
+        { "verses": "15-21", "label": "The city measured", "note": "The city is a cube of 12,000 stadia, walls of 144 cubits, built of jasper and pure gold, with foundations of precious stones and gates of pearl." },
+        { "verses": "22-27", "label": "God and the Lamb its temple and light", "note": "No temple, no sun or moon; the nations walk by its light and bring in their glory; its gates are never shut; nothing unclean enters, only those written in the Lamb's book of life." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 65:17-19", "from": "1, 4", "note": "'I create new heavens and a new earth... the voice of weeping shall be no more heard in her.' John sees Isaiah's promise fulfilled." },
+        { "ref": "Isaiah 25:8", "from": "4", "note": "'He will swallow up death in victory; and the Lord GOD will wipe away tears from off all faces.'" },
+        { "ref": "Isaiah 60:3, 11, 19", "from": "23-26", "note": "Nations come to Zion's light, its gates are open continually, and the LORD is its everlasting light instead of the sun. John follows Isaiah closely." },
+        { "ref": "Ezekiel 37:27; Leviticus 26:11-12", "from": "3", "note": "'My tabernacle also shall be with them: yea, I will be their God, and they shall be my people.' The covenant formula is quoted and fulfilled." }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 40:2-5; 48:30-35", "from": "10, 12-15", "note": "A high mountain, a measuring angel, and twelve gates named for the tribes; Ezekiel's city was called 'The LORD is there.'" },
+        { "ref": "Isaiah 54:11-12", "from": "18-21", "note": "God promised to rebuild Zion with foundations of sapphires and gates of jewels." },
+        { "ref": "Romans 8:19-23", "from": "1, 5", "note": "Creation waits to be freed from its bondage to decay into the glorious freedom of the children of God." },
+        { "ref": "Ephesians 2:19-22", "from": "14", "note": "God's household is built on the foundation of the apostles and prophets and becomes a holy temple in the Lord." }
+      ],
+      "tier3": [
+        { "ref": "1 Kings 6:20", "from": "16", "note": "The Most Holy Place in Solomon's temple was a perfect cube overlaid with gold, like the whole city." },
+        { "ref": "Exodus 28:17-21", "from": "19-20", "note": "Twelve precious stones on the high priest's breastplate bore the names of the tribes; the city's foundations are adorned with similar stones." },
+        { "ref": "Genesis 1:2; Isaiah 57:20", "from": "1", "note": "The sea stood for chaos and the restless wicked; in the new creation it is no more." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "N. T. Wright",
+        "work": "Surprised by Hope",
+        "view": "Wright argues that the Bible's final hope is not souls escaping to heaven but heaven and earth joined, with the new Jerusalem coming down to a renewed earth. He sees this as the reason Christian work, justice and beauty in the present matter: they anticipate God's renewal of all things."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Temple and the Church's Mission",
+        "view": "Beale argues that the new Jerusalem is pictured as a cosmic temple that is also a restored Eden. From the garden onward God intended his presence to fill the whole earth; the cube-shaped city with no temple shows that the Most Holy Place has expanded to fill the new creation."
+      },
+      {
+        "name": "Jonathan Edwards",
+        "work": "'Heaven Is a World of Love,' in Charity and Its Fruits",
+        "view": "Edwards described heaven as a world where love is perfect and unending, flowing from God, the fountain of love, through Christ to all the saints, with nothing to hinder or spoil it, so that the joy of God's people only grows forever."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "24",
+        "kjv": "And the nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honour into it.",
+        "renderings": [
+          { "version": "ESV", "text": "By its light will the nations walk" },
+          { "version": "NIV", "text": "The nations will walk by its light" }
+        ],
+        "note": "The older manuscripts lack 'of them which are saved.' The scribes who added it rightly saw that these nations are redeemed (v27), but the shorter text keeps the startling picture: 'the nations' and 'the kings of the earth,' once Babylon's allies, now bring their glory into the city of God."
+      }
+    ],
+    "gospel": "This chapter is where the gospel story ends. The God who walked with humanity in Eden and dwelt in the tabernacle and in Jesus now dwells with his people forever (v3). Death, mourning, crying and pain, the fruits of the fall, are gone (v4). The water of life is given 'freely' to the thirsty (v6), a gift, not a wage. The city's foundations bear the names of the Lamb's apostles, and only those written in the Lamb's book of life enter (v14, 27). Everything sin broke, God makes new through the Lamb.",
+    "application": [
+      "Let the promise of new creation shape your hope. The Christian future is not a vague heaven but a renewed world with God at its center.",
+      "Grieve with hope. Every tear will be wiped away by God himself.",
+      "Come to Christ thirsty. The water of life is offered freely (v6).",
+      "Take seriously the warning of verse 8. Not everyone will enter, and the call to faith and faithfulness is urgent.",
+      "Value good work and culture now. The glory and honor of the nations will be brought into the city."
+    ],
+    "misapplications": [
+      {
+        "claim": "The Christian hope is to leave the physical world behind and live forever as disembodied spirits in heaven.",
+        "correction": "John sees a new heaven and a new earth and the city coming down from heaven to earth (v1-2). The Bible's hope is resurrected people living with God in a renewed creation."
+      },
+      {
+        "claim": "Since this world will be made new, what we do with it now doesn't matter.",
+        "correction": "The nations bring their glory and honor into the city (v24-26), and God's renewal includes the creation he made. Our present faithfulness and work are not wasted."
+      },
+      {
+        "claim": "'No more sea' means there will be no oceans in the new creation.",
+        "correction": "In Scripture and in Revelation the sea often stands for chaos, evil and separation; the beast rose from it (13:1). Its absence signals that nothing threatening or separating remains, whatever the new earth's geography."
+      }
+    ],
+    "contrasts": [
+      { "a": "Babylon the harlot", "b": "Jerusalem the bride", "verses": "2, 9-10", "note": "Revelation's two cities and two women: one seductive and doomed, the other pure and everlasting." },
+      { "a": "The former things", "b": "All things new", "verses": "4-5", "note": "Death, mourning and pain belong to the old order that has passed away." },
+      { "a": "Temple as a building", "b": "God and the Lamb as temple", "verses": "22", "note": "The symbol gives way to the reality it pointed to." },
+      { "a": "Inside the city", "b": "The lake of fire", "verses": "8, 27", "note": "The vision of glory includes a sober warning." }
+    ],
+    "features": [
+      { "label": "Twelves", "note": "Twelve gates, twelve angels, twelve tribes, twelve foundations, twelve apostles, 12,000 stadia, 144 (12 x 12) cubits: the number of God's people, Old and New Testament together, in perfect completeness." },
+      { "label": "A cube", "note": "The city is as long as it is wide and high (v16), like the Most Holy Place (1 Kings 6:20). The whole city is the place of God's immediate presence." },
+      { "label": "Seven 'no more's", "note": "No more sea, death, mourning, crying, pain (v1, 4), and later no more night and curse (21:25; 22:3, 5). Everything that marred the first creation is removed." },
+      { "label": "'It is done' again", "note": "God's word from the throne, 'It is done' (v6), echoes the seventh bowl (16:17). Judgment and new creation are both finished by his decree." }
+    ],
+    "summary": "Revelation 21 unveils the goal of all of God's work: a new heaven and new earth, and the new Jerusalem, the bride of the Lamb, where God dwells with his people forever. Every effect of sin and death is gone, God himself is the city's temple and light, and the nations bring their glory into it. The chapter offers the water of life freely to all who thirst, while warning that only those written in the Lamb's book of life will enter.",
+    "metaArc": {
+      "book": "Chapter 21 begins the book's final vision (21:1-22:5), fulfilling the promises to the conquerors in chapters 2-3 and contrasting the bride with Babylon. It is the destination toward which every vision of judgment and witness has been moving.",
+      "redemptive": "The chapter is New Creation itself: Eden restored and surpassed, the covenant promise 'I will be their God' fulfilled, and heaven and earth united under God and the Lamb."
+    }
+  }
+}

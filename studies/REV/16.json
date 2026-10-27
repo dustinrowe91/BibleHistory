@@ -1,0 +1,162 @@
+{
+  "ref": "REV.16",
+  "book": "Revelation",
+  "chapter": 16,
+  "title": "It Is Done",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Seven angels pour out the bowls of God's wrath on the earth, sea, rivers, sun, the beast's throne and the Euphrates. Heaven declares God just, but people curse him and refuse to repent. Demonic spirits gather the kings of the world to Armageddon, and at the seventh bowl a voice from the throne says, 'It is done,' as Babylon is shattered and the earth is shaken as never before.",
+  "keyVerses": ["5-7", "9", "15", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "φιάλη",
+        "translit": "phialē",
+        "strongs": "G5357",
+        "gloss": "bowl",
+        "verses": "1-17",
+        "note": "A wide, shallow bowl that empties all at once when tipped. Unlike the partial seals and trumpets ('a fourth,' 'a third'), the bowls are poured out completely. This is God's final judgment on unrepentant rebellion."
+      },
+      {
+        "word": "δίκαιος",
+        "translit": "dikaios",
+        "strongs": "G1342",
+        "gloss": "just, righteous",
+        "verses": "5, 7",
+        "note": "The angel of the waters and the altar both declare God's judgments 'just' and 'true.' Those who shed the blood of saints and prophets are given blood to drink; the punishment fits the crime."
+      },
+      {
+        "word": "βλασφημέω",
+        "translit": "blasphēmeō",
+        "strongs": "G987",
+        "gloss": "to blaspheme, slander, curse",
+        "verses": "9, 11, 21",
+        "note": "Three times the sufferers curse God instead of repenting. The beast blasphemed God (13:6); now its followers share its character. Judgment reveals hearts rather than softening them."
+      },
+      {
+        "word": "Ἁρμαγεδών",
+        "translit": "Harmagedōn",
+        "strongs": "G717",
+        "gloss": "Armageddon, likely 'mountain of Megiddo'",
+        "verses": "16",
+        "note": "John says the name is Hebrew. Megiddo guarded a pass into the plain of Jezreel, scene of many decisive battles in Israel's history (Judges 5:19; 2 Kings 23:29). There is no 'mountain' at Megiddo itself, which suggests the name is symbolic: the place where the world's armies meet their end."
+      },
+      {
+        "word": "γίνομαι",
+        "translit": "ginomai",
+        "strongs": "G1096",
+        "gloss": "to come to pass, be done",
+        "verses": "17",
+        "note": "'It is done' translates a single Greek word, gegonen, 'it has happened.' The same word is spoken from the throne in 21:6 when God makes all things new. Judgment and new creation are both completed by God's decree."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The plagues on Egypt",
+        "refs": ["Exodus 9:9-11", "Exodus 7:17-21", "Exodus 10:21-23", "Exodus 8:2-6"],
+        "note": "Sores, water to blood, darkness, frogs and hail: the bowls closely follow the plagues of Egypt, now poured out on the beast's world."
+      },
+      {
+        "theme": "The drying of the waters",
+        "refs": ["Exodus 14:21-22", "Joshua 3:14-17", "Isaiah 44:27", "Jeremiah 50:38; 51:36"],
+        "note": "God dried up the sea and the Jordan for his people, and Cyrus took Babylon by diverting the Euphrates. Drying the river opens the way for kings to come against Babylon."
+      },
+      {
+        "theme": "Coming like a thief",
+        "refs": ["Matthew 24:43-44", "1 Thessalonians 5:2", "Revelation 3:3, 18"],
+        "note": "In the middle of the gathering for battle, Jesus breaks in with a warning to stay awake and keep one's garments."
+      },
+      {
+        "theme": "The great earthquake",
+        "refs": ["Haggai 2:6-7", "Hebrews 12:26-28", "Zechariah 14:4-5"],
+        "note": "God promised to shake heaven and earth once more so that only what cannot be shaken remains."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 16 describes the third and final series of judgments, introduced in chapter 15. The bowls closely parallel the trumpets (land, sea, rivers, heavens, darkness, Euphrates, final storm), but are complete rather than partial and come quickly without an interlude. Many see the seals, trumpets and bowls as covering the same ground with rising intensity; others see them as successive stages. The seventh bowl brings the reader to the fall of Babylon, which chapters 17-18 then describe in detail.",
+      "flow": [
+        { "verses": "1-4", "label": "The first three bowls", "note": "Painful sores on those with the beast's mark; the sea becomes blood like a corpse's; rivers and springs become blood." },
+        { "verses": "5-7", "label": "God is just", "note": "The angel of the waters and the altar declare God just, for those who shed the blood of saints and prophets are given blood to drink." },
+        { "verses": "8-11", "label": "The fourth and fifth bowls", "note": "The sun scorches people with fire; darkness covers the beast's kingdom; people gnaw their tongues in pain, curse God and do not repent." },
+        { "verses": "12-16", "label": "The sixth bowl: Armageddon", "note": "The Euphrates dries up for the kings from the east; three unclean spirits like frogs from the dragon, beast and false prophet gather the kings for battle on the great day of God; 'Behold, I come as a thief.'" },
+        { "verses": "17-21", "label": "The seventh bowl: It is done", "note": "Poured into the air; a voice from the throne says 'It is done'; the greatest earthquake ever splits the great city, Babylon drinks the cup of God's wrath, islands and mountains vanish, and huge hailstones fall." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Exodus 9:9-11", "from": "2", "note": "Boils broke out on man and beast throughout Egypt, even on the magicians. The first bowl repeats the sixth plague." },
+        { "ref": "Exodus 7:17-21", "from": "3-4", "note": "The Nile and all Egypt's waters turned to blood." },
+        { "ref": "Exodus 9:23-24", "from": "21", "note": "Very heavy hail such as had never been in Egypt. The final bowl's hailstones are heavier still." }
+      ],
+      "tier2": [
+        { "ref": "Psalm 119:137; 145:17", "from": "5, 7", "note": "'Righteous art thou, O LORD, and upright are thy judgments.' Heaven confesses God's justice in his judgments." },
+        { "ref": "Isaiah 49:26", "from": "6", "note": "God will make oppressors drink their own blood. The punishment mirrors the crime." },
+        { "ref": "Joel 3:2, 9-14", "from": "14, 16", "note": "God gathers the nations to the valley of decision for judgment." },
+        { "ref": "Zechariah 14:2-5", "from": "14, 18-19", "note": "All nations gathered against Jerusalem, the LORD going out to fight, and the Mount of Olives split by earthquake." }
+      ],
+      "tier3": [
+        { "ref": "Judges 5:19-20", "from": "16", "note": "The kings of Canaan fought at Taanach by the waters of Megiddo, and the stars fought against them." },
+        { "ref": "Exodus 8:2-6", "from": "13", "note": "Frogs covered Egypt; the unclean spirits look like frogs." },
+        { "ref": "Isaiah 51:17", "from": "19", "note": "Jerusalem drank from the LORD's hand the cup of his fury. Now the great city Babylon drinks it." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale takes Armageddon as symbolic of the final battle in which the world's forces gather against God's people and are destroyed. He argues it is the same last battle described in 19:19-21 and 20:8-9, told from different angles, rather than three separate wars."
+      },
+      {
+        "name": "Robert L. Thomas",
+        "work": "Revelation 8-22: An Exegetical Commentary",
+        "view": "Thomas expects a literal gathering of armies in the region of Megiddo at the end of the future tribulation, which Christ will defeat at his return, and takes the bowls as literal judgments on the earth in the final period before that."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "5",
+        "kjv": "And I heard the angel of the waters say, Thou art righteous, O Lord, which art, and wast, and shalt be, because thou hast judged thus.",
+        "renderings": [
+          { "version": "ESV", "text": "Just are you, O Holy One, who is and who was" },
+          { "version": "NIV", "text": "O Holy One, you who are and who were" }
+        ],
+        "note": "The Greek manuscripts read 'who is and who was, the Holy One.' 'And shalt be' entered the KJV tradition through an editorial guess in Beza's Greek text. As in 11:17, the future is absent because God has now come in judgment."
+      }
+    ],
+    "gospel": "The bowls show the full weight of God's wrath on unrepentant evil, and they explain the cross. Jesus drank the cup of God's wrath in his people's place (Matthew 26:39). In the middle of the chapter Jesus himself speaks a word of warning and blessing: 'Behold, I come as a thief. Blessed is he that watcheth, and keepeth his garments' (v15). Even at the last, he calls people to be ready. The final cry, 'It is done,' looks back to 'It is finished' at the cross and forward to 'It is done' when God makes all things new (21:6).",
+    "application": [
+      "Praise God for his justice. A world without judgment would be a world where evil wins.",
+      "Do not harden your heart. Those who suffer here curse God instead of repenting; respond to God's warnings while there is time.",
+      "Stay awake and keep your garments (v15). Readiness means faithful living now.",
+      "Recognize the 'frogs' of deceptive propaganda that gather people against God, and test what you hear by his word.",
+      "Find your refuge in Christ, who drank the cup of wrath so his people never will."
+    ],
+    "misapplications": [
+      {
+        "claim": "Armageddon is a nuclear world war that can be predicted from current alliances.",
+        "correction": "The text describes the world's powers, deceived by demonic spirits, gathered against God for 'the battle of that great day of God Almighty' (v14). Its outcome is decided by God, not by weapons, and attempts to match it to current events have repeatedly failed."
+      },
+      {
+        "claim": "Enough suffering will eventually bring everyone to God.",
+        "correction": "Three times the chapter says people cursed God and did not repent (v9, 11, 21). Judgment exposes hearts but does not change them; only grace does."
+      }
+    ],
+    "contrasts": [
+      { "a": "Heaven declares God just", "b": "Earth curses God", "verses": "5-7, 9-11", "note": "The same judgments draw praise from one side and blasphemy from the other." },
+      { "a": "Partial judgments (trumpets)", "b": "Complete judgments (bowls)", "verses": "1-21", "note": "The bowls finish what the seals and trumpets began." },
+      { "a": "Kings gathered for battle", "b": "Battle decided by God's word", "verses": "14, 17", "note": "The great gathering ends with a single word from the throne." }
+    ],
+    "features": [
+      { "label": "Parallel to the trumpets", "note": "The bowls strike the same realms in the same order as the trumpets: land, sea, rivers, sun, darkness, Euphrates, final storm. The pattern suggests intensification of the same reality." },
+      { "label": "A beatitude in the middle", "note": "Verse 15 interrupts the narrative with Jesus' own voice, the third of Revelation's seven blessings." },
+      { "label": "Frogs from three mouths", "note": "Unclean spirits come from the mouths of the dragon, beast and false prophet, a parody of Christ's sword from his mouth. Their power is deceptive speech." },
+      { "label": "Talents of hail", "note": "Hailstones 'about the weight of a talent' (v21), roughly 60-100 pounds, picturing unimaginable force." }
+    ],
+    "summary": "Revelation 16 pours out God's final wrath on the beast's kingdom in bowls that echo the plagues of Egypt, now complete and universal. Heaven confesses these judgments as just, but the beast's followers curse God and refuse to repent, and the world's kings are deceived into gathering against him. With the seventh bowl God declares 'It is done,' Babylon falls, and creation is shaken, while Jesus calls his people to stay awake and ready.",
+    "metaArc": {
+      "book": "Chapter 16 completes the three sevens of judgment. The seventh bowl announces Babylon's fall, which chapters 17-18 unfold, and the gathering at Armageddon is resolved in Christ's victory in chapter 19.",
+      "redemptive": "The chapter brings God's judgment on the fallen world to its climax, clearing away evil in preparation for the new creation, where the same word, 'It is done,' will announce all things made new."
+    }
+  }
+}

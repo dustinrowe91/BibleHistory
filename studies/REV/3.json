@@ -1,0 +1,178 @@
+{
+  "ref": "REV.3",
+  "book": "Revelation",
+  "chapter": 3,
+  "title": "Behold, I Stand at the Door",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "Christ tells Sardis, which has a reputation for life but is dead, to wake up; he sets an open door before weak but faithful Philadelphia; and he warns self-satisfied Laodicea that it is lukewarm and blind, while standing at its door and knocking. He disciplines those he loves and offers the conqueror a seat with him on his throne.",
+  "keyVerses": ["2-3", "8", "19-20", "21"],
+  "steps": {
+    "language": [
+      {
+        "word": "γρηγορέω",
+        "translit": "grēgoreō",
+        "strongs": "G1127",
+        "gloss": "to wake up, stay alert",
+        "verses": "2-3",
+        "note": "Sardis was famous for a citadel thought impregnable that was nevertheless captured more than once when its defenders failed to keep watch. Christ's call to 'wake up' and his warning that he will come 'like a thief' would have struck home."
+      },
+      {
+        "word": "θύρα",
+        "translit": "thyra",
+        "strongs": "G2374",
+        "gloss": "door",
+        "verses": "8, 20",
+        "note": "Christ holds the key of David and sets an open door before Philadelphia that no one can shut (v7-8), likely access to his kingdom and opportunity for witness. To Laodicea he stands outside the door and knocks (v20). The same Lord opens doors and asks for doors to be opened."
+      },
+      {
+        "word": "χλιαρός",
+        "translit": "chliaros",
+        "strongs": "G5513",
+        "gloss": "lukewarm, tepid",
+        "verses": "16",
+        "note": "Used only here in the New Testament. Laodicea had no good water of its own and piped it in; nearby Hierapolis had hot springs and Colossae cold, fresh water. Lukewarm water was useless for either healing or refreshing, and made you want to spit it out."
+      },
+      {
+        "word": "ἀμήν",
+        "translit": "amēn",
+        "strongs": "G281",
+        "gloss": "Amen, truly, so be it",
+        "verses": "14",
+        "note": "A Hebrew word meaning firm or reliable. Christ calls himself 'the Amen,' echoing 'the God of truth' (literally 'the God of Amen') in Isaiah 65:16. He is God's final, trustworthy word, in contrast to unreliable Laodicea."
+      },
+      {
+        "word": "πειρασμός",
+        "translit": "peirasmos",
+        "strongs": "G3986",
+        "gloss": "trial, testing, temptation",
+        "verses": "10",
+        "note": "The 'hour of trial' is coming on the whole world to test 'those who dwell on the earth,' a phrase Revelation uses for unbelievers (6:10; 13:8). Christ promises to keep Philadelphia from it."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Coming like a thief",
+        "refs": ["Matthew 24:42-44", "1 Thessalonians 5:2-6", "Revelation 16:15"],
+        "note": "Jesus' image of an unexpected thief warns that those who are not watching will be caught unprepared."
+      },
+      {
+        "theme": "The book of life",
+        "refs": ["Exodus 32:32-33", "Psalm 69:28", "Daniel 12:1", "Revelation 20:12, 15"],
+        "note": "God's register of his people. Christ promises the conqueror in Sardis that he will never blot out his name."
+      },
+      {
+        "theme": "The key of David",
+        "refs": ["Isaiah 22:20-22", "Matthew 16:19", "Revelation 1:18"],
+        "note": "Eliakim was given authority over the royal household, to open and shut. Christ holds that authority over the kingdom of God."
+      },
+      {
+        "theme": "The Lord disciplines those he loves",
+        "refs": ["Proverbs 3:11-12", "Hebrews 12:5-11"],
+        "note": "Christ's sharp rebuke of Laodicea is an act of love meant to bring repentance (v19)."
+      }
+    ],
+    "context": {
+      "setting": "The last three letters complete the circuit. Sardis had a glorious past as the capital of ancient Lydia but had declined, and had been rebuilt after a great earthquake in AD 17. Philadelphia was a small city in an earthquake zone that had also been rebuilt with imperial help and had taken a new imperial name for a time. Laodicea was a wealthy banking, textile and medical center, so proud that after an earthquake around AD 60 it rebuilt without Roman aid. Each church's spiritual state mirrors and reverses its city's self-image.",
+      "flow": [
+        { "verses": "1-6", "label": "Sardis", "note": "A reputation for being alive, but dead. Wake up, strengthen what remains, remember and repent; a few have not soiled their garments and will walk with Christ in white." },
+        { "verses": "7-13", "label": "Philadelphia", "note": "Little power, but faithful. Christ sets an open door, will humble their opponents, keep them from the hour of trial, and make the conqueror a pillar in God's temple." },
+        { "verses": "14-22", "label": "Laodicea", "note": "Neither hot nor cold. They think they are rich but are wretched, poor, blind and naked. Buy gold, white garments and salve from Christ; he stands at the door and knocks." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 22:22", "from": "7", "note": "'The key of the house of David will I lay upon his shoulder; so he shall open, and none shall shut; and he shall shut, and none shall open.' Christ quotes the promise and claims it." },
+        { "ref": "Isaiah 60:14", "from": "9", "note": "Isaiah foresaw Israel's oppressors bowing at their feet. In an ironic reversal, it is now the faithful church whose opponents will bow and learn that Christ loves them." },
+        { "ref": "Proverbs 3:12", "from": "19", "note": "'For whom the LORD loveth he correcteth.' Christ applies the proverb to his rebuke of Laodicea." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 24:42-44", "from": "3", "note": "Jesus told his disciples to watch, because the Son of Man comes at an hour they do not expect, like a thief." },
+        { "ref": "Isaiah 65:16-17", "from": "14", "note": "The 'God of truth' (literally 'of Amen') is the one who creates new heavens and new earth, which explains both 'the Amen' and 'the beginning of the creation of God.'" },
+        { "ref": "Colossians 1:15-18; 4:13-16", "from": "14", "note": "Paul's letter to the neighboring church calls Christ firstborn of creation and the beginning, and was to be read in Laodicea too." },
+        { "ref": "John 10:7-9; 14:23", "from": "8, 20", "note": "Jesus is the door; he and the Father come and make their home with those who love him." }
+      ],
+      "tier3": [
+        { "ref": "Hosea 12:8", "from": "17", "note": "Ephraim boasted, 'I am become rich,' unaware of its guilt. Laodicea echoes the same boast." },
+        { "ref": "Song of Songs 5:2", "from": "20", "note": "The beloved knocks at the door. Some hear an echo of this love poetry in Christ's invitation." },
+        { "ref": "Isaiah 61:10", "from": "4-5, 18", "note": "God clothes his people with garments of salvation and robes of righteousness, the white clothing Christ offers." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Colin J. Hemer",
+        "work": "The Letters to the Seven Churches of Asia in Their Local Setting",
+        "view": "Following earlier work by M. J. S. Rudwick and E. M. B. Green, Hemer argued that 'hot' and 'cold' are both good, like the healing hot springs of Hierapolis and the cold water of Colossae. Laodicea's problem was not lack of zeal so much as uselessness, like its tepid piped water."
+      },
+      {
+        "name": "John MacArthur",
+        "work": "Revelation 1-11 (MacArthur New Testament Commentary)",
+        "view": "MacArthur, writing as a dispensational premillennialist, reads the promise to keep Philadelphia 'from the hour of trial' (v10) as a promise that the church will be removed from the world before the coming tribulation, which he identifies with the judgments of chapters 6-19."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale reads verse 10 as a promise of spiritual protection through trial rather than physical removal from it, noting that the same phrase 'keep from' appears in Jesus' prayer for disciples who remain in the world (John 17:15)."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "10",
+        "kjv": "Because thou hast kept the word of my patience, I also will keep thee from the hour of temptation, which shall come upon all the world, to try them that dwell upon the earth.",
+        "renderings": [
+          { "version": "ESV", "text": "I will keep you from the hour of trial" },
+          { "version": "NIV", "text": "I will also keep you from the hour of trial" }
+        ],
+        "note": "'Temptation' in older English meant testing. Christians differ on whether 'keep from' means removal before the trial (the pretribulational view) or protection through it (the view of most other interpreters). The same Greek expression appears in John 17:15."
+      },
+      {
+        "verse": "14",
+        "kjv": "And unto the angel of the church of the Laodiceans write; These things saith the Amen, the faithful and true witness, the beginning of the creation of God;",
+        "renderings": [
+          { "version": "ESV", "text": "the beginning of God's creation" },
+          { "version": "NIV", "text": "the ruler of God's creation" },
+          { "version": "NASB", "text": "the Beginning of the creation of God" }
+        ],
+        "note": "The Greek archē can mean 'beginning,' 'origin' or 'ruler.' It does not mean Christ was the first thing created; in Revelation he is 'the beginning and the end' (22:13), a title of God. NIV makes the sense of authority explicit; the others leave it for context."
+      }
+    ],
+    "gospel": "Christ offers each church what it lacks and cannot supply: life to the dead church, an open door to the weak church, and to the blind and naked church gold refined by fire, white garments to cover its shame, and salve for its eyes (v18). These are bought from him, yet Laodicea has nothing to pay with, so the offer is grace. Most tender of all, the Lord whom the church has shut outside still knocks, offering to come in and share a meal (v20). The conqueror will sit with Christ on his throne, as Christ conquered and sat with his Father (v21).",
+    "application": [
+      "Do not trust a reputation, past or present. Christ looks at what is real, not what people say.",
+      "Take courage if you or your church have 'little power.' Faithfulness, not size, is what Christ commends, and he opens doors no one can shut.",
+      "Be honest about self-sufficiency. Comfort and success can blind a church to its need of Christ.",
+      "Receive Christ's rebuke as love, and respond with zeal and repentance (v19).",
+      "Open the door to fellowship with Christ. His invitation stands even to a church that has drifted."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 20 is mainly an evangelistic invitation for unbelievers to invite Jesus into their hearts.",
+        "correction": "It is spoken to a church that has shut Christ out. The principle of welcoming Christ applies to anyone, but the first point is that professing Christians can need to let him back in."
+      },
+      {
+        "claim": "'I wish you were cold or hot' means Christ prefers open rejection to half-hearted faith.",
+        "correction": "In the local setting, both hot and cold water were useful. Christ's complaint is that Laodicea's faith is useless to him and to others, not that unbelief is better."
+      },
+      {
+        "claim": "'The beginning of the creation of God' means Christ was created.",
+        "correction": "Archē can mean origin or ruler, and Revelation gives Christ God's own title, 'the beginning and the end' (21:6; 22:13). He is the source and Lord of creation, not part of it."
+      }
+    ],
+    "contrasts": [
+      { "a": "A name for being alive", "b": "Dead", "verses": "1", "note": "Sardis looked healthy to others but not to Christ." },
+      { "a": "Little power", "b": "An open door", "verses": "8", "note": "Christ's strength works through weak but faithful people." },
+      { "a": "'I am rich'", "b": "Wretched, pitiable, poor, blind, naked", "verses": "17", "note": "Laodicea's self-assessment is the opposite of Christ's, and the opposite of Smyrna's poverty that was really riches (2:9)." }
+    ],
+    "features": [
+      { "label": "Local color", "note": "Each image fits its city: Sardis's unwatched citadel, Philadelphia's earthquake-shaken buildings and new names (a pillar and a new name, v12), Laodicea's banks, textiles, eye salve and lukewarm water." },
+      { "label": "No praise for Laodicea", "note": "Smyrna and Philadelphia receive no rebuke; Laodicea receives no praise. The two faithful churches are both weak and poor." },
+      { "label": "The climax of the promises", "note": "The seventh and final promise, a seat on Christ's throne (v21), crowns the series and leads straight into the vision of God's throne in chapter 4." }
+    ],
+    "summary": "Revelation 3 completes Christ's messages to his churches. He exposes the dead reputation of Sardis and the self-deceived wealth of Laodicea, and encourages faithful, weak Philadelphia with an open door and protection. His rebukes come from love, his offer of true riches is free, and he promises the one who conquers a place with him on his throne.",
+    "metaArc": {
+      "book": "Chapter 3 ends the letters to the churches. The promise of sharing Christ's throne (v21) opens directly onto the throne room vision of chapters 4-5, where the churches are shown who really rules.",
+      "redemptive": "The chapter calls the church to live between Christ's first coming and his return, waking up, holding fast and opening the door, until he brings the new Jerusalem and gives his people a new name (v12)."
+    }
+  }
+}

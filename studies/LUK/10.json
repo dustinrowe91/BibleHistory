@@ -1,0 +1,182 @@
+{
+  "ref": "LUK.10",
+  "book": "Luke",
+  "chapter": 10,
+  "title": "Who Is My Neighbour?",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Jesus sends out seventy-two messengers to announce the kingdom, and rejoices in the Spirit that the Father reveals himself to little children. Asked how to inherit eternal life, he tells of a Samaritan who shows mercy to a wounded stranger, turning 'who is my neighbor?' into 'who acted as a neighbor?' In Martha's home he commends Mary for choosing the one thing needful, sitting at his feet to hear his word.",
+  "keyVerses": ["2", "20", "27", "36-37"],
+  "steps": {
+    "language": [
+      {
+        "word": "θερισμός",
+        "translit": "therismos",
+        "strongs": "G2326",
+        "gloss": "harvest",
+        "verses": "2",
+        "note": "'The harvest truly is great, but the labourers are few.' Harvest was a common prophetic image for the gathering of God's people at the end. Jesus says it is already ripe and calls disciples to pray for workers."
+      },
+      {
+        "word": "ἀγαλλιάω",
+        "translit": "agalliaō",
+        "strongs": "G21",
+        "gloss": "to rejoice greatly, exult",
+        "verses": "21",
+        "note": "Jesus 'rejoiced in spirit' (literally 'in the Holy Spirit'). It is one of the few places the Gospels describe Jesus' joy, and it is joy in the Father's way of revealing himself to the humble."
+      },
+      {
+        "word": "πλησίον",
+        "translit": "plēsion",
+        "strongs": "G4139",
+        "gloss": "neighbor, the one near",
+        "verses": "27, 29, 36",
+        "note": "The lawyer asks who counts as his neighbor, wanting to limit his obligation. Jesus ends by asking which man 'was neighbour' to the wounded one, shifting the question from whom I must love to how I must love."
+      },
+      {
+        "word": "σπλαγχνίζομαι",
+        "translit": "splanchnizomai",
+        "strongs": "G4697",
+        "gloss": "to be moved with compassion",
+        "verses": "33",
+        "note": "The priest and Levite see and pass by; the Samaritan sees and is moved with compassion. In the Gospels this verb describes Jesus himself, or figures in his parables who reflect God's mercy."
+      },
+      {
+        "word": "μερίς",
+        "translit": "meris",
+        "strongs": "G3310",
+        "gloss": "part, portion, share",
+        "verses": "42",
+        "note": "'Mary hath chosen that good part.' In the Old Testament the LORD himself was the 'portion' of the Levites and the psalmist (Numbers 18:20; Psalm 16:5). Mary has chosen Jesus himself."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The greatest commandment",
+        "refs": ["Deuteronomy 6:5", "Leviticus 19:18, 34", "Mark 12:28-34", "Romans 13:8-10"],
+        "note": "Love for God with all one's being and love for neighbor sum up the law. Leviticus already extended neighbor-love to the stranger."
+      },
+      {
+        "theme": "Samaritans",
+        "refs": ["2 Kings 17:24-41", "John 4:9", "Luke 9:52-54; 17:11-19", "Acts 8:4-25"],
+        "note": "Jews and Samaritans had centuries of hostility. Luke repeatedly shows Samaritans responding well to God's grace, preparing for the gospel's spread to Samaria in Acts."
+      },
+      {
+        "theme": "Hidden from the wise",
+        "refs": ["Isaiah 29:14", "1 Corinthians 1:18-29", "Matthew 11:25-27"],
+        "note": "God confounds human wisdom and reveals himself to the humble."
+      },
+      {
+        "theme": "Satan's fall",
+        "refs": ["Isaiah 14:12-15", "John 12:31", "Revelation 12:7-10"],
+        "note": "Jesus sees Satan fall like lightning as the kingdom advances through his messengers."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 10 is early in the journey to Jerusalem. The sending of seventy-two (or seventy) is found only in Luke; the number may echo the nations of Genesis 10, which number seventy in the Hebrew text and seventy-two in the Greek, anticipating a mission to all peoples. The parable of the Good Samaritan and the visit to Martha and Mary are also unique to Luke. The road from Jerusalem down to Jericho dropped more than 3,000 feet through desolate country and was notorious for robbers.",
+      "flow": [
+        { "verses": "1-16", "label": "The seventy-two sent", "note": "Jesus sends them in pairs ahead of him, with instructions to travel light, bring peace, heal and announce that the kingdom is near; he pronounces woes on unrepentant towns." },
+        { "verses": "17-20", "label": "Their return", "note": "They return with joy that even demons submit; Jesus saw Satan fall like lightning, but tells them to rejoice that their names are written in heaven." },
+        { "verses": "21-24", "label": "Jesus rejoices", "note": "Jesus thanks the Father for revealing these things to little children; only the Son knows the Father and reveals him; the disciples see what prophets and kings longed to see." },
+        { "verses": "25-37", "label": "The Good Samaritan", "note": "A lawyer asks how to inherit eternal life; love God and neighbor. Asked 'who is my neighbor?', Jesus tells of a Samaritan who cares for a robbed man left half dead: 'Go, and do thou likewise.'" },
+        { "verses": "38-42", "label": "Martha and Mary", "note": "Martha is distracted with much serving; Mary sits at Jesus' feet; Jesus says one thing is needful, and Mary has chosen it." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Deuteronomy 6:5", "from": "27", "note": "'Thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.' The lawyer quotes the Shema." },
+        { "ref": "Leviticus 19:18", "from": "27", "note": "'Thou shalt love thy neighbour as thyself.'" },
+        { "ref": "Leviticus 18:5", "from": "28", "note": "'Which if a man do, he shall live in them.' Jesus' 'this do, and thou shalt live' echoes it." }
+      ],
+      "tier2": [
+        { "ref": "Genesis 10", "from": "1", "note": "The table of nations lists seventy (Hebrew) or seventy-two (Greek) peoples descended from Noah." },
+        { "ref": "Numbers 11:16-25", "from": "1", "note": "Seventy elders were given a share of the Spirit to help Moses." },
+        { "ref": "2 Chronicles 28:8-15", "from": "33-35", "note": "Men of Samaria clothed, fed, anointed and carried captive Judeans on donkeys to Jericho, a striking Old Testament parallel to the Samaritan's mercy." },
+        { "ref": "Matthew 11:20-27", "from": "13-15, 21-22", "note": "The parallel woes on Chorazin, Bethsaida and Capernaum, and Jesus' thanksgiving to the Father." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 14:12-15", "from": "18", "note": "The one who said 'I will ascend into heaven' is brought down." },
+        { "ref": "Psalm 91:13", "from": "19", "note": "'Thou shalt tread upon the lion and adder.'" },
+        { "ref": "Psalm 16:5; 73:25-26", "from": "42", "note": "The LORD is the portion of my inheritance; there is none on earth I desire besides him." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Augustine",
+        "work": "Questions on the Gospels (Quaestiones Evangeliorum) 2.19",
+        "view": "Augustine famously read the parable as an allegory of salvation: the wounded man is Adam, the robbers the devil and his angels, the Samaritan Christ, the inn the church, and the innkeeper the apostle Paul. Later interpreters have generally treated this as an over-reading, but it reflects a long tradition of seeing Christ as the true Good Samaritan."
+      },
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Jesus Through Middle Eastern Eyes",
+        "view": "Bailey argued that Jesus' audience would have found it shocking that the hero was a hated Samaritan. The Samaritan risked his own safety by stopping and entering a town with the wounded man, paying an open-ended bill, which models costly, boundary-crossing love."
+      },
+      {
+        "name": "Martin Luther King Jr.",
+        "work": "'I've Been to the Mountaintop' (speech, 1968)",
+        "view": "King reflected that the priest and Levite may have asked, 'If I stop to help this man, what will happen to me?' while the Samaritan reversed the question: 'If I do not stop to help this man, what will happen to him?' He used the parable to call for costly solidarity with those in need."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "1",
+        "kjv": "After these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.",
+        "renderings": [
+          { "version": "ESV", "text": "the Lord appointed seventy-two others" },
+          { "version": "NIV", "text": "the Lord appointed seventy-two others" },
+          { "version": "NKJV", "text": "the Lord appointed seventy others also" }
+        ],
+        "note": "The manuscripts are almost evenly divided between seventy and seventy-two. Both numbers fit the Old Testament background: seventy elders with Moses, and seventy or seventy-two nations in Genesis 10."
+      },
+      {
+        "verse": "42",
+        "kjv": "But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+        "renderings": [
+          { "version": "ESV", "text": "but one thing is necessary. Mary has chosen the good portion" },
+          { "version": "NIV", "text": "but few things are needed—or indeed only one" }
+        ],
+        "note": "Some manuscripts read 'few things are needed, or only one,' which NIV follows. Either way, Jesus gently redirects Martha from many anxious tasks to the one essential: listening to him."
+      }
+    ],
+    "gospel": "The lawyer asks what he must do to inherit eternal life and wants to justify himself (v25, 29). The parable exposes how far short we fall of loving God and neighbor perfectly. Christians have long seen in the Samaritan a picture of Christ himself: the despised outsider who comes to where we lie half dead, moved with compassion, binds our wounds at his own cost and pays for our care. The joy Jesus offers is not mainly in spiritual power but that 'your names are written in heaven' (v20). The one thing needful is to sit at his feet and receive his word.",
+    "application": [
+      "Pray for workers in the harvest, and be willing to be one.",
+      "Find your deepest joy in belonging to God, not in success or spiritual gifts.",
+      "Stop asking how few people you are obliged to love; ask how you can be a neighbor to the person in front of you.",
+      "Cross boundaries of ethnicity, religion and class to show mercy.",
+      "Make time to sit at Jesus' feet. Service matters, but not at the cost of hearing him."
+    ],
+    "misapplications": [
+      {
+        "claim": "The parable teaches that eternal life is earned by doing good deeds to others.",
+        "correction": "Jesus answers the lawyer on his own terms, love God and neighbor perfectly 'and thou shalt live,' which exposes the impossibility of justifying oneself (v29). Luke's Gospel shows eternal life received by faith in Jesus (7:50; 18:13-14)."
+      },
+      {
+        "claim": "The story of Martha and Mary means active service is unspiritual.",
+        "correction": "Jesus does not condemn Martha's serving but her being 'cumbered,' anxious and troubled, and her demand that Mary leave him (v40-41). Hearing Christ comes first and shapes good service."
+      },
+      {
+        "claim": "Power over demons is the clearest sign of God's favor.",
+        "correction": "Jesus redirects his messengers: rejoice rather that your names are written in heaven (v20)."
+      }
+    ],
+    "contrasts": [
+      { "a": "The priest and Levite", "b": "The Samaritan", "verses": "31-33", "note": "Religious insiders pass by; the despised outsider shows mercy." },
+      { "a": "Who is my neighbor?", "b": "Who was a neighbor?", "verses": "29, 36", "note": "Jesus turns a question about limits into a call to action." },
+      { "a": "The wise and prudent", "b": "Babes", "verses": "21", "note": "God reveals himself to the humble." },
+      { "a": "Many things", "b": "One thing", "verses": "41-42", "note": "Distraction versus devotion." }
+    ],
+    "features": [
+      { "label": "Unique to Luke", "note": "The seventy-two, the Good Samaritan and Martha and Mary appear only in Luke, reflecting his interest in mission, outsiders and women as disciples." },
+      { "label": "Two questions, two answers", "note": "The lawyer asks two questions (v25, 29), and each time Jesus answers with a question and then a command: 'this do' (v28) and 'go, and do thou likewise' (v37)." },
+      { "label": "Love God, love neighbor, in order", "note": "The parable illustrates love for neighbor; the Mary story that follows illustrates devotion to the Lord. Together they mirror the two great commandments." },
+      { "label": "A disciple's posture", "note": "Sitting at a teacher's feet (v39) was the posture of a student. Jesus welcomes a woman as his disciple." }
+    ],
+    "summary": "Luke 10 shows the kingdom advancing through Jesus' messengers and revealed by the Father to the humble, with the deepest joy found in having one's name written in heaven. The parable of the Good Samaritan redefines neighbor-love as costly mercy across every boundary, while exposing the impossibility of justifying oneself. In Mary's choice the chapter names the one thing needful: listening to Jesus.",
+    "metaArc": {
+      "book": "Chapter 10 begins the teaching of the journey to Jerusalem, focused on discipleship: mission (v1-24), love for neighbor (v25-37) and devotion to Jesus (v38-42). Prayer follows in chapter 11.",
+      "redemptive": "The chapter shows Redemption advancing as Satan falls and the kingdom reaches outsiders, and it pictures Christ as the compassionate rescuer of the helpless."
+    }
+  }
+}

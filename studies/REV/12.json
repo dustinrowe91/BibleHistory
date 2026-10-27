@@ -1,0 +1,161 @@
+{
+  "ref": "REV.12",
+  "book": "Revelation",
+  "chapter": 12,
+  "title": "The Woman, the Child and the Dragon",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "A great sign appears: a woman gives birth to a male child destined to rule the nations, while a red dragon waits to devour him. The child is caught up to God, the dragon is cast down from heaven by Michael and his angels, and believers conquer the accuser by the blood of the Lamb and their testimony. Enraged and knowing his time is short, the dragon pursues the woman and makes war on her offspring.",
+  "keyVerses": ["5", "9", "10-11", "17"],
+  "steps": {
+    "language": [
+      {
+        "word": "σημεῖον",
+        "translit": "sēmeion",
+        "strongs": "G4592",
+        "gloss": "sign",
+        "verses": "1, 3",
+        "note": "John calls the woman and the dragon 'signs,' telling readers plainly that these are symbols pointing to deeper realities. Chapter 12 pulls back the curtain on the spiritual war behind everything in the book."
+      },
+      {
+        "word": "δράκων",
+        "translit": "drakōn",
+        "strongs": "G1404",
+        "gloss": "dragon, serpent",
+        "verses": "3-4, 7-9, 13-17",
+        "note": "Identified outright in verse 9 as 'that old serpent, called the Devil, and Satan.' In the Old Testament the sea dragon (Leviathan, Rahab) pictured chaos and powers hostile to God, including Pharaoh and Egypt (Isaiah 51:9; Ezekiel 29:3)."
+      },
+      {
+        "word": "κατήγωρ",
+        "translit": "katēgōr",
+        "strongs": "G2725",
+        "gloss": "accuser, prosecutor",
+        "verses": "10",
+        "note": "'Satan' means adversary or accuser in Hebrew, and he appears as accuser in Job 1-2 and Zechariah 3. His accusations lose their force because the Lamb's blood has dealt with the guilt they point to (Romans 8:33-34)."
+      },
+      {
+        "word": "μαρτυρία",
+        "translit": "martyria",
+        "strongs": "G3141",
+        "gloss": "testimony, witness",
+        "verses": "11, 17",
+        "note": "Believers conquer 'by the word of their testimony,' and the dragon wars against those who 'hold the testimony of Jesus.' Faithful witness is both the way believers win and the reason they are attacked."
+      },
+      {
+        "word": "ἔρημος",
+        "translit": "erēmos",
+        "strongs": "G2048",
+        "gloss": "wilderness, desert",
+        "verses": "6, 14",
+        "note": "In Scripture the wilderness is a place of danger and of God's provision: Israel was fed with manna there after the exodus, and Elijah was sustained there. The woman is nourished in the wilderness, protected though not removed from the world."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The seed of the woman and the serpent",
+        "refs": ["Genesis 3:15", "Romans 16:20", "Galatians 4:4"],
+        "note": "God's first promise announced enmity between the serpent and the woman and her offspring, who would crush his head. Chapter 12 shows that ancient conflict reaching its climax."
+      },
+      {
+        "theme": "Zion in labor",
+        "refs": ["Isaiah 26:17-18", "Isaiah 66:7-9", "Micah 4:10; 5:2-3"],
+        "note": "The prophets pictured God's people as a woman in labor, bringing forth deliverance and the Messiah."
+      },
+      {
+        "theme": "On eagles' wings",
+        "refs": ["Exodus 19:4", "Deuteronomy 32:11", "Isaiah 40:31"],
+        "note": "God bore Israel out of Egypt on eagles' wings; the woman is given the wings of the great eagle to escape to the wilderness."
+      },
+      {
+        "theme": "Michael the archangel",
+        "refs": ["Daniel 10:13, 21", "Daniel 12:1", "Jude 9"],
+        "note": "In Daniel, Michael is the great prince who stands for God's people. He leads the angelic army against the dragon."
+      }
+    ],
+    "context": {
+      "setting": "After the seventh trumpet brings the reader to the end (11:15-19), chapter 12 begins a new section that steps back to show the cosmic conflict underlying the church's suffering. It covers Christ's birth and ascension in a single verse (v5), then focuses on Satan's defeat and his rage against God's people. Many see chapters 12-14 as the center of the book, introducing the dragon and his two agents, the beasts of chapter 13. The woman is variously taken as Israel, the messianic community, the church, or Mary; many see her as the faithful people of God in both covenants, from whom the Messiah came and who are then persecuted.",
+      "flow": [
+        { "verses": "1-6", "label": "The woman and the dragon", "note": "A woman clothed with the sun gives birth to a son who will rule the nations; the dragon seeks to devour him, but the child is caught up to God and the woman flees to the wilderness for 1,260 days." },
+        { "verses": "7-9", "label": "War in heaven", "note": "Michael and his angels defeat the dragon, the ancient serpent, who is thrown down to earth with his angels." },
+        { "verses": "10-12", "label": "The song of victory", "note": "A loud voice proclaims salvation and Christ's authority: the accuser is cast down, and believers have conquered him by the Lamb's blood and their testimony; woe to the earth, for the devil's time is short." },
+        { "verses": "13-17", "label": "The dragon pursues the woman", "note": "The woman is carried on eagle's wings to the wilderness; the serpent's flood is swallowed by the earth; the dragon goes off to make war on her other offspring, who keep God's commandments and hold the testimony of Jesus." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Psalm 2:9", "from": "5", "note": "The child 'was to rule all nations with a rod of iron,' the promise to God's anointed King. This identifies the child as the Messiah, Jesus." },
+        { "ref": "Genesis 3:15", "from": "9, 17", "note": "'I will put enmity between thee and the woman, and between thy seed and her seed.' 'That old serpent' and the war on 'the remnant of her seed' pick up the first gospel promise." },
+        { "ref": "Daniel 7:7; 8:10", "from": "3-4", "note": "A beast with ten horns, and a horn that cast some of the host and stars to the ground. The dragon bears these features." }
+      ],
+      "tier2": [
+        { "ref": "Luke 10:18", "from": "9", "note": "Jesus saw Satan fall like lightning from heaven as his disciples announced the kingdom." },
+        { "ref": "John 12:31-32", "from": "10", "note": "'Now shall the prince of this world be cast out,' Jesus said of his coming death, linking Satan's casting out to the cross." },
+        { "ref": "Job 1:6-12; Zechariah 3:1-5", "from": "10", "note": "Satan accuses God's servants before him; in Zechariah the LORD rebukes him and clothes the high priest in clean garments." },
+        { "ref": "Exodus 19:4", "from": "14", "note": "'I bare you on eagles' wings, and brought you unto myself.' The woman's escape is a new exodus." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 37:9", "from": "1", "note": "Joseph dreamed of sun, moon and eleven stars bowing to him, representing his family, the forerunners of Israel's twelve tribes." },
+        { "ref": "Matthew 2:13-16", "from": "4", "note": "Herod sought to destroy the newborn King, a historical instance of the dragon waiting to devour the child." },
+        { "ref": "Isaiah 27:1", "from": "9", "note": "The LORD will punish Leviathan the twisting serpent and slay the dragon in the sea." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale sees the woman as the faithful community of God's people, first Israel from whom the Messiah came, then the church. He argues that the dragon's expulsion from heaven happened through Christ's death, resurrection and ascension, so that Satan's power to accuse believers has already been broken."
+      },
+      {
+        "name": "William Hendriksen",
+        "work": "More Than Conquerors",
+        "view": "Hendriksen saw chapter 12 as beginning the second major half of the book, which looks beneath the surface struggle between the church and the world to the deeper conflict between Christ and Satan, and traces it from Christ's birth to his return."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "11",
+        "kjv": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.",
+        "renderings": [
+          { "version": "ESV", "text": "they loved not their lives even unto death" },
+          { "version": "NIV", "text": "did not love their lives so much as to shrink from death" }
+        ],
+        "note": "The versions agree on meaning; NIV paraphrases to make the sense clear. The verb 'overcame' or 'conquered' is the same as in the promises to the churches (2:7, 11). This verse shows how believers conquer: through Christ's sacrifice, faithful witness, and willingness to die."
+      }
+    ],
+    "gospel": "Chapter 12 tells the gospel as cosmic drama. The child born of the woman, the Messiah who will rule the nations, escapes the dragon's jaws and is caught up to God's throne (v5). The result is announced in heaven: 'Now is come salvation, and strength, and the kingdom of our God, and the power of his Christ' (v10). The accuser who once stood before God against us is thrown down, and believers overcome him not by their own goodness but 'by the blood of the Lamb' (v11). Satan rages because he knows his time is short; his defeat is certain.",
+    "application": [
+      "Recognize that the church's struggles have a spiritual dimension. 'We wrestle not against flesh and blood' (Ephesians 6:12).",
+      "Answer Satan's accusations with the blood of the Lamb. Your guilt has been dealt with at the cross.",
+      "Keep testifying. The word of your testimony is one of the ways believers conquer.",
+      "Hold life loosely for Christ's sake. Those who loved not their lives unto death were victorious.",
+      "Take comfort that God nourishes his people in the wilderness. Being in the world's hostile territory does not mean being abandoned."
+    ],
+    "misapplications": [
+      {
+        "claim": "Satan is an equal and opposite power to God, and the outcome of the conflict is uncertain.",
+        "correction": "The dragon is defeated by Michael, a created angel, not by God himself in a contest of equals (v7-9). He is thrown down, his time is short (v12), and his rage comes from defeat, not strength."
+      },
+      {
+        "claim": "Victory over Satan comes mainly through special techniques of spiritual warfare.",
+        "correction": "Verse 11 names the means: the blood of the Lamb, the word of testimony, and faithfulness unto death. These are the ordinary weapons of every believer."
+      }
+    ],
+    "contrasts": [
+      { "a": "Heaven rejoices", "b": "Woe to the earth", "verses": "12", "note": "Satan's defeat is joy in heaven and danger on earth, because he now turns his rage there." },
+      { "a": "The accuser", "b": "The blood of the Lamb", "verses": "10-11", "note": "The accusations that once had force are answered by Christ's sacrifice." },
+      { "a": "The child caught up", "b": "The woman pursued", "verses": "5-6, 13", "note": "Christ is safe with God; his people still face the dragon's hostility, but under God's protection." }
+    ],
+    "features": [
+      { "label": "Christ's life in one verse", "note": "Verse 5 moves from birth to ascension without mentioning the cross directly, but verse 11 supplies it, 'the blood of the Lamb,' as the means of victory." },
+      { "label": "Exodus patterns", "note": "A dragon like Pharaoh, eagles' wings, the wilderness, nourishment, and a flood swallowed by the earth (compare Numbers 16:32). God's people experience a new exodus." },
+      { "label": "Three and a half years again", "note": "1,260 days (v6) and 'a time, and times, and half a time' (v14) name the same limited period of persecution and protection found in chapter 11." },
+      { "label": "Five names for the enemy", "note": "Great dragon, old serpent, Devil, Satan, deceiver of the whole world (v9). Each name exposes a facet of his work." }
+    ],
+    "summary": "Revelation 12 reveals the spiritual war behind history: the ancient serpent's hatred of the woman, her child and her offspring. Through Christ's birth, death and exaltation the dragon is defeated and cast down, and believers overcome him by the Lamb's blood and their faithful testimony. Satan rages against the church because his time is short, but God protects and nourishes his people until the end.",
+    "metaArc": {
+      "book": "Chapter 12 begins the central section of the book (chapters 12-14), introducing the dragon whose two agents, the beasts, appear in chapter 13. Its themes of protection and persecution for three and a half years echo chapter 11, and the dragon's final defeat comes in chapter 20.",
+      "redemptive": "The chapter spans the whole story from the promise of Genesis 3:15, through the incarnation and exaltation of Christ, to Satan's present raging and certain doom, looking forward to the day when the serpent is crushed forever."
+    }
+  }
+}

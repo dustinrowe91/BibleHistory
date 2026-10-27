@@ -1,0 +1,311 @@
+{
+  "ref": "LUK.2",
+  "book": "Luke",
+  "chapter": 2,
+  "title": "Unto You Is Born a Saviour",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "Under the decree of Caesar Augustus, Jesus is born in Bethlehem, the city of David, and laid in a manger. Angels announce good news of great joy to shepherds, the aged Simeon and Anna recognize the child in the temple as the Lord's salvation, and at twelve Jesus shows that he must be in his Father's house.",
+  "keyVerses": [
+    "10-11",
+    "14",
+    "30-32",
+    "49"
+  ],
+  "steps": {
+    "language": [
+      {
+        "word": "κατάλυμα",
+        "translit": "katalyma",
+        "strongs": "G2646",
+        "gloss": "guest room, lodging place",
+        "verses": "7",
+        "note": "Traditionally 'inn,' but Luke uses the same word for the upper 'guest room' of the Last Supper (22:11), and uses a different word for a commercial inn (10:34). Many scholars think Mary and Joseph stayed with relatives whose guest room was full, and the baby was laid in a manger in the family living area where animals were kept."
+      },
+      {
+        "word": "σωτήρ",
+        "translit": "sōtēr",
+        "strongs": "G4990",
+        "gloss": "Savior, deliverer",
+        "verses": "11",
+        "note": "Augustus was hailed across the empire as 'savior' and bringer of peace. The angel announces a different Savior, born in obscurity, who is 'Christ the Lord.' In the Gospels the title is given to Jesus only here and in John 4:42, 'the Saviour of the world.'"
+      },
+      {
+        "word": "εὐδοκία",
+        "translit": "eudokia",
+        "strongs": "G2107",
+        "gloss": "good pleasure, favor",
+        "verses": "14",
+        "note": "In the best manuscripts the angels proclaim peace 'among men of (God's) good pleasure,' meaning people on whom God's favor rests. The peace Christ brings is God's gift, not a general mood of human goodwill."
+      },
+      {
+        "word": "παράκλησις",
+        "translit": "paraklēsis",
+        "strongs": "G3874",
+        "gloss": "consolation, comfort, encouragement",
+        "verses": "25",
+        "note": "Simeon was 'waiting for the consolation of Israel,' language from Isaiah 40:1, 'Comfort ye, comfort ye my people.' Righteous Israelites longed for God to fulfill his promises of restoration, and Simeon sees that comfort in the infant Jesus."
+      },
+      {
+        "word": "δεῖ",
+        "translit": "dei",
+        "strongs": "G1163",
+        "gloss": "it is necessary, must",
+        "verses": "49",
+        "note": "Jesus' first recorded words: 'I must be in my Father's house.' The word expresses divine necessity and recurs throughout Luke for what God's plan requires, especially that the Son of Man 'must suffer' (9:22; 24:7, 26, 44)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Bethlehem, city of David",
+        "refs": [
+          "1 Samuel 16:1, 13",
+          "Micah 5:2",
+          "Matthew 2:5-6"
+        ],
+        "note": "David was anointed in Bethlehem, and Micah foretold a ruler of Israel who would come from it."
+      },
+      {
+        "theme": "Shepherds",
+        "refs": [
+          "1 Samuel 16:11",
+          "Psalm 23:1",
+          "Ezekiel 34:23",
+          "John 10:11"
+        ],
+        "note": "David was a shepherd before he was king, and God promised a shepherd-king from David's line. The good news comes first to ordinary shepherds."
+      },
+      {
+        "theme": "A light for the nations",
+        "refs": [
+          "Isaiah 42:6",
+          "Isaiah 49:6",
+          "Acts 13:47"
+        ],
+        "note": "The Servant would be a light to the Gentiles and God's salvation to the ends of the earth. Simeon applies it to Jesus; Paul later applies it to his mission."
+      },
+      {
+        "theme": "Presentation and purification",
+        "refs": [
+          "Exodus 13:2, 12",
+          "Leviticus 12:2-8",
+          "Numbers 18:15-16"
+        ],
+        "note": "Every firstborn son was consecrated to the LORD, and a mother offered a sacrifice after childbirth. Mary and Joseph offer the poor family's sacrifice of two birds."
+      }
+    ],
+    "context": {
+      "setting": "Luke anchors Jesus' birth in world history: the reign of Caesar Augustus (27 BC-AD 14) and a census connected with Quirinius, governor of Syria. Quirinius is known to have conducted a census in AD 6, after Herod's death, so scholars debate how Luke's reference fits; proposals include an earlier census or role of Quirinius, or reading 'first' as 'before.' The chapter moves from Bethlehem to the temple in Jerusalem twice, showing Jesus' family as devout and law-keeping. It closes the infancy narratives with the only story in the Gospels of Jesus' boyhood.",
+      "flow": [
+        {
+          "verses": "1-7",
+          "label": "The birth in Bethlehem",
+          "note": "A decree from Augustus brings Joseph and Mary to Bethlehem, where Mary gives birth and lays her firstborn son in a manger."
+        },
+        {
+          "verses": "8-14",
+          "label": "The angels and the shepherds",
+          "note": "An angel announces good news of great joy for all the people: a Savior, Christ the Lord, is born; a heavenly host praises God."
+        },
+        {
+          "verses": "15-21",
+          "label": "The shepherds visit",
+          "note": "The shepherds find the child, spread the word and return glorifying God; Mary treasures these things; on the eighth day he is circumcised and named Jesus."
+        },
+        {
+          "verses": "22-38",
+          "label": "Simeon and Anna in the temple",
+          "note": "At the presentation, Simeon takes Jesus in his arms and praises God for his salvation, a light for the Gentiles, but warns Mary of a sword; the prophetess Anna speaks of him to all awaiting Jerusalem's redemption."
+        },
+        {
+          "verses": "39-40",
+          "label": "Growing in Nazareth",
+          "note": "The child grows strong, filled with wisdom, and the grace of God is upon him."
+        },
+        {
+          "verses": "41-52",
+          "label": "The boy Jesus in the temple",
+          "note": "At twelve Jesus stays behind in Jerusalem, amazes the teachers with his understanding, and tells his anxious parents he must be in his Father's house; he returns, submits to them, and grows in wisdom and favor."
+        }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        {
+          "ref": "Exodus 13:2, 12",
+          "from": "23",
+          "note": "'Sanctify unto me all the firstborn.' Luke quotes the law of the firstborn."
+        },
+        {
+          "ref": "Leviticus 12:8",
+          "from": "24",
+          "note": "'A pair of turtledoves, or two young pigeons,' the offering allowed for those who could not afford a lamb."
+        },
+        {
+          "ref": "Isaiah 49:6; 42:6",
+          "from": "32",
+          "note": "'I will also give thee for a light to the Gentiles.' Simeon's song draws on the Servant passages."
+        }
+      ],
+      "tier2": [
+        {
+          "ref": "Micah 5:2",
+          "from": "4-6",
+          "note": "The ruler of Israel would come from Bethlehem Ephratah."
+        },
+        {
+          "ref": "Isaiah 40:1-5",
+          "from": "25, 30",
+          "note": "Comfort for God's people and all flesh seeing the salvation of God, quoted again in 3:4-6."
+        },
+        {
+          "ref": "Isaiah 8:14-15",
+          "from": "34",
+          "note": "The LORD would be a stone of stumbling to both houses of Israel. Simeon says the child is set for the fall and rising of many."
+        },
+        {
+          "ref": "1 Samuel 2:21, 26",
+          "from": "40, 52",
+          "note": "'The child Samuel grew on, and was in favour both with the LORD, and also with men.' Luke describes Jesus' growth in similar words."
+        }
+      ],
+      "tier3": [
+        {
+          "ref": "Isaiah 9:6-7",
+          "from": "11, 14",
+          "note": "A child born, a son given, the Prince of Peace on David's throne."
+        },
+        {
+          "ref": "Isaiah 52:7-10",
+          "from": "10, 30",
+          "note": "Feet bringing good news of peace, and all the ends of the earth seeing God's salvation."
+        },
+        {
+          "ref": "Exodus 23:14-17",
+          "from": "41",
+          "note": "Israelite men were to appear before the LORD at the three pilgrimage feasts, including Passover."
+        }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Jesus Through Middle Eastern Eyes",
+        "view": "Bailey argued from Middle Eastern village life that Joseph, returning to his ancestral town, would have been welcomed into a family home. The 'inn' was the family's guest room, already full, so Mary gave birth in the main room where animals were brought in at night, and the manger was built into the floor of the house."
+      },
+      {
+        "name": "Joel B. Green",
+        "work": "The Gospel of Luke (New International Commentary on the New Testament)",
+        "view": "Green highlights the contrast between Augustus, praised in imperial inscriptions as savior and bringer of peace, and the child in the manger. Luke presents Jesus as the true Savior and Lord, whose peace comes not through Rome's power but through God's favor."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "14",
+        "kjv": "Glory to God in the highest, and on earth peace, good will toward men.",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "on earth peace among those with whom he is pleased!"
+          },
+          {
+            "version": "NIV",
+            "text": "on earth peace to those on whom his favor rests"
+          },
+          {
+            "version": "NKJV",
+            "text": "On earth peace, goodwill toward men!"
+          }
+        ],
+        "note": "The difference is a single Greek letter: eudokia ('good will') or eudokias ('of good will'). The older manuscripts have the second, meaning peace for people who receive God's favor. The KJV reading suggests a general goodwill, but the oldest text stresses that peace is God's gift of grace."
+      },
+      {
+        "verse": "49",
+        "kjv": "And he said unto them, How is it that ye sought me? wist ye not that I must be about my Father's business?",
+        "renderings": [
+          {
+            "version": "ESV",
+            "text": "I must be in my Father's house?"
+          },
+          {
+            "version": "NIV",
+            "text": "I had to be in my Father's house?"
+          }
+        ],
+        "note": "The Greek says only 'in the things of my Father,' which can mean his house or his affairs. Since Mary and Joseph were looking for a place, most modern versions choose 'house.' Either way, Jesus contrasts 'thy father and I' (v48) with 'my Father.'"
+      }
+    ],
+    "gospel": "The good news of great joy is that 'unto you is born this day in the city of David a Saviour, which is Christ the Lord' (v11). The Son of God is born in humility, laid in a manger, and announced first to shepherds. God's salvation is personal: Simeon holds it in his arms (v28-30). It is for Israel and for the nations, a light for the Gentiles and the glory of Israel. But it also divides: the child will cause the fall and rising of many, and a sword will pierce Mary's soul, a first hint of the cross.",
+    "application": [
+      "Receive the gospel as good news of great joy, not merely as information.",
+      "Take comfort that God works through ordinary circumstances, even a government census, to accomplish his purposes.",
+      "Treasure and ponder what God has done, as Mary did (v19, 51).",
+      "Wait for God's promises with the faithfulness of Simeon and Anna, in prayer and worship.",
+      "Honor both your heavenly Father's claim on you and your earthly responsibilities, as Jesus did by submitting to his parents (v51)."
+    ],
+    "misapplications": [
+      {
+        "claim": "The story shows that an innkeeper cruelly turned away the pregnant Mary.",
+        "correction": "Luke mentions no innkeeper. The word likely means a guest room, and the point is the humility of the Messiah's birth, not someone's cruelty."
+      },
+      {
+        "claim": "'Peace on earth' means Jesus came to end all human conflict right away.",
+        "correction": "The peace announced is peace with God for those on whom his favor rests. Jesus later says he brings division (12:51), and full peace on earth awaits his return."
+      },
+      {
+        "claim": "Jesus' growth in wisdom (v52) means he was not truly God.",
+        "correction": "Luke presents Jesus as Son of God (1:35) and also truly human, growing as children grow. The church confesses both: fully God and fully man."
+      }
+    ],
+    "contrasts": [
+      {
+        "a": "Caesar Augustus",
+        "b": "Christ the Lord",
+        "verses": "1, 11",
+        "note": "The emperor issues decrees; the true Savior is born because of one."
+      },
+      {
+        "a": "Glory in the highest",
+        "b": "A baby in a manger",
+        "verses": "12, 14",
+        "note": "Heaven's glory is revealed in earthly lowliness."
+      },
+      {
+        "a": "The fall and rising of many",
+        "b": "A sign spoken against",
+        "verses": "34",
+        "note": "Jesus will divide Israel by how people respond to him."
+      },
+      {
+        "a": "'Thy father and I'",
+        "b": "'My Father's house'",
+        "verses": "48-49",
+        "note": "Jesus already knows his unique relationship to God."
+      }
+    ],
+    "features": [
+      {
+        "label": "World history and village life",
+        "note": "Luke sets the birth against the backdrop of the Roman Empire, yet tells it from the viewpoint of a poor family and shepherds."
+      },
+      {
+        "label": "Temple frames",
+        "note": "Jesus is brought to the temple as an infant and returns at twelve; both scenes show his parents keeping the law and point to his identity."
+      },
+      {
+        "label": "Mary's pondering",
+        "note": "Twice Luke says Mary kept these things in her heart (v19, 51), perhaps hinting at Mary as one source of his account."
+      },
+      {
+        "label": "Simeon's song",
+        "note": "The Nunc Dimittis ('now you are letting depart,' v29-32) is still sung in evening worship in many traditions."
+      }
+    ],
+    "summary": "Luke 2 tells of Jesus' humble birth in Bethlehem and the joyful announcement that the Savior, Christ the Lord, has come. In the temple, Simeon and Anna recognize him as God's salvation for Israel and the nations, though he will be opposed and his mother will suffer. The boy Jesus shows that he knows God as his Father, while growing in wisdom and favor as a faithful son.",
+    "metaArc": {
+      "book": "Chapter 2 completes the infancy narratives (1-2) and prepares for Jesus' public ministry. Simeon's words about a light to the Gentiles anticipate Luke's emphasis on salvation for all nations, fulfilled in Acts.",
+      "redemptive": "The chapter marks the arrival of Redemption in history: the promised Son of David born in David's city, God's salvation made visible in a child, with the cross foreshadowed in Simeon's warning."
+    }
+  }
+}

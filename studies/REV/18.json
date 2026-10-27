@@ -1,0 +1,168 @@
+{
+  "ref": "REV.18",
+  "book": "Revelation",
+  "chapter": 18,
+  "title": "Come Out of Her, My People",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "An angel announces that Babylon the great has fallen, and a voice calls God's people to come out of her so they do not share her sins or her plagues. Kings, merchants and sailors who grew rich from her stand far off and mourn her sudden ruin, while heaven and the saints are told to rejoice, because in her was found the blood of prophets and saints.",
+  "keyVerses": ["2", "4", "7", "20"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἐξέρχομαι",
+        "translit": "exerchomai",
+        "strongs": "G1831",
+        "gloss": "to go out, come out",
+        "verses": "4",
+        "note": "'Come out of her, my people' repeats the prophets' call to the exiles to leave Babylon (Isaiah 52:11; Jeremiah 51:45). For John's readers it meant refusing to share in the city's idolatry and its exploitative trade, even while living in its midst."
+      },
+      {
+        "word": "στρῆνος",
+        "translit": "strēnos",
+        "strongs": "G4764",
+        "gloss": "luxury, sensuality, arrogant excess",
+        "verses": "3, 7, 9",
+        "note": "Living in luxury with a sense of self-indulgent arrogance. Babylon 'lived deliciously' (KJV) while others paid the cost, and the merchants grew rich from her excess."
+      },
+      {
+        "word": "ἔμπορος",
+        "translit": "emporos",
+        "strongs": "G1713",
+        "gloss": "merchant, trader",
+        "verses": "3, 11, 15, 23",
+        "note": "The great traders of the world. Verse 23 says they were 'the great men of the earth,' and the cargo list (v12-13) reads like an inventory of Rome's imports, ending with human beings themselves."
+      },
+      {
+        "word": "μία ὥρα",
+        "translit": "mia hōra",
+        "strongs": "G5610",
+        "gloss": "one hour",
+        "verses": "10, 17, 19",
+        "note": "Three times the mourners cry that in one hour Babylon's judgment came. What seemed permanent collapses suddenly. The repetition gives the laments a funeral rhythm."
+      },
+      {
+        "word": "φαρμακεία",
+        "translit": "pharmakeia",
+        "strongs": "G5331",
+        "gloss": "sorcery",
+        "verses": "23",
+        "note": "'By thy sorceries were all nations deceived.' Babylon's power over the nations worked like a spell: wealth and luxury bewitched them into joining her idolatry."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Oracles against Babylon",
+        "refs": ["Isaiah 13:19-22", "Isaiah 47:7-11", "Jeremiah 50-51"],
+        "note": "The prophets announced the fall of ancient Babylon in vivid detail; John weaves their words into the fall of the new Babylon."
+      },
+      {
+        "theme": "The lament over Tyre",
+        "refs": ["Ezekiel 26-27", "Ezekiel 28:16-18"],
+        "note": "Ezekiel's dirge for Tyre, the great sea-trading city, includes a cargo list and kings, merchants and sailors mourning from afar, the pattern of verses 9-19."
+      },
+      {
+        "theme": "Come out from among them",
+        "refs": ["Isaiah 48:20; 52:11", "Jeremiah 51:6, 45", "2 Corinthians 6:14-18"],
+        "note": "God's people are called to separate from idolatry, not by leaving the world physically but by refusing to share in its sins."
+      },
+      {
+        "theme": "Pride before the fall",
+        "refs": ["Proverbs 16:18", "Isaiah 14:13-15", "Luke 1:51-52"],
+        "note": "Babylon's boast 'I sit a queen... and shall see no sorrow' (v7) is answered by sudden ruin."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 18 continues the fall of Babylon begun in chapter 17. It is written almost entirely in the style of Old Testament prophetic oracles and funeral laments, especially Jeremiah 50-51, Isaiah 13 and 47, and Ezekiel 26-27. Its focus is economic: the city that enriched kings and merchants through luxury trade, idolatry and the trafficking of human beings is suddenly destroyed. The laments are from the point of view of those who profited from her; the call to rejoice is from heaven's point of view.",
+      "flow": [
+        { "verses": "1-3", "label": "Babylon is fallen", "note": "A glorious angel announces Babylon's fall; she has become a haunt of demons, for the nations drank her wine and the merchants grew rich from her luxury." },
+        { "verses": "4-8", "label": "Come out of her", "note": "God's people must come out lest they share her sins and plagues; she will be repaid double for boasting 'I sit a queen,' and her plagues will come in a single day." },
+        { "verses": "9-10", "label": "The kings' lament", "note": "Kings who shared her luxury stand far off weeping: in one hour your judgment has come." },
+        { "verses": "11-17a", "label": "The merchants' lament", "note": "Merchants mourn that no one buys their cargo of gold, fine fabrics, spices, grain, livestock, slaves and human souls; her riches are laid waste in one hour." },
+        { "verses": "17b-19", "label": "The sailors' lament", "note": "Shipmasters and sailors throw dust on their heads: what city was like this great city?" },
+        { "verses": "20-24", "label": "Rejoice, and the millstone", "note": "Heaven and the saints are called to rejoice; an angel throws a great millstone into the sea; no music, craft, light or wedding voice will be heard again, for in her was the blood of prophets and saints." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Jeremiah 51:45", "from": "4", "note": "'My people, go ye out of the midst of her, and deliver ye every man his soul from the fierce anger of the LORD.'" },
+        { "ref": "Isaiah 47:7-9", "from": "7-8", "note": "'I shall be a lady for ever... I shall not sit as a widow, neither shall I know the loss of children: But these two things shall come to thee in a moment in one day.' Babylon's boast and fate are taken from Isaiah." },
+        { "ref": "Jeremiah 51:63-64", "from": "21", "note": "Jeremiah's scroll was tied to a stone and thrown into the Euphrates: 'Thus shall Babylon sink, and shall not rise.'" }
+      ],
+      "tier2": [
+        { "ref": "Ezekiel 27:1-36", "from": "9-19", "note": "The lament for Tyre with its list of trade goods and merchants and sailors mourning, the model for the three laments." },
+        { "ref": "Isaiah 13:19-22", "from": "2", "note": "Fallen Babylon becomes a dwelling for wild creatures and desert spirits." },
+        { "ref": "Jeremiah 25:10", "from": "22-23", "note": "God will take away the voice of mirth, the voice of bride and bridegroom, the sound of millstones and the light of the lamp." },
+        { "ref": "Matthew 23:34-35", "from": "24", "note": "Jesus said the blood of all the righteous shed on earth would come upon the generation that killed the prophets." }
+      ],
+      "tier3": [
+        { "ref": "Luke 12:16-21", "from": "7", "note": "The rich fool who said to his soul 'take thine ease' lost everything in one night." },
+        { "ref": "James 5:1-6", "from": "11-17", "note": "James warns rich oppressors that their wealth has rotted and the wages they withheld cry out." },
+        { "ref": "Ezekiel 27:13", "from": "13", "note": "Tyre traded 'the persons of men' as merchandise, as Babylon trades in human souls." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "'The Economic Critique of Rome in Revelation 18,' in The Climax of Prophecy",
+        "view": "Bauckham shows that the cargo list matches Rome's luxury imports closely and argues that the chapter is a sustained critique of an economy that served the wealth of the powerful at the expense of the provinces and the poor. He notes that the list ends with human beings, exposing the human cost of the empire's prosperity."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale stresses that 'come out of her' calls believers to spiritual separation from the world's idolatrous economic system, not withdrawal from society. Christians in the trade guilds of Asia faced exactly this choice between compromise and costly faithfulness."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "13",
+        "kjv": "And cinnamon, and odours, and ointments, and frankincense, and wine, and oil, and fine flour, and wheat, and beasts, and sheep, and horses, and chariots, and slaves, and souls of men.",
+        "renderings": [
+          { "version": "ESV", "text": "and slaves, that is, human souls" },
+          { "version": "NIV", "text": "and human beings sold as slaves" },
+          { "version": "NASB", "text": "and slaves and human lives" }
+        ],
+        "note": "The Greek is literally 'bodies, and souls of men.' 'Bodies' was a common term for slaves in the ancient trade. Whether the last phrase restates 'slaves' or adds something further, the list ends by exposing that Babylon trafficked in people as goods."
+      }
+    ],
+    "gospel": "The fall of Babylon is good news for everyone she oppressed. God remembers her iniquities and avenges the blood of his prophets and saints (v5, 20, 24). The call 'Come out of her, my people' is itself grace: God does not leave his people trapped in a doomed system but calls them out, as he called Israel out of Egypt and Babylon. The values of Babylon, luxury, pride and exploitation, are the opposite of the Lamb who became poor so that we might become rich (2 Corinthians 8:9).",
+    "application": [
+      "Examine how far your life is entangled with the world's sins of luxury, greed and exploitation, and 'come out' where you need to.",
+      "Consider the human cost of what you buy and the systems you support.",
+      "Do not envy the prosperity of the proud. What seems permanent can fall in one hour.",
+      "Beware of the boast 'I shall see no sorrow.' Security grounded in wealth is an illusion.",
+      "Rejoice in God's justice. Heaven celebrates when oppression ends and the blood of the innocent is avenged."
+    ],
+    "misapplications": [
+      {
+        "claim": "'Come out of her' means Christians should withdraw from society, business and culture.",
+        "correction": "Believers are called to be in the world but not of it (John 17:15-18). Coming out means refusing to share Babylon's sins and idolatry, not physical isolation."
+      },
+      {
+        "claim": "Rejoicing over Babylon's fall means delighting in people's suffering.",
+        "correction": "Heaven rejoices that God has judged a system of idolatry, oppression and murder (v20, 24). The joy is in justice done and God's people vindicated, not in cruelty."
+      },
+      {
+        "claim": "Wealth and trade are condemned in themselves.",
+        "correction": "The charge against Babylon is luxury gained through idolatry, pride, deception and the trafficking of people (v3, 7, 13, 23). Scripture warns against the love of money, not ordinary work and commerce."
+      }
+    ],
+    "contrasts": [
+      { "a": "Mourning on earth", "b": "Rejoicing in heaven", "verses": "9-20", "note": "The same event looks like catastrophe to those who profited and like justice to heaven." },
+      { "a": "'I sit a queen'", "b": "Plagues in one day", "verses": "7-8", "note": "Proud security collapses suddenly." },
+      { "a": "Standing far off", "b": "Coming out", "verses": "4, 10", "note": "The kings and merchants stand at a distance to save themselves; God's people come out to avoid her sins." }
+    ],
+    "features": [
+      { "label": "A funeral dirge", "note": "Three laments (kings, merchants, sailors) each begin 'Alas, alas, that great city' and mourn 'in one hour,' giving the chapter the rhythm of a funeral song." },
+      { "label": "A cargo list", "note": "Twenty-eight items, in groups of precious metals, fine fabrics, costly materials, spices, food, animals and finally people, moving from luxury to the dehumanizing end." },
+      { "label": "Silence after the millstone", "note": "Verses 22-23 list everything that will never be heard again in Babylon: musicians, craftsmen, the millstone, lamplight, the voice of bride and bridegroom. The repeated 'no more' builds to total silence." },
+      { "label": "Prophetic symbolic act", "note": "The angel's throwing of a millstone into the sea (v21) echoes Jeremiah's sinking of a scroll in the Euphrates (Jeremiah 51:63-64)." }
+    ],
+    "summary": "Revelation 18 announces the sudden and complete fall of Babylon, the proud world city that grew rich through idolatry, luxury and the exploitation of people. God's people are called to come out of her, refusing her sins, while those who profited from her mourn from a distance. Heaven rejoices because God has judged her for the blood of his prophets and saints, showing that the most powerful human systems are temporary and accountable to him.",
+    "metaArc": {
+      "book": "Chapter 18 is the center of the Babylon section (17:1-19:10): chapter 17 explains her, chapter 18 mourns her fall from earth's perspective, and 19:1-10 celebrates it from heaven's, leading to the marriage of the Lamb.",
+      "redemptive": "The chapter shows the end of humanity's proud, exploitative civilization, preparing for the new Jerusalem, where the glory and honor of the nations are brought in freely and nothing unclean enters (21:24-27)."
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "ref": "REV.6",
+  "book": "Revelation",
+  "chapter": 6,
+  "title": "Who Shall Be Able to Stand?",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "As the Lamb opens six seals, four riders bring conquest, war, famine and death, martyrs under the altar cry out for justice, and the whole universe shakes as unbelievers hide from the wrath of God and the Lamb. Every one of these judgments is released from the throne and limited by it.",
+  "keyVerses": ["2", "9-11", "16-17"],
+  "steps": {
+    "language": [
+      {
+        "word": "σφραγίς",
+        "translit": "sphragis",
+        "strongs": "G4973",
+        "gloss": "seal",
+        "verses": "1, 3, 5, 7, 9, 12",
+        "note": "A wax seal kept a document closed and authenticated it. As each seal is broken, part of God's plan is set in motion. The Lamb opens every one; nothing in the chapter happens apart from him."
+      },
+      {
+        "word": "θυσιαστήριον",
+        "translit": "thysiastērion",
+        "strongs": "G2379",
+        "gloss": "altar",
+        "verses": "9",
+        "note": "The souls of those slain for God's word are under the altar, where the blood of sacrifices was poured out in the temple (Leviticus 4:7). Their deaths are pictured as offerings to God, precious to him."
+      },
+      {
+        "word": "ἐκδικέω",
+        "translit": "ekdikeō",
+        "strongs": "G1556",
+        "gloss": "to avenge, vindicate, bring justice",
+        "verses": "10",
+        "note": "The martyrs do not take revenge; they ask God to do justice, as Scripture says belongs to him alone (Deuteronomy 32:35; Romans 12:19). God answers in 19:2, where he has avenged the blood of his servants."
+      },
+      {
+        "word": "ὀργή",
+        "translit": "orgē",
+        "strongs": "G3709",
+        "gloss": "wrath, settled anger",
+        "verses": "16-17",
+        "note": "God's steady, righteous opposition to evil. Remarkably, it is called 'the wrath of the Lamb' (v16). The one who was slain for sinners is also the judge of those who refuse him."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Four horses and four winds",
+        "refs": ["Zechariah 1:8-11", "Zechariah 6:1-8"],
+        "note": "Zechariah saw colored horses sent to patrol the earth on God's behalf. John's riders are likewise agents sent out under God's authority."
+      },
+      {
+        "theme": "Sword, famine, pestilence and wild beasts",
+        "refs": ["Leviticus 26:21-26", "Jeremiah 14:12", "Ezekiel 14:21"],
+        "note": "These were God's covenant judgments threatened against persistent rebellion. Ezekiel calls them his 'four sore judgments,' and the fourth rider is given all four (v8)."
+      },
+      {
+        "theme": "How long, O Lord?",
+        "refs": ["Psalm 13:1-2", "Psalm 79:5, 10", "Habakkuk 1:2", "Zechariah 1:12"],
+        "note": "The cry of God's suffering people for justice runs through the Psalms and Prophets. The martyrs in heaven still pray it, and God hears."
+      },
+      {
+        "theme": "Cosmic signs of the day of the LORD",
+        "refs": ["Isaiah 13:10; 34:4", "Joel 2:10, 30-31", "Matthew 24:29"],
+        "note": "The prophets used darkened sun, blood moon and falling stars for God's great acts of judgment that turn history upside down."
+      }
+    ],
+    "context": {
+      "setting": "The Lamb who took the scroll in chapter 5 now breaks its seals. The sequence closely follows Jesus' description of the coming age in Matthew 24, Mark 13 and Luke 21: false messiahs and wars, famines, persecution, and cosmic signs. Interpreters differ on timing. Futurists usually place the seals in a future tribulation; preterists see judgments leading to the fall of Jerusalem in AD 70; idealists and many others see conditions that mark the whole period between Christ's ascension and return, intensifying toward the end. The seventh seal is held until 8:1, after the interlude of chapter 7.",
+      "flow": [
+        { "verses": "1-2", "label": "First seal: white horse", "note": "A rider with a bow and a crown goes out conquering and to conquer." },
+        { "verses": "3-4", "label": "Second seal: red horse", "note": "A rider takes peace from the earth so that people slay one another." },
+        { "verses": "5-6", "label": "Third seal: black horse", "note": "A rider with scales; a day's wage buys only a day's grain, but the oil and wine are not to be harmed." },
+        { "verses": "7-8", "label": "Fourth seal: pale horse", "note": "Death, followed by Hades, is given authority over a fourth of the earth to kill with sword, famine, pestilence and wild beasts." },
+        { "verses": "9-11", "label": "Fifth seal: the martyrs' cry", "note": "Souls under the altar ask how long until God avenges their blood; they are given white robes and told to rest a little longer." },
+        { "verses": "12-17", "label": "Sixth seal: the great day", "note": "Earthquake, darkened sun, blood moon, falling stars; everyone from kings to slaves hides and cries to the mountains to fall on them." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Hosea 10:8", "from": "16", "note": "'They shall say to the mountains, Cover us; and to the hills, Fall on us.' Jesus quoted this on the way to the cross (Luke 23:30)." },
+        { "ref": "Isaiah 34:4", "from": "13-14", "note": "'The heavens shall be rolled together as a scroll: and all their host shall fall down... as a falling fig from the fig tree.' John follows Isaiah's images closely." },
+        { "ref": "Zechariah 6:1-8", "from": "1-8", "note": "Red, black, white and dappled horses go out to the four winds of heaven. John's horsemen are modeled on Zechariah's." }
+      ],
+      "tier2": [
+        { "ref": "Matthew 24:4-29", "from": "1-17", "note": "Jesus' teaching on the Mount of Olives follows the same sequence: deception and wars, famines, persecution and martyrdom, then cosmic signs." },
+        { "ref": "Ezekiel 14:21", "from": "8", "note": "God's 'four sore judgments': sword, famine, wild beasts and pestilence, exactly the instruments of the fourth rider." },
+        { "ref": "Joel 2:10, 30-31", "from": "12-13", "note": "The sun turned to darkness and the moon to blood before the great and terrible day of the LORD." },
+        { "ref": "Romans 12:19", "from": "10", "note": "Vengeance belongs to God. The martyrs leave it with him rather than taking it themselves." }
+      ],
+      "tier3": [
+        { "ref": "Isaiah 2:10, 19-21", "from": "15-16", "note": "People hide in rocks and caves from the terror of the LORD when he rises to shake the earth." },
+        { "ref": "Psalm 76:7", "from": "17", "note": "'Who may stand in thy sight when once thou art angry?' The question that ends the chapter, answered in chapter 7." },
+        { "ref": "Genesis 4:10", "from": "10", "note": "Abel's blood cried out to God from the ground. The martyrs' blood cries out from beneath the altar." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "G. K. Beale",
+        "work": "The Book of Revelation (New International Greek Testament Commentary)",
+        "view": "Beale reads the first five seals as describing trials that recur throughout the church age, from Christ's resurrection to his return, with the sixth seal picturing the final judgment. He stresses that each rider 'was given' power, so even evil forces operate only under God's permission."
+      },
+      {
+        "name": "Robert L. Thomas",
+        "work": "Revelation 1-7: An Exegetical Commentary",
+        "view": "Thomas, a dispensational futurist, takes the seals as the opening stage of a future seven-year tribulation, the seventieth week of Daniel 9, and the riders as literal events of that period."
+      },
+      {
+        "name": "Kenneth L. Gentry Jr.",
+        "work": "Four Views on the Book of Revelation (ed. C. Marvin Pate)",
+        "view": "Gentry, arguing a preterist view, holds that most of Revelation's judgments were fulfilled in the Jewish revolt and the destruction of Jerusalem in AD 70, and reads the seals as the beginning of judgment on the generation that rejected Christ."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "And I heard a voice in the midst of the four beasts say, A measure of wheat for a penny, and three measures of barley for a penny; and see thou hurt not the oil and the wine.",
+        "renderings": [
+          { "version": "ESV", "text": "A quart of wheat for a denarius" },
+          { "version": "NIV", "text": "Two pounds of wheat for a day's wages" }
+        ],
+        "note": "A denarius was a day's wage for a laborer (Matthew 20:2), and a measure of wheat was about one person's daily ration. The KJV's 'penny' hides the shock: a full day's work would buy food for only one person. The prices were roughly eight to sixteen times normal."
+      }
+    ],
+    "gospel": "The Lamb who opens the seals is the one who was slain. The judgments of this chapter are real, but they come from the hand of the one who died for his people, and they are limited ('a fourth,' 'a little longer'). The martyrs are clothed in white robes, already vindicated in heaven though they wait for justice on earth. The terrifying question that ends the chapter, 'who shall be able to stand?', has an answer: those sealed by God and washed in the Lamb's blood (chapter 7). The only shelter from the wrath of the Lamb is the Lamb himself.",
+    "application": [
+      "Do not be shocked by war, famine and persecution in the world. Jesus and John said these would mark the age.",
+      "Trust that God sets limits on suffering. Even destructive forces are 'given' their power and boundaries.",
+      "Pray 'How long, O Lord?' honestly. Longing for God's justice is not unspiritual; heaven itself prays it.",
+      "Leave vengeance to God rather than taking it into your own hands.",
+      "Take God's coming judgment seriously, and urge others to find refuge in Christ before the great day."
+    ],
+    "misapplications": [
+      {
+        "claim": "Every war, famine or earthquake in the news is a specific fulfillment of one of the seals, proving the end is about to come.",
+        "correction": "Jesus said such things must happen 'but the end is not yet' (Matthew 24:6). They are signs of the age, calling for readiness, not tools for setting dates."
+      },
+      {
+        "claim": "The martyrs' prayer for vengeance shows that Christians should want revenge on their enemies.",
+        "correction": "The martyrs ask God to act and leave justice in his hands (Romans 12:19). On earth believers are called to bless and pray for persecutors (Matthew 5:44), trusting that God will set things right."
+      },
+      {
+        "claim": "A loving God and Lamb could never be angry.",
+        "correction": "Verse 16 speaks of 'the wrath of the Lamb.' God's love does not ignore evil; his wrath is his love's settled opposition to what destroys his creation and his people."
+      }
+    ],
+    "contrasts": [
+      { "a": "The martyrs' rest", "b": "The rulers' terror", "verses": "11, 15-16", "note": "Those killed for their faith rest in white robes; the powerful who killed them hide in caves." },
+      { "a": "A limited judgment", "b": "The great day", "verses": "8, 17", "note": "The first seals affect a fourth of the earth; the sixth brings the final day of wrath." },
+      { "a": "The Lamb who was slain", "b": "The wrath of the Lamb", "verses": "1, 16", "note": "The same Christ is Savior to those who receive him and Judge to those who refuse him." }
+    ],
+    "features": [
+      { "label": "The four living creatures call", "note": "Each of the first four seals is introduced by one of the living creatures saying 'Come!' Creation itself summons the judgments that will purge it." },
+      { "label": "'Was given'", "note": "The phrase repeats through the chapter (v2, 4, 8, 11): a crown, a sword, authority, white robes. It emphasizes that God permits and directs every action." },
+      { "label": "Debated first rider", "note": "The white horse rider (v2) has been seen as Christ and the gospel's advance (compare 19:11), as a false messiah imitating Christ, or as military conquest. His place among riders of destruction leads many to prefer one of the last two." },
+      { "label": "Seven classes of people", "note": "Kings, great men, generals, the rich, the powerful, slaves and free (v15): seven groups, picturing all humanity, high and low, facing God's judgment." }
+    ],
+    "summary": "Revelation 6 shows the Lamb opening God's sealed plan and releasing judgments of conquest, war, famine and death, all under divine authority and limits. Martyred believers, vindicated in heaven, wait for God's justice, which arrives in the cosmic upheaval of the great day of wrath. The chapter ends with a question, 'who shall be able to stand?', which the next chapter answers.",
+    "metaArc": {
+      "book": "Chapter 6 begins the first of three sevens (seals, trumpets, bowls) that drive the middle of the book. The sixth seal brings the reader to the brink of the end before the interlude of chapter 7 shows God's people protected and gathered.",
+      "redemptive": "The chapter shows the fallen world under God's judgment, with the covenant curses of sword, famine and plague, and moves toward the final day when the Lamb judges and the old order passes away to make room for the new creation."
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "ref": "LUK.14",
+  "book": "Luke",
+  "chapter": 14,
+  "title": "Come, for All Things Are Now Ready",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "At a Pharisee's Sabbath meal Jesus heals a man, rebukes guests for seeking the best seats, and tells his host to invite the poor and disabled who cannot repay. In the parable of the great banquet, the invited guests make excuses and the master fills his house with the poor, the lame and those from the highways. To the crowds following him Jesus spells out the cost: no one can be his disciple without putting him above family, self and possessions.",
+  "keyVerses": ["11", "13-14", "23", "26-27"],
+  "steps": {
+    "language": [
+      {
+        "word": "ταπεινόω",
+        "translit": "tapeinoō",
+        "strongs": "G5013",
+        "gloss": "to humble, bring low",
+        "verses": "11",
+        "note": "'Whosoever exalteth himself shall be abased; and he that humbleth himself shall be exalted.' Jesus repeats the saying in 18:14. It echoes Mary's song of God bringing down the mighty and lifting the humble (1:52)."
+      },
+      {
+        "word": "ἀνταπόδομα",
+        "translit": "antapodoma",
+        "strongs": "G468",
+        "gloss": "repayment, recompense",
+        "verses": "12, 14",
+        "note": "Hosts in the ancient world invited those who could invite them back, building networks of honor and obligation. Jesus says invite those who cannot repay, and 'thou shalt be recompensed at the resurrection of the just.'"
+      },
+      {
+        "word": "δεῖπνον",
+        "translit": "deipnon",
+        "strongs": "G1173",
+        "gloss": "supper, banquet",
+        "verses": "12, 16-17, 24",
+        "note": "The main meal of the day, here a great feast. The prophets pictured the messianic age as a banquet (Isaiah 25:6), and a guest exclaims, 'Blessed is he that shall eat bread in the kingdom of God' (v15), which prompts the parable."
+      },
+      {
+        "word": "ἀναγκάζω",
+        "translit": "anankazō",
+        "strongs": "G315",
+        "gloss": "to compel, urge strongly",
+        "verses": "23",
+        "note": "'Compel them to come in.' In context it means urging with insistence people who would assume they were not really invited. Augustine later used this verse to justify state coercion against the Donatists, a reading widely rejected as contrary to the parable's spirit."
+      },
+      {
+        "word": "μισέω",
+        "translit": "miseō",
+        "strongs": "G3404",
+        "gloss": "to hate; in Semitic idiom, to love less",
+        "verses": "26",
+        "note": "A Hebrew way of expressing preference by contrast: Jacob 'loved' Rachel and 'hated' Leah (Genesis 29:30-31), meaning he loved Leah less. Matthew 10:37 gives the sense: whoever loves father or mother more than me is not worthy of me."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Seats of honor",
+        "refs": ["Proverbs 25:6-7", "Luke 11:43", "Luke 20:46"],
+        "note": "Proverbs advises not to put yourself forward before the king, since it is better to be invited up than put down. Jesus gives the proverb a kingdom meaning."
+      },
+      {
+        "theme": "The messianic banquet",
+        "refs": ["Isaiah 25:6-9", "Luke 13:29", "Revelation 19:9"],
+        "note": "God will make a feast for all peoples on his mountain. The parable shows who actually attends."
+      },
+      {
+        "theme": "The poor and disabled welcomed",
+        "refs": ["Deuteronomy 14:28-29", "Leviticus 21:17-23", "Isaiah 35:5-6"],
+        "note": "Israel's law cared for the poor at its feasts, while certain disabilities barred priests from serving at the altar. Jesus' banquet welcomes exactly those often excluded."
+      },
+      {
+        "theme": "Counting the cost",
+        "refs": ["Proverbs 24:3-6", "Luke 9:57-62", "Philippians 3:7-8"],
+        "note": "Wise builders and kings plan before they act; disciples must know what following Jesus will require."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 14 is set mostly at a Sabbath meal in the house of a leading Pharisee, where Jesus is being watched. Meals in Luke are frequent settings for teaching and conflict, and here Jesus uses table customs about seating and guest lists to teach about the kingdom. The chapter then shifts to the crowds traveling with him on the road (v25), whom he warns about the cost of real discipleship.",
+      "flow": [
+        { "verses": "1-6", "label": "Healing on the Sabbath", "note": "Jesus heals a man with dropsy and asks who would not pull a son or ox out of a well on the Sabbath; the lawyers and Pharisees cannot answer." },
+        { "verses": "7-11", "label": "Taking the lowest seat", "note": "Noticing guests choosing the best places, Jesus says to take the lowest place, for whoever exalts himself will be humbled." },
+        { "verses": "12-14", "label": "Inviting those who cannot repay", "note": "Invite the poor, crippled, lame and blind, and you will be repaid at the resurrection of the just." },
+        { "verses": "15-24", "label": "The great banquet", "note": "Invited guests make excuses about land, oxen and marriage; the angry master brings in the poor and disabled, then sends out to the highways and hedges so his house will be full." },
+        { "verses": "25-35", "label": "The cost of discipleship", "note": "Whoever does not 'hate' family and his own life, carry his cross and renounce all cannot be my disciple; count the cost like a builder or a king; salt that loses its taste is useless." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [],
+      "tier2": [
+        { "ref": "Proverbs 25:6-7", "from": "8-10", "note": "'Better it is that it be said unto thee, Come up hither; than that thou shouldest be put lower.'" },
+        { "ref": "Isaiah 25:6", "from": "15-16", "note": "The LORD will make for all people a feast of fat things on his mountain." },
+        { "ref": "Matthew 22:1-14", "from": "16-24", "note": "Matthew's parable of the king's wedding feast, with refused invitations and guests gathered from the highways." },
+        { "ref": "Matthew 10:37-38", "from": "26-27", "note": "'He that loveth father or mother more than me is not worthy of me,' explaining the sense of 'hate.'" }
+      ],
+      "tier3": [
+        { "ref": "Deuteronomy 20:5-7", "from": "18-20", "note": "Men who had built a house, planted a vineyard or recently married were excused from war. The guests' excuses echo these, but the master's banquet will not wait." },
+        { "ref": "Genesis 29:30-31", "from": "26", "note": "Jacob loved Rachel more than Leah, and Leah is said to be 'hated,' the idiom behind Jesus' words." },
+        { "ref": "Matthew 5:13", "from": "34-35", "note": "Disciples are the salt of the earth; tasteless salt is thrown out." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Kenneth E. Bailey",
+        "work": "Through Peasant Eyes",
+        "view": "Bailey argued that in village culture the guests' excuses were transparent insults: no one buys land or oxen without first examining them. Their refusal publicly shames the host, who responds not with revenge but with grace, opening his banquet to outsiders."
+      },
+      {
+        "name": "Dietrich Bonhoeffer",
+        "work": "The Cost of Discipleship (Discipleship)",
+        "view": "Bonhoeffer saw in Jesus' call a demand for a clean break with everything that stands between the disciple and Christ, including family and self. He insisted that Christ becomes the mediator of every other relationship, so that we love others rightly only through him."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "26",
+        "kjv": "If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple.",
+        "renderings": [
+          { "version": "ESV", "text": "and does not hate his own father and mother" },
+          { "version": "NIV", "text": "and does not hate father and mother" }
+        ],
+        "note": "Modern versions keep 'hate,' preserving the shock of Jesus' words. The idiom means loving less by comparison, as Matthew 10:37 shows, not hostility. Jesus elsewhere upholds honoring parents (18:20)."
+      },
+      {
+        "verse": "23",
+        "kjv": "And the lord said unto the servant, Go out into the highways and hedges, and compel them to come in, that my house may be filled.",
+        "renderings": [
+          { "version": "ESV", "text": "compel people to come in, that my house may be filled" },
+          { "version": "NIV", "text": "compel them to come in, so that my house will be full" }
+        ],
+        "note": "All versions keep 'compel.' Strangers from outside town would naturally decline a sudden invitation from a wealthy household, so the servant must insist. The urgency expresses the host's generosity, not force."
+      }
+    ],
+    "gospel": "The great banquet is a picture of the gospel. God has prepared a feast and 'all things are now ready' (v17). Those who assumed their place make excuses, but the master's house is filled with the poor, the crippled, the blind and the lame, people who could never repay him (v21). The invitation goes out further still, to the highways and hedges beyond the town, to Gentiles. Grace is a feast for the undeserving. Yet those who come must also follow: the cross that Jesus carries is the cost of their invitation, and disciples carry theirs after him (v27).",
+    "application": [
+      "Take the lower place. Let God, not you, decide your honor.",
+      "Show hospitality to people who cannot pay you back.",
+      "Do not make excuses when God invites you. Good things can become reasons to refuse him.",
+      "Count the cost of following Jesus, and put him above every other loyalty.",
+      "Go out with urgency to people who think they are not invited."
+    ],
+    "misapplications": [
+      {
+        "claim": "Jesus teaches that Christians should literally hate their families.",
+        "correction": "'Hate' is a Semitic idiom for loving less by comparison (Matthew 10:37; Genesis 29:30-31). Jesus commands love and honor for parents and spouses; he demands that he come first."
+      },
+      {
+        "claim": "'Compel them to come in' justifies forcing people to convert.",
+        "correction": "In the parable the servant urges people who would assume they were unwelcome. The gospel invites and persuades; it does not coerce (2 Corinthians 5:11, 20)."
+      },
+      {
+        "claim": "Taking the lowest seat is a clever strategy to be exalted.",
+        "correction": "Jesus is describing the kingdom's values, not a social trick. True humility seeks no honor, trusting God, who 'shall exalt' the humble in his time (v11)."
+      }
+    ],
+    "contrasts": [
+      { "a": "Exalting oneself", "b": "Humbling oneself", "verses": "11", "note": "God reverses human self-promotion." },
+      { "a": "Friends and rich neighbors", "b": "The poor, crippled, lame and blind", "verses": "12-13", "note": "Kingdom hospitality goes to those who cannot repay." },
+      { "a": "The invited who refuse", "b": "The uninvited who come", "verses": "18-23", "note": "Those who expected to belong miss the feast." },
+      { "a": "Building to finish", "b": "Starting and abandoning", "verses": "28-30", "note": "Discipleship requires counting the cost before beginning." }
+    ],
+    "features": [
+      { "label": "Table talk", "note": "Jesus addresses three groups at the same meal: the lawyers (v3), the guests (v7) and the host (v12), before telling a parable to a fellow guest (v15)." },
+      { "label": "Two invitations outward", "note": "The servant goes first into the city's streets and lanes, then out to the highways and hedges, often seen as Israel's outcasts and then the Gentiles." },
+      { "label": "Three excuses", "note": "Land, oxen and marriage (v18-20): property, business and family, all good things that become reasons to refuse." },
+      { "label": "Twin parables of cost", "note": "A tower builder and a king going to war (v28-32) make the same point from private and public life." }
+    ],
+    "summary": "Luke 14 uses a meal setting to reveal the values of God's kingdom: humility instead of self-promotion, hospitality to those who cannot repay, and a banquet filled with the poor and outsiders while the comfortable make excuses. The chapter ends by warning the crowds that following Jesus means putting him above family, self and possessions. The invitation is free, but the disciple's response is total.",
+    "metaArc": {
+      "book": "Chapter 14 continues the journey's teaching on the kingdom and discipleship, linking the meal scenes of Luke with the parables of grace to the lost in chapter 15.",
+      "redemptive": "The chapter pictures the goal of Redemption as God's banquet, the messianic feast, where the humble and the outcast sit down with him."
+    }
+  }
+}

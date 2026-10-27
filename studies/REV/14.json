@@ -1,0 +1,164 @@
+{
+  "ref": "REV.14",
+  "book": "Revelation",
+  "chapter": 14,
+  "title": "Those Who Follow the Lamb",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-26",
+  "theme": "In contrast to the beast's followers, the Lamb stands on Mount Zion with the 144,000 who bear his and his Father's name. Three angels proclaim the eternal gospel, the fall of Babylon, and the fearful end of all who worship the beast. A voice blesses those who die in the Lord, and the earth is reaped in two harvests.",
+  "keyVerses": ["1", "4", "6-7", "12-13"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἀπαρχή",
+        "translit": "aparchē",
+        "strongs": "G536",
+        "gloss": "firstfruits",
+        "verses": "4",
+        "note": "The first part of the harvest, offered to God as belonging to him and as a pledge of the rest (Leviticus 23:10). The 144,000 are redeemed as firstfruits to God and the Lamb, set apart for him, which may anticipate the larger harvest at the end of the chapter."
+      },
+      {
+        "word": "εὐαγγέλιον",
+        "translit": "euangelion",
+        "strongs": "G2098",
+        "gloss": "good news, gospel",
+        "verses": "6",
+        "note": "The only use of the noun in Revelation. The 'eternal gospel' is proclaimed to every nation, calling them to fear God, give him glory and worship the Creator. Even at this late hour, God's call to repentance goes out to all."
+      },
+      {
+        "word": "θυμός",
+        "translit": "thymos",
+        "strongs": "G2372",
+        "gloss": "wrath, passion, fury",
+        "verses": "8, 10, 19",
+        "note": "A play on words: Babylon made the nations drink 'the wine of the wrath (or passion) of her fornication' (v8), and so those who worship the beast will drink 'the wine of the wrath of God' (v10). What the world drank in passion, it will drink in judgment."
+      },
+      {
+        "word": "δρέπανον",
+        "translit": "drepanon",
+        "strongs": "G1407",
+        "gloss": "sickle",
+        "verses": "14-19",
+        "note": "The tool of harvest, used for both grain and grapes. The one like a son of man reaps the earth with a sharp sickle, as Jesus said the angels would gather the harvest at the end of the age (Matthew 13:39)."
+      },
+      {
+        "word": "ὑπομονή",
+        "translit": "hypomonē",
+        "strongs": "G5281",
+        "gloss": "patient endurance",
+        "verses": "12",
+        "note": "'Here is the patience of the saints,' repeating 13:10. In light of the fearful end of the beast's worshipers, believers are called to keep God's commandments and the faith of Jesus."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "Mount Zion",
+        "refs": ["Psalm 2:6", "Isaiah 24:23", "Joel 2:32", "Hebrews 12:22-24"],
+        "note": "God installed his King on Zion, and on Zion there would be deliverance. Hebrews calls the church's gathering 'Mount Sion... the heavenly Jerusalem.'"
+      },
+      {
+        "theme": "Babylon the great is fallen",
+        "refs": ["Isaiah 21:9", "Jeremiah 51:7-8", "Daniel 4:30"],
+        "note": "Babylon was the city that destroyed Jerusalem and took God's people into exile. Its name now stands for the world system opposed to God, and its fall is announced in the prophets' words."
+      },
+      {
+        "theme": "The cup of God's wrath",
+        "refs": ["Psalm 75:8", "Isaiah 51:17", "Jeremiah 25:15-16"],
+        "note": "The prophets pictured judgment as being made to drink a cup of strong, undiluted wine from God's hand."
+      },
+      {
+        "theme": "The harvest of the earth",
+        "refs": ["Joel 3:13", "Matthew 13:30, 39-43", "Isaiah 63:1-6"],
+        "note": "Harvest and winepress were images for the final judgment; Jesus used harvest for both gathering the righteous and judging the wicked."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 14 completes the central section of the book (12-14). After the dragon and his beasts (chapters 12-13), John sees the Lamb and his followers, then a series of announcements and the final harvest, all anticipating the end. It previews what later chapters describe in detail: Babylon's fall (17-18) and the final judgment (19-20). The contrast between the beast's mark (13:16-17) and the name of the Lamb and his Father on the foreheads of his people (14:1) frames the whole chapter.",
+      "flow": [
+        { "verses": "1-5", "label": "The Lamb and the 144,000", "note": "On Mount Zion with the Lamb, bearing his and his Father's name, they sing a new song only they can learn; they are pure, follow the Lamb wherever he goes, and in their mouth no lie was found." },
+        { "verses": "6-7", "label": "First angel: the eternal gospel", "note": "Fear God, give him glory, for the hour of his judgment has come; worship the Creator." },
+        { "verses": "8", "label": "Second angel: Babylon fallen", "note": "Fallen is Babylon the great, who made all nations drink the wine of her passion." },
+        { "verses": "9-12", "label": "Third angel: the end of beast worshipers", "note": "Anyone who worships the beast and receives its mark will drink God's wrath and be tormented, with no rest day or night; here is the endurance of the saints." },
+        { "verses": "13", "label": "Blessed are the dead", "note": "A voice from heaven: blessed are the dead who die in the Lord; they rest from their labors, and their deeds follow them." },
+        { "verses": "14-20", "label": "Two harvests", "note": "One like a son of man reaps the ripe harvest of the earth; then an angel gathers the vine and throws it into the great winepress of God's wrath, and blood flows for 1,600 stadia." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 21:9", "from": "8", "note": "'Babylon is fallen, is fallen.' The second angel repeats Isaiah's announcement." },
+        { "ref": "Joel 3:13", "from": "15, 18-19", "note": "'Put ye in the sickle, for the harvest is ripe: come, get you down; for the press is full.' Both harvests use Joel's images." },
+        { "ref": "Daniel 7:13", "from": "14", "note": "'One like the Son of man' on a cloud, now with a golden crown and sickle." }
+      ],
+      "tier2": [
+        { "ref": "Jeremiah 51:7-8", "from": "8", "note": "Babylon was a golden cup in the LORD's hand that made the nations drunk; she is suddenly fallen." },
+        { "ref": "Isaiah 63:1-6", "from": "19-20", "note": "The LORD treads the winepress alone and his garments are stained with the blood of his enemies, an image repeated in 19:13-15." },
+        { "ref": "Zephaniah 3:13", "from": "5", "note": "The remnant of Israel 'shall not do iniquity, nor speak lies; neither shall a deceitful tongue be found in their mouth.'" },
+        { "ref": "Matthew 13:24-30, 36-43", "from": "14-20", "note": "Jesus' parable of the wheat and tares: at the harvest the angels gather the righteous and the wicked." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 19:24, 28", "from": "10-11", "note": "Fire and brimstone fell on Sodom, and its smoke went up like a furnace. The imagery of torment and rising smoke echoes this judgment." },
+        { "ref": "Hebrews 4:9-10", "from": "13", "note": "A Sabbath rest remains for God's people, who rest from their works as God did from his." },
+        { "ref": "Leviticus 23:10-11", "from": "4", "note": "The firstfruits of the harvest were brought to the priest and waved before the LORD." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Richard Bauckham",
+        "work": "The Climax of Prophecy: Studies on the Book of Revelation",
+        "view": "Bauckham reads the two harvests differently: the grain harvest (v14-16), reaped by the Son of Man himself, pictures the gathering of the redeemed from the nations, while the grape harvest (v17-20) pictures judgment. He connects this with the book's hope for the conversion of the nations through the witness of the church."
+      },
+      {
+        "name": "G. K. Beale",
+        "work": "'The Revelation on Hell,' in Hell Under Fire (ed. Christopher W. Morgan and Robert A. Peterson)",
+        "view": "Beale argues that verses 10-11, with their language of torment 'for ever and ever' and 'no rest day nor night,' teach the conscious, unending punishment of those who persist in worshiping the beast, rather than their annihilation."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "20",
+        "kjv": "And the winepress was trodden without the city, and blood came out of the winepress, even unto the horse bridles, by the space of a thousand and six hundred furlongs.",
+        "renderings": [
+          { "version": "ESV", "text": "as high as a horse's bridle, for 1,600 stadia" },
+          { "version": "NASB", "text": "for a distance of two hundred miles" }
+        ],
+        "note": "A furlong or stadion was about 607 feet, so 1,600 stadia is roughly 180-200 miles. The number is likely symbolic: 1,600 is four squared times ten squared, four being the number of the earth's corners, suggesting a judgment covering the whole earth. The language is deliberately overwhelming, not a measurement to calculate."
+      }
+    ],
+    "gospel": "The chapter opens with the Lamb, not the beast, standing on Zion, and his people 'redeemed from among men' (v4). Even at the hour of judgment an angel flies with an 'eternal gospel' for every nation (v6). The judgment on those who drink Babylon's wine is fearful, and the gospel is the only refuge from the cup of God's wrath, which Jesus himself drank for his people (Mark 14:36). For those who die in the Lord, death is blessed rest, and their deeds go with them (v13). The harvest belongs to the Son of Man, who reaps his own.",
+    "application": [
+      "Follow the Lamb wherever he goes, especially when following him is costly.",
+      "Fear God, give him glory and worship the Creator. The eternal gospel still calls every nation to this.",
+      "Take the warning of verses 9-11 seriously. Allegiance matters, and those who persist in false worship face real and lasting judgment.",
+      "Persevere in obedience and faith, especially when compromise would be easier (v12).",
+      "Grieve with hope for believers who have died. They are blessed and at rest."
+    ],
+    "misapplications": [
+      {
+        "claim": "Verse 4 teaches that celibacy is spiritually superior or that marriage defiles.",
+        "correction": "The language draws on the purity required of soldiers in Israel's holy war (Deuteronomy 23:9-10; 1 Samuel 21:5) and on Scripture's picture of idolatry as adultery. It describes a people wholly devoted to Christ, not undefiled by marriage, which the Bible honors (Hebrews 13:4)."
+      },
+      {
+        "claim": "The 'eternal gospel' of verse 6 is a different message from the gospel of Christ.",
+        "correction": "It is the same gospel stated as a call to the nations: fear God and worship the Creator, in light of the judgment. The Lamb and his redeemed stand at the center of the chapter."
+      }
+    ],
+    "contrasts": [
+      { "a": "The beast's mark", "b": "The Lamb's name", "verses": "1, 9", "note": "Every person bears one name or the other." },
+      { "a": "No rest day or night", "b": "Rest from their labors", "verses": "11, 13", "note": "The beast's worshipers have no rest; those who die in the Lord rest." },
+      { "a": "Babylon's wine", "b": "The wine of God's wrath", "verses": "8, 10", "note": "What the world drank in passion, it drinks in judgment." },
+      { "a": "The grain harvest", "b": "The grape harvest", "verses": "14-20", "note": "Possibly the gathering of the righteous and the judgment of the wicked, or two pictures of judgment." }
+    ],
+    "features": [
+      { "label": "Three angels", "note": "The three angelic messages (v6-11) move from invitation to announcement to warning, giving a complete call to the world before the end." },
+      { "label": "A beatitude", "note": "Verse 13 is the second of Revelation's seven blessings, the only one confirmed by the Spirit himself." },
+      { "label": "Preview of what follows", "note": "Babylon's fall is announced here and described in chapters 17-18; the winepress reappears with the rider of chapter 19." },
+      { "label": "Outside the city", "note": "The winepress is trodden 'without the city' (v20). Jesus suffered outside the city gate (Hebrews 13:12), bearing God's judgment for his people." }
+    ],
+    "summary": "Revelation 14 sets the Lamb and his faithful people against the beast and his worshipers. The eternal gospel is proclaimed to all nations, Babylon's fall is announced, and those who worship the beast are warned of God's fearful wrath, while those who die in the Lord are blessed. The chapter ends with the harvest of the earth, showing that history ends in the Son of Man's gathering and God's righteous judgment.",
+    "metaArc": {
+      "book": "Chapter 14 closes the central section (12-14) by answering chapter 13 with the Lamb and his people, and it previews the fall of Babylon (17-18) and the final judgment (19-20). The bowl judgments follow in chapters 15-16.",
+      "redemptive": "The chapter brings the story to its harvest: the redeemed gathered as firstfruits and blessed in death, the gospel's last call to the nations, and God's final judgment on rebellion."
+    }
+  }
+}

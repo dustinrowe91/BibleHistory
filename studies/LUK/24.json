@@ -1,0 +1,181 @@
+{
+  "ref": "LUK.24",
+  "book": "Luke",
+  "chapter": 24,
+  "title": "The Lord Is Risen Indeed",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "On the first day of the week the women find the tomb empty and hear from angels that Jesus is risen. The risen Jesus walks with two disciples to Emmaus, opening the Scriptures to show that the Christ had to suffer and enter his glory, and is made known in the breaking of bread. He appears to the gathered disciples in a real body, commissions them to proclaim repentance and forgiveness to all nations, promises the Spirit, and is carried up into heaven as they worship.",
+  "keyVerses": ["5-6", "26-27", "32", "46-47"],
+  "steps": {
+    "language": [
+      {
+        "word": "ἐγείρω",
+        "translit": "egeirō",
+        "strongs": "G1453",
+        "gloss": "to raise, rise",
+        "verses": "6, 34",
+        "note": "'He is not here, but is risen,' and 'The Lord is risen indeed.' The passive form in Greek suggests 'he has been raised' by God. The resurrection is God's vindication of his rejected Son."
+      },
+      {
+        "word": "δεῖ",
+        "translit": "dei",
+        "strongs": "G1163",
+        "gloss": "it is necessary, must",
+        "verses": "7, 26, 44",
+        "note": "Luke's word for God's plan. 'The Son of man must be delivered,' 'Ought not Christ to have suffered,' 'all things must be fulfilled.' What looked like tragedy was the necessary path foretold in Scripture."
+      },
+      {
+        "word": "διανοίγω",
+        "translit": "dianoigō",
+        "strongs": "G1272",
+        "gloss": "to open fully",
+        "verses": "31-32, 45",
+        "note": "Three openings: the disciples' eyes are opened to recognize him (v31), the Scriptures are opened to them (v32), and their minds are opened to understand the Scriptures (v45). Recognizing the risen Christ and understanding the Bible go together."
+      },
+      {
+        "word": "μάρτυς",
+        "translit": "martys",
+        "strongs": "G3144",
+        "gloss": "witness",
+        "verses": "48",
+        "note": "'Ye are witnesses of these things.' The disciples' calling is to testify to what they have seen. Acts opens with the same commission: 'ye shall be witnesses unto me... unto the uttermost part of the earth' (Acts 1:8)."
+      },
+      {
+        "word": "δύναμις",
+        "translit": "dynamis",
+        "strongs": "G1411",
+        "gloss": "power",
+        "verses": "49",
+        "note": "The disciples must wait in Jerusalem 'until ye be endued with power from on high,' the promise of the Father, the Holy Spirit (Acts 1:4-5, 8). The mission will be carried out in the Spirit's power, just as Jesus' was (4:14)."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The third day",
+        "refs": ["Hosea 6:2", "Jonah 1:17", "1 Corinthians 15:3-4"],
+        "note": "'After two days will he revive us: in the third day he will raise us up.' Paul says Christ was raised on the third day 'according to the scriptures.'"
+      },
+      {
+        "theme": "The suffering and glorified Messiah",
+        "refs": ["Isaiah 52:13-53:12", "Psalm 16:8-11", "Psalm 22", "Psalm 110:1"],
+        "note": "Jesus teaches that Moses, the Prophets and the Psalms all speak of him, suffering and then glory. Peter preaches from Psalms 16 and 110 at Pentecost."
+      },
+      {
+        "theme": "Repentance and forgiveness to all nations",
+        "refs": ["Genesis 12:3", "Isaiah 49:6", "Acts 1:8; 2:38"],
+        "note": "God's promise to bless all families of the earth and make his Servant a light to the nations is fulfilled as the gospel goes out from Jerusalem."
+      },
+      {
+        "theme": "Blessing with uplifted hands",
+        "refs": ["Leviticus 9:22", "Numbers 6:22-27"],
+        "note": "Aaron lifted his hands and blessed the people. Jesus departs while blessing his disciples as their great high priest."
+      }
+    ],
+    "context": {
+      "setting": "Chapter 24 records events of a single day in Luke's telling, the first day of the week, from the women at dawn to the ascension. In Acts 1:3 Luke adds that Jesus appeared over forty days before ascending, so the end of the Gospel compresses the timeline. Emmaus was a village about seven miles from Jerusalem. Luke's Gospel ends where it began, in the temple, with worship and great joy, and the ending sets up Acts, which retells the ascension and continues the story.",
+      "flow": [
+        { "verses": "1-12", "label": "The empty tomb", "note": "The women find the stone rolled away and no body; two men in shining garments say, 'Why seek ye the living among the dead? He is not here, but is risen'; the apostles think it idle tales, but Peter runs to the tomb." },
+        { "verses": "13-27", "label": "On the road to Emmaus", "note": "Jesus joins two disappointed disciples unrecognized; they had hoped he would redeem Israel; he calls them slow to believe and explains from Moses and all the Prophets the things concerning himself." },
+        { "verses": "28-35", "label": "Known in the breaking of bread", "note": "At the table he blesses and breaks bread, their eyes are opened, and he vanishes; their hearts burned as he opened the Scriptures; they return to Jerusalem and hear, 'The Lord is risen indeed, and hath appeared to Simon.'" },
+        { "verses": "36-43", "label": "Flesh and bones", "note": "Jesus appears among the disciples, shows his hands and feet, and eats fish before them to prove he is not a spirit." },
+        { "verses": "44-49", "label": "The commission", "note": "He opens their minds to understand that the Scriptures foretold his suffering and rising, and that repentance and forgiveness must be preached in his name to all nations, beginning at Jerusalem; they are to wait for power from on high." },
+        { "verses": "50-53", "label": "The ascension", "note": "At Bethany he blesses them with lifted hands and is carried up into heaven; they worship him and return to Jerusalem with great joy, continually in the temple praising God." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 53:3-12", "from": "26, 46", "note": "The Servant's suffering, death and exaltation, the clearest prophetic picture of 'Christ to suffer, and to enter into his glory.'" },
+        { "ref": "Hosea 6:2", "from": "7, 46", "note": "'In the third day he will raise us up.'" }
+      ],
+      "tier2": [
+        { "ref": "1 Corinthians 15:3-8", "from": "34", "note": "Paul's early creed: Christ died, was buried, was raised the third day and appeared to Cephas (Peter), then to the twelve." },
+        { "ref": "Acts 1:1-11", "from": "49-51", "note": "Luke's second account of the ascension, with the promise of the Spirit and the commission to the ends of the earth." },
+        { "ref": "John 20:19-29", "from": "36-43", "note": "Jesus appears to the gathered disciples, shows his hands and side, and invites Thomas to touch." },
+        { "ref": "Psalm 16:10", "from": "5-7", "note": "'Thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption,' preached by Peter as a prophecy of the resurrection (Acts 2:25-31)." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 3:7", "from": "31", "note": "In Eden the first couple ate and 'the eyes of them both were opened' to shame; at Emmaus disciples eat and their eyes are opened to the risen Lord." },
+        { "ref": "Leviticus 9:22-23", "from": "50", "note": "Aaron lifted up his hands and blessed the people, and the glory of the LORD appeared." },
+        { "ref": "Isaiah 49:6", "from": "47", "note": "'I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth.'" }
+      ]
+    },
+    "voices": [
+      {
+        "name": "N. T. Wright",
+        "work": "The Resurrection of the Son of God",
+        "view": "Wright argues at length that the early Christians meant a bodily resurrection, not a spiritual survival, and that only an empty tomb and real appearances of the risen Jesus can explain the rise of their belief. Luke's emphasis on flesh and bones and eating fish fits that conviction."
+      },
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock sees verses 44-49 as the key to Luke-Acts: Jesus' suffering and resurrection fulfill God's plan in Scripture, and the message of repentance and forgiveness goes to all nations through Spirit-empowered witnesses. It joins the Gospel to Acts."
+      },
+      {
+        "name": "Sean McDowell",
+        "work": "The Fate of the Apostles",
+        "view": "McDowell examines the historical evidence for what happened to the apostles and argues that they were willing to suffer and die for their testimony that they had seen the risen Jesus, which strongly suggests they sincerely believed it, as Luke's account of their transformation from fear to bold witness would lead us to expect."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "6",
+        "kjv": "He is not here, but is risen: remember how he spake unto you when he was yet in Galilee,",
+        "renderings": [
+          { "version": "ESV", "text": "He is not here, but has risen." },
+          { "version": "NIV", "text": "He is not here; he has risen!" }
+        ],
+        "note": "A small group of manuscripts lacks 'He is not here, but is risen,' but the words are in the great majority of manuscripts, including early papyri, and are accepted by most modern versions. The verb is passive: 'he has been raised.'"
+      },
+      {
+        "verse": "47",
+        "kjv": "And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem.",
+        "renderings": [
+          { "version": "ESV", "text": "repentance for the forgiveness of sins should be proclaimed" },
+          { "version": "NIV", "text": "repentance for the forgiveness of sins will be preached" }
+        ],
+        "note": "Manuscripts differ between 'repentance and forgiveness' and 'repentance for forgiveness.' Either way, the message preached in Jesus' name joins turning to God with God's release from sin, the same message John preached (3:3) and Peter at Pentecost (Acts 2:38)."
+      }
+    ],
+    "gospel": "Luke ends with the whole gospel in Jesus' own words: 'Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day: and that repentance and remission of sins should be preached in his name among all nations' (v46-47). The empty tomb, the opened Scriptures, the broken bread and the wounded hands all testify that the crucified Jesus lives in a real, glorified body. Disappointment on the Emmaus road gives way to burning hearts. The risen Lord ascends while blessing his people, and they worship him with great joy, waiting for the Spirit to send them to the nations.",
+    "application": [
+      "Do not seek the living among the dead. Jesus is risen; meet him as a living Lord.",
+      "Read the whole Bible as pointing to Christ's suffering and glory, and ask him to open your mind to it.",
+      "Bring your disappointments to Jesus. He walks with the discouraged and reinterprets their story through his.",
+      "Be a witness. The church's task is to proclaim repentance and forgiveness in Jesus' name to all nations.",
+      "Depend on the Spirit's power, not your own, for the mission."
+    ],
+    "misapplications": [
+      {
+        "claim": "The resurrection means only that Jesus' spirit or teaching lives on.",
+        "correction": "Jesus shows his hands and feet and says 'a spirit hath not flesh and bones, as ye see me have,' then eats fish before them (v39-43). Luke insists on a bodily resurrection."
+      },
+      {
+        "claim": "The Old Testament has little to do with Jesus.",
+        "correction": "Jesus says 'all things must be fulfilled, which were written in the law of Moses, and in the prophets, and in the psalms, concerning me' (v44). The Scriptures as a whole point to him."
+      },
+      {
+        "claim": "The disciples were gullible people ready to believe any story.",
+        "correction": "They thought the women's report was 'idle tales' (v11) and were 'terrified and affrighted' at Jesus' appearance (v37). It took evidence and Jesus' own teaching to convince them."
+      }
+    ],
+    "contrasts": [
+      { "a": "Seeking the living among the dead", "b": "He is risen", "verses": "5-6", "note": "The women came to anoint a corpse and found an empty tomb." },
+      { "a": "'We trusted that it had been he'", "b": "'Did not our heart burn?'", "verses": "21, 32", "note": "Disappointment turns to burning hope as Jesus opens the Scriptures." },
+      { "a": "A spirit", "b": "Flesh and bones", "verses": "37-39", "note": "The risen Jesus is not a ghost." },
+      { "a": "Hidden eyes", "b": "Opened eyes", "verses": "16, 31", "note": "Recognition is God's gift." }
+    ],
+    "features": [
+      { "label": "Frames with the opening", "note": "The Gospel began in the temple with a priest unable to bless the people (1:21-22) and ends with Jesus blessing his disciples and their joyful worship in the temple (v50-53)." },
+      { "label": "A meal of recognition", "note": "Jesus 'took bread, and blessed it, and brake, and gave' (v30), the same actions as the feeding of the five thousand (9:16) and the Last Supper (22:19)." },
+      { "label": "Women as first witnesses", "note": "In a culture that often discounted women's testimony, the first to hear of the resurrection were women, who are named (v10). It is unlikely anyone would invent such a detail." },
+      { "label": "A bridge to Acts", "note": "The promise of the Spirit, the witness to all nations beginning at Jerusalem, and the ascension are all taken up in Acts 1." }
+    ],
+    "summary": "Luke 24 proclaims that Jesus has been raised bodily from the dead, as the Scriptures foretold and as he himself predicted. Through the empty tomb, the Emmaus road and his appearance to the disciples, he shows that his suffering and glory fulfill the whole Old Testament and commissions his followers as Spirit-empowered witnesses of repentance and forgiveness to all nations. He ascends while blessing them, and they return to Jerusalem with great joy.",
+    "metaArc": {
+      "book": "Chapter 24 completes the Gospel and launches Acts. Its themes of Scripture fulfilled, the necessity of suffering before glory, the Spirit's power, witness to the nations and joy gather up the whole of Luke.",
+      "redemptive": "The chapter marks the victory of Redemption: the crucified Messiah raised as the firstfruits of New Creation, ascended to God's right hand, with the gospel going to all nations until he returns."
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "ref": "LUK.3",
+  "book": "Luke",
+  "chapter": 3,
+  "title": "Prepare the Way of the Lord",
+  "status": "draft",
+  "source": "claude",
+  "updated": "2026-10-27",
+  "theme": "The word of God comes to John in the wilderness, and he proclaims a baptism of repentance for the forgiveness of sins, calling for fruit that shows a changed heart and pointing to a mightier one who will baptize with the Holy Spirit and fire. At Jesus' baptism the Spirit descends and the Father declares him his beloved Son, whose descent Luke traces back to Adam, the son of God.",
+  "keyVerses": ["3-6", "8", "16", "22"],
+  "steps": {
+    "language": [
+      {
+        "word": "μετάνοια",
+        "translit": "metanoia",
+        "strongs": "G3341",
+        "gloss": "repentance, change of mind and direction",
+        "verses": "3, 8",
+        "note": "More than regret: a turning of the whole person back to God. John insists that genuine repentance shows itself in 'fruits worthy of repentance' (v8), and in verses 10-14 he spells them out in concrete, everyday terms."
+      },
+      {
+        "word": "ἄφεσις",
+        "translit": "aphesis",
+        "strongs": "G859",
+        "gloss": "release, forgiveness",
+        "verses": "3",
+        "note": "Literally 'release' or 'letting go,' used for cancelling a debt or freeing a captive. Luke uses it for the forgiveness of sins here and for 'deliverance to the captives' in Jesus' Nazareth sermon (4:18). Forgiveness is a kind of liberation."
+      },
+      {
+        "word": "πῦρ",
+        "translit": "pyr",
+        "strongs": "G4442",
+        "gloss": "fire",
+        "verses": "9, 16-17",
+        "note": "Fire appears three times: trees that bear no fruit are thrown into the fire, the mightier one will baptize with the Spirit and fire, and the chaff will burn with unquenchable fire. Fire both purifies and judges; at Pentecost the Spirit came with tongues as of fire (Acts 2:3)."
+      },
+      {
+        "word": "ἀγαπητός",
+        "translit": "agapētos",
+        "strongs": "G27",
+        "gloss": "beloved, dearly loved",
+        "verses": "22",
+        "note": "The Father calls Jesus 'my beloved Son.' The Greek Old Testament uses the word for Isaac, Abraham's 'only son, whom thou lovest' (Genesis 22:2), an early hint that this beloved Son will also be offered."
+      }
+    ],
+    "usage": [
+      {
+        "theme": "The voice in the wilderness",
+        "refs": ["Isaiah 40:3-5", "Malachi 3:1", "John 1:23"],
+        "note": "Isaiah announced a voice preparing the LORD's way so that all flesh would see his glory. Luke alone extends the quotation to 'all flesh shall see the salvation of God' (v6), anticipating salvation for the nations."
+      },
+      {
+        "theme": "Children of Abraham",
+        "refs": ["Genesis 12:1-3", "John 8:33-39", "Romans 4:11-16", "Galatians 3:7, 29"],
+        "note": "Descent from Abraham does not guarantee belonging to God's people; Abraham's true children share his faith."
+      },
+      {
+        "theme": "The Spirit on the Messiah",
+        "refs": ["Isaiah 11:2", "Isaiah 42:1", "Isaiah 61:1"],
+        "note": "The prophets foretold that God's Spirit would rest on the Messiah and Servant. At the baptism this comes to pass, and in 4:18 Jesus claims Isaiah 61:1."
+      },
+      {
+        "theme": "The beloved Son",
+        "refs": ["Psalm 2:7", "Isaiah 42:1", "Genesis 22:2"],
+        "note": "The Father's words combine the royal Son of Psalm 2 with the Servant in whom God delights, Israel's King and suffering Servant in one person."
+      }
+    ],
+    "context": {
+      "setting": "Luke dates John's ministry precisely to the fifteenth year of Tiberius Caesar, around AD 28-29, naming Pontius Pilate, Herod Antipas, Philip, Lysanias, and the high priests Annas and Caiaphas. Placing the gospel within known history is typical of Luke. John's preaching in the region of the Jordan draws crowds, tax collectors and soldiers. Luke tells of John's imprisonment (v19-20) before Jesus' baptism, closing John's story so the focus can move to Jesus. The genealogy follows the baptism rather than the birth and runs backward to Adam.",
+      "flow": [
+        { "verses": "1-6", "label": "The word comes to John", "note": "In a precisely dated moment, God's word comes to John, who preaches a baptism of repentance in fulfillment of Isaiah 40." },
+        { "verses": "7-14", "label": "Fruits of repentance", "note": "John warns the crowds not to trust in being Abraham's children; he tells them to share clothing and food, tax collectors to take no more than required, soldiers not to extort." },
+        { "verses": "15-18", "label": "The mightier one", "note": "John says he is not the Christ; one is coming whose sandals he is unworthy to untie, who will baptize with the Holy Spirit and fire and separate wheat from chaff." },
+        { "verses": "19-20", "label": "John imprisoned", "note": "Herod, rebuked by John for taking his brother's wife and other evils, shuts John up in prison." },
+        { "verses": "21-22", "label": "Jesus' baptism", "note": "As Jesus is praying after his baptism, heaven opens, the Spirit descends in bodily form like a dove, and the Father says, 'Thou art my beloved Son.'" },
+        { "verses": "23-38", "label": "The genealogy", "note": "Jesus, about thirty, is the son, as was supposed, of Joseph, and through David, Abraham and Noah, the son of Adam, the son of God." }
+      ]
+    },
+    "crossRefs": {
+      "tier1": [
+        { "ref": "Isaiah 40:3-5", "from": "4-6", "note": "Luke quotes Isaiah at length: 'Prepare ye the way of the Lord... and all flesh shall see the salvation of God.'" },
+        { "ref": "Psalm 2:7", "from": "22", "note": "'Thou art my Son.' The heavenly voice echoes the coronation psalm of the Davidic king." },
+        { "ref": "Isaiah 42:1", "from": "22", "note": "'Behold my servant... mine elect, in whom my soul delighteth; I have put my spirit upon him.'" }
+      ],
+      "tier2": [
+        { "ref": "Malachi 3:1-3; 4:1", "from": "4, 16-17", "note": "The messenger prepares the way; the Lord who comes is like a refiner's fire, and the wicked will be burned as stubble." },
+        { "ref": "Matthew 3:1-17; Mark 1:1-11", "from": "1-22", "note": "The parallel accounts of John's ministry and Jesus' baptism. Only Luke records John's practical instructions (v10-14) and notes that Jesus was praying." },
+        { "ref": "Acts 1:5; 2:1-4", "from": "16", "note": "Jesus promised his disciples they would be baptized with the Holy Spirit, fulfilled at Pentecost with tongues as of fire." },
+        { "ref": "Matthew 1:1-17", "from": "23-38", "note": "Matthew's genealogy runs forward from Abraham through Solomon; Luke's runs backward to Adam through David's son Nathan." }
+      ],
+      "tier3": [
+        { "ref": "Genesis 5:1-3", "from": "38", "note": "Adam was made in God's likeness and fathered Seth in his own likeness. Luke ends with 'Adam, which was the son of God.'" },
+        { "ref": "Micah 6:8", "from": "10-14", "note": "Doing justly and loving mercy, the kind of fruit John demands." },
+        { "ref": "Genesis 8:8-12", "from": "22", "note": "Noah's dove brought news of a new beginning after judgment; some see a hint of new creation in the dove at the Jordan." }
+      ]
+    },
+    "voices": [
+      {
+        "name": "Darrell L. Bock",
+        "work": "Luke (Baker Exegetical Commentary on the New Testament)",
+        "view": "Bock notes that Luke presents John as the bridge between the old era of promise and the new era of fulfillment. He stresses that John's ethical instructions show repentance as concrete changes in how people treat others, especially in money and power."
+      },
+      {
+        "name": "J. C. Ryle",
+        "work": "Expository Thoughts on the Gospels: Luke",
+        "view": "Ryle drew from John's preaching the lesson that true repentance always shows itself in the plain duties of one's own station in life. He warned against trusting in religious privileges or descent, as John's hearers trusted in being children of Abraham."
+      }
+    ],
+    "translations": [
+      {
+        "verse": "23",
+        "kjv": "And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli,",
+        "renderings": [
+          { "version": "ESV", "text": "being the son (as was supposed) of Joseph, the son of Heli" },
+          { "version": "NIV", "text": "He was the son, so it was thought, of Joseph" }
+        ],
+        "note": "'As was supposed' affirms the virgin birth: Jesus was Joseph's son in law, not by nature. Luke's list differs from Matthew's after David. A common explanation is that Luke traces Mary's line, with Heli as Mary's father; another is that one list gives legal descent and the other natural descent."
+      }
+    ],
+    "gospel": "John prepares the way for the gospel by preaching repentance for the forgiveness of sins (v3) and pointing away from himself to the mightier one (v16). At the Jordan, Jesus, who had no sin to repent of, stands with sinners in baptism, and the Father and the Spirit publicly affirm him as the beloved Son (v22). The genealogy runs all the way back to 'Adam, which was the son of God' (v38): Jesus is the new Adam, the true Son, who will succeed where the first Adam and all his descendants failed, as the next chapter shows in the wilderness.",
+    "application": [
+      "Show repentance in practical ways: generosity, honesty at work, refusing to abuse power.",
+      "Do not rely on religious background or family heritage for your standing with God.",
+      "Point others to Christ rather than to yourself, as John did.",
+      "Pray, especially at key moments. Luke notes that Jesus was praying when the Spirit came.",
+      "Take comfort that Jesus belongs to the whole human family, from Adam down, and came to save people of every nation."
+    ],
+    "misapplications": [
+      {
+        "claim": "Being born into a believing family or nation makes someone right with God.",
+        "correction": "John says God can raise up children to Abraham from stones (v8). What matters is repentance and the fruit it produces."
+      },
+      {
+        "claim": "Jesus was baptized because he needed to repent of sin.",
+        "correction": "The New Testament presents Jesus as sinless (Hebrews 4:15; 1 Peter 2:22). In his baptism he identified with sinners and began the mission of bearing their sin."
+      },
+      {
+        "claim": "John's ethical instructions mean that salvation is earned by good behavior.",
+        "correction": "John's baptism is for the forgiveness of sins (v3); the good deeds are fruits of repentance (v8), evidence of a changed heart, not payment for forgiveness."
+      }
+    ],
+    "contrasts": [
+      { "a": "Emperors and rulers", "b": "The word of God to John in the wilderness", "verses": "1-2", "note": "History's powerful are named, but God's word comes to a prophet in the desert." },
+      { "a": "Water baptism", "b": "Spirit and fire baptism", "verses": "16", "note": "John's baptism prepares; Jesus' baptism transforms and judges." },
+      { "a": "Wheat", "b": "Chaff", "verses": "17", "note": "The coming one will separate the fruitful from the worthless." }
+    ],
+    "features": [
+      { "label": "Historical precision", "note": "Five rulers and two high priests are named in verses 1-2, dating the event as carefully as an ancient historian would." },
+      { "label": "John's sermon to everyone", "note": "Only Luke records how John answered the crowds, tax collectors and soldiers, a sign of his interest in social and economic life." },
+      { "label": "A genealogy to Adam", "note": "Matthew traces Jesus to Abraham, father of Israel; Luke traces him to Adam, father of humanity, in keeping with his stress on salvation for all people." },
+      { "label": "Prayer at the baptism", "note": "Only Luke notes that Jesus was praying (v21). Luke often shows Jesus praying at turning points (5:16; 6:12; 9:18, 28-29; 22:41-44)." }
+    ],
+    "summary": "Luke 3 records the ministry of John the Baptist, who calls people to turn to God with practical fruits of repentance and points to the coming one who will baptize with the Spirit and fire. At Jesus' baptism the Spirit comes upon him and the Father declares him his beloved Son, and Luke's genealogy shows him as the true son of Adam, sent for all humanity. The chapter launches Jesus' public ministry as the Spirit-anointed Son and Servant.",
+    "metaArc": {
+      "book": "Chapter 3 begins the account of Jesus' public ministry (3:1-4:13), closing the story of John and preparing for the temptation and the Nazareth sermon, where Jesus announces the Spirit's anointing for his mission.",
+      "redemptive": "The chapter links Redemption back to Creation: Jesus, traced back to Adam, the son of God, is anointed as the beloved Son to begin undoing the fall."
+    }
+  }
+}
