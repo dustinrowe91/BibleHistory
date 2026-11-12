@@ -52,8 +52,13 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,48px);lin
 .sitenav{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);padding-bottom:10px;border-bottom:1px solid transparent;transition:border-color .15s}
 .sitenav.stuck{border-bottom-color:var(--line)}
 .sitenav .ns{display:none}
+/* Where all the tabs will not fit on one line, drop the site name and use short labels (the script below decides) */
+.sitenav.compact{gap:4px 14px}
+.sitenav.compact .home,.sitenav.compact .nl{display:none}
+.sitenav.compact .ns{display:inline}
+.sitenav.compact>a:first-of-type{margin-left:auto}
 .sitenav.fade{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
-@media (max-width:560px){
+@media (max-width:820px){
   /* Phones: site name, a Menu button that opens every page, and the theme toggle */
   .sitenav{flex-wrap:nowrap;gap:8px;align-items:center}
   .sitenav>a{display:none}
@@ -140,7 +145,7 @@ footer{margin-top:40px;font-family:var(--ui);font-size:13px;color:var(--muted);b
 <body>
 
 <div class="wrap">
-<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html" aria-current="page">Prophecy</a><a href="plagues.html">Plagues</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
+<nav class="sitenav" aria-label="Site"><span class="home">Bible History</span><a href="index.html">Timeline</a><a href="books.html">Books</a><a href="kings.html">Kings<span class="nl"> &amp; Prophets</span></a><a href="people.html">People</a><a href="covenants.html">Covenants</a><a href="prophecy.html" aria-current="page">Prophecy</a><a href="plagues.html">Plagues</a><a href="church.html">Churches</a><a href="maps.html">Maps</a><a href="word-and-deed.html">Word<span class="nl"> and</span><span class="ns"> &amp;</span> Deed</a><button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button><button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div></nav>
 <header>
   <div class="eyebrow">Promise and fulfillment</div>
   <h1>Prophecy Fulfilled in Christ</h1>
@@ -337,6 +342,7 @@ fromHash();addEventListener("hashchange",fromHash);
     ["kings.html","Kings & Prophets","Every king of Israel and Judah"],["people.html","People","The line of Jesus, Adam to Joseph"],
     ["covenants.html","Covenants","From Adam to the New Covenant"],["prophecy.html","Prophecy","Promises fulfilled in Christ"],
     ["plagues.html","Plagues","The plagues of Egypt and what they mean"],
+    ["church.html","Churches","Denominations, sects, and where they began"],
     ["maps.html","Maps","Places and journeys of the Bible"],["word-and-deed.html","Word and Deed","Preaching and good works together"]];
   var menu=document.getElementById("siteMenu"),mbtn=document.getElementById("menuBtn"),here=(location.pathname.split("/").pop()||"index.html");
   PAGES.forEach(function(p){var a=document.createElement("a");a.href=p[0];if(p[0]===here)a.setAttribute("aria-current","page");
@@ -347,6 +353,11 @@ fromHash();addEventListener("hashchange",fromHash);
   document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!menu.hidden){e.stopPropagation();setMenu(false,true)}},true);
   addEventListener("resize",function(){if(!menu.hidden&&getComputedStyle(mbtn).display==="none")setMenu(false)});
   function size(){root.style.setProperty("--navh",nav.offsetHeight+"px")}
+  // Desktop: if the tabs wrap onto a second line, switch to the compact menu
+  function fit(){nav.classList.remove("compact");if(getComputedStyle(mbtn).display!=="none")return;
+    var tops=[].map.call(nav.querySelectorAll(":scope>a,:scope>.home,:scope>.theme-btn"),function(e){return e.offsetTop});
+    if(Math.max.apply(null,tops)-Math.min.apply(null,tops)>8)nav.classList.add("compact")}
+  fit();addEventListener("resize",fit);if(document.fonts)document.fonts.ready.then(fit);
   function stuck(){nav.classList.toggle("stuck",scrollY>4)}
   size();if(window.ResizeObserver)new ResizeObserver(size).observe(nav);
   // On a phone the tabs scroll sideways: bring the current page into view, and fade the edge while more is hidden
