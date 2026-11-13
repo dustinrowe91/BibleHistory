@@ -73,12 +73,16 @@ app" and `docs/azure-setup.md`).
 
 ## Status and next steps
 
-- Azure: start on the Free (F1) Linux tier, .NET 10, created from Azure Cloud Shell (commands below). Then Google
-  OAuth client (redirect `https://<app>.azurewebsites.net/signin-google`), Anthropic API key with a spend limit, App
-  Settings, and the GitHub secret and variable. Real Google sign-in and real Claude answers have not been tested yet.
+- Azure: the web app **BibleAi** exists (created in the portal). `.github/workflows/master_bibleai.yml`, generated
+  by Azure's Deployment Center, deploys every push to `master` (federated sign-in through GitHub secrets). The deploy
+  job in `dotnet.yml` is unused (it needs `AZURE_WEBAPP_NAME`, which is not set). Still to do: Google OAuth client
+  (redirect `https://<app host>/signin-google`), Anthropic API key with a spend limit, and the App Settings. Real
+  Google sign-in and real Claude answers have not been tested yet.
 - Later: upgrade to B1 (Always On, custom domain), point a domain at it, turn off GitHub Pages; maybe web search for
   Ask; maybe rename the repo and the `BibleHistory.*` .NET names to match the new site name.
 - `tools/StudyGenerator`: a .NET console tool that writes the chapter studies in `studies/` with the Claude Batches API.
+
+Creating an App Service from the CLI instead (Azure Cloud Shell), for reference:
 
 ```bash
 RG=scarletthread-rg; LOC=centralus; PLAN=scarletthread-plan; APP=scarletthread   # APP must be globally unique
