@@ -36,12 +36,13 @@ img{max-width:100%}
   /* Phones: site name, a Menu button that opens every page, and the theme toggle */
   .sitenav{flex-wrap:nowrap;gap:8px;align-items:center}
   .sitenav>a{display:none}
-  .sitenav .home{font-size:15px}
+  .sitenav .home{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
   .sitenav .menu-btn{display:inline-flex}
   .sitenav .theme-btn .tl{display:none}
   .sitenav .theme-btn{flex:none}
   .sitenav .acct-btn .an{display:none}
 }
+@media (max-width:360px){.sitenav .home{font-size:13px;letter-spacing:.02em}.sitenav .home .nt{display:none}}
 /* A wider screen where even the compact tabs will not fit on one line: use the phone layout (site.js decides) */
 .sitenav.tight{flex-wrap:nowrap;gap:8px;align-items:center}
 .sitenav.tight>a{display:none}

@@ -101,7 +101,7 @@
     var el=document.querySelector(".sitenav");if(!el||el.dataset.built)return;el.dataset.built="1";
     var here=location.pathname.split("/").pop()||"index.html";
     function tab(p){return '<a href="'+p[0]+'"'+(p[0]===here?' aria-current="page"':'')+(p[4]?' data-server':'')+'>'+p[1]+'</a>'}
-    var h='<span class="home">Bible History</span>';
+    var h='<span class="home"><span class="nt">The </span>Scarlet Thread</span>';
     PAGES.forEach(function(p){if(!p[4])h+=tab(p)});
     h+='<button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteMenu"><span aria-hidden="true">☰</span> Menu</button>'+
        '<button type="button" class="theme-btn" id="themeBtn"></button><div class="site-menu" id="siteMenu" hidden></div>';

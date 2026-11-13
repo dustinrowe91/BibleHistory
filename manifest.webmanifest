@@ -1,7 +1,7 @@
 {
-  "name": "Bible History",
-  "short_name": "Bible History",
-  "description": "The story of Scripture: a timeline from Creation to today, the books of the Bible, the kings and prophets, the line of Jesus, and Word and Deed.",
+  "name": "The Scarlet Thread",
+  "short_name": "Scarlet Thread",
+  "description": "Bible history from Creation to the Church: one story of redemption, traced through the timeline, the books, the kings and prophets, the covenants, the line of Jesus, maps, and church history.",
   "id": "./",
   "start_url": "./",
   "scope": "./",

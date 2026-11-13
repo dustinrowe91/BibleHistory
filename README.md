@@ -1,4 +1,6 @@
-# Bible History
+# The Scarlet Thread
+
+*Bible history from Creation to the Church.* The name comes from the "scarlet thread of redemption": the one story of salvation that runs through all of Scripture, from the scarlet cord in Rahab's window (Joshua 2:18) to the cross.
 
 Ten linked pages for studying the Bible's story:
 

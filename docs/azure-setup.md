@@ -26,9 +26,9 @@ Note the app's address, `https://<your-app>.azurewebsites.net`. You need it for 
 
 ## 2. Google sign-in
 
-In the [Google Cloud console](https://console.cloud.google.com), create a project (for example "Bible History"), then:
+In the [Google Cloud console](https://console.cloud.google.com), create a project (for example "The Scarlet Thread"), then:
 
-1. **APIs & Services > OAuth consent screen**: user type **External**; app name, your support email, and the app's
+1. **APIs & Services > OAuth consent screen**: user type **External**; app name **The Scarlet Thread**, your support email, and the app's
    address as the home page. Scopes: only the default `openid`, `email`, `profile`. Then **Publish app**, so anyone
    with a Google account can sign in. These basic scopes need no Google review.
 2. **APIs & Services > Credentials > Create credentials > OAuth client ID**: type **Web application**.
