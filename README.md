@@ -57,3 +57,14 @@ All are static pages: open `index.html` in a browser (the Study page needs a web
 The site is a progressive web app. On GitHub Pages (or any HTTPS host), use **Add to Home Screen** on iPhone or **Install app** on Android and desktop Chrome. It opens full screen with its own icon and works offline after the first visit. `sw.js` saves the pages; bump its `VERSION` when adding or renaming files.
 
 Dates follow a conservative chronology (Exodus c. 1446 BC) and are approximate.
+
+## How the pages fit together
+
+Every page is a single HTML file with its own content, styles and data. What they share lives in two files:
+
+- `site.css`: the color palette (light and dark), fonts, and the nav bar, phone menu and light/dark button.
+- `site.js`: builds the nav on every page, remembers the light/dark choice, registers the offline worker, and provides small helpers pages use (`Site.esc`, `Site.gw` for BibleGateway links, `Site.splitRefs`).
+
+Each page loads both in its `<head>` and marks where the nav goes with `<nav class="sitenav" aria-label="Site"></nav><script>Site.nav()</script>`.
+
+To add a page: copy the `<head>` of an existing page, add one line for it to `PAGES` in `site.js` (it then appears in the nav and phone menu on every page), and add the file to `CORE` in `sw.js` and bump `VERSION`.
