@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="site.css">
+<title>Ask Admin</title>
+<script src="site.js"></script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#eef0f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10141f" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bible History">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@500;700&display=swap">
+<style>
+/* Layout: for the site owner. Totals across the top; people (waiting for approval first) with approve and ban
+   buttons; then every question asked, newest first, each opening to the full answer and what it cost. */
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1000px;margin:0 auto}
+header{padding-block:40px 20px}
+.eyebrow{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,44px);line-height:1.1;margin:8px 0 12px;letter-spacing:.02em}
+h2{font-family:var(--display);font-size:21px;letter-spacing:.03em;margin:36px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--line);display:flex;align-items:baseline;gap:12px}
+h2 small{font-family:var(--ui);font-size:13px;font-weight:500;color:var(--muted);letter-spacing:0}
+.muted{color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;font-family:var(--ui)}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tile b{display:block;font-size:26px;font-family:var(--body);line-height:1.1}
+.tile span{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tile.alert{border-color:var(--ochre);background:var(--ochre-soft)}
+table{width:100%;border-collapse:collapse;font-family:var(--ui);font-size:14px}
+th{text-align:left;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);padding:6px 8px}
+td{border-bottom:1px solid var(--line);padding:9px 8px;vertical-align:middle}
+td .nm{font-weight:700;font-size:14.5px}
+td .em{color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+.badge{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:999px}
+.badge.pending{background:var(--ochre-soft);color:var(--ochre)}
+.badge.approved{background:var(--lapis-soft);color:var(--lapis)}
+.badge.banned{background:var(--crimson-soft);color:var(--crimson)}
+.acts{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.b{font-family:var(--ui);font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:4px 11px;border-radius:999px;cursor:pointer}
+.b:hover{border-color:var(--muted)}
+.b.go{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.b.no{color:var(--crimson)}
+.b:focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
+.lim{width:4.2em;font:inherit;font-size:13.5px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.filter{display:flex;gap:8px;align-items:center;font-family:var(--ui);font-size:14px;margin-bottom:8px;flex-wrap:wrap}
+select{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.ask{border-bottom:1px solid var(--line);padding:10px 2px}
+.ask summary{cursor:pointer;list-style-position:outside}
+.ask .qq{font-weight:600}
+.ask .meta{font-family:var(--ui);font-size:12.5px;color:var(--muted);display:flex;gap:4px 12px;flex-wrap:wrap;margin-top:2px}
+.ask .meta .err{color:var(--crimson);font-weight:700}
+.md{margin:10px 0 4px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:16px}
+.md p{margin:0 0 10px}.md>:last-child{margin-bottom:0}
+.md h3{font-family:var(--ui);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+.md ul,.md ol{margin:0 0 10px;padding-left:22px}
+.md a{color:var(--lapis);font-weight:600;text-decoration:none}
+.tech{font-family:var(--ui);font-size:12.5px;color:var(--muted)}
+.more{margin-top:12px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--surface);font-family:var(--ui);font-size:14px;padding:8px 16px;border-radius:999px;z-index:20}
+@media (max-width:760px){
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  table,tbody,tr,td{display:block}
+  thead{display:none}
+  tr{border-bottom:1px solid var(--line);padding:8px 0}
+  td{border:0;padding:3px 0}
+  .acts{justify-content:flex-start}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="sitenav" aria-label="Site"></nav><script>Site.nav()</script>
+<header>
+  <div class="eyebrow">Site owner</div>
+  <h1>Ask Admin</h1>
+  <p class="muted">Approve readers for Ask, set their daily limits, and see every question asked.</p>
+</header>
+<main id="main"><div class="panel muted">Loading…</div></main>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=Site.esc;
+const utc=s=>new Date(/[zZ]|[+-]\d\d:\d\d$/.test(s)?s:s+"Z");
+const when=s=>utc(s).toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+const day=s=>utc(s).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"});
+const money=n=>"$"+Number(n||0).toFixed(Number(n)<1?3:2);
+let users=[],asks=[],filterUser="",more=false;
+
+async function api(path,body){
+  const res=await fetch("api/admin/"+path,body?{method:"POST",credentials:"same-origin",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)}:{credentials:"same-origin",cache:"no-store"});
+  if(!res.ok){let m="Request failed ("+res.status+")";try{m=(await res.json()).error||m}catch(e){}throw new Error(m)}
+  return res.status===204?null:res.json();
+}
+function toast(m){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
+
+async function load(){
+  const u=await Site.me();
+  if(!u||!u.signedIn||!u.isAdmin){$("#main").innerHTML='<div class="panel">This page is for the site owner. '+(u&&!u.signedIn&&u.signInReady?'<a href="signin?returnUrl=%2Fadmin.html">Sign in</a>.':'')+'</div>';return}
+  $("#main").innerHTML='<div class="tiles" id="tiles"></div><h2>People <small id="pc"></small></h2><div id="people"></div>'+
+    '<h2>Questions <small>newest first</small></h2><div class="filter"><label for="fu">Show</label><select id="fu"><option value="">Everyone</option></select></div><div id="asks"></div>'+
+    '<button type="button" class="b more" id="more" hidden>Load more</button>';
+  $("#fu").addEventListener("change",e=>{filterUser=e.target.value;loadAsks(false)});
+  $("#more").addEventListener("click",()=>loadAsks(true));
+  await Promise.all([loadSummary(),loadUsers(),loadAsks(false)]);
+}
+async function loadSummary(){
+  const s=await api("summary");
+  $("#tiles").innerHTML=[[s.pending,"Waiting for approval",s.pending>0],[s.approved,"Approved readers"],[s.asksToday+" · "+money(s.costToday),"Questions today"],[s.asksThisMonth+" · "+money(s.costThisMonth),"This month (UTC)"]]
+    .map(t=>'<div class="tile'+(t[2]?' alert':'')+'"><b>'+esc(t[0])+'</b><span>'+esc(t[1])+'</span></div>').join("");
+}
+async function loadUsers(){
+  users=await api("users");
+  $("#pc").textContent=users.length+(users.length===1?" account":" accounts");
+  const sel=$("#fu"),keep=sel.value;
+  sel.innerHTML='<option value="">Everyone</option>'+users.map(u=>'<option value="'+u.id+'">'+esc(u.name)+'</option>').join("");sel.value=keep;
+  if(!users.length){$("#people").innerHTML='<p class="muted">No one has signed in yet.</p>';return}
+  $("#people").innerHTML='<table><thead><tr><th>Person</th><th>Status</th><th>Joined · last seen</th><th>Questions</th><th>Daily limit</th><th></th></tr></thead><tbody>'+
+    users.map(u=>'<tr data-id="'+u.id+'"><td><div class="nm">'+esc(u.name)+(u.isAdmin?' <span class="badge approved">admin</span>':'')+'</div><div class="em">'+esc(u.email)+'</div></td>'+
+      '<td><span class="badge '+u.status+'">'+u.status+'</span></td>'+
+      '<td class="em">'+day(u.createdUtc)+' · '+when(u.lastSeenUtc)+'</td>'+
+      '<td>'+u.asks+' total · '+u.asksToday+' today<div class="em">'+money(u.cost)+'</div></td>'+
+      '<td><input class="lim" type="number" min="0" max="1000" value="'+u.dailyLimit+'" aria-label="Daily limit for '+esc(u.name)+'"'+(u.customLimit?' title="Set for this person"':' title="Site default"')+'></td>'+
+      '<td><div class="acts">'+(u.isAdmin?'':(u.status==="pending"?'<button class="b go" data-s="approved">Approve</button>':'')+
+        (u.status!=="banned"?'<button class="b no" data-s="banned">Ban</button>':'<button class="b" data-s="approved">Unban</button>'))+'</div></td></tr>').join("")+'</tbody></table>';
+}
+async function loadAsks(append){
+  const before=append&&asks.length?"&before="+asks[asks.length-1].id:"";
+  const page=await api("asks?"+(filterUser?"userId="+filterUser:"")+before);
+  asks=append?asks.concat(page):page;more=page.length===50;
+  $("#more").hidden=!more;
+  if(!asks.length){$("#asks").innerHTML='<p class="muted">No questions yet.</p>';return}
+  $("#asks").innerHTML=asks.map(a=>'<details class="ask"><summary><span class="qq">'+esc(a.question)+'</span>'+
+    '<div class="meta"><span>'+esc(a.userName)+'</span><span>'+when(a.createdUtc)+'</span><span>'+money(a.costUsd)+'</span>'+
+    (a.error?'<span class="err">'+esc(a.error.startsWith("Cancelled")?"Stopped early":"Failed")+'</span>':'')+
+    (a.stopReason==="refusal"?'<span class="err">Declined</span>':'')+'</div></summary>'+
+    '<div class="md">'+(a.answer?Site.markdown(a.answer):'<p class="muted">No answer.</p>')+'</div>'+
+    '<div class="tech">'+esc(a.userEmail)+' · '+esc(a.model)+' · '+(a.inputTokens+a.cacheReadTokens+a.cacheWriteTokens)+' in / '+a.outputTokens+' out tokens · '+(a.durationMs/1000).toFixed(1)+'s'+(a.stopReason?' · '+esc(a.stopReason):'')+(a.error?' · '+esc(a.error):'')+'</div></details>').join("");
+}
+
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-s]");if(!b)return;
+  const tr=b.closest("tr"),u=users.find(x=>x.id==tr.dataset.id),s=b.dataset.s;
+  if(s==="banned"&&!confirm("Ban "+u.name+"? They will no longer be able to use Ask."))return;
+  try{await api("users/"+u.id,{status:s});toast(u.name+(s==="banned"?" banned":u.status==="banned"?" unbanned":" approved"));await Promise.all([loadUsers(),loadSummary()])}
+  catch(err){toast(err.message)}
+});
+document.addEventListener("change",async e=>{
+  const i=e.target.closest(".lim");if(!i)return;
+  const u=users.find(x=>x.id==i.closest("tr").dataset.id),n=parseInt(i.value,10);
+  if(!(n>=0&&n<=1000)){i.value=u.dailyLimit;toast("Enter a number from 0 to 1000");return}
+  try{await api("users/"+u.id,{dailyLimit:n});toast("Daily limit for "+u.name+" is now "+n);await loadUsers()}
+  catch(err){toast(err.message)}
+});
+
+load().catch(e=>{$("#main").innerHTML='<div class="panel">Couldn\'t load: '+esc(e.message)+'</div>'});
+</script>
+</body></html>

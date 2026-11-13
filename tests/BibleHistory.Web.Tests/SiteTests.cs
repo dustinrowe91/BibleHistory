@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace BibleHistory.Web.Tests;
 
-public class SiteTests(WebApplicationFactory<Program> factory) : IClassFixture<WebApplicationFactory<Program>>
+public class SiteTests(AppFactory factory) : IClassFixture<AppFactory>
 {
     static readonly string RepoRoot = FindRepoRoot();
 

@@ -40,7 +40,13 @@ img{max-width:100%}
   .sitenav .menu-btn{display:inline-flex}
   .sitenav .theme-btn .tl{display:none}
   .sitenav .theme-btn{flex:none}
+  .sitenav .acct-btn .an{display:none}
 }
+/* A wider screen where even the compact tabs will not fit on one line: use the phone layout (site.js decides) */
+.sitenav.tight{flex-wrap:nowrap;gap:8px;align-items:center}
+.sitenav.tight>a{display:none}
+.sitenav.tight .home{display:inline}
+.sitenav.tight .menu-btn{display:inline-flex}
 .menu-btn{display:none;align-items:center;gap:6px;font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:4px 12px;border-radius:999px;cursor:pointer}
 .menu-btn[aria-expanded="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 .menu-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
@@ -55,3 +61,17 @@ img{max-width:100%}
 .theme-btn{font-family:var(--ui);font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer}
 .theme-btn:hover{border-color:var(--muted)}
 .theme-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+
+/* Account: Sign in, or the signed-in reader's menu (only when the site is served by the app) */
+.acct{position:relative;flex:none}
+.acct-btn{display:inline-flex;align-items:center;gap:6px;font-family:var(--ui);font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer;text-decoration:none}
+.sitenav a.acct-btn{color:var(--ink);border:1px solid var(--line);padding:3px 10px}
+.acct-btn:hover{border-color:var(--muted)}
+.acct-btn:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.acct-btn .av{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--lapis);color:var(--surface);font-size:11px;line-height:1}
+button.acct-btn{padding-left:4px}
+.acct-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:220px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);padding:6px;display:grid;gap:2px;z-index:9}
+.acct-menu .who{padding:8px 10px 10px;border-bottom:1px solid var(--line);margin-bottom:4px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.acct-menu .who b{display:block;color:var(--ink);font-size:14px}
+.acct-menu a,.acct-menu button{display:block;text-align:left;font:inherit;font-size:14px;color:var(--ink);background:none;border:0;padding:8px 10px;border-radius:8px;cursor:pointer;text-decoration:none}
+.acct-menu a:hover,.acct-menu button:hover,.acct-menu a:focus-visible,.acct-menu button:focus-visible{background:var(--bg);outline:none}

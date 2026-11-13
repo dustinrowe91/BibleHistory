@@ -1,6 +1,10 @@
 # Builds the ASP.NET Core app and runs its tests on every push and pull request.
-# (GitHub Pages still publishes the static site from main as before.)
-name: .NET build and test
+# On a push to main it also deploys to Azure App Service, once the repository has:
+#   variable AZURE_WEBAPP_NAME             the App Service name (Settings > Secrets and variables > Actions > Variables)
+#   secret   AZURE_WEBAPP_PUBLISH_PROFILE  the app's publish profile (same page, Secrets)
+# Until then the deploy job is skipped. A deploy replaces only the app files (/home/site/wwwroot); the database and
+# sign-in keys live in /home/data and are never touched. (GitHub Pages still publishes the static site as before.)
+name: .NET build, test and deploy
 
 on:
   push:
@@ -18,3 +22,25 @@ jobs:
       - run: dotnet restore BibleHistory.slnx
       - run: dotnet build BibleHistory.slnx --no-restore -c Release
       - run: dotnet test BibleHistory.slnx --no-build -c Release
+      - run: dotnet publish src/BibleHistory.Web --no-build -c Release -o publish
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: publish
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.AZURE_WEBAPP_NAME != ''
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency: production
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: web
+          path: publish
+      - uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: publish

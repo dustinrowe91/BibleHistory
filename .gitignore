@@ -16,3 +16,6 @@ bin/
 obj/
 /publish/
 *.user
+
+# Local database and sign-in keys for the web app
+App_Data/

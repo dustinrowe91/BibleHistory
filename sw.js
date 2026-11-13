@@ -1,7 +1,7 @@
 // Offline support. Pages: network first, so an update shows as soon as you're online; the saved copy is used offline
 // or if the network takes more than 3 seconds. Fonts: saved copy first, since they never change.
 // Bump VERSION when adding or renaming files so old caches are cleared.
-const VERSION = "v8";
+const VERSION = "v9";
 const CACHE = "bible-history-" + VERSION;
 const CORE = [
   "./", "index.html", "books.html", "kings.html", "people.html", "covenants.html", "prophecy.html", "plagues.html", "church.html", "maps.html", "word-and-deed.html", "study.html",
@@ -28,6 +28,8 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (FONT_HOSTS.includes(url.hostname)) { e.respondWith(cacheFirst(req)); return; }
+  // Sign-in and the Ask API always go straight to the server, and are never saved for offline use
+  if (url.origin === location.origin && /\/(api\/|signin|signout)/.test(url.pathname)) return;
   if (url.origin === location.origin) e.respondWith(networkFirst(req));
 });
 

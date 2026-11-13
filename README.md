@@ -71,14 +71,21 @@ To add a page: copy the `<head>` of an existing page, add one line for it to `PA
 
 ## Running the ASP.NET Core app
 
-The site is moving to ASP.NET Core (.NET 10) so it can have sign-in and the Ask tool. For now the app serves the same pages, unchanged; GitHub Pages keeps publishing them from `main` until the switch.
+The site is moving to ASP.NET Core (.NET 10). The app serves the same pages and adds Google sign-in and **Ask**, where approved readers ask Bible questions answered by Claude. GitHub Pages keeps publishing the static pages from `main` until the switch; there, the Ask tab and Sign in simply don't appear.
 
 ```
-dotnet run --project src/BibleHistory.Web      # http://localhost:5229
+dotnet run --project src/BibleHistory.Web --launch-profile https   # https://localhost:7104
 dotnet test BibleHistory.slnx
-dotnet publish src/BibleHistory.Web -c Release -o publish
 ```
 
-- `src/BibleHistory.Web`: the app. `SiteFiles.cs` serves the public site from the folder in `Site:Root`: the repository root in development, a `site` folder in a published build (the project file copies the pages, icons and studies there). Only those files are served; source, tools and `.git` never are.
-- `tests/BibleHistory.Web.Tests`: checks that every page and every file `sw.js` saves for offline use is served, and that nothing else in the repository is.
-- `/healthz` answers `Healthy` for the host's health check.
+Setting up Google sign-in, the Claude key and Azure: [docs/azure-setup.md](docs/azure-setup.md).
+
+- `src/BibleHistory.Web`: the app.
+  - `SiteFiles.cs` serves the public site from the folder in `Site:Root` (the repository root in development, a `site` folder in a published build). Only those files are served; source, tools and `.git` never are.
+  - `Auth/`: Google sign-in and the cookie that keeps readers signed in. New accounts wait for approval; emails in `Admin:Emails` are admins.
+  - `Ask/`: the Ask API and the Claude call (`AskModel.cs`), with the instructions Claude follows in `ask-system.md`. Each reader gets a daily limit (`Ask:DailyLimit`, default 20) and one answer at a time. Every question, answer, token count and estimated cost is saved.
+  - `Admin/`: approve or ban readers, change limits, and read every question (the `admin.html` page).
+  - `Data/`: the SQLite database (EF Core, with migrations applied at start-up). It lives outside the app folder, in `/home/data` on Azure, so deploys never touch it.
+- `ask.html` and `admin.html`: the pages for Ask and its admin, built like the rest of the site.
+- `tests/BibleHistory.Web.Tests`: every page and offline file is served, nothing else is; sign-in, approval, limits, streaming, logging and admin rules (using a stand-in for Claude, so tests cost nothing).
+- `.github/workflows/dotnet.yml`: builds and tests every push; deploys `main` to Azure once it is set up.
