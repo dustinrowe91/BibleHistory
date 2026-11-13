@@ -68,8 +68,8 @@ database up, download `/home/data/biblehistory.db` from the app's Kudu console
 2. In the GitHub repository: **Settings > Secrets and variables > Actions**:
    - **Secrets > New repository secret**: name `AZURE_WEBAPP_PUBLISH_PROFILE`, value: the whole downloaded file.
    - **Variables > New repository variable**: name `AZURE_WEBAPP_NAME`, value: the App Service name.
-3. Push to `main` (or re-run the latest **.NET build, test and deploy** workflow). The deploy job now runs after the
-   tests pass.
+3. Push to `master` (or re-run the latest **.NET build, test and deploy** workflow on `master`). The deploy job now
+   runs after the tests pass. Pushes to `main` (the GitHub Pages site) never deploy.
 
 ## 6. First sign-in
 
@@ -78,6 +78,11 @@ approved automatically, and the account menu (top right) has **Admin**, where yo
 
 When you are happy with it, point your domain at the App Service (**Custom domains**, with a free managed
 certificate), add that domain's `/signin-google` address in Google, and turn off GitHub Pages.
+
+## Branches
+
+- `main`: the static site GitHub Pages publishes. Content changes to the pages can go here and go live at once.
+- `master`: the ASP.NET Core version, deployed to Azure. Merge `main` into it to bring page changes across.
 
 ## Running it on your machine
 

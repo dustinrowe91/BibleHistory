@@ -71,7 +71,7 @@ To add a page: copy the `<head>` of an existing page, add one line for it to `PA
 
 ## Running the ASP.NET Core app
 
-The site is moving to ASP.NET Core (.NET 10). The app serves the same pages and adds Google sign-in and **Ask**, where approved readers ask Bible questions answered by Claude. GitHub Pages keeps publishing the static pages from `main` until the switch; there, the Ask tab and Sign in simply don't appear.
+The site is moving to ASP.NET Core (.NET 10). The app serves the same pages and adds Google sign-in and **Ask**, where approved readers ask Bible questions answered by Claude. The .NET work lives on the `master` branch, which deploys to Azure; `main` stays the static site GitHub Pages publishes, until the switch. On GitHub Pages the Ask tab and Sign in simply don't appear.
 
 ```
 dotnet run --project src/BibleHistory.Web --launch-profile https   # https://localhost:7104
@@ -88,4 +88,4 @@ Setting up Google sign-in, the Claude key and Azure: [docs/azure-setup.md](docs/
   - `Data/`: the SQLite database (EF Core, with migrations applied at start-up). It lives outside the app folder, in `/home/data` on Azure, so deploys never touch it.
 - `ask.html` and `admin.html`: the pages for Ask and its admin, built like the rest of the site.
 - `tests/BibleHistory.Web.Tests`: every page and offline file is served, nothing else is; sign-in, approval, limits, streaming, logging and admin rules (using a stand-in for Claude, so tests cost nothing).
-- `.github/workflows/dotnet.yml`: builds and tests every push; deploys `main` to Azure once it is set up.
+- `.github/workflows/dotnet.yml`: builds and tests every push; deploys `master` to Azure once it is set up (never `main`).

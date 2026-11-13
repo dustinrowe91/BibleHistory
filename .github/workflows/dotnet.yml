@@ -1,14 +1,15 @@
 # Builds the ASP.NET Core app and runs its tests on every push and pull request.
-# On a push to main it also deploys to Azure App Service, once the repository has:
+# Branches: main is the static site GitHub Pages publishes; master is the ASP.NET Core version.
+# On a push to master it also deploys to Azure App Service, once the repository has:
 #   variable AZURE_WEBAPP_NAME             the App Service name (Settings > Secrets and variables > Actions > Variables)
 #   secret   AZURE_WEBAPP_PUBLISH_PROFILE  the app's publish profile (same page, Secrets)
 # Until then the deploy job is skipped. A deploy replaces only the app files (/home/site/wwwroot); the database and
-# sign-in keys live in /home/data and are never touched. (GitHub Pages still publishes the static site as before.)
+# sign-in keys live in /home/data and are never touched. Pushes to main never deploy.
 name: .NET build, test and deploy
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   pull_request:
 
 jobs:
@@ -30,7 +31,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.AZURE_WEBAPP_NAME != ''
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master' && vars.AZURE_WEBAPP_NAME != ''
     runs-on: ubuntu-latest
     environment: production
     concurrency: production
