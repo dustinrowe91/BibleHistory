@@ -10,3 +10,9 @@ tools/StudyGenerator/obj/
 tools/StudyGenerator/batches.json
 tools/StudyGenerator/failures-*.txt
 tools/StudyGenerator/request-*.json
+
+# .NET build output
+bin/
+obj/
+/publish/
+*.user

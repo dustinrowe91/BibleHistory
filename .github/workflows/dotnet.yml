@@ -1,0 +1,20 @@
+# Builds the ASP.NET Core app and runs its tests on every push and pull request.
+# (GitHub Pages still publishes the static site from main as before.)
+name: .NET build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet restore BibleHistory.slnx
+      - run: dotnet build BibleHistory.slnx --no-restore -c Release
+      - run: dotnet test BibleHistory.slnx --no-build -c Release

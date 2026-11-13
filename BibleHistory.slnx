@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BibleHistory.Web/BibleHistory.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BibleHistory.Web.Tests/BibleHistory.Web.Tests.csproj" />
+  </Folder>
+</Solution>

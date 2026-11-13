@@ -68,3 +68,17 @@ Every page is a single HTML file with its own content, styles and data. What the
 Each page loads both in its `<head>` and marks where the nav goes with `<nav class="sitenav" aria-label="Site"></nav><script>Site.nav()</script>`.
 
 To add a page: copy the `<head>` of an existing page, add one line for it to `PAGES` in `site.js` (it then appears in the nav and phone menu on every page), and add the file to `CORE` in `sw.js` and bump `VERSION`.
+
+## Running the ASP.NET Core app
+
+The site is moving to ASP.NET Core (.NET 10) so it can have sign-in and the Ask tool. For now the app serves the same pages, unchanged; GitHub Pages keeps publishing them from `main` until the switch.
+
+```
+dotnet run --project src/BibleHistory.Web      # http://localhost:5229
+dotnet test BibleHistory.slnx
+dotnet publish src/BibleHistory.Web -c Release -o publish
+```
+
+- `src/BibleHistory.Web`: the app. `SiteFiles.cs` serves the public site from the folder in `Site:Root`: the repository root in development, a `site` folder in a published build (the project file copies the pages, icons and studies there). Only those files are served; source, tools and `.git` never are.
+- `tests/BibleHistory.Web.Tests`: checks that every page and every file `sw.js` saves for offline use is served, and that nothing else in the repository is.
+- `/healthz` answers `Healthy` for the host's health check.

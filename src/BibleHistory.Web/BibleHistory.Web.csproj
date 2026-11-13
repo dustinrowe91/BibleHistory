@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BibleHistory.Web</RootNamespace>
+  </PropertyGroup>
+
+  <!-- The public site lives at the repository root (so GitHub Pages keeps working). A published build carries a copy
+       of it in a "site" folder, which is where Site:Root points outside development. Keep this list in step with
+       SiteFiles.IsPublic. -->
+  <ItemGroup>
+    <None Include="..\..\*.html;..\..\site.css;..\..\site.js;..\..\sw.js;..\..\manifest.webmanifest;..\..\favicon.svg"
+          LinkBase="site" CopyToPublishDirectory="PreserveNewest" Visible="false" />
+    <None Include="..\..\icons\**" LinkBase="site\icons" CopyToPublishDirectory="PreserveNewest" Visible="false" />
+    <None Include="..\..\studies\**" LinkBase="site\studies" CopyToPublishDirectory="PreserveNewest" Visible="false" />
+  </ItemGroup>
+
+</Project>
